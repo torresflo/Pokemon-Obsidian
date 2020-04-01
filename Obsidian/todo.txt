@@ -1,0 +1,20 @@
+Variable: Amaryllis Intro
+-> 0 rien
+-> 1 Got Motisma
+-> 2 Go to forest
+-> 3 Forest Complete
+-> 4 Combat contre Alfred
+-> 5 Recontre avec Helio
+-> 6 Helio
+---> 7 bypass all
+
+Variable: Amaryllis Intro
+-> 0 rien
+-> 1 Got Motisma
+-> 2 Start event forest
+-> 3 Fight Complete
+-> 4 Forest Complete
+-> 5 Combat contre Alfred
+-> 6 Rencontre avec Helio
+-> 7 Helio
+---> 8 bypass all

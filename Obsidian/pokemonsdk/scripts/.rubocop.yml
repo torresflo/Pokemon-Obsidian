@@ -1,0 +1,121 @@
+AllCops:
+  TargetRubyVersion: "2.5"
+
+# PSDK is not a gem
+Naming/FileName:
+  Enabled: false
+
+# For some reason I need private symbol
+Style/AccessModifierDeclarations:
+  Enabled: false
+
+# Alias_method is mandatory with operator, using alias raise a syntax error
+Style/Alias:
+  Enabled: false
+
+# I want thing to be customizable as much as possible so unused method argument can happen but may be used by monkey patch
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+# Idk why this rule exists but it's boring
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
+
+# x, y, z etc... are pretty common in this project
+Naming/MethodParameterName:
+  Enabled: false
+
+# Sometime I don't want to repeat top level do
+Style/Documentation:
+  Enabled: false
+
+# Tell me to change all the "" by String.new and it'll be fine when we'll use Ruby 3.0
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# 120 characters seems better than 80, we don't use small screen anymore
+Metrics/LineLength:
+  Max: 120
+
+# 10 arguments is fine, most of the time they're used as data feeding
+Metrics/ParameterLists:
+  Max: 10
+
+# I did some mistakes, I try to respect this rule without seeing my mistakes
+Naming/ConstantName:
+  Enabled: false
+
+# I don't care and PSDK is not a gem
+Naming/ClassAndModuleCamelCase:
+  Enabled: false
+
+# After respecting the rule multiple times I think this rule is not clear for new user
+# The code looks pretty inconsistant
+Style/GuardClause:
+  Enabled: false
+
+# I use that to disable large portion of code in order to be able to use them in the future
+Style/BlockComments:
+  Enabled: false
+
+# Explicitness over implicitness, I'm OK if the method takes one line but for multi-line methods, return is essential
+Style/RedundantReturn:
+  Enabled: false
+
+# No I use constant for configuration (see : Alpha 25 Battle System)
+Style/MutableConstant:
+  Enabled: false
+
+# I like speaking emoji (it's a joke)
+Style/SpecialGlobalVars:
+  Enabled: false
+
+# CTRL+H uses $1 $2 etc... why not Ruby ?
+Style/PerlBackrefs:
+  Enabled: false
+
+# Because RMXP was the starting point
+Style/GlobalVars:
+  Enabled: false
+
+# Who the fuck though it was clear ?
+Style/ConditionalAssignment:
+  Enabled: false
+
+# Slower, less easy to read
+Style/NumericPredicate:
+  Enabled: false
+
+# How the fuck do I load the game then ?
+Security/MarshalLoad:
+  Enabled: false
+
+# The worst thing that might happens is a little crash because I didn't parsed the JSON data
+Security/JSONLoad:
+  Enabled: false
+
+# Ok I understand with YAML since it can create Ruby Object but still
+Security/YAMLLoad:
+  Enabled: false
+
+# WTF ? (Really I don't understand)
+Metrics/AbcSize:
+  Enabled: false
+
+# PLZ I'm building a Pokemon Engine not a tiny little gem
+Metrics/ModuleLength:
+  Enabled: false
+
+# Same here
+Metrics/ClassLength:
+  Enabled: false
+
+# Ok for the method but 10 lines it's short
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/PerceivedComplexity:
+  Max: 15

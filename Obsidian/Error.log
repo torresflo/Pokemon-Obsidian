@@ -1,0 +1,41 @@
+================================Erreur de script================================
+Message :
+undefined method `getter' for nil:NilClass
+
+Type : NoMethodError
+Script : 01400 GamePlay/00500 Options/00002 Options Scene.rb (PSDK)
+Ligne : 141
+Date : 25/03/2020 02:09:38
+Logiciel : Pokémon SDK 24.53
+===================================Backtraces===================================
+[29] : 01400 GamePlay/00500 Options/00002 Options Scene.rb (PSDK) | ligne 141 save_options
+[28] : 01400 GamePlay/00500 Options/00002 Options Scene.rb (PSDK) | ligne 139 select
+[27] : 01400 GamePlay/00500 Options/00002 Options Scene.rb (PSDK) | ligne 139 save_options
+[26] : 01400 GamePlay/00500 Options/00002 Options Scene.rb (PSDK) | ligne 35 update_inputs
+[25] : 01400 GamePlay/00600 GamePlay__Base.rb (PSDK) | ligne 540 update
+[24] : 01400 GamePlay/00600 GamePlay__Base.rb (PSDK) | ligne 274 main_process
+[23] : 01400 GamePlay/00600 GamePlay__Base.rb (PSDK) | ligne 158 main
+[22] : 01400 GamePlay/00600 GamePlay__Base.rb (PSDK) | ligne 228 call_scene
+[21] : 01400 GamePlay/00050 Menu/00100 Menu.rb (PSDK) | ligne 218 open_option
+[20] : 01400 GamePlay/00050 Menu/00100 Menu.rb (PSDK) | ligne 177 action
+[19] : 01400 GamePlay/00050 Menu/00100 Menu.rb (PSDK) | ligne 49 update_inputs
+[18] : 01400 GamePlay/00600 GamePlay__Base.rb (PSDK) | ligne 540 update
+[17] : 01400 GamePlay/00600 GamePlay__Base.rb (PSDK) | ligne 274 main_process
+[16] : 01400 GamePlay/00600 GamePlay__Base.rb (PSDK) | ligne 158 main
+[15] : 01400 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 232 call_menu
+[14] : 01400 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 139 update
+[13] : 01400 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 36 main
+[12] : 01400 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 31 loop
+[11] : 01400 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 31 main
+[10] : tools/GameLoader/Z_main.rb (PSDK) | ligne 10 <top (required)>
+[9] : tools/GameLoader/3_load_extensions.rb (PSDK) | ligne 35 rgss_main
+[8] : tools/GameLoader/50_load_game_uncompiled.rb (PSDK) | ligne 31 <top (required)>
+[7] : /lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb (ruby) | ligne 59 require
+[6] : /lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb (ruby) | ligne 59 require
+[5] : ScriptLoad.rb (PSDK) | ligne 128 load_tool
+[4] : tools/GameLoader/Z_load_uncompiled.rb (PSDK) | ligne 8 <top (required)>
+[3] : /lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb (ruby) | ligne 59 require
+[2] : /lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb (ruby) | ligne 59 require
+[1] : ScriptLoad.rb (PSDK) | ligne 128 load_tool
+[0] : Game.rb (RMXP) | ligne 16 <main>
+===================================Fin du log===================================

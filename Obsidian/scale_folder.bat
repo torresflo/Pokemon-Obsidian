@@ -1,0 +1,1 @@
+start game.exe --util=scale_folder

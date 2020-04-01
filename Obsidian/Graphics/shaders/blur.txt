@@ -1,0 +1,18 @@
+uniform sampler2D texture;
+uniform vec2 resolution;
+
+vec4 blur_yuri(sampler2D image, vec2 uv, vec2 resolution) {
+  vec2 offx = vec2((1. / resolution.x), 0);
+  vec2 offy = vec2(0, (1. / resolution.y));
+  vec4 color = vec4(0.0);
+  color += texture2D(image, uv) * 0.30;
+  color += texture2D(image, uv + offx) * 0.175;
+  color += texture2D(image, uv + offy) * 0.175;
+  color += texture2D(image, uv - offx) * 0.175;
+  color += texture2D(image, uv - offy) * 0.175;
+  return color;
+}
+
+void main() {
+  gl_FragColor = blur_yuri(texture, gl_TexCoord[0].xy, resolution) * gl_Color;
+}

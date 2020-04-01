@@ -1,0 +1,33 @@
+
+// Viewport tone (required)
+uniform vec4 tone;
+// Viewport color (required)
+uniform vec4 color;
+// Gray scale transformation vector
+const vec3 lumaF = vec3(.299, .587, .114);
+// Texture source
+uniform sampler2D texture;
+
+// Main process
+void main()
+{
+  vec4 frag;
+  vec2 coords = gl_TexCoord[0].xy;
+  if(coords.y > 0.8)
+  {
+    frag = vec4(0, 0, 0, 0);
+  }
+  else
+  {
+    coords.x = (coords.x - 0.5) * (0.7 + (log(1 + coords.y - 0.2) * 1.25) / 2) + 0.5;
+    frag = texture2D(texture, coords);
+    // Tone&Color process
+    frag.rgb = mix(frag.rgb, color.rgb, color.a); 
+    float luma = dot(frag.rgb, lumaF); 
+    frag.rgb += tone.rgb; 
+    frag.rgb = mix(frag.rgb, vec3(luma), tone.w); 
+    frag.a *= gl_Color.a;
+  }
+  // Result
+  gl_FragColor = frag;
+}

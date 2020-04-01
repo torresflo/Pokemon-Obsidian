@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="1">
+ <tileset firstgid="1" source="exterior.tsx"/>
+ <tileset firstgid="5297" source="interior.tsx"/>
+ <tileset firstgid="7313" source="interior_2.tsx"/>
+ <tileset firstgid="9137" source="passages.tsx"/>
+ <tileset firstgid="9153" source="systemtags.tsx"/>
+ <tileset firstgid="9281" source="Interior_3.tsx"/>
+ <layer id="2" name="ground_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFIzUEboowMOwB4rNQGsSGYWQxXOEDU7sTqO8UEJ8G4iNAfBVKg9gwjCyGyzyY2oNAfZeA+DIQbwfirQQwLvNAejej4R1A/kYCGJd5+wjow2XuqHm4QmBUfKiHAAAVZVXQ
+  </data>
+ </layer>
+ <layer id="21" name="upper_ground_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKUhMBtEQaGO2j4LpBPLngM1PsEDT8dYPP2A+0/AHXDayD9Bg2/hcqR6+dRfUMzBADhRBjo
+  </data>
+ </layer>
+ <layer id="17" name="tree_leafs_left_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="3" name="tree_root_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="18" name="tree_leafs_right_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="22" name="furniture_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyFAfggUy2DqlQaKyUDFt0kzMLAqMTCwATE7FrXIuiuUGRiqsahRBoqpQMX3Ac3jBZrFB8T8WNQim9cANK+ZgBpk9YTYSkA7qQm08JjXD3R7MhCnAPEEICYGGBEwLxtoTg4J5sUSaS+y28jRg6x/lD20QgAA8pwNcA==
+  </data>
+ </layer>
+ <group id="5" name="z=0"/>
+ <layer id="7" name="tree_leafs_left_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="4" name="tree_leafs_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="6" name="tree_leafs_right_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="23" name="furniture_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgLDIQRClUn3BTl6SLdlVMdwDQEAOngA8Q==
+  </data>
+ </layer>
+ <group id="8" name="z=1"/>
+ <layer id="16" name="tree_leafs_left_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="14" name="tree_leafs_top_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="15" name="tree_leafs_right_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="9" name="roof_first_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="10" name="root_second_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <group id="11" name="z=2"/>
+ <layer id="12" name="passages" width="20" height="20" visible="0" opacity="0.4">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFIzkEDigzMBDCuMKHkD5c8sSYB1ID0g+jYWxkPkhsK1QNRCUquRmPHKpKBA+fechuQOjAzyLXPJBdyBhmC73N2wR0BwjDAIyPiyY2jLYAzdyGZC7M/FF6aIUAAD3JNvg=
+  </data>
+ </layer>
+ <layer id="20" name="systemtags" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="19" name="terraintags" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <group id="13" name="infos"/>
+</map>

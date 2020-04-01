@@ -1,0 +1,26 @@
+uniform float r4;
+uniform float r3;
+uniform float r2;
+uniform float r1;
+uniform float xfactor;
+uniform sampler2D texture;
+const vec4 dark = vec4(.0, .0, .0, 1.);
+void main()
+{
+  vec4 frag = texture2D(texture, gl_TexCoord[0].xy);
+  float x = gl_TexCoord[0].x - .5;
+  float y = gl_TexCoord[0].y - .5;
+  x *= xfactor;
+  x *= x;
+  y *= y;
+  float ray2 = x + y;
+  if(r4 < ray2)
+  { frag = dark; }
+  else if(r3 < ray2)
+  { frag = mix(frag, dark, .75); }
+  else if(r2 < ray2)
+  { frag = mix(frag, dark, .5); }
+  else if(r1 < ray2)
+  { frag = mix(frag, dark, .25); }
+  gl_FragColor = frag;
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="29" nextobjectid="1">
+ <tileset firstgid="1" source="exterior.tsx"/>
+ <tileset firstgid="5297" source="pokemon_center.tsx"/>
+ <tileset firstgid="5801" source="interior.tsx"/>
+ <tileset firstgid="7817" source="passages.tsx"/>
+ <tileset firstgid="7833" source="terraintags.tsx"/>
+ <tileset firstgid="7849" source="interactions.tsx"/>
+ <layer id="2" name="ground_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFgzkENooyMGwiAm8FqiEG7ASq20UE3kukeQeB6hYD8VIC+CiR5s0EqltIBF5JpHnEmAVTQ0z4wdQSQ5Nj3iGgvw4D8REsYUCOeaeA5pwG4jNUMu8S0JzLQHyFSubhC0di/DuqZmBDAACSaFHn
+  </data>
+ </layer>
+ <layer id="21" name="upper_ground_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgIDFQIzxRgYZgExtcBCoFmLqGgetdw1as7wDAEARIECzw==
+  </data>
+ </layer>
+ <layer id="17" name="tree_leafs_left_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="3" name="tree_root_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="18" name="tree_leafs_right_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="22" name="furniture_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFgz0EzoniduF5oBw+eWw6r0HNKxdjYKgAYmRwHSgHk0cWx8e+BzWvHmhWA5p594FyMHl8ZmCTawea1YFmHjZ1g03MnEputgCaow7EGlQ0Tx9olgGVzKNGuK8Dpo/1QLwBmoYoNXMb0JztQLyDSuZR6p7hrh8A8UsSZw==
+  </data>
+ </layer>
+ <group id="5" name="z=0"/>
+ <layer id="7" name="tree_leafs_left_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="4" name="tree_leafs_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="6" name="tree_leafs_right_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="23" name="furniture_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFQyUEDOQYGJ6LMjC8AGJKwU2gGRZA894D6Q9AfIdCM5nEUF2EzkeVJcx7CHTPIyh+DKSfUOi+l0D9r6D4NZB+Q6F5hH0wPFQ8IzKciFX3jkjziFU3PEJ56PoCALsWFIQ=
+  </data>
+ </layer>
+ <layer id="27" name="upper_ground_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgLEhsBEMQaGSUA8CkZDYDQEGBgABaABUA==
+  </data>
+ </layer>
+ <group id="8" name="z=1"/>
+ <layer id="16" name="tree_leafs_left_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="14" name="tree_leafs_top_first_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="15" name="tree_leafs_right_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="25" name="tree_leafs_top_second_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="9" name="roof_first_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="10" name="roof_second_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="26" name="furtniture_3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyFA/RB4KkKZmd9EUfW/pdC8f2jmoZo+yhsNgdEQICcEANbABBk=
+  </data>
+ </layer>
+ <group id="11" name="z=2"/>
+ <layer id="12" name="passages" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFgzkEZsgxMBCLifEHsWaB1BEDuqHq0NWj83sHgXnofkf2H6nuQ9aLjU2seVOA4TIJT9jA3EysebD4wOYmkBi1zYPZQ6z7QPZ3oWGQGehiIHXkggkU6CXXzpGqDwB7fipC
+  </data>
+ </layer>
+ <layer id="20" name="systemtags" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="19" name="terraintags" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+  </data>
+ </layer>
+ <layer id="28" name="interactions" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwskJgldzI8u+ob0dDgFYhAACZoADJ
+  </data>
+ </layer>
+ <group id="13" name="infos"/>
+</map>

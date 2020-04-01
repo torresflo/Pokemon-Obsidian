@@ -1,0 +1,6 @@
+pokemonsdk/scripts/00000 PSDK_CONFIG.rb
+pokemonsdk/scripts/00100 Yuki__EXC.rb
+pokemonsdk/scripts/00200 PSDK_Version.rb
+pokemonsdk/scripts/00400 Console.rb
+pokemonsdk/scripts/00000 Dependencies/00400 Patch_Ajouts_LiteRGSS/00100 Various_Patch.rb
+pokemonsdk/scripts/00800 GameData/00200 Helpers/00400 Text.rb

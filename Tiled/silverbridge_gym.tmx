@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="26" height="36" tilewidth="32" tileheight="32" infinite="0" nextlayerid="29" nextobjectid="1">
+ <tileset firstgid="1" source="exterior.tsx"/>
+ <tileset firstgid="5297" source="gym.tsx"/>
+ <tileset firstgid="5585" source="interior_2.tsx"/>
+ <tileset firstgid="7409" source="passages.tsx"/>
+ <tileset firstgid="7425" source="interactions.tsx"/>
+ <layer id="2" name="ground_1" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwckJgmwgDAzmY1BAixw6QHlLBqD2Q+BwNt9F0PZp/yEsDo+E2Gm6wemS0HCUvLQy1cDsBbGuAMCze0WlS/TOqfjQEaBECABEn/jk=
+  </data>
+ </layer>
+ <layer id="26" name="wall_1" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHtkk0KAjEMhXsI738HfzaCG39ARBRc6MbLmGIfPMJk2lTHjSmEdpiXvORrU4oVBGwC81lKC4ll2VvOK9F611pyjs7YdPhsO3IOHTne+UP/JnAW1mNxLXdxUTovv73kj8Wj+NyVzuvzK71mZnGCDv+9/eX8EzEBJ30f3/AZ6nFH3nx/6KNnHvjkGXD21qnpMw/UZh+LG/jV6ur/lo/FDQx1ndq39rnJfFMs7QMu1g7G3l7Yp8YqM/vkvU3Fimce4sNsrHfHNVrOeD+8P+ktWCxbaocmCASB/ybwAkWFklM=
+  </data>
+ </layer>
+ <layer id="21" name="upper_ground_1" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0LkNACAMQ9EMwf67cTQcQ+AIsgEd35KVpEnxzAgCfwrkZFZuq6Y37qb9Vbp+jdup6Y17aScIIIAAAggggAACCCBwBDYqBg+n
+  </data>
+ </layer>
+ <layer id="17" name="tree_leafs_left_1" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="3" name="tree_root_1" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="18" name="tree_leafs_right_1" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="22" name="furniture_1" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DENAAAIAzBkIA//KjjBAQfdtexZ0gghQIAAAQIECBAgQOBCoHJed59VI/BLoAHrrgDx
+  </data>
+ </layer>
+ <group id="5" name="z=0"/>
+ <layer id="7" name="tree_leafs_left_2" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="4" name="tree_leafs_2" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="6" name="tree_leafs_right_2" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="27" name="wall_2" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjIYA/BHaLMDDgw8eA8iBwFE0dRHTkkuhhhiucYOpg8iM3xDB9DkpT9A4X9HQMix8YjenKURFY2GCj6R1/gz02kMMIOWxwpbvB7p9R942GwGgIjIYAtUMAAGZcK1A=
+  </data>
+ </layer>
+ <layer id="23" name="furniture_2" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAIAjBjGM3+STyxgN+4gHNVQoAAAQIECBAgQIDAFZjOuj2vRoDAh8ACFd0A4Q==
+  </data>
+ </layer>
+ <group id="8" name="z=1"/>
+ <layer id="16" name="tree_leafs_left_3" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="14" name="tree_leafs_top_first_3" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="15" name="tree_leafs_right_3" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="25" name="tree_leafs_top_second_3" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="9" name="roof_first_3" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="10" name="roof_second_3" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <group id="11" name="z=2"/>
+ <layer id="12" name="passages" width="26" height="36" visible="0">
+  <data encoding="base64" compression="zlib">
+   eAHtVlsOwyAM60G2+99vr+81VY08L1CWIrZVIKE8TGLiVlWnaayhQEGB84xFdqGlC0U4rObTxTXsax/G2Ndzmfh6IsDqsZFGTL3vXINzG/aFZ+Ms4F/mSTqxPurbIF4OA9ZYrffiBjy9ns+bHjaPd3+aM/IedOdZx0iG7q932TUPa5XIfKcpT2GeZT7/Cvks+tkJz0dObb6jj6BeefzTS7aZbuDO2L/hKWjF0K55VCM01jxi4LUWdWpRr3nEwCttr+/oV3lMGyz211zkPbjN/xQXZ4PGwx6B/xD0U2v8Lftp/xEfW4En7as6ug==
+  </data>
+ </layer>
+ <layer id="20" name="systemtags" width="26" height="36" visible="0">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="19" name="terraintags" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <layer id="28" name="interactions" width="26" height="36">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
+  </data>
+ </layer>
+ <group id="13" name="infos"/>
+</map>

@@ -1,0 +1,17 @@
+uniform float alpha;
+uniform float tau;
+uniform float radius;
+uniform sampler2D texture;
+void main()
+{
+  float x = gl_TexCoord[0].x - .5;
+  float y = gl_TexCoord[0].y - .5;
+  float val = sqrt(x * x + y * y) / sqrt(2);
+  if(val <= radius)
+  { val = mix(1, exp(- (val - radius) / tau), alpha); }
+  else
+  { val = 1.; }
+  x = (x * val) + .5;
+  y = (y * val) + .5;
+  gl_FragColor = texture2D(texture, vec2(x, y));
+}

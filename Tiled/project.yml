@@ -1,0 +1,87 @@
+---
+:maps:
+  amaryllis_city.tmx:
+    :id: 2
+    :tileset: amaryllis_city
+  amaryllis_school_classroom.tmx:
+    :id: 3
+    :tileset: amaryllis_school_classroom
+  amaryllis_pokemon_center.tmx:
+    :id: 5
+    :tileset: amaryllis_pokemon_center
+  amaryllis_player_house_floor_1.tmx:
+    :id: 6
+    :tileset: amaryllis_player_house_floor_1
+  amaryllis_player_house_floor_2.tmx:
+    :id: 7
+    :tileset: amaryllis_player_house_floor_2
+  amaryllis_house_1.tmx:
+    :id: 8
+    :tileset: amaryllis_house_1
+  amaryllis_forest.tmx:
+    :id: 4
+    :tileset: amaryllis_forest
+  amaryllis_forest_2.tmx:
+    :id: 9
+    :tileset: amaryllis_forest_2
+  silverbridge_city.tmx:
+    :id: 10
+    :tileset: silverbridge_city
+  silverbridge_pokemon_center.tmx:
+    :id: 11
+    :tileset: silverbridge_pokemon_center
+  silverbridge_shop.tmx:
+    :id: 12
+    :tileset: silverbridge_shop
+  silverbridge_house_1_first_floor.tmx:
+    :id: 13
+    :tileset: silverbridge_house_1_first_floor
+  silverbridge_house_1_second_floor.tmx:
+    :id: 14
+    :tileset: silverbridge_house_1_second_floor
+  silverbridge_house_2.tmx:
+    :id: 15
+    :tileset: silverbridge_house_2
+  silverbridge_house_3_first_floor.tmx:
+    :id: 16
+    :tileset: silverbridge_house_3_first_floor
+  silverbridge_house_3_second_floor.tmx:
+    :id: 17
+    :tileset: silverbridge_house_3_second_floor
+  silverbridge_house_4.tmx:
+    :id: 18
+    :tileset: silverbridge_house_4
+  silverbridge_league_committee_first_floor.tmx:
+    :id: 19
+    :tileset: silverbridge_league_committee_first_floor
+  silverbridge_league_committee_second_floor.tmx:
+    :id: 20
+    :tileset: silverbridge_league_committee_second_floor
+  silverbridge_league_committee_third_floor.tmx:
+    :id: 21
+    :tileset: silverbridge_league_committee_third_floor
+  silverbridge_gym.tmx:
+    :id: 22
+    :tileset: silverbridge_gym
+:tilesets:
+  amaryllis_city: amaryllis_city.png
+  amaryllis_player_house_floor_1: amaryllis_player_house_floor_1.png
+  amaryllis_player_house_floor_2: amaryllis_player_house_floor_2.png
+  amaryllis_school_classroom: amaryllis_school_classroom.png
+  amaryllis_house_1: amaryllis_house_1.png
+  amaryllis_pokemon_center: amaryllis_pokemon_center.png
+  amaryllis_forest: amaryllis_forest.png
+  amaryllis_forest_2: amaryllis_forest_2.png
+  silverbridge_city: silverbridge_city.png
+  silverbridge_pokemon_center: silverbridge_pokemon_center.png
+  silverbridge_shop: silverbridge_shop.png
+  silverbridge_house_1_first_floor: silverbridge_house_1_first_floor.png
+  silverbridge_house_1_second_floor: silverbridge_house_1_second_floor.png
+  silverbridge_house_2: silverbridge_house_2.png
+  silverbridge_house_3_first_floor: silverbridge_house_3_first_floor.png
+  silverbridge_house_3_second_floor: silverbridge_house_3_second_floor.png
+  silverbridge_house_4: silverbridge_house_4.png
+  silverbridge_league_committee_first_floor: silverbridge_league_committee_first_floor.png
+  silverbridge_league_committee_second_floor: silverbridge_league_committee_second_floor.png
+  silverbridge_league_committee_third_floor: silverbridge_league_committee_third_floor.png
+  silverbridge_gym: silverbridge_gym.png

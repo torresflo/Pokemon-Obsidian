@@ -1,0 +1,78 @@
+//---
+// Credits : Andrea Mazzoleni (project AdvanceMAME)
+// Source : https://www.scale2x.it/algorithm
+//---
+
+// Uniform that hold the delta between each pixel of the texture ( 1.0 / width, 1.0 / height) 
+uniform vec2 delta_pixel;
+// Uniform that hold the delta between each pixel of the upscaled texture ( 0.5 / width, 0.5 / height)
+uniform vec2 delta_pixel2;
+// Viewport tone (required)
+uniform vec4 tone;
+// Viewport color (required)
+uniform vec4 color;
+// Gray scale transformation vector
+const vec3 lumaF = vec3(.299, .587, .114);
+// Texture source
+uniform sampler2D texture;
+
+// Main process
+void main()
+{
+  vec2 coords = gl_TexCoord[0].xy;
+  vec4 frag = texture2D(texture, coords);
+  // Retreiving pixels
+  // A B C
+  // D E F
+  // G H I
+  vec4 d = texture2D(texture, vec2(coords.x - delta_pixel.x, coords.y));
+  vec4 f = texture2D(texture, vec2(coords.x + delta_pixel.x, coords.y));
+  vec4 b = texture2D(texture, vec2(coords.x, coords.y - delta_pixel.y));
+  vec4 h = texture2D(texture, vec2(coords.x, coords.y + delta_pixel.y));
+  // Scale2x process
+  if (b != h && d != f)
+  {
+    if(mod(coords.x, delta_pixel.x) < delta_pixel2.x) // E0 E2
+    {
+      if(mod(coords.y, delta_pixel.y) < delta_pixel2.y) // E0
+      {
+        if(d == b)
+        {
+          frag = d;
+        }
+      }
+      else // E2
+      {
+        if(d == h)
+        {
+          frag = d;
+        }
+      }
+    }
+    else
+    {
+      if(mod(coords.y, delta_pixel.y) < delta_pixel2.y) // E1
+      {
+        if(b == f)
+        {
+          frag = f;
+        }
+      }
+      else // E3
+      {
+        if(h == f)
+        {
+          frag = f;
+        }
+      }
+    }
+  }
+  // Tone&Color process
+  frag.rgb = mix(frag.rgb, color.rgb, color.a); 
+  float luma = dot(frag.rgb, lumaF); 
+  frag.rgb += tone.rgb; 
+  frag.rgb = mix(frag.rgb, vec3(luma), tone.w); 
+  frag.a *= gl_Color.a;
+  // Result
+  gl_FragColor = frag;
+}

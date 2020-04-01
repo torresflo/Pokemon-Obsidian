@@ -1,0 +1,103 @@
+//---
+// Credits : Andrea Mazzoleni (project AdvanceMAME)
+// Source : https://www.scale2x.it/algorithm
+//---
+
+// Uniform that hold the delta between each pixel of the texture ( 1.0 / width, 1.0 / height) 
+uniform vec2 delta_pixel;
+// Uniform that hold the delta between each pixel of the upscaled texture ( 1.0 / width / 3.0, 1.0 / height / 3.0)
+uniform vec2 delta_pixel3;
+// Uniform that hold the delta between each pixel of the upscaled texture ( 2.0 / width / 3.0, 2.0 / height / 3.0)
+uniform vec2 delta_pixel32;
+// Viewport tone (required)
+uniform vec4 tone;
+// Viewport color (required)
+uniform vec4 color;
+// Gray scale transformation vector
+const vec3 lumaF = vec3(.299, .587, .114);
+// Texture source
+uniform sampler2D texture;
+
+// Main process
+void main()
+{
+  vec2 coords = gl_TexCoord[0].xy;
+  vec4 frag = texture2D(texture, coords);
+  // Retreiving pixels
+  // A B C
+  // D E F
+  // G H I
+  vec4 a = texture2D(texture, vec2(coords.x - delta_pixel.x, coords.y - delta_pixel.y));
+  vec4 c = texture2D(texture, vec2(coords.x + delta_pixel.x, coords.y - delta_pixel.y));
+  vec4 d = texture2D(texture, vec2(coords.x - delta_pixel.x, coords.y));
+  vec4 f = texture2D(texture, vec2(coords.x + delta_pixel.x, coords.y));
+  vec4 b = texture2D(texture, vec2(coords.x, coords.y - delta_pixel.y));
+  vec4 h = texture2D(texture, vec2(coords.x, coords.y + delta_pixel.y));
+  vec4 g = texture2D(texture, vec2(coords.x - delta_pixel.x, coords.y + delta_pixel.y));
+  vec4 i = texture2D(texture, vec2(coords.x + delta_pixel.x, coords.y + delta_pixel.y));
+  // Subcoords calculation
+  coords.x = mod(coords.x, delta_pixel.x);
+  coords.y = mod(coords.y, delta_pixel.y);
+  // Scale3x process
+  if (b != h && d != f)
+  {
+    if(coords.x < delta_pixel3.x) // E0 E3 E6
+    {
+      if(coords.y < delta_pixel3.y) // E0
+      {
+        if(d == b)
+          frag = d;
+      }
+      else if(coords.y < delta_pixel32.y) // E3
+      {
+        if((d == b && frag != g) || (d == h && frag != a))
+          frag = d;
+      }
+      else // E6
+      {
+        if(d == h)
+          frag = d;
+      }
+    }
+    else if(coords.x < delta_pixel32.x) // E1 E4 E7
+    {
+      if(coords.y < delta_pixel3.y) // E1
+      {
+        if((d == b && frag != c) || (b == f && frag != a))
+          frag = b;
+      }
+      else if(coords.y >= delta_pixel32.y) // E7
+      {
+        if((d == h && frag != i) || (h == f && frag != g))
+          frag = h;
+      }
+    }
+    else // E2 E5 E8
+    {
+      
+      if(coords.y < delta_pixel3.y) // E2
+      {
+        if(b == f)
+          frag = f;
+      }
+      else if(coords.y < delta_pixel32.y) // E5
+      {
+        if((b == f && frag != i) || (h == f && frag != c))
+          frag = f;
+      }
+      else // E8
+      {
+        if(h == f)
+          frag = f;
+      }
+    }
+  }
+  // Tone&Color process
+  frag.rgb = mix(frag.rgb, color.rgb, color.a); 
+  float luma = dot(frag.rgb, lumaF); 
+  frag.rgb += tone.rgb; 
+  frag.rgb = mix(frag.rgb, vec3(luma), tone.w); 
+  frag.a *= gl_Color.a;
+  // Result
+  gl_FragColor = frag;
+}
