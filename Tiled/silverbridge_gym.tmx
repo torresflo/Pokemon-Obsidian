@@ -7,17 +7,17 @@
  <tileset firstgid="7425" source="interactions.tsx"/>
  <layer id="2" name="ground_1" width="26" height="36">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwckJgmwgDAzmY1BAixw6QHlLBqD2Q+BwNt9F0PZp/yEsDo+E2Gm6wemS0HCUvLQy1cDsBbGuAMCze0WlS/TOqfjQEaBECABEn/jk=
+   eAFjYBgF1AyBbSIMDORgUt1Ajh0gPaSCUXsg8TkabqPpejT/kJcGRsNtNNxg9choOUpeWhgNt9Fwo2Y5egLYFgRhWL5Ep0lNb6PqR0OAFiEAAAJKKng=
   </data>
  </layer>
  <layer id="26" name="wall_1" width="26" height="36">
   <data encoding="base64" compression="zlib">
-   eAHtkk0KAjEMhXsI738HfzaCG39ARBRc6MbLmGIfPMJk2lTHjSmEdpiXvORrU4oVBGwC81lKC4ll2VvOK9F611pyjs7YdPhsO3IOHTne+UP/JnAW1mNxLXdxUTovv73kj8Wj+NyVzuvzK71mZnGCDv+9/eX8EzEBJ30f3/AZ6nFH3nx/6KNnHvjkGXD21qnpMw/UZh+LG/jV6ur/lo/FDQx1ndq39rnJfFMs7QMu1g7G3l7Yp8YqM/vkvU3Fimce4sNsrHfHNVrOeD+8P+ktWCxbaocmCASB/ybwAkWFklM=
+   eAHtk0sKAjEMhnsI738HHxvBjQ8QFQVduPEyJswEfmLSaUpnZQO1rUnzN18zKf2HLRcprWisx7lkvaHYqG3pzDk4dhU6+4ozp4oz0fp7/EDgRqxLxmN8k/sYH+XHGhcax8y4kq+FzpPy5IxraKHjccPcuOb4qOV4sY+tRT1DpvzvgfTeoFlTj2aGfKx3e5FerQ72m763vofs8wR+vXxOakAvs8q9HcaWrFEH37vkbCTG05HvXjjpOaLBsZ7O3NysHove3YrX9Wg+em/1jJVX/4c6U6y4/6TvdZ6pPevMxQq1NResj+O8vsMcJWvrW/xQjWIeS/H3uRPoBDoBj8AXb9yu7Q==
   </data>
  </layer>
  <layer id="21" name="upper_ground_1" width="26" height="36">
   <data encoding="base64" compression="zlib">
-   eAHt0LkNACAMQ9EMwf67cTQcQ+AIsgEd35KVpEnxzAgCfwrkZFZuq6Y37qb9Vbp+jdup6Y17aScIIIAAAggggAACCCBwBDYqBg+n
+   eAHt0LkNACAMQ9EMwf67cTQcQ+BIYQJokL4lK0mT4pmR3wVyMivRquk9d9P+Kl2/RnRqes+9tBMEEEAAAQQQQAABBBBA4EZgAz1zD6c=
   </data>
  </layer>
  <layer id="17" name="tree_leafs_left_1" width="26" height="36">
@@ -58,7 +58,7 @@
  </layer>
  <layer id="27" name="wall_2" width="26" height="36">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjIYA/BHaLMDDgw8eA8iBwFE0dRHTkkuhhhiucYOpg8iM3xDB9DkpT9A4X9HQMix8YjenKURFY2GCj6R1/gz02kMMIOWxwpbvB7p9R942GwGgIjIYAtUMAAGZcK1A=
+   eAFjYBgFoyEwckJgtwgDAzH4GFAdCByFqofwRklsYQcLq9HQwQwB9PCChRUoXcHYmLqoL4LuDurbQDsT6R1WIJ/A8j16uMH4tPPt0DUZFjbYaHqm9aEQgshhhBw2uNLdUPDTqBtHQ2A0BEZDgJohAACZnS9m
   </data>
  </layer>
  <layer id="23" name="furniture_2" width="26" height="36">
@@ -100,10 +100,10 @@
  <group id="11" name="z=2"/>
  <layer id="12" name="passages" width="26" height="36" visible="0">
   <data encoding="base64" compression="zlib">
-   eAHtVlsOwyAM60G2+99vr+81VY08L1CWIrZVIKE8TGLiVlWnaayhQEGB84xFdqGlC0U4rObTxTXsax/G2Ndzmfh6IsDqsZFGTL3vXINzG/aFZ+Ms4F/mSTqxPurbIF4OA9ZYrffiBjy9ns+bHjaPd3+aM/IedOdZx0iG7q932TUPa5XIfKcpT2GeZT7/Cvks+tkJz0dObb6jj6BeefzTS7aZbuDO2L/hKWjF0K55VCM01jxi4LUWdWpRr3nEwCttr+/oV3lMGyz211zkPbjN/xQXZ4PGwx6B/xD0U2v8Lftp/xEfW4En7as6ug==
+   eAHtlmsKwzAMg3uQ7f732+v3Gtg3VBG7aRbYq4Uix4qkxIyyafqT5zjfs+fdOp6ejKLZ+qhGa/dRTmvfF6zPByGKnpc2a/G+qoZ9K7jIWdkL/ck5zznpfKK6XAiOy7UiuhYckZOdizOMyMHL0b3hs3PVOHQRDspp+l1zBs+snTvq4aGY+bEv8ov66BQ1R/taR35RH63z9CP0/WtrfMo+rRNdz3dn4a051BEm56hS+BSyVtNzrJolTfSek0iGzY3sAL8mJ5mVUi/dx2eEsfdZw7ciOkf03mcN34hN31Hz6pnbW3PKbHi0fvR67nOZ/4udKi8xNe7W8f8NP8eSP9LP/ff1b0/gDhlUOjM=
   </data>
  </layer>
- <layer id="20" name="systemtags" width="26" height="36" visible="0">
+ <layer id="20" name="systemtags" width="26" height="36">
   <data encoding="base64" compression="zlib">
    eAHt0DEBAAAAwqD1T20MH4hAYcCAAQMGDBgwYMCAAQMG/gMDDqAAAQ==
   </data>

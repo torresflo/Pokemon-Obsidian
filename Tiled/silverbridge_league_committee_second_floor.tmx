@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="1">
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="1">
  <tileset firstgid="1" source="exterior.tsx"/>
  <tileset firstgid="5297" source="interior.tsx"/>
  <tileset firstgid="7313" source="interior_2.tsx"/>
@@ -40,6 +40,11 @@
    eAFjYBgFtA4BdlUGBg4gBgELGQhNCckPNEsAap4DCebFKpNuKzl6SLcFoSNGlIEhFoiRATYxZHl87BSgWalo5mETSwSGTRIZ4YPL7kygWVlEmIfNb9jEcNmDLo7Nb9jE0PVRg98BDed2tPCmxGyQmf1UNI8St4zqxQwBAABeDmc=
   </data>
  </layer>
+ <layer id="27" name="second_furniture_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEw9ELgtCRxbsamDl0Mxn8gzcAAYxNnOnZVyGYgs7GrJk4UZA4xZuFSg0scZHu9KHFuGFU1GgLoIQAASxgLXA==
+  </data>
+ </layer>
  <group id="5" name="z=0"/>
  <layer id="7" name="tree_leafs_left_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
@@ -58,7 +63,7 @@
  </layer>
  <layer id="23" name="furniture_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFgzUEQpVJdxk5eki3BaEjRJSBIRSIkQE2MWR5arBPSxJnCjZ16GIw/gNpBgYYG5fp2PyGLoZsBjIbl5nEiIPMIcYsXGpwiYPsrkeLP2LcM6pmNARAIQAACUIPmA==
+   eAFjYBgFgzUEQpVJdxk5eki3BaEjRJSBIRSIkQE2MWT5wcp+IE3YZdj8hk2MsEmDR0U9WvwNHpeNumSwhwAAMyIFzA==
   </data>
  </layer>
  <group id="8" name="z=1"/>

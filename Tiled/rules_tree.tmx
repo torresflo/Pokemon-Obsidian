@@ -5,17 +5,17 @@
  <tileset firstgid="145" source="exterior.tsx"/>
  <layer id="1" name="regions_input" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBh5QADoZRAGAWQ2jA+WgBIwdTAxdD5MfKTRyOGAHIbEsEdaWI36dzQEhmsIAACB/AEB
+   eAFjYBh5QADoZRAGAWQ2jA+WgBIwdTAxdD5MfKTRyOGAHIbEskdaeI36dzQEhmMIAAC+vAER
   </data>
  </layer>
  <layer id="2" name="regions_output" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYKAMCGDRDhKDiWNjo8vh4sOMxmYGSA4mjks/ujytzIOZSy0al7vJNR/dPBgfZB4xbHR7YXpANAjA+MSywZpGidEQGA2BIR8CAETsBBE=
+   eAFjYKAMCGDRDhKDiWNjo8vh4sOMxmYGSA4mjks/ujytzIOZSy0al7vJNR/dPBgfZB6xbGS7YXpANAjA+KSwwRpHidEQGA2BIR0CAMNsBDE=
   </data>
  </layer>
  <layer id="3" name="input_tree_root_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBh5YCoLA8M0IAaBVCCdBmX7AGlfIPaD8j2BtBcQe0P5hkDaCIiNoXyICSOPXAn0/yogXg0Nh+NA+gSUfR1I34CyI4F0FJQdDaRjoOyRF2KjPh4NgeEZAgB9EgtY
+   eAFjYBh5YCoLA8M0IAaBVCCdBmX7AGlfIPaD8j2BtBcQe0P5hkDaCIiNoXyICSOPXAn0/yogXg0Nh+NA+gSUfR1I34CyI4F0FJQdDaRjoOx8KD3yQm7Ux6MhMLxCAAAx0AvL
   </data>
  </layer>
  <layer id="12" name="output_tree_leafs_left_1" width="20" height="20">
@@ -35,7 +35,7 @@
  </layer>
  <layer id="5" name="output_tree_leafs_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBj8oJeFgaEPiEEgFkjHQdkgvisSG8R3QuNrofFBakYiWDQaDiMx2kf9PBoCNA0BAHbDA0o=
+   eAFjYBj8oJeFgaEPiEEgFkjHQdkgvisSG8R3QuNrofFBakYiWERBOKRToHckhvWon0dDYKSEAAAukQO1
   </data>
  </layer>
  <layer id="6" name="output_tree_leafs_right_2" width="20" height="20">
@@ -65,7 +65,7 @@
  </layer>
  <layer id="8" name="output_passages" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBhcQACLc0BiMHFsbHQ5XHyY0djMQJaDsUE0zCyYGDofJj7YaWq7G9k8EBvGJ4Y92MNq1H2jITAaAsSFAACWxwHx
+   eAFjYBhcQACLc0BiMHFsbHQ5XHyY0djMQJaDsUE0zCyYGDofJj7YaWq7G9k8EBvGJ5Y92MNr1H2jITAaAoRDAADThwIB
   </data>
  </layer>
  <layer id="13" name="output_systemtags" width="20" height="20">

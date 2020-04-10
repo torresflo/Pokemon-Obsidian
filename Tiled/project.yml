@@ -63,6 +63,9 @@
   silverbridge_gym.tmx:
     :id: 22
     :tileset: silverbridge_gym
+  road_101.tmx:
+    :id: 23
+    :tileset: road_101
 :tilesets:
   amaryllis_city: amaryllis_city.png
   amaryllis_player_house_floor_1: amaryllis_player_house_floor_1.png
@@ -85,3 +88,4 @@
   silverbridge_league_committee_second_floor: silverbridge_league_committee_second_floor.png
   silverbridge_league_committee_third_floor: silverbridge_league_committee_third_floor.png
   silverbridge_gym: silverbridge_gym.png
+  road_101: road_101.png

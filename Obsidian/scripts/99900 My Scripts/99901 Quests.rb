@@ -7,5 +7,12 @@ module PFM
 			return if (quest = @active_quests.fetch(quest_id, nil)).nil?
 			quest[:shown][goal_index] = false
 		end
+
+		# Is a quest started ?
+		# @param quest_id [Integer] ID of the quest in the database
+		# @return [Boolean]
+		def started?(quest_id)
+			return @active_quests.fetch(quest_id, nil) != nil
+	  	end
 	end
 end

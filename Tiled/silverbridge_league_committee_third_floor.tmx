@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="1">
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="1">
  <tileset firstgid="1" source="exterior.tsx"/>
  <tileset firstgid="5297" source="interior.tsx"/>
  <tileset firstgid="7313" source="interior_2.tsx"/>
  <tileset firstgid="9137" source="passages.tsx"/>
+ <tileset firstgid="9153" source="interactions.tsx"/>
  <layer id="2" name="ground_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eAFjYBgFoyFAeggkSzMwpFCA0W1MBZqVSAEeNW80/EhJP+jpZZRPXggAAN9ORhA=
@@ -36,7 +37,7 @@
  </layer>
  <layer id="22" name="furniture_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFQzUEnJUZGFyAGBl4oPGR5dDZM6UZGGYB8WwgBgFvoF4fNP0BaHyISuzkQqA5i4B4MdQ87KooE50CNHsqEE+jkh1zgObMBeJ5UPOmU2juEqD+pUC8DGrOfBzmmQDD1RSI0Wn00FkD1L8WiNfhMAem3gZoli0Qo9MweXLo6UDzEoE4CYhnADGlAGReJhBn4TCvA82PFWh8Su0f1U/9EAAA9C4bpw==
+   eAFjYBgFQzUEnJUZGFyAGBl4oPGR5dDZM6UZGGYB8WwgBgFvoF4fNP0BaHyISuzkQqA5i4B4MdQ87KrIF50CNHcqEE+jkvlzgObMBeJ5UPOmU2juEqD+pUC8DGrOfDzmmQDD1RSI0Wnk0FkD1L8WiNfhMQem3gZoli0Qo9MweXLo6UDzEoE4CYhnADGlAGReJhBnYTGvA82PFWh8Su0e1U+bEAAAIgUbpw==
   </data>
  </layer>
  <group id="5" name="z=0"/>
@@ -57,7 +58,7 @@
  </layer>
  <layer id="23" name="furniture_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyFAuxDokWZg6AXiPiCmJohQhpjWT2VzcblRB2ifLhCj09jUB0Pdhk1uOIk1oIV9ARp/OPl11C/YQwAA9eIGlw==
+   eAFjYBgFoyFAmxDokWZg6AXiPiCmJohQhpjWT2Vz8blRB2inLhCj0+h6gqFuQxcfbvwGtLAvQOMPN/+O+gd7CAAACNUGlw==
   </data>
  </layer>
  <group id="8" name="z=1"/>
@@ -94,7 +95,7 @@
  <group id="11" name="z=2"/>
  <layer id="12" name="passages" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFgzEEDigzMFCC0f2EbBZIDplPDBvdvM1A96EDZHPQ5ZD5W7HoxWYesh4YG5sd1DQPZD41zQO5G5t5yP5AZsP8iY/GZh6x4YfNXFzmIbsLxCYWkGseuh0wPjbztgDds4lMvI0EvxDr55GqDgCVfk8l
+   eAHtksEKwCAIhn2Xvf9lbTvv0UpG8CE6wnXYIUH6TfxQS2TZHzdwbyJf3M5EluYYj2jLK60/a+TYHOPTqfV4rFEd8WfxlK82i/fQfB5noe41b2e2v4gZ8dhX303E4H2GZ/mMPd7R3mpP+uX8P/a/9PgGKsAOTyU=
   </data>
  </layer>
  <layer id="20" name="systemtags" width="20" height="20">
