@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="1">
- <tileset firstgid="1" source="exterior.tsx"/>
- <tileset firstgid="5465" source="shop.tsx"/>
- <tileset firstgid="5753" source="passages.tsx"/>
- <tileset firstgid="5769" source="interactions.tsx"/>
+ <tileset firstgid="1" source="../exterior.tsx"/>
+ <tileset firstgid="5465" source="../shop.tsx"/>
+ <tileset firstgid="5753" source="../passages.tsx"/>
+ <tileset firstgid="5769" source="../interactions.tsx"/>
  <layer id="2" name="ground_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eAFjYBgFIykEkkQZGJKhGJkNEisA4kQgBomD2MSATKC6BChGZsPEkGlqmJeGZB8x5iH7MQVJL8xdyG4mxjxk9TAzkGlkeVLNixNjYIgHYpB5GUAMihOYm0H8UTAaAoMtBACAJh7R

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
  <tileset firstgid="1" source="exterior.tsx"/>
- <tileset firstgid="5297" source="passages.tsx"/>
- <tileset firstgid="5313" source="interior.tsx"/>
- <tileset firstgid="7329" source="interior_2.tsx"/>
- <layer id="1" name="regions_input" width="20" height="20">
+ <tileset firstgid="5465" source="passages.tsx"/>
+ <tileset firstgid="5481" source="interior.tsx"/>
+ <tileset firstgid="7497" source="interior_2.tsx"/>
+ <layer id="1" name="regions_input" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBh54IAIqp+R+SA2DINUobNRdQ4NHjY/gMRAAFkOxgdLjBKjITAaAqMhQCAEABoZDG0=
+   eAFjYBh5IEMU1c/IfBAbhkGq0NmoOocGD5sfQGIggCwH44MlRonREBgNgdEQIBACANsHB1Q=
   </data>
  </layer>
- <layer id="2" name="regions_output" width="20" height="20">
+ <layer id="2" name="regions_output" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYKA+OCDCwADCIIDMhoiQTsLMgulE5sPMh4nB+CC1MDGYPhiNLo7Mh+mHicH4+MyDmUstGpud2NxDrJuobR61/DlqzmgIjIbA0A4BAJP7HCk=
+   eAFjYKA+yBBlYABhEEBmQ0RIJ2FmwXQi82Hmw8RgfJBamBhMH4xGF0fmw/TDxGB8fObBzKUWjc1ObO4h1k3UNo9a/hw1ZzQERkNgaIcAAHubEJs=
   </data>
  </layer>
  <layer id="3" name="input_furniture_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBh5oJQV1c8VSPyfLAwMv4D4NxCDADtQjgMq/xoqBpEZOuRWCQaGbUAMArnKEDoPSp+UZmA4BcQwYM8NY43SoyEwGgKjIYA/BABd8wnJ
+   eAFjYBh5oJQV1c8VSPyfLAwMv4D4NxCDADtQjgMq/xoqBpEZOmSsJANDHBCDgKgKhBaD0oUyDAxFQAwD9tww1ig9GgKjITAaAvhDAACabge/
   </data>
  </layer>
  <layer id="4" name="output_furniture_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYKA+SGVlYEgDYhBIB9IZUDZEhHQyF01/ARL/IwsDwycg/gzEIPAfREPlH0PFwBJDiFgrwcCwDohBIFUZQqdB6YPSDAyHgBgGzLlhrFF6NARGQ2A0BOgbAgBcnAv+
+   eAFjYKA+SGVlYEgDYhBIB9IZUDZEhHQyF01/ARL/IwsDwycg/gzEIPAfREPlH0PFwBJDiAiVZGAIA2IQ4FWB0HxQOlOGgSELiGHAnBvGGqVHQ2A0BEZDgL4hAAD16An0
   </data>
  </layer>
- <layer id="5" name="output_passages" width="20" height="20">
+ <layer id="5" name="output_passages" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBh54IAIqp+R+TuBcjAMUoXMRlaHagLteDA7YTQ5NoH0wvRjo2FiILOR2eTYNapnNARGQ2DkhAAACHoN8g==
+   eAFjYBh5IEMU1c/I/ESgHAyDVCGzkdWhmjC4eSB3w9yOjYaJgXyBzB7cvhp13WgIjIbAQIcAACbHBzE=
   </data>
  </layer>
 </map>

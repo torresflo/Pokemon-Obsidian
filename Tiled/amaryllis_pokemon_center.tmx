@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="29" nextobjectid="1">
  <tileset firstgid="1" source="exterior.tsx"/>
- <tileset firstgid="5297" source="pokemon_center.tsx"/>
- <tileset firstgid="5801" source="interior.tsx"/>
- <tileset firstgid="7817" source="passages.tsx"/>
- <tileset firstgid="7833" source="terraintags.tsx"/>
- <tileset firstgid="7849" source="interactions.tsx"/>
+ <tileset firstgid="5465" source="pokemon_center.tsx"/>
+ <tileset firstgid="5985" source="interior.tsx"/>
+ <tileset firstgid="8001" source="passages.tsx"/>
+ <tileset firstgid="8017" source="terraintags.tsx"/>
+ <tileset firstgid="8033" source="interactions.tsx"/>
  <layer id="2" name="ground_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFgzkENooyMGwiAm8FqiEG7ASq20UE3kukeQeB6hYD8VIC+CiR5s0EqltIBF5JpHnEmAVTQ0z4wdQSQ5Nj3iGgvw4D8REsYUCOeaeA5pwG4jNUMu8S0JzLQHyFSubhC0di/DuqZmBDAACSaFHn
+   eAFjYBgFgzUEIsUYGKJIwLFAtfhAIlA+iQScSsC8TKC8NxD7EolzCZjnCJT3JAEHEjCPFLNgavGFH0wNKTSp5mUB/ZQNxDk4woFU84qA5hQDcQmVzKsCmlMNxDVUMo9QWOLz76jcwIcAAP9vNE0=
   </data>
  </layer>
  <layer id="21" name="upper_ground_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgIDFQIzxRgYZgExtcBCoFmLqGgetdw1as7wDAEARIECzw==
+   eAFjYBgFoyEwGgIDEQKa4gwMWkBMLWAINMuIiuZRy12j5gzfEAAAzFIBEw==
   </data>
  </layer>
  <layer id="17" name="tree_leafs_left_1" width="20" height="20">
@@ -33,7 +33,7 @@
  </layer>
  <layer id="22" name="furniture_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFgz0EzoniduF5oBw+eWw6r0HNKxdjYKgAYmRwHSgHk0cWx8e+BzWvHmhWA5p594FyMHl8ZmCTawea1YFmHjZ1g03MnEputgCaow7EGlQ0Tx9olgGVzKNGuK8Dpo/1QLwBmoYoNXMb0JztQLyDSuZR6p7hrh8A8UsSZw==
+   eAFjYBgFgzkEysTwu64cKk9IHcyUOiTz5MUZGBSAGBnUQ+WR1SHLo7PbkMxTB5qlgWZeO1QeWR26Gbj4+kCzDNDMw6V2sInfRwoXStz2AGjOeSC+QEXzrgPNukEl8yjxG0hvGNAd4UAcQSX3xAHNiQfiBCqZR6n/hrt+AE9CD9w=
   </data>
  </layer>
  <group id="5" name="z=0"/>
@@ -54,12 +54,12 @@
  </layer>
  <layer id="23" name="furniture_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFQyUEDOQYGJ6LMjC8AGJKwU2gGRZA894D6Q9AfIdCM5nEUF2EzkeVJcx7CHTPIyh+DKSfUOi+l0D9r6D4NZB+Q6F5hH0wPFQ8IzKciFX3jkjziFU3PEJ56PoCALsWFIQ=
+   eAFjYBgFQyUEXsgxMPSLMTBMAGJKQSPQjA9A86YD6RlA3EKhmavQ9KPzSXVvJ9C8LijuBtI9aOaTat5EoP5JUDwZSE+h0DxS7R+K6vtIDCNC6qeRaB6p6odiGA91NwMABrUQeA==
   </data>
  </layer>
  <layer id="27" name="upper_ground_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgLEhsBEMQaGSUA8CkZDYDQEGBgABaABUA==
+   eAFjYBgFoyEwGgLEhICiOAODEhCPgtEQGA0BSAgAAGERAHI=
   </data>
  </layer>
  <group id="8" name="z=1"/>
@@ -95,13 +95,13 @@
  </layer>
  <layer id="26" name="furtniture_3" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyFA/RB4KkKZmd9EUfW/pdC8f2jmoZo+yhsNgdEQICcEANbABBk=
+   eAFjYBgFoyFA/RDoFaXMzHliqPqnUmjeMjTzUE0f5Y2GwGgIkBMCAOjxAr0=
   </data>
  </layer>
  <group id="11" name="z=2"/>
  <layer id="12" name="passages" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFgzkEZsgxMBCLifEHsWaB1BEDuqHq0NWj83sHgXnofkf2H6nuQ9aLjU2seVOA4TIJT9jA3EysebD4wOYmkBi1zYPZQ6z7QPZ3oWGQGehiIHXkggkU6CXXzpGqDwB7fipC
+   eAFjYBgFgzUEAuQZGEjF+PxCqlkg9fiAM5I8ulp0PsgcVyT12MyltXno/kd3AynuQ9eLjU/IPB9geHgRCBOQuTB3EzIPOfywuQcmRm3zYOYSch/IXieof0E0DIP0w9jINEg9OcCDTH3k2DXS9QAA1jobdA==
   </data>
  </layer>
  <layer id="20" name="systemtags" width="20" height="20">
@@ -114,9 +114,9 @@
    eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
   </data>
  </layer>
- <layer id="28" name="interactions" width="20" height="20">
+ <layer id="28" name="interactions" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwskJgldzI8u+ob0dDgFYhAACZoADJ
+   eAFjYBgFoyEwskIgSX5k+XfUt6MhQKsQAACvfACC
   </data>
  </layer>
  <group id="13" name="infos"/>
