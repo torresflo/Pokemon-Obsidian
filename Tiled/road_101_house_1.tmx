@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="1">
- <tileset firstgid="1" source="../exterior.tsx"/>
+ <tileset firstgid="1" source="exterior.tsx"/>
+ <tileset firstgid="5465" source="interior.tsx"/>
+ <tileset firstgid="7481" source="interior_2.tsx"/>
+ <tileset firstgid="9305" source="passages.tsx"/>
  <layer id="2" name="ground_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+   eAFjYBgFIykElogxMJCCCYUNyKzFJOBR81BDgNrhtw8YF9tIwKiuweQtApq1EA2HizMwRAAxujiIPwpGVggAAHpIRbY=
   </data>
  </layer>
  <layer id="26" name="wall_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+   eAFjYBgF1AyBnWIMDGuAeC2UhvFBYrvQ5EB8QuAgUM0WIN4KpWF8kNghNDkQnxA4iaYGmX8KTQ6dT8jsUfnREBgNgZEVAgDzGRZ/
   </data>
  </layer>
  <layer id="21" name="upper_ground_1" width="20" height="20">
@@ -33,7 +36,7 @@
  </layer>
  <layer id="22" name="furniture_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+   eAFjYBgFtA4BcVkGBgkgRgarZRgY1gAxOUAeaJYCmnmbgWZtIdI8VhUGBhCGAXWgWRpo5u0GmrWHCPMUxGGmUIcGmYfLzFKge8qAuFiKOnbVAs2qI8KPyLYhhxuy+Ch7NARGYggAAEzhCkw=
   </data>
  </layer>
  <group id="5" name="z=0"/>
@@ -54,7 +57,7 @@
  </layer>
  <layer id="23" name="furniture_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+   eAFjYBgFgz0E/iozMIDwKGBg6JAhLRRGw4208BpVPRoCpIQAAHVrBAU=
   </data>
  </layer>
  <group id="8" name="z=1"/>
@@ -89,9 +92,9 @@
   </data>
  </layer>
  <group id="11" name="z=2"/>
- <layer id="12" name="passages" width="20" height="20">
+ <layer id="12" name="passages" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhQHoIAAAGQAAB
+   eAFjYBgF1AyBDBUGBlIwIbtJMQuklhCIRnIfIbWxRJhHjJ0we4g1D5eZsLAgxTyQf3EBcszD5TZsdhDjX3zuQzdzIMyLAYZfFBqGuQtdPA5PWMP0YKNBdpCrF5t5o2L0CwEAMyEeEA==
   </data>
  </layer>
  <layer id="20" name="systemtags" width="20" height="20">

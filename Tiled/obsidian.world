@@ -1,0 +1,41 @@
+{
+    "maps":
+	[
+        {
+            "fileName": "amaryllis_city.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "amaryllis_forest.tmx",
+            "x": -2656,
+            "y": 192
+        },
+        {
+            "fileName": "amaryllis_forest_2.tmx",
+            "x": -3776,
+            "y": -704        
+		},
+		{
+            "fileName": "silverbridge_city.tmx",
+            "x": -4160,
+            "y": -2400
+        },
+		{
+            "fileName": "road_101.tmx",
+            "x": -6624,
+            "y": -2400
+        },
+		{
+            "fileName": "road_101_2.tmx",
+            "x": -9088,
+            "y": -2400
+        },
+		{
+            "fileName": "road_101_3.tmx",
+            "x": -10784,
+            "y": -2400
+        }
+    ],
+    "type": "world"
+}
