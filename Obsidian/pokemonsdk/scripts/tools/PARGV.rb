@@ -169,6 +169,7 @@ end
 # Define global PARGV
 PARGV.define_arg(:scale, flag: false, default: nil) { |value| value.to_f.between?(0.1, 12) ? value.to_f : 2 }
 PARGV.define_arg(:smooth)
+PARGV.define_arg(:"no-vsync", flag: true, default: nil)
 PARGV.define_arg(:fullscreen)
 PARGV.define_arg(:help, aliases: [:h]) do
   print "\e[46m\e[30m"
@@ -178,7 +179,8 @@ PARGV.define_arg(:help, aliases: [:h]) do
     '--scale=value : Define the screen scale (to make it bigger or smaller)',
     "  default value : #{PARGV.default(:help)}",
     '--smooth : Tell if the texture are smoothed by GPU',
-    '--fullscreen : Tell if the game launch in fullscreen'
+    '--fullscreen : Tell if the game launch in fullscreen',
+    '--no-vsync : Tell if the game should run without vsync'
   )
   unless File.exist?('Data/Scripts.dat')
     puts(

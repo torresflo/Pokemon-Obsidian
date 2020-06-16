@@ -82,6 +82,8 @@ module GamePlay
         $game_system.bgm_restore2
         $pokedex.mark_seen(@pokemon.id, @pokemon.form, forced: true)
         $pokedex.mark_captured(@pokemon.id)
+        $pokedex.pokemon_fought_inc(@pokemon.id)
+        $pokedex.pokemon_captured_inc(@pokemon.id)
         @running = false
       end
     end

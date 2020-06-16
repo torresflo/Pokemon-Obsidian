@@ -9,6 +9,8 @@ module Battle
       @logic.add_actions(@player_actions)
       @player_actions.clear
       @logic.sort_actions
+      @message_window.width = @visual.viewport.rect.width
+      @message_window.wait_input = true
       # Tell to call udpdate_battle_phase on the next frame
       @next_update = :udpdate_battle_phase
     end
@@ -38,7 +40,8 @@ module Battle
 
     # Method that tells to return to the last scene (Scene_Map)
     def return_to_last_scene
-      return_to_scene(Scene_Map)
+      $scene = Scene_Map.new
+      @running = false
     end
   end
 end

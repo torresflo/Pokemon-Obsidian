@@ -90,7 +90,9 @@ module GameData
       # Retrieve the quest name
       # @param quest_id [Integer] ID of the quest in the database
       # @return [String]
-      def name(quest_id)
+      def name(quest_id = Class)
+        return super() if quest_id == Class
+
         return nil.to_s unless id_valid?(quest_id)
         return text_get(45, quest_id)
       end

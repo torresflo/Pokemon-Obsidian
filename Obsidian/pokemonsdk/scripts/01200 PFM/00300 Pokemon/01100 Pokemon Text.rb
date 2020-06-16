@@ -56,7 +56,7 @@ module PFM
     # Return the name of the item the Pokemon is holding
     # @return [String]
     def item_name
-      return GameData::Item.name(item_db_symbol)
+      return GameData::Item[item_db_symbol].name
     end
 
     # Return the name of the current ability of the Pokemon
@@ -109,19 +109,19 @@ module PFM
     # Return the text of the Pokemon ID
     # @return [String]
     def id_text
-      sprintf("%03d", $pokedex.national? ? @id : ::GameData::Pokemon.id_bis(@id))
+      sprintf("%03d", $pokedex.national? ? @id : primary_data.id_bis)
     end
 
     # Return the text of the Pokemon ID with N°
     # @return [String]
     def id_text2
-      sprintf("N°%03d", $pokedex.national? ? @id : ::GameData::Pokemon.id_bis(@id))
+      sprintf("N°%03d", $pokedex.national? ? @id : primary_data.id_bis)
     end
 
     # Return the text of the Pokemon ID to pokemon number
     # @return [String]
     def id_text3
-      sprintf("%03d", $pokedex.national? ? @id : ::GameData::Pokemon.id_bis(@id)).to_pokemon_number
+      sprintf("%03d", $pokedex.national? ? @id : primary_data.id_bis).to_pokemon_number
     end
   end
 end

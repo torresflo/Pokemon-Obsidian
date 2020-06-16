@@ -57,11 +57,6 @@ module Scheduler
     end
   end
 
-  add_proc(:on_update, ::Scene_Map, 'Ajout PSDK1', 1000) do
-    Yuki::TJN.update
-    Yuki::Particles.update
-  end
-
   add_proc(:on_scene_switch, ::Scene_Title, 'Correction du TJN', 1000) do
     Yuki::TJN.init_variables
   end
@@ -120,6 +115,15 @@ module Scheduler
     end
   end
 
+  add_proc(:on_scene_switch, ::Scene_Title, 'Event fix (new tilemap)', 1000) do
+    if $scene.class != ::Scene_Title && $trainer.current_version.to_i <= 6211
+      $game_map.instance_variable_set(:@events_info, nil)
+      unless $game_switches[Yuki::Sw::MapLinkerDisabled]
+        $game_player.moveto($game_player.x - Yuki::MapLinker::OffsetX, $game_player.y - Yuki::MapLinker::OffsetY)
+      end
+    end
+  end
+
   add_proc(:on_update, :any, 'KeyBinding addition', 0) do
     if $scene.class != GamePlay::KeyBinding && !$scene.is_a?(Scene_Battle)
       if Input::Keyboard.press?(Input::Keyboard::F1) && !$game_temp&.message_window_showing
@@ -149,4 +153,7 @@ module Scheduler
     }
   )
 =end
+
+  add_message(:on_dispose, Scene_Map, 'Dispose the particles', 1000, Yuki::Particles, :dispose)
+  add_message(:on_dispose, Scene_Map, 'Dispose the FollowMe', 1000, Yuki::FollowMe, :dispose)
 end

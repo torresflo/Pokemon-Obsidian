@@ -92,7 +92,7 @@ class Scene_Battle
       if(i and i.hp>0 and i.battle_effect.is_locked_by_future_skill?)
         if(i.battle_effect.get_future_skill_counter==1)
           dmg=i.battle_effect.get_future_damage
-          skill_name = GameData::Skill.name(i.battle_effect.get_future_skill_id)
+          skill_name = GameData::Skill[i.battle_effect.get_future_skill_id].name
           BattleEngine::_message_stack_push([:msgf, parse_text_with_pokemon(19, 1086, i, MOVE[1] => skill_name)])
           if(dmg <= 0)
             BattleEngine::_message_stack_push([:msg_fail])
@@ -284,12 +284,12 @@ class Scene_Battle
       if(i and i.hp>0 and BattleEngine._has_item(i, i.battle_item))
         item_id = i.battle_item
         if(item_id >= 149 and item_id <= 157)
-          if(heal_data = GameData::Item.heal_data(item_id) and 
+          if(heal_data = GameData::Item[item_id].heal_data and 
               heal_data.states and heal_data.states.include?(i.status))
             BattleEngine::_mp([:berry_use, i, true])
             BattleEngine::_mp([:berry_cure, i, i.item_name])
             phase4_message_display()
-          elsif(i.confused? and heal_data = GameData::Item.heal_data(item_id) and 
+          elsif(i.confused? and heal_data = GameData::Item[item_id].heal_data and 
               heal_data.states and heal_data.states.include?(5))
             BattleEngine::_mp([:berry_use, i, true])
             BattleEngine::_mp([:confuse_cure, i, i.item_name])

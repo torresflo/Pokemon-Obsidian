@@ -1,5 +1,3 @@
-#encoding: utf-8
-
 # A module that helps the PSDK_DEBUG to perform some commands
 module Debugger
   module_function
@@ -166,6 +164,24 @@ module Debugger
     $game_temp.player_new_direction = 0
     $game_temp.player_new_map_id = id
     $game_temp.player_transferring = true
+  end
+
+  # Fight a specific trainer by its ID
+  # @param id [Integer] ID of the trainer in Ruby Host
+  # @param bgm [Array(String, Integer, Integer)] bgm description of the trainer battle
+  # @param troop_id [Integer] ID of the RMXP Troop to use
+  def battle_trainer(id, bgm = Interpreter::DEFAULT_TRAINER_BGM, troop_id = 3)
+    original_battle_bgm = $game_system.battle_bgm
+    $game_system.battle_bgm = RPG::AudioFile.new(*bgm)
+    $game_variables[Yuki::Var::Trainer_Battle_ID] = id
+    $game_temp.battle_abort = true
+    $game_temp.battle_calling = true
+    $game_temp.battle_troop_id = troop_id
+    $game_temp.battle_can_escape = false
+    $game_temp.battle_can_lose = false
+    $game_temp.battle_proc = proc do |n|
+      $game_system.battle_bgm = original_battle_bgm
+    end
   end
 
   # Find the normal position where the player should warp in a specific map

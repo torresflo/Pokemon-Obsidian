@@ -14,6 +14,7 @@ module GamePlay
       # @type [Hash{Symbol => Helper}]
       @options = {}
       @order = PSDK_CONFIG.options.order
+      @order.delete(:language) unless PSDK_CONFIG.choosable_language_code&.any?
       load_options
       @modified_options = []
       @index = 0

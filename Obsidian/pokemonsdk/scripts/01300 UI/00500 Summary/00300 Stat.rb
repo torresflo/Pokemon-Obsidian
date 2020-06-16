@@ -9,13 +9,7 @@ module UI
     # @param viewport [Viewport]
     def initialize(viewport)
       super(viewport, 0, 0, default_cache: :interface)
-      push(0, 0, 'summary/stats')
-      init_stats
-      ability_text = add_text(13, 138, 100, 16, text_get(33, 142) + ': ')
-      @ability_name = add_text(13 + ability_text.real_width, 138, 294, 16, :ability_name, type: SymText, color: 1)
-      @ability_descr = add_text(13, 138 + 16, 294, 16, :ability_descr, type: SymMultilineText)
-      @hp_container = add_sprite(11, 128, RPG::Cache.interface('menu_pokemon_hp'), rect: Rect.new(0, 0, 67, 6))
-      @hp = add_custom_sprite(create_hp_bar) # Copy/Paste from Party_Menu
+      init_sprite
     end
 
     # Set the Pokemon shown by the UI
@@ -30,6 +24,30 @@ module UI
         color = 0 if nature[i] == 100
         @stat_name_texts[i - 1].load_color(color)
       end
+    end
+
+    private
+
+    def init_sprite
+      create_background
+      init_stats
+      init_ability
+      @hp_container = create_hp_bg
+      @hp = add_custom_sprite(create_hp_bar) # Copy/Paste from Party_Menu
+    end
+
+    def create_background
+      push(0, 0, 'summary/stats')
+    end
+
+    def init_ability
+      ability_text = add_text(13, 138, 100, 16, text_get(33, 142) + ': ')
+      @ability_name = add_text(13 + ability_text.real_width, 138, 294, 16, :ability_name, type: SymText, color: 1)
+      @ability_descr = add_text(13, 138 + 16, 294, 16, :ability_descr, type: SymMultilineText)
+    end
+
+    def create_hp_bg
+      add_sprite(11, 128, RPG::Cache.interface('menu_pokemon_hp'), rect: Rect.new(0, 0, 67, 6))
     end
 
     # Init the stat texts

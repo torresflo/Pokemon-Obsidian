@@ -246,6 +246,7 @@ module BattleEngine
     :act_firesea => 0, #> Inflige des dégats tous les tours (1/8)
     :enn_firesea => 0, #> Inflige des dégats tous les tours (1/8)
 
+    :happy_hour => false, #> Étrennes
     :launcher_item => 0, #> Objet porté par le lanceur
     :target_item => 0, #>Objet porté par la cible
     :launcher_ability => 0, #>Talent du lanceur

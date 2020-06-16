@@ -6,10 +6,8 @@ module UI
       # @param viewport [Viewport]
       def initialize(viewport)
         super
-        set_position(166, 72)
-        set_bitmap('bag/arrow', :interface)
-        self.z = 4
         @counter = 0
+        init_sprite
       end
 
       # Update the arrow animation
@@ -21,6 +19,27 @@ module UI
           @counter = 0
         end
         @counter += 1
+      end
+
+      private
+
+      # Initialize the sprite
+      def init_sprite
+        set_position(*coordinates)
+        set_bitmap(image_name, :interface)
+        self.z = 4
+      end
+
+      # Return the coordinate of the sprite
+      # @return [Array<Integer>]
+      def coordinates
+        return 166, 72
+      end
+
+      # Return the name of the sprite
+      # @return [String]
+      def image_name
+        'bag/arrow'
       end
     end
   end

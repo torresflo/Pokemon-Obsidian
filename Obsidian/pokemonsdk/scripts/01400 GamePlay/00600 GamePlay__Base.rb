@@ -83,7 +83,6 @@ module GamePlay
     # Message the displays when a GamePlay scene has been initialized without message processing and try to display a message
     MESSAGE_ERROR = 'This interface has no MessageWindow, you cannot call display_message'
     ::PFM::Text.define_const(self)
-    include Sprites
     include Input
     # The viewport in which the scene is shown
     # @return [Viewport, nil]
@@ -112,7 +111,6 @@ module GamePlay
       message_initialize(no_message, message_z, message_viewport_args)
       # Store the current scene
       @__last_scene = $scene
-      _init_sprites
       message_soft_lock_prevent
     end
 

@@ -193,6 +193,20 @@ module BattleEngine
     end
   end
   #===
+  #>s_happy_hour
+  # Définition de l'attaque Étrennes
+  #---
+  #E : <BE_Model1>
+  #===
+  def s_happy_hour(launcher, target, skill, msg_push = true)
+    return unless __s_beg_step(launcher, target, skill, msg_push)
+    if @_State[:happy_hour]
+      _mp(MSG_Fail)
+    else
+      _message_stack_push([:happy_hour, launcher])
+    end
+  end
+  #===
   #>s_bind
   # Définition de l'attaque Etreinte
   #---
@@ -589,8 +603,17 @@ module BattleEngine
     elsif(target.hp == target.max_hp)
       _mp(MSG_Fail)
       return
+    # Heal Pulse fails if the target has a substitute
+    elsif(target.battle_effect.has_substitute_effect? && skill.id == 505)
+      _mp(MSG_Fail)
+      return
     end
-    hp = target.max_hp / 2
+    # Vibra Soin & Méga Blaster
+    if skill.id == 505 && Abilities.has_ability_usable(launcher, 177)
+      hp = target.max_hp * 3 / 4
+    else
+      hp = target.max_hp / 2
+    end
     _message_stack_push([:hp_up, target, hp])
     _message_stack_push([:msg, parse_text_with_pokemon(19, 387, target)])
   end
@@ -1060,9 +1083,24 @@ module BattleEngine
   # Demi-Tour / Change Eclair / Relais
   #===
   def s_u_turn(launcher, target, skill, msg_push = true)
-    return unless skill.id == 226 or s_basic(launcher, target, skill)
-    unless(launcher.position < 0 and !$game_temp.trainer_battle)
+    return unless skill.id == 226 || s_basic(launcher, target, skill)
+    unless(launcher.position < 0 && !$game_temp.trainer_battle)
       _mp([:switch_pokemon, launcher, nil])
+    end
+  end
+  #===
+  #>s_parting_shot
+  # Dernier Mot
+  #===
+  def s_parting_shot(launcher, target, skill, msg_push = true)
+    return false unless __s_beg_step(launcher, target, skill, msg_push)
+    unless(launcher.position >= 0 && !_can_switch(launcher))
+      _message_stack_push([:change_atk, target, -1])
+      _message_stack_push([:change_ats, target, -1])
+      _mp([:msg, parse_text_with_pokemon(19, 770, launcher, PKNICK[0] => launcher.given_name, TRNAME[1] => $trainer.name)])
+      _mp([:switch_pokemon, launcher, nil])
+    else
+      _mp(MSG_Fail)
     end
   end
   #===
@@ -1101,7 +1139,7 @@ module BattleEngine
     if(ls <= 0 or ls == skill.id or ls == 448 or ls == 165 or (!Abilities.has_ability_usable(target, 28) and (ls == 153 or ls == 120)))
       _mp(MSG_Fail)
     else
-      _mp([:msg, parse_text_with_pokemon(19, 691, launcher, MOVE[1] => ::GameData::Skill.name(ls))])
+      _mp([:msg, parse_text_with_pokemon(19, 691, launcher, MOVE[1] => ::GameData::Skill[ls].name)])
       _mp([:sketch, launcher, skill, ls])
     end
   end
@@ -1114,7 +1152,7 @@ module BattleEngine
     target = _magic_coat(launcher, target, skill)
     ls = target.last_skill
     if(ls > 0 and !target.battle_effect.has_disable_effect?)
-      _mp([:msg, parse_text_with_pokemon(19, 592, launcher, MOVE[1] => ::GameData::Skill.name(ls))])
+      _mp([:msg, parse_text_with_pokemon(19, 592, launcher, MOVE[1] => ::GameData::Skill[ls].name)])
       _mp([:apply_effect, target, :apply_disable, ls])
     else
       _mp(MSG_Fail)
@@ -1128,7 +1166,7 @@ module BattleEngine
     return false unless __s_beg_step(launcher, target, skill, msg_push)
     ls = target.last_skill
     if(ls > 0 and ls != 165 and ls != skill.id)
-      _mp([:msg, parse_text_with_pokemon(19, 688, launcher, MOVE[1] => ::GameData::Skill.name(ls))])
+      _mp([:msg, parse_text_with_pokemon(19, 688, launcher, MOVE[1] => ::GameData::Skill[ls].name)])
       _mp([:mimic, launcher, target, skill, ls])
     else
       _mp(MSG_Fail)
@@ -1143,7 +1181,7 @@ module BattleEngine
     target = _magic_coat(launcher, target, skill)
     ls = target.last_skill
     if(ls > 0 and ls != skill.id and ls != 165)
-      _mp([:msg, parse_text_with_pokemon(19, 559, target, MOVE[1] => ::GameData::Skill.name(ls))])
+      _mp([:msg, parse_text_with_pokemon(19, 559, target, MOVE[1] => ::GameData::Skill[ls].name)])
       _mp([:apply_effect, target, :apply_encore, target.find_skill(ls)])
     else
       _mp(MSG_Fail)
@@ -1160,7 +1198,7 @@ module BattleEngine
     skill = target.find_skill(ls)
     pp = skill ? (skill.pp < 4 ? skill.pp : 4) : 0
     if(ls > 0 and ls != 165 and pp > 0)
-      _mp([:msg, parse_text_with_pokemon(19, 641, target, MOVE[1] => ::GameData::Skill.name(ls), "[VAR NUM1(0002)]" => pp.to_s)])
+      _mp([:msg, parse_text_with_pokemon(19, 641, target, MOVE[1] => ::GameData::Skill[ls].name, "[VAR NUM1(0002)]" => pp.to_s)])
       _mp([:pp_down, target, skill, pp])
     else
       _mp(MSG_Fail)
@@ -1211,10 +1249,10 @@ module BattleEngine
     ti = target.battle_item
     #>Les mega Gemme devront spéficier un utilisateur !
     if(ti > 0 and li > 0)
-      data = ::GameData::Item.misc_data(ti)
+      data = ::GameData::Item[ti].misc_data
       #> Glue / Multi-type
       if(data and data.need_user_id != target.id and !Abilities.has_abilities(target, 45, 122))
-        data = ::GameData::Item.misc_data(li)
+        data = ::GameData::Item[li].misc_data
         if(data and data.need_user_id != launcher.id)
           _mp([:msg, parse_text_with_pokemon(19, 682, launcher)])
           _mp([:set_item, target, li])
@@ -1224,6 +1262,24 @@ module BattleEngine
       end
     end
     _mp(MSG_Fail)
+  end
+  #===
+  #>s_bestow
+  # Passe-Cadeau
+  #===
+  def s_bestow(launcher, target, skill, msg_push = true)
+    return false unless __s_beg_step(launcher, target, skill, msg_push)
+    li = launcher.battle_item
+    ti = target.battle_item
+    # If the target already holds an item or is under substitute
+    if ti > 0 || li == 0 || target.battle_effect.has_substitute_effect?
+      _mp(MSG_Fail)
+    else
+      # TODO : Cristal Z - Mega Gemme - Orbes et ROM de Silvallier impossible à donner
+      _mp([:msg, parse_text_with_pokemon(19, 1117, launcher, PKNICK[0] => target.given_name, ITEM2[2] => ::GameData::Item[li].name, PKNICK[1] => launcher.given_name)])
+      _mp([:set_item, target, li])
+      _mp([:set_item, launcher, -1])
+    end
   end
   #===
   #>s_embargo
@@ -1244,7 +1300,7 @@ module BattleEngine
     ti = target.battle_item
     #>Les mega Gemme devront spéficier un utilisateur !
     if(ti > 0 and ($game_temp.trainer_battle or launcher.position > 0))
-      data = ::GameData::Item.misc_data(ti)
+      data = ::GameData::Item[ti].misc_data
       #> Glue / Multi-type
       if(data and data.need_user_id != target.id and !Abilities.has_abilities(target, 45, 122))
         _mp([:msg, ::PFM::Text.parse_with_pokemons(19, 1063, launcher, target, ITEM2[2] => target.item_name)])
@@ -1266,7 +1322,7 @@ module BattleEngine
     ti = target.battle_item
     #>Les mega Gemme devront spéficier un utilisateur !
     if(ti > 0)
-      data = ::GameData::Item.misc_data(ti)
+      data = ::GameData::Item[ti].misc_data
       #> Glue / Multi-Type
       if(data and data.need_user_id != target.id and !Abilities.has_abilities(target, 45, 122))
         _mp([:msg, ::PFM::Text.parse_with_pokemons(19, 1056, launcher, target, ITEM2[2] => target.item_name)])
@@ -1288,7 +1344,7 @@ module BattleEngine
     if(ti == 0 and ie != 0 and !@_State[:knock_off].include?(target))
       target = _snatch_check(target, skill)
       _mp([:set_item, target, ie])
-      _mp([:msg, parse_text_with_pokemon(19, 490, target, ITEM2[1] => ::GameData::Item.name(ie))])
+      _mp([:msg, parse_text_with_pokemon(19, 490, target, ITEM2[1] => ::GameData::Item[ie].name)])
     else
       _mp(MSG_Fail)
     end
@@ -1301,11 +1357,11 @@ module BattleEngine
     return false unless s_basic(launcher, target, skill)
     ti = target.battle_item
     if(ti > 0)
-      data = ::GameData::Item.misc_data(ti)
+      data = ::GameData::Item[ti].misc_data
       if(data and data.berry)
-        _mp([:msg, parse_text_with_pokemon(19, 776, launcher, ITEM2[1] => ::GameData::Item.name(ti))])
-        #>Faire utiliser l'objet !!!!
-        _mp([:set_item, target, -1])
+        _mp([:msg, parse_text_with_pokemon(19, 776, launcher, ITEM2[1] => ::GameData::Item[ti].name)])
+        _mp([:berry_pluck, launcher, target])
+        _mp([:berry_cure, launcher, ::GameData::Item[ti].name])
       end
     end
   end
@@ -1532,7 +1588,7 @@ module BattleEngine
       target = _snatch_check(target, skill)
       _mp([:set_type, target, type, 1])
       _mp([:msg, parse_text_with_pokemon(19,899,target, 
-      '[VAR TYPE(0001)]' => GameData::Type.name(type))])
+      '[VAR TYPE(0001)]' => GameData::Type[type].name)])
     end
   end
   #===
@@ -1543,7 +1599,7 @@ module BattleEngine
     return false unless __s_beg_step(launcher, target, skill, msg_push)
     id_skill = target.last_skill
     if id_skill != 0
-      type = GameData::Skill.type(id_skill)
+      type = GameData::Skill[id_skill].type
     else
       type = launcher.type1
     end
@@ -1552,7 +1608,32 @@ module BattleEngine
     else
       _mp([:set_type, launcher, type, 1])
       _mp([:msg, parse_text_with_pokemon(19,899,launcher, 
-      '[VAR TYPE(0001)]' => GameData::Type.name(type))])
+      '[VAR TYPE(0001)]' => GameData::Type[type].name)])
+    end
+  end
+    #===
+  #>s_reflect_type
+  # Copie Type
+  #===
+  def s_reflect_type(launcher, target, skill, msg_push = true)
+    return false unless __s_beg_step(launcher, target, skill, msg_push)
+    target_types = [target.type1, target.type2, target.type3]
+    # If the target has no type (Burn Up) or if the launcher has the Multitype (Multi-Type) ability
+    if target_types[0] == 0 || Abilities.has_ability_usable(launcher, 122)
+      _mp(MSG_Fail)
+    # If the target has the same types as the launcher
+    elsif target_types[0] == launcher.type1 && target_types[1] == launcher.type2 && target_types[2] == launcher.type3
+      _mp(MSG_Fail)
+    else
+      target_types.each_index do |i|
+        unless target_types[i] == 0
+          _mp([:set_type, launcher, target_types[i], i + 1])
+          _mp([:msg, parse_text_with_pokemon(19,899,launcher, 
+          '[VAR TYPE(0001)]' => GameData::Type[target_types[i]].name)])
+        else
+          _mp([:set_type, launcher, target_types[i], i + 1])
+        end
+      end
     end
   end
   #===
@@ -1601,6 +1682,193 @@ module BattleEngine
     else
       _mp([:apply_effect, target, :apply_telekinesis])
       _mp([:msg, parse_text_with_pokemon(19, 1146, target)])
+    end
+  end
+  #===
+  #>s_flame_burst
+  # Rebondifeu
+  #===
+  def s_flame_burst(launcher, target, skill, msg_push = true)
+    return false unless s_basic(launcher, target, skill)
+    # If the target has the Flash Fire (Torche) ability, no side effect
+    unless(Abilities.has_abilities(target, 18))
+      # launcher's adjacents allies take damages
+      get_ally(launcher).each { |i| _mp([:hp_down, i, i.max_hp/16]) }
+    end
+  end
+  #==
+  #>s_origin_pulse
+  #--
+  #E : <BE_Modell>
+  #--
+  # Deals damage to all adjacent opponents. It's power is boosted by 50% when used by a Pokémon with the ability Mega Launcher
+  #--
+  def s_origin_pulse(launcher, target, skill, msg_push = true)
+    
+    #If the user has mega launcher ability
+    if launcher.ability_db_symbol == :mega_launcher
+      skill.power2 = skill.power * 1.5
+    end
+    s_basic(launcher, target, skill)
+    skill.power2 = nil
+  end
+  
+  #==
+  #>s_shore_up
+  #--
+  #E : <BE_Modell>
+  #--
+  # User regains up to half of it's max HP, or 2/3 of max HP if in a sandstorm.
+  #--
+  def s_shore_up(launcher, target, skill, msg_push=true)
+    #Message that says Pokemon used move
+    if launcher.hp != launcher.max_hp
+      return false unless __s_beg_step(launcher, target, skill, msg_push)
+      #If sandstorm heal 2/3 max HP
+      if $env.sandstorm?
+        hp = (launcher.max_hp * 2/3)
+      else
+      #If no sandstorm heal 1/2 max HP
+        hp = (launcher.max_hp * 1/2)
+      end
+      #Message that says Pokemon gained HP
+      _message_stack_push([:hp_up, launcher, hp])
+      return true
+    else
+      #Gives fail message
+      _message_stack_push([:use_skill_msg, launcher, target, skill]) if msg_push
+      _message_stack_push(MSG_Fail)
+      return false
+    end
+  end
+  
+  #==
+  #>s_first_impression
+  #--
+  #E : <BE_Modell>
+  #--
+  # The move has priority of +2, first impression fails if used after first turn.
+  #--
+  def s_first_impression(launcher, target, skill, msg_push=true)
+    #Message that says Pokemon used move
+    if(launcher.battle_effect.nb_of_turn_here == 1)
+      s_basic(launcher, target, skill)
+      return true
+    else
+      #Gives fail message
+      _message_stack_push([:use_skill_msg, launcher, target, skill]) if msg_push
+      _message_stack_push(MSG_Fail)
+      return false
+    end
+  end
+  
+  #==
+  #>s_spirit_shackle
+  #--
+  #E : <BE_Modell>
+  #--
+  # This move inflicts damage and prevents foes from fleeing or switching out UNLESS they have wimp out, emergency exit or holding a
+  # red card, shed shell, or eject button
+  #==
+  def s_spirit_shackle(launcher, target, skill, msg_push=true)
+    #If it does damage
+    if s_basic(launcher, target, skill)
+      #If they have these moves or abilities it won't trap
+      unless target.ability_db_symbol == :wimp_out || target.ability_db_symbol == :emergency_exit || target.item_db_symbol == :red_card ||
+             target.item_db_symbol == :shed_shell || target.item_db_symbol == :eject_button
+        #Trap if they don't have moves and abilities above
+        _mp([:apply_effect,target, :apply_cant_flee, launcher])
+      end
+    end
+  end
+  
+  #==
+  #>s_sparkling_aria
+  #--
+  #E : <BE_Modell>
+  #--
+  # This move inflicts damage to everyone around you (this includes allies) and cures burn if hit. If Pokémon hit has soundproof, dry skin,
+  # storm drain, or water absorbed they are not affected (burns do not get cured).
+  #==
+  def s_sparkling_aria(launcher, target, skill, msg_push=true)
+    #If it does damage
+    if s_basic(launcher, target, skill)
+      #If the target is burned
+      if target.status == 3
+        #Set status to 0 (none)
+        #target.status = 0
+        #Give the cure message
+        _mp([:status_cure, target])
+      end
+    end
+  end
+  
+  #==
+  #>s_strength_sap
+  #--
+  #E : <BE_Modell>
+  #==
+  def s_strength_sap(launcher, target, skill, msg_push = true)
+	return false unless __s_beg_step(launcher, target, skill, msg_push)
+	
+	#Checks if target's current attack is greater than it's max attack / 4 (Basically, if it's -6 attack the move fails)
+	if target.atk >= (target.atk_basis / 4 + 1)
+		#Sets hp gained to target's attack
+		hp = (target.atk).to_i
+		
+		#If you have big root increase hp gained by 30%
+		hp = hp*130/100 if(_has_item(launcher, 296))
+		
+		#If the target has liquid ooze
+		if target.ability == 36
+		  _message_stack_push([:hp_down, launcher, hp])
+		  _message_stack_push([:msg, parse_text_with_pokemon(19, 457, launcher)])
+		#Else if heal block is active
+		elsif(!launcher.battle_effect.has_heal_block_effect?)
+		  #Checks the clone (I have no idea what that means. It's used in abosrb, though.)
+		  _message_stack_push([:hp_up, launcher, hp])
+		  _message_stack_push([:msg, parse_text_with_pokemon(19, 905, target)])
+		else
+		  _mp([:msg, parse_text_with_pokemon(19,890, launcher)])
+		end
+		__s_stat_us_step(launcher, target, skill, nil, 100)
+		#Lowers the target's attack by 1
+		_message_stack_push([:change_atk, target, -1])
+		return true
+	#If the target's current attack is less than it's attack is -6 give fail message
+	else
+		#Gives fail message
+		_message_stack_push(MSG_Fail)
+        return false
+	end	
+  end
+
+  #==
+  #>s_toxic_thread
+  #--
+  #E : <Be_Modell>
+  #--
+  # Lowers the target's speed stat by one and poisons the target. If the target can't be poisoned (steel type, poison type, or 
+  # has a status condition already) it will still lower the speed and vice-versa. If speed can't be lowered because of clear body 
+  # or speed is already -6 it can still poison.
+  #==
+  def s_toxic_thread(launcher, target, skill, msg_push=true)
+    #Checks if target's speed is already -6 or has a status already
+    if target.spd >= (target.spd_basis / 4 + 1)
+      __s_stat_us_step(launcher, target, skill, nil, 100)
+      #Lowers the target's speed by 1
+      _message_stack_push([:change_spd, target, -6])
+    end
+    #Checks if target has no status and doesn't have clear body
+    if target.status == 0
+      #Applies toxic status
+      target.status = 8
+    end
+    #If target speed is -6 and has a status move fails
+    if target.spd <= (target.spd_basis / 4 + 1) && target.status != 0
+      #Gives fail message
+      _message_stack_push(MSG_Fail)
+      return false
     end
   end
 end

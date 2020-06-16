@@ -50,10 +50,12 @@ module BattleUI
     def start_animation_KO
       cry(true)
       @animation = proc do
-        src_rect.height -= 1
+        src_rect.height -= 2
+        self.y += 2
         self.opacity -= 15
         if opacity <= 0
           @animation = nil
+          reset_position
           src_rect.height = bitmap.height
         end
       end

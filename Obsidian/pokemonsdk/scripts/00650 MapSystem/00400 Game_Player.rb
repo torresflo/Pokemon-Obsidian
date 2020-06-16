@@ -23,14 +23,14 @@ class Game_Player < Game_Character
   # @param x [Integer] the x position on the MAP
   # @param y [Integer] the y position on the MAP
   def center(x, y)
-    if Game_Map::CenterPlayer
-      $game_map.display_x = x * 128 - CENTER_X
-      $game_map.display_y = y * 128 - CENTER_Y
-    else
-      max_x = ($game_map.width - 20) * 128
-      max_y = ($game_map.height - 15) * 128
+    if $game_map.maplinker_disabled
+      max_x = ($game_map.width - Game_Map::NUM_TILE_VIEW_X) * 128
+      max_y = ($game_map.height - Game_Map::NUM_TILE_VIEW_Y) * 128
       $game_map.display_x = (x * 128 - CENTER_X).clamp(0, max_x) # [0, [x * 128 - CENTER_X, max_x].min].max
       $game_map.display_y = (y * 128 - CENTER_Y).clamp(0, max_y) # [0, [y * 128 - CENTER_Y, max_y].min].max
+    else
+      $game_map.display_x = x * 128 - CENTER_X
+      $game_map.display_y = y * 128 - CENTER_Y
     end
   end
 
@@ -174,7 +174,8 @@ class Game_Player < Game_Character
   def update_check_trigger(last_moving)
     if last_moving && !check_event_trigger_here([1, 2])
       unless debug? && Input.press?(:CTRL)
-        @encounter_count -= 1 if @encounter_count > 0
+        @encounter_count -= 1 if @encounter_count > 1
+        make_encounter_count if @encounter_count <= 1
       end
     end
     return unless Input.trigger?(:A)

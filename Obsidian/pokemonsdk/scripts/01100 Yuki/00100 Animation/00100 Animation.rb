@@ -255,6 +255,22 @@ module Yuki
                         distortion: distortion, time_source: time_source)
     end
 
+    # Create a move animation (from a to b) with discreet values (Integer)
+    # @param during [Float] number of seconds (with generic time) to process the animation
+    # @param on [Object] object that will receive the property
+    # @param start_x [Float, Symbol] start x
+    # @param start_y [Float, Symbol] start y
+    # @param end_x [Float, Symbol] end x
+    # @param end_y [Float, Symbol] end y
+    # @param distortion [#call, Symbol] callable taking one paramater (between 0 & 1) and
+    # convert it to another number (between 0 & 1) in order to distord time
+    # @param time_source [#call, Symbol] callable taking no parameter and giving the current time
+    def move_discreet(during, on, start_x, start_y, end_x, end_y, distortion: :UNICITY_DISTORTION,
+                      time_source: :GENERIC_TIME_SOURCE)
+      Dim2AnimationDiscreet.new(during, on, :set_position, start_x, start_y, end_x, end_y,
+                                distortion: distortion, time_source: time_source)
+    end
+
     # Create a origin pixel shift animation (from a to b inside the bitmap)
     # @param during [Float] number of seconds (with generic time) to process the animation
     # @param on [Object] object that will receive the property
@@ -371,6 +387,7 @@ module Yuki
         super
         @on = resolve(@on)
         @origin = resolve(@origin)
+        @base = @origin
         @end = resolve(@end)
         @delta = resolve(@end) - @origin + 1
         @end, @origin = @origin, @end if @end < @origin
@@ -382,7 +399,49 @@ module Yuki
       # Update the scalar animation
       # @param time_factor [Float] number between 0 & 1 indicating the progression of the animation
       def update_internal(time_factor)
-        @on.send(@property, (@origin + @delta * time_factor).to_i.clamp(@origin, @end) * @factor)
+        @on.send(@property, (@base + @delta * time_factor).to_i.clamp(@origin, @end) * @factor)
+      end
+    end
+
+    # Class that perform a 2D animation (from point a to point b)
+    class Dim2AnimationDiscreet < TimedAnimation
+      # Create a new ScalarAnimation
+      # @param time_to_process [Float] number of seconds (with generic time) to process the animation
+      # @param on [Object] object that will receive the property
+      # @param property [Symbol] name of the property to affect (add the = sign in the symbol name)
+      # @param a [Float, Symbol] origin position
+      # @param b [Float, Symbol] destination position
+      # @param distortion [#call, Symbol] callable taking one paramater (between 0 & 1) and
+      # convert it to another number (between 0 & 1) in order to distord time
+      # @param time_source [#call, Symbol] callable taking no parameter and giving the current time
+      def initialize(time_to_process, on, property, a_x, a_y, b_x, b_y, distortion: :UNICITY_DISTORTION,
+                     time_source: :GENERIC_TIME_SOURCE)
+        super(time_to_process, distortion, time_source)
+        @origin_x = a_x
+        @origin_y = a_y
+        @end_x = b_x
+        @end_y = b_y
+        @on = on
+        @property = property
+      end
+
+      # Start the animation (initialize it)
+      # @param begin_offset [Float] offset that prevents the animation from starting before now + begin_offset seconds
+      def start(begin_offset = 0)
+        super
+        @on = resolve(@on)
+        @origin_x = resolve(@origin_x)
+        @origin_y = resolve(@origin_y)
+        @delta_x = resolve(@end_x) - @origin_x
+        @delta_y = resolve(@end_y) - @origin_y
+      end
+
+      private
+
+      # Update the scalar animation
+      # @param time_factor [Float] number between 0 & 1 indicating the progression of the animation
+      def update_internal(time_factor)
+        @on.send(@property, (@origin_x + @delta_x * time_factor).to_i, (@origin_y + @delta_y * time_factor).to_i)
       end
     end
   end

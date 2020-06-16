@@ -103,6 +103,7 @@ module GamePlay
     def update_switch_pokemon
       @pokemon = @party[@party_index]
       @index = 0 if @pokemon.egg?
+      $game_system.se_play($data_system.decision_se)
       update_pokemon
     end
 

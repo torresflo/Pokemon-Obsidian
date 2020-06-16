@@ -24,7 +24,8 @@ module Util
       give_nickname_question: [:ext_text, 8999, 16],
       is_nickname_correct_qesion: [:ext_text, 8999, 17],
       pokemon_stored_to_box: [:ext_text, 8999, 18],
-      bag_store_item_in_pocket: [:text_get, 41, 9]
+      bag_store_item_in_pocket: [:text_get, 41, 9],
+      pokemon_shop_unavailable: [:ext_text, 9003, 1]
     }
     # Capture regexp
     HAS_NUMBER_REG = /_([0-9]+)$/

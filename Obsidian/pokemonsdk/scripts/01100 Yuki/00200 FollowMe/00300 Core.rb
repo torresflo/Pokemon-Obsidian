@@ -185,18 +185,13 @@ module Yuki
     # Sets the position of each follower (Warp)
     # @param args [Array<Integer, Integer, Integer>] array of x, y, direction
     def set_positions(*args)
-      width = $game_map.width - 1
-      height = $game_map.height - 1
       x = y = 0
       (args.size / 3).times do |i|
-        next unless v = @followers[i]
+        next unless (v = @followers[i])
+
         c = v.character
         x = args[i * 3]
         y = args[i * 3 + 1]
-        x = width if x > width
-        y = height if y > height
-        x = 0 if x < 0
-        y = 0 if y < 0
         c.moveto(x, y)
         c.direction = args[i * 3 + 2]
         c.update
@@ -280,3 +275,9 @@ module Yuki
     end
   end
 end
+Hooks.register(Spriteset_Map, :init_psdk_add) { Yuki::FollowMe.init(@viewport1) }
+Hooks.register(Spriteset_Map, :init_player_begin) do
+  Yuki::FollowMe.update
+  Yuki::FollowMe.particle_push
+end
+Hooks.register(Spriteset_Map, :update) { Yuki::FollowMe.update }

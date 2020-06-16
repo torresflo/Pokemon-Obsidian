@@ -71,7 +71,6 @@ class Scene_Battle
     PSP.animation(spb,id) if $options.show_animation
   end
 
-  ShinyAnimation = load_data("Data/Animations/Shiny.dat")
   def animation_shiny(target, is_sprite = false)
     unless is_sprite
       enn=(target.position<0)
@@ -80,7 +79,7 @@ class Scene_Battle
       spb=spa=target
     end
     if $options.show_animation
-      @animator = Yuki::Basic_Animator.new(ShinyAnimation, spa, spb)
+      @animator = Yuki::Basic_Animator.new(load_data("Data/Animations/Shiny.dat"), spa, spb)
       while @animator.update
         @viewport.sort_z
         Graphics.update unless Input.press?(:B)

@@ -167,7 +167,7 @@ module GamePlay
       end
       str = "Pokémon"
       if id = data[:type]
-        str << format(ext_text(9000, 63), GameData::Type.get(id).name) # " de type #{GameData::Type.get(id).name}"
+        str << format(ext_text(9000, 63), GameData::Type[id].name) # " de type #{GameData::Type[id].name}"
       end
       if id = data[:nature]
         str << format(ext_text(9000, 64), text_get(8, id)) # " ayant la nature #{text_get(8, id)}"

@@ -25,6 +25,8 @@ module GamePlay
       @text = Text.new(0, viewport, 0, 8 - Text::Util::FOY, bitmap.width - 10, 16, nil.to_s, align)
       @text.y -= 8 if(@text.text_width(text) > @text.width)
       @text.multiline_text = text
+      @text.load_color(9)
+      Audio.se_play(_utf8("audio/se/Ability_Display"))
       @pokemon = pokemon
       ajust_position
       move_to(pokemon.position < 0 ? 320 - self.bitmap.width : 0, self.y, 10)

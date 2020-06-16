@@ -61,9 +61,10 @@ module PFM
     # @param item_id [Integer] ID of the item in the database
     # @return [Hash] the Hash descriptor defined at the top of the doc page
     def actions(item_id)
+      item = GameData::Item[item_id]
       # If the item exists
-      return NoEffect unless GameData::Item.id_valid?(item_id)
-      item = GameData::Item.all[item_id]
+      return NoEffect unless GameData::Item.id_valid?(item.id)
+
       sym = item.db_symbol
       # If the item is usable in this context
       if $game_temp.in_battle
@@ -207,7 +208,7 @@ module PFM
               #> Si c'est l'adversaire ou un sur le terrain on doit traiter la chose différement
               if(pkmn.position and pkmn.position <= $game_temp.vs_type)
                 be._mp([:status_cure, pkmn]) if states.include?(pkmn.status)
-                be._mp([:confuse_cure, pkmn, GameData::Item.name(item_id)]) if states.include?(GameData::States::CONFUSED)
+                be._mp([:confuse_cure, pkmn, GameData::Item[item_id].name]) if states.include?(GameData::States::CONFUSED)
               else
                 be._mp([:set_status, pkmn, 0])
                 be._msgp(22, BagStatesHeal[pkmn.status], nil, be::PKNICK[0] => pkmn.given_name)
@@ -348,7 +349,7 @@ module PFM
             result = false
             pkmn.skills_set.each do |skill|
               next unless skill
-              if((GameData::Skill.pp_max(skill.id) * 8 / 5) > skill.ppmax)
+              if((skill.data.pp_max * 8 / 5) > skill.ppmax)
                 result = true
                 break
               end
@@ -361,13 +362,13 @@ module PFM
           hash[:skill_message_id] = 35
           #> L'attaque choisie ne doit pas avoir les PP au max
           hash[:on_skill_choice] = proc do |skill|
-            (GameData::Skill.pp_max(skill.id) * 8 / 5) > skill.ppmax
+            (skill.data.pp_max * 8 / 5) > skill.ppmax
           end
           hash[:on_skill_use] = proc do |pkmn, skill|
             if pp == 2
-              skill.ppmax = GameData::Skill.pp_max(skill.id) * 8 / 5
+              skill.ppmax = skill.data.pp_max * 8 / 5
             else
-              skill.ppmax += GameData::Skill.pp_max(skill.id) * 1 / 5
+              skill.ppmax += skill.data.pp_max * 1 / 5
             end
             skill.pp += 99
             $scene.display_message(parse_text(22, 117, be::MOVE[0] => skill.name))
@@ -397,8 +398,8 @@ module PFM
                 end
                 pkmn.check_skill_and_learn
                 #>Vérification évolution
-                id = pkmn.evolve_check(:level_up)
-                $scene.call_scene(::GamePlay::Evolve, pkmn, id, false) if(id)
+                id, form = pkmn.evolve_check(:level_up)
+                $scene.call_scene(::GamePlay::Evolve, pkmn, id, form, false) if(id)
               end
             end
             pkmn.loyalty += heal_data.loyalty if heal_data.loyalty
@@ -465,14 +466,14 @@ module PFM
           end
           hash[:stone_evolve] = true
           hash[:on_pokemon_use] = proc do |pkmn|
-            id = pkmn.evolve_check(:stone, item_id)
+            id, form = pkmn.evolve_check(:stone, item_id)
             _last_scene = $scene
             $scene.__result_process = proc do |scene|
               _last_scene.running = false
               $bag.add_item(item_id, 1) unless scene.evolved
             end
             #$scene.call_scene(::GamePlay::Evolve, pkmn, id, true)
-            scene = ::GamePlay::Evolve.new(pkmn, id, true)
+            scene = ::GamePlay::Evolve.new(pkmn, id, form, true)
             scene.main
           end
         end

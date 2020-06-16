@@ -7,6 +7,8 @@ module GamePlay
     # When player wants to use the item
     def use_item
       item_id = @item_list[index = @index]
+      return play_buzzer_se unless $bag.contain_item?(item_id)
+
       util_item_useitem(item_id) do
         @base_ui.hide_win_text
         hide_shadow_frame
@@ -18,7 +20,8 @@ module GamePlay
     def use_item_in_battle
       item_id = @item_list[index = @index]
       return action_b if item_id == nil
-      return play_buzzer_se unless GameData::Item.battle_usable?(item_id)
+      return play_buzzer_se unless GameData::Item[item_id].battle_usable
+
       play_decision_se
       util_item_useitem(item_id)
       update_bag_ui_after_action(index)
@@ -37,7 +40,10 @@ module GamePlay
 
     # When the player wants to give an item
     def give_item
-      call_scene(Party_Menu, $actors, :hold, @item_list[index = @index]) do
+      item_id = @item_list[index = @index]
+      return play_buzzer_se unless $bag.contain_item?(item_id)
+
+      call_scene(Party_Menu, $actors, :hold, item_id) do
         @base_ui.hide_win_text
         hide_shadow_frame
         update_bag_ui_after_action(index)
@@ -92,10 +98,12 @@ module GamePlay
     # When the player wants to throw an item
     def throw_item
       item_id = @item_list[index = @index]
+      return play_buzzer_se unless $bag.contain_item?(item_id)
+
       $game_temp.num_input_variable_id = Yuki::Var::EnteredNumber
       $game_temp.num_input_digits_max = $bag.item_quantity(item_id).to_s.size
       $game_temp.num_input_start = $bag.item_quantity(item_id)
-      PFM::Text.set_item_name(GameData::Item.exact_name(item_id))
+      PFM::Text.set_item_name(GameData::Item[item_id].exact_name)
       display_message(parse_text(22, 38))
       value = $game_variables[Yuki::Var::EnteredNumber]
       if value > 0
@@ -169,12 +177,12 @@ module GamePlay
       # First attempt
       gdi = GameData::Item
       searching = Regexp.new(@searching + char, true)
-      results = @item_ids.select { |id| gdi.exact_name(id) =~ searching && $bag.contain_item?(id) }
+      results = @item_ids.select { |id| gdi[id].exact_name =~ searching && $bag.contain_item?(id) }
       if results.empty?
         # Try with other . instead
         char = '.'
         searching = Regexp.new(@searching + char, true)
-        results = @item_ids.select { |id| gdi.exact_name(id) =~ searching && $bag.contain_item?(id) }
+        results = @item_ids.select { |id| gdi[id].exact_name =~ searching && $bag.contain_item?(id) }
       end
       @item_list = results
       @last_index = results.size
@@ -191,7 +199,7 @@ module GamePlay
       @searching.chop!
       gdi = GameData::Item
       searching = Regexp.new(@searching, true)
-      results = @item_ids.select { |id| gdi.exact_name(id) =~ searching && $bag.contain_item?(id) }
+      results = @item_ids.select { |id| gdi[id].exact_name =~ searching && $bag.contain_item?(id) }
       @item_list = results
       @last_index = results.size
       update_search_info
@@ -211,8 +219,8 @@ module GamePlay
       play_decision_se
       item_id = @item_list[@index]
       return action_b if item_id == nil
-      price = GameData::Item.price(item_id) / 2
-      PFM::Text.set_item_name(GameData::Item.exact_name(item_id))
+      price = GameData::Item[item_id].price / 2
+      PFM::Text.set_item_name(GameData::Item[item_id].exact_name)
       if price > 0
         $game_temp.num_input_variable_id = ::Yuki::Var::EnteredNumber
         $game_temp.num_input_digits_max = $bag.item_quantity(item_id).to_s.size

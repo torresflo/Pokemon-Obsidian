@@ -53,7 +53,7 @@ module PFM
       return unless mega_evolution
       @mega_evolved = [@form, @ability]
       @form = mega_evolution
-      @ability_current = @ability = GameData::Pokemon.get_data(@id, @form).abilities[rand(3)]
+      @ability_current = @ability = data.abilities[rand(3)]
     end
 
     # Reset the Pokemon to its normal form after mega evolution

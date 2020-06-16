@@ -26,36 +26,103 @@ module GameData
     # Kind of move 1 = Physical, 2 = Special, 3 = Status
     # @return [Integer]
     attr_accessor :atk_class
-    # If the move is a direct move or not
-    # @return [Boolean]
-    attr_accessor :direct
     # Critical rate indicator : 0 => 0, 1 => 6.25%, 2 => 12.5%, 3 => 25%, 4 => 33%, 5 => 50%, 6 => 100%
     # @return [Integer]
     attr_accessor :critical_rate
     # Priority of the move
     # @return [Integer]
     attr_accessor :priority
+    # If the move makes conctact.
+    # PokeAPI Prose: User touches the target.  This triggers some abilities (e.g., []{ability:static}) and
+    # items (e.g., []{item:sticky-barb}).
+    # @return [Boolean]
+    attr_accessor :direct
+    alias contact direct
+    alias contact= direct=
+    # If the move is a charging move
+    # PokeAPI Prose: This move has a charging turn that can be skipped with a []{item:power-herb}.
+    # @return [Boolean]
+    attr_accessor :charge
+    # If the move requires recharging turn
+    # PokeAPI Prose : The turn after this move is used, the Pokemon's action is skipped so it can recharge.
+    # @return [Boolean]
+    attr_accessor :recharge
     # If the move is affected by Detect or Protect
+    # PokeAPI Prose : This move will not work if the target has used []{move:detect} or []{move:protect} this turn.
     # @return [Boolean]
     attr_accessor :blocable
+    alias protect blocable
+    alias protect= blocable=
     # If the move is affected by Snatch
+    # PokeAPI Prose : This move will be stolen if another Pokemon has used []{move:snatch} this turn.
     # @return [Boolean]
     attr_accessor :snatchable
     # If the move can be used by Mirror Move
+    # PokeAPI Prose : A Pokemon targeted by this move can use []{move:mirror-move} to copy it.
     # @return [Boolean]
     attr_accessor :mirror_move
+    # If the move is punch based
+    # PokeAPI Prose : This move has 1.2x its usual power when used by a Pokemon with []{ability:iron-fist}.
+    # @return [Boolean]
+    attr_accessor :punch
     # If the move is affected by Gravity
+    # PokeAPI Prose : This move cannot be used in high []{move:gravity}.
     # @return [Boolean]
     attr_accessor :gravity
     # If the move is affected by Magic Coat
+    # PokeAPI Prose : This move may be reflected back at the user with []{move:magic-coat} or []{ability:magic-bounce}.
     # @return [Boolean]
     attr_accessor :magic_coat_affected
+    alias reflectable magic_coat_affected
+    alias reflectable= magic_coat_affected=
     # If the move unfreeze the opponent Pokemon
+    # PokeAPI Prose : This move can be used while frozen to force the Pokemon to defrost.
     # @return [Boolean]
     attr_accessor :unfreeze
     # If the move is a sound attack
+    # PokeAPI Prose : Pokemon with []{ability:soundproof} are immune to this move.
     # @return [Boolean]
     attr_accessor :sound_attack
+    # If the move can reach any target of the specied side/bank
+    # PokeAPI Prose : In triple battles, this move can be used on either side to target the farthest away foe Pokemon.
+    # @return [Boolean]
+    attr_accessor :distance
+    # If the move can be blocked by Heal Block
+    # PokeAPI Prose : This move is blocked by []{move:heal-block}.
+    # @return [Boolean]
+    attr_accessor :heal
+    # If the move ignore the substitute
+    # PokeAPI Prose : This move ignores the target's []{move:substitute}.
+    # @return [Boolean]
+    attr_accessor :authentic
+    # If the move is a powder move
+    # PokeAPI Prose : Pokemon with []{ability:overcoat} and []{type:grass}-type Pokemon are immune to this move.
+    # @return [Boolean]
+    attr_accessor :powder
+    # If the move is bite based
+    # PokeAPI Prose : This move has 1.5x its usual power when used by a Pokemon with []{ability:strong-jaw}.
+    # @return [Boolean]
+    attr_accessor :bite
+    # If the move is pulse based
+    # PokeAPI Prose : This move has 1.5x its usual power when used by a Pokemon with []{ability:mega-launcher}.
+    # @return [Boolean]
+    attr_accessor :pulse
+    # If the move is a ballistics move
+    # PokeAPI Prose : This move is blocked by []{ability:bulletproof}.
+    # @return [Boolean]
+    attr_accessor :ballistics
+    # If the move has mental effect
+    # PokeAPI Prose : This move is blocked by []{ability:aroma-veil} and cured by []{item:mental-herb}.
+    # @return [Boolean]
+    attr_accessor :mental
+    # If the move cannot be used in Fly Battles
+    # PokeAPI Prose : This move is unusable during Sky Battles.
+    # @return [Boolean]
+    attr_accessor :non_sky_battle
+    # If the move is a dancing move
+    # PokeAPI Prose : This move triggers []{ability:dancer}.
+    # @return [Boolean]
+    attr_accessor :dance
     # If the move triggers King's Rock
     # @return [Boolean]
     attr_accessor :king_rock_utility
@@ -98,57 +165,80 @@ module GameData
                         dizzy_punch drain_punch karate_chop]
 
     # Create a new GameData::Skill object
-    def initialize(map_use, be_method, type, power, accuracy, pp_max, target, 
-      atk_class, direct, critical_rate, priority, blocable, snatchable, gravity,
-      magic_coat_affected, mirror_move, unfreeze, sound_attack, 
-      king_rock_utility, effect_chance, battle_stage_mod, status)
-      @map_use = map_use
-      @be_method = be_method
-      @type = type
-      @power = power
-      @accuracy = accuracy
-      @pp_max = pp_max
-      @target = target
-      @atk_class = atk_class
-      @direct = direct
-      @critical_rate = critical_rate
-      @priority = priority
-      @blocable = blocable
-      @snatchable = snatchable
-      @gravity = gravity
-      @magic_coat_affected = magic_coat_affected
-      @mirror_move = mirror_move
-      @unfreeze = unfreeze
-      @sound_attack = sound_attack
-      @king_rock_utility = king_rock_utility
-      @effect_chance = effect_chance
-      @battle_stage_mod = battle_stage_mod
-      @status = status
+    def initialize
+      super
+      @map_use = 0
+      @be_method = :s_basic
+      @type = 0
+      @power = 0
+      @accuracy = 0
+      @pp_max = 5
+      @target = :none
+      @atk_class = 2
+      @direct = false
+      @critical_rate = 0
+      @priority = 0
+      @blocable = false
+      @snatchable = false
+      @gravity = false
+      @magic_coat_affected = false
+      @mirror_move = false
+      @unfreeze = false
+      @sound_attack = false
+      @king_rock_utility = false
+      @effect_chance = 0
+      @battle_stage_mod = [0, 0, 0, 0, 0, 0, 0, 0]
+      @status = 0
+      @charge = false
+      @recharge = false
+      @punch = false
+      @distance = false
+      @heal = false
+      @authentic = false
+      @powder = false
+      @pulse = false
+      @ballistics = false
+      @mental = false
+      @non_sky_battle = false
+      @dance = false
+    end
+
+    # Return the name of the move
+    # @return [String]
+    def name
+      GameData::Skill.id_valid?(@id) ? text_get(6, @id) : '???'
     end
 
     # Is the move a punch move ?
     # @return [Boolean]
     def punching?
-      return Punching_Moves.include?(@db_symbol)
+      return @punch || Punching_Moves.include?(@db_symbol)
     end
+
+    # Is the move a sleeping attack ?
+    # @return [Boolean]
+    def sleeping_attack?
+      SleepingAttack.include?(db_symbol)
+    end
+
+    # Get the out of reach type of the move
+    # @return [Integer, nil] nil if not an oor move
+    def out_of_reach_type
+      return OutOfReach[db_symbol]
+    end
+
     class << self
       # All the skill
+      # @type [Array<GameData::Skill>]
       @data = []
-      # Safely return the name of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [String]
-      def name(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return text_get(6, id) if id_valid?(id)
-        return '???'
-      end
 
-      # Safely tell if a move works when the Pokemon is asleep
-      # @param id [Symbol, Integer] db_symbol or id of the move in the database
-      # @return [Boolean]
-      def is_sleeping_attack?(id)
-        id = db_symbol(id) if id.is_a?(Integer)
-        SleepingAttack.include?(id)
+      # Get a move by its ID or DB Symbol
+      # @param id [Integer, Symbol] ID of the move in database
+      # @return [GameData::Skill]
+      def [](id)
+        id = get_id(id) if id.is_a?(Symbol)
+        id = 0 unless id.is_a?(Integer) && id_valid?(id)
+        return @data[id]
       end
 
       # Safely return the out of reach type of a move
@@ -177,250 +267,30 @@ module GameData
         return Announce_2turns[id]
       end
 
-      # Safely return the map_use info of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer]
-      def map_use(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].map_use if id_valid?(id)
-        return @data[0].map_use
-      end
-
-      # Safely return the be_method of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Symbol]
-      def be_method(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].be_method if id_valid?(id)
-        return @data[0].be_method
-      end
-
-      # Safely return the type of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer]
-      def type(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].type if id_valid?(id)
-        return @data[0].type
-      end
-
-      # Safely return the power of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer]
-      def power(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].power if id_valid?(id)
-        return @data[0].power
-      end
-
-      # Safely return the accuracy of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer]
-      def accuracy(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].accuracy if id_valid?(id)
-        return @data[0].accuracy
-      end
-
-      # Safely return the pp_max of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer]
-      def pp_max(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].pp_max if id_valid?(id)
-        return @data[0].pp_max
-      end
-
-      # Safely return the target of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Symbol]
-      def target(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].target if id_valid?(id)
-        return @data[0].target
-      end
-
-      # Safely return the atk_class of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer]
-      def atk_class(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].atk_class if id_valid?(id)
-        return @data[0].atk_class
-      end
-
-      # Safely return the direct attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Boolean]
-      def direct(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].direct if id_valid?(id)
-        return @data[0].direct
-      end
-
-      # Safely return the critical_rate attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer]
-      def critical_rate(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].critical_rate if id_valid?(id)
-        return @data[0].critical_rate
-      end
-
-      # Safely return the priority attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer]
-      def priority(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].priority if id_valid?(id)
-        return @data[0].priority
-      end
-
-      # Safely return the blocable attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Boolean]
-      def blocable(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].blocable if id_valid?(id)
-        return @data[0].blocable
-      end
-
-      # Safely return the snatchable attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Boolean]
-      def snatchable(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].snatchable if id_valid?(id)
-        return @data[0].snatchable
-      end
-
-      # Safely return the gravity attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Boolean]
-      def gravity(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].gravity if id_valid?(id)
-        return @data[0].gravity
-      end
-
-      # Safely return the magic_coat_affected attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Boolean]
-      def magic_coat_affected(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].magic_coat_affected if id_valid?(id)
-        return @data[0].magic_coat_affected
-      end
-
-      # Safely return the mirror_move attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Boolean]
-      def mirror_move(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].mirror_move if id_valid?(id)
-        return @data[0].mirror_move
-      end
-
-      # Safely return the unfreeze attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Boolean]
-      def unfreeze(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].unfreeze if id_valid?(id)
-        return @data[0].unfreeze
-      end
-
-      # Safely return the sound_attack attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Boolean]
-      def sound_attack(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].sound_attack if id_valid?(id)
-        return @data[0].sound_attack
-      end
-
-      # Safely return the king_rock_utility attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Boolean]
-      def king_rock_utility(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].king_rock_utility if id_valid?(id)
-        return @data[0].king_rock_utility
-      end
-
-      # Safely return the effect_chance attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer]
-      def effect_chance(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].effect_chance if id_valid?(id)
-        return @data[0].effect_chance
-      end
-
-      # Safely return the battle_stage_mod attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Array]
-      def battle_stage_mod(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].battle_stage_mod if id_valid?(id)
-        return @data[0].battle_stage_mod
-      end
-
-      # Safely return the status attribute of a move
-      # @param id [Integer, Symbol] id of the move in the database
-      # @return [Integer, nil]
-      def status(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id].status if id_valid?(id)
-        return @data[0].status
-      end
-
-      # Tell if a move is a puch move
-      # @param id [Symbol, Integer] id of the move in the database or db_symbol
-      # @return [Boolean]
-      def punching?(id)
-        id = db_symbol(id) if id.is_a?(Integer)
-        return Punching_Moves.include?(id)
-      end
-
       # Safely return the db_symbol of an item
       # @param id [Integer] id of the item in the database
       # @return [Symbol]
       def db_symbol(id)
         return (@data[id].db_symbol || :__undef__) if id_valid?(id)
-        return :__undef__
-      end
 
-      # Find a skill using symbol
-      # @param symbol [Symbol]
-      # @return [GameData::Skill]
-      def find_using_symbol(symbol)
-        skill = @data.find { |data| data.db_symbol == symbol }
-        return @data[0] unless skill
-        skill
+        return :__undef__
       end
 
       # Get id using symbol
       # @param symbol [Symbol]
       # @return [Integer]
       def get_id(symbol)
+        return 0 if symbol == :__undef__
+
         skill = @data.index { |data| data.db_symbol == symbol }
         skill.to_i
       end
 
-      # Get a skill
-      # @param id [Integer, Symbol]
-      # @return [Skill]
-      def get(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[id] if id_valid?(id)
-        return @data.first
-      end
-
       # Tell if the id is valid
-      # @param id [Integer]
+      # @param id [Integer, Symbol]
       # @return [Boolean]
       def id_valid?(id)
+        id = get_id(id) if id.is_a?(Symbol)
         return id.between?(1, LAST_ID)
       end
 
@@ -435,11 +305,9 @@ module GameData
         @data = load_data('Data/PSDK/SkillData.rxdata')
         # set the LAST_ID of the Skill data
         GameData::Skill.const_set(:LAST_ID, @data.size - 1)
-        @data[0] = GameData::Skill.new(
-          0, :s_basic, 0, 0, 0, 5, :none, 2, false, 0, 0, false, false, false, false,
-          false, false, false, false, 0, Array.new(8, 0), 0
-        )
+        @data[0] = GameData::Skill.new
         @data.freeze
+        @data.each_with_index { |skill, index| skill&.id = index }
       end
 
       # Convert a collection to symbolized collection

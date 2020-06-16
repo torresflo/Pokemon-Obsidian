@@ -2,6 +2,18 @@
 
 module PFM
   class Pokemon
+    # Is the Pokemon not able to fight
+    # @return [Boolean]
+    def dead?
+      return hp <= 0 || egg?
+    end
+
+    # Is the Pokemon able to fight
+    # @return [Boolean]
+    def alive?
+      return hp > 0 && !egg?
+    end
+
     # Cure the Pokemon from its statues modifications
     def cure
       @status = 0

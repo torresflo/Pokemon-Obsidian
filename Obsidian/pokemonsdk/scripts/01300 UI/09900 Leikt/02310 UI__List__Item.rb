@@ -129,12 +129,7 @@ module UI
         # @param id [Integer] the item id
         # @return [String]
         def generate_name(id)
-          base = GameData::Item.name(id)
-          if (data = GameData::Item.misc_data(id)) && (data&.ct_id || data&.cs_id)
-            return base + format(' - %<skill>s', skill: GameData::Skill.name(data.skill_learn.to_i))
-          end
-
-          return base
+          return GameData::Item[id].exact_name
         end
       end
 

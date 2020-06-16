@@ -1,9 +1,7 @@
-#encoding: utf-8
-
 module Yuki
   # Sprite with move_to command a self "animation"
   # @author Nuri Yuri
-  class Sprite < ::Sprite
+  class Sprite < LiteRGSS::Sprite
     # If the sprite has a self animation
     # @return [Boolean]
     attr_accessor :animated

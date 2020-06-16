@@ -18,7 +18,7 @@ module Battle
       @effectiveness = 1
       # (((((((Level * 2 / 5) + 2) * BasePower * [Sp]Atk / 50) / [Sp]Def) * Mod1) + 2) *
       # CH * Mod2 * R / 100) * STAB * Type1 * Type2 * Mod3)
-      damage = level * 2 / 5 + 2
+      damage = user.level * 2 / 5 + 2
       damage = (damage * calc_base_power(user, target)).floor
       damage = (damage * calc_sp_atk(user, target)).floor
       damage /= 50
@@ -47,16 +47,16 @@ module Battle
       # BP
       result = power
       # HH
-      result *= 1.5 if helping_hand?
+      result *= 1.5 if user.helping_hand?
       result = result.floor # Round down between each multiplication, the first two can be reverted.
       # IT
       result = (result * send(ITEM_MULTIPLIER[user.item_db_symbol], user, target)).floor
       # CHG
-      result *= user.last_successfull_move == :charge && type == 4 ? 2 : 1
+      result *= user.last_successfull_move == :charge && type == GameData::Types::ELECTRIC ? 2 : 1
       # MS
-      result = (result * VAL_0_5).floor if logic.global_mud_sport? && type == 4
+      result = (result * VAL_0_5).floor if logic.global_mud_sport? && type == GameData::Types::ELECTRIC
       # WS
-      result = (result * VAL_0_5).floor if logic.global_water_sport? && type == 2
+      result = (result * VAL_0_5).floor if logic.global_water_sport? && type == GameData::Types::FIRE
       # UA
       result = (result * send(USER_ABILITY_MULTIPLIER[user.ability_db_symbol], user, target)).floor
       # FA
@@ -130,7 +130,7 @@ module Battle
     # @return [Numeric]
     def calc_type_n_multiplier(target, type_to_check)
       user_type = target.send(type_to_check)
-      result = GameData::Type.multiplier(type, user_type)
+      result = GameData::Type[user_type].hit_by(type)
       @effectiveness *= result
       return result
     end

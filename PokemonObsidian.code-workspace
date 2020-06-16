@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "Obsidian\\Data\\Text\\Dialogs"
+		},
+		{
+			"path": "Tiled"
 		}
 	],
 	"settings": {}

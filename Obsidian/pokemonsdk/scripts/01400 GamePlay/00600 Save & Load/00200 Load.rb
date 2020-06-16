@@ -34,11 +34,11 @@ module GamePlay
         Graphics.update
         update
       end
-      ::Scheduler.start(:on_scene_switch, ::Scene_Title) unless @running
       dispose
       # Unload title related pictures
       RPG::Cache.load_title(true)
       RPG::Cache.load_interface(true)
+      ::Scheduler.start(:on_scene_switch, ::Scene_Title) unless @running
     end
 
     def update
@@ -46,7 +46,7 @@ module GamePlay
       if index_changed(:@index, :UP, :DOWN, @max_index)
         refresh
         $game_system.se_play($data_system.cursor_se)
-      elsif Input.trigger?(:A)
+      elsif Input.trigger?(:A) || (debug? && PSDK_CONFIG.skip_title_in_debug)
         action
       elsif Mouse.trigger?(:left)
         mouse_action
@@ -225,35 +225,8 @@ module GamePlay
         $pokemon_party = PFM::Pokemon_Party.new(false, DEFAULT_GAME_LANGUAGE)
       else
         @all_window.each { |window| window.visible = false }
-        ask_game_language
+        call_scene(Language_Choice)
       end
-    end
-
-    # Ask the game language to the player
-    def ask_game_language
-      win1, win2 = create_language_window
-      Graphics.transition
-      loop do
-        Graphics.update
-        win2.update
-        break if win2.validated?
-      end
-      Graphics.freeze
-      $pokemon_party = PFM::Pokemon_Party.new(false, LANGUAGE_CHOICE_LIST[win2.index])
-      win2.dispose
-      win1.dispose
-    end
-
-    # Create the language window
-    # @return [Array]
-    def create_language_window
-      win1 = UI::Window.new(@viewport, 80, 80, 160, 44)
-      win1.add_text(0, 0, 160, 16, 'Choose your language')
-      win2 = Yuki::ChoiceWindow.new(160, LANGUAGE_CHOICE_NAME, @viewport)
-      win2.set_position(80, 128)
-      win2.z = win1.z = 200
-      Graphics.transition
-      return win1, win2
     end
 
     # Check if the game states should be deleted or if the player should start a new game

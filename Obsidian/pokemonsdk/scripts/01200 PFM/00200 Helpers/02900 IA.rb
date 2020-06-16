@@ -63,7 +63,7 @@ module PFM
     # @param bag [PFM::Bag] the bag that contain the item
     # @return [Boolean]
     def _stack_add_item(pokemon: nil, item_id: 0, bag: nil)
-      item_id = GameData::Item.get_id(item_id) if item_id.is_a?(Symbol)
+      item_id = GameData::Item[item_id].id
       extend_data = ::PFM::ItemDescriptor.actions(item_id)
       if extend_data and extend_data[:action_to_push]
         @results << [1, [item_id, extend_data, pokemon.position]]

@@ -89,24 +89,26 @@ module RPG
     # @param filename [String] filename of the image
     # @param path [String] path of the image inside Graphics/
     # @param file_data [Yuki::VD] "virtual directory"
+    # @param image_class [Class] Bitmap or Image depending on the desired process
     # @return [Bitmap]
     # @note This function displays a desktop notification if the image is not found.
     #       The resultat bitmap is an empty 16x16 bitmap in this case.
-    def load_image(cache_tab, filename, path, file_data = nil)
+    def load_image(cache_tab, filename, path, file_data = nil, image_class = Bitmap)
       complete_filename = format(Common_filename, path, filename).downcase
-      return bitmap = Bitmap.new(16, 16) if File.directory?(complete_filename) || filename.empty?
+      return bitmap = image_class.new(16, 16) if File.directory?(complete_filename) || filename.empty?
       bitmap = cache_tab.fetch(filename, nil)
       if !bitmap || bitmap.disposed?
-        if File.exist?(complete_filename + '.png') || !file_data.exists?(filename.downcase)
-          bitmap = Bitmap.new(complete_filename)
+        filename_ext = complete_filename + '.png'
+        if File.exist?(filename_ext) || !file_data.exists?(filename.downcase)
+          bitmap = image_class.new(filename_ext)
         end
-        bitmap = load_image_from_file_data(filename, file_data) if (!bitmap || bitmap.disposed?) && file_data
-        bitmap ||= Bitmap.new(16, 16)
+        bitmap = load_image_from_file_data(filename, file_data, image_class) if (!bitmap || bitmap.disposed?) && file_data
+        bitmap ||= image_class.new(16, 16)
       end
       return bitmap
     rescue StandardError
       log_error "#{Notification_title} #{complete_filename}"
-      return bitmap = Bitmap.new("\x89PNG\r\n\x1A\n\x00\x00\x00\rIHDR\x00\x00\x00 \x00\x00\x00 \x02\x03\x00\x00\x00\x0E\x14\x92g\x00\x00\x00\tPLTE\x00\x00\x00\xFF\xFF\xFF\xFF\x00\x00\xCD^\xB7\x9C\x00\x00\x00>IDATx\x01\x85\xCF1\x0E\x00 \bCQ\x17\xEF\xE7\xD2\x85\xFB\xB1\xF4\x94&$Fm\a\xFE\xF4\x06B`x\x13\xD5z\xC0\xEA\a H \x04\x91\x02\xD2\x01E\x9E\xCD\x17\xD1\xC3/\xECg\xECSk\x03[\xAFg\x99\xE2\xED\xCFV\x00\x00\x00\x00IEND\xAEB`\x82", true)
+      return bitmap = image_class.new("\x89PNG\r\n\x1A\n\x00\x00\x00\rIHDR\x00\x00\x00 \x00\x00\x00 \x02\x03\x00\x00\x00\x0E\x14\x92g\x00\x00\x00\tPLTE\x00\x00\x00\xFF\xFF\xFF\xFF\x00\x00\xCD^\xB7\x9C\x00\x00\x00>IDATx\x01\x85\xCF1\x0E\x00 \bCQ\x17\xEF\xE7\xD2\x85\xFB\xB1\xF4\x94&$Fm\a\xFE\xF4\x06B`x\x13\xD5z\xC0\xEA\a H \x04\x91\x02\xD2\x01E\x9E\xCD\x17\xD1\xC3/\xECg\xECSk\x03[\xAFg\x99\xE2\xED\xCFV\x00\x00\x00\x00IEND\xAEB`\x82", true)
     ensure
       cache_tab[filename] = bitmap
     end
@@ -114,10 +116,11 @@ module RPG
     # Loads an image from virtual directory with the right encoding
     # @param filename [String] filename of the image
     # @param file_data [Yuki::VD] "virtual directory"
+    # @param image_class [Class] Bitmap or Image depending on the desired process
     # @return [Bitmap] the image loaded from the virtual directory
-    def load_image_from_file_data(filename, file_data)
+    def load_image_from_file_data(filename, file_data, image_class)
       bitmap_data = file_data.read_data(filename.downcase)
-      bitmap = Bitmap.new(bitmap_data, true) if bitmap_data
+      bitmap = image_class.new(bitmap_data, true) if bitmap_data
       bitmap
     end
 
@@ -352,7 +355,22 @@ module RPG
     # @param _hue [Integer] ingored (compatibility with RMXP)
     # @return [Bitmap]
     def interface(filename, _hue = 0)
+      if interface_exist?(filename_with_language = filename + ($options&.language || 'en')) ||
+         interface_exist?(filename_with_language = filename + 'en')
+        filename = filename_with_language
+      end
       load_image(@interface_cache, filename, Interface_Path, @interface_data)
+    end
+
+    # Load an interface "Image" (to perform some background process)
+    # @param filename [String] name of the image in the folder
+    # @return [Image]
+    def interface_image(filename)
+      if interface_exist?(filename_with_language = filename + ($options&.language || 'en')) ||
+         interface_exist?(filename_with_language = filename + 'en')
+        filename = filename_with_language
+      end
+      load_image(@interface_cache, filename, Interface_Path, @interface_data, Image)
     end
 
     # Load/unload the panorama cache
@@ -535,6 +553,13 @@ module RPG
     # @return [Bitmap]
     def tileset(filename, _hue = 0)
       load_image(@tileset_cache, filename, Tilesets_Path, @tileset_data)
+    end
+
+    # Load a tileset "Image" (to perform some background process)
+    # @param filename [String] name of the image in the folder
+    # @return [Image]
+    def tileset_image(filename)
+      load_image(@tileset_cache, filename, Tilesets_Path, @tileset_data, Image)
     end
 
     # Load/unload the transition cache

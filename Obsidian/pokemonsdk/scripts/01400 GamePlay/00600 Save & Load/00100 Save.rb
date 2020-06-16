@@ -105,7 +105,7 @@ module GamePlay
         $game_system.save_count += 1
         $trainer.update_play_time
         $trainer.current_version = PSDK_Version
-        $trainer.game_version = Game_Version
+        $trainer.game_version = PSDK_CONFIG.game_version
         # Call the hooks that make the save data safer and lighter
         BEFORE_SAVE_HOOKS.each_value(&:call)
         # Build the save data

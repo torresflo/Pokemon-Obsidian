@@ -119,7 +119,7 @@ module BattleEngine
   #S : n : Numeric
   #===
   def _attack_hit_launcher_item?(launcher, target, skill)
-    item = GameData::Item.all[@_State[:launcher_item]]
+    item = GameData::Item[@_State[:launcher_item]]
     return 1 unless item
     imisc = item.misc_data
     return 1 unless imisc
@@ -137,7 +137,7 @@ module BattleEngine
   #S : n : Numeric
   #===
   def _attack_hit_target_item?(launcher, target, skill)
-    item = GameData::Item.all[@_State[:target_item]]
+    item = GameData::Item[@_State[:target_item]]
     return 1 unless item
     imisc = item.misc_data
     return 1 unless imisc

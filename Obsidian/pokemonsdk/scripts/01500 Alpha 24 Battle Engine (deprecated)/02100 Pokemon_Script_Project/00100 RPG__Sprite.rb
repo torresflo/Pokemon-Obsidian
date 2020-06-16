@@ -267,7 +267,7 @@ module RPG
           sprite.mirror = (sprite.mirror == false)
         end
         sprite.opacity = cell_data[i, 6].to_i * self.opacity / 255.0
-        sprite.blend_type = cell_data[i, 7]
+        # sprite.blend_type = cell_data[i, 7]
       end
     end
   end

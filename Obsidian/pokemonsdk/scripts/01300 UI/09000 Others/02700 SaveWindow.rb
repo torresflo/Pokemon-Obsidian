@@ -84,6 +84,7 @@ module UI
     def init_texts
       init_first_text
       init_player_text
+      @text_y = LINE_HEIGHT
       init_continue_text
       init_badge_text
       init_pokedex_text
@@ -109,28 +110,29 @@ module UI
     # Show CONTINUE if in the right context
     def init_continue_text
       return unless index
-      add_text(0, LINE_HEIGHT, 0, LINE_HEIGHT, text_get(25, 0), color: COLORS[0])
+
+      add_text(0, @text_y, 0, LINE_HEIGHT, text_get(25, 0), color: COLORS[0])
     end
 
     # Show the number of badge
     def init_badge_text
-      y = LINE_HEIGHT * 2
-      add_text(32, y, 0, LINE_HEIGHT, text_get(25, 1), color: COLORS[0])
-      add_text(0, y, WIDTH - 2, LINE_HEIGHT, :badge_count, 2, color: COLORS[1], type: SymText)
+      @text_y += LINE_HEIGHT
+      add_text(32, @text_y, 0, LINE_HEIGHT, text_get(25, 1), color: COLORS[0])
+      add_text(0, @text_y, WIDTH - 2, LINE_HEIGHT, :badge_count, 2, color: COLORS[1], type: SymText)
     end
 
     # Show the number of Pokemon seen in the dex
     def init_pokedex_text
-      y = LINE_HEIGHT * 3
-      add_text(32, y, 0, LINE_HEIGHT, text_get(25, 3), color: COLORS[0])
-      add_text(0, y, WIDTH - 2, LINE_HEIGHT, :pokedex_count, 2, color: COLORS[1], type: SymText)
+      @text_y += LINE_HEIGHT
+      add_text(32, @text_y, 0, LINE_HEIGHT, text_get(25, 3), color: COLORS[0])
+      add_text(0, @text_y, WIDTH - 2, LINE_HEIGHT, :pokedex_count, 2, color: COLORS[1], type: SymText)
     end
 
     # Show the play time text
     def init_time_text
-      y = LINE_HEIGHT * 4
-      add_text(32, y, 0, LINE_HEIGHT, text_get(25, 5), color: COLORS[0])
-      add_text(0, y, WIDTH - 2, LINE_HEIGHT, :play_time, 2, color: COLORS[1], type: SymText)
+      @text_y += LINE_HEIGHT
+      add_text(32, @text_y, 0, LINE_HEIGHT, text_get(25, 5), color: COLORS[0])
+      add_text(0, @text_y, WIDTH - 2, LINE_HEIGHT, :play_time, 2, color: COLORS[1], type: SymText)
     end
 
     # Calculate the coordinate of the save window

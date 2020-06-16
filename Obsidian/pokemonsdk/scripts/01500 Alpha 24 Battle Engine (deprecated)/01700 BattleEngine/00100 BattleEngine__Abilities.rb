@@ -15,6 +15,7 @@ module BattleEngine
     #S : true/false   vérification
     #===
     def has_ability_usable(pokemon, id)
+      return false unless pokemon
       return false unless pokemon.ability==id
       #>On vérifie si la capacité spéciale n'est pas bloquée
       return false if pokemon.battle_effect.has_no_ability_effect?
@@ -31,7 +32,7 @@ module BattleEngine
     end
     #===
     #>has_abilities(launcher, *ids)
-    # Vérifie si le Pokémon à la capacité spéciale spécifiée et si elle est utilisable
+    # Vérifie si le Pokémon a la capacité spéciale spécifiée et si elle est utilisable
     #---
     #E : pokemon : PFM::Pokemon   Pokemon qui doit valider l'utilisabilité de la capacité
     #S : true/false   vérification

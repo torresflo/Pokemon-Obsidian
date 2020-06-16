@@ -102,14 +102,37 @@ module GamePlay
     def create_texts
       @texts = UI::SpriteStack.new(@viewport)
       # Show the start time
+      create_start_time
+      create_money
+      create_name
+      create_do
+      create_play_time
+    end
+
+    def create_start_time
       @texts.add_text(4, 4, 0, 16,
                       "#{text_get(34, 14)} #{Time.at($trainer.start_time).strftime('%d/%m/%Y')}",
                       color: 9)
+    end
+
+    def create_money
       @texts.add_text(225, 4, 88, 16, "#{$pokemon_party.money}$", 2, color: 9)
+    end
+
+    def create_name
       @texts.add_text(217, 26, 96, 16, $trainer.name, 1, color: 9)
+    end
+
+    def create_do
       @texts.add_text(217, 128, 96, 16,
                       format('%<text>s %<id>05d', text: text_get(34, 2), id: $trainer.id % 100_000), color: 9)
+    end
+
+    def create_badge
       @texts.add_text(122, 156, 190, 16, "#{text_get(25, 1)} #{$trainer.badge_counter}", color: 9)
+    end
+
+    def create_play_time
       @texts.add_text(122, 190, 190, 16, "#{text_get(25, 5)} #{current_play_time}", color: 9)
     end
 

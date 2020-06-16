@@ -31,9 +31,9 @@ module GamePlay
       show_shadow_frame
       # Prepare the choice info
       # Use option
-      map_usable = proc { !GameData::Item.map_usable?(item_id) }
+      map_usable = proc { !GameData::Item[item_id].map_usable }
       # Give option
-      giv_check = proc { $pokemon_party.pokemon_alive <= 0 || !GameData::Item.holdable?(item_id) }
+      giv_check = proc { $pokemon_party.pokemon_alive <= 0 || !GameData::Item[item_id].holdable }
       # Unregister / register
       if $bag.shortcuts.include?(item_id)
         reg_id = 14
@@ -44,7 +44,7 @@ module GamePlay
         reg_check = map_usable
       end
       # Throw option
-      thr_check = proc { !GameData::Item.limited_use?(item_id) }
+      thr_check = proc { !GameData::Item[item_id].limited }
       # Create the choice
       choices = PFM::Choice_Helper.new(Yuki::ChoiceWindow::But, true, 999)
       choices.register_choice(text_get(22, 0), on_validate: method(:use_item), disable_detect: map_usable)
@@ -53,7 +53,7 @@ module GamePlay
              .register_choice(text_get(22, 1), on_validate: method(:throw_item), disable_detect: thr_check)
              .register_choice(text_get(22, 7))
       # Show selection : item_name
-      @base_ui.show_win_text(parse_text(22, 35, PFM::Text::ITEM2[0] => GameData::Item.exact_name(item_id)))
+      @base_ui.show_win_text(parse_text(22, 35, PFM::Text::ITEM2[0] => GameData::Item[item_id].exact_name))
       # Process the actual choice
       y = 200 - 16 * choices.size
       choices.display_choice(@viewport, 306, y, nil, on_update: method(:update_graphics), align_right: true)
@@ -91,7 +91,8 @@ module GamePlay
     def choice_a_hold
       item_id = @item_list[@index]
       return action_b if item_id.nil?
-      return play_buzzer_se if item_id == 0 || !GameData::Item.holdable?(item_id)
+      return play_buzzer_se if item_id == 0 || !GameData::Item[item_id].holdable
+
       play_decision_se
       @running = false
       @return_data = @item_list[@index]

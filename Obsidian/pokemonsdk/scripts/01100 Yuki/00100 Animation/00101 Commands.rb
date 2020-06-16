@@ -64,7 +64,7 @@ module Yuki
     # @param volume [Integer] volume to play the bgm
     # @param pitch [Integer] pitch used to play the bgm
     def bgm_play(filename, volume = 100, pitch = 100)
-      AudioCommand.new(:bgm_play, "audio/bgm/#{filename}", volume, pitch)
+      AudioCommand.new(:bgm_play, filename, volume, pitch)
     end
 
     # Stop the bgm
@@ -77,7 +77,7 @@ module Yuki
     # @param volume [Integer] volume to play the bgs
     # @param pitch [Integer] pitch used to play the bgs
     def bgs_play(filename, volume = 100, pitch = 100)
-      AudioCommand.new(:bgs_play, "audio/bgs/#{filename}", volume, pitch)
+      AudioCommand.new(:bgs_play, filename, volume, pitch)
     end
 
     # Stop the bgs
@@ -90,7 +90,7 @@ module Yuki
     # @param volume [Integer] volume to play the me
     # @param pitch [Integer] pitch used to play the me
     def me_play(filename, volume = 100, pitch = 100)
-      AudioCommand.new(:me_play, "audio/me/#{filename}", volume, pitch)
+      AudioCommand.new(:me_play, filename, volume, pitch)
     end
 
     # Play a SE
@@ -98,7 +98,7 @@ module Yuki
     # @param volume [Integer] volume to play the se
     # @param pitch [Integer] pitch used to play the se
     def se_play(filename, volume = 100, pitch = 100)
-      AudioCommand.new(:me_play, "audio/se/#{filename}", volume, pitch)
+      AudioCommand.new(:se_play, filename, volume, pitch)
     end
 
     # Animation command responsive of playing / stopping audio.
@@ -114,6 +114,8 @@ module Yuki
         super()
         @type = type
         @args = args
+        @args.each_with_index { |arg, i| @args[i] = resolve(arg) }
+        @args[0] = 'Audio/' + @type.to_s.sub('_play', '') + '/' + @args.first
       end
 
       private

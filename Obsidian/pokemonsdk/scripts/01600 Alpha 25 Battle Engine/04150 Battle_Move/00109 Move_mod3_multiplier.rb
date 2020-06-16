@@ -29,9 +29,9 @@ module Battle
     # @return [Numeric]
     def calc_trb(target)
       return 1 if target.item_db_symbol == :__undef__
-      return VAL_0_5 if type == 1 && target.item_db_symbol == :chilan_berry
+      return VAL_0_5 if type == GameData::Types::NORMAL && target.item_db_symbol == :chilan_berry
       if super_effective?
-        item = GameData::Item.all[target.item_holding]
+        item = GameData::Item[target.item_holding]
         if (berry = item&.misc_data&.berry)
           return VAL_0_5 if berry[:type] == type
         end

@@ -158,7 +158,7 @@ class Interpreter
   # @param party [Array<PFM::Pokemon>] the array of Pokemon to show in the menu
   # @param mode [Symbol] the mode of the Menu (:map, :menu, :item, :hold, :battle)
   # @author Nuri Yuri
-  def call_party_menu(id_var = ::Yuki::Var::TMP1, party = $actors, mode = :map)
+  def call_party_menu(id_var = ::Yuki::Var::Party_Menu_Sel, party = $actors, mode = :map)
     Graphics.freeze
     scene = GamePlay::Party_Menu.new(party, mode)
     scene.main
@@ -249,18 +249,31 @@ class Interpreter
   alias attendre_joueur wait_for_player
   
   # Open the casino gameplay
-  # @param arg [Symbol] the mode of the casino :voltorb_flip, :cashmachine, ...
+  # @param arg [Symbol] the mode of the casino :voltorb_flip, :slotmachine, ...
+  # @param speed [Integer] speed of the slot machine
   # @author Nuri Yuri
-  def casino(arg = :voltorb_flip)
+  def casino(arg = :voltorb_flip, speed = 2)
     case arg # Anticipate the creation of other casino scenes
     when :voltorb_flip
       casino = GamePlay::Casino::VoltorbFlip.new
+    when :slotmachine
+      casino = GamePlay::Casino::SlotMachine.new(speed)
     else
       return
     end
     casino.main
     Graphics.transition
     $game_variables[Yuki::Var::CoinCase] = casino.coin_case
+    @wait_count = 2
+  end
+
+  # Open the Hall of Fame UI
+  # @param filename_bgm [String] the bgm to play during the Hall of Fame
+  # @param context_of_victory [Symbol] the symbol to put as the context of victory
+  def hall_of_fame(filename_bgm = 'audio/bgm/Hall-of-Fame', context_of_victory = :league)
+    hall_of_fame = GamePlay::Hall_of_Fame.new(filename_bgm, context_of_victory)
+    hall_of_fame.main
+    Graphics.transition
     @wait_count = 2
   end
 end

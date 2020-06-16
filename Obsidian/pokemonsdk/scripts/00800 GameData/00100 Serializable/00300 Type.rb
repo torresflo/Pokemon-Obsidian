@@ -15,6 +15,7 @@ module GameData
     # @param text_id [Integer] id of the type name text in the 3rd text file
     # @param on_hit_tbl [Array<Numeric>] table of multiplier when an offensive type hit this defensive type 
     def initialize(text_id, on_hit_tbl)
+      super
       @text_id = text_id
       @on_hit_tbl = on_hit_tbl
     end
@@ -23,41 +24,37 @@ module GameData
     # @return [String]
     def name
       return text_get(3, @text_id) if @text_id >= 0
+
       return DEFAULT_NAME
     end
 
     # Return the damage multiplier
-    # @param type_id [Integer] id of the offensive type
+    # @param offensive_type_id [Integer] id of the offensive type
     # @return [Numeric]
-    def hit_by(type_id)
-      return @on_hit_tbl[type_id] || 1
+    def hit_by(offensive_type_id)
+      return @on_hit_tbl[offensive_type_id] || 1
     end
 
     class << self
       # Data containing all the types
       @data = []
-      # Return the damage multiplier of a type to an other type
-      # @param offensive_type [Integer] id of the offensive type
-      # @param defensive_type [Integer] id of the defensive type
-      # @return [Numeric]
-      def multiplier(offensive_type, defensive_type)
-        return get(defensive_type)&.hit_by(offensive_type) || 1
-      end
 
-      # Retrieve the name of a type
-      # @param id [Integer] ID of the type
-      # @return [String]
-      def name(id)
-        return @data[id].name if id_valid?(id)
-        return DEFAULT_NAME
-      end
-
-      # Retrieve a type by its id
-      # @param id [Integer] ID of the type
+      # Get the type data
+      # @param id [Integer, Symbol]
       # @return [GameData::Type]
-      def get(id)
-        return @data[id] if id_valid?(id)
-        return @data.first
+      def [](id)
+        id = get_id(id) if id.is_a?(Symbol)
+
+        return @data[id] || @data.first
+      end
+
+      # Get id using symbol
+      # @param symbol [Symbol]
+      # @return [Integer]
+      def get_id(symbol)
+        return 0 if symbol == :__undef__
+
+        @data.index { |data| data.db_symbol == symbol }.to_i
       end
 
       # Retrieve all the types
@@ -76,6 +73,7 @@ module GameData
       # Load the type
       def load
         @data = load_data('Data/PSDK/Types.rxdata').freeze
+        @data.each_with_index { |type, index| type&.id = index }
       end
     end
   end

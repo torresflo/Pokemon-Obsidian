@@ -64,11 +64,11 @@ module Battle
     # @return [Numeric]
     def calc_mod1_sr
       if $env.sunny?
-        return 1.5 if type == 2
-        return VAL_0_5 if type == 3
+        return 1.5 if type == GameData::Types::FIRE
+        return VAL_0_5 if type == GameData::Types::WATER
       elsif $env.rain?
-        return VAL_0_5 if type == 2
-        return 1.5 if type == 3
+        return VAL_0_5 if type == GameData::Types::FIRE
+        return 1.5 if type == GameData::Types::WATER
       end
       return 1
     end
@@ -78,7 +78,7 @@ module Battle
     # @return [Numeric]
     def calc_mod1_ff(user)
       if user.ability_db_symbol == :flash_fire
-        return 1.5 if user.last_hit_by_move&.type == 2
+        return 1.5 if user.last_hit_by_move&.type == GameData::Types::FIRE
       end
       return 1
     end

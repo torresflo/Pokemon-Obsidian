@@ -9,9 +9,7 @@ module UI
     # @param viewport [Viewport]
     def initialize(viewport)
       super(viewport, 0, 0, default_cache: :interface)
-      push(0, 0, background_name)
-      init_texts
-      init_skills
+      init_sprite
       self.index = 0
     end
 
@@ -42,6 +40,12 @@ module UI
     end
 
     private
+
+    def init_sprite
+      push(0, 0, background_name)
+      init_texts
+      init_skills
+    end
 
     # Return the background name
     # @return [String]

@@ -1,7 +1,7 @@
 module Battle
   class Move
     # List of multiplier for the items
-    ITEM_MULTIPLIER = Hash.new(:calc_item_no_multplier).merge!(
+    ITEM_MULTIPLIER = Hash.new(:calc_item_no_multiplier).merge!(
       muscle_band: :calc_muscle_band_multiplier,
       wise_glasses: :calc_wise_glasses_multiplier,
       adamant_orb: :calc_adamant_orb_multiplier,
@@ -9,35 +9,35 @@ module Battle
       griseous_orb: :calc_griseous_orb_multiplier
     )
     # Type required by the adamant orb to give a boost
-    ADAMANT_ORB_TYPES = [15, 16]
+    ADAMANT_ORB_TYPES = [GameData::Types::DRAGON, GameData::Types::STEEL]
     # Type required by the lustrous orb to give a boost
-    LUSTROUS_ORB_TYPES = [15, 3]
+    LUSTROUS_ORB_TYPES = [GameData::Types::DRAGON, GameData::Types::WATER]
     # Type required by the griseous orb to give a boost
-    GRISEOUS_ORB_TYPES = [15, 14]
+    GRISEOUS_ORB_TYPES = [GameData::Types::DRAGON, GameData::Types::GHOST]
     # @return [Hash{Symbol => Integer}] list of item_db_symbol to type boosting item
     BOOSTING_TYPE_ITEMS = {
-      sea_incense: 3,
-      odd_incense: 11,
-      rock_incense: 13,
-      wave_incense: 3,
-      rose_incense: 5,
-      flame_plate: 2,
-      splash_plate: 3,
-      zap_plate: 4,
-      meadow_plate: 5,
-      icicle_plate: 6,
-      fist_plate: 7,
-      toxic_plate: 8,
-      earth_plate: 9,
-      sky_plate: 10,
-      mind_plate: 11,
-      insect_plate: 12,
-      stone_plate: 13,
-      spooky_plate: 14,
-      draco_plate: 15,
-      dread_plate: 17,
-      iron_plate: 16,
-      pixie_plate: 18
+      sea_incense: GameData::Types::WATER,
+      odd_incense: GameData::Types::PSYCHIC,
+      rock_incense: GameData::Types::ROCK,
+      wave_incense: GameData::Types::WATER,
+      rose_incense: GameData::Types::GRASS,
+      flame_plate: GameData::Types::FIRE,
+      splash_plate: GameData::Types::WATER,
+      zap_plate: GameData::Types::ELECTRIC,
+      meadow_plate: GameData::Types::GRASS,
+      icicle_plate: GameData::Types::ICE,
+      fist_plate: GameData::Types::FIGHTING,
+      toxic_plate: GameData::Types::POISON,
+      earth_plate: GameData::Types::GROUND,
+      sky_plate: GameData::Types::FLYING,
+      mind_plate: GameData::Types::PSYCHIC,
+      insect_plate: GameData::Types::BUG,
+      stone_plate: GameData::Types::ROCK,
+      spooky_plate: GameData::Types::GHOST,
+      draco_plate: GameData::Types::DRAGON,
+      dread_plate: GameData::Types::DARK,
+      iron_plate: GameData::Types::STEEL,
+      pixie_plate: GameData::Types::FAIRY
     }
     # Constant that contains 1.1
     VAL_1_1 = 1.1
@@ -58,7 +58,7 @@ module Battle
     # @param user [PFM::PokemonBattler] user of the move
     # @param target [PFM::PokemonBattler] target of the move
     # @return [Numeric]
-    def calc_item_no_multplier(user, target)
+    def calc_item_no_multiplier(user, target)
       1
     end
 

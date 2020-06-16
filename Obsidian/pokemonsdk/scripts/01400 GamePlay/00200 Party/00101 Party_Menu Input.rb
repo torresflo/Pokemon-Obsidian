@@ -40,7 +40,7 @@ module GamePlay
       return if no_leave_B
       # Ensure we don't leave with a call_skill_process
       @call_skill_process = nil
-      $game_system.se_play($data_system.decision_se)
+      $game_system.se_play($data_system.cancel_se)
       # Cancel choice attempt
       return @choice_object.cancel if @choice_object
       # Returning to normal mode

@@ -3,7 +3,6 @@
 #noyard
 module GamePlay
   class BattlePreTrainerAnimation5G
-    include Sprites
 
     BALL_Animation = [0, 270, 0, 225, 0, 180, 0, 135, 1, 90, 1, 45, 1, 0, 1, 315, 2, 270, 2, 225, 2,180, 2, 135, 2, 90, 2, 45, 2, 0, 2, 30, 2, 60, 2, 90, 3, 90, 3, 135, 3, 180, 3,225, 3, 270, 3, 315, 3, 0, 3, 0, 3, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 5, 0]
     #===
@@ -13,22 +12,23 @@ module GamePlay
     #E : viewport : Viewport sur lequel les sprites seront affichés
     #===
     def initialize(viewport, screenshot)
+      @viewport = viewport
       @unlocked = false
-      _init_sprites
-      select_view(@viewport = viewport)
-      @actors_ground = ::GamePlay::BattleGrounds.new(@viewport, true).set_z(1)
+      @actors_ground = ::GamePlay::BattleGrounds.new(@viewport, true)
       @actors_ground.x -= 320
       @actors_ground.y += 320
-      @enemies_ground = ::GamePlay::BattleGrounds.new(@viewport, false).set_z(2)
+      @enemies_ground = ::GamePlay::BattleGrounds.new(@viewport, false)
       @enemies_ground.x -= 320
       @enemies_ground.y += 320
       #> $game_temp.enemy_battler[0]
-      @enemy_sprite = sprite($game_temp.enemy_battler[0], 185 - 320, 94 + 320, 3, cache_name: :battler, ox_div: 2, oy_div: 1)
+      @enemy_sprite = Sprite.new(@viewport).set_bitmap($game_temp.enemy_battler[0], :battler)
+                                           .set_position(185 - 320, 94 + 320).set_origin_div(2, 1)
       @enemy_sprite.x += @enemy_sprite.ox
-      @actor_sprite = sprite($game_actors[1].battler_name, 40 - 320, 174 + 320, 4, cache_name: :battler, ox_div: 2, oy_div: 1)
+      @actor_sprite = Sprite.new(@viewport).set_bitmap($game_actors[1].battler_name, :battler)
+                                           .set_position(40 - 320, 174 + 320).set_origin_div(2, 1)
       @actor_sprite.x += @actor_sprite.ox
       #>Transition d'entrée /!\ Ne dois pas être géré par le système automatique
-      @screen = ::Sprite.new(viewport)
+      @screen = Sprite.new(viewport)
       @screen.zoom = Graphics.width / screenshot.width.to_f
       @screen.bitmap = screenshot
       viewport.color.set(255, 255, 255, 0)
@@ -141,7 +141,6 @@ module GamePlay
     # Effacement de tout le stuff affiché par la scene
     #===
     def dispose
-      dispose_sprites
       @actors_ground.dispose
       @enemies_ground.dispose
     end

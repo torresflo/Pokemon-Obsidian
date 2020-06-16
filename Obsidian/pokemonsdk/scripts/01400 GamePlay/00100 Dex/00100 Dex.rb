@@ -8,7 +8,7 @@ module GamePlay
     # Include UI classes
     include UI
     # Create a new Pokedex interface
-    # @param page_id [Integer, false] id of the page to show
+    # @param page_id [PFM::Pokemon, Integer, false] id of the page to show
     def initialize(page_id = false)
       # We call initialize from GamePlay::Base without arguments to take the default
       super()
@@ -20,7 +20,8 @@ module GamePlay
       # Current state
       @state = page_id ? 1 : 0
       # Current page id
-      @page_id = page_id
+      @page_id = page_id.is_a?(PFM::Pokemon) ? page_id.id : page_id
+      @pkmn = page_id.is_a?(PFM::Pokemon) ? page_id.dup : nil
       # Generation of the Pokemon we can see (& adjust page id)
       generate_selected_pokemon_array(page_id)
       # Generation of the Pokemon object used to show the Pokemon info
@@ -122,7 +123,7 @@ module GamePlay
       @pokemon_info.visible = @pokemon_descr.visible = state == 1
       if @pokemon_descr.visible
         if $pokedex.pokemon_caught?(@pokemon.id)
-          @pokemon_descr.multiline_text = ::GameData::Pokemon.descr(@pokemon.id)
+          @pokemon_descr.multiline_text = ::GameData::Pokemon[@pokemon.id].descr
         else
           @pokemon_descr.multiline_text = ''
         end
@@ -169,9 +170,9 @@ module GamePlay
       else
         selected_pokemons = []
         1.step(GameData::Pokemon.all.size - 1) do |i|
-          selected_pokemons << i if $pokedex.pokemon_seen?(i) && ::GameData::Pokemon.id_bis(i) > 0
+          selected_pokemons << i if $pokedex.pokemon_seen?(i) && GameData::Pokemon[i].id_bis > 0
         end
-        selected_pokemons.sort! { |a, b| ::GameData::Pokemon.id_bis(a) <=> ::GameData::Pokemon.id_bis(b) }
+        selected_pokemons.sort! { |a, b| GameData::Pokemon[a].id_bis <=> GameData::Pokemon[b].id_bis }
         @selected_pokemons = selected_pokemons
       end
       @selected_pokemons.compact!
@@ -191,19 +192,19 @@ module GamePlay
 
     # Generate the Pokemon Object
     def generate_pokemon_object
-      @pokemon = PFM::Pokemon.new(@selected_pokemons[@index].to_i, 1)
+      @pokemon = @pkmn ||= PFM::Pokemon.generate_from_hash(id: @selected_pokemons[@index].to_i, level: 1, no_shiny: true)
       @pokemon.instance_eval do
         # Return the formated name for Pokedex
         # @return [String]
         def pokedex_name
-          id_value = $pokedex.national? ? id : ::GameData::Pokemon.id_bis(id)
+          id_value = $pokedex.national? ? id : GameData::Pokemon[id].id_bis
           format(GamePlay::Dex::NAME_FORMAT, id_value, name)
         end
 
         # Return the formated Specie for Pokedex
         # @return [String]
         def pokedex_species
-          GameData::Pokemon.species(id)
+          GameData::Pokemon[id].species
         end
 
         # Return the formated weight for Pokedex

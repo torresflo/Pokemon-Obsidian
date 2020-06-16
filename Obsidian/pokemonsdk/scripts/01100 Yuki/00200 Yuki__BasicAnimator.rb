@@ -213,22 +213,6 @@ module Yuki
       sprite.y += add_y
     end
 
-    # Change the color of a sprite
-    # @param id [Integer] index of the sprite in the stack
-    # @param args [Array] parameters of color.set
-    def set_color(id, *args)
-      sprite = (id ? @sprite_stack[id] : @object)
-      sprite.color.set(*args)
-    end
-
-    # Change the tone of a sprite
-    # @param id [Integer] index of the sprite in the stack
-    # @param args [Array] parameters of tone.set
-    def set_tone(id, *args)
-      sprite = (id ? @sprite_stack[id] : @object)
-      sprite.tone.set(*args)
-    end
-
     # Play a SE
     # @param file [String] name of the SE file in Audio/SE/
     # @param volume [Integer] volume of the SE

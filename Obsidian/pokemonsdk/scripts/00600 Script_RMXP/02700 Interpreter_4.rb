@@ -206,16 +206,14 @@ class Interpreter_RMXP
     # 継続
     return true
   end
-  # List of get item ME
-  ItemGetME = ["Audio/ME/ROSA_ItemObtained.ogg", "Audio/ME/ROSA_KeyItemObtained.ogg", "Audio/ME/ROSA_TMObtained.ogg"]
+
   # Get item command
   def command_126
     # 操作する値を取得
     value = operate_value(@parameters[1], @parameters[2], @parameters[3])
     # アイテムの増減
     $bag.add_item(@parameters[0], value)
-    socket = GameData::Item.socket(@parameters[0])
-    Audio.me_play(ItemGetME[(socket == 3 ? 2 : (socket == 5 ? 1 : 0))], 80) if value > 0
+    Audio.me_play(GameData::Item[@parameters[0]].me, 80) if value > 0
     # 継続
     return true
   end

@@ -1,7 +1,7 @@
 module Yuki
   module Particles
     # The particle data
-    Data = load_data('Data/Animations/Particles.dat')
+    Data = []
     # The empty actions
     EMPTY = { max_counter: 1, loop: false, data: [] }
 
@@ -16,5 +16,12 @@ module Yuki
         Data.dig($game_variables[Var::PAR_DatID], particle_tag) ||
         Data.dig(0, particle_tag)
     end
+  end
+end
+
+Graphics.on_start do
+  Yuki::Particles.class_eval do
+    remove_const :Data
+    const_set :Data, load_data('Data/Animations/Particles.dat')
   end
 end

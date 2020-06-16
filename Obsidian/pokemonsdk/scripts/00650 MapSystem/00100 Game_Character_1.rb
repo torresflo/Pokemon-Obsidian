@@ -28,6 +28,9 @@ class Game_Character
   attr_reader :follower
   # @return [Boolean] if the character is sliding
   attr_reader :sliding
+  # If the direction is fixed
+  # @return [Boolean]
+  attr_reader :direction_fix
 
   # Default initializer
   def initialize
@@ -112,8 +115,8 @@ class Game_Character
   # @param x [Integer] new x position of the character
   # @param y [Integer] new y position of the character
   def moveto(x, y)
-    @x = x % $game_map.width
-    @y = y % $game_map.height
+    @x = x # % $game_map.width # Removed because of new tilemap
+    @y = y # % $game_map.height
     @real_x = @x * 128
     @real_y = @y * 128
     @prelock_direction = 0

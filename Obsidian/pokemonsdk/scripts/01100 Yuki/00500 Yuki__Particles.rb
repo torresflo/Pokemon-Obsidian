@@ -16,12 +16,14 @@ module Yuki
 
     # Update of the particles & stack cleaning if requested
     def update
-      return unless @stack
+      return unless ready?
+
       @stack.each do |i|
         i.update if i && !i.disposed
       end
       # Clean stack part
       return unless @clean_stack
+
       @clean_stack = false
       @stack.delete_if(&:disposed)
     end
@@ -36,10 +38,12 @@ module Yuki
     # @param particle_tag [Integer, Symbol] identifier of the particle in the hash
     # @param params [Hash] additional params for the particle
     def add_particle(character, particle_tag, params = {})
-      return unless @stack
+      return unless ready?
       return if character.character_name.empty?
+
       particle_data = find_particle(character.terrain_tag, particle_tag)
       return unless particle_data
+
       @stack.push(Particle_Object.new(character, particle_data, @on_teleportation, params))
     end
 
@@ -78,6 +82,12 @@ module Yuki
       @viewport
     end
 
+    # Tell if the system is ready to work
+    # @return [Boolean]
+    def ready?
+      return @stack && !viewport.disposed?
+    end
+
     # Tell the particle manager the game is warping the player. Particle will skip the :enter phase.
     # @param v [Boolean]
     def set_on_teleportation(v)
@@ -86,10 +96,12 @@ module Yuki
 
     # Dispose each particle
     def dispose
-      return unless @stack
+      return unless ready?
+
       @stack.each do |i|
         i.dispose if i && !i.disposed
       end
+    ensure
       @stack = nil
     end
   end
@@ -327,3 +339,12 @@ module Yuki
     end
   end
 end
+Hooks.register(Spriteset_Map, :init_psdk_add) do
+  Yuki::Particles.init(@viewport1)
+  Yuki::Particles.set_on_teleportation(true)
+end
+Hooks.register(Spriteset_Map, :init_player_end) do
+  Yuki::Particles.update
+  Yuki::Particles.set_on_teleportation(false)
+end
+Hooks.register(Spriteset_Map, :update) { Yuki::Particles.update }

@@ -111,87 +111,63 @@ module GameData
     attr_accessor :master_moves
     # Front offset y of the Pokemon for Summary & Dex UI
     # @return [Integer]
-    attr_accessor :front_offset_y
+    attr_writer :front_offset_y
     # Create a new GameData::Pokemon object
-    def initialize(height, weight, id_bis, type1, type2, base_hp, base_atk, 
-      base_dfe, base_spd, base_ats, base_dfs, ev_hp, ev_atk, ev_dfe, ev_spd, 
-      ev_ats, ev_dfs, move_set, tech_set, evolution_level, evolution_id, 
-      special_evolution, exp_type, base_exp, base_loyalty, rareness, 
-      female_rate, abilities, breed_groupes, breed_moves, master_moves, 
-      hatch_step, items, baby)
-      @height = height
-      @weight = weight
-      @id_bis = id_bis
-      @type1 = type1
-      @type2 = type2
-      @base_hp = base_hp
-      @base_atk = base_atk
-      @base_dfe = base_dfe
-      @base_spd = base_spd
-      @base_ats = base_ats
-      @base_dfs = base_dfs
-      @ev_hp = ev_hp
-      @ev_atk = ev_atk
-      @ev_dfe = ev_dfe
-      @ev_spd = ev_spd
-      @ev_ats = ev_ats
-      @ev_dfs = ev_dfs
-      @move_set = move_set
-      @tech_set = tech_set
-      @evolution_level = evolution_level
-      @evolution_id = evolution_id
-      @special_evolution = special_evolution
-      @exp_type = exp_type
-      @base_exp = base_exp
-      @base_loyalty = base_loyalty
-      @rareness = rareness
-      @female_rate = female_rate
-      @abilities = abilities
-      @breed_groupes = breed_groupes
-      @breed_moves = breed_moves
-      @master_moves = master_moves
-      @hatch_step = hatch_step
-      @items = items
-      @baby = baby
+    def initialize
+      super
+      @height = 1.60
+      @weight = 52
+      @id_bis = 0
+      @type1 = 1
+      @type2 = 1
+      @base_hp = @base_atk = @base_dfe = @base_spd = @base_ats = @base_dfs = 1
+      @ev_hp = @ev_atk = @ev_dfe = @ev_spd = @ev_ats = @ev_dfs = 0
+      @move_set = []
+      @tech_set = []
+      @evolution_level = 0
+      @evolution_id = 0
+      @special_evolution = nil
+      @exp_type = 1
+      @base_exp = 100
+      @base_loyalty = 0
+      @rareness = 0
+      @female_rate = 60
+      @abilities = [0, 0, 0]
+      @breed_groupes = [15, 15]
+      @breed_moves = []
+      @master_moves = []
+      @hatch_step = 1_000_000_000
+      @items = [0, 0, 0, 0]
+      @baby = 0
+    end
+
+    # Name of the Pokemon
+    # @return [String]
+    def name
+      return text_get(0, id)
+    end
+
+    # Description of the Pokemon
+    # @return [String]
+    def descr
+      return text_get(2, id)
+    end
+
+    # Species of the Pokemon
+    # @return [String]
+    def species
+      return text_get(1, id)
+    end
+
+    # Front offset y of the Pokemon for Summary & Dex UI
+    # @return [Integer]
+    def front_offset_y
+      @front_offset_y || 0
     end
 
     class << self
       # All the Pokemon with their form
       @data = []
-      # Safely return the name of the Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @return [String]
-      def name(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return text_get(0, id)
-      end
-
-      # Safely return the description of the Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @return [String]
-      def descr(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return text_get(2, id)
-      end
-
-      # Safely return the species of the Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @return [String]
-      def species(id)
-        id = get_id(id) if id.is_a?(Symbol)
-        return text_get(1, id)
-      end
-
-      # Safely return the data of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [GameData::Pokemon]
-      def get_data(id, form)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data[0][0] unless (data = @data[id])
-        return data[0] unless (data = data[form])
-        return data
-      end
 
       # Safely return the list of Form of the Pokemon including the regular form (index = 0)
       # @param id [Intger, Symbol] id of the Pokemon in the database
@@ -201,459 +177,14 @@ module GameData
         return @data[id] || @data.first
       end
 
-      # Safely return the height of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Numeric]
-      def height(id, form = 0)
+      # Get a Pokemon and its form
+      # @param id [Integer] ID of the Pokemon
+      # @param form [Integer] Form index of the Pokemon
+      # @return [GameData::Pokemon]
+      # @note If the form doesn't exists, it gives the original form!
+      def [](id, form = 0)
         id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).height
-        end
-        return @data[0][0].height
-      end
-
-      # Safely return the weight of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Numeric]
-      def weight(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).weight
-        end
-        return @data[0][0].weight
-      end
-
-      # Safely return the id_bis of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def id_bis(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).id_bis
-        end
-        return @data[0][0].id_bis
-      end
-
-      # Safely return the firs type of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def type1(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).type1
-        end
-        return @data[0][0].type1
-      end
-
-      # Safely return the second type of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def type2(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).type2
-        end
-        return @data[0][0].type2
-      end
-
-      # Safely return the base hp of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def base_hp(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).base_hp
-        end
-        return @data[0][0].base_hp
-      end
-
-      # Safely return the base atk of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def base_atk(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).base_atk
-        end
-        return @data[0][0].base_atk
-      end
-
-      # Safely return the base dfe of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def base_dfe(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).base_dfe
-        end
-        return @data[0][0].base_dfe
-      end
-
-      # Safely return the base spd of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def base_spd(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).base_spd
-        end
-        return @data[0][0].base_spd
-      end
-
-      # Safely return the base ats of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def base_ats(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).base_ats
-        end
-        return @data[0][0].base_ats
-      end
-
-      # Safely return the base dfs of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def base_dfs(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).base_dfs
-        end
-        return @data[0][0].base_dfs
-      end
-
-      # Safely return the hp ev given by the Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def ev_hp(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).ev_hp
-        end
-        return @data[0][0].ev_hp
-      end
-
-      # Safely return the atk ev given by the Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def ev_atk(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).ev_atk
-        end
-        return @data[0][0].ev_atk
-      end
-
-      # Safely return the dfe ev given by the Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def ev_dfe(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).ev_dfe
-        end
-        return @data[0][0].ev_dfe
-      end
-
-      # Safely return the spd ev given by the Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def ev_spd(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).ev_spd
-        end
-        return @data[0][0].ev_spd
-      end
-
-      # Safely return the ats ev given by the Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def ev_ats(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).ev_ats
-        end
-        return @data[0][0].ev_ats
-      end
-
-      # Safely return the dfs ev given by the Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def ev_dfs(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).ev_dfs
-        end
-        return @data[0][0].ev_dfs
-      end
-
-      # Safely return the move set of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Array<Integer, Integer>]
-      def move_set(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).move_set
-        end
-        return @data[0][0].move_set
-      end
-
-      # Safely return the tech set of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Array<Integer>]
-      def tech_set(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).tech_set
-        end
-        return @data[0][0].tech_set
-      end
-
-      # Safely return the evolution level of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def evolution_level(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).evolution_level
-        end
-        return @data[0][0].evolution_level
-      end
-
-      # Safely return the evolution id of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def evolution_id(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).evolution_id
-        end
-        return @data[0][0].evolution_id
-      end
-
-      # Safely return the special evolution information of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Hash, nil]
-      def special_evolution(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).special_evolution
-        end
-        return @data[0][0].special_evolution
-      end
-
-      # Safely return the exp type of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def exp_type(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).exp_type
-        end
-        return @data[0][0].exp_type
-      end
-
-      # Safely return the base exp of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def base_exp(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).base_exp
-        end
-        return @data[0][0].base_exp
-      end
-
-      # Safely return the base loyalty of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def base_loyalty(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).base_loyalty
-        end
-        return @data[0][0].base_loyalty
-      end
-
-      # Safely return the rareness of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def rareness(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).rareness
-        end
-        return @data[0][0].rareness
-      end
-
-      # Safely return the female rate of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def female_rate(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).female_rate
-        end
-        return @data[0][0].female_rate
-      end
-
-      # Safely return the abilities of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Array(Integer, Integer, Integer)]
-      def abilities(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).abilities
-        end
-        return @data[0][0].abilities
-      end
-
-      # Safely return the breed groupes of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Array(Integer, Integer)]
-      def breed_groupes(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).breed_groupes
-        end
-        return @data[0][0].breed_groupes
-      end
-
-      # Safely return the breed moves of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Array<Integer>]
-      def breed_moves(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).breed_moves
-        end
-        return @data[0][0].breed_moves
-      end
-
-      # Safely return the master moves of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Array<Integer>]
-      def master_moves(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).master_moves
-        end
-        return @data[0][0].master_moves
-      end
-
-      # Safely return the hatch step of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def hatch_step(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).hatch_step
-        end
-        return @data[0][0].hatch_step
-      end
-
-      # Safely return the items held by a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Array<Integer, Integer>]
-      def items(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).items
-        end
-        return @data[0][0].items
-      end
-
-      # Safely return the baby of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def baby(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).baby
-        end
-        return @data[0][0].baby
-      end
-
-      # Safely return the front offset y of a Pokemon
-      # @param id [Integer, Symbol] id of the Pokemon in the database
-      # @param form [Integer] form of the Pokemon
-      # @return [Integer]
-      def front_offset_y(id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        if id_valid?(id)
-          data = @data[id]
-          return (data[form] || data[0]).front_offset_y || 0
-        end
-        return 0
+        return @data.dig(id, form) || @data.dig(id, 0) || @data.dig(0, 0)
       end
 
       # Safely return the db_symbol of an item
@@ -664,21 +195,12 @@ module GameData
         return :__undef__
       end
 
-      # Find a Pokemon using symbol
-      # @note Returns first form if the form doesn't exists
-      # @param symbol [Symbol]
-      # @param form [Integer] requested form
-      # @return [GameData::Pokemon]
-      def find_using_symbol(symbol, form = 0)
-        pokemon = @data.find { |data| data[0].db_symbol == symbol }
-        return @data[0][0] unless pokemon
-        pokemon.fetch(form) { pokemon.first }
-      end
-
       # Get id using symbol
       # @param symbol [Symbol]
       # @return [Integer]
       def get_id(symbol)
+        return 0 if symbol == :__undef__
+
         pokemon = @data.index { |data| data[0].db_symbol == symbol }
         return pokemon || 0
       end
@@ -722,11 +244,11 @@ module GameData
         @data = load_data('Data/PSDK/PokemonData.rxdata')
         # set the LAST_ID of the Pokemon data
         GameData::Pokemon.const_set(:LAST_ID, @data.size - 1)
-        @data[0] = [GameData::Pokemon.new(
-          1.60, 52, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, [], [], 0, 0, nil, 1,
-          100, 0, 0, 60, [0, 0, 0], [15, 15], [], [], 10**9, [0, 0, 0, 0], 0
-        )]
+        @data[0] = [GameData::Pokemon.new]
         @data.freeze
+        @data.each_with_index do |pokemon_arr, index|
+          pokemon_arr.each { |pokemon| pokemon&.id = index }
+        end
       end
 
       # Convert a collection to symbolized collection

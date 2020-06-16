@@ -9,10 +9,10 @@ module Battle
     )
     # List of ability that power specific move types when the user only has 1/3 (rounded down) of its HP
     POWERING_TYPE_USER_ABILITY = {
-      blaze: 2,
-      overgrow: 5,
-      torrent: 3,
-      swarm: 12
+      blaze: GameData::Types::FIRE,
+      overgrow: GameData::Types::GRASS,
+      torrent: GameData::Types::WATER,
+      swarm: GameData::Types::BUG
     }
 
     private

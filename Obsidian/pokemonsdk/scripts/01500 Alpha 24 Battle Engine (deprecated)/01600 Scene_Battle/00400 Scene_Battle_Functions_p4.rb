@@ -173,6 +173,11 @@ class Scene_Battle
   # Selection d'un Pokémon pour l'actor
   #===
   def phase4_actor_select_pkmn(i)
+    egg_party = []
+    @actors.each { |j| egg_party << j unless BattleEngine.get_ally!(i).include?(j) }
+    egg_check = egg_party.all?(&:dead?)
+    return false if egg_check
+    
     @message_window.visible = false
     $scene = scene = GamePlay::Party_Menu.new(@actors, :battle, no_leave: true)
     scene.main#(true)
@@ -364,7 +369,6 @@ class Scene_Battle
       pokemon.captured_at = Time.new.to_i
       pokemon.trainer_name = $trainer.name
       pokemon.trainer_id = $trainer.id
-      pokemon.code_generation(pokemon.shiny, !pokemon.shiny)
       @_EXP_GIVE.push(pokemon)  # ligne ajoutée pour donner l'XP à la capture.
       pokemon.reset_stat_stage
       start_phase5
@@ -399,12 +403,11 @@ class Scene_Battle
   def gr_launch_ball_to_enemy(pokemon, id)
     pokemon_sprite = gr_get_pokemon_sprite(pokemon)
     origin_sprite = pokemon.position < 0 ? @actor_sprites.first : @enemy_sprites.first
-    @ball_sprite = Sprite.new(@viewport).set_bitmap(GameData::Item.ball_data(id).img, :ball)
+    @ball_sprite = Sprite.new(@viewport).set_bitmap(GameData::Item[id].ball_data.img, :ball)
     @ball_sprite.visible = false
     @animator = Yuki::Basic_Animator.new(load_data('Data/Animations/pokeball_catch.dat'), origin_sprite, pokemon_sprite)
     @animator.parameters[:ball_sprite] = @ball_sprite
     while @animator.update
-      @viewport.sort_z
       update_animated_sprites
       Graphics.update unless @animator.terminated?
     end
@@ -418,12 +421,11 @@ class Scene_Battle
   def gr_deflect_ball(pokemon, id)
     pokemon_sprite = gr_get_pokemon_sprite(pokemon)
     origin_sprite = pokemon.position < 0 ? @actor_sprites.first : @enemy_sprites.first
-    @ball_sprite = Sprite.new(@viewport).set_bitmap(GameData::Item.ball_data(id).img, :ball)
+    @ball_sprite = Sprite.new(@viewport).set_bitmap(GameData::Item[id].ball_data.img, :ball)
     @ball_sprite.visible = false
     @animator = Yuki::Basic_Animator.new(load_data('Data/Animations/pokeball_deflect.dat'), origin_sprite, pokemon_sprite)
     @animator.parameters[:ball_sprite] = @ball_sprite
     while @animator.update
-      @viewport.sort_z
       update_animated_sprites
       Graphics.update unless @animator.terminated?
     end
@@ -438,7 +440,6 @@ class Scene_Battle
     @animator = Yuki::Basic_Animator.new(load_data('Data/Animations/pokeball_move.dat'), origin_sprite, pokemon_sprite)
     @animator.parameters[:ball_sprite] = @ball_sprite
     while @animator.update
-      @viewport.sort_z
       update_animated_sprites
       Graphics.update unless @animator.terminated?
     end
@@ -454,7 +455,6 @@ class Scene_Battle
     @animator = Yuki::Basic_Animator.new(load_data('Data/Animations/pokeball_got.dat'), origin_sprite, pokemon_sprite)
     @animator.parameters[:ball_sprite] = @ball_sprite
     while @animator.update
-      @viewport.sort_z
       update_animated_sprites
       Graphics.update unless @animator.terminated?
     end
@@ -469,7 +469,6 @@ class Scene_Battle
     @animator = Yuki::Basic_Animator.new(load_data('Data/Animations/pokeball_break.dat'), origin_sprite, pokemon_sprite)
     @animator.parameters[:ball_sprite] = @ball_sprite
     while @animator.update
-      @viewport.sort_z
       update_animated_sprites
       Graphics.update unless @animator.terminated?
     end
@@ -517,6 +516,24 @@ class Scene_Battle
       end
     end
   end
+
+  # Function that ask if the trainer wants to switch
+  def phase4_switch_question(new_enemy)
+    if $options.battle_mode && (@actors.count { |act| act&.alive? } > 1)
+      text = parse_text(
+        18, 21,
+        '[VAR 010E(0000)]' => GameData::Trainer.class_name(@trainer_class),
+        '[VAR TRNAME(0001)]' => @trainer_names[0],
+        '[VAR 019E(0000)]' => "#{GameData::Trainer.class_name(@trainer_class)} #{@trainer_names[0]}",
+        '[VAR PKNICK(0002)]' => (@enemies[-new_enemy[1] - 1])&.given_name.to_s
+      )
+      choice = display_message(text, true, 1, text_get(11, 27), text_get(11, 28))
+      if choice == 0
+        result = phase4_actor_select_pkmn(@actors[0])
+        phase4_switch_pokemon(result) if result
+      end
+    end
+  end
   #===
   #>_phase4_switch_check
   # Vérification des switchs à réaliser
@@ -544,7 +561,10 @@ class Scene_Battle
       if i.position<0
         new_enemy=phase4_enemie_select_pkmn(i)
         #phase4_switch_pokemon([2,-new_enemy-1,-i.position-1]) if new_enemy
-        phase4_switch_pokemon(new_enemy) if new_enemy
+        if new_enemy
+          phase4_switch_question(new_enemy) if $game_temp.vs_type == 1
+          phase4_switch_pokemon(new_enemy)
+        end
         @e_remaining_pk.redraw if $game_temp.trainer_battle
       else
         #Vérification de la possibilité de switch

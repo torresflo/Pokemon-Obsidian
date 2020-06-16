@@ -26,9 +26,9 @@ module PFM
     # Create a new Skill information
     # @param id [Integer] ID of the skill/move in the database
     def initialize(id)
-      data = GameData::Skill.get(id)
-      @id = id
-      unless data
+      data = GameData::Skill[id]
+      @id = data.id
+      if @id == 0
         @ppmax = 0
         @pp = 0
         return
@@ -44,6 +44,12 @@ module PFM
       @power2 = nil
       @type2 = nil
       @accuracy2 = nil
+    end
+
+    # Return the actual data of the move
+    # @return [GameData::Skill]
+    def data
+      return GameData::Skill[@id || 0]
     end
 
     # Reset the skill/move information
@@ -65,15 +71,17 @@ module PFM
     # @param sketch [Boolean] if the skill informations are definitely changed
     def switch(id, pp = 10, sketch = false)
       return initialize(id) if sketch
-      data = GameData::Skill.get(id)
+
+      data = GameData::Skill[id]
       @id_bis = @id
       @pp_bis = @pp if pp
       @pp_max_bis = @ppmax
-      @id = id
-      unless data
+      @id = data.id
+      if @id == 0
         @pp = @ppmax = 0
         return
       end
+
       if pp
         pp = data.pp_max if data.pp_max < pp
         @pp = pp
@@ -85,32 +93,33 @@ module PFM
     # Return the db_symbol of the skill
     # @return [Symbol]
     def db_symbol
-      GameData::Skill.db_symbol(@id)
+      return data.db_symbol
     end
 
     # Return the name of the skill
     # @return [String]
     def name
-      return GameData::Skill.name(@id)
+      return data.name
     end
 
     # Return the symbol of the method to call in BattleEngine
     # @return [Symbol]
     def symbol
-      return GameData::Skill.be_method(@id)
+      return data.be_method
     end
 
     # Return the actual power of the skill
     # @return [Integer]
     def power
-      return @power2 || GameData::Skill.power(@id)
+      return @power2 || base_power
     end
 
     # Return the text of the power of the skill
     # @return [String]
     def power_text
-      power = GameData::Skill.power(@id)
+      power = base_power
       return text_get(11, 12) if power == 0
+
       return power.to_s
     end
 
@@ -123,117 +132,118 @@ module PFM
     # Return the base power (Data power) of the skill
     # @return [Integer]
     def base_power
-      return GameData::Skill.power(@id)
+      return data.power
     end
 
     # Return the actual type ID of the skill
     # @return [Integer]
     def type
-      return (@type2 || GameData::Skill.type(@id))
+      return @type2 || data.type
     end
 
     # Return the actual accuracy of the skill
     # @return [Integer]
     def accuracy
-      return (@accuracy2 || GameData::Skill.accuracy(@id))
+      return @accuracy2 || data.accuracy
     end
 
     # Return the accuracy text of the skill
     # @return [String]
     def accuracy_text
-      acc = GameData::Skill.accuracy(@id)
+      acc = data.accuracy
       return text_get(11, 12) if acc == 0
+
       return acc.to_s
     end
 
     # Return the chance of effect of the skill
     # @return [Integer]
     def effect_chance
-      return GameData::Skill.effect_chance(@id)
+      return data.effect_chance
     end
 
     # Return the status effect the skill can inflict
     # @return [Integer, nil]
     def status_effect
-      return GameData::Skill.status(@id)
+      return data.status
     end
 
     # Return the stat tage modifier the skill can apply
     # @return [Array<Integer>]
     def battle_stage_mod
-      return GameData::Skill.battle_stage_mod(@id)
+      return data.battle_stage_mod
     end
 
     # Return the target symbol the skill can aim
     # @return [Symbol]
     def target
-      return GameData::Skill.target(@id)
+      return data.target
     end
 
     # Is the skill affected by gravity
     # @return [Boolean]
     def gravity_affected?
-      return GameData::Skill.gravity(@id)
+      return data.gravity
     end
 
     # Return the skill description
     # @return [String]
     def description
-      return text_get(7, @id) # GameData::Skill.descr(@id)
+      return text_get(7, @id || 0) # GameData::Skill.descr(@id)
     end
 
     # Is the skill direct ?
     # @return [Boolean]
     def direct?
-      return GameData::Skill.direct(@id)
+      return data.direct
     end
 
     # Is the skill affected by Mirror Move
     # @return [Boolean]
     def mirror_move?
-      return GameData::Skill.mirror_move(@id)
+      return data.mirror_move
     end
 
     # Return the priority of the skill
     # @return [Integer]
     def priority
-      return GameData::Skill.priority(@id)
+      return data.priority
     end
 
     # Return the ID of the common event to call on Map use
     # @return [Integer]
     def map_use
-      return GameData::Skill.map_use(@id)
+      return data.map_use
     end
 
     # Is the skill blocable by Protect and skill like that ?
     # @return [Boolean]
     def blocable?
-      return GameData::Skill.blocable(@id)
+      return data.blocable
     end
 
     # Is the skill physical ?
     # @return [Boolean]
     def physical?
-      return GameData::Skill.atk_class(@id) == 1
+      return data.atk_class == 1
     end
 
     # Is the skill special ?
     # @return [Boolean]
     def special?
-      return GameData::Skill.atk_class(@id) == 2
+      return data.atk_class == 2
     end
 
     # Is the skill status ?
     # @return [Boolean]
     def status?
-      return GameData::Skill.atk_class(@id) == 3
+      return data.atk_class == 3
     end
 
     # Return the class of the skill
     # @return [Integer] 1, 2, 3
     def atk_class
-      return GameData::Skill.atk_class(@id)
+      return data.atk_class
     end
 
     # Is the skill a specific type ?
@@ -368,49 +378,49 @@ module PFM
     # Does the skill has recoil ?
     # @return [Boolean]
     def recoil?
-      return GameData::Skill.be_method(@id) == :s_recoil
+      return symbol == :s_recoil
     end
 
     # Is the skill a punching move ?
     # @return [Boolean]
     def punching?
-      return GameData::Skill.punching?(@id)
+      return data.punching?
     end
 
     # Return the critical rate of the skill
     # @return [Integer]
     def critical_rate
-      return GameData::Skill.critical_rate(@id)
+      return data.critical_rate
     end
 
     # Is the skill a sound attack ?
     # @return [Boolean]
     def sound_attack?
-      return GameData::Skill.sound_attack(@id)
+      return data.sound_attack
     end
 
     # Does the skill unfreeze
     # @return [Boolean]
     def unfreeze?
-      return GameData::Skill.unfreeze(@id)
+      return data.unfreeze
     end
 
     # Does the skill trigger the king rock
     # @return [Boolean]
     def king_rock_utility
-      return GameData::Skill.king_rock_utility(@id)
+      return status_effect != 7 # Flinch
     end
 
     # Is the skill snatchable ?
     # @return [Boolean]
     def snatchable
-      return GameData::Skill.snatchable(@id)
+      return data.snatchable
     end
 
     # Is the skill affected by magic coat ?
     # @return [Boolean]
     def magic_coat_affected
-      return GameData::Skill.magic_coat_affected(@id)
+      return data.magic_coat_affected
     end
 
     # Change the PP
@@ -432,7 +442,7 @@ module PFM
     # Does the skill aim only one Pokemon
     # @return [Boolean]
     def is_one_target?
-      return OneTarget.include?(self.target)
+      return OneTarget.include?(target)
     end
 
     # List of symbol that doesn't show any choice of target
@@ -440,7 +450,7 @@ module PFM
     # Does the skill doesn't show a target choice
     # @return [Boolean]
     def is_no_choice_skill?
-      return TargetNoAsk.include?(self.target)
+      return TargetNoAsk.include?(target)
     end
   end
 end

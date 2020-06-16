@@ -138,7 +138,7 @@ module PFM
     # @param silent [Boolean] if the skill is automatically learnt or not (false = show skill learn interface & messages)
     # @param level [Integer] The level to check in order to learn the moves
     def check_skill_and_learn(silent = false, level = @level)
-      move_set = GameData::Pokemon.move_set(@id, @form)
+      move_set = data.move_set
       0.step(move_set.size - 1, 2) do |i|
         id = move_set[i + 1]
         if level == move_set[i] && !skill_learnt?(id)
@@ -158,14 +158,17 @@ module PFM
     # @return [Boolean, nil] nil = learnt, false = cannot learn, true = can learn
     def can_learn?(skill_id)
       return false if egg?
+
       skill_id = GameData::Skill.get_id(skill_id) if skill_id.is_a?(Symbol)
       return nil if skill_learnt?(skill_id)
-      move_set = GameData::Pokemon.move_set(@id, @form)
+
+      move_set = data.move_set
       0.step(move_set.size - 1, 2) do |i|
         return true if move_set[i + 1] == skill_id
       end
-      return true if GameData::Pokemon.tech_set(@id, @form).include?(skill_id)
-      return true if GameData::Pokemon.master_moves(@id, @form).include?(skill_id)
+      return true if data.tech_set.include?(skill_id)
+      return true if data.master_moves.include?(skill_id)
+
       return false
     end
 
@@ -187,7 +190,7 @@ module PFM
     #   other = learnt + potentially_learnt
     # @return [Array<Integer>]
     def remindable_skills(mode = 0)
-      move_set = GameData::Pokemon.move_set(@id, @form)
+      move_set = data.move_set
       level = mode == 2 ? Float::INFINITY : @level
       remindable_ids = []
       # Collect natural skills
@@ -197,7 +200,7 @@ module PFM
       # Collect learnt skills
       remindable_ids.concat(@skill_learnt)
       # Collect the bread move skills
-      remindable_ids.concat(GameData::Pokemon.breed_moves(@id, @form)) if mode == 1
+      remindable_ids.concat(data.breed_moves) if mode == 1
       # Clean the list
       remindable_ids.uniq!
       # Remove the skill the pokemon actually has and return the array of PFM::Skills

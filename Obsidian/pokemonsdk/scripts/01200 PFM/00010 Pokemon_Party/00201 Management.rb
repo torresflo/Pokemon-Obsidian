@@ -67,6 +67,8 @@ module PFM
       unless pkmn.egg?
         @pokedex.mark_seen(pkmn.id, pkmn.form, forced: true)
         @pokedex.mark_captured(pkmn.id)
+        @pokedex.pokemon_fought_inc(pkmn.id)
+        @pokedex.pokemon_captured_inc(pkmn.id)
       end
 
       if full?

@@ -162,9 +162,9 @@ module GamePlay
     # @param pokemon [PFM::Pokemon] Pokemong getting the item
     def give_item_message(item1, item2, pokemon)
       if item1 != 0 && item1 != item2
-        display_message(parse_text(22, 91, ::PFM::Text::ITEM2[0] => pokemon.item_name, ::PFM::Text::ITEM2[1] => ::GameData::Item.name(item2)))
+        display_message(parse_text(22, 91, ::PFM::Text::ITEM2[0] => pokemon.item_name, ::PFM::Text::ITEM2[1] => ::GameData::Item[item2].name))
       elsif item1 != item2
-        display_message(parse_text(22, 90, ::PFM::Text::ITEM2[0] => ::GameData::Item.name(item2)))
+        display_message(parse_text(22, 90, ::PFM::Text::ITEM2[0] => ::GameData::Item[item2].name))
       end
     end
 
@@ -188,7 +188,7 @@ module GamePlay
       pokemon.item_holding = 0
       @team_buttons[@index].data = pokemon
       @team_buttons[@index].refresh
-      display_message(parse_text(23, 78, ::PFM::Text::PKNICK[0] => pokemon.given_name, ::PFM::Text::ITEM2[1] => ::GameData::Item.name(item)))
+      display_message(parse_text(23, 78, ::PFM::Text::PKNICK[0] => pokemon.given_name, ::PFM::Text::ITEM2[1] => ::GameData::Item[item].name))
       return @base_ui.hide_win_text unless pokemon.form_calibrate # Form ajustment
       @team_buttons[@index].refresh
       form_change_message(pokemon)
@@ -449,6 +449,7 @@ module GamePlay
       @move = -1
       @base_ui.hide_win_text
       @intern_mode = :normal
+      $game_player.make_encounter_count
     end
 
     # Process the switch between the items of two pokemon

@@ -15,11 +15,15 @@ module UI
     # @param viewport [Viewport]
     # @param texts [Array<String>] list of texts shown in the ControlButton
     # @param keys [Array<Symbol>] list of keys used in the ControlButton
-    def initialize(viewport, texts = nil, keys = DEFAULT_KEYS)
+    def initialize(viewport, texts = [], keys = DEFAULT_KEYS, hide_background_and_button: false)
       super(viewport)
       @keys = keys
       create_graphics
       self.button_texts = texts
+      if hide_background_and_button
+        @button_background.visible = false
+        @ctrl.each {|button| button.visible = false}
+      end
     end
 
     # Set the keys of the buttons

@@ -81,6 +81,12 @@
   road_101_3.tmx:
     :id: 27
     :tileset: road_101_3
+  road_101_island_house_1.tmx:
+    :id: 29
+    :tileset: road_101_island_house_1
+  road_101_island_cave_1.tmx:
+    :id: 30
+    :tileset: road_101_island_cave_1
 :tilesets:
   amaryllis_city: amaryllis_city.png
   amaryllis_player_house_floor_1: amaryllis_player_house_floor_1.png
@@ -109,3 +115,5 @@
   road_101_house_1: road_101_house_1.png
   road_101_2: road_101_2.png
   road_101_3: road_101_3.png
+  road_101_island_house_1: road_101_island_house_1.png
+  road_101_island_cave_1: road_101_island_cave_1.png

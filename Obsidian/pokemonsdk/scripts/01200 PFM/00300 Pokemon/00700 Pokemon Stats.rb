@@ -3,43 +3,44 @@ module PFM
     # Return the base HP
     # @return [Integer]
     def base_hp
-      return GameData::Pokemon.base_hp(@id, @form)
+      return data.base_hp
     end
 
     # Return the base ATK
     # @return [Integer]
     def base_atk
-      return GameData::Pokemon.base_atk(@id, @form)
+      return data.base_atk
     end
 
     # Return the base DFE
     # @return [Integer]
     def base_dfe
-      return GameData::Pokemon.base_dfe(@id, @form)
+      return data.base_dfe
     end
 
     # Return the base SPD
     # @return [Integer]
     def base_spd
-      return GameData::Pokemon.base_spd(@id, @form)
+      return data.base_spd
     end
 
     # Return the base ATS
     # @return [Integer]
     def base_ats
-      return GameData::Pokemon.base_ats(@id, @form)
+      return data.base_ats
     end
 
     # Return the base DFS
     # @return [Integer]
     def base_dfs
-      return GameData::Pokemon.base_dfs(@id, @form)
+      return data.base_dfs
     end
 
     # Return the max HP of the Pokemon
     # @return [Integer]
     def max_hp
       return 1 if db_symbol == :shedinja
+
       return ((@iv_hp + 2 * base_hp + @ev_hp / 4) * @level) / 100 + 10 + @level
     end
 
@@ -81,33 +82,6 @@ module PFM
       n = battle_effect.dfs
       return (n * dfs_modifier).to_i if n
       return (dfs_basis * dfs_modifier).floor
-    end
-
-    # Reset the battle stat stage and stuff related to battle
-    def reset_stat_stage
-      # TODO : Move and ajust this in the battle code
-      @battle_stage = Array.new(7, 0)
-      @critical_modifier = 0
-      @ability_used = false
-      @ability_current = @ability
-      @confuse = false
-      @state_count = 0
-      @skills_set.each(&:reset)
-      @skills_set.reject! { |skill| skill.id == 0 }
-      if @sub_id
-        @id = @sub_id
-        @shiny = @sub_shiny
-        @form = @sub_form
-        @sub_id = @sub_shiny = @sub_form = nil
-        self.hp = (max_hp * hp_rate).to_i
-      end
-      @battle_item = @item_holding
-      @battle_item_data = []
-      @type1 = @type2 = @type3 = nil
-      @last_skill = 0
-      @skill_use_times = 0
-      @form = form_generation(-1) if db_symbol == :cherrim
-      @status_count = 0 if toxic?
     end
 
     # Return the atk stage

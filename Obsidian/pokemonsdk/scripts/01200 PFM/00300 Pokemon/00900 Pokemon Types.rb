@@ -3,13 +3,13 @@ module PFM
     # Return the current first type of the Pokemon
     # @return [Integer]
     def type1
-      return @type1 || GameData::Pokemon.type1(@id, @form)
+      return @type1 || data.type1
     end
 
     # Return the current second type of the Pokemon
     # @return [Integer]
     def type2
-      return @type2 || GameData::Pokemon.type2(@id, @form)
+      return @type2 || data.type2
     end
 
     # Return the current third type of the Pokemon

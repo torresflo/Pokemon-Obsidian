@@ -107,7 +107,7 @@ module UI
     # Return the background name
     # @return [String] name of the background
     def background_name
-      $options&.language == 'fr' ? 'team/But_Party' : 'team/But_PartyEN'
+      'team/but_party'
     end
 
     # Create the HP Bar for the pokemon

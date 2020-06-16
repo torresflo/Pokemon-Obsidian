@@ -113,4 +113,18 @@ class Interpreter
     @message_waiting = false
     @wait_count = 2
   end
+
+  # Sequence that perform NPC trade
+  # @param index [Integer] index of the Pokemon in the party
+  # @param pokemon [PFM::Pokemon] Pokemon that is traded with
+  def npc_trade_sequence(index, pokemon)
+    return unless $actors[index].is_a?(PFM::Pokemon)
+
+    actor = $actors[index]
+    $actors[index] = pokemon
+    # TODO: Trade animation taking actor, pokemon (including messages)
+    $scene.display_message("#{actor.given_name} is being traded with #{pokemon.name}")
+    id, form = pokemon.evolve_check(:trade, @pokemon)
+    $scene.call_scene(GamePlay::Evolve, pokemon, id, form, true) if id
+  end
 end

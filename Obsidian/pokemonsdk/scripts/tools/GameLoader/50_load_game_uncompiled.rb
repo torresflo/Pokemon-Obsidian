@@ -5,6 +5,7 @@ begin
   puts 'Loading Game...'
   ScriptLoader.load_tool('GameLoader/Z_main') unless PARGV[:util].to_a.any?
   ScriptLoader.start
+  SafeExec.load
   GC.start
 rescue StandardError
   display_game_exception('An error occured during Script Loading.')

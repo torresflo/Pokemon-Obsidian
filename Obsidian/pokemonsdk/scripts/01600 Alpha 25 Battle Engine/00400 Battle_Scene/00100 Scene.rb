@@ -120,7 +120,12 @@ module Battle
     # Create the message proc ensuring the scene is still updated
     def create_message_proc
       @__display_message_proc = proc do
+        unless @visual.locking?
+          should_unlock = true
+          @visual.lock
+        end
         update if $game_temp.message_window_showing && !@message_window.drawing_message
+        @visual.unlock if should_unlock
       end
     end
 

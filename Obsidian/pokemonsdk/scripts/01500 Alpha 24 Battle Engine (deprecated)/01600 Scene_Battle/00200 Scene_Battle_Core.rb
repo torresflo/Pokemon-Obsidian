@@ -145,6 +145,16 @@ class Scene_Battle
       $pokedex.mark_seen(pkmn.id,pkmn.form)
       $quests.see_pokemon(pkmn.id)
     end
+    #>Retrait de l'état de méga évolution
+    @actors.each do |pkmn|
+      next unless pkmn
+
+      pkmn.unmega_evolve
+      pkmn.reset_stat_stage
+      pkmn.form_calibrate
+      #>Vérifications de cheniti
+      pkmn.form = pkmn.form_generation(-1) if pkmn.id == 412 || pkmn.id == 413
+    end
     ::Scheduler.start(:on_scene_switch, ::Scene_Battle)
 =begin
     ::RPG::Cache.load_icon(true)
@@ -212,9 +222,7 @@ class Scene_Battle
     BattleEngine.get_enemies.clear
     if $pokemon_party.nuzlocke.enabled?
       $pokemon_party.nuzlocke.clear_dead_pokemon
-      unless $pokemon_party.nuzlocke.catching_locked_here? || $game_temp.trainer_battle
-        $pokemon_party.nuzlocke.lock_catch_in_current_zone
-      end
+      $pokemon_party.nuzlocke.lock_catch_in_current_zone($scene.enemy_party.actors[0].id)
     end
     # Retour à la carte
     $scene = Scene_Map.new
@@ -286,8 +294,6 @@ class Scene_Battle
   # ● Mise à jour globale
   #--------------------------------------------------------------------------
   def update
-    #> Mise à jour de la position z des sprites
-    @viewport.sort_z if @viewport
     #> Mise à jour de l'interpreter
     interpreter_running_check
     # Mises à jour de Game System / Screen (Compteur)
@@ -399,6 +405,7 @@ class Scene_Battle
   def update_animated_sprites
     return unless @viewport
     @viewport.update
+    @viewport.need_to_sort = true
     @viewport.sort_z
     @stuff_to_update.each do |i|
       i.update

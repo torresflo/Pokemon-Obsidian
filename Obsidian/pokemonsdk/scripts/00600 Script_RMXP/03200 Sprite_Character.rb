@@ -92,15 +92,7 @@ class Sprite_Character < RPG::Sprite
     @character_name = @character.character_name
     self.visible = !@character_name.empty? || @tile_id > 0
     if @tile_id >= 384
-      self.bitmap = RPG::Cache.tileset($game_map.tileset_name)
-      tile_id = @tile_id - 384
-      tlsy = tile_id / 8 * 32
-      max_size = 4096 # Graphics::MAX_TEXTURE_SIZE
-      src_rect.set((tile_id % 8 + tlsy / max_size * 8) * 32, tlsy % max_size, 32, @height = 32)
-      self.zoom = TILE_ZOOM # _x=self.zoom_y=(16*$zoom_factor)/32.0
-      self.ox = 16
-      self.oy = 32
-      @ch = 32
+      update_tile_graphic
     else
       self.bitmap = RPG::Cache.character(@character_name, 0)
       @cw = bitmap.width / 4
@@ -112,6 +104,29 @@ class Sprite_Character < RPG::Sprite
       @pattern = @character.pattern
       @direction = @character.direction
     end
+  end
+
+  # Update the tile graphic of the sprite
+  def update_tile_graphic
+    map_data = Yuki::MapLinker.map_datas
+    if !map_data || map_data.empty?
+      self.bitmap = RPG::Cache.tileset($game_map.tileset_name)
+      tile_id = @tile_id - 384
+      tlsy = tile_id / 8 * 32
+      max_size = 4096 # Graphics::MAX_TEXTURE_SIZE
+      src_rect.set((tile_id % 8 + tlsy / max_size * 8) * 32, tlsy % max_size, 32, @height = 32)
+    else
+      x = @character.x
+      y = @character.y
+      # @type [Yuki::Tilemap::MapData]
+      event_map = map_data.find { |map| map.x_range.include?(x) && map.y_range.include?(y) } || map_data.first
+      event_map.assign_tile_to_sprite(self, @tile_id)
+      @height = 32
+    end
+    self.zoom = TILE_ZOOM # _x=self.zoom_y=(16*$zoom_factor)/32.0
+    self.ox = 16
+    self.oy = 32
+    @ch = 32
   end
 
   # Update the position of the Sprite_Character on the screen

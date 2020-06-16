@@ -9,14 +9,19 @@ module UI
       HEIGHT = 160
       # Base Y for the scrollbar
       BASE_Y = 36
+      # BASE X for the scrollbar
+      BASE_X = 309
+      # Background of the scrollbar
+      BACKGROUND = 'bag/scroll'
+      # Image of the button
+      BUTTON = 'bag/button_scroll'
       # Create a new scrollbar
       # @param viewport [Viewport]
       def initialize(viewport)
-        super(viewport, 309, BASE_Y)
-        add_background('bag/scroll').set_z(1)
-        @button = add_sprite(-1, 0, 'bag/button_scroll').set_z(2)
+        super(viewport, BASE_X, BASE_Y)
         @index = 0
         @max_index = 1
+        init_sprite
       end
 
       # Set the current index of the scrollbar
@@ -31,6 +36,24 @@ module UI
       def max_index=(value)
         @max_index = value <= 0 ? 1 : value
         self.index = 0
+      end
+
+      private
+
+      def init_sprite
+        create_background
+        @button = create_button
+      end
+
+      # Create the background
+      def create_background
+        add_background(BACKGROUND).set_z(1)
+      end
+
+      # Create the button
+      # @return [LiteRGSS::Sprite]
+      def create_button
+        add_sprite(-1, 0, BUTTON).set_z(2)
       end
     end
   end

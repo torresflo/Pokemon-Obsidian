@@ -9,7 +9,7 @@ module BattleEngine
   #===
   def s_lock_on(launcher, target, skill, msg_push = true)
     return unless __s_beg_step(launcher, target, skill, msg_push)
-    #_mp([:msg, parse_text_with_pokemon(19, xxx, launcher, PKNICK[1] => target.given_name)])
+    _mp([:msg, parse_text_with_pokemon(19, 651, launcher, PKNICK[1] => target.given_name)])
     _mp([:apply_effect, launcher, :apply_lock_on, target])
   end
 
@@ -76,7 +76,7 @@ module BattleEngine
   # Façade
   #===
   def s_facade(launcher, target, skill, msg_push = true)
-    skill.power2 = 140 if launcher.poisoned? or launcher.paralyzed? #or launcher.burn?
+    skill.power2 = 140 if launcher.poisoned? || launcher.paralyzed? || launcher.burn?
     s_basic(launcher, target, skill)
     skill.power2 = nil
   end
@@ -124,7 +124,7 @@ module BattleEngine
     return unless __s_beg_step(launcher, target, skill, msg_push)
     target = _snatch_check(launcher, skill)
     unless(target.battle_effect.has_wish_effect?)
-      #_mp([:msg, parse_text_with_pokemon(19, xxx, target)])
+      _mp([:msg, parse_text_with_pokemon(21, 819, target, PKNAME[0] => launcher.given_name)])
       _mp([:apply_effect, target, :apply_wish, target])
     else
       _mp([:msg_fail])
@@ -174,7 +174,7 @@ module BattleEngine
     return unless __s_beg_step(launcher, target, skill, msg_push)
     target = _magic_coat(launcher, target, skill)
     unless(target.battle_effect.has_yawn_effect? or target.battle_effect.has_safe_guard_effect?)
-      #_mp([:msg, parse_text_with_pokemon(19, xxx, target)])
+      _mp([:msg, parse_text_with_pokemon(19, 667, target, PKNICK[0] => target.given_name)])
       _mp([:apply_effect, target, :apply_yawn])
     else
       if(target.battle_effect.has_safe_guard_effect?) #> Rune protect
@@ -295,11 +295,29 @@ module BattleEngine
   JudgementPlates = [298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 644]
   def s_judgment(launcher, target, skill, msg_push = true)
     if(JudgementPlates.include?(@_State[:launcher_item]))
-      imisc = GameData::Item.misc_data(@_State[:launcher_item])
+      imisc = GameData::Item[@_State[:launcher_item]].misc_data
       skill.type2 = imisc.powering_skill_type1 if imisc and imisc.powering_skill_type1
     end
     s_basic(launcher, target, skill)
     skill.type2 = nil
+  end
+  
+  #===
+  #>s_techno_blast
+  # Techno-Buster
+  #===
+  def s_techno_blast(launcher, target, skill, msg_push = true)
+    # Fails if it's not Genesect
+    if launcher.id == 649
+      technodrives = { 116 => 3, 117 => 4, 118 => 2, 119 => 6 }
+      drive_check = false
+      technodrives.each { |key, value| drive_check = true if key == @_State[:launcher_item] }
+      skill.type2 = drive_check ? technodrives[@_State[:launcher_item]] : 1
+      s_basic(launcher, target, skill)
+      skill.type2 = nil
+    else
+      _mp(MSG_Fail)
+    end
   end
 
   #===
@@ -316,7 +334,7 @@ module BattleEngine
 
   #===
   #>s_venom_drench
-  # Choc Venin
+  # Piege Venin
   #===
   def s_venom_drench(launcher, target, skill, msg_push = true)
     if target.poisoned? or target.toxic?
@@ -356,11 +374,12 @@ module BattleEngine
   # Calcination
   #===
   def s_incinerate(launcher, target, skill, msg_push = true)
-    return if s_basic(launcher, target, skill)
-	data = ::GameData::Item.misc_data(target.battle_item)
+    return unless s_basic(launcher, target, skill)
+	  data = ::GameData::Item[target.battle_item].misc_data
     if(data and data.berry) # TODO Joyaux
+      # TODO Fix msg parsing with plural
+      # _mp([:msg, parse_text_with_pokemon(19, 1114, target, PKNICK[0] => target.given_name, ITEM2[1] => ::GameData::Item[target.battle_item].name)])
       _mp([:set_item, target, 0, true])
-      #>Message ?
 	end
   end
 
@@ -369,7 +388,7 @@ module BattleEngine
   # Force Cachée
   #===
   def s_secret_power(launcher, target, skill, msg_push = true)
-    return if s_basic(launcher, target, skill)
+    return unless s_basic(launcher, target, skill)
     return if rand(100) > skill.effect_chance.to_i
     if($env.very_tall_grass? or $env.tall_grass?)
       _mp([:status_sleep, target])
@@ -390,7 +409,7 @@ module BattleEngine
   #>s_camouflage
   # Camouflage
   #===
-  def s_secret_power(launcher, target, skill, msg_push = true)
+  def s_camouflage(launcher, target, skill, msg_push = true)
     return unless __s_beg_step(launcher, target, skill, msg_push)
     target = _snatch_check(target, skill)
     if($env.very_tall_grass? or $env.tall_grass?)
@@ -416,10 +435,9 @@ module BattleEngine
   #===
   def s_sucker_punch(launcher, target, skill, msg_push = true)
     skill_id = target.prepared_skill
-    if(_attacking_before?(launcher, target) and skill_id != 0 and GameData::Skill.atk_class(skill_id) != 3)
+    if _attacking_before?(launcher, target) && skill_id && skill_id != 0 && GameData::Skill[skill_id].atk_class != 3
       s_basic(launcher, target, skill)
-    else
-      return unless __s_beg_step(launcher, target, skill, msg_push)
+    elsif __s_beg_step(launcher, target, skill, msg_push)
       _mp(MSG_Fail)
     end
   end
@@ -458,18 +476,6 @@ module BattleEngine
       s_basic(launcher, target, skill)
     else
       __s_beg_step(launcher, target, skill, msg_push)
-      _mp(MSG_Fail)
-    end
-  end
-  #===
-  #>s_captivate
-  # Séducition
-  #===
-  def s_captivate(launcher, target, skill, msg_push = true)
-    if(target.gender * launcher.gender == 2)
-      s_stat(launcher, target, skill)
-    else
-      return unless __s_beg_step(launcher, target, skill, msg_push)
       _mp(MSG_Fail)
     end
   end
@@ -739,13 +745,25 @@ module BattleEngine
   #===
   def s_after_you(launcher, target, skill, msg_push = true)
     return unless __s_beg_step(launcher, target, skill, msg_push)
-    if _attacking_before?(launcher, target) or (target.attack_order - launcher.attack_order) == 1
+    if _attacking_before?(target, launcher) || $game_temp.vs_type == 1
       _mp(MSG_Fail)
     else
       _mp([:after_you, target])
     end
   end
-
+  #===
+  #>s_quash
+  # A la Queue
+  #===
+  def s_quash(launcher, target, skill, msg_push = true)
+    return unless __s_beg_step(launcher, target, skill, msg_push)
+    # Fail if the target is already attacking last or if we are in a simple battle mode
+    if _attacking_last?(target) || $game_temp.vs_type == 1
+      _mp(MSG_Fail)
+    else
+      _mp([:quash, target])
+    end
+  end
   #===
   #>s_psycho_shift
   # Echange Psy

@@ -19,34 +19,44 @@ module GamePlay
     LAST_STEP = SECOND_STEP + 60
     PI2 = Math::PI*2
 
-    def initialize(pokemon, id, forced = false)
-        super()
-        @pokemon = pokemon 
-        @clone = pokemon.clone
-        @clone.id = id
+    # Launch the Pokemon Evolution scene
+    # @param pokemon [PFM::Pokemon] the evolving Pokemon
+    # @param id [Integer] the ID of the evolution
+    # @param form [Integer] the form of the evolution
+    # @param forced [Boolean] if the evolution can be stopped or not
+    def initialize(pokemon, id, form = nil, forced = false)
+      super()
+      @pokemon = pokemon 
+      @clone = pokemon.clone
+      @clone.id = id
+      if form
+        @clone.form = form
+      else
         @clone.form_calibrate(:evolve)
-        @forced = forced 
-        @id_bg = 0
-        @evolved = false
-        @counter = 0
-        memorize_audio
+      end
+      @forced = forced 
+      @id_bg = 0
+      @evolved = false
+      @counter = 0
+      memorize_audio
     end
 
     def update_graphics
-      
-      return if $game_temp.message_window_showing 
+      return if $game_temp.message_window_showing
+
       if @counter == 0
         evolution_first_step
       elsif @counter >= LAST_STEP
         evolution_last_step
         update_message
-        update_pkmn_id
-        #check_alola_evolve(@pokemon)
-        @pokemon.check_skill_and_learn#(false, -1) #(US-45) Fin de ligne commentée tant que la BDD n'aura pas les niveaux à -1 pour les attaques par évolution.
         #===
         #> Munja évolution de Ningale
+        #> Faites avant l'évolution de Ningale
         #===
         munja_evolution
+        update_pkmn_id
+        # check_alola_evolve(@pokemon)
+        @pokemon.check_skill_and_learn # (false, -1) #(US-45) Fin de ligne commentée tant que la BDD n'aura pas les niveaux à -1 pour les attaques par évolution.
         restore_audio
         @running = false
         @evolved = true
@@ -61,16 +71,16 @@ module GamePlay
       end
       @counter += 1
     end
- 
+
     private
-    
+
     def release_animation
       @sprite_clone.opacity = 0
       @sprite_pokemon.opacity = 255
       @sprite_pokemon.set_color([0, 0, 0, 0])
       @viewport.tone.set(0, 0, 0, 0)
     end
-    
+
     def stop_evolution_step
       release_animation
       @message_window.stay_visible = false
@@ -81,6 +91,7 @@ module GamePlay
 
     def evolution_first_step 
       Audio.bgm_play(EVOLVE_MUSIC)
+      $game_system.cry_play(@pokemon.id)
       @message_window.auto_skip = true
       @message_window.stay_visible = true
       display_message(parse_text(31, 0, ::PFM::Text::PKNICK[0] => @pokemon.given_name))
@@ -89,14 +100,37 @@ module GamePlay
     def evolution_last_step
       @message_window.stay_visible = false
       Audio.bgm_play(EVOLVED_MUSIC)
+      $game_system.cry_play(@clone.id)
       display_message(parse_text(31, 2, ::PFM::Text::PKNICK[0] => @pokemon.given_name,
-      ::PFM::Text::PKNAME[1] => @clone.name)) 
+        ::PFM::Text::PKNAME[1] => @clone.name))
     end
 
     def munja_evolution
       if @clone.id == 291 and $actors.size < 6 and $bag.contain_item?(4)
-        $actors << PFM::Pokemon.new(292)
-        $bag.remove_item(4)
+        munja = PFM::Pokemon.generate_from_hash({
+          id: 292,
+          level: @pokemon.level,
+          exp: @pokemon.exp,
+          shiny: @pokemon.shiny,
+          captured_in: @pokemon.captured_in,
+          trainer_id: @pokemon.trainer_id,
+          trainer_name: @pokemon.trainer_name,
+          iv_hp: @pokemon.iv_hp,
+          iv_atk: @pokemon.iv_atk,
+          iv_dfe: @pokemon.iv_dfe,
+          iv_spd: @pokemon.iv_spd,
+          iv_ats: @pokemon.iv_ats,
+          iv_dfs: @pokemon.iv_dfs,
+          ev_hp: @pokemon.ev_hp,
+          ev_atk: @pokemon.ev_atk,
+          ev_dfe: @pokemon.ev_dfe,
+          ev_spd: @pokemon.ev_spd,
+          ev_ats: @pokemon.ev_ats,
+          ev_dfs: @pokemon.ev_dfs,
+          skills_set: @pokemon.skills_set
+        })
+        $actors << munja
+        $bag.remove_item(4, 1)
         $pokedex.mark_seen(292, forced: true)
         $pokedex.mark_captured(292)
       end
@@ -105,6 +139,8 @@ module GamePlay
     def register_in_pokedex
       $pokedex.mark_seen(@pokemon.id, @pokemon.form, forced: true)
       $pokedex.mark_captured(@pokemon.id)
+      $pokedex.pokemon_fought_inc(@pokemon.id)
+      $pokedex.pokemon_captured_inc(@pokemon.id)
     end
 
     def memorize_audio

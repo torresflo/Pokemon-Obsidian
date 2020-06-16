@@ -250,8 +250,9 @@ module PFM
     # @param female [PFM::Pokemon]
     # @return [Array<GameData::Pokemon>]
     def get_pokemon_data(male, female)
-      return male.get_data, female.get_data unless USE_FIRST_FORM_BREED_GROUPS
-      return GameData::Pokemon.get_data(male.id, 0), GameData::Pokemon.get_data(female.id, 0)
+      return male.data, female.data unless USE_FIRST_FORM_BREED_GROUPS
+
+      return male.primary_data, female.primary_data
     end
 
     # Return the egg rate (% chance of having an egg)
@@ -302,7 +303,7 @@ module PFM
         learn_skill(pokemon, skill_id)
       end
       # Try to teach all the breed move known by the male
-      breed_moves = GameData::Pokemon.breed_moves(pokemon.id, pokemon.form).each do |skill_id|
+      breed_moves = GameData::Pokemon[pokemon.id, pokemon.form].breed_moves.each do |skill_id|
         next unless male.skill_learnt?(skill_id)
         learn_skill(pokemon, skill_id)
       end

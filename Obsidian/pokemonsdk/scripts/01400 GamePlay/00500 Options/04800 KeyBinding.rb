@@ -182,14 +182,7 @@ module GamePlay
 
     # Create the overlay sprite
     def create_overlay
-      overlay = 'key_binding/overlay_'
-      overlay_lang = overlay + ($options&.language || Load::DEFAULT_GAME_LANGUAGE)
-      if RPG::Cache.interface_exist?(overlay_lang)
-        overlay = overlay_lang
-      else
-        overlay << 'en'
-      end
-      @overlay = Sprite.new(@viewport).set_bitmap(overlay, :interface)
+      @overlay = Sprite.new(@viewport).set_bitmap('key_binding/overlay_', :interface)
     end
 
     # Create the UI

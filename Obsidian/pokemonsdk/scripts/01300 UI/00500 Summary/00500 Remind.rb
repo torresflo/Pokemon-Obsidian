@@ -15,14 +15,6 @@ module UI
       @offset_index = 0
       @mode = 0
       super(viewport)
-      # Moving the original interface
-      set_position(0, 71)
-      @move_info.set_position(0, 71)
-      @y = 0
-      # Fixing the background position
-      @stack.first.set_position(0, 0)
-      # Add the pokemon info
-      init_pokemon_info
       # Setting the pokemon info
       self.data = pokemon
     end
@@ -67,6 +59,17 @@ module UI
     end
 
     private
+
+    def init_sprite
+      super
+      # Moving the original interface
+      set_position(0, 71)
+      @move_info.set_position(0, 71)
+      # Fixing the background position
+      @stack.first.set_position(0, 0)
+      # Add the pokemon info
+      init_pokemon_info
+    end
 
     # Return the background name
     # @return [String]

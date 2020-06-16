@@ -128,7 +128,7 @@ class Scene_Battle
     unless extend_data[:ball_data]
       #> Récupération du nom (à améliorer)
       tname = position < 0 ? @trainer_names[-position-1] : $trainer.name
-      ::BattleEngine._msgp(18, 34, nil, ::PFM::Text::ITEM2[1] => GameData::Item.name(item_id), TRNAME[0] => tname)
+      ::BattleEngine._msgp(18, 34, nil, ::PFM::Text::ITEM2[1] => GameData::Item[item_id].name, TRNAME[0] => tname)
     end
     if(position)
       pkmn = position < 0 ? @enemies[-position - 1] : @actors[position]
@@ -156,7 +156,7 @@ class Scene_Battle
       $scene.message_window.blocking = false # Auto scrolling ball throw message
       # In 4G, it was "[Player] throw a [Ball]!". Among the existing strings, the (18, 34) is the one that comes closest
       # to it.
-      msg = parse_text(18, 34, TRNAME[0] => $trainer.name, ITEM2[1] => GameData::Item.name(item_id))
+      msg = parse_text(18, 34, TRNAME[0] => $trainer.name, ITEM2[1] => GameData::Item[item_id].name)
       display_message(msg) # It will give "[Player] use [Ball]!" in place.
       $scene.message_window.blocking = true if $game_temp.trainer_battle == false
       phase4_try_to_catch_pokemon(extend_data[:ball_data], item_id)

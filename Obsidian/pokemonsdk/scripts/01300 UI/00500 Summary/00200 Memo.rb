@@ -5,13 +5,8 @@ module UI
     # @param viewport [Viewport]
     def initialize(viewport)
       super(viewport, 0, 0, default_cache: :interface)
-      push(0, 0, 'summary/memo')
       @invisible_if_egg = []
-      init_memo
-      @text_info = add_text(13, 138, 294, 16, '')
-      no_egg @exp_container = push(30, 129, RPG::Cache.interface('exp_bar'))
-      no_egg @exp_bar = push_sprite(create_exp_bar)
-      @exp_bar.data_source = :exp_rate
+      init_sprite
     end
 
     # Set an object inivisible if the Pokemon is an egg
@@ -57,7 +52,7 @@ module UI
         # --- Data part ---
         with_font(20) { no_egg add_text(11, 125, 56, nil, 'EXP') }
         add_line(0, :name, 2, type: SymText, color: 1, dx: 1)
-        no_egg add_line(1, :id_text, 2, type: SymText, color: 1)
+        @id = no_egg add_line(1, :id_text, 2, type: SymText, color: 1)
         @level_value = no_egg(add_line(1, :level_text, 2, type: SymText, color: 1, dx: 1))
         no_egg add_line(3, :trainer_name, 2, type: SymText, color: 1)
         no_egg add_line(3, :trainer_id_text, 2, type: SymText, color: 1, dx: 1)
@@ -91,13 +86,7 @@ module UI
       text = parse_text(mem[0] || 28, mem[1] || 25, hash).gsub(/([0-9.]) ([a-z]+ *)\:/i, "\\1 \n\\2:")
       text.gsub!('Level', "\nLevel") if $options.language == 'en'
       @text_info.multiline_text = text
-    end
-
-    def create_exp_bar
-      bar = Bar.new(@viewport, 31, 130, RPG::Cache.interface('bar_exp'), 73, 2, 0, 0, 1)
-      # Define the data source of the EXP Bar
-      bar.data_source = :exp_rate
-      return bar
+      @id.load_color(pokemon.shiny ? 2 : 1)
     end
 
     # Load the text info when it's an egg
@@ -123,6 +112,32 @@ module UI
       end
       text.gsub!('Level', "\nLevel") if $options.language == 'en'
       @text_info.multiline_text = text # .gsub(/([^.]\.|\?|\!) /) { "#{$1} \n" }
+    end
+
+    private
+
+    def init_sprite
+      create_background
+      init_memo
+      @text_info = create_text_info
+      no_egg @exp_container = push(30, 129, RPG::Cache.interface('exp_bar'))
+      no_egg @exp_bar = push_sprite(create_exp_bar)
+      @exp_bar.data_source = :exp_rate
+    end
+
+    def create_background
+      push(0, 0, 'summary/memo')
+    end
+
+    def create_text_info
+      add_text(13, 138, 294, 16, '')
+    end
+
+    def create_exp_bar
+      bar = Bar.new(@viewport, 31, 130, RPG::Cache.interface('bar_exp'), 73, 2, 0, 0, 1)
+      # Define the data source of the EXP Bar
+      bar.data_source = :exp_rate
+      return bar
     end
   end
 end

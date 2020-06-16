@@ -38,7 +38,7 @@ module GamePlay
         sprite = BattleSprite.new(viewport, pkmn)
         sprite.x += delta_x
         sprite.y += delta_y
-        sprite.color.alpha = 255
+        # sprite.color.alpha = 255
         next(sprite)
       end
       @delta_x /= 30.0
@@ -75,7 +75,7 @@ module GamePlay
         @counter = 0
         send(@functions[1])
       elsif(@counter >= 30)
-        #@screen.color.alpha += 20
+        # @screen.color.alpha += 20
         Graphics.brightness -= 20
       end
       @viewport.update if @screen
@@ -112,7 +112,7 @@ module GamePlay
     #===
     def recolorise_enemy
       @enemies.each do |i|
-        i.color.alpha -= 10
+        # i.color.alpha -= 10
       end
     end
     #===

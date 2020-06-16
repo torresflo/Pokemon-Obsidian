@@ -382,9 +382,9 @@ class Pokemon_Effect
 
   #>Récupération des HP perdus à cause de Piege de rock A conserver !!!!
   def get_stealth_rock_dammages(pokemon)
-    mod = GameData::Type.multiplier(13, pokemon.type1) *
-          GameData::Type.multiplier(13, pokemon.type2) *
-          GameData::Type.multiplier(13, pokemon.type3)
+    mod = GameData::Type[pokemon.type1].hit_by(13) *
+          GameData::Type[pokemon.type2].hit_by(13) *
+          GameData::Type[pokemon.type3].hit_by(13)
     return (pokemon.max_hp * mod / 8).floor
   end
   #> application de la toile gluante

@@ -117,7 +117,7 @@ module UI
     # @param pokemon [PFM::Pokemon, nil]
     def data=(pokemon)
       self.visible = (pokemon ? pokemon.item_holding != 0 : false)
-      set_bitmap(GameData::Item.icon(pokemon.item_holding), :icon) if visible
+      set_bitmap(GameData::Item[pokemon.item_holding].icon, :icon) if visible
     end
   end
 
@@ -235,7 +235,7 @@ module UI
     def data=(pokemon)
       if (self.visible = (pokemon ? true : false))
         bmp = pokemon.icon
-        @nb_x = bmp.width / bmp.height
+        @nb_x = (bmp.width / bmp.height).clamp(1, Float::INFINITY)
         self.bitmap = bmp
         auto_align(bmp) if @auto_align
         @counter = 0
@@ -287,7 +287,7 @@ module UI
     # Set the item that should be shown
     # @param item_id [Integer, Symbol]
     def data=(item_id)
-      set_bitmap(GameData::Item.icon(item_id), :icon)
+      set_bitmap(GameData::Item[item_id].icon, :icon)
     end
   end
 

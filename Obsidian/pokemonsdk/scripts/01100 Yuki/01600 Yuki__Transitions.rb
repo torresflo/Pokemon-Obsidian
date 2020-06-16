@@ -94,7 +94,7 @@ module Yuki
     # @param delta_tau [Float] the derivative of tau between the begining and the end of the transition
     def weird_transition(nb_frame = 60, radius = 0.25, max_alpha = 0.5, min_tau = 0.07, delta_tau = 0.07, bitmap: nil)
       sp = ShaderedSprite.new
-      sp.bitmap = bitmap || ($scene.is_a?(Scene_Map) ? $scene.spriteset.map_viewport : $scene.viewport).snap_to_bitmap
+      sp.bitmap = bitmap || $scene.snap_to_bitmap
       sp.zoom = Graphics.width / sp.bitmap.width.to_f
       sp.shader = shader = Shader.new(WeirdShader)
       sp.set_origin(sp.bitmap.width / 2, sp.bitmap.height / 2)

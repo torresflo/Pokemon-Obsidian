@@ -8,5 +8,10 @@ module GameData
     # The db_symbol of the object
     # @return [Symbol] /!\ can be nil if the data was not properly defined
     attr_accessor :db_symbol
+    # Create a new GameData object
+    def initialize
+      @id = 0
+      @db_symbol = :__undef__
+    end
   end
 end

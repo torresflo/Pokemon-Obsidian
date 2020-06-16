@@ -23,7 +23,7 @@ def take_map_snap(filename, tile_size = 16)
       Graphics.frame_count = 1
       $game_player.center(x * 20 + 10 + off_x, y * 15 + 7 + off_y)
       $scene.spriteset.update
-      bmp = $scene.spriteset.map_viewport.snap_to_bitmap
+      bmp = $scene.snap_to_bitmap
       png = bmp.to_png
       bmp.dispose
       next png

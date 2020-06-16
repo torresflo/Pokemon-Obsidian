@@ -8,6 +8,9 @@ module Battle
     # @return [Hash] List of the parallel animation
     attr_reader :parallel_animations
 
+    # @return [Array] List of the animation
+    attr_reader :animations
+
     # @return [Viewport] the viewport used to show the sprites
     attr_reader :viewport
 
@@ -24,7 +27,7 @@ module Battle
     # @param battle_scene [Scene] scene that hold the logic object
     def initialize(battle_scene)
       @battle_scene = battle_scene
-      @screenshot = ($scene.is_a?(Scene_Map) ? $scene.spriteset.map_viewport : $scene.viewport).snap_to_bitmap
+      @screenshot = $scene.snap_to_bitmap
       # All the battler by bank
       @battlers = {}
       # All the bars by bank
@@ -72,6 +75,18 @@ module Battle
     # Unlock the battle scene
     def unlock
       @locking = false
+    end
+
+    # Lock the battle scene
+    def lock
+      if block_given?
+        raise 'Race condition' if locking?
+
+        @locking = true
+        yield
+        return @locking = false
+      end
+      @locking = true
     end
 
     private

@@ -27,6 +27,7 @@ module UI
       # Update the animation
       def update
         return unless @animation
+
         send(@animation)
         @counter += 1
       end
@@ -60,7 +61,7 @@ module UI
       # @param list [Array<Integer>]
       def item_list=(list)
         @item_list = list
-        @name_list = @item_list.collect { |id| GameData::Item.exact_name(id) }
+        @name_list = @item_list.collect { |id| GameData::Item[id].exact_name }
         @name_list << text_get(22, 7)
       end
 
@@ -69,6 +70,7 @@ module UI
       def mouse_delta_index
         mouse_index = find_index(&:simple_mouse_in?)
         return 0 unless mouse_index
+
         active_index = find_index(&:active?) || 0
         return mouse_index - active_index
       end
@@ -135,6 +137,8 @@ module UI
 
       # Button showing the item name
       class ItemButton < SpriteStack
+        # Name of the button background
+        BACKGROUND = 'bag/button_list'
         # @return [Integer] Index of the button in the list
         attr_accessor :index
 
@@ -144,9 +148,8 @@ module UI
         def initialize(viewport, index)
           @index = index
           super(viewport, BASE_X + (active? ? ACTIVE_OFFSET : 0), BASE_Y + BUTTON_OFFSET * index)
-          add_background('bag/button_list').set_z(1)
-          @item_name = add_text(7, 4, 0, 13, nil.to_s, color: 10)
-          @item_name.z = 2
+          create_background
+          @item_name = create_text
         end
 
         # Is the button active
@@ -158,12 +161,28 @@ module UI
         # @param text [String, nil] the item name
         def text=(text)
           return unless (self.visible = !text.nil?)
+
           @item_name.text = text
         end
 
         # Reset the button coordinate
         def reset
           set_position(BASE_X + (active? ? ACTIVE_OFFSET : 0), BASE_Y + BUTTON_OFFSET * index)
+        end
+
+        private
+
+        # Create the background of the button
+        def create_background
+          add_background(BACKGROUND).set_z(1)
+        end
+
+        # Create the text
+        # @return [LiteRGSS::Text]
+        def create_text
+          text = add_text(7, 4, 0, 13, nil.to_s, color: 10)
+          text.z = 2
+          return text
         end
       end
     end

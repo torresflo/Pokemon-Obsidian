@@ -28,6 +28,8 @@ class Object
     print <<~EOLIST
       Warp the player to another map :\e[37m
         - Debugger.warp(map_id, x, y)\e[36m
+      Test a trainer battle :\e[37m
+        - Debugger.battle_trainer(trainer_id)\e[36m
       List the switches that match a specific name (with their value) :\e[37m
         - Debugger.find_switch(/name/i)\e[36m
       Change a switch value :\e[37m

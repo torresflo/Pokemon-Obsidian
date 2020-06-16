@@ -171,6 +171,8 @@ module PFM
     on_expand_global_variables(:nuzlocke) do
       # Variable containing the Nuzlocke Logic
       @nuzlocke ||= Nuzlocke.new
+      # Adding a new value for old save
+      @nuzlocke.graveyard ||= []
     end
 
     # The pathfinding requests
@@ -263,20 +265,10 @@ module PFM
       end
     end
 
-    # Update the processing of the battle starting
     def battle_starting_update
       return if cant_process_event_tasks?
-
-      encounter_step = $game_map.encounter_step
-      ability = @actors[0]&.ability_db_symbol || :__undef__
-      if ENC_FREQ_INC.include?(ability)
-        encounter_step *= 1.5
-      elsif ENC_FREQ_DEC.include?(ability) ||
-            (ENC_FREQ_DEC_HAIL.include?(ability) && $env.hail?) ||
-            (ENC_FREQ_DEC_SANDSTORM.include?(ability) && $env.sandstorm?)
-        encounter_step *= 0.5
-      end
-      if !$game_system.encounter_disabled && (@repel_count <= 0) && ((@steps % encounter_step) == 0) &&
+      encounter_count = $game_player.encounter_count
+      if !$game_system.encounter_disabled && (@repel_count <= 0) && ((@steps % encounter_count) == 0) &&
          @wild_battle.available?
         $game_system.map_interpreter.launch_common_event(1) unless $game_system.map_interpreter.running?
       end

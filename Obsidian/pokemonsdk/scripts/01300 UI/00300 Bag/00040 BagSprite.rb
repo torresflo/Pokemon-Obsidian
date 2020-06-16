@@ -13,12 +13,9 @@ module UI
       # @param pocket_indexes [Array<Integer>] each shown pocket by the UI
       def initialize(viewport, pocket_indexes)
         super(viewport, 1, 8)
-        set_bitmap(bag_filename, :interface)
-        set_position(*COORDINATES)
-        set_origin(width / 2, height / 2)
         @index = 0
         @pocket_indexes = pocket_indexes
-        self.z = 1
+        init_sprite
       end
 
       # Set the current socket index
@@ -63,6 +60,13 @@ module UI
       end
 
       private
+
+      def init_sprite
+        set_bitmap(bag_filename, :interface)
+        set_position(*COORDINATES)
+        set_origin(width / 2, height / 2)
+        self.z = 1
+      end
 
       # Return the bag filename
       # @return [String]

@@ -93,6 +93,7 @@ module GamePlay
     def update_pokemon
       @uis.each { |ui| ui.data = @pokemon }
       @top.data = @pokemon
+      Audio.se_play(@pokemon.cry) unless @pokemon.egg?
       update_ui_visibility
     end
 

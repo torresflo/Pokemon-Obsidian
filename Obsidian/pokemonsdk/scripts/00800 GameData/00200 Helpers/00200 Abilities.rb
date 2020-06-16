@@ -13,7 +13,9 @@ module GameData
     # @param id [Integer, Symbol] id of the ability in the database.
     # @return [String] the name of the ability or the name of the first ability.
     # @note The description is fetched from the 5th text file.
-    def name(id)
+    def name(id = Class)
+      return super() if id == Class
+
       id = get_id(id) if id.is_a?(Symbol)
       return text_get(4, @psdk_id_to_gf_id[id]) if id_valid?(id)
       return text_get(4, 0)

@@ -1,53 +1,62 @@
 # Display everything that should be displayed during the Scene_Map
 class Spriteset_Map
+  include Hooks
   # Retrieve the Game Player sprite
   # @return [Sprite_Character]
   attr_reader :game_player_sprite
   # Initialize a new Spriteset_Map object
   # @param zone [Integer, nil] the id of the zone where the player is
   def initialize(zone = nil)
-    @viewport1 = Viewport.create(:main, 0)
-    @viewport2 = Viewport.create(:main, 200)
-    @viewport3 = Viewport.create(:main, 5000)
+    # Type of viewport the spriteset map uses
+    viewport_type = :main
+    exec_hooks(Spriteset_Map, :viewport_type, binding)
+    @viewport1 = Viewport.create(viewport_type, 0)
+    @viewport2 = Viewport.create(viewport_type, 200)
+    @viewport3 = Viewport.create(viewport_type, 5000)
     Yuki::ElapsedTime.start(:spriteset_map)
+    exec_hooks(Spriteset_Map, :initialize, binding)
     init_tilemap
     init_panorama_fog
-    init_psdk_add
     init_characters
     init_player
     init_weather_picture_timer
-    init_quest_informer
     finish_init(zone)
+  rescue ForceReturn => e
+    log_error("Hooks tried to return #{e.data} in Spriteset_Map#initialize")
   end
 
   # Do the same as initialize but without viewport initialization (opti)
   # @param zone [Integer, nil] the id of the zone where the player is
   def reload(zone = nil)
     Yuki::ElapsedTime.start(:spriteset_map)
-    dispose_sp_map if @sp_bg
+    exec_hooks(Spriteset_Map, :reload, binding)
     init_tilemap
-    init_psdk_add
     init_characters
     init_player
     finish_init(zone)
+  rescue ForceReturn => e
+    log_error("Hooks tried to return #{e.data} in Spriteset_Map#reload")
   end
 
   # Last step of the Spriteset initialization
   # @param zone [Integer, nil] the id of the zone where the player is
   def finish_init(zone)
-    create_panel(zone)
-    Yuki::TJN.force_update_tone
-    Yuki::TJN.update
-    Yuki::MapLinker.load_buildings
+    exec_hooks(Spriteset_Map, :finish_init, binding)
     Yuki::ElapsedTime.show(:spriteset_map, 'End of spriteset init took')
     update
     Graphics.sort_z
+  rescue ForceReturn => e
+    log_error("Hooks tried to return #{e.data} in Spriteset_Map#finish_init")
   end
 
   # Return the prefered tilemap class
   # @return [Class]
   def tilemap_class
-    return Object.const_get(PSDK_CONFIG.tilemap.tilemap_class)
+    tilemap_class = PSDK_CONFIG.tilemap.tilemap_class
+    return Object.const_get(tilemap_class) if Object.const_defined?(tilemap_class)
+    return Yuki::Tilemap16px if tilemap_class.match?(/16|Yuri_Tilemap/)
+
+    return Yuki::Tilemap
   end
 
   # Tilemap initialization
@@ -55,17 +64,15 @@ class Spriteset_Map
     tilemap_class = self.tilemap_class
     if @tilemap.class != tilemap_class
       @tilemap&.dispose
+      # @type [Yuki::Tilemap]
       @tilemap = tilemap_class.new(@viewport1)
     end
     Yuki::ElapsedTime.show(:spriteset_map, 'Creating tilemap object took')
-    # -- @tilemap.tileset = RPG::Cache.tileset($game_map.tileset_name)
-    # -- Yuki::ElapsedTime.show(:spriteset_map, 'Loading tileset took')
-    7.times do |i|
-      @tilemap.autotiles[i] = load_autotile($game_map.autotile_names[i])
-    end
-    Yuki::ElapsedTime.show(:spriteset_map, 'Loading autotiles took')
-    @tilemap.map_data = $game_map.data
-    @tilemap.priorities = $game_map.priorities
+    map_datas = Yuki::MapLinker.map_datas
+    Yuki::MapLinker.spriteset = self
+    map_datas.each(&:load_tileset)
+    Yuki::ElapsedTime.show(:spriteset_map, 'Loading tilesets took')
+    @tilemap.map_datas = map_datas
     @tilemap.reset
     Yuki::ElapsedTime.show(:spriteset_map, 'Resetting the tilemap took')
   end
@@ -96,12 +103,12 @@ class Spriteset_Map
 
   # PSDK related thing initialization
   def init_psdk_add
-    Yuki::ElapsedTime.start(:spriteset_map)
-    Yuki::Particles.init(@viewport1)
-    Yuki::Particles.set_on_teleportation(true)
-    Yuki::FollowMe.init(@viewport1)
-    Yuki::ElapsedTime.show(:spriteset_map, 'Loading FollowMe & Particle took')
+    exec_hooks(Spriteset_Map, :init_psdk_add, binding)
+  rescue ForceReturn => e
+    log_error("Hooks tried to return #{e.data} in Spriteset_Map#init_psdk_add")
   end
+  Hooks.register(self, :initialize) { init_psdk_add }
+  Hooks.register(self, :reload) { init_psdk_add }
 
   # Sprite_Character initialization
   def init_characters
@@ -141,13 +148,13 @@ class Spriteset_Map
 
   # Player initialization
   def init_player
-    Yuki::FollowMe.update
-    Yuki::FollowMe.particle_push
+    exec_hooks(Spriteset_Map, :init_player_begin, binding)
     @character_sprites.push(@game_player_sprite = Sprite_Character.new(@viewport1, $game_player))
     $game_player.particle_push
-    Yuki::Particles.update
-    Yuki::Particles.set_on_teleportation(false)
+    exec_hooks(Spriteset_Map, :init_player_end, binding)
     Yuki::ElapsedTime.show(:spriteset_map, 'init_player took')
+  rescue ForceReturn => e
+    log_error("Hooks tried to return #{e.data} in Spriteset_Map#init_player")
   end
 
   # Weather, picture and timer initialization
@@ -161,6 +168,13 @@ class Spriteset_Map
   def init_quest_informer
     # @type [Array<UI::QuestInformer>]
     @quest_informers = []
+  end
+  Hooks.register(self, :initialize) { init_quest_informer }
+
+  # Tell if the spriteset is disposed
+  # @return [Boolean]
+  def disposed?
+    @viewport1.disposed?
   end
 
   # Spriteset_map dispose
@@ -181,8 +195,10 @@ class Spriteset_Map
     @viewport1.dispose
     @viewport2.dispose
     @viewport3.dispose
-    dispose_sp_map if @sp_bg
+    exec_hooks(Spriteset_Map, :dispose, binding)
     return nil
+  rescue ForceReturn => e
+    log_error("Hooks tried to return #{e.data} in Spriteset_Map#dispose")
   end
 
   # Update every sprite
@@ -191,7 +207,6 @@ class Spriteset_Map
     @tilemap.ox = $game_map.display_x / 4
     @tilemap.oy = $game_map.display_y / 4
     @tilemap.update
-    Yuki::FollowMe.update
     update_events
     update_weather_picture
     @timer_sprite.update
@@ -200,9 +215,10 @@ class Spriteset_Map
     @viewport3.color = $game_screen.flash_color
     @viewport1.update
     @viewport3.update
-    update_panel
-    update_quest_informer
+    exec_hooks(Spriteset_Map, :update, binding)
     @viewport1.sort_z unless Graphics.skipping_frame?
+  rescue ForceReturn => e
+    log_error("Hooks tried to return #{e.data} in Spriteset_Map#update")
   end
 
   # update event sprite
@@ -245,15 +261,12 @@ class Spriteset_Map
       Graphics.frame_reset
     end
 
-    @panorama.ox = $game_map.display_x / 8
-    @panorama.oy = $game_map.display_y / 8
+    @panorama.set_origin($game_map.display_x / 8, $game_map.display_y / 8)
 
-    @fog.zoom_x = $game_map.fog_zoom / 100.0
-    @fog.zoom_y = $game_map.fog_zoom / 100.0
+    @fog.zoom = $game_map.fog_zoom / 100.0
     @fog.opacity = $game_map.fog_opacity.to_i
     @fog.blend_type = $game_map.fog_blend_type
-    @fog.ox = ($game_map.display_x / 8 + $game_map.fog_ox) / 2
-    @fog.oy = ($game_map.display_y / 8 + $game_map.fog_oy) / 2
+    @fog.set_origin(($game_map.display_x / 8 + $game_map.fog_ox) / 2, ($game_map.display_y / 8 + $game_map.fog_oy) / 2)
     @fog.tone = $game_map.fog_tone
   end
 
@@ -277,14 +290,17 @@ class Spriteset_Map
     @sp_fg.z = 5002
     @counter = 0
   end
+  Hooks.register(self, :finish_init) { |method_binding| create_panel(method_binding[:zone]) }
 
   # Dispose the zone panel
   def dispose_sp_map
-    @sp_bg.dispose
+    @sp_bg&.dispose
     @sp_bg = nil
-    @sp_fg.dispose
+    @sp_fg&.dispose
     @sp_fg = nil
   end
+  Hooks.register(self, :reload) { dispose_sp_map }
+  Hooks.register(self, :dispose) { dispose_sp_map }
 
   # Update the zone panel
   def update_panel
@@ -300,6 +316,7 @@ class Spriteset_Map
       @sp_fg.y -= 1
     end
   end
+  Hooks.register(self, :update) { update_panel }
 
   # Change the visible state of the Spriteset
   # @param value [Boolean] the new visibility state
@@ -330,13 +347,12 @@ class Spriteset_Map
   # @return [Sprite] the snapshot ready to be used
   def take_map_snapshot
     sp = Sprite.new(@viewport3)
+    rc = @viewport3.rect
     sp.z = 10**6
-    sp.bitmap = Graphics.snap_to_bitmap
-    sp.x = Graphics.width / 2
-    sp.ox = sp.bitmap.width / 2
-    sp.y = Graphics.height / 2
-    sp.oy = sp.bitmap.height / 2
-    sp.zoom = 1.0 / Config::ScreenScale if Config.const_defined?(:ScreenScale)
+    sp.bitmap = $scene.snap_to_bitmap
+    sp.set_position(rc.width / 2, rc.height / 2)
+    sp.set_origin(sp.width / 2, sp.height / 2)
+    sp.zoom = rc.width / sp.bitmap.width.to_f
     return sp
   end
 
@@ -348,4 +364,5 @@ class Spriteset_Map
     end
     @quest_informers.clear if @quest_informers.all?(&:done?)
   end
+  Hooks.register(self, :update) { update_quest_informer }
 end

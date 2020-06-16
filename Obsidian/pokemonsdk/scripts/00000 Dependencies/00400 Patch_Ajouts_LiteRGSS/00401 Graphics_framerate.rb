@@ -101,7 +101,6 @@ module Graphics
     @delta_time += (dt = Time.new - @ruby_time)
     update_ruby_time(dt) # Update the Ruby time counters to show the right FPS
     # Estimating frame duration
-    wakeup_log
     t = Time.new
     @update.call
     dt = Time.new - t # Time of the elapsed frame ~0.016
@@ -131,7 +130,6 @@ module Graphics
     update_ruby_time(dt)
     # Estimating frame duration
     t = Time.new
-    wakeup_log
     @update.call
     dt = Time.new - t # Time of the elapsed frame ~0.016
     update_gc_time(dt) # Update the GPU time counters to show the right FPS

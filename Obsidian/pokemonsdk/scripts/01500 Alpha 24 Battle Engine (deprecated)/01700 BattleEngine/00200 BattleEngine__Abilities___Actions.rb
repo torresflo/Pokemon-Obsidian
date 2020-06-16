@@ -7,6 +7,8 @@ module BattleEngine
     #===
     #> Capacités agissant lors de la prise de dégats
     #===
+
+    UnMummyableAbilities = [151, 196, 175, 208, 212, 122, 160, 209, 224]
     def on_dammage_ability(launcher,target,skill)
       return false if target==launcher or target.battle_effect.has_no_ability_effect?
       #>Capacités du lanceur
@@ -35,7 +37,7 @@ module BattleEngine
             _mp([:status_poison, launcher, true])
           end
           return
-        when 65 #>Corps Ardant
+        when 65 #>Corps Ardent
           if launcher.can_be_burn?
             _mp([:ability_display, target, proc {launcher.hp > 0}])
             _mp([:status_burn, launcher, true])
@@ -51,6 +53,7 @@ module BattleEngine
         end
       end
       #>Direct et 100%
+   
       if(skill.direct?)
         case cap
         when 21 #>Pose spore
@@ -61,7 +64,7 @@ module BattleEngine
                 _mp([:ability_display, target, proc {launcher.hp > 0}])
                 _mp([:status_poison, launcher, true])
               end
-            elsif(n < 20) #>Someil
+            elsif(n < 20) #>Sommeil
               if launcher.can_be_asleep?
                 _mp([:ability_display, target, proc {launcher.hp > 0}])
                 _mp([:status_sleep, launcher, nil, 306, true])
@@ -86,6 +89,14 @@ module BattleEngine
             #_msgp(19, 430, launcher)
           return
           end
+        when 151 #>Momie
+          unless UnMummyableAbilities.include?(launcher.ability)
+            _mp([:ability_display, target, proc {launcher.hp > 0}])
+            _mp([:set_ability, launcher, target.ability])
+            _msgp(19, 405, launcher, ::PFM::Text::ABILITY[1] => target.ability_name)
+            _mp([:ability_display, launcher, proc {launcher.hp > 0}])
+          end
+        return    
         end
       end
       #> Autres cas

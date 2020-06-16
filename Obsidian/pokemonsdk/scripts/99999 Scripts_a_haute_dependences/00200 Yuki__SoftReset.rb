@@ -19,6 +19,8 @@ unless PARGV[:worldmap] || PARGV[:"animation-editor"] || PARGV[:test] || PARGV[:
     class SoftReset
       # Main process of the scene
       def main
+        # Force the on_transition event to be called
+        Scheduler.start(:on_transition)
         # Disposing everything and freeing memory
         Audio.__reset__
         ObjectSpace.each_object(LiteRGSS::Viewport) { |v| v.dispose unless v.disposed? }

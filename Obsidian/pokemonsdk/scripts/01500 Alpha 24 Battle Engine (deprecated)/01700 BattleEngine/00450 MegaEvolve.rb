@@ -57,6 +57,6 @@ module BattleEngine
   # @return [String]
   def mega_tool_name(bag)
     symbol = MEGA_EVOLVE_TOOLS.find { |item_db_symbol| bag.contain_item?(item_db_symbol) }
-    return GameData::Item.name(symbol || 0)
+    return GameData::Item[symbol || 0].name
   end
 end

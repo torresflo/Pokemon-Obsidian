@@ -106,9 +106,9 @@ module BattleEngine
         hp_up(@target, 10, 914, ITEM2[1] => @target.item_name)
       end
       if BattleEngine._has_item(@target, 639) #> Vulné assurance
-        _mp([:set_item, target, 0, true])
-        _mp([:change_atk, target, 2])
-        _mp([:change_ats, target, 2])
+        _mp([:set_item, @target, 0, true])
+        _mp([:change_atk, @target, 2])
+        _mp([:change_ats, @target, 2])
       end
     end
     def unefficient_msg
@@ -201,7 +201,7 @@ module BattleEngine
           elsif(item_id == 210) #> Baie Chérim
             berry_use(target)
             target.battle_item_data << :attack_first
-          elsif(heal_data = ::GameData::Item.heal_data(item_id) and heal_data.battle_boost)
+          elsif(heal_data = ::GameData::Item[item_id].heal_data and heal_data.battle_boost)
             berry_use(target)
             _mp([::PFM::ItemDescriptor::Boost[heal_data.battle_boost], target, 1])
           end

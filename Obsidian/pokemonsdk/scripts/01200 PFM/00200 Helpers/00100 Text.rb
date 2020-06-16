@@ -12,6 +12,8 @@ module PFM
     TRNAME = Array.new(7) { |i| "[VAR TRNAME(000#{i})]" }
     # Item var catcher
     ITEM2 = ['[VAR ITEM2(0000)]', '[VAR ITEM2(0001)]', '[VAR ITEM2(0002)]', '[VAR ITEM2(0003)]']
+    # Definite article catcher
+    ITEMPLUR1 = ['[VAR ITEMPLUR1]']
     # Move var catcher
     MOVE = ['[VAR MOVE(0000)]', '[VAR MOVE(0001)]', '[VAR MOVE(0002)]']
     # Number var catcher
@@ -63,6 +65,7 @@ module PFM
       obj.const_set(:PKNAME, PKNAME)
       obj.const_set(:TRNAME, TRNAME)
       obj.const_set(:ITEM2, ITEM2)
+      obj.const_set(:ITEMPLUR1, ITEMPLUR1)
       obj.const_set(:MOVE, MOVE)
       obj.const_set(:NUMB, NUMB)
       obj.const_set(:NUM3, NUM3)
@@ -298,8 +301,7 @@ module PFM
     # @param value [String, Symbol, Integer]
     # @param index [Integer] index of the item variable
     def set_item_name(value, index = 0)
-      value = GameData::Item.get_id(item_id) if value.is_a?(Symbol)
-      value = GameData::Item.name(value) if value.is_a?(Integer)
+      value = GameData::Item[value].name if value.is_a?(Integer) || value.is_a?(Symbol)
       set_variable(ITEM2[index].to_s, value.to_s)
     end
 
@@ -307,8 +309,7 @@ module PFM
     # @param value [String, Symbol, Integer]
     # @param index [Integer] index of the move variable
     def set_move_name(value, index = 0)
-      value = GameData::Skill.get_id(item_id) if value.is_a?(Symbol)
-      value = GameData::Skill.name(value) if value.is_a?(Integer)
+      value = GameData::Skill[value].name if value.is_a?(Integer) || value.is_a?(Symbol)
       set_variable(MOVE[index].to_s, value.to_s)
     end
 

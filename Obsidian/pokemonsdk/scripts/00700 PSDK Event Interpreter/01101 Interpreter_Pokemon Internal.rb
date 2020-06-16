@@ -35,7 +35,7 @@ class Interpreter
   def internal_add_pokemon_check_level_shiny(pokemon_id, level, shiny, method_name)
     do_not_add = false
     # Check parameters
-    if pokemon_id < 1 || pokemon_id >= GameData::Pokemon.all.size
+    unless GameData::Pokemon.id_valid?(pokemon_id)
       do_not_add = "Database Error : The Pokémon ##{pokemon_id} doesn't exists."
     end
     if level < 1 || level > $pokemon_party.level_max_limit
@@ -43,6 +43,7 @@ class Interpreter
       do_not_add = "#{do_not_add}Level Error : level #{level} is out of bound."
     end
     raise do_not_add if do_not_add
+
     # Shiny attribute management
     shiny = rand(shiny) == 0 if shiny.is_a?(Integer) && shiny > 0
     pokemon = PFM::Pokemon.new(pokemon_id, level.abs, shiny, shiny == 0)

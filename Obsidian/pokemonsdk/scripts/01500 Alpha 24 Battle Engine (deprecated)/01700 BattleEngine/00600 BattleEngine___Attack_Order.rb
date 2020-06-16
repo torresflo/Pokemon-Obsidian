@@ -15,7 +15,7 @@ module BattleEngine
   # Return the priority of the Struggle move
   # @return [Integer]
   def struggle_priority
-    GameData::Skill.priority(ID_Struggle) * DeltaPrio
+    GameData::Skill[ID_Struggle].priority * DeltaPrio
   end
   #===
   #>_make_action_order

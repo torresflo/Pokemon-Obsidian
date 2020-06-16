@@ -25,16 +25,6 @@ class Scene_Battle
     else
       phase5_pokemon_end
     end
-    #>Retrait de l'état de méga évolution
-    @actors.each do |pkmn|
-      next unless pkmn
-
-      pkmn.unmega_evolve
-      pkmn.reset_stat_stage
-      pkmn.form_calibrate
-      #>Vérifications de cheniti
-      pkmn.form = pkmn.form_generation(-1) if pkmn.id == 412 || pkmn.id == 413
-    end
     phase5_ramassage
     phase5_object_actions
     phase5_evolve_check
@@ -68,10 +58,10 @@ class Scene_Battle
   #===
   def phase5_evolve_check
     @_Evolve.each do |i|
-      id = i.evolve_check(:level_up)
+      id, form = i.evolve_check(:level_up)
       if(id)
         @message_window.visible = false
-        GamePlay::Evolve.new(i, id).main unless i.dead?
+        GamePlay::Evolve.new(i, id, form).main unless i.dead?
       end
     end
   end
@@ -116,7 +106,7 @@ class Scene_Battle
       pkmn = @enemies[@enemies[0].dead? ? 1 : 0]
       if (pkmn.sub_id != nil)
         pkmn.id = pkmn.sub_id
-        pkmn.shiny = pkmn.sub_shiny
+        pkmn.code = pkmn.sub_code
         pkmn.form = pkmn.sub_form
       end
       $quests.catch_pokemon(pkmn)
@@ -127,7 +117,7 @@ class Scene_Battle
         if $game_switches[::Yuki::Sw::Pokedex]
           display_message(parse_text(18, 68, PKNAME[0] => pkmn.name))
           Graphics.freeze
-          GamePlay::Dex.new(pkmn.id).main
+          GamePlay::Dex.new(pkmn).main
           Graphics.transition
         end
       end
@@ -188,6 +178,7 @@ class Scene_Battle
   def phase5_ramassage
     @actors.each do |pkmn|
       next unless pkmn
+      next if pkmn.egg?
       case pkmn.ability
       when 25 # Ramassage
         phase5_ramassage_take_object(pkmn) if rand(100) < 10 && pkmn.item_holding == 0

@@ -30,6 +30,7 @@ class Scene_Battle
         sp.animation(animation, true, reverse)
         while sp.effect?
           sp.update
+          sp.viewport.need_to_sort = true
           sp.viewport.sort_z
           Graphics.update
           Graphics.update if Graphics.frame_count % 3 == 0

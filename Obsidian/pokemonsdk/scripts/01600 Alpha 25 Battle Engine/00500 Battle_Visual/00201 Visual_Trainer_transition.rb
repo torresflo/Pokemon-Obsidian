@@ -2,6 +2,7 @@ module Battle
   class Visual
     # Method that show the pre_transition of the battle
     def show_pre_transition
+      return if debug? && PSDK_CONFIG.skip_battle_transition_in_debug
       # @type [Battle::Visual::RBJ_WildTransition]
       @transition = battle_transition.new(@battle_scene, @screenshot, @viewport)
       @animations << @transition
@@ -11,6 +12,7 @@ module Battle
 
     # Method that show the trainer transition of the battle
     def show_transition
+      return show_debug_transition if debug? && PSDK_CONFIG.skip_battle_transition_in_debug
       # Load transtion (x/y, dpp, frlg)
       # store the transition loop
       # Show the message "issuing a battle"
@@ -50,6 +52,17 @@ module Battle
       transition_class = collection[$game_variables[Yuki::Var::Trainer_Battle_ID]]
       log_debug("Choosen transition class : #{transition_class}")
       return transition_class
+    end
+
+    # Show the debug transition
+    def show_debug_transition
+      show_info_bars
+      2.times do |bank|
+        @battle_scene.battle_info.battlers[bank].each_with_index do |battler, position|
+          battler_sprite(bank, -position - 1)&.visible = false
+        end
+      end
+      Graphics.transition(1)
     end
 
     # List of Wild Transitions

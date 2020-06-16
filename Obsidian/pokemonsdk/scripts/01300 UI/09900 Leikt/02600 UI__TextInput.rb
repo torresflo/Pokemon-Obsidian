@@ -1,5 +1,5 @@
 module UI
-  class TextInput < Text
+  class TextInput < LiteRGSS::Text
     CURSOR_DELAY = 60
 
     attr_reader :activated

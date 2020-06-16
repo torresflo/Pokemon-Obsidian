@@ -412,7 +412,7 @@ module Util
 
       def translate_item_gain_command(io, param)
         io.puts("#{' ' * @indent}$bag.add_item(#{param[0]}, amount = #{value = operate_value(*param[1, 3])})")
-        socket = GameData::Item.socket(param[0])
+        socket = GameData::Item[param[0]].socket
         if value.to_i >= 0
           io.puts("#{' ' * @indent}Audio.me_play('#{::Interpreter::ItemGetME[(socket == 3 ? 2 : (socket == 5 ? 1 : 0))]}, 80) if amount > 0")
         end

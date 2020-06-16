@@ -79,20 +79,25 @@ module BattleEngine
       target.battle_effect.apply_perish_song unless target.battle_effect.has_perish_song_effect?
     end
     #===
-    #>Jakpot
+    #>Jackpot
     #===
-    def jackpot(target)
+    def jackpot(launcher)
+      return if @ignore || launcher.hp<=0
+      n = 5
+      #>Piece rune / Encens Veine
+      n *= 2 if BattleEngine._has_item(launcher, 223) || BattleEngine._has_item(launcher, 319)
+      @scene.money += launcher.level*n
+      msg(parse_text(18, 128))
+    end
+    #===
+    #> Happy Hour (Etrennes)
+    #===
+    def happy_hour(target)
       return if @ignore or target.hp<=0
       if(target.position > 0)
-        n = 5
-        #>Piece rune / Encens Veine
-        if(BattleEngine._has_item(target, 223) or BattleEngine._has_item(target, 319))
-          n *= 2
-        end
-        @scene.money += target.level*n
-        #>Délire à piece rune non fait !
+        _mp([:set_state, :happy_hour, true])
+        msg(parse_text(18, 255))
       end
-      msg(parse_text(18, 128))
     end
     #===
     #>Etreinte
@@ -301,7 +306,7 @@ module BattleEngine
     #===
     def berry_use(target, remove = false)
       #>Animation
-      imisc = GameData::Item.misc_data(target.battle_item)
+      imisc = GameData::Item[target.battle_item].misc_data
       if(imisc and berry = imisc.berry)
         target.edit_bonus(berry[:bonus])
       end
@@ -310,6 +315,17 @@ module BattleEngine
       else
         target.battle_item_data << :berry
       end
+    end
+    #===
+    #> berry_pluck : Utilise la baie via Picore (animation + marquage)
+    #===
+    def berry_pluck(launcher, target)
+      #>Animation
+      imisc = GameData::Item[target.battle_item].misc_data
+      if(imisc and berry = imisc.berry)
+        launcher.edit_bonus(berry[:bonus])
+      end
+      target.item_holding = target.battle_item = 0
     end
     #===
     #> berry_cure : Soin par baie
@@ -363,6 +379,18 @@ module BattleEngine
       if(action)
         actions.delete(action)
         actions.insert(@scene.phase4_step + 1, action)
+      end
+    end
+    #===
+    #> Fait attaquer une cible en dernier
+    #===
+    def quash(target)
+      i = nil
+      actions = @scene.actions
+      action = actions.find { |i| (i[0] == 0 and i[3] == target) }
+      if(action)
+        actions.delete(action)
+        actions.push(action)
       end
     end
   end

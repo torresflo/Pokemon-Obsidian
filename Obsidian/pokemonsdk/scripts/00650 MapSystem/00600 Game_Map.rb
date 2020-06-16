@@ -1,5 +1,14 @@
 # Describe the Map processing
 class Game_Map
+
+  # The list of ability that decrease the encounter frequency
+  ENC_FREQ_DEC = %i[white_smoke quick_feet stench]
+  # The list of ability that increase the encounter frequency
+  ENC_FREQ_INC = %i[no_guard illuminate arena_trap]
+  # Ability that decrese the encounter during hail weather
+  ENC_FREQ_DEC_HAIL = [:snow_cloak]
+  # Ability that decrese the encounter during sandstorm weather
+  ENC_FREQ_DEC_SANDSTORM = [:sand_veil]
   # Audiofile to play when the player is on mach bike
   # @return [RPG::AudioFile]
   MACH_BIKE_BGM = RPG::AudioFile.new('09 Bicycle', 100, 100)
@@ -40,21 +49,25 @@ class Game_Map
   attr_reader   :fog_ox                   # フォグ 原点 X 座標
   attr_reader   :fog_oy                   # フォグ 原点 Y 座標
   attr_reader   :fog_tone                 # フォグ 色調
+  # @return [Boolean] if the maplinker was disabled when the map was setup
+  attr_reader :maplinker_disabled
   # Initialize the default Game_Map object
   def initialize
     @map_id = 0
     @display_x = 0
     @display_y = 0
+    @maplinker_disabled = false
   end
 
   # setup the Game_Map object with the right Map data
   # @param map_id [Integer] the ID of the map
   def setup(map_id)
     Yuki::ElapsedTime.start(:map_loading)
-    # マップ ID を @map_id に記憶
     @map_id = map_id
     # We save events to make sure they'll be correctly transfered on the with the MapLinker
     save_events_offset unless @events_info
+    # We store the new state of the map linker enable state
+    @maplinker_disabled = $game_switches[Yuki::Sw::MapLinkerDisabled]
     # マップをファイルからロードし、@map に設定
     @map = Yuki::MapLinker.load_map(@map_id)
     Yuki::ElapsedTime.show(:map_loading, 'MapLinker.load_map took')
@@ -77,6 +90,9 @@ class Game_Map
     @battleback_name = tileset.battleback_name
     @passages = tileset.passages
     @priorities = tileset.priorities
+    # Force the first tile to be properly configured
+    @passages[0] = 0
+    @priorities[0] = 5
     @terrain_tags = tileset.terrain_tags
     # 表示座標を初期化
     @display_x = 0
@@ -144,10 +160,30 @@ class Game_Map
     return @map.encounter_list
   end
 
-  # Returns the encounter step of the map
+  # Returns the encounter steps from RMXP data
+  # @return [Integer]
+  def rmxp_encounter_steps
+    @map.encounter_step
+  end
+
+  # Returns the encounter step of the map (including ability modifier)
   # @return [Integer] number of step the player must do before each encounter
   def encounter_step
-    return @map.encounter_step
+    return rmxp_encounter_steps unless $actors
+
+    ability = $actors[0]&.ability_db_symbol || :__undef__ # the first pokemon in the party's ability
+
+    # if the ability matches the encounter increasing ability the encounter rate is doubled
+    return rmxp_encounter_steps / 2 if ENC_FREQ_INC.include?(ability)
+
+    # if the ability matches the encounter lowering ability the encounter rate is halved
+    if ENC_FREQ_DEC.include?(ability) ||
+       (ENC_FREQ_DEC_HAIL.include?(ability) && $env.hail?) ||
+       (ENC_FREQ_DEC_SANDSTORM.include?(ability) && $env.sandstorm?)
+      return rmxp_encounter_steps * 2
+    end
+
+    return rmxp_encounter_steps # else the normal encounter rate is returned
   end
 
   # Returns the tile matrix of the Map
@@ -181,11 +217,10 @@ class Game_Map
   def scroll_down(distance, is_priority = false)
     return if @scroll_y_priority && !is_priority
 
-    if CenterPlayer
-      @display_y += distance
-    else
+    if @maplinker_disabled
       @display_y = (@display_y + distance).clamp(0, (height - NUM_TILE_VIEW_Y) * 128)
-      # @display_y = [@display_y + distance, (height - 15) * 128].min
+    else
+      @display_y += distance
     end
   end
 
@@ -195,11 +230,10 @@ class Game_Map
   def scroll_left(distance, is_priority = false)
     return if @scroll_x_priority && !is_priority
 
-    if CenterPlayer
-      @display_x -= distance
-    else
+    if @maplinker_disabled
       @display_x = (@display_x - distance).clamp(0, @display_x)
-      # @display_x = [@display_x - distance, 0].max
+    else
+      @display_x -= distance
     end
   end
 
@@ -209,11 +243,10 @@ class Game_Map
   def scroll_right(distance, is_priority = false)
     return if @scroll_x_priority && !is_priority
 
-    if CenterPlayer
-      @display_x += distance
-    else
+    if @maplinker_disabled
       @display_x = (@display_x + distance).clamp(0, (width - NUM_TILE_VIEW_X) * 128)
-      # @display_x = [@display_x + distance, (width - 20) * 128].min
+    else
+      @display_x += distance
     end
   end
 
@@ -223,11 +256,10 @@ class Game_Map
   def scroll_up(distance, is_priority = false)
     return if @scroll_y_priority && !is_priority
 
-    if CenterPlayer
-      @display_y -= distance
-    else
+    if @maplinker_disabled
       @display_y = (@display_y - distance).clamp(0, @display_y)
-      # @display_y = [@display_y - distance, 0].max
+    else
+      @display_y -= distance
     end
   end
 

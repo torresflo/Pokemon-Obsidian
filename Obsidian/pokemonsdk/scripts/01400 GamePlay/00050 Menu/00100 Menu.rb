@@ -22,6 +22,7 @@ module GamePlay
       @entering = true # Flag telling we're entering
       @counter = 0 # Animation counter
       @in_save = false
+      @mbf_type = @mef_type = :noen if $scene.is_a?(Scene_Map)
     end
 
     # Create all the graphics
@@ -85,6 +86,7 @@ module GamePlay
       unless @running || @quiting
         @quiting = true
         @running = true
+        @__last_scene.spriteset.visible = true if @__last_scene.is_a?(Scene_Map)
       end
       # Update each animation
       if @entering
@@ -117,6 +119,8 @@ module GamePlay
         @counter = 0
         @entering = false
         update_buttons
+        @background.opacity = 255
+        @__last_scene.spriteset.visible = false if @__last_scene.is_a?(Scene_Map)
       end
     end
 
@@ -190,6 +194,7 @@ module GamePlay
         if scene.call_skill_process
           @call_skill_process = scene.call_skill_process
           @running = false
+          Graphics.transition
         end
       end
     end
@@ -197,6 +202,7 @@ module GamePlay
     # Open the Bag UI
     def open_bag
       call_scene(Bag)
+      Graphics.transition unless @running
     end
 
     # Open the TCard UI
@@ -209,6 +215,7 @@ module GamePlay
       @in_save = true
       call_scene(Save) do |scene|
         @running = false if scene.saved
+        Graphics.transition
       end
       @in_save = false
     end
@@ -216,7 +223,10 @@ module GamePlay
     # Open the Options UI
     def open_option
       call_scene(Options) do |scene|
-        @running = false if scene.modified_options.include?(:language)
+        if scene.modified_options.include?(:language)
+          @running = false
+          Graphics.transition
+        end
       end
     end
 

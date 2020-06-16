@@ -239,11 +239,13 @@ class Scene_Battle
     $game_temp.vs_type.times do |i|
       pkmn=@actors[i]
       #>Piece rune / Encens veine
-      if(pkmn and (pkmn.item_hold == 223 or pkmn.item_hold == 319))
-        n*=2
+      if(pkmn && (pkmn.item_hold == 223 || pkmn.item_hold == 319))
+        n *= 2
         break
       end
     end
+    #> Happy Hour (Etrennes) effect
+    n *= 2 if BattleEngine.state[:happy_hour]
     $pokemon_party.add_money(n)
     return n
   end

@@ -7,7 +7,7 @@ module Battle
       dry_skin: :calc_fa_dry_skin
     )
     # Types required by thick fat to trigger the multiplier
-    THICK_FAT_TYPES = [2, 6]
+    THICK_FAT_TYPES = [GameData::Types::FIRE, GameData::Types::ICE]
 
     private
 
@@ -24,7 +24,7 @@ module Battle
     # @param target [PFM::PokemonBattler]
     # @return [Numeric]
     def calc_fa_heatproof(user, target)
-      type == 2 ? VAL_0_5 : 1
+      type == GameData::Types::FIRE ? VAL_0_5 : 1
     end
 
     # Dry Skin foe ability multiplier
@@ -32,7 +32,7 @@ module Battle
     # @param target [PFM::PokemonBattler]
     # @return [Numeric]
     def calc_fa_dry_skin(user, target)
-      type == 2 ? 1.25 : 1
+      type == GameData::Types::FIRE ? 1.25 : 1
     end
   end
 end
