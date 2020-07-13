@@ -1,0 +1,29 @@
+﻿Index,en,fr
+0,TEXT,"La ville de \t[10, 4] est connue pour son \t[10, 5].\nlSes membres s'occupent de la gestion des arènes et de la ligue Pokémon dans tout le pays !"
+1,TEXT,"Bonjour et bienvenue au \t[10, 5]."
+2,TEXT,"Le PC situé en haut à droite te permet de stocker et de gérer tes Pokémons.\nlSi lors d'un combat tu attrapes un nouvau Pokémon et que tu n'as plus de place dans ton équipe, il va aller automatiquement dans la dernière boite utilisée du PC.\nlC'est très pratique !"
+3,TEXT,Cette boutique n'est pas très bien fournie. Je n'arrive pas à trouver tout ce que je cherche.
+4,TEXT,"Désolé, nous n'acceptons les visites que sur rendez-vous.\nl...[WAIT 30]\nlOh je vois, vous êtes attendu par Mr. Helio, c'est ça ?\nlLaissez-moi vérifier...[WAIT 30]\nl...[WAIT 30]\nlTrès bien, vous pouvez aller le voir, son bureau est au deuxième étage."
+5,TEXT,Cet écran est divisé en plusieurs parties et diffuse les différents combats Pokémon joués en direct dans les arênes du pays.
+6,TEXT,"D'ici, nous coordonnons le classement de tous les dresseurs connus du pays."
+7,TEXT,Je suis entrain de finaliser un partenariat avec un nouveau sponsor très connu.\nlJe suis toute excitée !
+8,TEXT,Je parcours le pays avec ma caméra à la recherche des meilleurs dresseurs pouvant passer dans mon émission.
+9,TEXT,Je suis l'assistante de Mr. Helio.\nlJe m'occupe généralement de toutes les tâches administratives qu'il n'a pas le temps de gérer lui-même.
+10,TEXT,Un fossile d'un Pokémon inconnu est enteprosé ici.
+11,TEXT,Un vase d'apparence précieuse est entreposé ici.
+12,TEXT,"\t[10, 4] est une ville paisible traversée par une rivière.\nlJ'aime bien rester ici et regarder l'eau s'écouler sous les ponts."
+13,TEXT,"Désolé, nous n'acceptons les visites que sur rendez-vous."
+14,TEXT,"Lors d'un combat, c'est important que son Pokémon soit plus rapide que l'adversaire pour être le premier à attaquer.\nlFais tenir une \c[1]\t[12, 217]\c[0] à ton Pokémon et il aura plus de chance d'attaquer en premier, qu'importe la vitesse du Pokémon adverse."
+15,TEXT,"Tiens, essayes par toi-même !"
+16,TEXT,"Clement est le champion de l'arêne de \t[10, 4].\nlSi tu souhaites l'affonter, je vais te donner un secret : sa spécialité sont les Pokémons de type roche. "
+17,TEXT,"Arêne de \t[10, 4]"
+18,TEXT,"Voici \c[2]\t[0, 261]\c[0], mon fidèle compagnon.\nlNous sommes inséparables, il me suit partout où je vais !"
+19,TEXT,J'aime bien avoir mes Pokémons dans des pokéballs un peu spéciales.\nlCela me permet de montrer à quel point je les apprécie.\nlTu devrais essayer !
+20,TEXT,"Ma fille à l'étage est passionnée par les Pokéballs, tu devrais lui parler !"
+21,TEXT,"Helio, le directeur du \t[10, 5] est absolument charmand.\nlJ'adore son côté mystérieux et énigmatique."
+22,TEXT,"Je vis ici avec mon mari depuis très longtemps.\nlNous avons connu 3 champions d'arêne différents avant Clement, notre actuel champion."
+23,TEXT,Tu me rappelles ma jeunesse passée.\nlJ'étais encore plein d'espoir pour gravir les échelons de la Ligue Pokémon à cette époque.
+24,TEXT,"...[WAIT 30]\nlOh, quelqu'un t'as parlé de moi ?\nlIl y a longtemps que je n'ai pas disputé un combat.\nlVoyons ce que tu as dans le ventre !"
+25,TEXT,Le vieil homme habitant dans la maison au sud-est était un grand dresseur dans sa jeunesse.\nlJe me demande si ces Pokémon sont toujours aussi puissants.
+26,TEXT,"Il y avait longtemps que mes Pokémon et moi n'avions pas ressenti le frisson d'un combat.\nlMerci, jeune homme."
+27,TEXT,Chaque pokéball a ses propres caractéristiques et permet d'attraper plus ou moins facilement certains Pokémons. C'est ma fille qui me l'a dit.

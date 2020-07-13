@@ -1,0 +1,89 @@
+en,fr,it,de,es,ko,kana
+Which move should [VAR PKNICK(0000)] learn?,Quelle capacité voulez-vous apprendre à [VAR PKNICK(0000)] ?,Quale mossa vuoi insegnare a [VAR PKNICK(0000)]?,Welche Attacke soll [VAR PKNICK(0000)] erlernen?,¿Qué movimiento quieres que recuerde [VAR PKNICK(0000)]?,[VAR PKNICK(0000)]에게 어느 기술을 배우게 할까?,[VAR PKNICK(0000)]に どのわざを　おぼえさせる？
+[~ 1],[~ 1],[~ 1],[~ 1],[~ 1],[~ 1],[~ 1]
+[~ 2],[~ 2],[~ 2],[~ 2],[~ 2],[~ 2],[~ 2]
+[VAR PKNICK(0000)] learned [VAR MOVE(0001)]!,[VAR PKNICK(0000)] apprend [VAR MOVE(0001)] !,[VAR PKNICK(0000)] impara [VAR MOVE(0001)]!,[VAR PKNICK(0000)] erlernt [VAR MOVE(0001)]!,¡[VAR PKNICK(0000)] ha aprendido [VAR MOVE(0001)]!,[VAR PKNICK(0000)][VAR 1900(0001)] 새로 [VAR MOVE(0001)][VAR 1900(0002)] 배웠다!,[VAR PKNICK(0000)]は　あたらしく [VAR MOVE(0001)]を　おぼえた！
+"[VAR PKNICK(0000)] wants to learn the move [VAR MOVE(0001)]. However, [VAR PKNICK(0000)] already knows four moves. Should a move be deleted and replaced with [VAR MOVE(0001)]?",[VAR PKNICK(0000)] veut apprendre [VAR MOVE(0001)]. Mais un Pokémon ne peut pas connaître plus de quatre capacités à la fois. Voulez-vous remplacer une capacité par [VAR MOVE(0001)] ?,"[VAR PKNICK(0000)] vorrebbe imparare [VAR MOVE(0001)], ma conosce già quattro mosse. Vuoi che ne dimentichi una e al suo posto impari [VAR MOVE(0001)]?","[VAR PKNICK(0000)] versucht, [VAR MOVE(0001)] zu erlernen. Aber [VAR PKNICK(0000)] kann nur maximal vier Attacken erlernen. Soll eine andere Attacke durch [VAR MOVE(0001)] ersetzt werden?",¡[VAR PKNICK(0000)] quiere aprender el movimiento [VAR MOVE(0001)]! Pero [VAR PKNICK(0000)] ya conoce cuatro movimientos. ¿Quieres sustituir uno de esos movimientos por [VAR MOVE(0001)]?,[VAR PKNICK(0000)][VAR 1900(0001)] 새로 [VAR MOVE(0001)][VAR 1900(0002)] 배우고 싶다... 그러나 [VAR PKNICK(0000)][VAR 1900(0001)] 기술을 4개 알고 있으므로 더 이상 배울 수 없다! [VAR MOVE(0001)] 대신 다른 기술을 잊게 하겠습니까?,[VAR PKNICK(0000)]は　あたらしく [VAR MOVE(0001)]を　おぼえたい…… しかし　[VAR PKNICK(0000)]は　わざを　４つ おぼえるので　せいいっぱいだ！ [VAR MOVE(0001)]の　かわりに ほかの　わざを　わすれさせますか？
+"1, [WAIT 20]2, and[WAIT 20]... [WAIT 20]... [WAIT 20]... Ta-da![VAR BE05(0003)][VAR BE05(0005)][VAR BE04] [VAR PKNICK(0000)] forgot how to use [VAR MOVE(0001)]. And...","1[WAIT 20], 2[WAIT 20], [WAIT 20]… [WAIT 20]… Tadaa ![VAR BE05(0003)][VAR BE05(0005)] [VAR PKNICK(0000)] oublie [VAR MOVE(0001)]. Et…","Uno,[WAIT 20] due[WAIT 20] e[WAIT 20]...[WAIT 20] ta-daaaa![VAR BE05(0003)][VAR BE05(0005)][VAR BE04] [VAR PKNICK(0000)] dimentica [VAR MOVE(0001)]! Al suo posto...","Eins,[WAIT 20] zwei[WAIT 20] und[WAIT 20]... schwupp![VAR BE05(0003)][VAR BE05(0005)][VAR BE04] [VAR PKNICK(0000)] hat [VAR MOVE(0001)] vergessen. Und...","1, [WAIT 20]2 y... [WAIT 20]¡puf![VAR BE05(0003)][VAR BE05(0005)][VAR BE04] ¡[VAR PKNICK(0000)] ha olvidado cómo utilizar [VAR MOVE(0001)]! Y...","1,[WAIT 20] 2[WAIT 20]...[WAIT 20]...[WAIT 20] 짠![VAR BE05(0003)][VAR BE05(0005)][VAR BE04] [VAR PKNICK(0000)][VAR 1900(0001)] [VAR MOVE(0001)][VAR 1900(0002)] 깨끗이 잊었다! 그리고...!",１[WAIT 20]　２の[WAIT 20]…[WAIT 20]…[WAIT 20]　ポカン！[VAR BE05(0003)][VAR BE05(0005)][VAR BE04] [VAR PKNICK(0000)]は　[VAR MOVE(0001)]の つかいかたを　きれいにわすれた！ そして……！
+[~ 6],[~ 6],[~ 6],[~ 6],[~ 6],[~ 6],[~ 6]
+Give up on learning the move [VAR MOVE(0001)]?,Alors… Voulez-vous renoncer à apprendre [VAR MOVE(0001)] ?,Vuoi bloccare l’apprendimento di [VAR MOVE(0001)]?,"Aufgeben, [VAR MOVE(0001)] zu erlernen?",¿Prefieres que no aprenda [VAR MOVE(0001)]?,그럼... [VAR MOVE(0001)][VAR 1900(0002)] 배우는 것을 포기하겠습니까?,それでは……　[VAR MOVE(0001)]を おぼえるのを　あきらめますか？
+[VAR PKNICK(0000)] did not learn [VAR MOVE(0001)].,[VAR PKNICK(0000)] n’a pas appris [VAR MOVE(0001)].,[VAR PKNICK(0000)] non ha imparato [VAR MOVE(0001)]!,[VAR PKNICK(0000)] hat [VAR MOVE(0001)] nicht erlernt.,[VAR PKNICK(0000)] no ha aprendido [VAR MOVE(0001)].,[VAR PKNICK(0000)][VAR 1900(0001)] [VAR MOVE(0001)][VAR 1900(0002)] 결국 배우지 않았다!,[VAR PKNICK(0000)]は　[VAR MOVE(0001)]を おぼえずに　おわった！
+[~ 9],[~ 9],[~ 9],[~ 9],[~ 9],[~ 9],[~ 9]
+[~ 10],[~ 10],[~ 10],[~ 10],[~ 10],[~ 10],[~ 10]
+[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11]
+[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12]
+[~ 13],[~ 13],[~ 13],[~ 13],[~ 13],[~ 13],[~ 13]
+[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14]
+[~ 15],[~ 15],[~ 15],[~ 15],[~ 15],[~ 15],[~ 15]
+[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16]
+[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17]
+[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18]
+[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19]
+[~ 20],[~ 20],[~ 20],[~ 20],[~ 20],[~ 20],[~ 20]
+[~ 21],[~ 21],[~ 21],[~ 21],[~ 21],[~ 21],[~ 21]
+[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22]
+[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23]
+[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24]
+[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25]
+[~ 26],[~ 26],[~ 26],[~ 26],[~ 26],[~ 26],[~ 26]
+PP,PP,PP,AP,PP,PP,PP
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+/,/,/,/,/,/,/
+[~ 31],[~ 31],[~ 31],[~ 31],[~ 31],[~ 31],[~ 31]
+[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32]
+[~ 33],[~ 33],[~ 33],[~ 33],[~ 33],[~ 33],[~ 33]
+[~ 34],[~ 34],[~ 34],[~ 34],[~ 34],[~ 34],[~ 34]
+[~ 35],[~ 35],[~ 35],[~ 35],[~ 35],[~ 35],[~ 35]
+FORGET,Oublier !,Fai dimenticare,Vergessen!,Olvidar,잊게 한다!,わすれさせる！
+HM moves can’t be forgotten now.,C’est une capacité précieuse ! Vous ne pouvez pas l’oublier ainsi !,È una mossa appresa tramite MN. Non puoi fargliela dimenticare ora!,Diese Attacke ist sehr wichtig! Sie kann jetzt nicht vergessen werden!,Los movimientos de MO no se pueden olvidar así.,중요한 기술입니다! 잊게 할 수 없습니다!,たいせつな　わざです！ わすれることは　できません！
+[~ 38],[~ 38],[~ 38],[~ 38],[~ 38],[~ 38],[~ 38]
+DEX NO.,Nº Pokédex,N° Pokédex,Pokédex-Nr.,N.º Pokédex,도감No.,ずかんNo.
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+NAME,Nom,Nome,Name,Nombre,이름,なまえ
+TYPE,Type,Tipo,Typ,Tipo,타입,タイプ
+CATEGORY,Catégorie,Categoria,Kategorie,Categoría,분류,ぶんるい
+ACCURACY,Précision,Precisione,Genauigkeit,Precisión,명중,めいちゅう
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+POWER,Puissance,Potenza,Stärke,Potencia,위력,いりょく
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+HP,PV,PS,KP,PS,HP,HP
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+ATTACK,Attaque,Attacco,Angriff,Ataque,공격,こうげき
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+DEFENSE,Défense,Difesa,Vert.,Defensa,방어,ぼうぎょ
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+SP. ATK,Atq. Spé.,Att. Sp.,Sp.-Ang.,At. Esp.,특수공격,とくこう
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+SP. DEF,Déf. Spé.,Dif. Sp.,Sp.-Vert.,Def. Esp.,특수방어,とくぼう
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+SPEED,Vitesse,Velocità,Initiative,Velocidad,스피드,すばやさ
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[~ 61],[~ 61],[~ 61],[~ 61],[~ 61],[~ 61],[~ 61]
+[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)]
+[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)]
+?,?,?,?,?,?,？
+[~ 65],[~ 65],[~ 65],[~ 65],[~ 65],[~ 65],[~ 65]
+[~ 66],[~ 66],[~ 66],[~ 66],[~ 66],[~ 66],[~ 66]
+[~ 67],[~ 67],[~ 67],[~ 67],[~ 67],[~ 67],[~ 67]
+[~ 68],[~ 68],[~ 68],[~ 68],[~ 68],[~ 68],[~ 68]
+[~ 69],[~ 69],[~ 69],[~ 69],[~ 69],[~ 69],[~ 69]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+???,???,???,???,(?),???,???
+[~ 72],[~ 72],[~ 72],[~ 72],[~ 72],[~ 72],[~ 72]
+[~ 73],[~ 73],[~ 73],[~ 73],[~ 73],[~ 73],[~ 73]
+[~ 74],[~ 74],[~ 74],[~ 74],[~ 74],[~ 74],[~ 74]
+—,-,-,-,-,－,－
+—,-,-,-,-,－,－
+Lv.,N.,L. ,Lv.,Nv.,Lv.,Lv.
+[~ 78],[~ 78],[~ 78],[~ 78],[~ 78],[~ 78],[~ 78]
+[~ 79],[~ 79],[~ 79],[~ 79],[~ 79],[~ 79],[~ 79]
+[~ 80],[~ 80],[~ 80],[~ 80],[~ 80],[~ 80],[~ 80]
+[~ 81],[~ 81],[~ 81],[~ 81],[~ 81],[~ 81],[~ 81]
+[~ 82],[~ 82],[~ 82],[~ 82],[~ 82],[~ 82],[~ 82]
+Effect,Effet,Efficacia,Wirkung,Efecto,효과,こうか
+Appeal,Démonstration,Fascino,Ausdruckskraft,Exhibición,어필,アピール
+Jamming,Blocage,Intralcio,Störfaktor,Interferencia,방해,ぼうがい
+Contest Effects,Capacités Concours,Info gara,Wettbewerbs-Attacke,Mov. de concurso,콘테스트 기술,コンテストわざ
+Battle Effects,Capacités Combat,Info lotta,Kampf-Attacke,Mov. de combate,싸울 기술,たたかうわざ

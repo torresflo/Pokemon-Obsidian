@@ -1,0 +1,922 @@
+en,fr,it,de,es,ko,kana
+None,Aucun objet,Niente,Kein Item,Ningún objeto,없음,なし
+Master Ball,Master Ball,Master Ball,Meisterball,Master Ball,마스터볼,マスターボール
+Ultra Ball,Hyper Ball,Ultra Ball,Hyperball,Ultra Ball,하이퍼볼,ハイパーボール
+Great Ball,Super Ball,Mega Ball,Superball,Super Ball,수퍼볼,スーパーボール
+Poké Ball,Poké Ball,Poké Ball,Pokéball,Poké Ball,몬스터볼,モンスターボール
+Safari Ball,Safari Ball,Safari Ball,Safariball,Safari Ball,사파리볼,サファリボール
+Net Ball,Filet Ball,Rete Ball,Netzball,Malla Ball,넷트볼,ネットボール
+Dive Ball,Scuba Ball,Sub Ball,Tauchball,Buceo Ball,다이브볼,ダイブボール
+Nest Ball,Faiblo Ball,Minor Ball,Nestball,Nido Ball,네스트볼,ネストボール
+Repeat Ball,Bis Ball,Bis Ball,Wiederball,Acopio Ball,리피드볼,リピートボール
+Timer Ball,Chrono Ball,Timer Ball,Timerball,Turno Ball,타이마볼,タイマーボール
+Luxury Ball,Luxe Ball,Chic Ball,Luxusball,Lujo Ball,럭셔리볼,ゴージャスボール
+Premier Ball,Honor Ball,Premier Ball,Premierball,Honor Ball,프레미어볼,プレミアボール
+Dusk Ball,Sombre Ball,Scuro Ball,Finsterball,Ocaso Ball,다크볼,ダークボール
+Heal Ball,Soin Ball,Cura Ball,Heilball,Sana Ball,힐볼,ヒールボール
+Quick Ball,Rapide Ball,Velox Ball,Flottball,Veloz Ball,퀵볼,クイックボール
+Cherish Ball,Mémoire Ball,Pregio Ball,Jubelball,Gloria Ball,프레셔스볼,プレシャスボール
+Potion,Potion,Pozione,Trank,Poción,상처약,キズぐすり
+Antidote,Antidote,Antidoto,Gegengift,Antídoto,해독제,どくけし
+Burn Heal,Anti-Brûle,Antiscottatura,Feuerheiler,Antiquemar,화상치료제,やけどなおし
+Ice Heal,Antigel,Antigelo,Eisheiler,Antihielo,얼음상태치료제,こおりなおし
+Awakening,Réveil,Sveglia,Aufwecker,Despertar,잠깨는약,ねむけざまし
+Paralyze Heal,Anti-Para,Antiparalisi,Para-Heiler,Antiparalizador,마비치료제,まひなおし
+Full Restore,Guérison,Ricarica Totale,Top-Genesung,Restaurar Todo,회복약,かいふくのくすり
+Max Potion,Potion Max,Pozione Max,Top-Trank,Poción Máxima,풀회복약,まんたんのくすり
+Hyper Potion,Hyper Potion,Iperpozione,Hypertrank,Hiperpoción,고급상처약,すごいキズぐすり
+Super Potion,Super Potion,Superpozione,Supertrank,Superpoción,좋은상처약,いいキズぐすり
+Full Heal,Total Soin,Cura Totale,Hyperheiler,Cura Total,만병통치제,なんでもなおし
+Revive,Rappel,Revitalizzante,Beleber,Revivir,기력의조각,げんきのかけら
+Max Revive,Rappel Max,Revitalizz. Max,Top-Beleber,Revivir Máximo,기력의덩어리,げんきのかたまり
+Fresh Water,Eau Fraîche,Acqua Fresca,Tafelwasser,Agua Fresca,맛있는물,おいしいみず
+Soda Pop,Soda Cool,Gassosa,Sprudel,Refresco,미네랄사이다,サイコソーダ
+Lemonade,Limonade,Lemonsucco,Limonade,Limonada,후르츠밀크,ミックスオレ
+Moomoo Milk,Lait Meumeu,Latte Mumu,Kuhmuh-Milch,Leche Mu-mu,튼튼밀크,モーモーミルク
+Energy Powder,Poudrénergie,Polvenergia,Energiestaub,Polvo Energía,힘의가루,ちからのこな
+Energy Root,Racinénergie,Radicenergia,Kraftwurzel,Raíz Energía,힘의뿌리,ちからのねっこ
+Heal Powder,Poudre Soin,Polvocura,Heilpuder,Polvo Curación,만능가루,ばんのうごな
+Revival Herb,Herbe Rappel,Vitalerba,Vitalkraut,Hierba Revivir,부활초,ふっかつそう
+Ether,Huile,Etere,Äther,Éter,PP에이드,ピーピーエイド
+Max Ether,Huile Max,Etere Max,Top-Äther,Éter Máximo,PP회복,ピーピーリカバー
+Elixir,Élixir,Elisir,Elixier,Elixir,PP에이더,ピーピーエイダー
+Max Elixir,Max Élixir,Elisir Max,Top-Elixier,Elixir Máximo,PP맥스,ピーピーマックス
+Lava Cookie,Lava Cookie,Lavottino,Lavakeks,Galleta Lava,용암전병,フエンせんべい
+Berry Juice,Jus de Baie,Succodibacca,Beerensaft,Zumo de Baya,나무열매쥬스,きのみジュース
+Sacred Ash,Cendre Sacrée,Ceneremagica,Zauberasche,Ceniza Sagrada,성스러운분말,せいなるはい
+HP Up,PV Plus,PS-Su,KP-Plus,Más PS,맥스업,マックスアップ
+Protein,Protéine,Proteina,Protein,Proteína,타우린,タウリン
+Iron,Fer,Ferro,Eisen,Hierro,사포닌,ブロムヘキシン
+Carbos,Carbone,Carburante,Carbon,Carburante,알칼로이드,インドメタシン
+Calcium,Calcium,Calcio,Kalzium,Calcio,리보플라빈,リゾチウム
+Rare Candy,Super Bonbon,Caramella Rara,Sonderbonbon,Caramelo Raro,이상한사탕,ふしぎなアメ
+PP Up,PP Plus,PP-Su,AP-Plus,Más PP,포인트업,ポイントアップ
+Zinc,Zinc,Zinco,Zink,Zinc,키토산,キトサン
+PP Max,PP Max,PP-Max,AP-Top,PP Máximos,포인트맥스,ポイントマックス
+Old Gateau,Vieux Gâteau,Dolce Gateau,Spezialität,Barrita Plus,숲의양갱,もりのヨウカン
+Guard Spec.,Défense Spéciale,Superguardia,Megablock,Protec. Especial,이펙트가드,エフェクトガード
+Dire Hit,Muscle +,Supercolpo,Angriffplus,Directo,크리티컬커터,クリティカット
+X Attack,Attaque +,Attacco X,X-Angriff,Ataque X,플러스파워,プラスパワー
+X Defense,Défense +,Difesa X,X-Abwehr,Defensa X,디펜드업,ディフェンダー
+X Speed,Vitesse +,Velocità X,X-Tempo,Velocidad X,스피드업,スピーダー
+X Accuracy,Précision +,Precisione X,X-Treffer,Precisión X,잘-맞히기,ヨクアタール
+X Sp. Atk,Spécial +,Att. Speciale X,X-Spezial,Especial X,스페셜업,スペシャルアップ
+X Sp. Def,Déf. Spé. +,Dif. Speciale X,X-Spezial-Vert.,Def. Especial X,스페셜가드,スペシャルガード
+Poké Doll,Poké Poupée,Poké Bambola,Poképuppe,Poké Muñeco,삐삐인형,ピッピにんぎょう
+Fluffy Tail,Queue Skitty,Coda Skitty,Eneco-Rute,Cola Skitty,에나비꼬리,エネコのシッポ
+Blue Flute,Flûte Bleue,Flauto Blu,Blaue Flöte,Flauta Azul,파랑비드로,あおいビードロ
+Yellow Flute,Flûte Jaune,Flauto Giallo,Gelbe Flöte,Flauta Amarilla,노랑비드로,きいろビードロ
+Red Flute,Flûte Rouge,Flauto Rosso,Rote Flöte,Flauta Roja,빨강비드로,あかいビードロ
+Black Flute,Flûte Noire,Flauto Nero,Schwarze Flöte,Flauta Negra,검정비드로,くろいビードロ
+White Flute,Flûte Blanche,Flauto Bianco,Weiße Flöte,Flauta Blanca,하양비드로,しろいビードロ
+Shoal Salt,Sel Tréfonds,Sale Ondoso,Küstensalz,Sal Cardumen,여울소금,あさせのしお
+Shoal Shell,CoquilleTréfonds,Gusciondoso,Küstenschale,Concha Cardumen,여울조개껍질,あさせのかいがら
+Red Shard,Tesson Rouge,Coccio Rosso,Purpurstück,Parte Roja,빨강조각,あかいかけら
+Blue Shard,Tesson Bleu,Coccio Blu,Indigostück,Parte Azul,파랑조각,あおいかけら
+Yellow Shard,Tesson Jaune,Coccio Giallo,Gelbstück,Parte Amarilla,노랑조각,きいろいかけら
+Green Shard,Tesson Vert,Coccio Verde,Grünstück,Parte Verde,초록조각,みどりのかけら
+Super Repel,Super Repousse,Superrepellente,Superschutz,Superrepelente,실버스프레이,シルバースプレー
+Max Repel,Max Repousse,Repellente Max,Top-Schutz,Repelente Máximo,골드스프레이,ゴールドスプレー
+Escape Rope,Corde Sortie,Fune di Fuga,Fluchtseil,Cuerda Huida,동굴탈출로프,あなぬけのヒモ
+Repel,Repousse,Repellente,Schutz,Repelente,벌레회피스프레이,むしよけスプレー
+Sun Stone,Pierre Soleil,Pietrasolare,Sonnenstein,Piedra Solar,태양의돌,たいようのいし
+Moon Stone,Pierre Lune,Pietralunare,Mondstein,Piedra Lunar,달의돌,つきのいし
+Fire Stone,Pierre Feu,Pietrafocaia,Feuerstein,Piedra Fuego,불꽃의돌,ほのおのいし
+Thunder Stone,Pierre Foudre,Pietratuono,Donnerstein,Piedra Trueno,천둥의돌,かみなりのいし
+Water Stone,Pierre Eau,Pietraidrica,Wasserstein,Piedra Agua,물의돌,みずのいし
+Leaf Stone,Pierre Plante,Pietrafoglia,Blattstein,Piedra Hoja,리프의돌,リーフのいし
+Tiny Mushroom,Petit Champi,Minifungo,Minipilz,Miniseta,작은버섯,ちいさなキノコ
+Big Mushroom,Gros Champi,Grande Fungo,Riesenpilz,Seta Grande,큰버섯,おおきなキノコ
+Pearl,Perle,Perla,Perle,Perla,진주,しんじゅ
+Big Pearl,Grande Perle,Grande Perla,Riesenperle,Perla Grande,큰진주,おおきなしんじゅ
+Stardust,Poussière Étoile,Polvostella,Sternenstaub,Polvo Estelar,별의모래,ほしのすな
+Star Piece,Morceau d’Étoile,Pezzo Stella,Sternenstück,Trozo Estrella,별의조각,ほしのかけら
+Nugget,Pépite,Pepita,Nugget,Pepita,금구슬,きんのたま
+Heart Scale,Écaille Cœur,Squama Cuore,Herzschuppe,Escama Corazón,하트비늘,ハートのウロコ
+Honey,Miel,Miele,Honig,Miel,달콤한꿀,あまいミツ
+Growth Mulch,Fertipousse,Fertilrapido,Wachsmulch,Abono Rápido,무럭무럭비료,すくすくこやし
+Damp Mulch,Fertihumide,Fertilidro,Feuchtmulch,Abono Lento,축축이비료,じめじめこやし
+Stable Mulch,Fertistable,Fertilsaldo,Stabilmulch,Abono Fijador,오래오래비료,ながながこやし
+Gooey Mulch,Fertiglu,Fertilcolla,Neumulch,Abono Brote,끈적끈적비료,ねばねばこやし
+Root Fossil,Fossile Racine,Radifossile,Wurzelfossil,Fósil Raíz,뿌리화석,ねっこのカセキ
+Claw Fossil,Fossile Griffe,Fossilunghia,Klauenfossil,Fósil Garra,발톱화석,ツメのカセキ
+Helix Fossil,Nautile,Helixfossile,Helixfossil,Fósil Hélix,조개화석,かいのカセキ
+Dome Fossil,Fossile Dôme,Domofossile,Domfossil,Fósil Domo,껍질화석,こうらのカセキ
+Old Amber,Vieil Ambre,Ambra Antica,Altbernstein,Ámbar Viejo,비밀의호박,ひみつのコハク
+Armor Fossil,Fossile Armure,Fossilscudo,Panzerfossil,Fósil Coraza,방패의화석,たてのカセキ
+Skull Fossil,Fossile Crâne,Fossilcranio,Kopffossil,Fósil Cráneo,두개의화석,ずがいのカセキ
+Rare Bone,Os Rare,Osso Raro,Steinknochen,Hueso Raro,귀중한뼈,きちょうなホネ
+Shiny Stone,Pierre Éclat,Pietrabrillo,Leuchtstein,Piedra Día,빛의돌,ひかりのいし
+Dusk Stone,Pierre Nuit,Neropietra,Finsterstein,Piedra Noche,어둠의돌,やみのいし
+Dawn Stone,Pierre Aube,Pietralbore,Funkelstein,Piedra Alba,각성의돌,めざめいし
+Oval Stone,Pierre Ovale,Pietraovale,Ovaler Stein,Piedra Oval,동글동글돌,まんまるいし
+Odd Keystone,Clé de Voûte,Roccianima,Spiritkern,Piedra Espíritu,쐐기돌,かなめいし
+Griseous Orb,Orbe Platiné,Grigiosfera,Platinum-Orb,Griseosfera,백금옥,はっきんだま
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Douse Drive,Module Aqua,Idromodulo,Aquamodul,HidroROM,아쿠아카세트,アクアカセット
+Shock Drive,Module Choc,Voltmodulo,Blitzmodul,FulgoROM,번개카세트,イナズマカセット
+Burn Drive,Module Pyro,Piromodulo,Flammenmodul,PiroROM,블레이즈카세트,ブレイズカセット
+Chill Drive,Module Cryo,Gelomodulo,Gefriermodul,CrioROM,프리즈카세트,フリーズカセット
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Sweet Heart,Chococœur,Dolcecuore,Herzkonfekt,Corazón Dulce,하트스위트,ハートスイーツ
+Adamant Orb,Orbe Adamant,Adamasfera,Adamant-Orb,Diamansfera,금강옥,こんごうだま
+Lustrous Orb,Orbe Perlé,Splendisfera,Weiß-Orb,Lustresfera,백옥,しらたま
+Greet Mail,Lettre Salut,Messaggio Inizio,Grußbrief,Carta Inicial,첫메일,はじめてメール
+Favored Mail,Lettre Fan,Messaggio TVB,Faiblebrief,Carta Favoritos,애호메일,だいすきメール
+RSVP Mail,Lettre Invit,Messaggio Invito,Einladebrief,Carta Invitar,권유메일,おさそいメール
+Thanks Mail,Lettre Merci,Messaggio Grazie,Dankesbrief,Carta Gracias,감사메일,かんしゃメール
+Inquiry Mail,Lettre Demande,Messaggio Chiedi,Fragebrief,Carta Pregunta,질문메일,しつもんメール
+Like Mail,Lettre Avis,Mess. Sugg.,Insiderbrief,Carta Gustos,추천메일,おすすめメール
+Reply Mail,Lettre Réponse,Mess. Risp.,Rückbrief,Carta Respuesta,답장메일,おかえしメール
+Bridge Mail S,Lettre Pont S,Mess. Frec.,Brückbrief H,Carta Puente S,브리지메일S,ブリッジメールＳ
+Bridge Mail D,Lettre Pont Y,Mess. Libec.,Brückbrief M,Carta Puente F,브리지메일M,ブリッジメールＨ
+Bridge Mail T,Lettre Pont F,Mess. Prop.,Brückbrief Z,Carta Puente A,브리지메일C,ブリッジメールＣ
+Bridge Mail V,Lettre Pont H,Mess. Vill.,Brückbrief D,Carta Puente V,브리지메일V,ブリッジメールＶ
+Bridge Mail M,Lettre Pont I,Mess. Merav.,Brückbrief W,Carta Puente P,브리지메일W,ブリッジメールＷ
+Cheri Berry,Baie Ceriz,Baccaliegia,Amrenabeere,Baya Zreza,버치열매,クラボのみ
+Chesto Berry,Baie Maron,Baccastagna,Maronbeere,Baya Atania,유루열매,カゴのみ
+Pecha Berry,Baie Pêcha,Baccapesca,Pirsifbeere,Baya Meloc,복슝열매,モモンのみ
+Rawst Berry,Baie Fraive,Baccafrago,Fragiabeere,Baya Safre,복분열매,チーゴのみ
+Aspear Berry,Baie Willia,Baccaperina,Wilbirbeere,Baya Perasi,배리열매,ナナシのみ
+Leppa Berry,Baie Mepo,Baccamela,Jonagobeere,Baya Zanama,과사열매,ヒメリのみ
+Oran Berry,Baie Oran,Baccarancia,Sinelbeere,Baya Aranja,오랭열매,オレンのみ
+Persim Berry,Baie Kika,Baccaki,Persimbeere,Baya Caquic,시몬열매,キーのみ
+Lum Berry,Baie Prine,Baccaprugna,Prunusbeere,Baya Ziuela,리샘열매,ラムのみ
+Sitrus Berry,Baie Sitrus,Baccacedro,Tsitrubeere,Baya Zidra,자뭉열매,オボンのみ
+Figy Berry,Baie Figuy,Baccafico,Giefebeere,Baya Higog,무화열매,フィラのみ
+Wiki Berry,Baie Wiki,Baccakiwi,Wikibeere,Baya Wiki,위키열매,ウイのみ
+Mago Berry,Baie Mago,Baccamango,Magobeere,Baya Ango,마고열매,マゴのみ
+Aguav Berry,Baie Gowav,Baccaguava,Gauvebeere,Baya Guaya,아바열매,バンジのみ
+Iapapa Berry,Baie Papaya,Baccapaia,Yapabeere,Baya Pabaya,파야열매,イアのみ
+Razz Berry,Baie Framby,Baccalampon,Himmihbeere,Baya Frambu,라즈열매,ズリのみ
+Bluk Berry,Baie Remu,Baccamora,Morbbeere,Baya Oram,블리열매,ブリーのみ
+Nanab Berry,Baie Nanab,Baccabana,Nanabbeere,Baya Latano,나나열매,ナナのみ
+Wepear Berry,Baie Repoi,Baccapera,Nirbebeere,Baya Peragu,서배열매,セシナのみ
+Pinap Berry,Baie Nanana,Baccananas,Sananabeere,Baya Pinia,파인열매,パイルのみ
+Pomeg Berry,Baie Grena,Baccagrana,Granabeere,Baya Grana,유석열매,ザロクのみ
+Kelpsy Berry,Baie Alga,Baccalga,Setangbeere,Baya Algama,시마열매,ネコブのみ
+Qualot Berry,Baie Qualot,Baccaloquat,Qualotbeere,Baya Ispero,파비열매,タポルのみ
+Hondew Berry,Baie Lonme,Baccamelon,Honmelbeere,Baya Meluce,로매열매,ロメのみ
+Grepa Berry,Baie Résin,Baccauva,Labrusbeere,Baya Uvav,또뽀열매,ウブのみ
+Tamato Berry,Baie Tamato,Baccamodoro,Tamotbeere,Baya Tamate,토망열매,マトマのみ
+Cornn Berry,Baie Siam,Baccavena,Saimbeere,Baya Mais,수숙열매,モコシのみ
+Magost Berry,Baie Mangou,Baccagostan,Magostbeere,Baya Aostan,고스티열매,ゴスのみ
+Rabuta Berry,Baie Rabuta,Baccambutan,Rabutabeere,Baya Rautan,라부탐열매,ラブタのみ
+Nomel Berry,Baie Tronci,Baccalemon,Tronzibeere,Baya Monli,노멜열매,ノメルのみ
+Spelon Berry,Baie Kiwan,Baccamelos,Kiwanbeere,Baya Wikano,메호키열매,ノワキのみ
+Pamtre Berry,Baie Palma,Baccapalma,Pallmbeere,Baya Plama,자야열매,シーヤのみ
+Watmel Berry,Baie Stekpa,Baccacomero,Wasmelbeere,Baya Sambia,슈박열매,カイスのみ
+Durin Berry,Baie Durin,Baccadurian,Durinbeere,Baya Rudion,두리열매,ドリのみ
+Belue Berry,Baie Myrte,Baccartillo,Myrtilbeere,Baya Andano,루베열매,ベリブのみ
+Occa Berry,Baie Chocco,Baccacao,Koakobeere,Baya Caoca,오카열매,オッカのみ
+Passho Berry,Baie Pocpoc,Baccapasflo,Foepasbeere,Baya Pasio,꼬시개열매,イトケのみ
+Wacan Berry,Baie Parma,Baccaparmen,Kerzalbeere,Baya Gualot,초나열매,ソクノのみ
+Rindo Berry,Baie Ratam,Baccarindo,Grindobeere,Baya Tamar,린드열매,リンドのみ
+Yache Berry,Baie Nanone,Baccamoya,Kiroyabeere,Baya Rimoya,플카열매,ヤチェのみ
+Chople Berry,Baie Pomroz,Baccarosmel,Rospelbeere,Baya Pomaro,로플열매,ヨプのみ
+Kebia Berry,Baie Kébia,Baccakebia,Grarzbeere,Baya Kebia,으름열매,ビアーのみ
+Shuca Berry,Baie Jouca,Baccanaca,Schukebeere,Baya Acardo,슈캐열매,シュカのみ
+Coba Berry,Baie Cobaba,Baccababa,Kobabeere,Baya Kouba,바코열매,バコウのみ
+Payapa Berry,Baie Yapap,Baccapayapa,Pyapabeere,Baya Payapa,야파열매,ウタンのみ
+Tanga Berry,Baie Panga,Baccaitan,Tanigabeere,Baya Yecana,리체열매,タンガのみ
+Charti Berry,Baie Charti,Baccaciofo,Chiaribeere,Baya Alcho,루미열매,ヨロギのみ
+Kasib Berry,Baie Sédra,Baccacitrus,Zitarzbeere,Baya Drasi,수불열매,カシブのみ
+Haban Berry,Baie Fraigo,Baccahaban,Terirobeere,Baya Anjiro,하반열매,ハバンのみ
+Colbur Berry,Baie Lampou,Baccaxan,Burleobeere,Baya Dillo,마코열매,ナモのみ
+Babiri Berry,Baie Babiri,Baccababiri,Babiribeere,Baya Baribá,바리비열매,リリバのみ
+Chilan Berry,Baie Zalis,Baccacinlan,Latchibeere,Baya Chilan,카리열매,ホズのみ
+Liechi Berry,Baie Lichii,Baccalici,Lydzibeere,Baya Lichi,치리열매,チイラのみ
+Ganlon Berry,Baie Lingan,Baccalongan,Linganbeere,Baya Gonlan,용아열매,リュガのみ
+Salac Berry,Baie Sailak,Baccasalak,Salkabeere,Baya Aslac,캄라열매,カムラのみ
+Petaya Berry,Baie Pitaye,Baccapitaya,Tahaybeere,Baya Yapati,야타비열매,ヤタピのみ
+Apicot Berry,Baie Abriko,Baccacocca,Apikobeere,Baya Aricoc,규살열매,ズアのみ
+Lansat Berry,Baie Lansat,Baccalangsa,Lansatbeere,Baya Zonlan,랑사열매,サンのみ
+Starf Berry,Baie Frista,Baccambola,Krambobeere,Baya Arabol,스타열매,スターのみ
+Enigma Berry,Baie Enigma,Baccaenigma,Enigmabeere,Baya Enigma,의문열매,ナゾのみ
+Micle Berry,Baie Micle,Baccaracolo,Wunfrubeere,Baya Lagro,미클열매,ミクルのみ
+Custap Berry,Baie Chérim,Baccacrela,Eipfelbeere,Baya Chiri,애슈열매,イバンのみ
+Jaboca Berry,Baie Jaboca,Baccajaba,Jabocabeere,Baya Jaboca,자보열매,ジャポのみ
+Rowap Berry,Baie Pommo,Baccaroam,Roselbeere,Baya Magua,애터열매,レンブのみ
+Bright Powder,Poudre Claire,Luminpolvere,Blendpuder,Polvo Brillo,반짝가루,ひかりのこな
+White Herb,Herbe Blanche,Erbachiara,Schlohkraut,Hierba Blanca,하양허브,しろいハーブ
+Macho Brace,Bracelet Macho,Crescicappa,Machoband,Brazal Firme,교정깁스,きょうせいギプス
+Exp. Share,Multi Exp,Condividi Esp.,EP-Teiler,Repartir Exp,학습장치,がくしゅうそうち
+Quick Claw,Vive Griffe,Rapidartigli,Flinkklaue,Garra Rápida,선제공격손톱,せんせいのツメ
+Soothe Bell,Grelot Zen,Calmanella,Sanftglocke,Campana Alivio,평온의방울,やすらぎのすず
+Mental Herb,Herbe Mental,Mentalerba,Mentalkraut,Hierba Mental,멘탈허브,メンタルハーブ
+Choice Band,Bandeau Choix,Bendascelta,Wahlband,Cinta Elegida,구애머리띠,こだわりハチマキ
+King’s Rock,Roche Royale,Roccia di Re,King-Stein,Roca del Rey,왕의징표석,おうじゃのしるし
+Silver Powder,Poudre Argentée,Argenpolvere,Silberstaub,Polvo Plata,은빛가루,ぎんのこな
+Amulet Coin,Pièce Rune,Monetamuleto,Münzamulett,Moneda Amuleto,부적금화,おまもりこばん
+Cleanse Tag,Rune Purifiante,Velopuro,Schutzband,Amuleto,순결의부적,きよめのおふだ
+Soul Dew,Rosée Âme,Cuorugiada,Seelentau,Rocío Bondad,마음의물방울,こころのしずく
+Deep Sea Tooth,Dent Océan,Dente Abissi,Abysszahn,Diente Marino,심해의이빨,しんかいのキバ
+Deep Sea Scale,Écaille Océan,Squamabissi,Abyssplatte,Escama Marina,심해의비늘,しんかいのウロコ
+Smoke Ball,Boule Fumée,Palla Fumo,Rauchball,Bola Humo,연막탄,けむりだま
+Everstone,Pierre Stase,Pietrastante,Ewigstein,Piedra Eterna,변함없는돌,かわらずのいし
+Focus Band,Bandeau,Bandana,Fokus-Band,Cinta Focus,기합의머리띠,きあいのハチマキ
+Lucky Egg,Œuf Chance,Fortunuovo,Glücks-Ei,Huevo Suerte,행복의알,しあわせタマゴ
+Scope Lens,Lentilscope,Mirino,Scope-Linse,Periscopio,초점렌즈,ピントレンズ
+Metal Coat,Peau Métal,Metalcoperta,Metallmantel,Revest. Metálico,금속코트,メタルコート
+Leftovers,Restes,Avanzi,Überreste,Restos,먹다남은음식,たべのこし
+Dragon Scale,Écaille Draco,Squama Drago,Drachenhaut,Escama Dragón,용의비늘,りゅうのウロコ
+Light Ball,Balle Lumière,Elettropalla,Kugelblitz,Bola Luminosa,전기구슬,でんきだま
+Soft Sand,Sable Doux,Sabbia Soffice,Pudersand,Arena Fina,부드러운모래,やわらかいすな
+Hard Stone,Pierre Dure,Pietradura,Granitstein,Piedra Dura,딱딱한돌,かたいいし
+Miracle Seed,Graine Miracle,Miracolseme,Wundersaat,Semilla Milagro,기적의씨,きせきのタネ
+Black Glasses,Lunettes Noires,Occhialineri,Schattenglas,Gafas de Sol,검은안경,くろいメガネ
+Black Belt,Ceinture Noire,Cinturanera,Schwarzgurt,Cinturón Negro,검은띠,くろおび
+Magnet,Aimant,Calamita,Magnet,Imán,자석,じしゃく
+Mystic Water,Eau Mystique,Acqua Magica,Zauberwasser,Agua Mística,신비의물방울,しんぴのしずく
+Sharp Beak,Bec Pointu,Beccaffilato,Hackattack,Pico Afilado,예리한부리,するどいくちばし
+Poison Barb,Pic Venin,Velenaculeo,Giftstich,Flecha Venenosa,독바늘,どくバリ
+Never-Melt Ice,Glace Éternelle,Gelomai,Ewiges Eis,Antiderretir,녹지않는얼음,とけないこおり
+Spell Tag,Rune Sort,Spettrotarga,Bannsticker,Hechizo,저주의부적,のろいのおふだ
+Twisted Spoon,Cuiller Tordue,Cucchiaio Torto,Krummlöffel,Cuchara Torcida,휘어진스푼,まがったスプーン
+Charcoal,Charbon,Carbonella,Holzkohle,Carbón,목탄,もくたん
+Dragon Fang,Croc Dragon,Dentedidrago,Drachenzahn,Colmillo Dragón,용의이빨,りゅうのキバ
+Silk Scarf,Mouchoir Soie,Sciarpa Seta,Seidenschal,Pañuelo Seda,실크스카프,シルクのスカーフ
+Up-Grade,Améliorator,Upgrade,Up-Grade,Mejora,업그레이드,アップグレード
+Shell Bell,Grelot Coque,Conchinella,Seegesang,Campana Concha,조개껍질방울,かいがらのすず
+Sea Incense,Encens Mer,Marearoma,Seerauch,Incienso Marino,바닷물향로,うしおのおこう
+Lax Incense,Encens Doux,Distraroma,Laxrauch,Incienso Suave,무사태평향로,のんきのおこう
+Lucky Punch,Poing Chance,Fortunpugno,Lucky Punch,Puño Suerte,럭키펀치,ラッキーパンチ
+Metal Powder,Poudre Métal,Metalpolvere,Metallstaub,Polvo Metálico,금속파우더,メタルパウダー
+Thick Club,Masse Os,Ossospesso,Kampfknochen,Hueso Grueso,굵은뼈,ふといホネ
+Stick,Bâton,Gambo,Lauchstange,Palo,대파,ながねぎ
+Red Scarf,Foulard Rouge,Fascia Rossa,Roter Schal,Pañuelo Rojo,빨강밴드,あかいバンダナ
+Blue Scarf,Foulard Bleu,Fascia Blu,Blauer Schal,Pañuelo Azul,파랑밴드,あおいバンダナ
+Pink Scarf,Foulard Rose,Fascia Rosa,Rosa Schal,Pañuelo Rosa,분홍밴드,ピンクのバンダナ
+Green Scarf,Foulard Vert,Fascia Verde,Grüner Schal,Pañuelo Verde,초록밴드,みどりのバンダナ
+Yellow Scarf,Foulard Jaune,Fascia Gialla,Gelber Schal,Pañuelo Amarillo,노랑밴드,きいろのバンダナ
+Wide Lens,Loupe,Grandelente,Großlinse,Lupa,광각렌즈,こうかくレンズ
+Muscle Band,Bandeau Muscle,Muscolbanda,Muskelband,Cinta Fuerte,힘의머리띠,ちからのハチマキ
+Wise Glasses,Lunettes Sages,Saviocchiali,Schlauglas,Gafas Especiales,박식안경,ものしりメガネ
+Expert Belt,Ceinture Pro,Abilcintura,Expertengurt,Cinta Experto,달인의띠,たつじんのおび
+Light Clay,Lumargile,Creta Luce,Lichtlehm,Refleluz,빛의점토,ひかりのねんど
+Life Orb,Orbe Vie,Assorbisfera,Leben-Orb,Vidasfera,생명의구슬,いのちのたま
+Power Herb,Herbe Pouvoir,Vigorerba,Energiekraut,Hierba Única,파워풀허브,パワフルハーブ
+Toxic Orb,Orbe Toxique,Tossicsfera,Toxik-Orb,Toxisfera,맹독구슬,どくどくだま
+Flame Orb,Orbe Flamme,Fiammosfera,Heiß-Orb,Llamasfera,화염구슬,かえんだま
+Quick Powder,Poudre Vite,Velopolvere,Flottstaub,Polvo Veloz,스피드파우더,スピードパウダー
+Focus Sash,Ceinture Force,Focalnastro,Fokusgurt,Banda Focus,기합의띠,きあいのタスキ
+Zoom Lens,Lentille Zoom,Zoomlente,Zoomlinse,Telescopio,포커스렌즈,フォーカスレンズ
+Metronome,Métronome,Plessimetro,Metronom,Metrónomo,메트로놈,メトロノーム
+Iron Ball,Balle Fer,Ferropalla,Eisenkugel,Bola Férrea,검은철구,くろいてっきゅう
+Lagging Tail,Ralentiqueue,Rallentocoda,Schwerschweif,Cola Plúmbea,느림보꼬리,こうこうのしっぽ
+Destiny Knot,Nœud Destin,Destincomune,Fatumknoten,Lazo Destino,빨간실,あかいいと
+Black Sludge,Boue Noire,Fangopece,Giftschleim,Lodo Negro,검은진흙,くろいヘドロ
+Icy Rock,Roche Glace,Rocciafredda,Eisbrocken,Roca Helada,차가운바위,つめたいいわ
+Smooth Rock,Roche Lisse,Roccialiscia,Glattbrocken,Roca Suave,보송보송바위,さらさらいわ
+Heat Rock,Roche Chaude,Rocciacalda,Heißbrocken,Roca Calor,뜨거운바위,あついいわ
+Damp Rock,Roche Humide,Rocciaumida,Nassbrocken,Roca Lluvia,축축한바위,しめったいわ
+Grip Claw,Accro Griffe,Presartigli,Griffklaue,Garra Garfio,끈기갈고리손톱,ねばりのかぎづめ
+Choice Scarf,Mouchoir Choix,Stolascelta,Wahlschal,Pañuelo Elegido,구애스카프,こだわりスカーフ
+Sticky Barb,Piquants,Vischiopunta,Klettdorn,Toxiestrella,끈적끈적바늘,くっつきバリ
+Power Bracer,Poignée Pouvoir,Vigorcerchio,Machtreif,Brazal Recio,파워리스트,パワーリスト
+Power Belt,Ceinture Pouvoir,Vigorfascia,Machtgurt,Cinto Recio,파워벨트,パワーベルト
+Power Lens,Lentille Pouvoir,Vigorlente,Machtlinse,Lente Recia,파워렌즈,パワーレンズ
+Power Band,Bandeau Pouvoir,Vigorbanda,Machtband,Banda Recia,파워밴드,パワーバンド
+Power Anklet,Chaîne Pouvoir,Vigorgliera,Machtkette,Franja Recia,파워앵클릿,パワーアンクル
+Power Weight,Poids Pouvoir,Vigorpeso,Machtgewicht,Pesa Recia,파워웨이트,パワーウエイト
+Shed Shell,Carapace Mue,Disfoguscio,Wechselhülle,Muda Concha,아름다운허물,きれいなぬけがら
+Big Root,Grosse Racine,Granradice,Großwurzel,Raíz Grande,큰뿌리,おおきなねっこ
+Choice Specs,Lunettes Choix,Lentiscelta,Wahlglas,Gafas Elegid,구애안경,こだわりメガネ
+Flame Plate,Plaque Flamme,Lastrarogo,Feuertafel,Tabla Llama,불구슬플레이트,ひのたまプレート
+Splash Plate,Plaque Hydro,Lastraidro,Wassertafel,Tabla Linfa,물방울플레이트,しずくプレート
+Zap Plate,Plaque Volt,Lastrasaetta,Blitztafel,Tabla Trueno,우뢰플레이트,いかずちプレート
+Meadow Plate,Plaque Herbe,Lastraprato,Wiesentafel,Tabla Pradal,초록플레이트,みどりのプレート
+Icicle Plate,Plaque Glace,Lastragelo,Frosttafel,Tabla Helada,고드름플레이트,つららのプレート
+Fist Plate,Plaque Poing,Lastrapugno,Fausttafel,Tabla Fuerte,주먹플레이트,こぶしのプレート
+Toxic Plate,Plaque Toxik,Lastrafiele,Gifttafel,Tabla Tóxica,맹독플레이트,もうどくプレート
+Earth Plate,Plaque Terre,Lastrageo,Erdtafel,Tabla Terrax,대지플레이트,だいちのプレート
+Sky Plate,Plaque Ciel,Lastracielo,Wolkentafel,Tabla Cielo,푸른하늘플레이트,あおぞらプレート
+Mind Plate,Plaque Esprit,Lastramente,Hirntafel,Tabla Mental,이상한플레이트,ふしぎのプレート
+Insect Plate,Plaque Insecte,Lastrabaco,Käfertafel,Tabla Bicho,비단벌레플레이트,たまむしプレート
+Stone Plate,Plaque Roc,Lastrapietra,Steintafel,Tabla Pétrea,암석플레이트,がんせきプレート
+Spooky Plate,Plaque Fantôme,Lastratetra,Spuktafel,Tabla Terror,원령플레이트,もののけプレート
+Draco Plate,Plaque Draco,Lastradrakon,Dracotafel,Tabla Draco,용의플레이트,りゅうのプレート
+Dread Plate,Plaque Ombre,Lastratimore,Furchttafel,Tabla Oscura,공포플레이트,こわもてプレート
+Iron Plate,Plaque Fer,Lastraferro,Eisentafel,Tabla Acero,강철플레이트,こうてつプレート
+Odd Incense,Encens Bizarre,Bizzoaroma,Schrägrauch,Incienso Raro,괴상한향로,あやしいおこう
+Rock Incense,Encens Roc,Roccioaroma,Steinrauch,Incienso Roca,암석향로,がんせきおこう
+Full Incense,Encens Plein,Gonfioaroma,Lahmrauch,Incienso Lento,만복향로,まんぷくおこう
+Wave Incense,Encens Vague,Ondaroma,Wellenrauch,Incienso Aqua,잔물결향로,さざなみのおこう
+Rose Incense,Encens Fleur,Rosaroma,Rosenrauch,Incienso Floral,꽃향로,おはなのおこう
+Luck Incense,Encens Veine,Fortunaroma,Glücksrauch,Incienso Duplo,행운의향로,こううんのおこう
+Pure Incense,Encens Pur,Puroaroma,Scheuchrauch,Incienso Puro,순결의향로,きよめのおこう
+Protector,Protecteur,Copertura,Schützer,Protector,프로텍터,プロテクター
+Electirizer,Électriseur,Elettritore,Stromisierer,Electrizador,에레키부스터,エレキブースター
+Magmarizer,Magmariseur,Magmatore,Magmaisierer,Magmatizador,마그마부스터,マグマブースター
+Dubious Disc,CD Douteux,Dubbiodisco,Dubiosdisc,Disco Extraño,괴상한패치,あやしいパッチ
+Reaper Cloth,Tissu Fauche,Terrorpanno,Düsterumhang,Tela Terrible,영계의천,れいかいのぬの
+Razor Claw,Griffe Rasoir,Affilartigli,Scharfklaue,Garra Afilada,예리한손톱,するどいツメ
+Razor Fang,Croc Rasoir,Affilodente,Scharfzahn,Colmillo Agudo,예리한이빨,するどいキバ
+TM01,CT01,MT01,TM01,MT01,기술머신01,わざマシン０１
+TM02,CT02,MT02,TM02,MT02,기술머신02,わざマシン０２
+TM03,CT03,MT03,TM03,MT03,기술머신03,わざマシン０３
+TM04,CT04,MT04,TM04,MT04,기술머신04,わざマシン０４
+TM05,CT05,MT05,TM05,MT05,기술머신05,わざマシン０５
+TM06,CT06,MT06,TM06,MT06,기술머신06,わざマシン０６
+TM07,CT07,MT07,TM07,MT07,기술머신07,わざマシン０７
+TM08,CT08,MT08,TM08,MT08,기술머신08,わざマシン０８
+TM09,CT09,MT09,TM09,MT09,기술머신09,わざマシン０９
+TM10,CT10,MT10,TM10,MT10,기술머신10,わざマシン１０
+TM11,CT11,MT11,TM11,MT11,기술머신11,わざマシン１１
+TM12,CT12,MT12,TM12,MT12,기술머신12,わざマシン１２
+TM13,CT13,MT13,TM13,MT13,기술머신13,わざマシン１３
+TM14,CT14,MT14,TM14,MT14,기술머신14,わざマシン１４
+TM15,CT15,MT15,TM15,MT15,기술머신15,わざマシン１５
+TM16,CT16,MT16,TM16,MT16,기술머신16,わざマシン１６
+TM17,CT17,MT17,TM17,MT17,기술머신17,わざマシン１７
+TM18,CT18,MT18,TM18,MT18,기술머신18,わざマシン１８
+TM19,CT19,MT19,TM19,MT19,기술머신19,わざマシン１９
+TM20,CT20,MT20,TM20,MT20,기술머신20,わざマシン２０
+TM21,CT21,MT21,TM21,MT21,기술머신21,わざマシン２１
+TM22,CT22,MT22,TM22,MT22,기술머신22,わざマシン２２
+TM23,CT23,MT23,TM23,MT23,기술머신23,わざマシン２３
+TM24,CT24,MT24,TM24,MT24,기술머신24,わざマシン２４
+TM25,CT25,MT25,TM25,MT25,기술머신25,わざマシン２５
+TM26,CT26,MT26,TM26,MT26,기술머신26,わざマシン２６
+TM27,CT27,MT27,TM27,MT27,기술머신27,わざマシン２７
+TM28,CT28,MT28,TM28,MT28,기술머신28,わざマシン２８
+TM29,CT29,MT29,TM29,MT29,기술머신29,わざマシン２９
+TM30,CT30,MT30,TM30,MT30,기술머신30,わざマシン３０
+TM31,CT31,MT31,TM31,MT31,기술머신31,わざマシン３１
+TM32,CT32,MT32,TM32,MT32,기술머신32,わざマシン３２
+TM33,CT33,MT33,TM33,MT33,기술머신33,わざマシン３３
+TM34,CT34,MT34,TM34,MT34,기술머신34,わざマシン３４
+TM35,CT35,MT35,TM35,MT35,기술머신35,わざマシン３５
+TM36,CT36,MT36,TM36,MT36,기술머신36,わざマシン３６
+TM37,CT37,MT37,TM37,MT37,기술머신37,わざマシン３７
+TM38,CT38,MT38,TM38,MT38,기술머신38,わざマシン３８
+TM39,CT39,MT39,TM39,MT39,기술머신39,わざマシン３９
+TM40,CT40,MT40,TM40,MT40,기술머신40,わざマシン４０
+TM41,CT41,MT41,TM41,MT41,기술머신41,わざマシン４１
+TM42,CT42,MT42,TM42,MT42,기술머신42,わざマシン４２
+TM43,CT43,MT43,TM43,MT43,기술머신43,わざマシン４３
+TM44,CT44,MT44,TM44,MT44,기술머신44,わざマシン４４
+TM45,CT45,MT45,TM45,MT45,기술머신45,わざマシン４５
+TM46,CT46,MT46,TM46,MT46,기술머신46,わざマシン４６
+TM47,CT47,MT47,TM47,MT47,기술머신47,わざマシン４７
+TM48,CT48,MT48,TM48,MT48,기술머신48,わざマシン４８
+TM49,CT49,MT49,TM49,MT49,기술머신49,わざマシン４９
+TM50,CT50,MT50,TM50,MT50,기술머신50,わざマシン５０
+TM51,CT51,MT51,TM51,MT51,기술머신51,わざマシン５１
+TM52,CT52,MT52,TM52,MT52,기술머신52,わざマシン５２
+TM53,CT53,MT53,TM53,MT53,기술머신53,わざマシン５３
+TM54,CT54,MT54,TM54,MT54,기술머신54,わざマシン５４
+TM55,CT55,MT55,TM55,MT55,기술머신55,わざマシン５５
+TM56,CT56,MT56,TM56,MT56,기술머신56,わざマシン５６
+TM57,CT57,MT57,TM57,MT57,기술머신57,わざマシン５７
+TM58,CT58,MT58,TM58,MT58,기술머신58,わざマシン５８
+TM59,CT59,MT59,TM59,MT59,기술머신59,わざマシン５９
+TM60,CT60,MT60,TM60,MT60,기술머신60,わざマシン６０
+TM61,CT61,MT61,TM61,MT61,기술머신61,わざマシン６１
+TM62,CT62,MT62,TM62,MT62,기술머신62,わざマシン６２
+TM63,CT63,MT63,TM63,MT63,기술머신63,わざマシン６３
+TM64,CT64,MT64,TM64,MT64,기술머신64,わざマシン６４
+TM65,CT65,MT65,TM65,MT65,기술머신65,わざマシン６５
+TM66,CT66,MT66,TM66,MT66,기술머신66,わざマシン６６
+TM67,CT67,MT67,TM67,MT67,기술머신67,わざマシン６７
+TM68,CT68,MT68,TM68,MT68,기술머신68,わざマシン６８
+TM69,CT69,MT69,TM69,MT69,기술머신69,わざマシン６９
+TM70,CT70,MT70,TM70,MT70,기술머신70,わざマシン７０
+TM71,CT71,MT71,TM71,MT71,기술머신71,わざマシン７１
+TM72,CT72,MT72,TM72,MT72,기술머신72,わざマシン７２
+TM73,CT73,MT73,TM73,MT73,기술머신73,わざマシン７３
+TM74,CT74,MT74,TM74,MT74,기술머신74,わざマシン７４
+TM75,CT75,MT75,TM75,MT75,기술머신75,わざマシン７５
+TM76,CT76,MT76,TM76,MT76,기술머신76,わざマシン７６
+TM77,CT77,MT77,TM77,MT77,기술머신77,わざマシン７７
+TM78,CT78,MT78,TM78,MT78,기술머신78,わざマシン７８
+TM79,CT79,MT79,TM79,MT79,기술머신79,わざマシン７９
+TM80,CT80,MT80,TM80,MT80,기술머신80,わざマシン８０
+TM81,CT81,MT81,TM81,MT81,기술머신81,わざマシン８１
+TM82,CT82,MT82,TM82,MT82,기술머신82,わざマシン８２
+TM83,CT83,MT83,TM83,MT83,기술머신83,わざマシン８３
+TM84,CT84,MT84,TM84,MT84,기술머신84,わざマシン８４
+TM85,CT85,MT85,TM85,MT85,기술머신85,わざマシン８５
+TM86,CT86,MT86,TM86,MT86,기술머신86,わざマシン８６
+TM87,CT87,MT87,TM87,MT87,기술머신87,わざマシン８７
+TM88,CT88,MT88,TM88,MT88,기술머신88,わざマシン８８
+TM89,CT89,MT89,TM89,MT89,기술머신89,わざマシン８９
+TM90,CT90,MT90,TM90,MT90,기술머신90,わざマシン９０
+TM91,CT91,MT91,TM91,MT91,기술머신91,わざマシン９１
+TM92,CT92,MT92,TM92,MT92,기술머신92,わざマシン９２
+HM01,CS01,MN01,VM01,MO01,비전머신01,ひでんマシン０１
+HM02,CS02,MN02,VM02,MO02,비전머신02,ひでんマシン０２
+HM03,CS03,MN03,VM03,MO03,비전머신03,ひでんマシン０３
+HM04,CS04,MN04,VM04,MO04,비전머신04,ひでんマシン０４
+HM05,CS05,MN05,VM05,MO05,비전머신05,ひでんマシン０５
+HM06,CS06,MN06,VM06,MO06,비전머신06,ひでんマシン０６
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Explorer Kit,Explorakit,Esplorokit,Forschersack,Kit Explorador,탐험세트,たんけんセット
+Loot Sack,Sac Butin,Bottinosacca,Beutesack,Saca Botín,보물주머니,たからぶくろ
+Rule Book,Livre Règles,Libro Regole,Regelbuch,Reglamento,룰북,ルールブック
+Poké Radar,Poké Radar,Poké Radar,Pokéradar,Pokéradar,포켓트레,ポケトレ
+Point Card,Carte Points,Scheda Punti,Punktekarte,Tarjeta Puntos,포인트카드,ポイントカード
+Journal,Journal,Agenda,Tagebuch,Diario,모험노트,ぼうけんノート
+Seal Case,Boîte Sceaux,Portabolli,Stickerkoffer,Caja Sellos,실상자,シールいれ
+Fashion Case,Coffret Mode,Scatola Chic,Modekoffer,Caja Corazón,액세서리상자,アクセサリーいれ
+Seal Bag,Sac Sceaux,Bollosacca,Stickertüte,Bolsa Sellos,실주머니,シールぶくろ
+Pal Pad,Registre Ami,Blocco Amici,Adressbuch,Bloc amigos,친구수첩,ともだちてちょう
+Works Key,Clé Centrale,Turbinchiave,K-Schlüssel,Llave Central,발전소키,はつでんしょキー
+Old Charm,Vieux Grigri,Arcamuleto,Talisman,Talismán,고대의부적,こだいのおまもり
+Galactic Key,Clé Galaxie,Galachiave,G-Schlüssel,Llave Galaxia,갤럭시단의열쇠,ギンガだんのカギ
+Red Chain,Chaîne Rouge,Rossocatena,Rote Kette,Cadena Roja,빨강쇠사슬,あかいくさり
+Town Map,Carte,Mappa Città,Karte,Mapa,타운맵,タウンマップ
+Vs. Seeker,Cherche VS,Cercasfide,Kampffahnder,Buscapelea,배틀서처,バトルサーチャー
+Coin Case,Boîte Jetons,Salvadanaio,Münzkorb,Monedero,동전케이스,コインケース
+Old Rod,Canne,Amo Vecchio,Angel,Caña Vieja,낡은낚싯대,ボロのつりざお
+Good Rod,Super Canne,Amo Buono,Profiangel,Caña Buena,좋은낚싯대,いいつりざお
+Super Rod,Méga Canne,Super Amo,Superangel,Supercaña,대단한낚싯대,すごいつりざお
+Sprayduck,Kwakarrosoir,Sprayduck,Entonkanne,Psydugadera,고라파덕물뿌리개,コダックじょうろ
+Poffin Case,Boîte Poffin,Portapoffin,Knurspbox,Pokochera,포핀케이스,ポフィンケース
+Bike,Bicyclette,Bicicletta,Fahrrad,Bici,자전거,じてんしゃ
+Suite Key,Clé Chambre,Chiave Suite,B-Schlüssel,Llave Suite,룸키,ルームキー
+Oak’s Letter,Lettre Chen,Lettera Oak,Eichs Brief,Carta Prof. Oak,오박사의편지,オーキドのてがみ
+Lunar Wing,Lun’Aile,Alalunare,Lunarfeder,Pluma Lunar,초승달날개,みかづきのはね
+Member Card,Carte Membre,Scheda Soci,Mitgliedskarte,Carné Socio,멤버스카드,メンバーズカード
+Azure Flute,Flûte Azur,Flauto Cielo,Azurflöte,Flauta Azur,천계의피리,てんかいのふえ
+S.S. Ticket,Passe Bateau,Biglietto Nave,Bootsticket,Ticket Barco,승선티켓,ふねのチケット
+Contest Pass,Passe Concours,Tessera Gare,Wettbewerbskarte,Pase Concurso,콘테스트패스,コンテストパス
+Magma Stone,Pierre Magma,Magmapietra,Magmastein,Piedra Magma,화산의돌,かざんのおきいし
+Parcel,Colis,Pacco,Paket,Paquete,전해줄물건,おとどけもの
+Coupon 1,Bon 1,Coupon 1,Kupon 1,Cupón 1,교환권1,ひきかえけん１
+Coupon 2,Bon 2,Coupon 2,Kupon 2,Cupón 2,교환권2,ひきかえけん２
+Coupon 3,Bon 3,Coupon 3,Kupon 3,Cupón 3,교환권3,ひきかえけん３
+Storage Key,Clé Stockage,Depochiave,Lagerschlüssel,Llave Almacén,창고열쇠,そうこのカギ
+Secret Potion,Potion Secrète,Pozione Segreta,Geheimtrank,Poción Secreta,비전신약,ひでんのくすり
+Vs. Recorder,Magnéto VS,Registradati,Kampfkamera,Cámara Lucha,배틀레코더,バトルレコーダー
+Gracidea,Gracidée,Gracidea,Gracidea,Gracídea,그라시데아꽃,グラシデアのはな
+Secret Key,Clé Secrète,Chiave Segreta,?-Öffner,Llave Secreta,비밀의열쇠,ひみつのカギ
+Apricorn Box,Boîte Noigrume,Ghicobox,Aprikokobox,Caja Bonguri,규토리케이스,ぼんぐりケース
+Unown Report,Carnet Zarbi,UnownBloc,Icognitoheft,Bloc Unown,안농노트,アンノーンノート
+Berry Pots,Plante-Baies,Piantabacche,Pflanzset,Plantabayas,나무열매플랜터,きのみプランター
+Dowsing Machine,Cherch’Objet,Ricerca Strum.,Itemradar,Zahorí,다우징머신,ダウジングマシン
+Blue Card,Carte Bleue,Carta Blu,Blaue Karte,Tarjeta Azul,블루카드,ブルーカード
+Slowpoke Tail,Queue Ramoloss,Coda Slowpoke,Flegmon-Rute,Cola Slowpoke,맛있는꼬리,おいしいシッポ
+Clear Bell,Glas Transparent,Campana Chiara,Klarglocke,Campana Clara,크리스탈방울,とうめいなスズ
+Card Key,Carte Magnétique,Apriporta,Türöffner,Llave Magnética,카드키,カードキー
+Basement Key,Clé Sous-Sol,Chiave sotterr.,Kelleröffner,Llave Sótano,지하의열쇠,ちかのかぎ
+Squirt Bottle,Carapuce à O,Annaffiatoio,Schiggykanne,Regadera,꼬부기물뿌리개,ゼニガメじょうろ
+Red Scale,Écaillerouge,Squama Rossa,Rote Haut,Escama Roja,빨간비늘,あかいウロコ
+Lost Item,Objet perdu,Strumento perso,Fundsache,Objeto Perdido,분실물,おとしもの
+Pass,Passe Train,Superpass,Fahrschein,Magnetopase,리니어패스,リニアパス
+Machine Part,Partie Machine,Pezzo macch.,Spule,Maquinaria,기계부품,きかいのぶひん
+Silver Wing,Argent’Aile,Aladargento,Silberflügel,Ala Plateada,은빛날개,ぎんいろのはね
+Rainbow Wing,Arc-en-Ci’Aile,Ala d’Iride,Buntschwinge,Ala Arcoíris,무지갯빛날개,にじいろのはね
+Mystery Egg,Œuf Mystère,Uovo Mistero,Rätsel-Ei,Huevo Misterioso,이상한알,ふしぎなタマゴ
+Red Apricorn,Noigrume Rouge,Ghicocca Rossa,Aprikoko Rot,Bonguri Rojo,빨간규토리,あかぼんぐり
+Blue Apricorn,Noigrume Bleu,Ghicocca Blu,Aprikoko Blu,Bonguri Azul,파란규토리,あおぼんぐり
+Yellow Apricorn,Noigrume Jaune,Ghicocca Gialla,Aprikoko Glb,Bonguri Amarillo,노랑규토리,きぼんぐり
+Green Apricorn,Noigrume Vert,Ghicocca Verde,Aprikoko Grn,Bonguri Verde,초록규토리,みどぼんぐり
+Pink Apricorn,Noigrume Rose,Ghicocca Rosa,Aprikoko Pnk,Bonguri Rosa,담홍규토리,ももぼんぐり
+White Apricorn,Noigrume Blanc,Ghicocca Bianca,Aprikoko Wss,Bonguri Blanco,하얀규토리,しろぼんぐり
+Black Apricorn,Noigrume Noir,Ghicocca Nera,Aprikoko Swz,Bonguri Negro,검은규토리,くろぼんぐり
+Fast Ball,Speed Ball,Rapid Ball,Turboball,Rapid Ball,스피드볼,スピードボール
+Level Ball,Niveau Ball,Level Ball,Levelball,Nivel Ball,레벨볼,レベルボール
+Lure Ball,Appât Ball,Esca Ball,Köderball,Cebo Ball,루어볼,ルアーボール
+Heavy Ball,Masse Ball,Peso Ball,Schwerball,Peso Ball,헤비볼,ヘビーボール
+Love Ball,Love Ball,Love Ball,Sympaball,Amor Ball,러브러브볼,ラブラブボール
+Friend Ball,Copain Ball,Friend Ball,Freundesball,Amigo Ball,프렌드볼,フレンドボール
+Moon Ball,Lune Ball,Luna Ball,Mondball,Luna Ball,문볼,ムーンボール
+Sport Ball,Compét’Ball,Gara Ball,Turnierball,Competi Ball,콤페볼,コンペボール
+Park Ball,Parc Ball,Parco Ball,Parkball,Parque Ball,파크볼,パークボール
+Photo Album,Album Photo,Album,Fotoalbum,Álbum,포토앨범,フォトアルバム
+GB Sounds,Lecteur GB,Lettore GB,GB-Player,Lector GB,GB플레이어,ＧＢプレイヤー
+Tidal Bell,Glas Tempête,Campana Onda,Gischtglocke,Campana Oleaje,해명의방울,うみなりのスズ
+Rage Candy Bar,Bonbon Rage,Iramella,Wutkeks,Caramelo Furia,분노의호두과자,いかりまんじゅう
+Data Card 01,Carte Mémo01,Scheda Dati 01,Datenkarte01,Tarjeta Datos 01,데이터카드01,データカード０１
+Data Card 02,Carte Mémo02,Scheda Dati 02,Datenkarte02,Tarjeta Datos 02,데이터카드02,データカード０２
+Data Card 03,Carte Mémo03,Scheda Dati 03,Datenkarte03,Tarjeta Datos 03,데이터카드03,データカード０３
+Data Card 04,Carte Mémo04,Scheda Dati 04,Datenkarte04,Tarjeta Datos 04,데이터카드04,データカード０４
+Data Card 05,Carte Mémo05,Scheda Dati 05,Datenkarte05,Tarjeta Datos 05,데이터카드05,データカード０５
+Data Card 06,Carte Mémo06,Scheda Dati 06,Datenkarte06,Tarjeta Datos 06,데이터카드06,データカード０６
+Data Card 07,Carte Mémo07,Scheda Dati 07,Datenkarte07,Tarjeta Datos 07,데이터카드07,データカード０７
+Data Card 08,Carte Mémo08,Scheda Dati 08,Datenkarte08,Tarjeta Datos 08,데이터카드08,データカード０８
+Data Card 09,Carte Mémo09,Scheda Dati 09,Datenkarte09,Tarjeta Datos 09,데이터카드09,データカード０９
+Data Card 10,Carte Mémo10,Scheda Dati 10,Datenkarte10,Tarjeta Datos 10,데이터카드10,データカード１０
+Data Card 11,Carte Mémo11,Scheda Dati 11,Datenkarte11,Tarjeta Datos 11,데이터카드11,データカード１１
+Data Card 12,Carte Mémo12,Scheda Dati 12,Datenkarte12,Tarjeta Datos 12,데이터카드12,データカード１２
+Data Card 13,Carte Mémo13,Scheda Dati 13,Datenkarte13,Tarjeta Datos 13,데이터카드13,データカード１３
+Data Card 14,Carte Mémo14,Scheda Dati 14,Datenkarte14,Tarjeta Datos 14,데이터카드14,データカード１４
+Data Card 15,Carte Mémo15,Scheda Dati 15,Datenkarte15,Tarjeta Datos 15,데이터카드15,データカード１５
+Data Card 16,Carte Mémo16,Scheda Dati 16,Datenkarte16,Tarjeta Datos 16,데이터카드16,データカード１６
+Data Card 17,Carte Mémo17,Scheda Dati 17,Datenkarte17,Tarjeta Datos 17,데이터카드17,データカード１７
+Data Card 18,Carte Mémo18,Scheda Dati 18,Datenkarte18,Tarjeta Datos 18,데이터카드18,データカード１８
+Data Card 19,Carte Mémo19,Scheda Dati 19,Datenkarte19,Tarjeta Datos 19,데이터카드19,データカード１９
+Data Card 20,Carte Mémo20,Scheda Dati 20,Datenkarte20,Tarjeta Datos 20,데이터카드20,データカード２０
+Data Card 21,Carte Mémo21,Scheda Dati 21,Datenkarte21,Tarjeta Datos 21,데이터카드21,データカード２１
+Data Card 22,Carte Mémo22,Scheda Dati 22,Datenkarte22,Tarjeta Datos 22,데이터카드22,データカード２２
+Data Card 23,Carte Mémo23,Scheda Dati 23,Datenkarte23,Tarjeta Datos 23,데이터카드23,データカード２３
+Data Card 24,Carte Mémo24,Scheda Dati 24,Datenkarte24,Tarjeta Datos 24,데이터카드24,データカード２４
+Data Card 25,Carte Mémo25,Scheda Dati 25,Datenkarte25,Tarjeta Datos 25,데이터카드25,データカード２５
+Data Card 26,Carte Mémo26,Scheda Dati 26,Datenkarte26,Tarjeta Datos 26,데이터카드26,データカード２６
+Data Card 27,Carte Mémo27,Scheda Dati 27,Datenkarte27,Tarjeta Datos 27,데이터카드27,データカード２７
+Jade Orb,Orbe Vert,Sfera Verde,Grüne Kugel,Esfera Verde,연둣빛구슬,もえぎいろのたま
+Lock Capsule,Poké Écrin,Capsula Scrigno,Tresorkapsel,Cápsula Candado,록캡슐,ロックカプセル
+Red Orb,Gemme Rouge,Gemma rossa,Roter Edelstein,Prisma Rojo,주홍구슬,べにいろのたま
+Blue Orb,Gemme Bleue,Gemma blu,Blauer Edelstein,Prisma Azul,쪽빛구슬,あいいろのたま
+Enigma Stone,Mystécristal,Misticristal,Mytokristall,Misticristal,수수께끼의수정,なぞのすいしょう
+Prism Scale,Bel’Écaille,Squama Bella,Schönschuppe,Escama Bella,고운비늘,きれいなウロコ
+Eviolite,Évoluroc,Evolcondensa,Evolith,Mineral Evol,진화의휘석,しんかのきせき
+Float Stone,Pierrallégée,Pietralieve,Leichtstein,Piedra Pómez,가벼운돌,かるいし
+Rocky Helmet,Casque Brut,Bitorzolelmo,Beulenhelm,Casco Dentado,울퉁불퉁멧,ゴツゴツメット
+Air Balloon,Ballon,Palloncino,Luftballon,Globo Helio,풍선,ふうせん
+Red Card,Carton Rouge,Cartelrosso,Rote Karte,Tarjeta Roja,레드카드,レッドカード
+Ring Target,Point de Mire,Facilsaglio,Zielscheibe,Blanco,겨냥표적,ねらいのまと
+Binding Band,Bande Étreinte,Legafascia,Klammerband,Banda Atadura,조임밴드,しめつけバンド
+Absorb Bulb,Bulbe,Bulbo,Knolle,Tubérculo,구근,きゅうこん
+Cell Battery,Pile,Ricaripila,Akku,Pila,충전지,じゅうでんち
+Eject Button,Bouton Fuite,Pulsantefuga,Fluchtknopf,Botón Escape,탈출버튼,だっしゅつボタン
+Fire Gem,Joyau Feu,Bijoufuoco,Feuerjuwel,Gema Fuego,불꽃주얼,ほのおのジュエル
+Water Gem,Joyau Eau,Bijouacqua,Wasserjuwel,Gema Agua,물주얼,みずのジュエル
+Electric Gem,Joyau Électrik,Bijouelettro,Elektrojuwel,Gema Eléctrica,전기주얼,でんきのジュエル
+Grass Gem,Joyau Plante,Bijouerba,Pflanzenjuwel,Gema Planta,풀주얼,くさのジュエル
+Ice Gem,Joyau Glace,Bijoughiaccio,Eisjuwel,Gema Hielo,얼음주얼,こおりのジュエル
+Fighting Gem,Joyau Combat,Bijoulotta,Kampfjuwel,Gema Lucha,격투주얼,かくとうジュエル
+Poison Gem,Joyau Poison,Bijouveleno,Giftjuwel,Gema Veneno,독주얼,どくのジュエル
+Ground Gem,Joyau Sol,Bijouterra,Bodenjuwel,Gema Tierra,땅주얼,じめんのジュエル
+Flying Gem,Joyau Vol,Bijouvolante,Flugjuwel,Gema Voladora,비행주얼,ひこうのジュエル
+Psychic Gem,Joyau Psy,Bijoupsico,Psychojuwel,Gema Psíquica,에스퍼주얼,エスパージュエル
+Bug Gem,Joyau Insecte,Bijoucoleottero,Käferjuwel,Gema Bicho,벌레주얼,むしのジュエル
+Rock Gem,Joyau Roche,Bijouroccia,Gesteinsjuwel,Gema Roca,바위주얼,いわのジュエル
+Ghost Gem,Joyau Spectre,Bijouspettro,Geisterjuwel,Gema Fantasma,고스트주얼,ゴーストジュエル
+Dragon Gem,Joyau Dragon,Bijoudrago,Drakojuwel,Gema Dragón,드래곤주얼,ドラゴンジュエル
+Dark Gem,Joyau Ténèbres,Bijoubuio,Unlichtjuwel,Gema Siniestra,악주얼,あくのジュエル
+Steel Gem,Joyau Acier,Bijouacciaio,Stahljuwel,Gema Acero,강철주얼,はがねのジュエル
+Normal Gem,Joyau Normal,Bijounormale,Normaljuwel,Gema Normal,노말주얼,ノーマルジュエル
+Health Wing,Aile Santé,Piumsalute,Heilfeder,Pluma Vigor,체력날개,たいりょくのハネ
+Muscle Wing,Aile Force,Piumpotenza,Kraftfeder,Pluma Músculo,근력날개,きんりょくのハネ
+Resist Wing,Aile Armure,Piumtutela,Abwehrfeder,Pluma Aguante,저항력날개,ていこうのハネ
+Genius Wing,Aile Esprit,Piumingegno,Geniefeder,Pluma Intelecto,지력날개,ちりょくのハネ
+Clever Wing,Aile Mental,Piumintuito,Espritfeder,Pluma Mente,정신력날개,せいしんのハネ
+Swift Wing,Aile Sprint,Piumreazione,Flinkfeder,Pluma Ímpetu,순발력날개,しゅんぱつのハネ
+Pretty Wing,Jolie Aile,Piumabella,Prachtfeder,Pluma Bella,고운날개,きれいなハネ
+Cover Fossil,Fossile Plaque,Fossiltappo,Schildfossil,Fósil Tapa,덮개화석,ふたのカセキ
+Plume Fossil,Fossile Plume,Fossilpiuma,Federfossil,Fósil Pluma,날개화석,はねのカセキ
+Liberty Pass,Passe Liberté,Liberticket,Gartenpass,Tarjeta Libertad,리버티티켓,リバティチケット
+Pass Orb,Offrisphère,Passabilia,Transferorb,Regalosfera,딜구슬,デルダマ
+Dream Ball,Rêve Ball,Dream Ball,Traumball,Ensueño Ball,드림볼,ドリームボール
+Poké Toy,Poké Plumet,Pokégingillo,Pokéwedel,Pokéseñuelo,포켓풀,ポケじゃらし
+Prop Case,Boîte Parure,Portagadget,Deko-Box,Neceser,굿즈케이스,グッズケース
+Dragon Skull,Crâne Dragon,Teschio,Drakoschädel,Cráneo Dragón,드래곤의뼈,ドラゴンのホネ
+Balm Mushroom,Champi Suave,Profumfungo,Duftpilz,Seta Aroma,향기버섯,かおるキノコ
+Big Nugget,Maxi Pépite,Granpepita,Riesennugget,Maxipepita,큰금구슬,でかいきんのたま
+Pearl String,Perle Triple,Trittiperla,Triperle,Sarta Perlas,경단진주,おだんごしんじゅ
+Comet Shard,Morceau Comète,Pezzo Cometa,Kometstück,Fragmento Cometa,혜성조각,すいせいのかけら
+Relic Copper,Vieux Sou,Soldantico,Alter Heller,Real Cobre,고대의동화,こだいのどうか
+Relic Silver,Vieil Écu,Ducatantico,Alter Taler,Real Plata,고대의은화,こだいのぎんか
+Relic Gold,Vieux Ducat,Doblonantico,Alter Dukat,Real Oro,고대의금화,こだいのきんか
+Relic Vase,Vieux Vase,Vasantico,Alte Vase,Ánfora,고대의항아리,こだいのツボ
+Relic Band,Vieux Bijou,Bracciantico,Alter Reif,Brazal,고대의팔찌,こだいのうでわ
+Relic Statue,Vieux Santon,Statuantica,Alte Statue,Efigie Antigua,고대의석상,こだいのせきぞう
+Relic Crown,Vieux Tortil,Coronantica,Alte Krone,Corona Antigua,고대의왕관,こだいのおうかん
+Casteliacone,Glace Volute,Conostropoli,Stratos-Eis,Porcehelado,구름아이스,ヒウンアイス
+Dire Hit 2,Muscle 2,Supercolpo 2,Angriffplus2,Directo 2,크리티컬커터2,クリティカット２
+X Speed 2,Vitesse 2,Velocità X-2,X-Tempo2,Velocidad X 2,스피드업2,スピーダー２
+X Sp. Atk 2,Atq. Spé. 2,Att. Sp. X-2,X-Spezial2,Especial X 2,스페셜업2,ＳＰアップ２
+X Sp. Def 2,Déf. Spé. 2,Dif. Spec. X-2,X-Sp.-Vert.2,Def. Esp. X 2,스페셜가드2,ＳＰガード２
+X Defense 2,Défense 2,Difesa X-2,X-Abwehr2,Defensa X 2,디펜드업2,ディフェンダー２
+X Attack 2,Attaque 2,Attacco X-2,X-Angriff2,Ataque X 2,플러스파워2,プラスパワー２
+X Accuracy 2,Précision 2,Precisione X-2,X-Treffer2,Precisión X 2,잘-맞히기2,ヨクアタール２
+X Speed 3,Vitesse 3,Velocità X-3,X-Tempo3,Velocidad X 3,스피드업3,スピーダー３
+X Sp. Atk 3,Atq. Spé. 3,Att. Sp. X-3,X-Spezial3,Especial X 3,스페셜업3,ＳＰアップ３
+X Sp. Def 3,Déf. Spé. 3,Dif. Spec. X-3,X-Sp.-Vert.3,Def. Esp. X 3,스페셜가드3,ＳＰガード３
+X Defense 3,Défense 3,Difesa X-3,X-Abwehr3,Defensa X 3,디펜드업3,ディフェンダー３
+X Attack 3,Attaque 3,Attacco X-3,X-Angriff3,Ataque X 3,플러스파워3,プラスパワー３
+X Accuracy 3,Précision 3,Precisione X-3,X-Treffer3,Precisión X 3,잘-맞히기3,ヨクアタール３
+X Speed 6,Vitesse 6,Velocità X-6,X-Tempo6,Velocidad X 6,스피드업6,スピーダー６
+X Sp. Atk 6,Atq. Spé. 6,Att. Sp. X-6,X-Spezial6,Especial X 6,스페셜업6,ＳＰアップ６
+X Sp. Def 6,Déf. Spé. 6,Dif. Spec. X-6,X-Sp.-Vert.6,Def. Esp. X 6,스페셜가드6,ＳＰガード６
+X Defense 6,Défense 6,Difesa X-6,X-Abwehr6,Defensa X 6,디펜드업6,ディフェンダー６
+X Attack 6,Attaque 6,Attacco X-6,X-Angriff6,Ataque X 6,플러스파워6,プラスパワー６
+X Accuracy 6,Précision 6,Precisione X-6,X-Treffer6,Precisión X 6,잘-맞히기6,ヨクアタール６
+Ability Urge,Appel Talent,Chiamabilità,Fähigk.-Appell,Habilitador,스킬콜,スキルコール
+Item Drop,Jette Objet,Lascioggetto,Itemabwurf,Tiraobjeto,아이템드롭,アイテムドロップ
+Item Urge,Appel Objet,Chiamoggetto,Itemappell,Activaobjeto,아이템콜,アイテムコール
+Reset Urge,Réamorçage,Ripristino,Umkehrappell,Quitaestado,플랫콜,フラットコール
+Dire Hit 3,Muscle 3,Supercolpo 3,Angriffplus3,Directo 3,크리티컬커터3,クリティカット３
+Light Stone,Galet Blanc,Chiarolite,Lichtstein,Orbe Claro,라이트스톤,ライトストーン
+Dark Stone,Galet Noir,Scurolite,Dunkelstein,Orbe Oscuro,다크스톤,ダークストーン
+TM93,CT93,MT93,TM93,MT93,기술머신93,わざマシン９３
+TM94,CT94,MT94,TM94,MT94,기술머신94,わざマシン９４
+TM95,CT95,MT95,TM95,MT95,기술머신95,わざマシン９５
+Xtransceiver,Vokit,Interpoké,Viso-Caster,Videomisor,라이브캐스터,ライブキャスター
+???,???,???,???,(?),???,ゴッドストーン
+Gram 1,Courrier 1,Missiva 1,Briefpost 1,Envío 1,배달물1,はいたつぶつ１
+Gram 2,Courrier 2,Missiva 2,Briefpost 2,Envío 2,배달물2,はいたつぶつ２
+Gram 3,Courrier 3,Missiva 3,Briefpost 3,Envío 3,배달물3,はいたつぶつ３
+Xtransceiver,Vokit,Interpoké,Viso-Caster,Videomisor,라이브캐스터,ライブキャスター
+Medal Box,Boîte Médailles,Box Premi,Medaillenbox,Caja Insignias,메달박스,メダルボックス
+DNA Splicers,Pointeau ADN,Cuneo DNA,DNS-Keil,Punta ADN,유전자쐐기,いでんしのくさび
+DNA Splicers,Pointeau ADN,Cuneo DNA,DNS-Keil,Punta ADN,유전자쐐기,いでんしのくさび
+Permit,Permis,Permesso,Genehmigung,Pase,허가증,きょかしょう
+Oval Charm,Charme Ovale,Ovamuleto,Ovalpin,Amuleto Oval,둥근부적,まるいおまもり
+Shiny Charm,Charme Chroma,Cromamuleto,Schillerpin,Amuleto Iris,빛나는부적,ひかるおまもり
+Plasma Card,Carte Plasma,Carta Plasma,Plasmakarte,Tarjeta Plasma,플라스마카드,プラズマカード
+Grubby Hanky,Mouchoir Sale,Pezza Sporca,Schnäuztuch,Pañuelo Sucio,더러운손수건,よごれたハンカチ
+Colress Machine,Nikodule,Acrocongegno,Achromat,Acromáquina,아크로마머신,アクロママシーン
+Dropped Item,Objet Trouvé,Oggetto perso,Fundsache,Objeto Perdido,잊은물건,わすれもの
+Dropped Item,Objet Trouvé,Oggetto perso,Fundsache,Objeto Perdido,잊은물건,わすれもの
+Reveal Glass,Miroir Sacré,Verispecchio,Wahrspiegel,Espejo Veraz,비추는거울,うつしかがみ
+Weakness Policy,Vulné-Assurance,Vulneropolizza,Schwächenschutz,Seguro Debilidad,약점보험,じゃくてんほけん
+Assault Vest,Veste de Combat,Corpetto assalto,Offensivweste,Chaleco Asalto,돌격조끼,とつげきチョッキ
+Holo Caster,Holokit,Holovox,Holo-Log,Holomisor,홀로캐스터,ホロキャスター
+Prof’s Letter,Lettre du Prof,Lettera del Prof,Brief vom Prof,Carta Profesor,박사의편지,はかせのてがみ
+Roller Skates,Rollers,Pattini,Rollerskates,Patines,롤러스케이트,ローラースケート
+Pixie Plate,Plaque Pixie,Lastraspiritello,Feentafel,Tabla Duende,정령플레이트,せいれいプレート
+Ability Capsule,Pilule Talent,Capsula abilità,Fähigk.-Kapsel,Cáps. Habilidad,특성캡슐,とくせいカプセル
+Whipped Dream,Chantibonbon,Dolcespuma,Sahnehäubchen,Dulce de Nata,휘핑팝,ホイップポップ
+Sachet,Sachet Senteur,Bustina aromi,Duftbeutel,Saquito Fragante,향기주머니,においぶくろ
+Luminous Moss,Lichen Lumineux,Muschioluce,Leuchtmoos,Musgo Brillante,빛이끼,ひかりごけ
+Snowball,Boule de Neige,Palla di neve,Schneeball,Bola de Nieve,눈덩이,ゆきだま
+Safety Goggles,Lunettes Filtre,Visierantisabbia,Schutzbrille,Gafa Protectora,방진고글,ぼうじんゴーグル
+Poké Flute,Pokéflûte,Poké Flauto,Pokéflöte,Poké Flauta,포켓몬피리,ポケモンのふえ
+Rich Mulch,Fertibondance,Fertilflorido,Sprießmulch,Abono Fértil,주렁주렁비료,たわわこやし
+Surprise Mulch,Fertistantané,Fertilsorpresa,Wundermulch,Abono Sorpresa,깜놀비료,びっくりこやし
+Boost Mulch,Fertibérance,Fertilcopioso,Wuchermulch,Abono Fructífero,부쩍부쩍비료,ぐんぐんこやし
+Amaze Mulch,Fertiprodige,Fertilprodigio,Ultramulch,Abono Insólito,기절초풍비료,とんでもこやし
+Gengarite,Ectoplasmite,Gengarite,Gengarnit,Gengarita,팬텀나이트,ゲンガナイト
+Gardevoirite,Gardevoirite,Gardevoirite,Guardevoirnit,Gardevoirita,가디안나이트,サーナイトナイト
+Ampharosite,Pharampite,Ampharosite,Ampharosnit,Ampharosita,전룡나이트,デンリュウナイト
+Venusaurite,Florizarrite,Venusaurite,Bisaflornit,Venusaurita,이상해꽃나이트,フシギバナイト
+Charizardite X,Dracaufite X,Charizardite X,Gluraknit X,Charizardita X,리자몽나이트X,リザードナイトＸ
+Blastoisinite,Tortankite,Blastoisite,Turtoknit,Blastoisita,거북왕나이트,カメックスナイト
+Mewtwonite X,Mewtwoïte X,Mewtwoite X,Mewtunit X,Mewtwoita X,뮤츠나이트X,ミュウツナイトＸ
+Mewtwonite Y,Mewtwoïte Y,Mewtwoite Y,Mewtunit Y,Mewtwoita Y,뮤츠나이트Y,ミュウツナイトＹ
+Blazikenite,Braségalite,Blazikenite,Lohgocknit,Blazikenita,번치코나이트,バシャーモナイト
+Medichamite,Charminite,Medichamite,Meditalisnit,Medichamita,요가램나이트,チャーレムナイト
+Houndoominite,Démolossite,Houndoomite,Hundemonit,Houndoomita,헬가나이트,ヘルガナイト
+Aggronite,Galekingite,Aggronite,Stollossnit,Aggronita,보스로라나이트,ボスゴドラナイト
+Banettite,Branettite,Banettite,Banetteonit,Banettita,다크펫나이트,ジュペッタナイト
+Tyranitarite,Tyranocivite,Tyranitarite,Despotarnit,Tyranitarita,마기라스나이트,バンギラスナイト
+Scizorite,Cizayoxite,Scizorite,Scheroxnit,Scizorita,핫삼나이트,ハッサムナイト
+Pinsirite,Scarabruite,Pinsirite,Pinsirnit,Pinsirita,쁘사이저나이트,カイロスナイト
+Aerodactylite,Ptéraïte,Aerodactylite,Aerodactylonit,Aerodactylita,프테라나이트,プテラナイト
+Lucarionite,Lucarite,Lucarite,Lucarionit,Lucarita,루카리오나이트,ルカリオナイト
+Abomasite,Blizzarite,Abomasnowite,Rexblisarnit,Abomasnowita,눈설왕나이트,ユキノオナイト
+Kangaskhanite,Kangourexite,Kangaskhanite,Kangamanit,Kangaskhanita,캥카나이트,ガルーラナイト
+Gyaradosite,Léviatorite,Gyaradosite,Garadosnit,Gyaradosita,갸라도스나이트,ギャラドスナイト
+Absolite,Absolite,Absolite,Absolnit,Absolita,앱솔나이트,アブソルナイト
+Charizardite Y,Dracaufite Y,Charizardite Y,Gluraknit Y,Charizardita Y,리자몽나이트Y,リザードナイトＹ
+Alakazite,Alakazamite,Alakazamite,Simsalanit,Alakazamita,후디나이트,フーディナイト
+Heracronite,Scarhinoïte,Heracrossite,Skarabornit,Heracrossita,헤라크로스나이트,ヘラクロスナイト
+Mawilite,Mysdibulite,Mawilite,Flunkifernit,Mawilita,입치트나이트,クチートナイト
+Manectite,Élecsprintite,Manectricite,Voltensonit,Manectricita,썬더볼트나이트,ライボルトナイト
+Garchompite,Carchacrokite,Garchompite,Knakracknit,Garchompita,한카리아스나이트,ガブリアスナイト
+Latiasite,Latiasite,Latiasite,Latiasnit,Latiasita,라티아스나이트,ラティアスナイト
+Latiosite,Latiosite,Latiosite,Latiosnit,Latiosita,라티오스나이트,ラティオスナイト
+Roseli Berry,Baie Selro,Baccarcadè,Hibisbeere,Baya Hibis,로셀열매,ロゼルのみ
+Kee Berry,Baie Éka,Baccalighia,Akibeere,Baya Biglia,악키열매,アッキのみ
+Maranga Berry,Baie Rangma,Baccapane,Tarabeere,Baya Maranga,타라프열매,タラプのみ
+Sprinklotad,Nénurrosoir,Irrigalotad,Loturzelkanne,Lotadgadera,연꽃몬물뿌리개,ハスボーじょうろ
+TM96,CT96,MT96,TM96,MT96,기술머신96,わざマシン９６
+TM97,CT97,MT97,TM97,MT97,기술머신97,わざマシン９７
+TM98,CT98,MT98,TM98,MT98,기술머신98,わざマシン９８
+TM99,CT99,MT99,TM99,MT99,기술머신99,わざマシン９９
+TM100,CT100,MT100,TM100,MT100,기술머신100,わざマシン１００
+Power Plant Pass,Passe Centrale,Pass Centrale,Kraftwerks-Pass,Pase Central,발전소패스,はつでんしょパス
+Mega Ring,Méga-Anneau,Megacerchio,Mega-Ring,Mega-Aro,메가링,メガリング
+Intriguing Stone,Pierre Insolite,Sasso suggestivo,Kurioser Stein,Piedra Insólita,대단할듯한돌,すごそうないし
+Common Stone,Pierre Ordinaire,Sasso qualsiasi,Normaler Stein,Piedra Común,흔해빠진돌,ありふれたいし
+Discount Coupon,Bon Réduction,Buono sconto,Rabattmarke,Vale Descuento,바겐세일티켓,バーゲンチケット
+Elevator Key,Clé Ascenseur,Chiave ascensore,Liftschlüssel,Llave Ascensor,엘리베이터키,エレベータのキー
+TMV Pass,Passe TMV,Pass TMV,TMV-Pass,Abono del TMV,TMV패스,ＴＭＶパス
+Honor of Kalos,Insigne de Kalos,Emblema di Kalos,Kalos-Emblem,Emblema Kalos,칼로스엠블럼,カロスエンブレム
+Adventure Rules,ABC Aventure,Guida Avventura,Abenteuerfibel,Guía de Máximas,탐험수칙,たんけんこころえ
+Strange Souvenir,Bibelot Bizarre,Strano ninnolo,Skurriloskulptur,Estatuilla Rara,이상한장식품,ふしぎなおきもの
+Lens Case,Boîte Lentilles,Portalenti,Linsenetui,Portalentillas,렌즈케이스,レンズケース
+Makeup Bag,Trousse Beauté,Trousse,Kosmetiketui,Kit Maquillaje,코스메틱파우치,コスメポーチ
+Travel Trunk,Malle Penderie,Baule per abiti,Kleiderkoffer,Maleta,의상트렁크,いしょうトランク
+Lumiose Galette,Galette Illumis,Pan di Lumi,Illumina-Galette,Crêpe Luminalia,미르갈레트,ミアレガレット
+Shalour Sable,Sablé Yantreizh,Yantafrollino,Yantara-Sablé,Galleta Yantra,사라사블레,シャラサブレ
+Jaw Fossil,Fossile Mâchoire,Fossilmascella,Kieferfossil,Fósil Mandíbula,턱화석,アゴのカセキ
+Sail Fossil,Fossile Nageoire,Fossilpinna,Flossenfossil,Fósil Aleta,지느러미화석,ヒレのカセキ
+Looker Ticket,Ticket Beladonis,Carta Bellocchio,LeBelle-Ticket,Boleto Handsome,핸섬티켓,ハンサムチケット
+Bike,Bicyclette,Bicicletta,Fahrrad,Bici,자전거,じてんしゃ
+Holo Caster,Holokit,Holovox,Holo-Log,Holomisor,홀로캐스터,ホロキャスター
+Fairy Gem,Joyau Fée,Bijoufolletto,Feenjuwel,Gema Hada,페어리주얼,ようせいジュエル
+Mega Charm,Méga-Charme,Megaciondolo,Megaillon,Megacolgante,메가참,メガチャーム
+Mega Glove,Méga-Gant,Megaguanto,Mega-Handschuh,Megaguante,메가글러브,メガグローブ
+Mach Bike,Vélo de Course,Bici da corsa,Eilrad,Bici de Carreras,마하자전거,マッハじてんしゃ
+Acro Bike,Vélo Cross,Bici da cross,Kunstrad,Bici Acrobática,더트자전거,ダートじてんしゃ
+Wailmer Pail,Wailmerrosoir,Vaso Wailmer,Wailmerkanne,Wailmegadera,고래왕자물뿌리개,ホエルコじょうろ
+Devon Parts,Pack Devon,Merce Devon,Devon-Waren,Piezas Devon,데봉화물,デボンのにもつ
+Soot Sack,Sac à Suie,Sacco cenere,Aschetasche,Saco Hollín,재주머니,はいぶくろ
+Basement Key,Clé Sous-Sol,Chiave sotterr.,Kelleröffner,Llave del Sótano,지하열쇠,ちかのカギ
+Pokéblock Kit,Kit Pokébloc,Kit Pokémelle,Pokériegel-Set,Kit de Pokécubos,포켓몬스넥키트,ポロックキット
+Letter,Lettre à Pierre,Lettera,Brief an Troy,Carta a Máximo,성호에게줄편지,ダイゴへのてがみ
+Eon Ticket,Passe Éon,Biglietto Eone,Äon-Ticket,Ticket Eón,무한티켓,むげんのチケット
+Scanner,Scanner,Scanner,Scanner,Escáner,탐지기,たんちき
+Go-Goggles,Lunettes Sable,Occhialoni,Wüstenglas,Gafas Aislantes,고고고글,ゴーゴーゴーグル
+Meteorite,Météorite,Meteorite,Meteorit,Meteorito,운석,いんせき
+Key to Room 1,Clé Salle 1,Chiave stanza 1,R1-Schlüssel,Ll. Habitación 1,1호실열쇠,１ごうしつのカギ
+Key to Room 2,Clé Salle 2,Chiave stanza 2,R2-Schlüssel,Ll. Habitación 2,2호실열쇠,２ごうしつのカギ
+Key to Room 4,Clé Salle 4,Chiave stanza 4,R4-Schlüssel,Ll. Habitación 4,4호실열쇠,４ごうしつのカギ
+Key to Room 6,Clé Salle 6,Chiave stanza 6,R6-Schlüssel,Ll. Habitación 6,6호실열쇠,６ごうしつのカギ
+Storage Key,Clé Stockage,Chiave magazzino,Lagerschlüssel,Llave Almacén,창고열쇠,そうこのカギ
+Devon Scope,Devon Scope,Devonscopio,Devon-Scope,Detector Devon,데봉스코프,デボンスコープ
+S.S. Ticket,Passe Bateau,Biglietto Nave,Bootsticket,Ticket Barco,승선티켓,ふねのチケット
+HM07,CS07,MN07,VM07,MO07,비전머신07,ひでんマシン０７
+Devon Scuba Gear,Plongeur Devon,Maschera Devon,Devon-Atemgerät,Bombona Devon,데봉봄베,デボンボンベ
+Contest Costume,Costume Live,Costume Live,Live-Anzug,Traje de Gala,라이브슈트,ライブスーツ
+Contest Costume,Robe Live,Vestito Live,Live-Kleid,Vestido de Gala,라이브드레스,ライブドレス
+Magma Suit,Scaph. Magma,Tuta Magma,Magma-Anzug,Traje Magma,마그마슈트,マグマスーツ
+Aqua Suit,Scaphandre Aqua,Tuta Idro,Aqua-Anzug,Traje Aqua,아쿠아슈트,アクアスーツ
+Pair of Tickets,Ticket Duo,Biglietto doppio,Zweierticket,Entrada para dos,페어티켓,ペアチケット
+Mega Bracelet,Méga-Bracelet,Megabracciale,Mega-Armreif,Megapulsera,메가뱅글,メガバングル
+Mega Pendant,Méga-Pendentif,Megapendente,Mega-Anhänger,Megacollar,메가펜던트,メガペンダント
+Mega Glasses,Méga-Lunettes,Megaocchiali,Mega-Brille,Megagafas,메가글라스,メガメガネ
+Mega Anchor,Méga-Ancre,Megaancora,Mega-Anker,Megaancla,메가앵커,メガイカリ
+Mega Stickpin,Méga-Pin’s,Megaspilla,Mega-Anstecker,Megabroche,메가라펠핀,メガラペルピン
+Mega Tiara,Méga-Tiare,Megadiadema,Mega-Diadem,Megatiara,메가티아러,メガティアラ
+Mega Anklet,Méga-Grève,Megagambale,Mega-Beinreif,Megatobillera,메가앵클릿,メガアンクレット
+Meteorite,Météorite,Meteorite,Meteorit,Meteorito,운석,いんせき
+Swampertite,Laggronite,Swampertite,Sumpexnit,Swampertita,대짱이나이트,ラグラージナイト
+Sceptilite,Jungkite,Sceptilite,Gewaldronit,Sceptilita,나무킹나이트,ジュカインナイト
+Sablenite,Ténéfixite,Sableyite,Zobirisnit,Sableynita,깜까미나이트,ヤミラミナイト
+Altarianite,Altarite,Altarite,Altarianit,Altarianita,파비코리나이트,チルタリスナイト
+Galladite,Gallamite,Galladite,Galagladinit,Galladita,엘레이드나이트,エルレイドナイト
+Audinite,Nanméouïte,Audinite,Ohrdochnit,Audinita,다부니나이트,タブンネナイト
+Metagrossite,Métalossite,Metagrossite,Metagrossnit,Metagrossita,메타그로스나이트,メタグロスナイト
+Sharpedonite,Sharpedite,Sharpedite,Tohaidonit,Sharpedonita,샤크니아나이트,サメハダナイト
+Slowbronite,Flagadossite,Slowbroite,Lahmusnit,Slowbronita,야도란나이트,ヤドランナイト
+Steelixite,Steelixite,Steelixite,Stahlosnit,Steelixita,강철톤나이트,ハガネールナイト
+Pidgeotite,Roucarnagite,Pidgeotite,Taubossnit,Pidgeotita,피죤투나이트,ピジョットナイト
+Glalitite,Oniglalite,Glalite,Firnontornit,Glalita,얼음귀신나이트,オニゴーリナイト
+Diancite,Diancite,Diancite,Diancienit,Diancita,디안시나이트,ディアンシナイト
+Prison Bottle,Vase Scellé,Vaso del vincolo,Banngefäß,Vasija Castigo,굴레의항아리,いましめのツボ
+Mega Cuff,Méga-Manchette,Megapolsiera,Mega-Armband,Megabrazalete,메가블레스,メガブレス
+Cameruptite,Caméruptite,Cameruptite,Cameruptnit,Cameruptita,폭타나이트,バクーダナイト
+Lopunnite,Lockpinite,Lopunnite,Schlapornit,Lopunnita,이어롭나이트,ミミロップナイト
+Salamencite,Drattakite,Salamencite,Brutalandanit,Salamencita,보만다나이트,ボーマンダナイト
+Beedrillite,Dardargnite,Beedrillite,Bibornit,Beedrillita,독침붕나이트,スピアナイト
+Meteorite,Météorite,Meteorite,Meteorit,Meteorito,운석,いんせき
+Meteorite,Météorite,Meteorite,Meteorit,Meteorito,운석,いんせき
+Key Stone,Gemme Sésame,Pietrachiave,Schlüssel-Stein,Piedra Activadora,키스톤,キーストーン
+Meteorite Shard,Éclat Météorite,Framm. meteorite,Meteoritenstück,Frag. Meteorito,운석조각,いんせきのかけら
+Eon Flute,Flûte Éon,Flauto Eone,Äon-Flöte,Flauta Eón,무한의피리,むげんのふえ
+Normalium Z,Normazélite,Normium Z,Normium Z,Normastal Z,노말Z,ノーマルＺ
+Firium Z,Pyrozélite,Pirium Z,Pyrium Z,Pirostal Z,불꽃Z,ホノオＺ
+Waterium Z,Aquazélite,Idrium Z,Aquium Z,Hidrostal Z,물Z,ミズＺ
+Electrium Z,Voltazélite,Electrium Z,Voltium Z,Electrostal Z,전기Z,デンキＺ
+Grassium Z,Florazélite,Herbium Z,Botanium Z,Fitostal Z,풀Z,クサＺ
+Icium Z,Cryozélite,Glacium Z,Glacium Z,Criostal Z,얼음Z,コオリＺ
+Fightinium Z,Combazélite,Luctium Z,Battalium Z,Lizastal Z,격투Z,カクトウＺ
+Poisonium Z,Toxizélite,Venenium Z,Toxium Z,Toxistal Z,독Z,ドクＺ
+Groundium Z,Terrazélite,Terrium Z,Terrium Z,Geostal Z,땅Z,ジメンＺ
+Flyinium Z,Aérozélite,Volantium Z,Aerium Z,Aerostal Z,비행Z,ヒコウＺ
+Psychium Z,Psychézélite,Psichium Z,Psium Z,Psicostal Z,에스퍼Z,エスパーＺ
+Buginium Z,Insectozélite,Insectium Z,Insectium Z,Insectostal Z,벌레Z,ムシＺ
+Rockium Z,Rocazélite,Petrium Z,Petrium Z,Litostal Z,바위Z,イワＺ
+Ghostium Z,Spectrozélite,Spectrium Z,Phantomium Z,Espectrostal Z,고스트Z,ゴーストＺ
+Dragonium Z,Dracozélite,Draconium Z,Dracium Z,Dracostal Z,드래곤Z,ドラゴンＺ
+Darkinium Z,Ténébrozélite,Obscurium Z,Noctium Z,Nictostal Z,악Z,アクＺ
+Steelium Z,Métallozélite,Metallium Z,Metallium Z,Metalostal Z,강철Z,ハガネＺ
+Fairium Z,Nymphézélite,Follectium Z,Sylphium Z,Feeristal Z,페어리Z,フェアリーＺ
+Pikanium Z,Pikazélite,Pikacium Z,Pikachium Z,Pikastal Z,피카츄Z,ピカチュウＺ
+Bottle Cap,Capsule d’Argent,Tappo d’argento,Silberkronkorken,Chapa Plateada,은왕관,ぎんのおうかん
+Gold Bottle Cap,Capsule d’Or,Tappo d’oro,Goldkronkorken,Chapa Dorada,금왕관,きんのおうかん
+Z-Ring,Bracelet Z,Cerchio Z,Z-Ring,Pulsera Z,Z링,Ｚリング
+Decidium Z,Archézélite,Deciduenium Z,Silvarronium Z,Dueyestal Z,모크나이퍼Z,ジュナイパーＺ
+Incinium Z,Félinozélite,Incineronium Z,Fuegronium Z,Incinostal Z,어흥염Z,ガオガエンＺ
+Primarium Z,Oratozélite,Primarinium Z,Primarenium Z,Primastal Z,누리레느Z,アシレーヌＺ
+Tapunium Z,Tokozélite,Tapium Z,Kapium Z,Tapistal Z,카푸Z,カプＺ
+Marshadium Z,Marshadozélite,Marshadium Z,Marshadownium Z,Marshastal Z,마샤도Z,マーシャドーＺ
+Aloraichium Z,Aloraïzélite,Aloraicium Z,A-Raichunium Z,Alo-Raistal Z,알로라이Z,アロライＺ
+Snorlium Z,Ronflézélite,Snorlactium Z,Relaxonium Z,Snorlastal Z,잠만보Z,カビゴンＺ
+Eevium Z,Évolizélite,Eevium Z,Evolium Z,Eeveestal Z,이브이Z,イーブイＺ
+Mewnium Z,Mewzélite,Mewnium Z,Mewnium Z,Mewstal Z,뮤Z,ミュウＺ
+Normalium Z,Normazélite,Normium Z,Normium Z,Normastal Z,노말Z,ノーマルＺ
+Firium Z,Pyrozélite,Pirium Z,Pyrium Z,Pirostal Z,불꽃Z,ホノオＺ
+Waterium Z,Aquazélite,Idrium Z,Aquium Z,Hidrostal Z,물Z,ミズＺ
+Electrium Z,Voltazélite,Electrium Z,Voltium Z,Electrostal Z,전기Z,デンキＺ
+Grassium Z,Florazélite,Herbium Z,Botanium Z,Fitostal Z,풀Z,クサＺ
+Icium Z,Cryozélite,Glacium Z,Glacium Z,Criostal Z,얼음Z,コオリＺ
+Fightinium Z,Combazélite,Luctium Z,Battalium Z,Lizastal Z,격투Z,カクトウＺ
+Poisonium Z,Toxizélite,Venenium Z,Toxium Z,Toxistal Z,독Z,ドクＺ
+Groundium Z,Terrazélite,Terrium Z,Terrium Z,Geostal Z,땅Z,ジメンＺ
+Flyinium Z,Aérozélite,Volantium Z,Aerium Z,Aerostal Z,비행Z,ヒコウＺ
+Psychium Z,Psychézélite,Psichium Z,Psium Z,Psicostal Z,에스퍼Z,エスパーＺ
+Buginium Z,Insectozélite,Insectium Z,Insectium Z,Insectostal Z,벌레Z,ムシＺ
+Rockium Z,Rocazélite,Petrium Z,Petrium Z,Litostal Z,바위Z,イワＺ
+Ghostium Z,Spectrozélite,Spectrium Z,Phantomium Z,Espectrostal Z,고스트Z,ゴーストＺ
+Dragonium Z,Dracozélite,Draconium Z,Dracium Z,Dracostal Z,드래곤Z,ドラゴンＺ
+Darkinium Z,Ténébrozélite,Obscurium Z,Noctium Z,Nictostal Z,악Z,アクＺ
+Steelium Z,Métallozélite,Metallium Z,Metallium Z,Metalostal Z,강철Z,ハガネＺ
+Fairium Z,Nymphézélite,Follectium Z,Sylphium Z,Feeristal Z,페어리Z,フェアリーＺ
+Pikanium Z,Pikazélite,Pikacium Z,Pikachium Z,Pikastal Z,피카츄Z,ピカチュウＺ
+Decidium Z,Archézélite,Deciduenium Z,Silvarronium Z,Dueyestal Z,모크나이퍼Z,ジュナイパーＺ
+Incinium Z,Félinozélite,Incineronium Z,Fuegronium Z,Incinostal Z,어흥염Z,ガオガエンＺ
+Primarium Z,Oratozélite,Primarinium Z,Primarenium Z,Primastal Z,누리레느Z,アシレーヌＺ
+Tapunium Z,Tokozélite,Tapium Z,Kapium Z,Tapistal Z,카푸Z,カプＺ
+Marshadium Z,Marshadozélite,Marshadium Z,Marshadownium Z,Marshastal Z,마샤도Z,マーシャドーＺ
+Aloraichium Z,Aloraïzélite,Aloraicium Z,A-Raichunium Z,Alo-Raistal Z,알로라이Z,アロライＺ
+Snorlium Z,Ronflézélite,Snorlactium Z,Relaxonium Z,Snorlastal Z,잠만보Z,カビゴンＺ
+Eevium Z,Évolizélite,Eevium Z,Evolium Z,Eeveestal Z,이브이Z,イーブイＺ
+Mewnium Z,Mewzélite,Mewnium Z,Mewnium Z,Mewstal Z,뮤Z,ミュウＺ
+Pikashunium Z,Pikachazélite,Ashpikacium Z,Ash-Pikachium Z,Ash-Pikastal Z,지우피카Z,サトピカＺ
+Pikashunium Z,Pikachazélite,Ashpikacium Z,Ash-Pikachium Z,Ash-Pikastal Z,지우피카Z,サトピカＺ
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Forage Bag,Sac Ingrédients,Portaingredienti,Zutatenbeutel,Zurrón,재료주머니,ざいりょうぶくろ
+Fishing Rod,Canne à Pêche,Amo,Angel,Caña,낚싯대,つりざお
+Professor’s Mask,Masque du Prof,Maschera Prof.,Maske des Profs,Máscara Profesor,박사의복면,はかせのふくめん
+Festival Ticket,Festicket,Festicket,Festival-Ticket,Festicupón,페스티켓,フェスチケット
+Sparkling Stone,Gemme Lumière,Pietra lucente,Glitzerstein,Piedra Brillante,빛나는돌,かがやくいし
+Adrenaline Orb,Orbe Frousse,Fifasfera,Zitterorb,Nerviosfera,주눅구슬,ビビリだま
+Zygarde Cube,Boîte Zygarde,Teca Zygarde,Zygarde-Würfel,Arca de Zygarde,지가르데큐브,ジガルデキューブ
+???,???,???,???,(?),???,？？？
+Ice Stone,Pierre Glace,Pietragelo,Eisstein,Piedra Hielo,얼음의돌,こおりのいし
+Ride Pager,Appel-Monture,Chiamapassaggio,PokéMobil-Funk,Buscamontura,라이드기어,ライドギア
+Beast Ball,Ultra Ball,UC Ball,Ultraball,Ente Ball,울트라볼,ウルトラボール
+Big Malasada,Malasada Maxi,Malasada maxi,Maxi-Malasada,Malasada Maxi,큰 말라사다,おおきいマラサダ
+Red Nectar,Nectar Rouge,Nettare rosso,Roter Nektar,Néctar Rojo,다홍꿀,くれないのミツ
+Yellow Nectar,Nectar Jaune,Nettare giallo,Gelber Nektar,Néctar Amarillo,진노랑꿀,やまぶきのミツ
+Pink Nectar,Nectar Rose,Nettare rosa,Rosa Nektar,Néctar Rosa,연분홍꿀,うすもものミツ
+Purple Nectar,Nectar Mauve,Nettare viola,Purpurner Nektar,Néctar Violeta,보라꿀,むらさきのミツ
+Sun Flute,Flûte du Soleil,Flauto solare,Sonnenflöte,Flauta Solar,태양의피리,たいようのふえ
+Moon Flute,Flûte de la Lune,Flauto lunare,Mondflöte,Flauta Lunar,달의피리,つきのふえ
+???,???,???,???,(?),???,？？？
+Enigmatic Card,Message Mystère,Lettera segreta,Seltsame Karte,Nota Intrigante,괴상한카드,あやしいカード
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Terrain Extender,Champ’Duit,Fissacampo,Feldbeschichtung,Cubresuelos,그라운드코트,グランドコート
+Protective Pads,Pare-Effet,Smorzaurti,Schutzpolster,Paracontacto,방호패드,ぼうごパット
+Electric Seed,Graine Électrik,Elettroseme,Elektro-Samen,Semilla Electro,일렉트릭시드,エレキシード
+Psychic Seed,Graine Psychique,Psicoseme,Psycho-Samen,Semilla Psique,사이코시드,サイコシード
+Misty Seed,Graine Brume,Nebbiaseme,Nebel-Samen,Semilla Bruma,미스트시드,ミストシード
+Grassy Seed,Graine Herbe,Erbaseme,Gras-Samen,Semilla Hierba,그래스시드,グラスシード
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Fighting Memory,ROM Combat,ROM Lotta,Kampf-Disc,Disco Lucha,파이팅메모리,ファイトメモリ
+Flying Memory,ROM Vol,ROM Volante,Flug-Disc,Disco Volador,플라잉메모리,フライングメモリ
+Poison Memory,ROM Poison,ROM Veleno,Gift-Disc,Disco Veneno,포이즌메모리,ポイズンメモリ
+Ground Memory,ROM Sol,ROM Terra,Boden-Disc,Disco Tierra,그라운드메모리,グラウンドメモリ
+Rock Memory,ROM Roche,ROM Roccia,Gesteins-Disc,Disco Roca,락메모리,ロックメモリ
+Bug Memory,ROM Insecte,ROM Coleottero,Käfer-Disc,Disco Bicho,버그메모리,バグメモリ
+Ghost Memory,ROM Spectre,ROM Spettro,Geister-Disc,Disco Fantasma,고스트메모리,ゴーストメモリ
+Steel Memory,ROM Acier,ROM Acciaio,Stahl-Disc,Disco Acero,스틸메모리,スチールメモリ
+Fire Memory,ROM Feu,ROM Fuoco,Feuer-Disc,Disco Fuego,파이어메모리,ファイヤーメモリ
+Water Memory,ROM Eau,ROM Acqua,Wasser-Disc,Disco Agua,워터메모리,ウオーターメモリ
+Grass Memory,ROM Plante,ROM Erba,Pflanzen-Disc,Disco Planta,그래스메모리,グラスメモリ
+Electric Memory,ROM Électrik,ROM Elettro,Elektro-Disc,Disco Eléctrico,일렉트릭메모리,エレクトロメモリ
+Psychic Memory,ROM Psy,ROM Psico,Psycho-Disc,Disco Psíquico,사이킥메모리,サイキックメモリ
+Ice Memory,ROM Glace,ROM Ghiaccio,Eis-Disc,Disco Hielo,아이스메모리,アイスメモリ
+Dragon Memory,ROM Dragon,ROM Drago,Drachen-Disc,Disco Dragón,드래곤메모리,ドラゴンメモリ
+Dark Memory,ROM Ténèbres,ROM Buio,Unlicht-Disc,Disco Siniestro,다크메모리,ダークメモリ
+Fairy Memory,ROM Fée,ROM Folletto,Feen-Disc,Disco Hada,페어리메모리,フェアリーメモリ

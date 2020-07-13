@@ -1,0 +1,27 @@
+Index,en,fr
+0,TEXT,"C'est fermé.\nlIl y a un message sur la porte.\nl""Voyage vers \t[10, 8] en cours, de retour prochainement pour le suivant."""
+1,TEXT,"J'aime bien affronter les dresseurs en route vers \t[10, 8]. Et si tu es sur cette route, c'est que tu comptes t'y rendre, voyons un peu ce que tu vaux !"
+2,TEXT,"Je te souhaites bonne chance pour ton voyage vers \t[10, 8], tu en auras probablement besoin."
+3,TEXT,J'adore courir pieds nus et faire voler le sable autour de moi. Mais je ne refuse jamais un bon combat !
+4,TEXT,J'ai du sable partout sur moi maintenant !
+5,TEXT,"Le vieil homme vivant près de la plage fais des voyages entre ici et \t[10, 8] tous les jours pour transporter des gens. Son bateau n'est pourtant pas tout jeune."
+6,TEXT,N'espère pas échapper à ce combat !\nlEt ne viens pas pleurer si tu perds !
+7,TEXT,C'est moi qui pleure de ma défaite...
+8,TEXT,Qu'est ce que tu préfères ?\nlPécher dans les étangs et les rivières ou dans la mer et l'océan ?
+9,TEXT,Tu savais que les Pokémons que tu peux pécher dans les étangs et les rivières ne sont pas les mêmes que ceux que l'on trouve dans la mer et l'océan ?
+10,TEXT,Oh non !\nlC'est catastrophique !\nlJ'ai fais tomber mon Pokédex et il a atterri de l'autre côté de la rive...\nl Tu veux bien m'aider à le récupérer s'il te plaît ?
+11,TEXT,Ce bateau est plutôt vieux mais à l'air en état de marche.
+12,TEXT,"Bonjour jeune homme.\nlJe vais bientôt effectuer un nouveau voyage vers \t[10, 8], es-tu intéressé pour que je t'y amène ?\nlAttention, je ne vais pas revenir ici avant un certain temps."
+13,TEXT,"Très bien, alors en route !"
+14,TEXT,Je vois. N'hésites pas à me dire si tu souhaites partir avec moi.
+15,TEXT,"Oui, allons vers \t[10, 8]."
+16,TEXT,Pas tout de suite.
+17,TEXT,En avant !
+18,TEXT,Hmm.[WAIT 30].[WAIT 30].
+19,TEXT,"Il semblerait que j'ai un problème avec mon gouvernail.\nlJe vais essayer de le réparer, essaye de voir si quelqu'un sur cette île peut nous aider."
+20,TEXT,Hmm... Il semblerait qu'il faille creuser encore plus profond...
+21,TEXT,Aaaaaah ! Tu m'as fait peur !\nlRecule un peu !
+22,TEXT,"Mais qu'est ce que tu fais ici ?[WAIT 60]\nl...[WAIT 60]\nl...\nlOh je vois, tu t'es échoué sur cette île à cause d'un problème de gouvernail."
+23,TEXT,C'est un problème récurent sur les vieux bateaux.[WAIT 60]\nl...\nlJe dois avoir de quoi le réparer chez moi.\nlNous ferions mieux d'y aller tout de suite d'ailleurs.
+24,TEXT,Cette étrange machine semble pomper l'eau de ce lac souterrain.
+25,TEXT,L'ordinateur est verrouillé.

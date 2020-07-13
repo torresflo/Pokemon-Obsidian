@@ -1,0 +1,8 @@
+en,fr,it,de,es,ko,kana
+What? [VAR PKNICK(0000)] is evolving!,Quoi ? [VAR PKNICK(0000)] évolue !,Cosa? [VAR PKNICK(0000)] si sta evolvendo!,Nanu? [VAR PKNICK(0000)] entwickelt sich!,¡Anda! ¡[VAR PKNICK(0000)] está evolucionando!,...오잉!? [VAR PKNICK(0000)]의 모습이...!,……おや！？ [VAR PKNICK(0000)]の　ようすが……！
+Huh? [VAR PKNICK(0000)] stopped evolving!,Hein ? [VAR PKNICK(0000)] n’évolue plus !,Cosa? L’evoluzione di [VAR PKNICK(0000)] è stata bloccata!,Hm? Die Entwicklung wurde abgebrochen!,¿Eh? ¡La evolución de [VAR PKNICK(0000)] se ha detenido!,얼라리...? [VAR PKNICK(0000)]의 변화가 멈췄다!,あれ……？ [VAR PKNICK(0000)]の　へんかが　とまった！
+Congratulations! Your [VAR PKNICK(0000)] evolved into [VAR PKNAME(0001)]!,Félicitations ! Votre [VAR PKNICK(0000)] évolue en [VAR PKNAME(0001)] !,Congratulazioni! [VAR PKNICK(0000)] si è evoluto in [VAR PKNAME(0001)]!,Glückwunsch! Dein [VAR PKNICK(0000)] wurde zu einem [VAR PKNAME(0001)]!,¡Enhorabuena! ¡Tu [VAR PKNICK(0000)] ha evolucionado a [VAR PKNAME(0001)]!,축하합니다! [VAR PKNICK(0000)][VAR 1900(0001)] [VAR PKNAME(0001)][VAR 1900(0005)]로 진화했습니다!,おめでとう！　[VAR PKNICK(0000)]は [VAR PKNAME(0001)]に　しんかした！
+FORGET,Oublier une capacité,Fai dimenticare,Vergessen!,Olvidar,잊게 한다,わすれさせる
+KEEP OLD MOVES!,Garder les anciennes capacités,Non far dimenticare,Bekannte Attacken behalten,Conservar movimientos antiguos,잊게 하지 않는다,わすれさせない
+Give up on [VAR MOVE(0000)]!,Renoncer à [VAR MOVE(0000)],Blocca [VAR MOVE(0000)]!,[VAR MOVE(0000)] nicht erlernen!,No aprender [VAR MOVE(0000)],[VAR MOVE(0000)][VAR 1900(0002)] 포기한다!,[VAR MOVE(0000)]を　あきらめる！
+Don’t give up on [VAR MOVE(0000)]!,Ne pas renoncer à [VAR MOVE(0000)],Non bloccare [VAR MOVE(0000)]!,[VAR MOVE(0000)] erlernen!,Aprender [VAR MOVE(0000)],[VAR MOVE(0000)][VAR 1900(0002)] 포기하지 않는다,[VAR MOVE(0000)]を　あきらめない

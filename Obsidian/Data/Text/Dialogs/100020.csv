@@ -1,0 +1,86 @@
+en,fr,it,de,es,ko,kana
+PP,PP,PP,AP,PP,PP,PP
+Lv.,N. ,L.,Lv.,Nv.,Lv.,Lv.
+NEXT LV.,Niveau suivant,Al livello successivo,Nächster Level,Para subir de nivel,다음 레벨까지,つぎのレベルまで
+HP,PV,PS,KP,PS,HP,HP
+ATTACK,Attaque,Attacco,Angriff,Ataque,공격,こうげき
+DEFENSE,Défense,Difesa,Vert.,Defensa,방어,ぼうぎょ
+SP. ATK,Atq. Spé.,Att. Sp.,Sp.-Ang.,At. Esp.,특수공격,とくこう
+SP. DEF,Déf. Spé.,Dif. Sp.,Sp.-Vert.,Def. Esp.,특수방어,とくぼう
+SPEED,Vitesse,Velocità,Initiative,Velocidad,스피드,すばやさ
+[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)]
+[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)]
+[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11]
+SUMMARY,Résumé,Info,Bericht,Datos,능력치를 본다,つよさをみる
+CHECK MOVES,Capacités,Mostra mosse,Attacken,Movimientos,기술을 본다,わざをみる
+CATEGORY,Catégorie,Categoria,Kategorie,Categoría,분류,ぶんるい
+POWER,Puissance,Potenza,Stärke,Potencia,위력,いりょく
+ACCURACY,Précision,Precisione,Genauigkeit,Precisión,명중,めいちゅう
+STATUS,Statut,Di stato,Status,Estado,변화,へんか
+PHYSICAL,Physique,Fisica,Physisch,Físico,물리,ぶつり
+SPECIAL,Spéciale,Speciale,Spezial,Especial,특수,とくしゅ
+Appeal,Démonstration,Fascino,Kunststück,Exhibición,어필,アピール
+Jamming,Blocage,Intralcio,Stören,Interferencia,방해,ぼうがい
+Choose a Pokémon.,Veuillez choisir un Pokémon.,Scegli un Pokémon.,Wähle ein Pokémon.,Elige un Pokémon.,포켓몬을 선택해 주십시오,ポケモンを　えらんでください
+Use on which Pokémon?,L’utiliser sur quel Pokémon ?,Su quale Pokémon?,Auf welches Pokémon anwenden?,¿Con qué Pokémon quieres usarlo?,어느 포켓몬에게 쓸까?,どの　ポケモンに　つかう？
+Battle using which Pokémon?,Combattre avec quel Pokémon ?,Quale Pokémon mandi in campo?,Mit welchem Pokémon kämpfen?,¿Con qué Pokémon quieres combatir?,어느 포켓몬으로 싸우겠습니까?,どの　ポケモンで　たたかう？
+SWITCH,Changer,Sostituisci,Tausch,Cambiar,교체한다,いれかえる
+IN BATTLE,Au combat,È già in campo,Schon im Kampf,En combate,배틀 중,せんとうちゅう
+CANNOT BATTLE,Ne peut pas se battre,Non è in grado di lottare,Kampfunfähig,No puede luchar,싸울 수 없다,たたかえない
+PARTNER’S,Partenaire,Alleato,Partner,Compañero,파트너,パートナー
+RESTORE,Soigner,Rimedi,Regenerieren,Curar,회복한다,かいふくする
+SUMMARY,Résumé,Info,Bericht,Datos,능력치를 본다,つよさをみる
+CHECK MOVES,Capacités,Mostra mosse,Attacken,Movimientos,기술을 본다,わざをみる
+[VAR PKNICK(0001)] is already in battle!,[VAR PKNICK(0001)] est déjà au combat !,[VAR PKNICK(0001)] è già in campo!,[VAR PKNICK(0001)] kämpft bereits!,[VAR PKNICK(0001)] ya está luchando.,[VAR PKNICK(0001)][VAR 1900(0001)] 이미 배틀에 나가 있습니다,[VAR PKNICK(0001)]は すでに　せんとうに　でています
+[VAR PKNICK(0001)] has no energy left to battle!,[VAR PKNICK(0001)] n’a plus l’énergie pour combattre !,[VAR PKNICK(0001)] non ha più energie per lottare!,"[VAR PKNICK(0001)] ist nicht fit genug, um zu kämpfen!",¡A [VAR PKNICK(0001)] no le quedan fuerzas para luchar!,[VAR PKNICK(0001)][VAR 1900(0001)] 싸우기 위한 기력이 남아 있지 않습니다!,[VAR PKNICK(0001)]は　たたかうための げんきが　のこっていません！
+An Egg can’t battle!,"Un Œuf ne se bat pas, voyons !",Un Uovo non può lottare!,Ein Ei kann nicht kämpfen!,Los Huevos no pueden luchar.,알은 배틀에 내보낼 수 없습니다,タマゴを せんとうに　だすことは　できません
+You cannot decide for your partner!,Impossible d’échanger un Pokémon de votre partenaire avec l’un des vôtres !,Impossibile sostituire il Pokémon con quello di un’altra squadra!,Pokémon von Mitstreitern können nicht ausgewählt werden!,¡No puedes cambiar tu Pokémon por uno del equipo de tu compañero!,파트너의 포켓몬을 선택할 수는 없습니다!,パートナーの　ポケモンを えらぶことは　できません！
+[VAR PKNICK(0001)] can’t be switched out!,[VAR PKNICK(0001)] ne peut pas être échangé !,Non puoi sostituire [VAR PKNICK(0001)]!,[VAR PKNICK(0001)] kann nicht ausgetauscht werden!,¡No se puede cambiar a [VAR PKNICK(0001)]!,[VAR PKNICK(0001)][VAR 1900(0002)] 돌아오게 할 수 없습니다!,[VAR PKNICK(0001)]を もどすことが　できない！
+RESTORE HP/PP,Soins PV/PP,Terapie per PS e PP,KP/AP auffüllen,Restaurar PS/PP,HP/PP를 회복한다,HP/PPを　かいふくする
+RESTORE STATUS,Soins statut,Terapie per problemi di stato,Statusprobleme heilen,Curar un cambio de estado,상태를 회복한다,じょうたいを　かいふくする
+Restore which move?,Restaurer les PP de quelle capacité ?,Quale?,Welche Attacke soll aufgefüllt werden?,¿Restaurar PP de qué movimiento?,어느 것을 회복할까?,どれを　かいふくする？
+[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40]
+[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41]
+HP/PP RESTORE,Soins PV/PP,Terapie PS/PP,KP-/AP- Erholung,Restaurar PS/PP,HP/PP 회복,HP/PP かいふく
+STATUS RESTORE,Soins statut,Terapie stato,Status- Heilmittel,Curación de estados,상태 회복,じょうたい かいふく
+[~ 44],[~ 44],[~ 44],[~ 44],[~ 44],[~ 44],[~ 44]
+POKÉ BALLS,Balls,Poké Ball,Bälle,Poké Balls,볼,ボール
+BATTLE ITEMS,Objets combat,Strumenti lotta,Kampfitems,Obj. combate,배틀용,せんとうよう
+LAST USED ITEM,Dernier objet utilisé,Ultimo strumento usato,Zuletzt verwendetes Item,Último objeto usado,마지막에 쓴 도구,さいごにつかったどうぐ
+USE,Utiliser,Usa,Einsetzen,Usar,사용한다,つかう
+[~ 49],[~ 49],[~ 49],[~ 49],[~ 49],[~ 49],[~ 49]
+It’s no good! It’s impossible to aim unless there is only one Pokémon!,Impossible de viser quand il y a plus d’un Pokémon !,Non puoi prendere la mira finché non rimane un solo Pokémon!,"Das klappt nicht! Man kann nicht zielen, wenn mehr als ein Pokémon da ist.",¡No se puede apuntar cuando hay más de un Pokémon!,안 되겠어! 1마리가 아니어서 목표를 정할 수가 없어...!,だめだ！　１ぴき　じゃないと ねらいが　さだまらない……！
+There is no room left in the PC!,Il n’y a plus de place dans le PC !,I Box del PC sono pieni!,Alle PC-Boxen sind voll!,¡No queda sitio en el PC!,박스가 가득 찼습니다!,ボックスが　いっぱいです！
+It’s no good! It’s impossible to aim at a Pokémon that’s not in sight!,Impossible de viser si aucun Pokémon n’est visible !,Non puoi prendere di mira un Pokémon che non si vede!,"Das wird nichts! Man kann nicht auf ein Pokémon zielen, das nicht zu sehen ist.",¡Es difícil apuntar a un Pokémon que no está a la vista!,안 되겠어! 포켓몬이 보이지 않아서 목표를 정할 수가 없어...!,だめだ！　ポケモンが　みえなくて ねらいが　さだまらない……！
+It’s impossible to aim without being focused!,Il faut se concentrer pour bien lancer !,Hai bisogno di più concentrazione per lanciare le Poké Ball!,"Wenn du dich nicht auf eine Sache konzentrierst, triffst du dein Ziel nie!",¡Hay que estar concentrado para poder apuntar bien!,집중하지 않으면 볼을 잘 던질 수 없어!,しゅうちゅう　しないと ボールは　じょうずに　なげられない！
+[VAR MOVE(0001)]’s effect prevents the item’s use on [VAR PKNICK(0000)]!,La capacité [VAR MOVE(0001)] empêche d’utiliser l’objet sur [VAR PKNICK(0000)] !,La mossa [VAR MOVE(0001)] impedisce di usare lo strumento su [VAR PKNICK(0000)]!,[VAR MOVE(0001)] verhindert den Einsatz des Items bei [VAR PKNICK(0000)]!,¡El efecto de [VAR MOVE(0001)] impide usar el objeto con [VAR PKNICK(0000)]!,[VAR MOVE(0001)]의 효과로 [VAR PKNICK(0000)]에게는 쓸 수 없습니다!,[VAR MOVE(0001)]の　こうかで [VAR PKNICK(0000)]には　つかえません！
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ
+USE NEXT POKÉMON,Envoyer un autre Pokémon,Usa un altro Pokémon,Nächstes Pokémon rufen,Sacar a otro Pokémon,다음 포켓몬을 쓴다,つぎの　ポケモンを　つかう
+RUN,Fuite,Fuga,Flucht,Huir,도망간다,にげる
+FORGET,Oublier une capacité,Fai dimenticare,Vergessen!,Olvidar,잊게 한다!,わすれさせる！
+KEEP OLD MOVES!,Garder les anciennes capacités,Non far dimenticare,Bekannte Attacken behalten,Conservar movimientos antiguos,잊게 하지 않는다,わすれさせない
+SWITCH POKÉMON,Changer de Pokémon,Cambia Pokémon,Pokémon wechseln,Cambiar Pokémon,포켓몬을 교체한다,ポケモンを　いれかえる
+KEEP BATTLING,Continuer sans changer,Continua a lottare,Weiterkämpfen,Seguir luchando,그대로 싸운다,そのまま　たたかう
+Use it where?,Où envoyer ce Pokémon ?,Dove vuoi posizionarlo?,Wo einsetzen?,¿En qué posición quieres que salga?,어디로 내보낼까?,どの　ばしょに　だす？
+Restore which move?,Restaurer quelle capacité ?,Quale mossa vuoi ricaricare?,Welche Attacke auffüllen?,¿Qué movimiento quieres restaurar?,어느 기술을 회복할까?,どの　わざを　かいふくする？
+It won’t have any effect.,Ça n’aura aucun effet !,Non avrebbe alcun effetto.,Es wird keine Wirkung haben.,No tendría ningún efecto.,써도 효과가 없다!,つかっても　こうかが　ないよ！
+HM moves can’t be forgotten now.,C’est une capacité très importante ! Le Pokémon ne peut pas l’oublier !,È una mossa appresa tramite MN. Non puoi fargliela dimenticare ora!,"Das ist eine besonders wichtige Attacke, die jetzt nicht vergessen werden kann!",Los movimientos de MO no se pueden olvidar así.,중요한 기술입니다! 잊게 할 수 없습니다!,たいせつな　わざです！ わすれることは　できません！
+QUIT,Arrêter,Esci,Abbrechen,Cancelar,취소,やめる
+[~ 68],[~ 68],[~ 68],[~ 68],[~ 68],[~ 68],[~ 68]
+[~ 69],[~ 69],[~ 69],[~ 69],[~ 69],[~ 69],[~ 69]
+[~ 70],[~ 70],[~ 70],[~ 70],[~ 70],[~ 70],[~ 70]
+[~ 71],[~ 71],[~ 71],[~ 71],[~ 71],[~ 71],[~ 71]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+×,× ,×,x,x,×,×
+/,/,/,/,/,/,/
+/,/,/,/,/,/,/
+L,L,L,L,L,L,L
+Right,Droite,Destra,Rechts,Derecha,Right,Right
+Left,Gauche,Sinistra,Links,Izquierda,Left,Left
+Center,Centre,Centro,Mitte,Centro,Center,Center
+"[VAR NUM5(0000,002C)]","[VAR NUM5(0000,E07F)]","[VAR NUM5(0000,002E)]","[VAR NUM5(0000,0020)]","[VAR NUM5(0000,E07F)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]"
+-,-,-,-,-,-,-
+Standing by,En attente…,In attesa...,In Bereitschaft,En espera...,대기 중,たいきちゅう
+[VAR PKNICK(0001)] has already been selected.,[VAR PKNICK(0001)] a déjà été sélectionné.,Hai già selezionato [VAR PKNICK(0001)].,[VAR PKNICK(0001)] wurde bereits ausgewählt!,[VAR PKNICK(0001)] ya ha sido seleccionado.,[VAR PKNICK(0001)][VAR 1900(0001)] 이미 선택되었습니다,[VAR PKNICK(0001)]は すでに　せんたく　されています
+Your father’s words echo in your mind... “[VAR TRNAME(0000)]! This isn’t the time for that!”,"Si papa était là, il dirait : « Voyons, [VAR GENDBR(00FF,0806)]fistonma fille, ce n’est pas le moment ! »","Sembra quasi di sentire l’eco delle parole di papà... “[VAR TRNAME(0000)], c’è un luogo e un tempo per ogni cosa. Non è il momento, ora!”",Vati sagt immer: „Das ist weder der rechte Ort noch die rechte Zeit dafür!“,Las palabras de papá te vienen a la memoria: “Cada cosa a su debido tiempo”.,아빠의 말... [VAR TRNAME(0000)]! 이런 것은 쓸 때가 따로 있단다!,パパの　ことば…… [VAR TRNAME(0000)]！　こういうものには つかいどきが　あるんだ！

@@ -1,0 +1,47 @@
+en,fr,it,de,es,ko,kana
+Name:,Nom :,Nome:,Name:,Nombre:,이름,なまえ
+[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)]
+ID No.:,Nº ID :,ID:,ID-Nr.:,N.º ID:,IDNo.,IDNo.
+"[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]"
+Hoenn Pokédex:,Pokédex Hoenn :,Pokédex:,Hoenn-Pokédex:,Pokédex Hoenn:,호연도감,ホウエンずかん
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+"","","","","",마리,ひき
+Money:,Argent :,Soldi:,Geld:,Dinero:,용돈,おこづかい
+"$[VAR NUM7(0000,002C)]","[VAR NUM7(0000,E07F)] $","[VAR NUM7(0000,002E)] $","[VAR NUM7(0000,002E)] $","[VAR NUM7(0000,E07F)] $","[VAR NUM7(0000,0000)]원","[VAR NUM7(0000,0000)]円"
+[~ 9],[~ 9],[~ 9],[~ 9],[~ 9],[~ 9],[~ 9]
+Play time:,Temps de jeu :,Tempo di gioco:,Spielzeit:,Tiempo jugado:,플레이 시간,プレイじかん
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+:,:,:,:,:,:,:
+[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)]
+Adventure started on:,Début de l’aventure :,Inizio avventura:,Abenteuer gestartet am:,Comienzo de la aventura:,모험을 시작한 날,ぼうけんをはじめたとき
+"[VAR NUM2(0001)]/[VAR NUM2(0002)]/[VAR NUM4(0000,0000)]","[VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR NUM4(0000,0000)]","[VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR NUM4(0000,0000)]","[VAR NUM2(0002)].[VAR NUM2(0001)].[VAR NUM4(0000,0000)]","[VAR NUM2(0002)]-[VAR NUM2(0001)]-[VAR NUM4(0000,0000)]","[VAR NUM4(0000,0000)]/[VAR NUM2(0001)]/[VAR NUM2(0002)]","[VAR NUM4(0000,0000)]/[VAR NUM2(0001)]/[VAR NUM2(0002)]"
+Trainer Information,Infos Dresseur,Scheda Allenatore,Trainer-Info,"Datos de[VAR GENDBR(00FF,0F0C)]l Entrenador la Entrenadora",Trainer Information,Trainer Information
+[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17]
+[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18]
+[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19]
+[~ 20],[~ 20],[~ 20],[~ 20],[~ 20],[~ 20],[~ 20]
+[~ 21],[~ 21],[~ 21],[~ 21],[~ 21],[~ 21],[~ 21]
+[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22]
+First entered Hall of Fame on:,1 entrée au Panthéon :,Debutto nella Sala d’Onore:,Debüt in der Ruhmeshalle:,Debut en el Hall de la Fama:,첫 전당등록,はじめてのでんどういり
+Poké Miles:,Poké Miles :,Pokémiglia:,PM:,Poké Millas:,포켓마일,ポケマイル
+"[VAR NUM7(0000,002C)]","[VAR NUM7(0000,E07F)]","[VAR NUM7(0000,002E)]","[VAR NUM7(0000,0020)]","[VAR NUM7(0000,E07F)]","[VAR NUM7(0000,0000)]","[VAR NUM7(0000,0000)]"
+Battle Points:,Points de Combat :,Punti Lotta:,GP:,Puntos de Batalla:,배틀포인트,バトルポイント
+"[VAR NUM7(0000,002C)]","[VAR NUM7(0000,E07F)]","[VAR NUM7(0000,002E)]","[VAR NUM7(0000,0020)]","[VAR NUM7(0000,E07F)]","[VAR NUM7(0000,0000)]","[VAR NUM7(0000,0000)]"
+View Badges,Voir les Badges,Vedi Medaglie,Orden ansehen,Ver medallas,배지를 본다,バッジをみる
+Stone Badge Leader: Roxanne,Badge Roche Championne : Roxanne,Medaglia Pietra Capopalestra Petra,Steinorden Arenaleiterin: Felizia,Medalla Piedra Líder: Petra,스톤배지 체육관 관장 원규,ストーンバッジ ジムリーダー　ツツジ
+Knuckle Badge Leader: Brawly,Badge Poing Champion : Bastien,Medaglia Pugno Capopalestra Rudi,Knöchelorden Arenaleiter: Kamillo,Medalla Puño Líder: Marcial,너클배지 체육관 관장 철구,ナックルバッジ ジムリーダー　トウキ
+Dynamo Badge Leader: Wattson,Badge Dynamo Champion : Voltère,Medaglia Dinamo Capopalestra Walter,Dynamo-Orden Arenaleiter: Walter,Medalla Dinamo Líder: Erico,다이나모배지 체육관 관장 암페어,ダイナモバッジ ジムリーダー　テッセン
+Heat Badge Leader: Flannery,Badge Chaleur Championne : Adriane,Medaglia Fiamma Capopalestra Fiammetta,Hitzeorden Arenaleiterin: Flavia,Medalla Calor Líder: Candela,히트배지 체육관 관장 민지,ヒートバッジ ジムリーダー　アスナ
+Balance Badge Leader: Norman,Badge Balancier Champion : Norman,Medaglia Armonia Capopalestra Norman,Balanceorden Arenaleiter: Norman,Medalla Equilibrio Líder: Norman,밸런스배지 체육관 관장 종길,バランスバッジ ジムリーダー　センリ
+Feather Badge Leader: Winona,Badge Plume Championne : Alizée,Medaglia Piuma Capopalestra Alice,Federorden Arenaleiterin: Wibke,Medalla Pluma Líder: Alana,깃털배지 체육관 관장 은송,フェザーバッジ ジムリーダー　ナギ
+Mind Badge Leaders: Liza and Tate,Badge Esprit Champions : Lévy et Tatia,Medaglia Mente Capipalestra Tell e Pat,Mentalorden Arenaleiter: Ben und Svenja,Medalla Mente Líderes: Vito y Leti,마인드배지 체육관 관장 풍&란,マインドバッジ ジムリーダー　フウとラン
+Rain Badge Leader: Wallace,Badge Pluie Champion : Marc,Medaglia Pioggia Capopalestra Adriano,Schauerorden Arenaleiter: Wassili,Medalla Lluvia Líder: Plubio,레인배지 체육관 관장 윤진,レインバッジ ジムリーダー　ミクリ
+Gym Leader: Roxanne,Championne : Roxanne,Capopalestra Petra,Arenaleiterin: Felizia,Líder: Petra,체육관 관장 원규,ジムリーダー　ツツジ
+Gym Leader: Brawly,Champion : Bastien,Capopalestra Rudi,Arenaleiter: Kamillo,Líder: Marcial,체육관 관장 철구,ジムリーダー　トウキ
+Gym Leader: Wattson,Champion : Voltère,Capopalestra Walter,Arenaleiter: Walter,Líder: Erico,체육관 관장 암페어,ジムリーダー　テッセン
+Gym Leader: Flannery,Championne : Adriane,Capopalestra Fiammetta,Arenaleiterin: Flavia,Líder: Candela,체육관 관장 민지,ジムリーダー　アスナ
+Gym Leader: Norman,Champion : Norman,Capopalestra Norman,Arenaleiter: Norman,Líder: Norman,체육관 관장 종길,ジムリーダー　センリ
+Gym Leader: Winona,Championne : Alizée,Capopalestra Alice,Arenaleiterin: Wibke,Líder: Alana,체육관 관장 은송,ジムリーダー　ナギ
+Gym Leaders: Liza and Tate,Champions : Lévy et Tatia,Capipalestra Tell e Pat,Arenaleiter: Ben und Svenja,Líderes: Vito y Leti,체육관 관장 풍&란,ジムリーダー　フウとラン
+Gym Leader: Wallace,Champion : Marc,Capopalestra Adriano,Arenaleiter: Wassili,Líder: Plubio,체육관 관장 윤진,ジムリーダー　ミクリ
+National Pokédex:,Pokédex National :,Pokédex Nazionale,Nationaler Pokédex:,Pokédex Nacional:,전국도감,ぜんこくずかん

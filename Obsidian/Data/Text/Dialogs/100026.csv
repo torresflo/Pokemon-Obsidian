@@ -1,0 +1,25 @@
+en,fr,it,de,es,ko,kana
+Gym Badges:,Badges :,Medaglie:,Orden:,Medallas:,배지,バッジ
+"","","","","",개,こ
+[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)]
+Pokédex:,Pokédex :,Pokédex:,Pokédex:,Pokédex:,도감,ずかん
+"","","","","",마리,ひき
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Time:,Temps de jeu :,Tempo di gioco:,Spielzeit:,Tiempo jugado:,플레이 시간,プレイじかん
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+Last saved on,Dernière sauvegarde ,Ultimo salvataggio:,Zuletzt gespeichert am:,Último guardado:,지난번 리포트,ぜんかいのレポート
+:,:,:,:,:,:,:
+"[VAR NUM2(0001)]/[VAR NUM2(0002)]/[VAR NUM4(0000,0000)]","[VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR NUM4(0000,0000)]","[VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR NUM4(0000,0000)]","[VAR NUM2(0002)].[VAR NUM2(0001)].[VAR NUM4(0000,0000)]","[VAR NUM2(0002)]-[VAR NUM2(0001)]-[VAR NUM4(0000,0000)]","[VAR NUM4(0000,0000)]/[VAR NUM2(0001)]/[VAR NUM2(0002)]","[VAR NUM4(0000,0000)]/[VAR NUM2(0001)]/[VAR NUM2(0002)]"
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)]
+Would you like to save the game?,Voulez-vous sauvegarder la partie ?,Vuoi salvare il gioco?,Möchtest du das Spiel speichern?,¿Quieres guardar la partida?,여기까지의 활약을 포켓몬 리포트에 기록하겠습니까?,ここまでの　かつやくを ポケモンレポートに　かきこみますか？
+Saving... Don’t turn off the power.,Sauvegarde en cours… Ne pas éteindre la console.,Salvataggio in corso. Non spegnere la console.,Speichervorgang... Bitte das System nicht ausschalten.,Guardando... No apagues la consola.,포켓몬 리포트를 작성하고 있습니다 전원을 끄지 않도록 해주십시오,ポケモンレポートを　かきこんでいます でんげんを　きらないでください
+[VAR TRNAME(0000)] saved the game.,[VAR TRNAME(0000)] a sauvegardé la partie.,[VAR TRNAME(0000)] ha salvato il gioco.,[VAR TRNAME(0000)] hat das Spiel gespeichert.,[VAR TRNAME(0000)] ha guardado la partida.,[VAR TRNAME(0000)][VAR 1900(0001)] 리포트를 꼼꼼히 기록했다,[VAR TRNAME(0000)]は レポートに　しっかり　かきのこした
+"There’s already a saved game file, so you can’t save now. Refer to the electronic manual for details.",Une autre partie est déjà sauvegardée. Sauvegarde impossible. Veuillez vous référer au mode d’emploi pour plus d’informations.,Esiste già un salvataggio e non puoi crearne un altro. Consulta il manuale di istruzioni per ulteriori informazioni.,Es gibt bereits einen Spielstand. Speichern ist daher nicht möglich. Weitere Details dazu findest du in der elektronischen Bedienungsanleitung.,"Ya hay una partida guardada, por lo que no es posible guardar ahora. Para obtener más información, consulta el manual de instrucciones.",이미 다른 포켓몬 리포트가 작성되어 있으므로 리포트를 작성할 수 없습니다! 자세한 내용은 사용설명서를 참조하세요,すでに　べつの　ポケモンレポートが かかれていますので レポートが　かけません くわしくは　とりあつかい せつめいしょを　ごらんください
+Failed to save the game.,Échec de la sauvegarde.,Il salvataggio non è riuscito.,Speichern fehlgeschlagen.,No se ha podido guardar la partida.,리포트를 기록하지 못했습니다,レポートの　きろくに しっぱいしました
+Game Sync is in progress... Don’t turn off the power.,Synchronisation en cours… Ne pas éteindre la console.,Sincronizzazione in corso. Non spegnere la console.,Die Spielsynchro wird ausgeführt... Bitte das System nicht ausschalten.,Sincronizando el juego... No apagues la consola.,게임싱크 중입니다 전원을 끄지 않도록 해주십시오,ゲームシンクちゅうです でんげんを　きらないでください
+The server is busy. Quitting Game Sync...,Le serveur est surchargé. Interruption de la synchronisation…,Il server sta registrando un alto volume di traffico. Interruzione della sincronizzazione...,Der Server ist momentan überlastet. Die Spielsynchro wird abgebrochen...,El servidor está colapsado en este momento. Se cancelará la función Sincronizar Juego.,서버에 접속이 집중되어 있습니다 게임싱크를 중지합니다...,サーバーが　こみあっています…… ゲームシンクを　ちゅうし　します……
+[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22]
+The data necessary for the Internet connection has been obtained. Would you like to save the game? ,Les données nécessaires à la connexion Internet ont été obtenues. Voulez-vous sauvegarder la partie ?,Dati necessari alla connessione Internet ottenuti. Vuoi salvare il gioco?,"Die Daten, die für die Internetverbindung nötig sind, wurden empfangen. Möchtest du das Spiel speichern?",Se han obtenido los datos necesarios para efectuar la conexión a internet. ¿Quieres guardar la partida?,인터넷 접속에 필요한 데이터를 받았습니다 여기까지의 모험을 리포트에 기록하겠습니까?,インターネットの　せつぞくに ひつような　データを　うけとりました ここまでの　ぼうけんを レポートに　きろくしますか？

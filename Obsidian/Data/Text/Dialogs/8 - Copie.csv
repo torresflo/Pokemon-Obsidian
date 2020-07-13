@@ -1,0 +1,90 @@
+﻿Index,fr,en
+0,\C[1]Voyage rapide\C[0] : Où veux-tu aller ?,\C[1]Fast travel\C[0] : Where do you want to go ?
+1,\C[1]Voyage rapide\C[0] : Veux-tu voir les chemins que tu empruntes grâce au Pathfinding ?,\C[1]Fast travel\C[0] : Do you want to see the path you're following thanks to the Pathfinding ?
+2,"\C[1]Voyage rapide\C[0] : Cours comme le vent, Pile Poil !",\C[1]Fast travel\C[0] : Run like the wind !
+3,"\C[1]Voyage rapide\C[0] : D'accord, bye !","\C[1]Fast travel\C[0] : Okay, bye !"
+4,,
+5,"\C[1]Maman\C[0] : Bonjour mon enfant, prend ta carte et pars à l'aventure !","\C[1]Mom\C[0] : Hello my child, take your map and go on an adventure !"
+6,\C[1]Maman\C[0] : Comment se passe ton l'aventure ?,\C[1Mom\C[0] : How is your adventure doing ?
+7,,
+8,"On dirait un Pokédex, il permet d'enregistrer les informations sur les Pokémon que l'on rencontre...","It seems to be a Pokedex, with this i can scan every pokemon i'll encounter !"
+9,Je le prends !,I take it !
+10,,
+11,\C[1]Astuce\C[0] : F1 pour connaître les touches et les modifier.,\C[1]Tips\C[0] : F1 to display key binding options and modify it.
+12,,
+13,,
+14,,
+15,\C[1]Bourg-Palette[0] : Un monde en couleur qui s'ouvre à vous !,\C[1]Pallet-Town[0] : A world in color opening to you !
+16,,
+17,###Casino clandestin,###Casino clandestin
+18,"\C[1]Croupier\C[0] : Vous avez \C[3][coin_case]\C[0] jetons, pour entrer sur la table, c'est \C[3]5\C[0] jetons.
+Voulez-vous entrer ?","\C[1]Croupier\C[0] : You have \C[3][coin_case]\C[0] coins, to sit, you have to pay \C[3]5\C[0] coins..
+Do you want to sit ?"
+19,\C[1]Croupier\C[0] : Désolé mais vous n'avez pas assez de jetons.,"\C[1]Croupier\C[0] : I'm sorry, but you don't have enough coins."
+20,"\C[1]Croupier\C[0] : Il vous faut une Boîte à jeton pour pouvoir jouer, aller voir mes collègues. Elles sauront vous aider.","\C[1]Croupier\C[0] : You need a coin case to play this game, check with my coworker, she will help you with that."
+21,\C[1]Croupier\C[0] : Bienvenue au Casino clandestin de Jadielle !,\C[1]Croupier\C[0] : Welcome to the clandestine Casino of Jadielle !
+22,"\C[1]Caissière\C[0] : Bienvenue au Casino clandestin de Jadielle !
+Ici vous pouvez échanger votre argent contre des jetons de casino.","\C[1]Caissière\C[0] : Welcome to the clandestine Casino of Jadielle !
+Here you can trade your money for casino coins."
+23,\C[1]Caissière\C[0] : Oh ! Mais vous n'avez pas de Boîte Jetons. Prenez celle-ci en cadeau de bienvenue ! Et 50 jetons offerts !,\C[1]Caissière\C[0] : Oh ! You have no Coin Case ! Take this one and 50 coins gifted by the house !
+24,\C[1]Caissière\C[0] : Vous avez \C[3][coin_case]\C[0] jetons. Voulez-vous acheter des jetons supplémentaires ?,\C[1]Caissière\C[0] : You have \C[3][coin_case]\C[0] coins. Do you want to buy more ?
+25,\C[1]Caissière\C[0] : Combien en voulez-vous ?,\C[1]Caissière\C[0] : How much ?
+26,\C[1]Caissière\C[0] : Et voici [coin] jetons !,\C[1]Caissière\C[0] : And [coin] coins it is !
+27,\C[1]Caissière\C[0] : Je suis désolé mais vous n'avez pas assez d'argent...,"\C[1]Caissière\C[0] : I'm sorry, but you don't have enough money..."
+28,\C[1]Caissière\C[0] : Au revoir !,\C[1]Caissière\C[0] : Bye !
+29,"\C[1]Caissière\C[0] : Bienvenue au Casino clandestin de Jadielle !
+Ici vous pouvez échanger vos jetons contre des Pokémon.
+Quel Pokémon voulez-vous ?","\C[1]Caissière\C[0] : Welcome to the clandestine Casino of Jadielle !
+Here you can trade your coins for Pokemon.
+Which one do you want ?"
+30,"\C[1]Caissière\C[0] : Très bon choix, voici votre [pokemon].","\C[1]Caissière\C[0] : Really good choice, here is your [pokemon]."
+31,\C[1]Caissière\C[0] : Je suis désolé mais vous n'avez pas assez de jetons...,"\C[1]Caissière\C[0] : I'm sorry, but you don't have enough coins..."
+32,"\C[1]Caissière\C[0] : Vous n'avez pas de Boîte Jetons, allez voir ma collègue.","\C[1]Caissière\C[0] : You don't have a Coin Case, see with my coworker."
+33,,
+34,###Argenta,###Argenta
+35,"On joue encore !!!
+Va te cacher, tu as 10 secondes avant que j'arrive !","Let's play again !!!
+You have 10 seconds before i start seeking you !"
+36,"Tu m'as trouvée, j'étais bien cachée pourtant !","You found me, I was well hidden though..."
+37,"Je te laisse 10 secondes pour te cacher, et j'arrive !","You have 10 seconds to hide, after that I'll start chasing you !"
+38,"Je te préviens, t'as aucune chance de m'échapper !","I warn you, you have no chance to escape !"
+39,Et voilà ! Je t'avais prévenu pourtant !,Here I am ! i've warned you !
+40,,
+41,"Salut l'ami ! Je suis le guide en pathfinding. Je t'explique, tu peux dire aux évènements d'aller quelque part sur la map sans avoir à rentrer le chemin toi-même. Comme je viens de le faire pour me rapprocher de toi !",Hello friend ! I'm the pathfinding guide. Let me explain myself. You can tell events to go somewhere specific on the map without creating the path yourself. Like I just did to reach you !
+42,"Suis-moi, regarde le chemin qui se dessine avec \C[4]Pathfinding.debug = true\C[0]","Follow me, and take a look at the drawing path displayed with : \C[4]Pathfinding.debug = true\C[0]"
+43,Tu vois ? On a trouvé le chemin comme des grands !,See ? We have found the path like grown up !
+44,"Maintenant je vais t'apprendre un truc. L'algorithme aime les routes, donc mets le tag route sur les tiles que tu veux que les events empruntent en priorité et tu verras qu'ils s'y colleront ! Pars devant, je te suis.","Now, let me drop some knowledge. The algorithm likes roads, so put Road SystemTag on your road tiles and the events will stick to it while pathfinding !"
+45,"Tu comprends le principe ? Regarde mon code pour mieux comprendre !
+A plus !","Do you understand the principe ? Take a look at my code to understand better.
+See ya !"
+46,On recommence la visite ?,Do we restart the tour ?
+47,,
+48,You shall not pass !,You shall not pass !
+49,Salut ! Comment ça va ?,Hey ! How are you ?
+50,,
+51,Que faire ?,What do you want to do ?
+52,Aller au Pays Lointain,Go to far far away
+53,Aller à Kanto,Go to Kanto
+54,Ouvrir la carte,Open the worldmap
+55,,
+56,"Hey morveux, ça te dirait un petit combat 1 contre 1 ?","Hey brat, want to fight me 1v1 ?"
+57,Oui,Yes
+58,Non,No
+59,Super ! Commence par sélectionner le Pokémon que tu comptes utiliser ! Cette valeur est gérée par la variable 6 !,Great ! Start by selecting the Pokemon you will use ! This value is managed by the variable 6 !
+60,Parfait ! En avant !,Perfect ! Let's go !
+61,"L'important n'est pas d'avoir gagné ou perdu, mais de vérifier comment fonctionne le sélecteur.","The important thing is not to win or lose, it's to verify how the selector works."
+62,"Maintenant on va réessayer, mais cette fois interdiction de prendre Pikachu !","Now we will retry, but this time you can't pick Pikachu !"
+63,"Okay, on est reparti !","Okay, here we go again !"
+64,"Et cette fois, interdiction d'utiliser le Pokémon que tu as utilisé précédemment, quel qu'il fût !","And this time, you can't take the last Pokemon you picked just before, whatever it was !"
+65,C'est parti pour le dernier combat !,Let's go for the final fight !
+66,"Bon bah voilà, maintenant tu sais comment fonctionne le sélecteur ! N'hésite pas à regarder comment l'event est construit dans RPG Maker XP !",Voila ! Now you know how the selector works ! Don't hesitate to look at how my event is constructed in RPG Maker XP !
+67,"Et juste pour te montrer comment vérifier simplement si un joueur possède suffisamment de Pokémon avant, je vais vérifier si tu as 2 Pokémon disponibles et autorisé dans ton équipe, tout en bannissant Pikachu.","And just to show you how to verify if a player has enough Pokemon before launching the selector, I'm going to verify if you have enough available and authorized Pokemon, while banning Pikachu."
+68,C'est le cas ! Tu pourras aussi vérifier l'event pour voir comment te servir de cette commande !,That's the case ! You can also verify the event to see how it's done.
+69,"C'est pas le cas ! Pas bien grave écoute, il te suffira de capturer suffisamment de Pokémon et ça passera crème !","That's not the case ! Not a problem though, you'll just have to catch enough Pokemon and it'll fit the bill perfectly !"
+70,"Merci d'avoir joué le jeu p'tit gars, et désolé de t'avoir traité de morveux !","Thanks for staying through this, mate, and sorry for treating you like a brat !"
+71,"Et si tu veux à nouveau tester, reviens me voir !","And if you want to test again, come seek me !"
+72,Hésite pas à revenir me voir quand tu voudras te battre !,Don't hesitate to come back if you want to fight !
+73,,
+74,,
+75,,
+76,,

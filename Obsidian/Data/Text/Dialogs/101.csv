@@ -1,0 +1,45 @@
+﻿Index,en,fr
+0,TEXT,C'était notre dernière leçon.
+1,TEXT,"Et avec celle-ci, l'année s'achêve ainsi que votre enseignement. "
+2,TEXT,"Partez mettre en application tout ce que vous avez appris, et devenez les meilleurs journalistes possibles. "
+3,TEXT,Il est temps pour vous d'explorer et d'enquêter par vos propres moyens.
+4,TEXT,Toutes mes félicitations à tous ! Les cours sont terminés !
+5,TEXT,"Félicitations \n[1] ! Je sais que tu es très doué\E pour ce métier, tu t'en sortiras parfaitement."
+6,TEXT,"Alors ça y est, les cours sont bien finis. "
+7,TEXT,"J'ai un contact avec la directrice de la radio nationale, je ne me fais pas de soucis."
+8,TEXT,"Ecole de journalisme de \t[10, 2]"
+9,TEXT,"Alors ça y est \n[1] ! Tu en as enfin fini avec les cours, félicitations !\nlTu vas pouvoir partir à l'aventure et mener tes propres enquêtes."
+10,TEXT,"Tu devrais aller retrouver ton \c[2]\t[0, 479]\c[0] chez toi, il doit encore se cacher dans un appareil électrique.\nlN'oublie pas, tu m'as promis que je pourrais t'affronter pour fêter ton diplôme ! "
+11,TEXT,"On se voit plus tard, à tout à l'heure !"
+12,TEXT,C'est une console rétro en très bon état !
+13,TEXT,Vers la gauche - Forêt d'Amaryllis
+14,TEXT,J'aime bien regarder les Pokémon eau qui nagent au rythme des vagues.
+15,TEXT,Amaryllis est vraiment un endroit tranquille.\nlCette petite ville offre un cadre d'étude parfait pour son école de journalisme.
+16,TEXT,"Tu ne peux pas t'aventurer dans la forêt sans ton fidèle \c[2]\t[0, 479]\c[0] !"
+17,TEXT,"\c[2]\t[0, 479]\c[0] a l'air très heureux de vous revoir !"
+18,TEXT,"\c[2]\t[0, 479]\c[0] a rejoint votre équipe !"
+19,TEXT,"Il y a quelques notes que vous avez prises.\nl \c[2]\t[0, 479]\c[0] est un Pokémon attiré par les objets électriques.\nlIl aime particulièrement se réfugier dans mes appareils d'électroménager. J'ai également gardé quelques objets qu'il apprécie dans des vieux cartons."
+20,TEXT,A l'aide !
+21,TEXT,"Ce \c[2]\t[0, 15]\c[0] est entrain de m'attaquer !"
+22,"TEXT ",Ce Pokémon s'est jetté sur moi alors que j'essayais d'en capturer un autre !\nlMerci beaucoup pour ton aide ! Voila pour toi pour te remercier de m'avoir aidé.
+23,TEXT,"\n[1] ! Tu es là !\nlJe te cherchais pour nous puissions disputer notre combat.\nlIl me semblait bien avoir entendu du bruit qui venait de la forêt.\nl...[WAIT 20]\nlOh je vois, tu viens t'aider ce pauvre garçon, c'est très courageux de ta part.\nlAllons disputer ce combat !"
+24,TEXT,"Rejoins moi quand tu seras prêt\E !\nlJe te conseille de passer au centre pokémon pour soigner ton \c[2]\t[0, 479]\c[0].\nlParle-moi quand tu voudras combattre."
+25,TEXT,J'ai hâte de t'affronter!\nlTu es prêt\E ?
+26,TEXT,Alors c'est parti !
+27,TEXT,"C'était un beau combat.\nlTon \c[2]\t[0, 479]\c[0] est fort, prends en bien soin."
+28,TEXT,J'ai un cadeau pour toi pour fêter ton diplôme.
+29,TEXT,"C'est un \c[1]\t[12, 433]\c[0]. Ca te permettra de noter toutes les requêtes et informations que les gens pourraient te confier. Ce sera très pratique pendant tes enquêtes !"
+30,TEXT,"Il commence à se faire tard, nous devrions aller nous reposer.\nlEncore merci pour le combat !"
+31,TEXT,Ce n'est pas le moment de partir dans la forêt alors que tu as des choses à faire.
+32,TEXT,Voulez-vous vous reposer dans votre lit ?
+33,TEXT,Ce n'est pas l'heure d'aller dormir.
+34,TEXT,Hmm...[WAIT 60] Alors c'est toi \n[1] ?\nlNous avons entendu parler de toi. \f[La§Le] brillant\E étudiant\E ayant déjà mis à découvert diverses arnaques et magouilles par le biais de son blog...
+35,TEXT,"...[WAIT 60] Cela va te paraitre... étrange mais je viens te proposer une affaire.\nlEn revanche, je ne peux pas t'en parler maintenant.\nlNi ici."
+36,TEXT,"...[WAIT 60] Je m'appelle Helio. Retrouve-moi au \t[10,5] à \t[10, 4], je t'y attendrais."
+37,TEXT,Fermé pour cause d'éboulement.
+38,TEXT,Maison de \n[1]
+39,TEXT,Maison d'Alfred
+40,TEXT,"Ton \c[2]\t[0, 479]\c[0] a l'air en forme !\nl"
+41,TEXT,Fais quelque chose !
+42,TEXT,"\t[10, 2] est une petite ville, nous n'avons qu'un centre Pokémon.\nlSi tu es à la recherche d'un magasin, tu devrais te rendre à \t[10, 4]."
+43,TEXT,"Bonjour et bienvenue au centre Pokémon de \[10, 2].\nlCe centre permet de soigner les Pokémons après un dur combat.\nlVous ne semblez pas avoir de Pokémon dans votre équipe."

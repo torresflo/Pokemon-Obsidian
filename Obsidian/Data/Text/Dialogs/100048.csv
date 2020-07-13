@@ -1,0 +1,281 @@
+en,fr,it,de,es,ko,kana
+[~ 0],J'ai perdu...,[~ 0],[~ 0],[~ 0],[~ 0],[~ 0]
+[~ 1],Tu es fort... Il va falloir que j'entraine mon Pokémon si je veux te battre.,[~ 1],[~ 1],[~ 1],[~ 1],[~ 1]
+[~ 2],Il n'y a rien à faire et en plus j'ai perdu.,[~ 2],[~ 2],[~ 2],[~ 2],[~ 2]
+[~ 3],Laisse-moi observer les Pokémons maintenant que tu as gagné !,[~ 3],[~ 3],[~ 3],[~ 3],[~ 3]
+[~ 4],"Si j'avais su, j'aurais mieux fais de ne pas te challenger...",[~ 4],[~ 4],[~ 4],[~ 4],[~ 4]
+[~ 5],Mes pauvres Pokémon insectes...,[~ 5],[~ 5],[~ 5],[~ 5],[~ 5]
+[~ 6],"Tes Pokémon et toi êtes forts, jeune homme. Tu iras loin, je le sens.",[~ 6],[~ 6],[~ 6],[~ 6],[~ 6]
+[~ 7],Je vais devoir m'entrainer si je compte te battre.,[~ 7],[~ 7],[~ 7],[~ 7],[~ 7]
+[~ 8],Bien joué. Je te souhaites bon voyage vers Fusiville.,[~ 8],[~ 8],[~ 8],[~ 8],[~ 8]
+[~ 9],"Dommage, les Pokémons que j'ai pu attraper dans différents lieux n'auront donc pas suffit... Il va falloir que je me trouve de nouveaux spots de pêche.",[~ 9],[~ 9],[~ 9],[~ 9],[~ 9]
+[~ 10],C'est moi qui pleure de ma défaite...,[~ 10],[~ 10],[~ 10],[~ 10],[~ 10]
+[~ 11],J'ai du sable partout sur moi maintenant !,[~ 11],[~ 11],[~ 11],[~ 11],[~ 11]
+[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12]
+[~ 13],[~ 13],[~ 13],[~ 13],[~ 13],[~ 13],[~ 13]
+[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14]
+[~ 15],[~ 15],[~ 15],[~ 15],[~ 15],[~ 15],[~ 15]
+[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16]
+[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17]
+[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18]
+[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19]
+[~ 20],[~ 20],[~ 20],[~ 20],[~ 20],[~ 20],[~ 20]
+[~ 21],[~ 21],[~ 21],[~ 21],[~ 21],[~ 21],[~ 21]
+[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22]
+[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23]
+[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24]
+[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25]
+[~ 26],[~ 26],[~ 26],[~ 26],[~ 26],[~ 26],[~ 26]
+[~ 27],[~ 27],[~ 27],[~ 27],[~ 27],[~ 27],[~ 27]
+[~ 28],[~ 28],[~ 28],[~ 28],[~ 28],[~ 28],[~ 28]
+[~ 29],[~ 29],[~ 29],[~ 29],[~ 29],[~ 29],[~ 29]
+[~ 30],[~ 30],[~ 30],[~ 30],[~ 30],[~ 30],[~ 30]
+[~ 31],[~ 31],[~ 31],[~ 31],[~ 31],[~ 31],[~ 31]
+[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32]
+[~ 33],[~ 33],[~ 33],[~ 33],[~ 33],[~ 33],[~ 33]
+[~ 34],[~ 34],[~ 34],[~ 34],[~ 34],[~ 34],[~ 34]
+[~ 35],[~ 35],[~ 35],[~ 35],[~ 35],[~ 35],[~ 35]
+[~ 36],[~ 36],[~ 36],[~ 36],[~ 36],[~ 36],[~ 36]
+[~ 37],[~ 37],[~ 37],[~ 37],[~ 37],[~ 37],[~ 37]
+[~ 38],[~ 38],[~ 38],[~ 38],[~ 38],[~ 38],[~ 38]
+[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39]
+[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40]
+[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41]
+[~ 42],[~ 42],[~ 42],[~ 42],[~ 42],[~ 42],[~ 42]
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+But... How ?,"Oh, mais comment ?",NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText
+NewText,NewText,NewText,NewText,NewText,NewText,NewText

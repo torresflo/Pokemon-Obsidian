@@ -1,0 +1,55 @@
+en,fr,it,de,es,ko,kana
+OPTIONS,OPTIONS,Opzioni,Optionen,Opciones,설정을 바꾼다,せっていを　かえる
+CONFIRM,OK,Ok,O.K.,Aceptar,결정,けってい
+QUIT,Retour,Esci,Zurück,Salir,취소,やめる
+TEXT SPEED,Vitesse du texte,Velocità testo,Text-Tempo,Velocidad del texto,이야기의 속도,はなしの　はやさ
+SLOW,Lente,Lenta,1,Lenta,느리게,おそい
+NORMAL,Normale,Normale,2,Media,보통,ふつう
+FAST,Rapide,Veloce,3,Rápida,빠르게,はやい
+You can choose from three different text-scrolling speeds to control how quickly messages appear.,Permet de choisir parmi trois vitesses de défilement du texte.,Scegli uno dei tre livelli di velocità di scorrimento del testo.,Wähle eine von drei Textgeschwindigkeiten.,Elige entre los tres niveles de velocidad del texto.,메시지의 표시 속도를 3종류 중에서 선택할 수 있습니다,メッセージの　はやさを 3しゅるいから　えらべます
+BATTLE EFFECTS,Animations de combat,Animazioni,Animationen,Animaciones combate,배틀 애니메이션,せんとうアニメ
+ON,Avec,Sì,An,Ver,본다,みる
+OFF,Sans,No,Aus,No ver,안 본다,みない
+You can choose whether you wish to see move animations during battles or not.,Permet d’afficher ou de sauter les animations de combat.,Scegli se vuoi vedere le animazioni durante le lotte.,"Wähle, ob in den Kämpfen Animationen für die Attacken angezeigt werden sollen.",Activa o desactiva las animaciones durante los combates.,배틀할 때 포켓몬 기술의 애니메이션을 볼 것인지 선택할 수 있습니다,せんとうのとき　すべての アニメを　みるかどうか　えらべます
+BATTLE STYLE,Style de combat,Pokémon in lotta,Kampfstil,Tipo de combate,시합 룰,しあいのルール
+SWITCH,Choix,Scegli se sostituire,Wechseln,Con cambios,교체,いれかえ
+SET,Défini,Non sostituire,Nicht wechseln,Fijo,토너먼트,かちぬき
+You can choose whether to be asked about switching Pokémon when an opposing Pokémon faints.,Permet de se voir proposer un changement de Pokémon quand le Pokémon adverse est mis K.O.,Scegli se tenere o sostituire il tuo Pokémon quando il nemico va KO.,Wähle zwischen zwei verschiedenen Kampfstilen.,Configura las reglas que se aplican en los combates.,승부의 룰을 선택할 수 있습니다,しょうぶの　ルールを えらぶことが　できます
+[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16]
+[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17]
+[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18]
+[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19]
+[~ 20],[~ 20],[~ 20],[~ 20],[~ 20],[~ 20],[~ 20]
+CHARACTERS,Caractères,Caratteri,Textmodus,Caracteres,글자 모드,もじモード
+Hiragana,Hiragana,Hiragana,Hiragana,Hiragana,ひらがな,ひらがな
+Kanji,Kanji,Kanji,Kanji,Kanji,漢字,漢字
+Switch JP characters.,Changer de système de caractères.,Cambia caratteri.,"Wähle, wie der japanische Text dargestellt werden soll.",Elige cómo quieres que aparezca el texto japonés en pantalla.,글자 표시를 전환할 수 있습니다,もじの　ひょうじを きりかえることが　できます
+BATTLE BG,Fond combat,Sfondo lotte,Kampfhintergrund,Fondo de combate,배틀벽지,せんとうかべがみ
+DEFAULT,Par défaut,Predefinito,Standard,Estándar,기본,デフォルト
+[~ 27],[~ 27],[~ 27],[~ 27],[~ 27],[~ 27],[~ 27]
+[~ 28],[~ 28],[~ 28],[~ 28],[~ 28],[~ 28],[~ 28]
+[~ 29],[~ 29],[~ 29],[~ 29],[~ 29],[~ 29],[~ 29]
+[~ 30],[~ 30],[~ 30],[~ 30],[~ 30],[~ 30],[~ 30]
+[~ 31],[~ 31],[~ 31],[~ 31],[~ 31],[~ 31],[~ 31]
+[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32]
+[~ 33],[~ 33],[~ 33],[~ 33],[~ 33],[~ 33],[~ 33]
+[~ 34],[~ 34],[~ 34],[~ 34],[~ 34],[~ 34],[~ 34]
+[~ 35],[~ 35],[~ 35],[~ 35],[~ 35],[~ 35],[~ 35]
+[~ 36],[~ 36],[~ 36],[~ 36],[~ 36],[~ 36],[~ 36]
+[~ 37],[~ 37],[~ 37],[~ 37],[~ 37],[~ 37],[~ 37]
+[~ 38],[~ 38],[~ 38],[~ 38],[~ 38],[~ 38],[~ 38]
+[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39]
+[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40]
+You can select a different wallpaper to be used on the lower screen during battles.,Permet de changer le fond de l’écran tactile lors des combats.,Scegli lo sfondo dello schermo inferiore durante le lotte.,"Wähle, was für ein Hintergrundmotiv während des Kampfes auf dem Touchscreen angezeigt werden soll.",Elige el fondo que quieres que aparezca en la pantalla táctil durante los combates.,배틀 아래 화면의 벽지를 바꿀 수 있습니다,せんとう　したがめんの　かべがみを かえることが　できます
+BUTTON MODE,Commandes,Comandi,Knopfbelegung,Configuración botones,버튼모드,ボタンモード
+DEFAULT,Par défaut,Normali,Normal,Normal,노말,ノーマル
+L=A,Bouton L = Bouton A,Tasto L = Tasto A,L-Knopf = A-Knopf,Botón L = Botón A,L=A,L=A
+NO L/R BUTTON,Boutons L/R inactifs,Tasti L/R disattivati,L-/R-Knopf inaktiv,Sin botones L y R,LR 버튼 금지,LRボタン　きんし
+"You can disable the L and R Buttons, or set the L Button to function as the A Button. This also disables the R Button.","Permet de désactiver le bouton L ou lui donner la fonction du bouton A, en désactivant le bouton R dans les deux cas.",Scegli se disattivare i pulsanti L ed R o se far funzionare il pulsante L come il pulsante A. Ciò disattiverà il pulsante R.,"Deaktiviere den L-/R-Knopf oder gib dem L-Knopf die Funktion des A-Knopfes, was auch den R-Knopf deaktiviert.","Puedes elegir que el botón L funcione como el botón A, lo que desactivará el botón R, o desactivar los botones L y R.",L 버튼=A 버튼이나 LR 버튼을 사용하지 않게 설정할 수 있습니다,Lボタン=Aボタンや　LRボタンを　つかわないに せってい　することが　できます
+FORCED SAVE,Sauvegarde forcée,Salvataggio obbligato,Konnex-Sicherung,Guardado obligatorio,통신 리포트,つうしんレポート
+SAVE,Active,Sì,An,Sí,쓴다,かく
+DON’T SAVE,Inactive,No,Aus,No,안 쓴다,かかない
+You can choose whether or not you must save before PSS battles and other communication features.,Permet de choisir si vous devez sauvegarder ou pas avant d’utiliser le PSS pour effectuer un combat ou autre.,Scegli se salvare obbligatoriamente prima di lottare tramite il PSS o avviare altre funzioni di comunicazione.,"Wähle, ob du speichern möchtest, bevor du eine Funktion des PSS wie z. B. den Link-Kampf ausführst.",Puedes elegir si debes guardar siempre antes de los combates en conexión y otras funciones del PSS.,PSS에서 통신대전 등을 하기 전에 리포트를 작성할지 안 할지 선택할 수 있습니다,PSSで　つうしんたいせんなどを　するまえに レポートを　かくかどうか　えらべます
+Would you like to make these changes?,Voulez-vous appliquer les changements ?,Vuoi salvare le modifiche?,Änderungen vornehmen?,¿Cambiar las opciones seleccionadas?,선택한 설정으로 변경하겠습니까?,えらんだ　せっていに　かえますか？
+Yes,Oui,Sì,Ja,Sí,예,はい
+No,Non,No,Nein,No,아니요,いいえ

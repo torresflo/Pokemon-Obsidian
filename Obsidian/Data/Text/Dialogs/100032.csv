@@ -1,0 +1,155 @@
+en,fr,it,de,es,ko,kana
+FIGHT,ATTAQUE !,LOTTA,Kampf,LUCHAR,싸운다 FIGHT,たたかう FIGHT
+BAG,SAC,BORSA,Beutel,BOLSA,가방 BAG,バッグ BAG
+POKÉMON,POKÉMON,POKÉMON,Pokémon,POKÉMON,포켓몬 POKÉMON,ポケモン POKÉMON
+RUN,FUITE,FUGA,Flucht,HUIR,도망간다 RUN,にげる RUN
+SHIFT,DÉPLACER,SPOSTA,Bewegen,MOVER,이동 MOVE,いどう MOVE
+MEGA EVOLUTION,MÉGA ÉVOLUTION,MEGAEVOLUZIONE,MEGA- ENTWICKLUNG,MEGAEVOLUCIÓN,메가진화 MEGA EVOLUTION,メガシンカ MEGA EVOLUTION
+CAPS,MAJ.,ABC,GROSS,MAYÚS,가,かな
+lower,min.,abc,klein,minús,ABC,カナ
+Sym.,Autres,♥♪★,mehr,Otros,1/♪,1/♪
+NEW,!!!,Nuovo,NEU,Nuevo,NEW,NEW
+NEW,!!!,Nuovo,NEU,Nuevo,NEW,NEW
+[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11]
+HP,PV,PS,KP,PS,HP,HP
+ATTACK,ATTAQUE,ATTACCO,Angriff,Ataque,공격,コウゲキ
+DEFENSE,DÉFENSE,DIFESA,Vert.,Defensa,방어,ボウギョ
+SP. ATK,ATQ. SPÉ.,ATT. SP.,Sp.-Ang.,At. Esp.,특수공격,トクコウ
+SP. DEF,DÉF. SPÉ.,DIF. SP.,Sp.-Vert.,Def. Esp.,특수방어,トクボウ
+SPEED,VITESSE,VELOCITÀ,Initiative,Velocidad,스피드,スバヤサ
+CLEARED,FINI !,OK!,Geschafft,SUPERADO,CLEARED,CLEARED
+Try Again...,ÉCHEC,Prova fallita...,Schade...,¡SE ACABÓ EL TIEMPO!,트레이닝 실패!,トレーニング　失敗！
+Success!,CHALLENGE RÉUSSI !,COMPLIMENTI!,Geschafft!,¡BIEN HECHO!,트레이닝 종료!,トレーニング　終了！
+Start,C’EST PARTI !!!,VIA!,Los geht’s!,¡ADELANTE!,트레이닝 스타트!,トレーニング　スタート！
+[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22]
+[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23]
+[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24]
+[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25]
+[~ 26],[~ 26],[~ 26],[~ 26],[~ 26],[~ 26],[~ 26]
+[~ 27],[~ 27],[~ 27],[~ 27],[~ 27],[~ 27],[~ 27]
+JPN,JAP.,GPN,JAP,JAP,JPN,JPN
+ENG,ANGL.,ING,ENG,ING,ENG,ENG
+FRE,FRA.,FRA,FRA,FRA,FRA,FRA
+GER,ALL.,TED,DEU,ALE,GER,GER
+ITA,ITA.,ITA,ITA,ITA,ITA,ITA
+KOR,CORÉ.,COR,KOR,COR,KOR,KOR
+SPA,ESP.,SPA,SPA,ESP,SPA,SPA
+POKÉDEX,POKÉDEX,POKÉDEX,POKÉDEX,POKÉDEX,포켓몬 도감 POKÉDEX,ポケモンずかん POKÉDEX
+[~ 36],[~ 36],[~ 36],[~ 36],[~ 36],[~ 36],[~ 36]
+[~ 37],[~ 37],[~ 37],[~ 37],[~ 37],[~ 37],[~ 37]
+[~ 38],[~ 38],[~ 38],[~ 38],[~ 38],[~ 38],[~ 38]
+[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39]
+[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40]
+[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41]
+[~ 42],[~ 42],[~ 42],[~ 42],[~ 42],[~ 42],[~ 42]
+JPN,JAP.,GPN,JAP,JAP,JPN,JPN
+ENG,ANGL.,ING,ENG,ING,ENG,ENG
+FRE,FRA.,FRA,FRA,FRA,FRA,FRA
+GER,ALL.,TED,DEU,ALE,GER,GER
+ITA,ITA.,ITA,ITA,ITA,ITA,ITA
+KOR,CORÉ.,COR,KOR,COR,KOR,KOR
+SPA,ESP.,SPA,SPA,ESP,SPA,SPA
+PARALYSIS,PARALYSIE,PARALIZZATO,Paralysiert,PARALIZADO,마비,まひ
+ASLEEP,SOMMEIL,ADDORMENTATO,Schläft,DORMIDO,잠듦,ねむり
+FROZEN,GEL,CONGELATO,Gefroren,CONGELADO,얼음,こおり
+BURNED,BRÛLURE,SCOTTATO,Verbrennung,QUEMADO,화상,やけど
+POISONED,POISON,AVVELENATO,Vergiftet,ENVENENADO,독,どく
+FAINTED,K.O.,KO,Besiegt,DEBILITADO,기절,ひんし
+POKÉRUS,POKÉRUS,POKÉRUS,Pokérus,POKÉRUS,포켓러스,ポケルス
+NORMAL,NORMAL,NORMALE,Normal,NORMAL,노말,ノーマル
+FIGHTING,COMBAT,LOTTA,Kampf,LUCHA,격투,かくとう
+FLYING,VOL,VOLANTE,Flug,VOLADOR,비행,ひこう
+POISON,POISON,VELENO,Gift,VENENO,독,どく
+GROUND,SOL,TERRA,Boden,TIERRA,땅,じめん
+ROCK,ROCHE,ROCCIA,Gestein,ROCA,바위,いわ
+BUG,INSECTE,COLEOTT,Käfer,BICHO,벌레,むし
+GHOST,SPECTRE,SPETTRO,Geist,FANTASMA,고스트,ゴースト
+STEEL,ACIER,ACCIAIO,Stahl,ACERO,강철,はがね
+FIRE,FEU,FUOCO,Feuer,FUEGO,불꽃,ほのお
+WATER,EAU,ACQUA,Wasser,AGUA,물,みず
+GRASS,PLANTE,ERBA,Pflanze,PLANTA,풀,くさ
+ELECTRIC,ÉLECTRIK,ELETTRO,Elektro,ELÉCTRICO,전기,でんき
+PSYCHIC,PSY,PSICO,Psycho,PSÍQUICO,에스퍼,エスパー
+ICE,GLACE,GHIACCIO,Eis,HIELO,얼음,こおり
+DRAGON,DRAGON,DRAGO,Drache,DRAGÓN,드래곤,ドラゴン
+DARK,TÉNÈBRES,BUIO,Unlicht,SINIESTRO,악,あく
+FAIRY,FÉE,FOLLETTO,Fee,HADA,페어리,フェアリー
+RESULTS,RÉSULTATS,RISULTATI,Auswertung,RESULTADOS,결과 발표,けっかはっぴょう
+[~ 76],[~ 76],[~ 76],[~ 76],[~ 76],[~ 76],[~ 76]
+PLAY,JOUER,Gioca,Spielen,Jugar,논다,あそぶ
+DECORATE,DÉCOR,Decora,Deko,Decorar,모양바꾸기,もようがえ
+SWITCH,CHANGER,Cambia,Wechseln,Cambiar,교체,いれかえ
+VS,VS,VS,VS.,VS.,VS,VS
+LOSE,PERDU,PERDE,Verloren!,PIERDE,LOSE,LOSE
+WIN,GAGNÉ,VINCE,Gewonnen!,GANA,WIN,WIN
+DRAW,ÉGALITÉ,PAREGGIO,Unentschieden!,EMPATE,DRAW,DRAW
+Super Training,Système de Perfectionnement Virtuel,SUPER ALLENAMENTO VIRTUALE,Supertraining,SUPERENTRENAMIENTO,슈퍼트레이닝,スーパートレーニング
+Player Search System,Player Search System,Player Search System,Player Search System,Player Search System,Player Search System,Player Search System
+Pokémon-Amie,POKÉ RÉCRÉ,Poké io&te,PokéMonAmi,Poké Recreo,포켓파를레,ポケパルレ
+HP,PV,PS,KP,PS,HP,HP
+EXP,EXP,ESP,Erf.,EXP.,EXP,EXP
+HP,PV,PS,KP,PS,HP,HP
+Lv.,N.,L. ,Lv.,Nv.,Lv.,Lv.
+THE END,Fin,FINE,Ende,FIN,THE END,THE END
+VS,VS,VS,VS.,VS,VS,ＶＳ
+Sidney,Damien,Fosco,Ulrich,Sixto,혁진,カゲツ
+Phoebe,Spectra,Ester,Antonia,Fátima,회연,フヨウ
+Glacia,Glacia,Frida,Frosina,Nívea,미혜,プリム
+Drake,Aragon,Drake,Dragan,Dracón,권수,ゲンジ
+VS,VS,VS,VS.,VS,VS,ＶＳ
+Steven,Pierre,Rocco,Troy,Máximo,성호,ダイゴ
+POKÉMON LEAGUE CHAMPION,Maître de la Ligue,Campione della Lega Pokémon,Champ der Pokémon Liga,Campeón de la Liga Pokémon,POKÉMON LEAGUE CHAMPION,POKÉMON LEAGUE CHAMPION
+VS,VS,VS,VS.,VS,VS,ＶＳ
+Roxanne,Roxanne,Petra,Felizia,Petra,원규,ツツジ
+Brawly,Bastien,Rudi,Kamillo,Marcial,철구,トウキ
+Wattson,Voltère,Walter,Walter,Erico,암페어,テッセン
+Flannery,Adriane,Fiammetta,Flavia,Candela,민지,アスナ
+Norman,Norman,Norman,Norman,Norman,종길,センリ
+Winona,Alizée,Alice,Wibke,Alana,은송,ナギ
+Liza and Tate,Lévy & Tatia,Tell e Pat,Ben & Svenja,Vito y Leti,풍&란,フウとラン
+Wallace,Marc,Adriano,Wassili,Plubio,윤진,ミクリ
+Hall of Fame,Bienvenue au Panthéon !,Eccoti nella Sala d’Onore!,Glückwunsch zum Einzug in die Ruhmeshalle!,¡Enhorabuena por entrar en el Hall de la Fama!,전당등록을 축하합니다!,でんどういり　おめでとう！
+Congratulations!,Bravo !,Congratulazioni!,Glückwunsch!,¡Felicidades!,축하합니다!,おめでとう！
+Congratulations on becoming Pokémon League Champion!,Félicitations au nouveau Maître de la Ligue !,Campione della Lega Pokémon! Congratulazioni!,Glückwunsch! Du bist der Champ der Pokémon Liga!,¡Enhorabuena por convertirte en Campeón de la Liga Pokémon!,포켓몬리그 챔피언을 축하합니다!,ポケモンリーグ　チャンピオン　おめでとう！
+Congratulations on becoming Pokémon League Champion!,Félicitations au nouveau Maître de la Ligue !,Campionessa della Lega Pokémon! Congratulazioni!,Glückwunsch! Du bist der Champ der Pokémon Liga!,¡Enhorabuena por convertirte en Campeona de la Liga Pokémon!,포켓몬리그 챔피언을 축하합니다!,ポケモンリーグ　チャンピオン　おめでとう！
+PRESS START,APPUYEZ SUR START,PREMI START,DRÜCKE START,PULSA START,PUSH START BUTTON,PUSH START BUTTON
+Battle Time:,Combat :,Tempo lotta:,Zeitlimit:,T. combate:,Game Set,Game Set
+Command Time:,Commande :,Tempo turno:,Eingabezeit:,T. turno:,Command Time,Command Time
+Talent Round: Start!,Jury des Démonstrations : C’est parti !,Valutazione esibizione... Via!,Kunststücksrunde: Los geht’s!,Inicio de la Valoración de la Exhibición,어필심사 시작,アピールしんさ　かいし
+Talent Round: Complete!,Jury des Démonstrations : C’est fini…,Valutazione esibizione... Fine!,Kunststücksrunde: Das war’s!,Fin de la Valoración de la Exhibición,어필심사 종료,アピールしんさ　おわり
+Normal Rank,Niveau Normal,Livello Normale,Normal-Rang,Nivel Normal,노말랭크,ノーマルランク
+Super Rank,Niveau Super,Livello Super,Super-Rang,Nivel Alto,슈퍼랭크,スーパーランク
+Hyper Rank,Niveau Hyper,Livello Iper,Hyper-Rang,Nivel Avanzado,하이퍼랭크,ハイパーランク
+Master Rank,Niveau Master,Livello Master,Meister-Rang,Nivel Maestro,마스터랭크,マスターランク
+[~ 122],[~ 122],[~ 122],[~ 122],[~ 122],[~ 122],[~ 122]
+[~ 123],[~ 123],[~ 123],[~ 123],[~ 123],[~ 123],[~ 123]
+[~ 124],[~ 124],[~ 124],[~ 124],[~ 124],[~ 124],[~ 124]
+[~ 125],[~ 125],[~ 125],[~ 125],[~ 125],[~ 125],[~ 125]
+[~ 126],[~ 126],[~ 126],[~ 126],[~ 126],[~ 126],[~ 126]
+CONGRATULATIONS!,Bravo !!!,Congratulazioni!,Glückwunsch!,¡Bien hecho!,축하합니다!!,おめでとう!!
+RESULTS,Résultats,RISULTATI,Auswertung,Resultados,결과 발표,けっかはっぴょう
+COOL,S.-froid,CLASSE,Coolness,Carisma,근사함,かっこよさ
+BEAUTIFUL,Beauté,BELLEZZA,Schönh.,Belleza,아름다움,うつくしさ
+CUTE,Grâce,GRAZIA,Putzigk.,Dulzura,귀여움,かわいさ
+CLEVER,Intell.,ACUME,Klugheit,Ingenio,슬기로움,かしこさ
+TOUGH,Robust.,GRINTA,Stärke,Dureza,강인함,たくましさ
+[~ 134],[~ 134],[~ 134],[~ 134],[~ 134],[~ 134],[~ 134]
+[~ 135],[~ 135],[~ 135],[~ 135],[~ 135],[~ 135],[~ 135]
+[~ 136],[~ 136],[~ 136],[~ 136],[~ 136],[~ 136],[~ 136]
+[~ 137],[~ 137],[~ 137],[~ 137],[~ 137],[~ 137],[~ 137]
+[~ 138],[~ 138],[~ 138],[~ 138],[~ 138],[~ 138],[~ 138]
+AreaNav,Navi-Map,NaviMappa,Karten-Navi,CartoNav,맵 내비,マップナビ
+PlayNav,Navi-Fun,NaviSvago,Spiel-Navi,DiverNav,플레이내비,プレイナビ
+BuzzNav,Navi-Show,NaviTalk,Video-Navi,VideoNav,TV 내비,テレビナビ
+DexNav,Navi-Dex,NaviDex,Pokédex-Navi,DexNav,도감 내비,ずかんナビ
+Places,Carte,Mappa,Karte,Mapa,타운맵,マップ
+Pokémon,Biotopes,Pokémon,Pokémon,Pokémon,분포,ぶんぷ
+Trainers,Registre,Allenatori,Trainer,Entren.,트레이너 아이,トレーナーアイ
+Bases,Bases,Basi,Basen,Bases,비밀기지,ひみつきち
+Berries,Baies,Bacche,Beeren,Cultivos,나무열매,きのみ
+Elite Four,Conseil 4,Superquattro,Top Vier,Alto Mando,the big four,the big four
+COOLNESS CONTEST,Concours Sang-froid,Gara di Classe,Coolnesswettbewerb,Concurso de Carisma,근사함 콘테스트,かっこよさ コンテスト
+BEAUTY CONTEST,Concours Beauté,Gara di Bellezza,Schönheitswettbewerb,Concurso de Belleza,아름다움 콘테스트,うつくしさ コンテスト
+CUTENESS CONTEST,Concours Grâce,Gara di Grazia,Putzigkeitswettbewerb,Concurso de Dulzura,귀여움 콘테스트,かわいさ コンテスト
+CLEVERNESS CONTEST,Concours Intelligence,Gara di Acume,Klugheitswettbewerb,Concurso de Ingenio,슬기로움 콘테스트,かしこさ コンテスト
+TOUGHNESS CONTEST,Concours Robustesse,Gara di Grinta,Stärkewettbewerb,Concurso de Dureza,강인함 콘테스트,たくましさ コンテスト

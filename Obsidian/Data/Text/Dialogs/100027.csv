@@ -1,0 +1,66 @@
+en,fr,it,de,es,ko,kana
+Dex No.,Nº Pokédex,N° Pokédex,Pokédex-Nr.,N.º Pokédex,도감No.,ずかんNo.
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Name,Nom,Nome,Name,Nombre,이름,なまえ
+Type,Type,Tipo,Typ,Tipo,타입,タイプ
+[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)]
+[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)]
+[~ 6],[~ 6],[~ 6],[~ 6],[~ 6],[~ 6],[~ 6]
+—,-,-,—,-,-,－
+OT,D.O.,AO,OT,EO,어버이,おや
+ID No.,Nº ID,ID,ID-Nummer,N.º ID,IDNo.,IDNo.
+Exp. Points,Points Exp.,Punti Esperienza,Aktuelle Erfahrungspunkte,Puntos de Experiencia,현재 경험치,げんざいのけいけんち
+"[VAR NUM7(0000,002C)]","[VAR NUM7(0000,E07F)]","[VAR NUM7(0000,002E)]","[VAR NUM7(0000,0020)]","[VAR NUM7(0000,E07F)]","[VAR NUM7(0000,0000)]","[VAR NUM7(0000,0000)]"
+To Next Lv.,Niveau suivant,Al livello successivo,Bis zum nächsten Lv.,Para subir de nivel,다음 레벨까지,つぎのレベルまで
+"","","","","","",あと
+"[VAR NUM7(0000,002C)]","[VAR NUM7(0000,E07F)]","[VAR NUM7(0000,002E)]","[VAR NUM7(0000,0020)]","[VAR NUM7(0000,E07F)]","[VAR NUM7(0000,0000)]","[VAR NUM7(0000,0000)]"
+HP,PV,PS,KP,PS,HP,HP
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Attack,Attaque,Attacco,Angriff,Ataque,공격,こうげき
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Defense,Défense,Difesa,Vert.,Defensa,방어,ぼうぎょ
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Sp. Atk,Atq. Spé.,Att. Sp.,Sp.-Ang.,At. Esp.,특수공격,とくこう
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Sp. Def,Déf. Spé.,Dif. Sp.,Sp.-Vert.,Def. Esp.,특수방어,とくぼう
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Speed,Vitesse,Velocità,Initiative,Velocidad,스피드,すばやさ
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[~ 28],[~ 28],[~ 28],[~ 28],[~ 28],[~ 28],[~ 28]
+Lv.,N.,L. ,Lv.,Nv.,Lv.,Lv.
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[~ 31],[~ 31],[~ 31],[~ 31],[~ 31],[~ 31],[~ 31]
+PP,PP,PP,AP,PP,PP,PP
+/,/,/,/,/,/,/
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+Category,Catégorie,Categoria,Kategorie,Categoría,분류,ぶんるい
+Power,Puissance,Potenza,Stärke,Potencia,위력,いりょく
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Accuracy,Précision,Precisione,Genauigkeit,Precisión,명중,めいちゅう
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41]
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+"","","","","",개,こ
+[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)]
+[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)]
+[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)]
+[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)]
+"[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]","[VAR NUM5(0000,0000)]"
+[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+???,???,???,???,(?),???,???
+You can change the order of moves.,Permet de changer l’ordre des capacités.,Cambia l’ordine delle mosse.,Die Attackenanordnung ist variabel.,Puedes cambiar el orden de movimientos.,기술의 순서를 바꿀 수 있습니다,わざの　ならびかえが　できます
+Move to where?,Où voulez-vous placer la capacité ?,Dove vuoi spostarla?,An welche Stelle setzen?,¿En qué posición quieres que esté?,어디로 이동할까?,どこに　いどうする？
+[~ 54],[~ 54],[~ 54],[~ 54],[~ 54],[~ 54],[~ 54]
+[~ 55],[~ 55],[~ 55],[~ 55],[~ 55],[~ 55],[~ 55]
+[~ 56],[~ 56],[~ 56],[~ 56],[~ 56],[~ 56],[~ 56]
+[~ 57],[~ 57],[~ 57],[~ 57],[~ 57],[~ 57],[~ 57]
+[~ 58],[~ 58],[~ 58],[~ 58],[~ 58],[~ 58],[~ 58]
+[~ 59],[~ 59],[~ 59],[~ 59],[~ 59],[~ 59],[~ 59]
+Effect,Effet,Efficacia,Wirkung,Efecto,효과,こうか
+Appeal,Démonstration,Fascino,Ausdruckskraft,Exhibición,어필,アピール
+Jamming,Blocage,Intralcio,Störfaktor,Interferencia,방해,ぼうがい
+Check Moves,Capacités,Info mosse,Attacken,Movimientos,기술을 본다,わざをみる
+Check Ribbons,Rubans,Info fiocchi,Bänder,Cintas,리본을 본다,リボンをみる

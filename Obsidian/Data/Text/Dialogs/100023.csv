@@ -1,0 +1,214 @@
+en,fr,it,de,es,ko,kana
+CONFIRM,OK,Ok,O.K.,Vale,결정,けってい
+BACK,Retour,Indietro,Zurück,Atrás,돌아간다,もどる
+L,L,L,L,L,L,L
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+SUMMARY,Résumé,Info,Bericht,Datos,능력치를 본다,つよさをみる
+USE A MOVE,Capacité,Usa una mossa,Terrain-Attacke,Usar un movimiento,기술을 사용한다,わざをつかう
+RESTORE,Soigner,Rimedi,Regenerieren,Curar,회복한다,かいふくする
+ITEM,Objet,Strumenti,Item,Objeto,지닌물건,もちもの
+SWITCH,Déplacer,Ordina,Tausch,Mover,순서바꾸기,ならびかえ
+USE/GIVE,Utiliser/Donner,Usa/Dai,Benutzen/Geben,Usar/Dar,사용한다/건네준다,つかう／もたせる
+[VAR COLOR(0002)]Soar[VAR COLOR(0000)],[VAR COLOR(0002)]Grand Envol[VAR COLOR(0000)],Ipervolo,[VAR COLOR(0002)]Überflieger[VAR COLOR(0000)],Ultravuelo,[VAR COLOR(0002)]창공날기[VAR COLOR(0000)],[VAR COLOR(0002)]おおぞらをとぶ[VAR COLOR(0000)]
+[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+/,/,/,/,/,/,／
+[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)]
+[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)]
+Choose a Pokémon.,Veuillez choisir un Pokémon.,Scegli un Pokémon.,Wähle ein Pokémon.,Elige un Pokémon.,포켓몬을 선택해 주십시오,ポケモンを　えらんでください
+Choose a Pokémon.,Veuillez choisir un Pokémon.,Scegli un Pokémon.,Wähle ein Pokémon.,Elige un Pokémon.,포켓몬을 선택해 주십시오,ポケモンを　えらんでください
+Move which Pokémon?,Quel Pokémon voulez-vous déplacer ?,Quale Pokémon vuoi spostare?,Welches Pokémon willst du bewegen?,¿Qué Pokémon quieres mover?,어느 포켓몬을 이동할까?,どのポケモンを　いどうする？
+Move which item?,Quel objet voulez-vous déplacer ?,Quale strumento vuoi spostare?,Welches Item möchtest du bewegen?,¿Qué objeto quieres mover?,어느 지닌물건을 이동할까?,どの　もちものを　いどうする？
+Move to where?,Avec qui doit-il changer de place ?,Dove vuoi spostarlo?,An welche Stelle möchtest du es setzen?,¿En qué posición quieres que esté?,어디와 교체할까?,どこと　いれかえる？
+Move to where?,Où voulez-vous placer cet objet ?,Dove vuoi spostare lo strumento?,An welche Stelle möchtest du es setzen?,¿Pasar a qué Pokémon?,어디와 교체할까?,どこと　いれかえる？
+Give to which Pokémon?,Quel Pokémon va tenir l’objet ?,A chi vuoi dare lo strumento?,Welchem Pokémon zum Tragen geben?,¿A qué Pokémon quieres darle el objeto?,어느 포켓몬에게 건네줄까?,どのポケモンに　もたせる？
+Use on which Pokémon?,Sur quel Pokémon voulez-vous l’utiliser ?,Su quale Pokémon vuoi usarlo?,Auf welches Pokémon anwenden?,¿Con qué Pokémon quieres usarlo?,어느 포켓몬에게 사용할까?,どのポケモンに　つかう？
+Teach which Pokémon?,Quel Pokémon va l’apprendre ?,A chi vuoi insegnarla?,Welchem Pokémon beibringen?,¿A qué Pokémon quieres enseñárselo?,어느 포켓몬에게 가르칠까?,どのポケモンに　おしえる？
+Choose Pokémon and confirm.,Confirmer le choix du Pokémon.,Scegli un Pokémon e conferma.,Wähle ein Pokémon und bestätige.,Elige Pokémon y confirma.,포켓몬을 선택하고 결정,ポケモンをえらんで　けってい
+Deposit which Pokémon?,Quel Pokémon voulez-vous déposer ?,Quale Pokémon vuoi affidare?,Welches Pokémon möchtest du ablegen?,¿Qué Pokémon quieres dejar?,어느 포켓몬을 맡길까?,どのポケモンを　あずける？
+Use on which Pokémon?,Sur quel Pokémon voulez-vous l’utiliser ?,Su quale Pokémon vuoi usarla?,Auf welches Pokémon anwenden?,¿Con qué Pokémon quieres usarlo?,어느 포켓몬에게 사용할까?,どのポケモンに　つかう？
+[~ 29],[~ 29],[~ 29],[~ 29],[~ 29],[~ 29],[~ 29]
+Do what with [VAR PKNICK(0000)]?,[VAR PKNICK(0000)] sélectionné.,Pokémon selezionato: [VAR PKNICK(0000)],[VAR PKNICK(0000)] wurde ausgewählt. Was nun?,[VAR PKNICK(0000)] ha sido seleccionado.,[VAR PKNICK(0000)][VAR 1900(0002)] 어떻게 할까?,[VAR PKNICK(0000)]を どうする？
+Which move should [VAR PKNICK(0000)] use?,Quelle capacité voulez-vous que [VAR PKNICK(0000)] utilise ?,Quale mossa vuoi che usi [VAR PKNICK(0000)]?,Welche Terrain-Attacke soll [VAR PKNICK(0000)] einsetzen?,¿Qué movimiento ha de usar [VAR PKNICK(0000)]?,[VAR PKNICK(0000)][VAR 1900(0001)] 어느 기술을 사용할까?,[VAR PKNICK(0000)]は どのわざを　つかう？
+[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32]
+[~ 33],[~ 33],[~ 33],[~ 33],[~ 33],[~ 33],[~ 33]
+Restore PP to which move?,Quelle capacité voulez-vous restaurer ?,Quale mossa vuoi ricaricare?,Welche Attacke soll aufgefüllt werden?,¿Qué movimiento quieres restaurar?,어느 기술을 회복할까?,どのわざを かいふくする？
+Boost the PP of which move?,De quelle capacité voulez-vous augmenter les PP ?,Quale mossa vuoi potenziare?,AP welcher Attacke anheben?,¿De qué movimiento quieres aumentar los PP?,어느 기술을 늘릴까?,どのわざを ふやす？
+You can choose an item in the Bag and use it or give it to a Pokémon.,Permet de choisir dans votre Sac un objet à utiliser ou à faire tenir à un Pokémon.,Scegli uno strumento dalla Borsa per usarlo o darlo a un Pokémon.,Wähle ein Item aus dem Beutel aus und benutze es oder gib es einem Pokémon.,Puedes elegir un objeto de la Bolsa para usarlo o para dárselo a un Pokémon.,가방에서 도구를 선택하여 사용하거나 지니게 할 수 있습니다,バッグから　どうぐを　えらんで つかったり　もたせたり　できます
+You can take an item that a Pokémon is holding and put it back in the Bag.,Permet de ranger dans le Sac l’objet tenu par le Pokémon.,Metti lo strumento del Pokémon nella Borsa.,"Lege ein Item, mit dem ein Pokémon ausgestattet ist, in den Beutel zurück.",Puedes quitarle al Pokémon el objeto que lleva y guardarlo en la Bolsa.,포켓몬이 지니고 있는 도구를 가방에 다시 넣습니다,ポケモンが　もっている　どうぐを バッグに　もどします
+You can move an item that a Pokémon is holding.,Permet de déplacer l’objet tenu par un Pokémon.,Sposta lo strumento del Pokémon.,"Gib ein Item, mit dem ein Pokémon ausgestattet ist, einem anderen Pokémon.",Puedes pasarle el objeto que lleva a otro Pokémon.,포켓몬이 지니고 있는 도구를 이동시킬 수 있습니다,ポケモンが　もっている　どうぐを いどうすることが　できます
+[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39]
+[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40]
+[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41]
+[~ 42],[~ 42],[~ 42],[~ 42],[~ 42],[~ 42],[~ 42]
+[~ 43],[~ 43],[~ 43],[~ 43],[~ 43],[~ 43],[~ 43]
+[~ 44],[~ 44],[~ 44],[~ 44],[~ 44],[~ 44],[~ 44]
+[~ 45],[~ 45],[~ 45],[~ 45],[~ 45],[~ 45],[~ 45]
+[~ 46],[~ 46],[~ 46],[~ 46],[~ 46],[~ 46],[~ 46]
+[~ 47],[~ 47],[~ 47],[~ 47],[~ 47],[~ 47],[~ 47]
+[~ 48],[~ 48],[~ 48],[~ 48],[~ 48],[~ 48],[~ 48]
+[~ 49],[~ 49],[~ 49],[~ 49],[~ 49],[~ 49],[~ 49]
+[~ 50],[~ 50],[~ 50],[~ 50],[~ 50],[~ 50],[~ 50]
+[~ 51],[~ 51],[~ 51],[~ 51],[~ 51],[~ 51],[~ 51]
+[~ 52],[~ 52],[~ 52],[~ 52],[~ 52],[~ 52],[~ 52]
+[~ 53],[~ 53],[~ 53],[~ 53],[~ 53],[~ 53],[~ 53]
+[~ 54],[~ 54],[~ 54],[~ 54],[~ 54],[~ 54],[~ 54]
+[~ 55],[~ 55],[~ 55],[~ 55],[~ 55],[~ 55],[~ 55]
+[~ 56],[~ 56],[~ 56],[~ 56],[~ 56],[~ 56],[~ 56]
+[~ 57],[~ 57],[~ 57],[~ 57],[~ 57],[~ 57],[~ 57]
+[~ 58],[~ 58],[~ 58],[~ 58],[~ 58],[~ 58],[~ 58]
+[~ 59],[~ 59],[~ 59],[~ 59],[~ 59],[~ 59],[~ 59]
+"[VAR PKNICK(0000)]’s HP was restored by [VAR NUM3(0001)] point[VAR NUMBRNCH(0001,0100)]s.",[VAR PKNICK(0000)] récupère [VAR NUM3(0001)] PV.,[VAR PKNICK(0000)] ha recuperato [VAR NUM3(0001)] PS.,"Die KP von [VAR PKNICK(0000)] wurden um [VAR NUM3(0001)] Punkt[VAR NUMBRNCH(0001,0100)]e aufgefüllt!",[VAR PKNICK(0000)] ha recuperado [VAR NUM3(0001)] PS.,[VAR PKNICK(0000)]의 체력이 [VAR NUM3(0001)] 회복되었다!,[VAR PKNICK(0000)]の　たいりょくが [VAR NUM3(0001)]　かいふくした！
+[~ 61],[~ 61],[~ 61],[~ 61],[~ 61],[~ 61],[~ 61]
+[~ 62],[~ 62],[~ 62],[~ 62],[~ 62],[~ 62],[~ 62]
+[~ 63],[~ 63],[~ 63],[~ 63],[~ 63],[~ 63],[~ 63]
+[~ 64],[~ 64],[~ 64],[~ 64],[~ 64],[~ 64],[~ 64]
+[~ 65],[~ 65],[~ 65],[~ 65],[~ 65],[~ 65],[~ 65]
+[~ 66],[~ 66],[~ 66],[~ 66],[~ 66],[~ 66],[~ 66]
+[~ 67],[~ 67],[~ 67],[~ 67],[~ 67],[~ 67],[~ 67]
+[~ 68],[~ 68],[~ 68],[~ 68],[~ 68],[~ 68],[~ 68]
+[~ 69],[~ 69],[~ 69],[~ 69],[~ 69],[~ 69],[~ 69]
+[~ 70],[~ 70],[~ 70],[~ 70],[~ 70],[~ 70],[~ 70]
+[~ 71],[~ 71],[~ 71],[~ 71],[~ 71],[~ 71],[~ 71]
+This can’t be used until a new Gym Badge is obtained.,Vous devez obtenir un autre Badge pour pouvoir l’utiliser.,Devi prima ottenere un’altra Medaglia!,"Dies ist erst einsetzbar, wenn ein neuer Orden errungen wurde.","Para poder hacer eso, necesitas ganar una nueva medalla.",새로운 배지를 얻을 때까지 아직 쓸 수 없습니다,あたらしい　バッジを　てにするまで まだ　つかえません
+[~ 73],[~ 73],[~ 73],[~ 73],[~ 73],[~ 73],[~ 73]
+[~ 74],[~ 74],[~ 74],[~ 74],[~ 74],[~ 74],[~ 74]
+[~ 75],[~ 75],[~ 75],[~ 75],[~ 75],[~ 75],[~ 75]
+[~ 76],[~ 76],[~ 76],[~ 76],[~ 76],[~ 76],[~ 76]
+[VAR PKNICK(0000)] isn’t holding anything.,[VAR PKNICK(0000)] ne tient rien.,[VAR PKNICK(0000)] non ha nessuno strumento!,[VAR PKNICK(0000)] trägt kein Item bei sich.,[VAR PKNICK(0000)] no lleva ningún objeto.,[VAR PKNICK(0000)][VAR 1900(0001)] 도구를 아무것도 지니고 있지 않습니다!,[VAR PKNICK(0000)]は　どうぐを なにも　もっていません！
+Received the [VAR ITEM2(0001)] from [VAR PKNICK(0000)].,[VAR PKNICK(0000)] vous a remis [VAR 1400(0001)][VAR ITEM2(0001)] !,Hai preso [VAR 1500(0001)][VAR ITEM2(0001)] di [VAR PKNICK(0000)]!,[VAR ITEM2(0001)] von [VAR PKNICK(0000)] erhalten.,¡Has recibido [VAR 1700(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)]!,[VAR PKNICK(0000)][VAR 1900(0005)]로부터 [VAR ITEM2(0001)][VAR 1900(0002)] 가져왔습니다!,[VAR PKNICK(0000)]から [VAR ITEM2(0001)]を　あずかりました！
+You can’t carry any more of this item.,Vous ne pouvez pas porter plus d’exemplaires de cet objet.,Hai raggiunto il limite per questo oggetto!,Du hast keinen Platz dafür!,No te caben más en la Bolsa.,가방이 가득 차서 도구를 받을 수 없습니다!,バッグが　いっぱいで どうぐを　うけとれません！
+"The [VAR ITEM2(0001)] w[VAR NUMBRNCH(0001,0302)]asere taken and replaced with the [VAR ITEM2(0002)].",Il vous a donné [VAR 1400(0001)][VAR ITEM2(0001)] et a pris [VAR 1400(0002)][VAR ITEM2(0002)] !,Hai sostituito [VAR 1500(0001)][VAR ITEM2(0001)] con [VAR 1500(0002)][VAR ITEM2(0002)]!,"[VAR ITEM2(0001)] wurde[VAR NUMBRNCH(0001,0100)]n gegen [VAR ITEM2(0002)] ausgetauscht.",¡Le has quitado [VAR 1700(0001)][VAR ITEM2(0001)] y le has dado [VAR 1700(0002)][VAR ITEM2(0002)]!,[VAR ITEM2(0001)][VAR 1900(0002)] 가져오고 [VAR ITEM2(0002)][VAR 1900(0002)] 건네주었습니다!,[VAR ITEM2(0001)]を　あずかり [VAR ITEM2(0002)]を　もたせました！
+[~ 81],[~ 81],[~ 81],[~ 81],[~ 81],[~ 81],[~ 81]
+[~ 82],[~ 82],[~ 82],[~ 82],[~ 82],[~ 82],[~ 82]
+[~ 83],[~ 83],[~ 83],[~ 83],[~ 83],[~ 83],[~ 83]
+Cancel your challenge?,Voulez-vous annuler votre défi ?,Vuoi abbandonare la sfida?,Möchtest du die Herausforderung abbrechen?,¿Quieres cancelar el desafío?,도전을 그만두겠습니까?,ちょうせんを　やめますか？
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ
+[~ 87],[~ 87],[~ 87],[~ 87],[~ 87],[~ 87],[~ 87]
+[~ 88],[~ 88],[~ 88],[~ 88],[~ 88],[~ 88],[~ 88]
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ
+[~ 91],[~ 91],[~ 91],[~ 91],[~ 91],[~ 91],[~ 91]
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ
+No more than two Pokémon may enter.,Seuls deux Pokémon peuvent participer.,Non possono partecipare più di due Pokémon!,Es können nicht mehr als zwei Pokémon teilnehmen.,No pueden participar más de dos Pokémon.,참가할 수 있는 포켓몬은 2마리입니다!,さんか　できる　ポケモンは ２ひき　まで　です！
+You’re already surfing.,Vous surfez déjà.,Stai già usando Surf.,Surfer ist bereits im Einsatz!,Ya estás usando Surf.,이미 파도타기를 하고 있습니다,すでに　なみのり　しています
+You can’t use that here.,Impossible ici.,Non si può usare qui.,Das lässt sich hier nicht einsetzen.,Aquí no puedes usar eso.,여기서는 쓸 수 없습니다,ここでは　つかえません
+It won’t have any effect.,Cela n’aura aucun effet.,Non avrebbe alcun effetto!,Es wird keine Wirkung haben.,No tendría ningún efecto.,써도 효과가 없다,つかっても　こうかがないよ
+This can’t be used on the fainted Pokémon.,Impossible à utiliser sur un Pokémon K.O.,Non si può usare su un Pokémon esausto.,Das kann nicht auf ein kampfunfähiges Pokémon angewendet werden.,No se puede usar con un Pokémon debilitado.,기절한 포켓몬에게는 쓸 수 없습니다,ひんしの　ポケモンには つかえません
+You have no room to separate the Pokémon.,Impossible de les séparer car votre équipe est pleine.,Non puoi effettuare la separazione perché la tua squadra è al completo.,"Du kannst das Pokémon nicht teilen, da dein Team voll ist.",No se puede realizar la separación porque tu equipo está completo.,지닌 포켓몬이 가득하므로 분리할 수 없습니다,てもちが　いっぱい　なので ぶんり　できません
+It cannot be fused with that Pokémon.,Impossible de fusiorber avec ce Pokémon.,Non puoi sottoporre questo Pokémon all’Endofusione.,Mit diesem Pokémon ist eine Fusion nicht möglich.,No se puede fusionar con ese Pokémon.,그 포켓몬과는 합체할 수 없습니다,その　ポケモンとは がったい　できません
+It cannot be fused with that fainted Pokémon.,Impossible de fusiorber avec un Pokémon K.O.,Non puoi sottoporre un Pokémon esausto all’Endofusione.,Mit kampfunfähigen Pokémon ist eine Fusion nicht möglich.,No se puede fusionar con un Pokémon debilitado.,기절한 포켓몬과는 합체할 수 없습니다,ひんしの　ポケモンとは がったい　できません
+It cannot be fused with an Egg.,Impossible de fusiorber avec un Œuf.,Non puoi sottoporre un Uovo all’Endofusione.,Mit einem Ei ist eine Fusion nicht möglich.,No se puede fusionar con un Huevo.,알과는 합체할 수 없습니다,タマゴとは がったい　できません
+Two Pokémon are needed.,Il faut deux Pokémon.,Servono due Pokémon!,Zwei Pokémon sind nötig!,Necesitas dos Pokémon.,2마리가 필요합니다!,２ひき　そろってません！
+[~ 104],[~ 104],[~ 104],[~ 104],[~ 104],[~ 104],[~ 104]
+[~ 105],[~ 105],[~ 105],[~ 105],[~ 105],[~ 105],[~ 105]
+[~ 106],[~ 106],[~ 106],[~ 106],[~ 106],[~ 106],[~ 106]
+[~ 107],[~ 107],[~ 107],[~ 107],[~ 107],[~ 107],[~ 107]
+[~ 108],[~ 108],[~ 108],[~ 108],[~ 108],[~ 108],[~ 108]
+A Griseous Orb cannot be given to Giratina!,Impossible de donner l’Orbe Platiné à Giratina !,Non puoi dare la Grigiosfera a Giratina!,Ein Platinum-Orb kann einem Giratina nicht übergeben werden.,No le puedes dar la Griseosfera a Giratina.,백금옥을 기라티나에게 건넬 수 없다!,はっきんだまを　ギラティナには わたせない！
+Choose a Pokémon.,Veuillez choisir un Pokémon.,Scegli un Pokémon.,Wähle ein Pokémon.,Elige un Pokémon.,포켓몬을 선택해 주십시오,ポケモンを　えらんでください
+Two Pokémon are needed.,Il faut deux Pokémon.,Servono due Pokémon!,Zwei Pokémon sind nötig!,Necesitas dos Pokémon.,2마리가 필요합니다!,２ひき　そろってません！
+Three Pokémon are needed.,Il faut trois Pokémon.,Servono tre Pokémon!,Drei Pokémon sind nötig!,Necesitas tres Pokémon.,3마리가 필요합니다!,３ひき　そろってません！
+Four Pokémon are needed.,Il faut quatre Pokémon.,Servono quattro Pokémon!,Vier Pokémon sind nötig!,Necesitas cuatro Pokémon.,4마리가 필요합니다!,４ひき　そろってません！
+Five Pokémon are needed.,Il faut cinq Pokémon.,Servono cinque Pokémon!,Fünf Pokémon sind nötig!,Necesitas cinco Pokémon.,5마리가 필요합니다!,５ひき　そろってません！
+Six Pokémon are needed.,Il faut six Pokémon.,Servono sei Pokémon!,Sechs Pokémon sind nötig!,Necesitas seis Pokémon.,6마리가 필요합니다!,６ひき　そろってません！
+No more than one Pokémon may enter.,Seul un Pokémon peut participer.,Può partecipare un solo Pokémon!,Es kann nicht mehr als ein Pokémon teilnehmen.,Solo puede participar un Pokémon.,참가할 수 있는 포켓몬은 1마리입니다!,さんか　できる　ポケモンは １ひき　です！
+No more than two Pokémon may enter.,Seuls deux Pokémon peuvent participer.,Non possono partecipare più di due Pokémon!,Es können nicht mehr als zwei Pokémon teilnehmen.,No pueden participar más de dos Pokémon.,참가할 수 있는 포켓몬은 2마리입니다!,さんか　できる　ポケモンは ２ひき　まで　です！
+No more than three Pokémon may enter.,Seuls trois Pokémon peuvent participer.,Non possono partecipare più di tre Pokémon!,Es können nicht mehr als drei Pokémon teilnehmen.,No pueden participar más de tres Pokémon.,참가할 수 있는 포켓몬은 3마리입니다!,さんか　できる　ポケモンは ３ひき　まで　です！
+No more than four Pokémon may enter.,Seuls quatre Pokémon peuvent participer.,Non possono partecipare più di quattro Pokémon!,Es können nicht mehr als vier Pokémon teilnehmen.,No pueden participar más de cuatro Pokémon.,참가할 수 있는 포켓몬은 4마리입니다!,さんか　できる　ポケモンは ４ひき　まで　です！
+No more than five Pokémon may enter.,Seuls cinq Pokémon peuvent participer.,Non possono partecipare più di cinque Pokémon!,Es können nicht mehr als fünf Pokémon teilnehmen.,No pueden participar más de cinco Pokémon.,참가할 수 있는 포켓몬은 5마리입니다!,さんか　できる　ポケモンは ５ひき　まで　です！
+[~ 121],[~ 121],[~ 121],[~ 121],[~ 121],[~ 121],[~ 121]
+[~ 122],[~ 122],[~ 122],[~ 122],[~ 122],[~ 122],[~ 122]
+This can’t be used on that Pokémon.,C’est inutilisable sur ce Pokémon.,Non puoi usarla su questo Pokémon.,Das kann nicht auf dieses Pokémon angewendet werden.,No se puede usar con ese Pokémon.,그 포켓몬에게는 쓸 수 없습니다,そのポケモンには つかえません
+[~ 124],[~ 124],[~ 124],[~ 124],[~ 124],[~ 124],[~ 124]
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ
+[~ 127],[~ 127],[~ 127],[~ 127],[~ 127],[~ 127],[~ 127]
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ
+The Pokémon does not have enough HP...,Pas assez de PV…,PS insufficienti!,Nicht genügend KP...,PS insuficientes...,체력이 부족합니다...,たいりょくが　たりません……
+[~ 131],[~ 131],[~ 131],[~ 131],[~ 131],[~ 131],[~ 131]
+[~ 132],[~ 132],[~ 132],[~ 132],[~ 132],[~ 132],[~ 132]
+[~ 133],[~ 133],[~ 133],[~ 133],[~ 133],[~ 133],[~ 133]
+[~ 134],[~ 134],[~ 134],[~ 134],[~ 134],[~ 134],[~ 134]
+[~ 135],[~ 135],[~ 135],[~ 135],[~ 135],[~ 135],[~ 135]
+[~ 136],[~ 136],[~ 136],[~ 136],[~ 136],[~ 136],[~ 136]
+Leave Pokémon,Déposer,Affida,Pokémon abgeben,Dejar Pokémon,맡긴다,あずける
+BACK,Retour,Esci,Abbrechen,Salir,그만둔다,やめる
+SWITCH,Échanger,Sostituisci,Tausch,Cambiar,교체한다,いれかえる
+ENTER,Inscrire,Partecipa,Teilnehmen,Participar,참가한다,さんかする
+WITHDRAW,Désinscrire,Non partecipa,Nicht teilnehmen,No participar,참가하지 않는다,さんかしない
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+GIVE,Donner,Dai,Geben,Dar,건네준다,もたせる
+TAKE,Prendre,Prendi,Nehmen,Quitar,가져온다,あずかる
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+MOVE,Déplacer,Sposta,Weitergeben,Pasar objeto,건넨다,わたす
+NOT ENTERED,Disponible,Disponibile,Nicht beteiligt,No registrado,참가하지 않는다,さんかしない
+BANNED,Interdit,Non ammesso,Teilnahme unmögl.,No apto,나갈 수 없습니다,でられません
+[VAR COLOR(0002)]FIRST[VAR COLOR(0000)],[VAR COLOR(0002)]1[VAR COLOR(0000)],[VAR COLOR(0002)]Primo[VAR COLOR(0000)],[VAR COLOR(0002)]NUMMER 1[VAR COLOR(0000)],[VAR COLOR(0002)]Primero[VAR COLOR(0000)],[VAR COLOR(0002)]첫 번째[VAR COLOR(0000)],[VAR COLOR(0002)]１ばんめ[VAR COLOR(0000)]
+[VAR COLOR(0002)]SECOND[VAR COLOR(0000)],[VAR COLOR(0002)]2[VAR COLOR(0000)],[VAR COLOR(0002)]Secondo[VAR COLOR(0000)],[VAR COLOR(0002)]NUMMER 2[VAR COLOR(0000)],[VAR COLOR(0002)]Segundo[VAR COLOR(0000)],[VAR COLOR(0002)]두 번째[VAR COLOR(0000)],[VAR COLOR(0002)]２ばんめ[VAR COLOR(0000)]
+[VAR COLOR(0002)]THIRD[VAR COLOR(0000)],[VAR COLOR(0002)]3[VAR COLOR(0000)],[VAR COLOR(0002)]Terzo[VAR COLOR(0000)],[VAR COLOR(0002)]NUMMER 3[VAR COLOR(0000)],[VAR COLOR(0002)]Tercero[VAR COLOR(0000)],[VAR COLOR(0002)]세 번째[VAR COLOR(0000)],[VAR COLOR(0002)]３ばんめ[VAR COLOR(0000)]
+[VAR COLOR(0002)]FOURTH[VAR COLOR(0000)],[VAR COLOR(0002)]4[VAR COLOR(0000)],[VAR COLOR(0002)]Quarto[VAR COLOR(0000)],[VAR COLOR(0002)]NUMMER 4[VAR COLOR(0000)],[VAR COLOR(0002)]Cuarto[VAR COLOR(0000)],[VAR COLOR(0002)]네 번째[VAR COLOR(0000)],[VAR COLOR(0002)]４ばんめ[VAR COLOR(0000)]
+[VAR COLOR(0002)]FIFTH[VAR COLOR(0000)],[VAR COLOR(0002)]5[VAR COLOR(0000)],[VAR COLOR(0002)]Quinto[VAR COLOR(0000)],[VAR COLOR(0002)]NUMMER 5[VAR COLOR(0000)],[VAR COLOR(0002)]Quinto[VAR COLOR(0000)],[VAR COLOR(0002)]다섯 번째[VAR COLOR(0000)],[VAR COLOR(0002)]５ばんめ[VAR COLOR(0000)]
+[VAR COLOR(0002)]SIXTH[VAR COLOR(0000)],[VAR COLOR(0002)]6[VAR COLOR(0000)],[VAR COLOR(0002)]Sesto[VAR COLOR(0000)],[VAR COLOR(0002)]NUMMER 6[VAR COLOR(0000)],[VAR COLOR(0002)]Sexto[VAR COLOR(0000)],[VAR COLOR(0002)]여섯 번째[VAR COLOR(0000)],[VAR COLOR(0002)]６ばんめ[VAR COLOR(0000)]
+ABLE!,Apte,Può impararla!,O.K.!,Apto,배울 수 있다!,おぼえられる！
+UNABLE!,Pas apte,Non può impararla!,Nein!,No apto,배울 수 없다,おぼえられない
+LEARNED,Appris,La conosce già.,Kennt Attacke!,Aprendido,이미 알고 있다,おぼえている
+[~ 164],[~ 164],[~ 164],[~ 164],[~ 164],[~ 164],[~ 164]
+[~ 165],[~ 165],[~ 165],[~ 165],[~ 165],[~ 165],[~ 165]
+[~ 166],[~ 166],[~ 166],[~ 166],[~ 166],[~ 166],[~ 166]
+[~ 167],[~ 167],[~ 167],[~ 167],[~ 167],[~ 167],[~ 167]
+Identical Pokémon are not permitted.,Vous ne pouvez pas inscrire deux Pokémon identiques.,I tuoi Pokémon devono essere tutti diversi.,Du kannst nur mit unterschiedlichen Pokémon antreten.,Todos los Pokémon deben ser distintos.,같은 포켓몬이 있습니다!,おなじ　ポケモンが　います
+Some Pokémon are holding identical items.,Les objets tenus par les Pokémon doivent être différents.,Gli strumenti dei tuoi Pokémon devono essere tutti diversi.,Einige Pokémon sind mit identischen Items ausgestattet.,Algunos Pokémon llevan objetos idénticos.,같은 도구를 지닌 포켓몬이 있습니다,どうぐが　おなじ　ポケモンが　います
+The total of all party members’ levels has gone over [VAR NUM3(0000)].,Le total des niveaux de tous les membres de l’équipe dépasse [VAR NUM3(0000)].,La somma dei livelli di tutti i componenti della squadra supera [VAR NUM3(0000)].,Der Gesamt-Level aller Team-Pokémon liegt über [VAR NUM3(0000)].,La suma de los niveles de los miembros del equipo supera [VAR NUM3(0000)].,포켓몬의 레벨 합계가 [VAR NUM3(0000)] 이상입니다,ポケモンの　レベルの　ごうけいが [VAR NUM3(0000)]を　こえています
+There are three or more Legendary Pokémon.,Il y a 3 Pokémon légendaires ou plus.,Ci sono tre o più Pokémon leggendari.,Es gibt drei oder mehr Legendäre Pokémon.,Hay tres o más Pokémon legendarios.,전설의 포켓몬이 3마리 이상 있습니다,でんせつの　ポケモンが ３ひき　いじょう　います
+The Pokémon that must participate is not selected.,Vous n’avez pas choisi les Pokémon devant participer.,Manca uno dei Pokémon la cui partecipazione è obbligatoria.,Es wurde kein Pokémon zur Teilnahme ausgewählt.,Debes elegir Pokémon que puedan participar.,반드시 참가해야 하는 포켓몬이 선택되지 않았습니다,さんか　しなければ　ならない ポケモンが　えらばれていません
+[~ 173],[~ 173],[~ 173],[~ 173],[~ 173],[~ 173],[~ 173]
+[~ 174],[~ 174],[~ 174],[~ 174],[~ 174],[~ 174],[~ 174]
+[~ 175],[~ 175],[~ 175],[~ 175],[~ 175],[~ 175],[~ 175]
+[~ 176],[~ 176],[~ 176],[~ 176],[~ 176],[~ 176],[~ 176]
+[~ 177],[~ 177],[~ 177],[~ 177],[~ 177],[~ 177],[~ 177]
+[~ 178],[~ 178],[~ 178],[~ 178],[~ 178],[~ 178],[~ 178]
+[~ 179],[~ 179],[~ 179],[~ 179],[~ 179],[~ 179],[~ 179]
+[~ 180],[~ 180],[~ 180],[~ 180],[~ 180],[~ 180],[~ 180]
+[~ 181],[~ 181],[~ 181],[~ 181],[~ 181],[~ 181],[~ 181]
+[~ 182],[~ 182],[~ 182],[~ 182],[~ 182],[~ 182],[~ 182]
+[~ 183],[~ 183],[~ 183],[~ 183],[~ 183],[~ 183],[~ 183]
+[~ 184],[~ 184],[~ 184],[~ 184],[~ 184],[~ 184],[~ 184]
+[~ 185],[~ 185],[~ 185],[~ 185],[~ 185],[~ 185],[~ 185]
+[~ 186],[~ 186],[~ 186],[~ 186],[~ 186],[~ 186],[~ 186]
+[~ 187],[~ 187],[~ 187],[~ 187],[~ 187],[~ 187],[~ 187]
+[~ 188],[~ 188],[~ 188],[~ 188],[~ 188],[~ 188],[~ 188]
+[~ 189],[~ 189],[~ 189],[~ 189],[~ 189],[~ 189],[~ 189]
+[VAR PKNAME(0000)] changed Forme!,[VAR PKNAME(0000)] a changé de forme !,[VAR PKNAME(0000)] ha cambiato forma!,[VAR PKNAME(0000)] verändert seine Form!,[VAR PKNAME(0000)] ha cambiado de forma.,[VAR PKNAME(0000)][VAR 1900(0001)] 다른 모습으로 변화했다,[VAR PKNAME(0000)]は べつの　すがたに　へんかした
+[VAR PKNICK(0000)] cannot hold the [VAR ITEM2(0001)]!,Impossible de faire tenir [VAR 1400(0001)][VAR ITEM2(0001)] à [VAR PKNICK(0000)] !,Non puoi dare [VAR 1500(0001)][VAR ITEM2(0001)] a [VAR PKNICK(0000)]!,Du kannst [VAR PKNICK(0000)] nicht mit dem Item [VAR ITEM2(0001)] ausstatten!,¡[VAR PKNICK(0000)] no puede llevar [VAR 1702(0001)] [VAR ITEM2(0001)]!,[VAR PKNICK(0000)][VAR 1900(0001)] [VAR ITEM2(0001)][VAR 1900(0002)] 지닐 수 없다!,[VAR PKNICK(0000)]は　[VAR ITEM2(0001)]を もつことが　できない！
+[~ 192],[~ 192],[~ 192],[~ 192],[~ 192],[~ 192],[~ 192]
+[~ 193],[~ 193],[~ 193],[~ 193],[~ 193],[~ 193],[~ 193]
+[~ 194],[~ 194],[~ 194],[~ 194],[~ 194],[~ 194],[~ 194]
+[~ 195],[~ 195],[~ 195],[~ 195],[~ 195],[~ 195],[~ 195]
+[~ 196],[~ 196],[~ 196],[~ 196],[~ 196],[~ 196],[~ 196]
+TIME REMAINING:,Temps restant,Tempo rimasto,Restzeit,Tiempo restante,SELECT TIME,SELECT TIME
+[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)]
+[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)],[VAR NUM2(0001)]
+Communicating. Please wait.,Communication en cours…,Comunicazione in corso.,Verbindungsaufbau...,Conectando...,통신 대기 중,つうしんたいきちゅう
+Standing by...,En attente…,Attendi...,Bereit,En espera...,대기 중,たいきちゅう
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ
+[~ 204],[~ 204],[~ 204],[~ 204],[~ 204],[~ 204],[~ 204]
+Handicap,Handicap,Handicap,Handicap,Hándicap,핸디캡,ハンデ
+[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)]
+[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)]마리,[VAR NUM1(0000)]ひき
+[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)]마리,[VAR NUM1(0000)]ひき
+CAST IT,Confirmer,Aggiungi,In Promo einsetzen,Confirmar,프로모션에 보낸다,プロモにだす
+The number of special Pokémon exceeds the limit.,Vous avez trop de Pokémon spéciaux.,Il numero di Pokémon speciali è superiore al limite.,Es wurden zu viele besondere Pokémon ausgewählt.,Hay más Pokémon especiales de los permitidos.,특별한 포켓몬의 수가 너무 많습니다,とくべつな　ポケモンの かずが　オーバー　しています
+You can’t use it now.,Vous ne pouvez pas encore l’utiliser.,Non si può usare adesso.,Sie kann noch nicht eingesetzt werden.,No se puede usar aún.,지금은 아직 쓸 수 없습니다,いまは　まだ　つかえません
+[VAR COLOR(0002)]Participate[VAR COLOR(0000)],[VAR COLOR(0002)]Inscrire[VAR COLOR(0000)],[VAR COLOR(0002)]Partecipa[VAR COLOR(0000)],[VAR COLOR(0002)]Nimmt teil[VAR COLOR(0000)],[VAR COLOR(0002)]Participar[VAR COLOR(0000)],[VAR COLOR(0002)]참가한다[VAR COLOR(0000)],[VAR COLOR(0002)]さんかする[VAR COLOR(0000)]

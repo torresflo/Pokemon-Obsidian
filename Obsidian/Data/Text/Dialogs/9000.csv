@@ -1,0 +1,181 @@
+Index,en,fr,de,es,it,kana,ko
+0,New game,Nouvelle partie,Neues Spiel,Nueva partida,Nuova parte,New game,새로운 파티
+1,,,,,,,
+2,Palbolsky,Palbolsky,Palbolsky,Palbolsky,Palbolsky,パルボルスキ,Palbolsky
+3,Yuri,Yuri,Yuri,Yuri,Yuri,ゆり,Yuri
+4,,,,,,,
+5,,,,,,,
+6,: infos,: infos,: infos,: inform.,: infos,: infos,: infos
+7,: search,: rechercher,: suche,: búsqueda,: search,: search,: search
+8,: alt. list,: alt. liste,: alt. liste,: alt. list,: alt. list,: alt. list,: alt. list
+9,: cancel,: retour,: zurück,: cancelar,: cancel,: cancel,: cancel
+10,: habitat,: habitat,: habitate,: hábitat,: habitat,: habitat,: habitat
+11,: forms,: formes,: formen,: formas,: forms,: forms,: forms
+12,: cry,: cri,: ruf,: grito,: cry,: cry,: cry
+13,: cancel,: retour,: zurück,: cancelar,: cancel,: cancel,: cancel
+14,: infos,: infos,: infos,: infos,: infos,: infos,: infos
+15,: sw. Pkmn,: éch. Pkmn,: tau. Pkmn,: cmb. Pkmn,: sw. Pkmn,: sw. Pkmn,: sw. Pkmn
+16,: sw. item,: éch. objet,: tau. item,: cmb. obj.,: sw. item,: sw. item,: sw. item
+17,: cancel,: retour,: zurück,: cancelar,: cancel,: cancel,: cancel
+18,,,,,,,
+19,Place,Lieu,Ort,Lugar,Place,Place,Place
+20,SEEN:,VUS :,GESEHEN:,VISTOS:,SEEN:,SEEN:,SEEN:
+21,OBTAINED:,PRIS :,ERHALTEN:,OBTEN.:,OBTAINED:,OBTAINED:,OBTAINED:
+22,Erase,Effacer,Löschen,Borrar,Erase,Erase,Erase
+23,Space,Espace,Space,Espacio,Space,Space,Space
+24,Caps,Maj,Caps,Mayúsculas,Caps,Caps,Caps
+25,Confirm,Valider,Confirm,Confirmar,Confirm,Confirm,Confirm
+26,Exit,Quitter,Exit,Salir,Exit,Exit,Exit
+27,Screen Size,Taille de l'écran,Screen Size,Tamaño de Pantalla,Screen Size,Screen Size,Screen Size
+28,Change the game screen resolution.,Modifier la résolution de l'écran de jeu.,Change the game screen resolution.,Cambia la resolución de Pantalla.,Change the game screen resolution.,Change the game screen resolution.,Change the game screen resolution.
+29,Volume,Volume,Volume,Volumen,Volume,Volume,Volume
+30,Set the volume of the music and sound effects.,Modifie le volume sonore des musiques et effets sonores.,Set the volume of the music and sound effects.,Cambia el volumen del audio.,Set the volume of the music and sound effects.,Set the volume of the music and sound effects.,Set the volume of the music and sound effects.
+31,Unknwon Zone,Zone Inconnue,Unknwon Zone,Zona Desconocida,Unknwon Zone,Unknwon Zone,Unknwon Zone
+32,Next map,Carte suivante,Next map,Siguiente mapa,Next map,Next map,Next map
+33,Zoom +/-,Zoom +/-,Zoom +/-,Aumentar +/-,Zoom +/-,Zoom +/-,Zoom +/-
+34,,,,,,,
+35,,,,,,,
+36,,,,,,,
+37,,,,,,,
+38,,,,,,,
+39,,,,,,,
+40,Trainer Memo,Mémo Dresseur,Trainer Memo,Ficha de Entrenador,Trainer Memo,Trainer Memo,Trainer Memo
+41,Infos,Info Pokémon,Infos,Info,Infos,Infos,Infos
+42,Skills,Aptitudes,Skills,Habilidades,Skills,Skills,Skills
+43,Moves,Capacités Combat,Moves,Movimientos,Moves,Moves,Moves
+44,Ability,Cap. Spé.,Ability,Habilidad,Ability,Ability,Ability
+45,Contests,Concours,Contests,Concursos,Contests,Contests,Contests
+46,Ribbons,Rubans,Ribbons,Cintas,Ribbons,Ribbons,Ribbons
+47,,,,,,,
+48,Main quests,Quêtes principales,Main quests,Misiones principales,Main quests,Main quests,Main quests
+49,"Side quests
+",Quêtes secondaires,Secondary quests,Misiones secundarias,Secondary quests,Secondary quests,Secondary quests
+50,Failed quests,Quêtes échouées,Failed quests,Misiones fallidas,Failed quests,Failed quests,Failed quests
+51,Cancel,Retour,Cancel,Cancelar,Cancel,Cancel,Cancel
+52,Find %{amount} %{item_name} (%{found}),Trouver %{amount} %{item_name} (%{found}),Find %{amount} %{item_name} (%{found}),Encuentra %{amount} %{item_name} (%{found}),Find %{amount} %{item_name} (%{found}),Find %{amount} %{item_name} (%{found}),Find %{amount} %{item_name} (%{found})
+53,Speak to %{name},Parler à %{name},Speak to %{name},Hablarle a %{name},Speak to %{name},Speak to %{name},Speak to %{name}
+54,See a %{name},Voir un %{name},See a %{name},Ver un %{name},See a %{name},See a %{name},See a %{name}
+55,Fight %{amount} %{name} (%{found}),Battre %{amount} %{name} (%{found}),Fight %{amount} %{name} (%{found}),Pelea %{amount} %{name} (%{found}),Fight %{amount} %{name} (%{found}),Fight %{amount} %{name} (%{found}),Fight %{amount} %{name} (%{found})
+56,Catch %{amount} %{name} (%{found}),Capturer %{amount} %{name} (%{found}),Obtain %{amount} %{name} (%{found}),Captura %{amount} %{name} (%{found}),Obtain %{amount} %{name} (%{found}),Obtain %{amount} %{name} (%{found}),Obtain %{amount} %{name} (%{found})
+57,Beat %{name} %{amount} times (%{found}),Battre %{name} %{amount} fois (%{found}),Beat %{name} %{amount} times (%{found}),Derrota a %{name} %{amount} veces (%{found}),Beat %{name} %{amount} times (%{found}),Beat %{name} %{amount} times (%{found}),Beat %{name} %{amount} times (%{found})
+58,Beat %{name},Battre %{name},Beat %{name},Derrota a %{name},Beat %{name},Beat %{name},Beat %{name}
+59,Find %{amount} eggs (%{found}),Trouver %{amount}  œufs (%{found}),Find %{amount} eggs (%{found}),Encuentra %{amount} huevos (%{found}),Find %{amount} eggs (%{found}),Find %{amount} eggs (%{found}),Find %{amount} eggs (%{found})
+60,Find an egg,Trouver un œuf,Find an egg,Encuentra un huevo,Find an egg,Find an egg,Find an egg
+61,Hatch %{amount} eggs (%{found}),Faire éclore %{amount}  œufs (%{found}),Hatch %{amount} eggs (%{found}),Eclosiona %{amount} huevos (%{found}),Hatch %{amount} eggs (%{found}),Hatch %{amount} eggs (%{found}),Hatch %{amount} eggs (%{found})
+62,Hatch an egg,Faire éclore un œuf,Hatch an egg,Eclosiona un huevo,Hatch an egg,Hatch an egg,Hatch an egg
+63, type %s, de type %s, type %s, de tipo %s, type %s, type %s, type %s
+64, nature %s, ayant la nature %s, nature %s, con la naturaleza %s, nature %s, nature %s, nature %s
+65, level %d, au niveau %d, level %d, nivel %d, level %d, level %d, level %d
+66, having minimum level %d,d'un niveau minimal de %d, having minimum level %d, con un nivel mínimo de %d, having minimum level %d, having minimum level %d, having minimum level %d
+67, to maximum level %d,à un niveau maximal de %d, to maximum level %d, hasta un nivel máximo de %d, to maximum level %d, to maximum level %d, to maximum level %d
+68, having maximum level %d,d'un niveau maximal de %d, having maximum level %d, teniendo un máximo de %d, having maximum level %d, having maximum level %d, having maximum level %d
+69,,,,,,,
+70,Weight: %.2f kg,Poids : %.2f kg,Weight: %.2f kg,Peso: %.2f kg,Weight: %.2f kg,Weight: %.2f kg,Weight: %.2f kg
+71,Height: %.2f m,Taille : %.2f m,Height: %.2f m,Altura: %.2f m,Height: %.2f m,Height: %.2f m,Height: %.2f m
+72,,,,,,,
+73,Palbolsky's PC,PC de Palbolsky,Palbolsky's PC,PC de Palbolsky,Palbolsky's PC,Palbolsky's PC,Palbolsky's PC
+74,Professor's PC,PC du Professeur,Professor's PC,PC del Profesor,Professor's PC,Professor's PC,Professor's PC
+75,Turn off,Déconnexion,Turn off,Apagar,Turn off,Turn off,Turn off
+76,,,,,,,
+77,Organize Boxes,Ranger les Boîtes,Organize Boxes,Organizar Cajas,Organize Boxes,Organize Boxes,Organize Boxes
+78,Withdraw Pokémon,Retirer des Pokémon,Withdraw Pokémon,Sacar Pokémon,Withdraw Pokémon,Withdraw Pokémon,Withdraw Pokémon
+79,Deposit Pokémon,Déposer des Pokémon,Deposit Pokémon,Depositar Pokémon,Deposit Pokémon,Deposit Pokémon,Deposit Pokémon
+80,Manage items,Gérer les objets,Manage items,Administrar objetos,Manage items,Manage items,Manage items
+81,See ya!,Quitter,See ya!,Salir,See ya!,See ya!,See ya!
+82,,,,,,,
+83,%s booted up the PC.,%s allume le PC.,%s booted up the PC.,%s encendió el PC.,%s booted up the PC.,%s booted up the PC.,%s booted up the PC.
+84,"Which PC to access ?
+",A quel PC souhaitez-vous accéder ?,"Which PC to access ?
+",¿A qué PC quieres acceder?,"Which PC to access ?
+","Which PC to access ?
+","Which PC to access ?
+"
+85,"What to do ?
+",Que voulez-vous faire ?,"What to do ?
+",¿Qué quieres hacer?,"What to do ?
+","What to do ?
+","What to do ?
+"
+86,Professor seems afk...,Le professeur semble absent pour le moment...,Professor seems afk...,Parece que el Profesor está ausente...,Professor seems afk...,Professor seems afk...,Professor seems afk...
+87,Cancel trade ?,Voulez-vous annuler l'échange ?,Cancel trade ?,¿Cancelar intercambio?,Cancel trade ?,Cancel trade ?,Cancel trade ?
+88,Choose the theme.\nlUse left and right arrow to switch theme.,Choisissez votre thème.\nl(Flèche gauche et droite pour changer de thème.),Choose the theme.\nlUse left and right arrow to switch theme.,Escoge un tema.\nlUsa la tecla izquierda y derecha para cambiar entre temas.,Choose the theme.\nlUse left and right arrow to switch theme.,Choose the theme.\nlUse left and right arrow to switch theme.,Choose the theme.\nlUse left and right arrow to switch theme.
+89,The new theme was registered.,Le nouveau thème a été enregistré.,The new theme was registered.,Se ha registrado un nuevo tema.,The new theme was registered.,The new theme was registered.,The new theme was registered.
+90,Trade,Échanger,Trade,Intercambiar,Trade,Trade,Trade
+91,%s holds no item.,%s ne tient rien.,%s holds no item.,%s no tiene nigún objeto.,%s holds no item.,%s holds no item.,%s holds no item.
+92,,,,,,,
+93,,,,,,,
+94,Do you accept the trade ?,Acceptez-vous l'échange ?,Do you accept the trade ?,¿Quieres aceptar el intercambio?,Do you accept the trade ?,Do you accept the trade ?,Do you accept the trade ?
+95,Yes,Oui,Yes,Sí,Yes,Yes,Yes
+96,No,Non,No,No,No,No,No
+97,You declined the trade[WAIT 40].[WAIT 40].[WAIT 40].,Vous refusez l'échange[WAIT 40].[WAIT 40].[WAIT 40].,You declined the trade[WAIT 40].[WAIT 40].[WAIT 40].,Rechazaste el intercambio[WAIT 40].[WAIT 40].[WAIT 40].,You declined the trade[WAIT 40].[WAIT 40].[WAIT 40].,You declined the trade[WAIT 40].[WAIT 40].[WAIT 40].,You declined the trade[WAIT 40].[WAIT 40].[WAIT 40].
+98,Trade done! (Animation will come later),Echange effectué (l'animation c'est pour plus tard),Trade done! (Animation will come later),¡Intercambio realizado! (La animación vendrá después),Trade done! (Animation will come later),Trade done! (Animation will come later),Trade done! (Animation will come later)
+99,Trade canceled...,L'échange a été annulé...,Trade canceled...,Intercambio cancelado...,Trade canceled...,Trade canceled...,Trade canceled...
+100,Give up ?,Voulez-vous abandonner ?,Give up ?,¿Darte por vencido?,Give up ?,Give up ?,Give up ?
+101,Your partner declined the trade.,Votre partenaire a refusé l'échange.,Your partner declined the trade.,Tu compañero rechazó el intercambio.,Your partner declined the trade.,Your partner declined the trade.,Your partner declined the trade.
+102,Do you wanna trade with %s (%05d)?,Voulez-vous échanger avec %s (%05d) ?,Do you wanna trade with %s (%05d)?,¿Quieres intercambiar con %s (%05d)?,Do you wanna trade with %s (%05d)?,Do you wanna trade with %s (%05d)?,Do you wanna trade with %s (%05d)?
+103,"Your code is \c[2]%s\c[0], give it to your partner...\nlYou can use CTRL+C to copy the code.","Votre code est \c[2]%s\c[0], donnez le à votre partenaire...\nlVous pouvez utiliser CTRL+C pour le copier.","Your code is \c[2]%s\c[0], give it to your partner...\nlYou can use CTRL+C to copy the code.","Your code is \c[2]%s\c[0], give it to your partner...\nlYou can use CTRL+C to copy the code.","Your code is \c[2]%s\c[0], give it to your partner...\nlYou can use CTRL+C to copy the code.","Your code is \c[2]%s\c[0], give it to your partner...\nlYou can use CTRL+C to copy the code.","Your code is \c[2]%s\c[0], give it to your partner...\nlYou can use CTRL+C to copy the code."
+104,PSDK wasn't able to port forward the server...,PSDK n'a pas réussi à ouvrir un port...,PSDK wasn't able to port forward the server...,PSDK wasn't able to port forward the server...,PSDK wasn't able to port forward the server...,PSDK wasn't able to port forward the server...,PSDK wasn't able to port forward the server...
+105,Enter your partner code.\nlYou can use CTRL+V to paste it.,Entrez le code de votre partenaire.\nlVous pouvez utiliser CTRL+V pour le coller.,Enter your partner code.\nlYou can use CTRL+V to paste it.,Enter your partner code.\nlYou can use CTRL+V to paste it.,Enter your partner code.\nlYou can use CTRL+V to paste it.,Enter your partner code.\nlYou can use CTRL+V to paste it.,Enter your partner code.\nlYou can use CTRL+V to paste it.
+106,Invalid code! Try another one ?,"Le code est invalide, désirez-vous réessayer ?",Invalid code! Try another one ?,Invalid code! Try another one ?,Invalid code! Try another one ?,Invalid code! Try another one ?,Invalid code! Try another one ?
+107,Your partner isn't connected with this code...\nlTry with another one ?,Le partenaire désigné par le code ne répond pas...\nlDésirez vous entrer un autre code ?,Your partner isn't connected with this code...\nlTry with another one ?,Your partner isn't connected with this code...\nlTry with another one ?,Your partner isn't connected with this code...\nlTry with another one ?,Your partner isn't connected with this code...\nlTry with another one ?,Your partner isn't connected with this code...\nlTry with another one ?
+108,"\c[2]Warning, you're trading on a local network.","\c[2]Attention, votre échange se fait sur le réseau local.","\c[2]Warning, you're trading on a local network.","\c[2]Warning, you're trading on a local network.","\c[2]Warning, you're trading on a local network.","\c[2]Warning, you're trading on a local network.","\c[2]Warning, you're trading on a local network."
+109,Your partner gave up...,Votre partenaire a abandonné l'échange.,Your partner given up...,Tu compañero se dio por vencido...,Your partner given up...,Your partner given up...,Your partner given up...
+110,Connexion reset.,La connexion a été interrompue.,Connexion reset.,Reiniciar conexión.,Connexion reset.,Connexion reset.,Connexion reset.
+111,,,,,,,
+112,: next,: suivant,: next,: siguiente,: next,: next,: 다음
+113,: moves,: attaques,: attacken,: movimient.,: moves,: moves,: 이동
+114,: stats,: stats,: stats,: estadís.,: stats,: stats,: 통계
+115,: quit,: quitter,: beenden,: salir,: quit,: quit,: 종료
+116,: memo,: memo,: memo,: informe,: memo,: memo,: 메모
+117,: select,: choisir,: select,: elegir,: select,: select,: 고르다
+118,: switch,: déplacer,: tausch,: cambiar,: switch,: switch,: 스위치
+119,: confirm,: confirmer,: bestätigen,: confirmar,: confirm,: confirm,: 확인
+120,Choose a move,Choisissez une attaque,Choose a move,Escoge un movimiento,Choose a move,Choose a move,이동을 선택
+121,,,,,,,
+122,,,,,,,
+123,Voltorb Flip,Voltorbataille,Voltorb Flip,Voltorb Flip,Voltorb Flip,Voltorb Flip,Voltorb Flip
+124,Welcome to the Voltorb Flip !,Bienvenue au Voltorbataille !,Welcome to the Voltorb Flip !,Welcome to the Voltorb Flip !,Welcome to the Voltorb Flip !,Welcome to the Voltorb Flip !,Welcome to the Voltorb Flip !
+125,Play Voltorb Flip level %d ?,Jouer à Voltorbataille niveau %d ?,Play Voltorb Flip level %d ?,Play Voltorb Flip level %d ?,Play Voltorb Flip level %d ?,Play Voltorb Flip level %d ?,Play Voltorb Flip level %d ?
+126,Play,Jouer,Play,Play,Play,Play,Play
+127,Infos,Infos,Infos,Infos,Infos,Infos,Infos
+128,Leave,Partir,Leave,Leave,Leave,Leave,Leave
+129,What do you want to know ?,Que voulez-vous savoir ?,What do you want to know ?,What do you want to know ?,What do you want to know ?,What do you want to know ?,What do you want to know ?
+130,Rules,Règles,Rules,Rules,Rules,Rules,Rules
+131,Clue,Indices,Clue,Clue,Clue,Clue,Clue
+132,The memo,Le mémo,The memo,The memo,The memo,The memo,The memo
+133,Back,Retour,Back,Back,Back,Back,Back
+134,_RULES_,_RULES_,_RULES_,_RULES_,_RULES_,_RULES_,_RULES_
+135,_CLUE_,_CLUE_,_CLUE_,_CLUE_,_CLUE_,_CLUE_,_CLUE_
+136,_MEMO_,_MEMO_,_MEMO_,_MEMO_,_MEMO_,_MEMO_,_MEMO_
+137,Choose 'Quit' now will make you earn %d coin.\nlQuit now ?,Choisir 'Quitter' maintenant vous permet d'empocher %d jetons.\nlQuitter maintenant ?,Choose 'Quit' now will make you earn %d coin.\nlQuit now ?,Choose 'Quit' now will make you earn %d coin.\nlQuit now ?,Choose 'Quit' now will make you earn %d coin.\nlQuit now ?,Choose 'Quit' now will make you earn %d coin.\nlQuit now ?,Choose 'Quit' now will make you earn %d coin.\nlQuit now ?
+138,You've get %d coins !,Vous empochez %d jetons !,You've get %d coins !,You've get %d coins !,You've get %d coins !,You've get %d coins !,You've get %d coins !
+139,Game level down to %d.,Le jeu est descendu au niveau %d.,Game level down to %d.,Game level down to %d.,Game level down to %d.,Game level down to %d.,Game level down to %d.
+140,Win !,Gagné !,Win !,Win !,Win !,Win !,Win !
+141,Every cards with 2 or 3 points are revealed...,Toutes les cartes de 2 et ou 3 points ont été retournées...,Every cards with 2 or 3 points are revealed...,Every cards with 2 or 3 points are revealed...,Every cards with 2 or 3 points are revealed...,Every cards with 2 or 3 points are revealed...,Every cards with 2 or 3 points are revealed...
+142,You won %d jetons !,Vous gagnez %d jetons !,You won %d jetons !,You won %d jetons !,You won %d jetons !,You won %d jetons !,You won %d jetons !
+143,"Game level raise to %d, gains are more important.","Le jeu est monté niveau %d, les gains sont plus importants.","Game level raise to %d, gains are more important.","Game level raise to %d, gains are more important.","Game level raise to %d, gains are more important.","Game level raise to %d, gains are more important.","Game level raise to %d, gains are more important."
+144,You loose every coin of the game...,Vous perdez tous les jetons de la manche...,You loose every coin of the game...,You loose every coin of the game...,You loose every coin of the game...,You loose every coin of the game...,You loose every coin of the game...
+145,L%d,N%d,L%d,L%d,L%d,L%d,L%d
+146,,,,,,,
+147,New,Début de :,Neue,Nueva:,New,New,New
+148,Completed,Fin de :,Completed,¡Completada!,Completed,Completed,Completed
+149,,,,,,,
+150,Letter,Lettres,Brief,Carta,Letter,Letter,Letter
+151,Favorites,Favoris,Favoriten,Favoritos,Favorites,Favorites,Favorites
+152,: action,: action,: action,: acción,: action,: action,: action
+153,: info,: info,: info,: informac.,: info,: info,: info
+154,: sort,: trier,: sort,: ordenar,: sort,: sort,: sort
+155,: sell,: vendre,: verkaufen,: vender,: sell,: sell,: sell
+156,: plant,: planter,: pflanzen,: plantar,: plant,: plant,: plant
+157,: give,: donner,: geben,: dar,: give,: give,: give
+158,: choose,: choisir,: wähle,: escoger,: choose,: choose,: choose
+159,: use,: utiliser,: benutze,: usar,: use,: use,: use
+160,Searching...,Rechercher...,Sucht...,Buscando...,Searching...,Searching...,Searching...
+161,,,,,,,
+162,Use your keyboard and press ENTER,Utilisez le clavier pour entrer le nom puis appuyez sur Entrée.,Use your keyboard and press ENTER,Use your keyboard and press ENTER,Use your keyboard and press ENTER,Use your keyboard and press ENTER,Use your keyboard and press ENTER
+163,How would you name %<name>s?,Comment renommer %<name>s ?,How would you name %<name>s?,How would you name %<name>s?,How would you name %<name>s?,How would you name %<name>s?,How would you name %<name>s?
+164,,,,,,,
+165,Message Frame,Fenêtres,Message Frame,Message Frame,Message Frame,Message Frame,Message Frame
+166,Choose the message box frame.\nlPress A to test!,Modifie la fenêtre des messages.\nlAppuyez sur A pour tester !,Choose the message box frame.\nlPress A to test!,Choose the message box frame.\nlPress A to test!,Choose the message box frame.\nlPress A to test!,Choose the message box frame.\nlPress A to test!,Choose the message box frame.\nlPress A to test!
+167,Language,Langue,Language,Language,Language,Language,Language
+168,Choose the language of the game.,Modifie la langue utilisé par le jeu.,Choose the language of the game.,Choose the language of the game.,Choose the language of the game.,Choose the language of the game.,Choose the language of the game.

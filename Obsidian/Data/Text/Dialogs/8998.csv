@@ -1,0 +1,35 @@
+Index,en,fr,es
+0,Key PSDK,Tch. PSDK,Tecla PSDK
+1,Description,Description,Descripción
+2,Binding,Association,Asociada
+3,,,
+4,A,A,A
+5,B,B,B
+6,X,X,X
+7,Y,Y,Y
+8,UP,HAUT,ARRIBA
+9,DOWN,BAS,ABAJO
+10,RIGHT,DROITE,DERECHA
+11,LEFT,GAUCHE,IZQUIERDA
+12,,,
+13,"Validate, Speak, Action","Valider, Parler, Agir","Validar, Hablar, Acción"
+14,"Cancel, Run, Quit","Annuler, Courir, Quitter","Cancelar, Correr, Salir"
+15,Open menu,Ouvrir le menu,Abrir el menú
+16,Shortcut,Raccourcis,Atajo
+17,Move Up,Déplacement haut,Mover Arriba
+18,Move Down,Déplacement bas,Mover Abajo
+19,Move Right,Déplacement droite,Mover Derecha
+20,Move Left,Déplacement gauche,Mover Izquierda
+21,,,
+22,: Sel. key,: Chx. touche,: Tecla Select
+23,: JoyPad k.,: t. manette,: Tecla JoyPad
+24,: Reset,: R. à Zéro,: Reiniciar
+25,: Quit,: Quitter,: Salir
+26,: Chg. key,: Chg. Touche,: Cmb Tecla
+27,,,
+28,No joypad connected.,Aucune manette connectée.,No hay un mando conectado.
+29,Press a key,Appuyez sur une touche,Pulsar una tecla
+30,Invalid key,Touche invalide,Tecla no válida
+31,Do you want to cancel or use this key ?,Voulez-vous annuler ou utiliser cette touche ?,¿Quieres cancelar o usar esta tecla?
+32,Cancel,Annuler,Cancelar
+33,Use key,Utiliser la touche,Usar la tecla

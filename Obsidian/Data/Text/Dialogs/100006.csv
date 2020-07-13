@@ -1,0 +1,721 @@
+en,fr,it,de,es,ko,kana
+———,―――――,-----,-----,-,―――――,―――――
+Pound,Écras’Face,Botta,Pfund,Destructor,막치기,はたく
+Karate Chop,Poing-Karaté,Colpokarate,Karateschlag,Golpe Kárate,태권당수,からてチョップ
+Double Slap,Torgnoles,Doppiasberla,Duplexhieb,Doble Bofetón,연속뺨치기,おうふくビンタ
+Comet Punch,Poing Comète,Cometapugno,Kometenhieb,Puño Cometa,연속펀치,れんぞくパンチ
+Mega Punch,Ultimapoing,Megapugno,Megahieb,Megapuño,메가톤펀치,メガトンパンチ
+Pay Day,Jackpot,Giornopaga,Zahltag,Día de Pago,고양이돈받기,ネコにこばん
+Fire Punch,Poing de Feu,Fuocopugno,Feuerschlag,Puño Fuego,불꽃펀치,ほのおのパンチ
+Ice Punch,Poing-Glace,Gelopugno,Eishieb,Puño Hielo,냉동펀치,れいとうパンチ
+Thunder Punch,Poing-Éclair,Tuonopugno,Donnerschlag,Puño Trueno,번개펀치,かみなりパンチ
+Scratch,Griffe,Graffio,Kratzer,Arañazo,할퀴기,ひっかく
+Vice Grip,Force Poigne,Presa,Klammer,Agarre,찝기,はさむ
+Guillotine,Guillotine,Ghigliottina,Guillotine,Guillotina,가위자르기,ハサミギロチン
+Razor Wind,Coupe-Vent,Ventagliente,Klingensturm,Viento Cortante,칼바람,かまいたち
+Swords Dance,Danse-Lames,Danzaspada,Schwerttanz,Danza Espada,칼춤,つるぎのまい
+Cut,Coupe,Taglio,Zerschneider,Corte,풀베기,いあいぎり
+Gust,Tornade,Raffica,Windstoß,Tornado,바람일으키기,かぜおこし
+Wing Attack,Cru-Aile,Attacco d’Ala,Flügelschlag,Ataque Ala,날개치기,つばさでうつ
+Whirlwind,Cyclone,Turbine,Wirbelwind,Remolino,날려버리기,ふきとばし
+Fly,Vol,Volo,Fliegen,Vuelo,공중날기,そらをとぶ
+Bind,Étreinte,Legatutto,Klammergriff,Atadura,조이기,しめつける
+Slam,Souplesse,Schianto,Slam,Atizar,힘껏치기,たたきつける
+Vine Whip,Fouet Lianes,Frustata,Rankenhieb,Látigo Cepa,덩굴채찍,つるのムチ
+Stomp,Écrasement,Pestone,Stampfer,Pisotón,짓밟기,ふみつけ
+Double Kick,Double Pied,Doppiocalcio,Doppelkick,Doble Patada,두번치기,にどげり
+Mega Kick,Ultimawashi,Megacalcio,Megakick,Megapatada,메가톤킥,メガトンキック
+Jump Kick,Pied Sauté,Calciosalto,Sprungkick,Patada Salto,점프킥,とびげり
+Rolling Kick,Mawashi Geri,Calciorullo,Fegekick,Patada Giro,돌려차기,まわしげり
+Sand Attack,Jet de Sable,Turbosabbia,Sandwirbel,Ataque Arena,모래뿌리기,すなかけ
+Headbutt,Coup d’Boule,Bottintesta,Kopfnuss,Golpe Cabeza,박치기,ずつき
+Horn Attack,Koud’Korne,Incornata,Hornattacke,Cornada,뿔찌르기,つのでつく
+Fury Attack,Furie,Furia,Furienschlag,Ataque Furia,마구찌르기,みだれづき
+Horn Drill,Empal’Korne,Perforcorno,Hornbohrer,Perforador,뿔드릴,つのドリル
+Tackle,Charge,Azione,Tackle,Placaje,몸통박치기,たいあたり
+Body Slam,Plaquage,Corposcontro,Bodyslam,Golpe Cuerpo,누르기,のしかかり
+Wrap,Ligotage,Avvolgibotta,Wickel,Constricción,김밥말이,まきつく
+Take Down,Bélier,Riduttore,Bodycheck,Derribo,돌진,とっしん
+Thrash,Mania,Colpo,Fuchtler,Golpe,난동부리기,あばれる
+Double-Edge,Damoclès,Sdoppiatore,Risikotackle,Doble Filo,이판사판태클,すてみタックル
+Tail Whip,Mimi-Queue,Colpocoda,Rutenschlag,Látigo,꼬리흔들기,しっぽをふる
+Poison Sting,Dard-Venin,Velenospina,Giftstachel,Picotazo Ven,독침,どくばり
+Twineedle,Double-Dard,Doppio Ago,Duonadel,Doble Ataque,더블니들,ダブルニードル
+Pin Missile,Dard-Nuée,Missilspillo,Nadelrakete,Pin Misil,바늘미사일,ミサイルばり
+Leer,Groz’Yeux,Fulmisguardo,Silberblick,Malicioso,째려보기,にらみつける
+Bite,Morsure,Morso,Biss,Mordisco,물기,かみつく
+Growl,Rugissement,Ruggito,Heuler,Gruñido,울음소리,なきごえ
+Roar,Hurlement,Boato,Brüller,Rugido,울부짖기,ほえる
+Sing,Berceuse,Canto,Gesang,Canto,노래하기,うたう
+Supersonic,Ultrason,Supersuono,Superschall,Supersónico,초음파,ちょうおんぱ
+Sonic Boom,Sonicboom,Sonicboom,Ultraschall,Bomba Sónica,소닉붐,ソニックブーム
+Disable,Entrave,Inibitore,Aussetzer,Anulación,사슬묶기,かなしばり
+Acid,Acide,Acido,Säure,Ácido,용해액,ようかいえき
+Ember,Flammèche,Braciere,Glut,Ascuas,불꽃세례,ひのこ
+Flamethrower,Lance-Flammes,Lanciafiamme,Flammenwurf,Lanzallamas,화염방사,かえんほうしゃ
+Mist,Brume,Nebbia,Weißnebel,Neblina,흰안개,しろいきり
+Water Gun,Pistolet à O,Pistolacqua,Aquaknarre,Pistola Agua,물대포,みずでっぽう
+Hydro Pump,Hydrocanon,Idropompa,Hydropumpe,Hidrobomba,하이드로펌프,ハイドロポンプ
+Surf,Surf,Surf,Surfer,Surf,파도타기,なみのり
+Ice Beam,Laser Glace,Geloraggio,Eisstrahl,Rayo Hielo,냉동빔,れいとうビーム
+Blizzard,Blizzard,Bora,Blizzard,Ventisca,눈보라,ふぶき
+Psybeam,Rafale Psy,Psicoraggio,Psystrahl,Psicorrayo,환상빔,サイケこうせん
+Bubble Beam,Bulles d’O,Bollaraggio,Blubbstrahl,Rayo Burbuja,거품광선,バブルこうせん
+Aurora Beam,Onde Boréale,Raggiaurora,Aurorastrahl,Rayo Aurora,오로라빔,オーロラビーム
+Hyper Beam,Ultralaser,Iper Raggio,Hyperstrahl,Hiperrayo,파괴광선,はかいこうせん
+Peck,Picpic,Beccata,Schnabel,Picotazo,쪼기,つつく
+Drill Peck,Bec Vrille,Perforbecco,Bohrschnabel,Pico Taladro,회전부리,ドリルくちばし
+Submission,Sacrifice,Sottomissione,Überroller,Sumisión,지옥의바퀴,じごくぐるま
+Low Kick,Balayage,Colpo Basso,Fußkick,Patada Baja,안다리걸기,けたぐり
+Counter,Riposte,Contrattacco,Konter,Contraataque,카운터,カウンター
+Seismic Toss,Frappe Atlas,Movim. Sismico,Geowurf,Mov. Sísmico,지구던지기,ちきゅうなげ
+Strength,Force,Forza,Stärke,Fuerza,괴력,かいりき
+Absorb,Vol-Vie,Assorbimento,Absorber,Absorber,흡수,すいとる
+Mega Drain,Méga-Sangsue,Megassorbimento,Megasauger,Megaagotar,메가드레인,メガドレイン
+Leech Seed,Vampigraine,Parassiseme,Egelsamen,Drenadoras,씨뿌리기,やどりぎのタネ
+Growth,Croissance,Crescita,Wachstum,Desarrollo,성장,せいちょう
+Razor Leaf,Tranch’Herbe,Foglielama,Rasierblatt,Hoja Afilada,잎날가르기,はっぱカッター
+Solar Beam,Lance-Soleil,Solarraggio,Solarstrahl,Rayo Solar,솔라빔,ソーラービーム
+Poison Powder,Poudre Toxik,Velenpolvere,Giftpuder,Polvo Veneno,독가루,どくのこな
+Stun Spore,Para-Spore,Paralizzante,Stachelspore,Paralizador,저리가루,しびれごな
+Sleep Powder,Poudre Dodo,Sonnifero,Schlafpuder,Somnífero,수면가루,ねむりごな
+Petal Dance,Danse-Fleur,Petalodanza,Blättertanz,Danza Pétalo,꽃잎댄스,はなびらのまい
+String Shot,Sécrétion,Millebave,Fadenschuss,Disparo Demora,실뿜기,いとをはく
+Dragon Rage,Draco-Rage,Ira di Drago,Drachenwut,Furia Dragón,용의분노,りゅうのいかり
+Fire Spin,Danse Flamme,Turbofuoco,Feuerwirbel,Giro Fuego,회오리불꽃,ほのおのうず
+Thunder Shock,Éclair,Tuonoshock,Donnerschock,Impactrueno,전기쇼크,でんきショック
+Thunderbolt,Tonnerre,Fulmine,Donnerblitz,Rayo,10만볼트,１０まんボルト
+Thunder Wave,Cage-Éclair,Tuononda,Donnerwelle,Onda Trueno,전기자석파,でんじは
+Thunder,Fatal-Foudre,Tuono,Donner,Trueno,번개,かみなり
+Rock Throw,Jet-Pierres,Sassata,Steinwurf,Lanzarrocas,돌떨구기,いわおとし
+Earthquake,Séisme,Terremoto,Erdbeben,Terremoto,지진,じしん
+Fissure,Abîme,Abisso,Geofissur,Fisura,땅가르기,じわれ
+Dig,Tunnel,Fossa,Schaufler,Excavar,구멍파기,あなをほる
+Toxic,Toxik,Tossina,Toxin,Tóxico,맹독,どくどく
+Confusion,Choc Mental,Confusione,Konfusion,Confusión,염동력,ねんりき
+Psychic,Psyko,Psichico,Psychokinese,Psíquico,사이코키네시스,サイコキネシス
+Hypnosis,Hypnose,Ipnosi,Hypnose,Hipnosis,최면술,さいみんじゅつ
+Meditate,Yoga,Meditazione,Meditation,Meditación,요가포즈,ヨガのポーズ
+Agility,Hâte,Agilità,Agilität,Agilidad,고속이동,こうそくいどう
+Quick Attack,Vive-Attaque,Attacco Rapido,Ruckzuckhieb,Ataque Rápido,전광석화,でんこうせっか
+Rage,Frénésie,Ira,Raserei,Furia,분노,いかり
+Teleport,Téléport,Teletrasporto,Teleport,Teletransporte,순간이동,テレポート
+Night Shade,Ombre Nocturne,Ombra Notturna,Nachtnebel,Tinieblas,나이트헤드,ナイトヘッド
+Mimic,Copie,Mimica,Mimikry,Mimético,흉내내기,ものまね
+Screech,Grincement,Stridio,Kreideschrei,Chirrido,싫은소리,いやなおと
+Double Team,Reflet,Doppioteam,Doppelteam,Doble Equipo,그림자분신,かげぶんしん
+Recover,Soin,Ripresa,Genesung,Recuperación,HP회복,じこさいせい
+Harden,Armure,Rafforzatore,Härtner,Fortaleza,단단해지기,かたくなる
+Minimize,Lilliput,Minimizzato,Komprimator,Reducción,작아지기,ちいさくなる
+Smokescreen,Brouillard,Muro di Fumo,Rauchwolke,Pantalla de Humo,연막,えんまく
+Confuse Ray,Onde Folie,Stordiraggio,Konfustrahl,Rayo Confuso,이상한빛,あやしいひかり
+Withdraw,Repli,Ritirata,Panzerschutz,Refugio,껍질에숨기,からにこもる
+Defense Curl,Boul’Armure,Ricciolscudo,Einigler,Rizo Defensa,웅크리기,まるくなる
+Barrier,Bouclier,Barriera,Barriere,Barrera,배리어,バリアー
+Light Screen,Mur Lumière,Schermoluce,Lichtschild,Pantalla de Luz,빛의장막,ひかりのかべ
+Haze,Buée Noire,Nube,Dunkelnebel,Niebla,흑안개,くろいきり
+Reflect,Protection,Riflesso,Reflektor,Reflejo,리플렉터,リフレクター
+Focus Energy,Puissance,Focalenergia,Energiefokus,Foco Energía,기충전,きあいだめ
+Bide,Patience,Pazienza,Geduld,Venganza,참기,がまん
+Metronome,Métronome,Metronomo,Metronom,Metrónomo,손가락흔들기,ゆびをふる
+Mirror Move,Mimique,Speculmossa,Spiegeltrick,Mov. Espejo,따라하기,オウムがえし
+Self-Destruct,Destruction,Autodistruzione,Finale,Autodestrucción,자폭,じばく
+Egg Bomb,Bomb’Œuf,Uovobomba,Eierbombe,Bomba Huevo,알폭탄,タマゴばくだん
+Lick,Léchouille,Leccata,Schlecker,Lengüetazo,핥기,したでなめる
+Smog,Purédpois,Smog,Smog,Polución,스모그,スモッグ
+Sludge,Détritus,Fango,Schlammbad,Residuos,오물공격,ヘドロこうげき
+Bone Club,Massd’Os,Ossoclava,Knochenkeule,Hueso Palo,뼈다귀치기,ホネこんぼう
+Fire Blast,Déflagration,Fuocobomba,Feuersturm,Llamarada,불대문자,だいもんじ
+Waterfall,Cascade,Cascata,Kaskade,Cascada,폭포오르기,たきのぼり
+Clamp,Claquoir,Tenaglia,Schnapper,Tenaza,껍질끼우기,からではさむ
+Swift,Météores,Comete,Sternschauer,Rapidez,스피드스타,スピードスター
+Skull Bash,Coud’Krâne,Capocciata,Schädelwumme,Cabezazo,로케트박치기,ロケットずつき
+Spike Cannon,Picanon,Sparalance,Dornkanone,Clavo Cañón,가시대포,とげキャノン
+Constrict,Constriction,Limitazione,Umklammerung,Restricción,휘감기,からみつく
+Amnesia,Amnésie,Amnesia,Amnesie,Amnesia,망각술,ドわすれ
+Kinesis,Télékinésie,Cinèsi,Psykraft,Kinético,숟가락휘기,スプーンまげ
+Soft-Boiled,E-Coque,Covauova,Weichei,Amortiguador,알낳기,タマゴうみ
+High Jump Kick,Pied Voltige,Calcinvolo,Turmkick,Pat. Salto Alta,무릎차기,とびひざげり
+Glare,Regard Médusant,Sguardo Feroce,Giftblick,Deslumbrar,뱀눈초리,へびにらみ
+Dream Eater,Dévorêve,Mangiasogni,Traumfresser,Come Sueños,꿈먹기,ゆめくい
+Poison Gas,Gaz Toxik,Velenogas,Giftwolke,Gas Venenoso,독가스,どくガス
+Barrage,Pilonnage,Attacco Pioggia,Stakkato,Presa,구슬던지기,たまなげ
+Leech Life,Vampirisme,Sanguisuga,Blutsauger,Chupavidas,흡혈,きゅうけつ
+Lovely Kiss,Grobisou,Demonbacio,Todeskuss,Beso Amoroso,악마의키스,あくまのキッス
+Sky Attack,Piqué,Aeroattacco,Himmelsfeger,Ataque Aéreo,불새,ゴッドバード
+Transform,Morphing,Trasformazione,Wandler,Transformación,변신,へんしん
+Bubble,Écume,Bolla,Blubber,Burbuja,거품,あわ
+Dizzy Punch,Uppercut,Stordipugno,Irrschlag,Puño Mareo,잼잼펀치,ピヨピヨパンチ
+Spore,Spore,Spora,Pilzspore,Espora,버섯포자,キノコのほうし
+Flash,Flash,Flash,Blitz,Destello,플래시,フラッシュ
+Psywave,Vague Psy,Psiconda,Psywelle,Psicoonda,사이코웨이브,サイコウェーブ
+Splash,Trempette,Splash,Platscher,Salpicadura,튀어오르기,はねる
+Acid Armor,Acidarmure,Scudo Acido,Säurepanzer,Armadura Ácida,녹기,とける
+Crabhammer,Pince-Masse,Martellata,Krabbhammer,Martillazo,찝게햄머,クラブハンマー
+Explosion,Explosion,Esplosione,Explosion,Explosión,대폭발,だいばくはつ
+Fury Swipes,Combo-Griffe,Sfuriate,Kratzfurie,Golpes Furia,마구할퀴기,みだれひっかき
+Bonemerang,Osmerang,Ossomerang,Knochmerang,Huesomerang,뼈다귀부메랑,ホネブーメラン
+Rest,Repos,Riposo,Erholung,Descanso,잠자기,ねむる
+Rock Slide,Éboulement,Frana,Steinhagel,Avalancha,스톤샤워,いわなだれ
+Hyper Fang,Croc de Mort,Iperzanna,Hyperzahn,Hipercolmillo,필살앞니,ひっさつまえば
+Sharpen,Affûtage,Affilatore,Schärfer,Afilar,각지기,かくばる
+Conversion,Conversion,Conversione,Umwandlung,Conversión,텍스처,テクスチャー
+Tri Attack,Triplattaque,Tripletta,Triplette,Triataque,트라이어택,トライアタック
+Super Fang,Croc Fatal,Superzanna,Superzahn,Superdiente,분노의앞니,いかりのまえば
+Slash,Tranche,Lacerazione,Schlitzer,Cuchillada,베어가르기,きりさく
+Substitute,Clonage,Sostituto,Delegator,Sustituto,대타출동,みがわり
+Struggle,Lutte,Scontro,Verzweifler,Forcejeo,발버둥,わるあがき
+Sketch,Gribouille,Schizzo,Nachahmer,Esquema,스케치,スケッチ
+Triple Kick,Triple Pied,Triplocalcio,Dreifachkick,Triple Patada,트리플킥,トリプルキック
+Thief,Larcin,Furto,Raub,Ladrón,도둑질,どろぼう
+Spider Web,Toile,Ragnatela,Spinnennetz,Telaraña,거미집,クモのす
+Mind Reader,Lire-Esprit,Leggimente,Willensleser,Telépata,마음의눈,こころのめ
+Nightmare,Cauchemar,Incubo,Nachtmahr,Pesadilla,악몽,あくむ
+Flame Wheel,Roue de Feu,Ruotafuoco,Flammenrad,Rueda Fuego,화염자동차,かえんぐるま
+Snore,Ronflement,Russare,Schnarcher,Ronquido,코골기,いびき
+Curse,Malédiction,Maledizione,Fluch,Maldición,저주,のろい
+Flail,Fléau,Flagello,Dreschflegel,Azote,바둥바둥,じたばた
+Conversion 2,Conversion 2,Conversione2,Umwandlung2,Conversión2,텍스처2,テクスチャー２
+Aeroblast,Aéroblast,Aerocolpo,Luftstoß,Aerochorro,에어로블라스트,エアロブラスト
+Cotton Spore,Spore Coton,Cottonspora,Baumwollsaat,Esporagodón,목화포자,わたほうし
+Reversal,Contre,Contropiede,Gegenschlag,Inversión,기사회생,きしかいせい
+Spite,Dépit,Dispetto,Groll,Rencor,원한,うらみ
+Powder Snow,Poudreuse,Polneve,Pulverschnee,Nieve Polvo,눈싸라기,こなゆき
+Protect,Abri,Protezione,Schutzschild,Protección,방어,まもる
+Mach Punch,Mach Punch,Pugnorapido,Tempohieb,Ultrapuño,마하펀치,マッハパンチ
+Scary Face,Grimace,Visotruce,Grimasse,Cara Susto,겁나는얼굴,こわいかお
+Feint Attack,Feinte,Finta,Finte,Finta,속여때리기,だましうち
+Sweet Kiss,Doux Baiser,Dolcebacio,Bitterkuss,Beso Dulce,천사의키스,てんしのキッス
+Belly Drum,Cognobidon,Panciamburo,Bauchtrommel,Tambor,배북,はらだいこ
+Sludge Bomb,Bomb-Beurk,Fangobomba,Matschbombe,Bomba Lodo,오물폭탄,ヘドロばくだん
+Mud-Slap,Coud’Boue,Fangosberla,Lehmschelle,Bofetón Lodo,진흙뿌리기,どろかけ
+Octazooka,Octazooka,Octazooka,Octazooka,Pulpocañón,대포무노포,オクタンほう
+Spikes,Picots,Punte,Stachler,Púas,압정뿌리기,まきびし
+Zap Cannon,Élecanon,Falcecannone,Blitzkanone,Electrocañón,전자포,でんじほう
+Foresight,Clairvoyance,Preveggenza,Gesichte,Profecía,꿰뚫어보기,みやぶる
+Destiny Bond,Prélèvem. Destin,Destinobbligato,Abgangsbund,Mismo Destino,길동무,みちづれ
+Perish Song,Requiem,Ultimocanto,Abgesang,Canto Mortal,멸망의노래,ほろびのうた
+Icy Wind,Vent Glace,Ventogelato,Eissturm,Viento Hielo,얼다바람,こごえるかぜ
+Detect,Détection,Individua,Scanner,Detección,판별,みきり
+Bone Rush,Charge-Os,Ossoraffica,Knochenhatz,Ataque Óseo,본러쉬,ボーンラッシュ
+Lock-On,Verrouillage,Localizza,Zielschuss,Fijar Blanco,록온,ロックオン
+Outrage,Colère,Oltraggio,Wutanfall,Enfado,역린,げきりん
+Sandstorm,Tempête de Sable,Terrempesta,Sandsturm,Tormenta Arena,모래바람,すなあらし
+Giga Drain,Giga-Sangsue,Gigassorbimento,Gigasauger,Gigadrenado,기가드레인,ギガドレイン
+Endure,Ténacité,Resistenza,Ausdauer,Aguante,버티기,こらえる
+Charm,Charme,Fascino,Charme,Encanto,애교부리기,あまえる
+Rollout,Roulade,Rotolamento,Walzer,Desenrollar,구르기,ころがる
+False Swipe,Faux-Chage,Falsofinale,Trugschlag,Falsotortazo,칼등치기,みねうち
+Swagger,Vantardise,Bullo,Angeberei,Contoneo,뽐내기,いばる
+Milk Drink,Lait à Boire,Buonlatte,Milchgetränk,Batido,우유마시기,ミルクのみ
+Spark,Étincelle,Scintilla,Funkensprung,Chispa,스파크,スパーク
+Fury Cutter,Taillade,Tagliofuria,Zornklinge,Corte Furia,연속자르기,れんぞくぎり
+Steel Wing,Aile d’Acier,Alacciaio,Stahlflügel,Ala de Acero,강철날개,はがねのつばさ
+Mean Look,Regard Noir,Malosguardo,Horrorblick,Mal de Ojo,검은눈빛,くろいまなざし
+Attract,Attraction,Attrazione,Anziehung,Atracción,헤롱헤롱,メロメロ
+Sleep Talk,Blabla Dodo,Sonnolalia,Schlafrede,Sonámbulo,잠꼬대,ねごと
+Heal Bell,Glas de Soin,Rintoccasana,Vitalglocke,Campana Cura,치료방울,いやしのすず
+Return,Retour,Ritorno,Rückkehr,Retribución,은혜갚기,おんがえし
+Present,Cadeau,Regalino,Geschenk,Presente,프레젠트,プレゼント
+Frustration,Frustration,Frustrazione,Frustration,Frustración,화풀이,やつあたり
+Safeguard,Rune Protect,Salvaguardia,Bodyguard,Velo Sagrado,신비의부적,しんぴのまもり
+Pain Split,Balance,Malcomune,Leidteiler,Divide Dolor,아픔나누기,いたみわけ
+Sacred Fire,Feu Sacré,Magifuoco,Läuterfeuer,Fuego Sagrado,성스러운불꽃,せいなるほのお
+Magnitude,Ampleur,Magnitudo,Intensität,Magnitud,매그니튜드,マグニチュード
+Dynamic Punch,Dynamopoing,Dinamipugno,Wuchtschlag,Puño Dinámico,폭발펀치,ばくれつパンチ
+Megahorn,Mégacorne,Megacorno,Vielender,Megacuerno,메가폰,メガホーン
+Dragon Breath,Dracosouffle,Dragospiro,Feuerodem,Dragoaliento,용의숨결,りゅうのいぶき
+Baton Pass,Relais,Staffetta,Stafette,Relevo,바톤터치,バトンタッチ
+Encore,Encore,Ripeti,Zugabe,Otra Vez,앵콜,アンコール
+Pursuit,Poursuite,Inseguimento,Verfolgung,Persecución,따라가때리기,おいうち
+Rapid Spin,Tour Rapide,Rapigiro,Turbodreher,Giro Rápido,고속스핀,こうそくスピン
+Sweet Scent,Doux Parfum,Profumino,Lockduft,Dulce Aroma,달콤한향기,あまいかおり
+Iron Tail,Queue de Fer,Codacciaio,Eisenschweif,Cola Férrea,아이언테일,アイアンテール
+Metal Claw,Griffe Acier,Ferrartigli,Metallklaue,Garra Metal,메탈크로우,メタルクロー
+Vital Throw,Corps Perdu,Vitaltiro,Überwurf,Tiro Vital,받아던지기,あてみなげ
+Morning Sun,Aurore,Mattindoro,Morgengrauen,Sol Matinal,아침햇살,あさのひざし
+Synthesis,Synthèse,Sintesi,Synthese,Síntesis,광합성,こうごうせい
+Moonlight,Rayon Lune,Lucelunare,Mondschein,Luz Lunar,달의불빛,つきのひかり
+Hidden Power,Puissance Cachée,Introforza,Kraftreserve,Poder Oculto,잠재파워,めざめるパワー
+Cross Chop,Coup-Croix,Incrocolpo,Kreuzhieb,Tajo Cruzado,크로스촙,クロスチョップ
+Twister,Ouragan,Tornado,Windhose,Ciclón,회오리,たつまき
+Rain Dance,Danse Pluie,Pioggiadanza,Regentanz,Danza Lluvia,비바라기,あまごい
+Sunny Day,Zénith,Giornodisole,Sonnentag,Día Soleado,쾌청,にほんばれ
+Crunch,Mâchouille,Sgranocchio,Knirscher,Triturar,깨물어부수기,かみくだく
+Mirror Coat,Voile Miroir,Specchiovelo,Spiegelcape,Manto Espejo,미러코트,ミラーコート
+Psych Up,Boost,Psicamisù,Psycho-Plus,Más Psique,자기암시,じこあんじ
+Extreme Speed,Vitesse Extrême,Extrarapido,Turbotempo,Veloc. Extrema,신속,しんそく
+Ancient Power,Pouvoir Antique,Forzantica,Antik-Kraft,Poder Pasado,원시의힘,げんしのちから
+Shadow Ball,Ball’Ombre,Palla Ombra,Spukball,Bola Sombra,섀도볼,シャドーボール
+Future Sight,Prescience,Divinazione,Seher,Premonición,미래예지,みらいよち
+Rock Smash,Éclate-Roc,Spaccaroccia,Zertrümmerer,Golpe Roca,바위깨기,いわくだき
+Whirlpool,Siphon,Mulinello,Whirlpool,Torbellino,바다회오리,うずしお
+Beat Up,Baston,Picchiaduro,Prügler,Paliza,집단구타,ふくろだたき
+Fake Out,Bluff,Bruciapelo,Mogelhieb,Sorpresa,속이다,ねこだまし
+Uproar,Brouhaha,Baraonda,Aufruhr,Alboroto,소란피기,さわぐ
+Stockpile,Stockage,Accumulo,Horter,Reserva,비축하기,たくわえる
+Spit Up,Relâche,Sfoghenergia,Entfessler,Escupir,토해내기,はきだす
+Swallow,Avale,Introenergia,Verzehrer,Tragar,꿀꺽,のみこむ
+Heat Wave,Canicule,Ondacalda,Hitzewelle,Onda Ígnea,열풍,ねっぷう
+Hail,Grêle,Grandine,Hagelsturm,Granizo,싸라기눈,あられ
+Torment,Tourmente,Attaccalite,Folterknecht,Tormento,트집,いちゃもん
+Flatter,Flatterie,Adulazione,Schmeichler,Camelo,부추기기,おだてる
+Will-O-Wisp,Feu Follet,Fuocofatuo,Irrlicht,Fuego Fatuo,도깨비불,おにび
+Memento,Souvenir,Memento,Memento-Mori,Legado,추억의선물,おきみやげ
+Facade,Façade,Facciata,Fassade,Imagen,객기,からげんき
+Focus Punch,Mitra-Poing,Centripugno,Power-Punch,Puño Certero,힘껏펀치,きあいパンチ
+Smelling Salts,Stimulant,Maniereforti,Riechsalz,Estímulo,정신차리기,きつけ
+Follow Me,Par Ici,Sonoqui,Spotlight,Señuelo,날따름,このゆびとまれ
+Nature Power,Force-Nature,Naturforza,Natur-Kraft,Adaptación,자연의힘,しぜんのちから
+Charge,Chargeur,Sottocarica,Ladevorgang,Carga,충전,じゅうでん
+Taunt,Provoc,Provocazione,Verhöhner,Mofa,도발,ちょうはつ
+Helping Hand,Coup d’Main,Altruismo,Rechte Hand,Refuerzo,도우미,てだすけ
+Trick,Tourmagik,Raggiro,Trickbetrug,Truco,트릭,トリック
+Role Play,Imitation,Giocodiruolo,Rollentausch,Imitación,역할,なりきり
+Wish,Vœu,Desiderio,Wunschtraum,Deseo,희망사항,ねがいごと
+Assist,Assistance,Assistente,Zuschuss,Ayuda,조수,ねこのて
+Ingrain,Racines,Radicamento,Verwurzler,Arraigo,뿌리박기,ねをはる
+Superpower,Surpuissance,Troppoforte,Kraftkoloss,Fuerza Bruta,엄청난힘,ばかぢから
+Magic Coat,Reflet Magik,Magivelo,Magiemantel,Capa Mágica,매직코트,マジックコート
+Recycle,Recyclage,Riciclo,Aufbereitung,Reciclaje,리사이클,リサイクル
+Revenge,Vendetta,Vendetta,Vergeltung,Desquite,리벤지,リベンジ
+Brick Break,Casse-Brique,Breccia,Durchbruch,Demolición,깨트리다,かわらわり
+Yawn,Bâillement,Sbadiglio,Gähner,Bostezo,하품,あくび
+Knock Off,Sabotage,Privazione,Abschlag,Desarme,탁쳐서떨구기,はたきおとす
+Endeavor,Effort,Rimonta,Notsituation,Esfuerzo,죽기살기,がむしゃら
+Eruption,Éruption,Eruzione,Eruption,Estallido,분화,ふんか
+Skill Swap,Échange,Baratto,Wertewechsel,Intercambio,스킬스웹,スキルスワップ
+Imprison,Possessif,Esclusiva,Begrenzer,Cerca,봉인,ふういん
+Refresh,Régénération,Rinfrescata,Heilung,Alivio,리프레쉬,リフレッシュ
+Grudge,Rancune,Rancore,Nachspiel,Rabia,원념,おんねん
+Snatch,Saisie,Scippo,Übernahme,Robo,가로챔,よこどり
+Secret Power,Force Cachée,Forzasegreta,Geheimpower,Daño Secreto,비밀의힘,ひみつのちから
+Dive,Plongée,Sub,Taucher,Buceo,다이빙,ダイビング
+Arm Thrust,Cogne,Sberletese,Armstoß,Empujón,손바닥치기,つっぱり
+Camouflage,Camouflage,Camuffamento,Tarnung,Camuflaje,보호색,ほごしょく
+Tail Glow,Lumiqueue,Codadiluce,Schweifglanz,Ráfaga,반딧불,ほたるび
+Luster Purge,Lumi-Éclat,Abbagliante,Scheinwerfer,Resplandor,라스트버지,ラスターパージ
+Mist Ball,Ball’Brume,Foschisfera,Nebelball,Bola Neblina,미스트볼,ミストボール
+Feather Dance,Danse-Plume,Danzadipiume,Daunenreigen,Danza Pluma,깃털댄스,フェザーダンス
+Teeter Dance,Danse-Folle,Strampadanza,Taumeltanz,Danza Caos,흔들흔들댄스,フラフラダンス
+Blaze Kick,Pied Brûleur,Calciardente,Feuerfeger,Patada Ígnea,브레이즈킥,ブレイズキック
+Mud Sport,Lance-Boue,Fangata,Lehmsuhler,Chapoteo Lodo,흙놀이,どろあそび
+Ice Ball,Ball’Glace,Palla Gelo,Frostbeule,Bola Hielo,아이스볼,アイスボール
+Needle Arm,Poing Dard,Pugnospine,Nietenranke,Brazo Pincho,바늘팔,ニードルアーム
+Slack Off,Paresse,Pigro,Tagedieb,Relajo,태만함,なまける
+Hyper Voice,Mégaphone,Granvoce,Schallwelle,Vozarrón,하이퍼보이스,ハイパーボイス
+Poison Fang,Crochet Venin,Velenodenti,Giftzahn,Colmillo Ven,독엄니,どくどくのキバ
+Crush Claw,Éclate Griffe,Tritartigli,Zermalmklaue,Garra Brutal,브레이크크루,ブレイククロー
+Blast Burn,Rafale Feu,Incendio,Lohekanonade,Anillo Ígneo,블러스트번,ブラストバーン
+Hydro Cannon,Hydroblast,Idrocannone,Aquahaubitze,Hidrocañón,하이드로캐논,ハイドロカノン
+Meteor Mash,Poing Météore,Meteorpugno,Sternenhieb,Puño Meteoro,코멧펀치,コメットパンチ
+Astonish,Étonnement,Sgomento,Erstauner,Impresionar,놀래키기,おどろかす
+Weather Ball,Ball’Météo,Palla Clima,Meteorologe,Meteorobola,웨더볼,ウェザーボール
+Aromatherapy,Aromathérapie,Aromaterapia,Aromakur,Aromaterapia,아로마테라피,アロマセラピー
+Fake Tears,Croco Larme,Falselacrime,Trugträne,Llanto Falso,거짓울음,うそなき
+Air Cutter,Tranch’Air,Aerasoio,Windschnitt,Aire Afilado,에어컷터,エアカッター
+Overheat,Surchauffe,Vampata,Hitzekoller,Sofoco,오버히트,オーバーヒート
+Odor Sleuth,Flair,Segugio,Schnüffler,Rastreo,냄새구별,かぎわける
+Rock Tomb,Tomberoche,Rocciotomba,Felsgrab,Tumba Rocas,암석봉인,がんせきふうじ
+Silver Wind,Vent Argenté,Ventargenteo,Silberhauch,Viento Plata,은빛바람,ぎんいろのかぜ
+Metal Sound,Strido-Son,Ferrostrido,Metallsound,Eco Metálico,금속음,きんぞくおん
+Grass Whistle,Siffl’Herbe,Meloderba,Grasflöte,Silbato,풀피리,くさぶえ
+Tickle,Chatouille,Solletico,Spaßkanone,Cosquillas,간지르기,くすぐる
+Cosmic Power,Force Cosmik,Cosmoforza,Kosmik-Kraft,Masa Cósmica,코스믹파워,コスモパワー
+Water Spout,Giclédo,Zampillo,Fontränen,Salpicar,해수스파우팅,しおふき
+Signal Beam,Rayon Signal,Segnoraggio,Ampelleuchte,Doble Rayo,시그널빔,シグナルビーム
+Shadow Punch,Poing Ombre,Pugnodombra,Finsterfaust,Puño Sombra,섀도펀치,シャドーパンチ
+Extrasensory,Extrasenseur,Extrasenso,Sondersensor,Paranormal,신통력,じんつうりき
+Sky Uppercut,Stratopercut,Stramontante,Himmelhieb,Gancho Alto,스카이업퍼,スカイアッパー
+Sand Tomb,Tourbi-Sable,Sabbiotomba,Sandgrab,Bucle Arena,모래지옥,すなじごく
+Sheer Cold,Glaciation,Purogelo,Eiseskälte,Frío Polar,절대영도,ぜったいれいど
+Muddy Water,Ocroupi,Fanghiglia,Lehmbrühe,Agua Lodosa,탁류,だくりゅう
+Bullet Seed,Balle Graine,Semitraglia,Kugelsaat,Recurrente,기관총,タネマシンガン
+Aerial Ace,Aéropique,Aeroassalto,Aero-Ass,Golpe Aéreo,제비반환,つばめがえし
+Icicle Spear,Stalagtite,Gelolancia,Eisspeer,Carámbano,고드름침,つららばり
+Iron Defense,Mur de Fer,Ferroscudo,Eisenabwehr,Defensa Férrea,철벽,てっぺき
+Block,Barrage,Blocco,Rückentzug,Bloqueo,블록,とおせんぼう
+Howl,Grondement,Gridodilotta,Jauler,Aullido,멀리짖음,とおぼえ
+Dragon Claw,Dracogriffe,Dragartigli,Drachenklaue,Garra Dragón,드래곤크루,ドラゴンクロー
+Frenzy Plant,Végé-Attak,Radicalbero,Flora-Statue,Planta Feroz,하드플랜트,ハードプラント
+Bulk Up,Gonflette,Granfisico,Protzer,Corpulencia,벌크업,ビルドアップ
+Bounce,Rebond,Rimbalzo,Sprungfeder,Bote,뛰어오르다,とびはねる
+Mud Shot,Tir de Boue,Colpodifango,Lehmschuss,Disparo Lodo,머드숏,マッドショット
+Poison Tail,Queue-Poison,Velenocoda,Giftschweif,Cola Veneno,포이즌테일,ポイズンテール
+Covet,Implore,Supplica,Bezirzer,Antojo,탐내다,ほしがる
+Volt Tackle,Électacle,Locomovolt,Volttackle,Placaje Eléc,볼트태클,ボルテッカー
+Magical Leaf,Feuille Magik,Fogliamagica,Zauberblatt,Hoja Mágica,메지컬리프,マジカルリーフ
+Water Sport,Tourniquet,Docciascudo,Nassmacher,Hidrochorro,물놀이,みずあそび
+Calm Mind,Plénitude,Calmamente,Gedankengut,Paz Mental,명상,めいそう
+Leaf Blade,Lame-Feuille,Fendifoglia,Laubklinge,Hoja Aguda,리프블레이드,リーフブレード
+Dragon Dance,Danse Draco,Dragodanza,Drachentanz,Danza Dragón,용의춤,りゅうのまい
+Rock Blast,Boule Roc,Cadutamassi,Felswurf,Pedrada,락블레스트,ロックブラスト
+Shock Wave,Onde de Choc,Ondashock,Schockwelle,Onda Voltio,전격파,でんげきは
+Water Pulse,Vibraqua,Idropulsar,Aquawelle,Hidropulso,물의파동,みずのはどう
+Doom Desire,Carnareket,Obbliderio,Kismetwunsch,Deseo Oculto,파멸의소원,はめつのねがい
+Psycho Boost,Psycho Boost,Psicoslancio,Psyschub,Psicoataque,사이코부스트,サイコブースト
+Roost,Atterrissage,Trespolo,Ruheort,Respiro,날개쉬기,はねやすめ
+Gravity,Gravité,Gravità,Erdanziehung,Gravedad,중력,じゅうりょく
+Miracle Eye,Œil Miracle,Miracolvista,Wunderauge,Gran Ojo,미라클아이,ミラクルアイ
+Wake-Up Slap,Réveil Forcé,Svegliopacca,Weckruf,Espabila,잠깨움뺨치기,めざましビンタ
+Hammer Arm,Marto-Poing,Martelpugno,Hammerarm,Machada,암해머,アームハンマー
+Gyro Ball,Gyroballe,Vortexpalla,Gyroball,Giro Bola,자이로볼,ジャイロボール
+Healing Wish,Vœu Soin,Curardore,Heilopfer,Deseo Cura,치유소원,いやしのねがい
+Brine,Saumure,Acquadisale,Lake,Salmuera,소금물,しおみず
+Natural Gift,Don Naturel,Dononaturale,Beerenkräfte,Don Natural,자연의은혜,しぜんのめぐみ
+Feint,Ruse,Fintoattacco,Offenlegung,Amago,페인트,フェイント
+Pluck,Picore,Spennata,Pflücker,Picoteo,쪼아대기,ついばむ
+Tailwind,Vent Arrière,Ventoincoda,Rückenwind,Viento Afín,순풍,おいかぜ
+Acupressure,Acupression,Acupressione,Akupressur,Acupresión,경혈찌르기,つぼをつく
+Metal Burst,Fulmifer,Metalscoppio,Metallstoß,Represión Metal,메탈버스트,メタルバースト
+U-turn,Demi-Tour,Retromarcia,Kehrtwende,Ida y Vuelta,유턴,とんぼがえり
+Close Combat,Close Combat,Zuffa,Nahkampf,A Bocajarro,인파이트,インファイト
+Payback,Représailles,Rivincita,Gegenstoß,Vendetta,보복,しっぺがえし
+Assurance,Assurance,Garanzia,Gewissheit,Buena Baza,승부굳히기,ダメおし
+Embargo,Embargo,Divieto,Itemsperre,Embargo,금제,さしおさえ
+Fling,Dégommage,Lancio,Schleuder,Lanzamiento,내던지기,なげつける
+Psycho Shift,Échange Psy,Psicotrasfer,Psybann,Psicocambio,사이코시프트,サイコシフト
+Trump Card,Atout,Asso,Trumpfkarte,As Oculto,마지막수단,きりふだ
+Heal Block,Anti-Soin,Anticura,Heilblockade,Anticura,회복봉인,かいふくふうじ
+Wring Out,Essorage,Strizzata,Auswringen,Estrujón,쥐어짜기,しぼりとる
+Power Trick,Astuce Force,Ingannoforza,Krafttrick,Truco Fuerza,파워트릭,パワートリック
+Gastro Acid,Suc Digestif,Gastroacido,Magensäfte,Bilis,위액,いえき
+Lucky Chant,Air Veinard,Fortuncanto,Beschwörung,Conjuro,주술,おまじない
+Me First,Moi d’Abord,Precedenza,Egotrip,Yo Primero,선취,さきどり
+Copycat,Photocopie,Copione,Imitator,Copión,흉내쟁이,まねっこ
+Power Swap,Permuforce,Barattoforza,Krafttausch,Cambia Fuerza,파워스웹,パワースワップ
+Guard Swap,Permugarde,Barattoscudo,Schutztausch,Cambia Defensa,가드스웹,ガードスワップ
+Punishment,Punition,Punizione,Strafattacke,Castigo,혼내기,おしおき
+Last Resort,Dernier Recours,Ultimascelta,Zuflucht,Última Baza,뒀다쓰기,とっておき
+Worry Seed,Soucigraine,Affannoseme,Sorgensamen,Abatidoras,고민씨,なやみのタネ
+Sucker Punch,Coup Bas,Sbigoattacco,Tiefschlag,Golpe Bajo,기습,ふいうち
+Toxic Spikes,Pics Toxik,Fielepunte,Giftspitzen,Púas Tóxicas,독압정,どくびし
+Heart Swap,Permucœur,Cuorbaratto,Statustausch,Cambia Almas,하트스웹,ハートスワップ
+Aqua Ring,Anneau Hydro,Acquanello,Wasserring,Acua Aro,아쿠아링,アクアリング
+Magnet Rise,Vol Magnétik,Magnetascesa,Magnetflug,Levitón,전자부유,でんじふゆう
+Flare Blitz,Boutefeu,Fuococarica,Flammenblitz,Envite Ígneo,플레어드라이브,フレアドライブ
+Force Palm,Forte-Paume,Palmoforza,Kraftwelle,Palmeo,발경,はっけい
+Aura Sphere,Aurasphère,Forzasfera,Aurasphäre,Esfera Aural,파동탄,はどうだん
+Rock Polish,Poliroche,Lucidatura,Steinpolitur,Pulimento,록커트,ロックカット
+Poison Jab,Direct Toxik,Velenpuntura,Gifthieb,Puya Nociva,독찌르기,どくづき
+Dark Pulse,Vibrobscur,Neropulsar,Finsteraura,Pulso Umbrío,악의파동,あくのはどう
+Night Slash,Tranche-Nuit,Nottesferza,Nachthieb,Tajo Umbrío,깜짝베기,つじぎり
+Aqua Tail,Hydroqueue,Idrondata,Nassschweif,Acua Cola,아쿠아테일,アクアテール
+Seed Bomb,Canon Graine,Semebomba,Samenbomben,Bomba Germen,씨폭탄,タネばくだん
+Air Slash,Lame d’Air,Eterelama,Luftschnitt,Tajo Aéreo,에어슬래시,エアスラッシュ
+X-Scissor,Plaie-Croix,Forbice X,Kreuzschere,Tijera X,시저크로스,シザークロス
+Bug Buzz,Bourdon,Ronzio,Käfergebrumm,Zumbido,벌레의야단법석,むしのさざめき
+Dragon Pulse,Dracochoc,Dragopulsar,Drachenpuls,Pulso Dragón,용의파동,りゅうのはどう
+Dragon Rush,Dracocharge,Dragofuria,Drachenstoß,Carga Dragón,드래곤다이브,ドラゴンダイブ
+Power Gem,Rayon Gemme,Gemmoforza,Juwelenkraft,Joya de Luz,파워젬,パワージェム
+Drain Punch,Vampipoing,Assorbipugno,Ableithieb,Puño Drenaje,드레인펀치,ドレインパンチ
+Vacuum Wave,Onde Vide,Vuotonda,Vakuumwelle,Onda Vacío,진공파,しんくうは
+Focus Blast,Exploforce,Focalcolpo,Fokusstoß,Onda Certera,기합구슬,きあいだま
+Energy Ball,Éco-Sphère,Energipalla,Energieball,Energibola,에너지볼,エナジーボール
+Brave Bird,Rapace,Baldeali,Sturzflug,Pájaro Osado,브레이브버드,ブレイブバード
+Earth Power,Telluriforce,Geoforza,Erdkräfte,Tierra Viva,대지의힘,だいちのちから
+Switcheroo,Passe-Passe,Rapidscambio,Wechseldich,Trapicheo,바꿔치기,すりかえ
+Giga Impact,Giga Impact,Gigaimpatto,Gigastoß,Giga Impacto,기가임팩트,ギガインパクト
+Nasty Plot,Machination,Congiura,Ränkeschmied,Maquinación,나쁜음모,わるだくみ
+Bullet Punch,Pisto-Poing,Pugnoscarica,Patronenhieb,Puño Bala,불릿펀치,バレットパンチ
+Avalanche,Avalanche,Slavina,Lawine,Alud,눈사태,ゆきなだれ
+Ice Shard,Éclats Glace,Geloscheggia,Eissplitter,Canto Helado,얼음뭉치,こおりのつぶて
+Shadow Claw,Griffe Ombre,Ombrartigli,Dunkelklaue,Garra Umbría,섀도크루,シャドークロー
+Thunder Fang,Crocs Éclair,Fulmindenti,Donnerzahn,Colmillo Rayo,번개엄니,かみなりのキバ
+Ice Fang,Crocs Givre,Gelodenti,Eiszahn,Colmillo Hielo,얼음엄니,こおりのキバ
+Fire Fang,Crocs Feu,Rogodenti,Feuerzahn,Colmillo Ígneo,불꽃엄니,ほのおのキバ
+Shadow Sneak,Ombre Portée,Furtivombra,Schattenstoß,Sombra Vil,야습,かげうち
+Mud Bomb,Boue-Bombe,Pantanobomba,Schlammbombe,Bomba Fango,진흙폭탄,どろばくだん
+Psycho Cut,Coupe Psycho,Psicotaglio,Psychoklinge,Psicocorte,사이코커터,サイコカッター
+Zen Headbutt,Psykoud’Boul,Cozzata Zen,Zen-Kopfstoß,Cabezazo Zen,사념의박치기,しねんのずつき
+Mirror Shot,Miroi-Tir,Cristalcolpo,Spiegelsalve,Disparo Espejo,미러숏,ミラーショット
+Flash Cannon,Luminocanon,Cannonflash,Lichtkanone,Foco Resplandor,러스터캐논,ラスターカノン
+Rock Climb,Escalade,Scalaroccia,Kraxler,Treparrocas,락클라임,ロッククライム
+Defog,Anti-Brume,Scacciabruma,Auflockern,Despejar,안개제거,きりばらい
+Trick Room,Distorsion,Distortozona,Bizarroraum,Espacio Raro,트릭룸,トリックルーム
+Draco Meteor,Draco Météore,Dragobolide,Draco Meteor,Cometa Draco,용성군,りゅうせいぐん
+Discharge,Coup d’Jus,Scarica,Ladungsstoß,Chispazo,방전,ほうでん
+Lava Plume,Ébullilave,Lavasbuffo,Flammensturm,Humareda,분연,ふんえん
+Leaf Storm,Tempête Verte,Verdebufera,Blättersturm,Lluevehojas,리프스톰,リーフストーム
+Power Whip,Mégafouet,Vigorcolpo,Blattgeißel,Latigazo,파워휩,パワーウィップ
+Rock Wrecker,Roc-Boulet,Devastomasso,Felswerfer,Romperrocas,암석포,がんせきほう
+Cross Poison,Poison-Croix,Velenocroce,Giftstreich,Veneno X,크로스포이즌,クロスポイズン
+Gunk Shot,Détricanon,Sporcolancio,Mülltreffer,Lanza Mugre,더스트슈트,ダストシュート
+Iron Head,Tête de Fer,Metaltestata,Eisenschädel,Cabeza de Hierro,아이언헤드,アイアンヘッド
+Magnet Bomb,Bombaimant,Bombagnete,Magnetbombe,Bomba Imán,마그넷봄,マグネットボム
+Stone Edge,Lame de Roc,Pietrataglio,Steinkante,Roca Afilada,스톤에지,ストーンエッジ
+Captivate,Séduction,Incanto,Liebreiz,Seducción,유혹,ゆうわく
+Stealth Rock,Piège de Roc,Levitoroccia,Tarnsteine,Trampa Rocas,스텔스록,ステルスロック
+Grass Knot,Nœud Herbe,Laccioerboso,Strauchler,Hierba Lazo,풀묶기,くさむすび
+Chatter,Babil,Schiamazzo,Geschwätz,Cháchara,수다,おしゃべり
+Judgment,Jugement,Giudizio,Urteilskraft,Sentencia,심판의뭉치,さばきのつぶて
+Bug Bite,Piqûre,Coleomorso,Käferbiss,Picadura,벌레먹음,むしくい
+Charge Beam,Rayon Chargé,Raggioscossa,Ladestrahl,Rayo Carga,차지빔,チャージビーム
+Wood Hammer,Martobois,Mazzuolegno,Holzhammer,Mazazo,우드해머,ウッドハンマー
+Aqua Jet,Aqua-Jet,Acquagetto,Wasserdüse,Acua Jet,아쿠아제트,アクアジェット
+Attack Order,Appel Attaque,Comandourto,Schlagbefehl,Al Ataque,공격지령,こうげきしれい
+Defend Order,Appel Défense,Comandoscudo,Blockbefehl,A Defender,방어지령,ぼうぎょしれい
+Heal Order,Appel Soins,Comandocura,Heilbefehl,Auxilio,회복지령,かいふくしれい
+Head Smash,Fracass’Tête,Zuccata,Kopfstoß,Testarazo,양날박치기,もろはのずつき
+Double Hit,Coup Double,Doppiosmash,Doppelschlag,Doble Golpe,더블어택,ダブルアタック
+Roar of Time,Hurle-Temps,Fragortempo,Zeitenlärm,Distorsión,시간의포효,ときのほうこう
+Spacial Rend,Spatio-Rift,Fendispazio,Raumschlag,Corte Vacío,공간절단,あくうせつだん
+Lunar Dance,Danse-Lune,Lunardanza,Lunartanz,Danza Lunar,초승달춤,みかづきのまい
+Crush Grip,Presse,Sbriciolmano,Quetschgriff,Agarrón,묵사발,にぎりつぶす
+Magma Storm,Vortex Magma,Magmaclisma,Lavasturm,Lluvia Ígnea,마그마스톰,マグマストーム
+Dark Void,Trou Noir,Vuototetro,Schlummerort,Brecha Negra,다크홀,ダークホール
+Seed Flare,Fulmigraine,Infuriaseme,Schocksamen,Fogonazo,시드플레어,シードフレア
+Ominous Wind,Vent Mauvais,Funestovento,Unheilböen,Viento Aciago,괴상한바람,あやしいかぜ
+Shadow Force,Revenant,Oscurotuffo,Schemenkraft,Golpe Umbrío,섀도다이브,シャドーダイブ
+Hone Claws,Aiguisage,Unghiaguzze,Klauenwetzer,Afilagarras,손톱갈기,つめとぎ
+Wide Guard,Garde Large,Bodyguard,Rundumschutz,Vastaguardia,와이드가드,ワイドガード
+Guard Split,Partage Garde,Paridifesa,Schutzteiler,Isoguardia,가드셰어,ガードシェア
+Power Split,Partage Force,Pariattacco,Kraftteiler,Isofuerza,파워셰어,パワーシェア
+Wonder Room,Zone Étrange,Mirabilzona,Wunderraum,Zona Extraña,원더룸,ワンダールーム
+Psyshock,Choc Psy,Psicoshock,Psychoschock,Psicocarga,사이코쇼크,サイコショック
+Venoshock,Choc Venin,Velenoshock,Giftschock,Carga Tóxica,베놈쇼크,ベノムショック
+Autotomize,Allègement,Sganciapesi,Autotomie,Aligerar,바디퍼지,ボディパージ
+Rage Powder,Poudre Fureur,Polverabbia,Wutpulver,Polvo Ira,분노가루,いかりのこな
+Telekinesis,Lévikinésie,Telecinesi,Telekinese,Telequinesis,텔레키네시스,テレキネシス
+Magic Room,Zone Magique,Magicozona,Magieraum,Zona Mágica,매직룸,マジックルーム
+Smack Down,Anti-Air,Abbattimento,Katapult,Antiaéreo,떨어뜨리기,うちおとす
+Storm Throw,Yama Arashi,Tempestretta,Bergsturm,Llave Corsé,업어후리기,やまあらし
+Flame Burst,Rebondifeu,Pirolancio,Funkenflug,Pirotecnia,불꽃튀기기,はじけるほのお
+Sludge Wave,Cradovague,Fangonda,Schlammwoge,Onda Tóxica,오물웨이브,ヘドロウェーブ
+Quiver Dance,Papillodanse,Eledanza,Falterreigen,Danza Aleteo,나비춤,ちょうのまい
+Heavy Slam,Tacle Lourd,Pesobomba,Rammboss,Cuerpo Pesado,헤비봄버,ヘビーボンバー
+Synchronoise,Synchropeine,Sincrumore,Synchrolärm,Sincrorruido,싱크로노이즈,シンクロノイズ
+Electro Ball,Boule Élek,Energisfera,Elektroball,Bola Voltio,일렉트릭볼,エレキボール
+Soak,Détrempage,Inondazione,Überflutung,Anegar,물붓기,みずびたし
+Flame Charge,Nitrocharge,Nitrocarica,Nitroladung,Nitrocarga,니트로차지,ニトロチャージ
+Coil,Enroulement,Arrotola,Einrollen,Enrosque,똬리틀기,とぐろをまく
+Low Sweep,Balayette,Calciobasso,Fußtritt,Puntapié,로킥,ローキック
+Acid Spray,Bombe Acide,Acidobomba,Säurespeier,Bomba Ácida,애시드봄,アシッドボム
+Foul Play,Tricherie,Ripicca,Schmarotzer,Juego Sucio,속임수,イカサマ
+Simple Beam,Rayon Simple,Ondisinvolta,Wankelstrahl,Onda Simple,심플빔,シンプルビーム
+Entrainment,Ten-danse,Saltamicizia,Zwango,Danza Amiga,동료만들기,なかまづくり
+After You,Après Vous,Cortesia,Galanterie,Cede Paso,당신먼저,おさきにどうぞ
+Round,Chant Canon,Coro,Kanon,Canon,돌림노래,りんしょう
+Echoed Voice,Écho,Echeggiavoce,Widerhall,Eco Voz,에코보이스,エコーボイス
+Chip Away,Attrition,Insidia,Zermürben,Guardia Baja,야금야금,なしくずし
+Clear Smog,Bain de Smog,Pulifumo,Klärsmog,Niebla Clara,클리어스모그,クリアスモッグ
+Stored Power,Force Ajoutée,Veicolaforza,Kraftvorrat,Poder Reserva,어시스트파워,アシストパワー
+Quick Guard,Prévention,Anticipo,Rapidschutz,Anticipo,퍼스트가드,ファストガード
+Ally Switch,Interversion,Cambiaposto,Seitentausch,Cambio Banda,사이드체인지,サイドチェンジ
+Scald,Ébullition,Idrovampata,Siedewasser,Escaldar,열탕,ねっとう
+Shell Smash,Exuviation,Gettaguscio,Hausbruch,Rompecoraza,껍질깨기,からをやぶる
+Heal Pulse,Vibra Soin,Ondasana,Heilwoge,Pulso Cura,치유파동,いやしのはどう
+Hex,Châtiment,Sciagura,Bürde,Infortunio,병상첨병,たたりめ
+Sky Drop,Chute Libre,Cadutalibera,Freier Fall,Caída Libre,프리폴,フリーフォール
+Shift Gear,Chgt Vitesse,Cambiomarcia,Gangwechsel,Cambio de Marcha,기어체인지,ギアチェンジ
+Circle Throw,Projection,Ribaltiro,Überkopfwurf,Llave Giro,배대뒤치기,ともえなげ
+Incinerate,Calcination,Bruciatutto,Einäschern,Calcinación,불태우기,やきつくす
+Quash,À la Queue,Spintone,Verzögerung,Último Lugar,순서미루기,さきおくり
+Acrobatics,Acrobatie,Acrobazia,Akrobatik,Acróbata,애크러뱃,アクロバット
+Reflect Type,Copie Type,Riflettipo,Typenspiegel,Clonatipo,미러타입,ミラータイプ
+Retaliate,Vengeance,Nemesi,Heimzahlung,Represalia,원수갚기,かたきうち
+Final Gambit,Tout ou Rien,Azzardo,Wagemut,Sacrificio,목숨걸기,いのちがけ
+Bestow,Passe-Cadeau,Cediregalo,Offerte,Ofrenda,기프트패스,ギフトパス
+Inferno,Feu d’Enfer,Marchiatura,Inferno,Infierno,연옥,れんごく
+Water Pledge,Aire d’Eau,Acquapatto,Wassersäulen,Voto Agua,물의맹세,みずのちかい
+Fire Pledge,Aire de Feu,Fiammapatto,Feuersäulen,Voto Fuego,불꽃의맹세,ほのおのちかい
+Grass Pledge,Aire d’Herbe,Erbapatto,Pflanzensäulen,Voto Planta,풀의맹세,くさのちかい
+Volt Switch,Change Éclair,Invertivolt,Voltwechsel,Voltiocambio,볼트체인지,ボルトチェンジ
+Struggle Bug,Survinsecte,Entomoblocco,Käfertrutz,Estoicismo,벌레의저항,むしのていこう
+Bulldoze,Piétisol,Battiterra,Dampfwalze,Terratemblor,땅고르기,じならし
+Frost Breath,Souffle Glacé,Alitogelido,Eisesodem,Vaho Gélido,얼음숨결,こおりのいぶき
+Dragon Tail,Draco-Queue,Codadrago,Drachenrute,Cola Dragón,드래곤테일,ドラゴンテール
+Work Up,Rengorgement,Cuordileone,Kraftschub,Avivar,분발,ふるいたてる
+Electroweb,Toile Élek,Elettrotela,Elektronetz,Electrotela,일렉트릭네트,エレキネット
+Wild Charge,Éclair Fou,Sprizzalampo,Stromstoß,Voltio Cruel,와일드볼트,ワイルドボルト
+Drill Run,Tunnelier,Giravvita,Schlagbohrer,Taladradora,드릴라이너,ドリルライナー
+Dual Chop,Double Baffe,Doppiocolpo,Doppelhieb,Golpe Bis,더블촙,ダブルチョップ
+Heart Stamp,Crève-Cœur,Cuorestampo,Herzstempel,Arrumaco,하트스탬프,ハートスタンプ
+Horn Leech,Encornebois,Legnicorno,Holzgeweih,Asta Drenaje,우드호른,ウッドホーン
+Sacred Sword,Lame Sainte,Spadasolenne,Sanctoklinge,Espada Santa,성스러운칼,せいなるつるぎ
+Razor Shell,Coquilame,Conchilama,Kalkklinge,Concha Filo,셸블레이드,シェルブレード
+Heat Crash,Tacle Feu,Marchiafuoco,Brandstempel,Golpe Calor,히트스탬프,ヒートスタンプ
+Leaf Tornado,Phytomixeur,Vorticerba,Grasmixer,Ciclón de Hojas,그래스믹서,グラスミキサー
+Steamroller,Bulldoboule,Rulloduro,Quetschwalze,Rodillo de Púas,하드롤러,ハードローラー
+Cotton Guard,Cotogarde,Cotonscudo,Watteschild,Rizo Algodón,코튼가드,コットンガード
+Night Daze,Explonuit,Urtoscuro,Nachtflut,Pulso Noche,나이트버스트,ナイトバースト
+Psystrike,Frappe Psy,Psicobotta,Psychostoß,Onda Mental,사이코브레이크,サイコブレイク
+Tail Slap,Plumo-Queue,Spazzasberla,Kehrschelle,Plumerazo,스위프뺨치기,スイープビンタ
+Hurricane,Vent Violent,Tifone,Orkan,Vendaval,폭풍,ぼうふう
+Head Charge,Peignée,Ricciolata,Steinschädel,Ariete,아프로브레이크,アフロブレイク
+Gear Grind,Lancécrou,Ingracolpo,Klikkdiskus,Rueda Doble,기어소서,ギアソーサー
+Searing Shot,Incendie,Sparafuoco,Flammenball,Bomba Ígnea,화염탄,かえんだん
+Techno Blast,Techno-Buster,Tecnobotto,Techblaster,Tecno Shock,테크노버스터,テクノバスター
+Relic Song,Chant Antique,Cantoantico,Urgesang,Canto Arcaico,옛노래,いにしえのうた
+Secret Sword,Lame Ointe,Spadamistica,Mystoschwert,Sable Místico,신비의칼,しんぴのつるぎ
+Glaciate,Ère Glaciaire,Gelamondo,Eiszeit,Mundo Gélido,얼다세계,こごえるせかい
+Bolt Strike,Charge Foudre,Lucesiluro,Blitzschlag,Ataque Fulgor,뇌격,らいげき
+Blue Flare,Flamme Bleue,Fuocoblu,Blauflammen,Llama Azul,푸른불꽃,あおいほのお
+Fiery Dance,Danse du Feu,Voldifuoco,Feuerreigen,Danza Llama,불꽃춤,ほのおのまい
+Freeze Shock,Éclair Gelé,Elettrogelo,Frostvolt,Rayo Gélido,프리즈볼트,フリーズボルト
+Ice Burn,Feu Glacé,Vampagelida,Frosthauch,Llama Gélida,콜드플레어,コールドフレア
+Snarl,Aboiement,Urlorabbia,Standpauke,Alarido,바크아웃,バークアウト
+Icicle Crash,Chute Glace,Scagliagelo,Eiszapfhagel,Chuzos,고드름떨구기,つららおとし
+V-create,Coup Victoire,Generatore V,V-Generator,V de Fuego,V제너레이트,Ｖジェネレート
+Fusion Flare,Flamme Croix,Incrofiamma,Kreuzflamme,Llama Fusión,크로스플레임,クロスフレイム
+Fusion Bolt,Éclair Croix,Incrotuono,Kreuzdonner,Rayo Fusión,크로스썬더,クロスサンダー
+Flying Press,Flying Press,Schiacciatuffo,Flying Press,Plancha Voladora,플라잉프레스,フライングプレス
+Mat Block,Tatamigaeshi,Ribaltappeto,Tatami-Schild,Escudo Tatami,마룻바닥세워막기,たたみがえし
+Belch,Éructation,Rutto,Rülpser,Eructo,트림,ゲップ
+Rototiller,Fertilisation,Aracampo,Pflüger,Fertilizante,일구기,たがやす
+Sticky Web,Toile Gluante,Rete Vischiosa,Klebenetz,Red Viscosa,끈적끈적네트,ねばねばネット
+Fell Stinger,Dard Mortel,Pungiglione,Stachelfinale,Aguijón Letal,마지막일침,とどめばり
+Phantom Force,Hantise,Spettrotuffo,Phantomkraft,Golpe Fantasma,고스트다이브,ゴーストダイブ
+Trick-or-Treat,Halloween,Halloween,Halloween,Halloween,핼러윈,ハロウィン
+Noble Roar,Râle Mâle,Urlo,Kampfgebrüll,Rugido de Guerra,부르짖기,おたけび
+Ion Deluge,DélugePlasmique,Pioggiaplasma,Plasmaschauer,Cortina Plasma,플라스마샤워,プラズマシャワー
+Parabolic Charge,Parabocharge,Caricaparabola,Parabolladung,Carga Parábola,파라볼라차지,パラボラチャージ
+Forest’s Curse,Maléfice Sylvain,Boscomalocchio,Waldesfluch,Condena Silvana,숲의저주,もりののろい
+Petal Blizzard,Tempête Florale,Fiortempesta,Blütenwirbel,Tormenta Floral,꽃보라,はなふぶき
+Freeze-Dry,Lyophilisation,Liofilizzazione,Gefriertrockner,Liofilización,프리즈드라이,フリーズドライ
+Disarming Voice,Voix Enjôleuse,Incantavoce,Säuselstimme,Voz Cautivadora,차밍보이스,チャームボイス
+Parting Shot,Dernier Mot,Monito,Abgangstirade,Última Palabra,막말내뱉기,すてゼリフ
+Topsy-Turvy,Renversement,Sottosopra,Invertigo,Reversión,뒤집어엎기,ひっくりかえす
+Draining Kiss,Vampibaiser,Assorbibacio,Diebeskuss,Beso Drenaje,드레인키스,ドレインキッス
+Crafty Shield,Vigilance,Truccodifesa,Trickschutz,Truco Defensa,트릭가드,トリックガード
+Flower Shield,Garde Florale,Fiordifesa,Floraschutz,Defensa Floral,플라워가드,フラワーガード
+Grassy Terrain,Champ Herbu,Campo Erboso,Grasfeld,Campo de Hierba,그래스필드,グラスフィールド
+Misty Terrain,Champ Brumeux,Campo Nebbioso,Nebelfeld,Campo de Niebla,미스트필드,ミストフィールド
+Electrify,Électrisation,Elettrocontagio,Elektrifizierung,Electrificación,송전,そうでん
+Play Rough,Câlinerie,Carineria,Knuddler,Carantoña,치근거리기,じゃれつく
+Fairy Wind,Vent Féérique,Vento di Fata,Feenbrise,Viento Feérico,요정의바람,ようせいのかぜ
+Moonblast,Pouvoir Lunaire,Forza Lunare,Mondgewalt,Fuerza Lunar,문포스,ムーンフォース
+Boomburst,Bang Sonique,Ondaboato,Überschallknall,Estruendo,폭음파,ばくおんぱ
+Fairy Lock,Verrou Enchanté,Blocco Fatato,Feenschloss,Cerrojo Feérico,페어리록,フェアリーロック
+King’s Shield,Bouclier Royal,Scudo Reale,Königsschild,Escudo Real,킹실드,キングシールド
+Play Nice,Camaraderie,Simpatia,Kameradschaft,Camaradería,친해지기,なかよくする
+Confide,Confidence,Confidenza,Vertrauenssache,Confidencia,비밀이야기,ないしょばなし
+Diamond Storm,Orage Adamantin,Diamantempesta,Diamantsturm,Torm. Diamantes,다이아스톰,ダイヤストーム
+Steam Eruption,Jet de Vapeur,Vaporscoppio,Dampfschwall,Chorro de Vapor,스팀버스트,スチームバースト
+Hyperspace Hole,TrouDimensionnel,Forodimensionale,Dimensionsloch,Paso Dimensional,다른차원홀,いじげんホール
+Water Shuriken,Sheauriken,Acqualame,Wasser-Shuriken,Shuriken de Agua,물수리검,みずしゅりけん
+Mystical Fire,Feu Ensorcelé,Magifiamma,Magieflamme,Llama Embrujada,매지컬플레임,マジカルフレイム
+Spiky Shield,Pico-Défense,Agodifesa,Schutzstacheln,Barrera Espinosa,니들가드,ニードルガード
+Aromatic Mist,Brume Capiteuse,Nebularoma,Duftwolke,Niebla Aromática,아로마미스트,アロマミスト
+Eerie Impulse,Ondes Étranges,Elettromistero,Mystowellen,Onda Anómala,괴전파,かいでんぱ
+Venom Drench,Piège de Venin,Velenotrappola,Giftfalle,Trampa Venenosa,베놈트랩,ベノムトラップ
+Powder,Nuée de Poudre,Pulviscoppio,Pulverschleuder,Polvo Explosivo,분진,ふんじん
+Geomancy,Géo-Contrôle,Geocontrollo,Geokontrolle,Geocontrol,지오컨트롤,ジオコントロール
+Magnetic Flux,Magné-Contrôle,Controllo Polare,Magnetregler,Aura Magnética,자기장조작,じばそうさ
+Happy Hour,Étrennes,Cuccagna,Goldene Zeiten,Paga Extra,해피타임,ハッピータイム
+Electric Terrain,Champ Électrifié,Campo Elettrico,Elektrofeld,Campo Eléctrico,일렉트릭필드,エレキフィールド
+Dazzling Gleam,Éclat Magique,Magibrillio,Zauberschein,Brillo Mágico,매지컬샤인,マジカルシャイン
+Celebrate,Célébration,Auguri,Ehrentag,Celebración,축하,おいわい
+Hold Hands,Mains Jointes,Mano nella Mano,Händchenhalten,Manos Juntas,손에손잡기,てをつなぐ
+Baby-Doll Eyes,Regard Touchant,Occhioni Teneri,Kulleraugen,Ojitos Tiernos,초롱초롱눈동자,つぶらなひとみ
+Nuzzle,Frotte-Frimousse,Elettrococcola,Wangenrubbler,Moflete Estático,볼부비부비,ほっぺすりすり
+Hold Back,Retenue,Riguardo,Zurückhaltung,Clemencia,적당히손봐주기,てかげん
+Infestation,Harcèlement,Assillo,Plage,Acoso,엉겨붙기,まとわりつく
+Power-Up Punch,Poing Boost,Crescipugno,Steigerungshieb,Puño Incremento,그로우펀치,グロウパンチ
+Oblivion Wing,Mort-Ailes,Ali del Fato,Unheilsschwingen,Ala Mortífera,데스윙,デスウイング
+Thousand Arrows,Myria-Flèches,Mille Frecce,Tausend Pfeile,Mil Flechas,사우전드애로,サウザンアロー
+Thousand Waves,Myria-Vagues,Mille Onde,Tausend Wellen,Mil Temblores,사우전드웨이브,サウザンウェーブ
+Land’s Wrath,Force Chtonienne,Forza Tellurica,Bodengewalt,Fuerza Telúrica,그라운드포스,グランドフォース
+Light of Ruin,Lumière du Néant,Luce Nefasta,Lux Calamitatis,Luz Aniquiladora,파멸의빛,はめつのひかり
+Origin Pulse,Onde Originelle,Primopulsar,Ursprungswoge,Pulso Primigenio,근원의파동,こんげんのはどう
+Precipice Blades,Lame Pangéenne,Spade Telluriche,Abgrundsklinge,Filo del Abismo,단애의칼,だんがいのつるぎ
+Dragon Ascent,Draco Ascension,Ascesa del Drago,Zenitstürmer,Ascenso Draco,화룡점정,ガリョウテンセイ
+Hyperspace Fury,Furie Dimension,Urtodimensionale,Dimensionswahn,Cerco Dimensión,다른차원러시,いじげんラッシュ
+Breakneck Blitz,Turbo-Charge Bulldozer,Carica Travolgente,Hyper-Sprintangriff,Carrera Arrolladora,울트라대시어택,ウルトラダッシュアタック
+Breakneck Blitz,Turbo-Charge Bulldozer,Carica Travolgente,Hyper-Sprintangriff,Carrera Arrolladora,울트라대시어택,ウルトラダッシュアタック
+All-Out Pummeling,Combo Hyper-Furie,Iperscarica Furiosa,Fulminante Faustschläge,Ráfaga Demoledora,전력무쌍격렬권,ぜんりょくむそうげきれつけん
+All-Out Pummeling,Combo Hyper-Furie,Iperscarica Furiosa,Fulminante Faustschläge,Ráfaga Demoledora,전력무쌍격렬권,ぜんりょくむそうげきれつけん
+Supersonic Skystrike,Piqué Supersonique,Picchiata Devastante,Finaler Steilflug,Picado Supersónico,파이널다이브클래시,ファイナルダイブクラッシュ
+Supersonic Skystrike,Piqué Supersonique,Picchiata Devastante,Finaler Steilflug,Picado Supersónico,파이널다이브클래시,ファイナルダイブクラッシュ
+Acid Downpour,Déluge Causti-Toxique,Acidiluvio Corrosivo,Vernichtender Säureregen,Diluvio Corrosivo,애시드포이즌딜리트,アシッドポイズンデリート
+Acid Downpour,Déluge Causti-Toxique,Acidiluvio Corrosivo,Vernichtender Säureregen,Diluvio Corrosivo,애시드포이즌딜리트,アシッドポイズンデリート
+Tectonic Rage,Éruption Géo-Sismique,Furore della Terra,Seismische Eruption,Barrena Telúrica,라이징랜드오버,ライジングランドオーバー
+Tectonic Rage,Éruption Géo-Sismique,Furore della Terra,Seismische Eruption,Barrena Telúrica,라이징랜드오버,ライジングランドオーバー
+Continental Crush,Apocalypse Gigalithique,Gigamacigno Polverizzante,Apokalyptische Steinpresse,Aplastamiento Gigalítico,월즈엔드폴,ワールズエンドフォール
+Continental Crush,Apocalypse Gigalithique,Gigamacigno Polverizzante,Apokalyptische Steinpresse,Aplastamiento Gigalítico,월즈엔드폴,ワールズエンドフォール
+Savage Spin-Out,Cocon Fatal,Bozzolo Fatale,Wirbelnder Insektenhieb,Guadaña Sedosa,절대포식회전참,ぜったいほしょくかいてんざん
+Savage Spin-Out,Cocon Fatal,Bozzolo Fatale,Wirbelnder Insektenhieb,Guadaña Sedosa,절대포식회전참,ぜったいほしょくかいてんざん
+Never-Ending Nightmare,Appel des Ombres Éternelles,Abbraccio Spettrale,Ewige Nacht,Presa Espectral,무한암야로의유인,むげんあんやへのいざない
+Never-Ending Nightmare,Appel des Ombres Éternelles,Abbraccio Spettrale,Ewige Nacht,Presa Espectral,무한암야로의유인,むげんあんやへのいざない
+Corkscrew Crash,Vrille Maximum,Spirale Perforante,Turbo-Spiralkombo,Hélice Trepanadora,초월나선연격,ちょうぜつらせんれんげき
+Corkscrew Crash,Vrille Maximum,Spirale Perforante,Turbo-Spiralkombo,Hélice Trepanadora,초월나선연격,ちょうぜつらせんれんげき
+Inferno Overdrive,Pyro-Explosion Cataclysmique,Fiammobomba Detonante,Dynamische Maxiflamme,Hecatombe Pírica,다이내믹풀플레임,ダイナミックフルフレイム
+Inferno Overdrive,Pyro-Explosion Cataclysmique,Fiammobomba Detonante,Dynamische Maxiflamme,Hecatombe Pírica,다이내믹풀플레임,ダイナミックフルフレイム
+Hydro Vortex,Super Tourbillon Abyssal,Idrovortice Abissale,Super-Wassertornado,Hidrovórtice Abisal,슈퍼아쿠아토네이도,スーパーアクアトルネード
+Hydro Vortex,Super Tourbillon Abyssal,Idrovortice Abissale,Super-Wassertornado,Hidrovórtice Abisal,슈퍼아쿠아토네이도,スーパーアクアトルネード
+Bloom Doom,Pétalexplosion Éblouissante,Floriscoppio Sfolgorante,Brillante Blütenpracht,Megatón Floral,블룸샤인엑스트라,ブルームシャインエクストラ
+Bloom Doom,Pétalexplosion Éblouissante,Floriscoppio Sfolgorante,Brillante Blütenpracht,Megatón Floral,블룸샤인엑스트라,ブルームシャインエクストラ
+Gigavolt Havoc,Fulguro-Lance Gigavolt,Gigascarica Folgorante,Gigavolt-Funkensalve,Gigavoltio Destructor,스파킹기가볼트,スパーキングギガボルト
+Gigavolt Havoc,Fulguro-Lance Gigavolt,Gigascarica Folgorante,Gigavolt-Funkensalve,Gigavoltio Destructor,스파킹기가볼트,スパーキングギガボルト
+Shattered Psyche,Psycho-Pulvérisation EX,Impatto Psicocinetico,Psycho-Schmetterschlag,Disruptor Psíquico,맥시멈사이브레이커,マキシマムサイブレイカー
+Shattered Psyche,Psycho-Pulvérisation EX,Impatto Psicocinetico,Psycho-Schmetterschlag,Disruptor Psíquico,맥시멈사이브레이커,マキシマムサイブレイカー
+Subzero Slammer,Laser Cryogénique,Criodistruzione Polare,Tobender Geofrost,Crioaliento Despiadado,레이징지오프리즈,レイジングジオフリーズ
+Subzero Slammer,Laser Cryogénique,Criodistruzione Polare,Tobender Geofrost,Crioaliento Despiadado,레이징지오프리즈,レイジングジオフリーズ
+Devastating Drake,Chaos Draconique,Dragoschianto Finale,Drastisches Drachendröhnen,Dracoaliento Devastador,얼티메이트드래곤번,アルティメットドラゴンバーン
+Devastating Drake,Chaos Draconique,Dragoschianto Finale,Drastisches Drachendröhnen,Dracoaliento Devastador,얼티메이트드래곤번,アルティメットドラゴンバーン
+Black Hole Eclipse,Trou Noir des Ombres,Buco Nero del Non Ritorno,Schwarzes Loch des Grauens,Agujero Negro Aniquilador,블랙홀이클립스,ブラックホールイクリプス
+Black Hole Eclipse,Trou Noir des Ombres,Buco Nero del Non Ritorno,Schwarzes Loch des Grauens,Agujero Negro Aniquilador,블랙홀이클립스,ブラックホールイクリプス
+Twinkle Tackle,Impact Choupinova,Astroimpatto Fatato,Entzückender Sternenstoß,Arrumaco Sideral,러블리스타임팩트,ラブリースターインパクト
+Twinkle Tackle,Impact Choupinova,Astroimpatto Fatato,Entzückender Sternenstoß,Arrumaco Sideral,러블리스타임팩트,ラブリースターインパクト
+Catastropika,Pikachute Foudroyante,Super Pikaboom,Perfektes Pika-Projektil,Pikavoltio Letal,필살피카슛,ひっさつのピカチュート
+Shore Up,Amass’Sable,Sabbiaccumulo,Sandsammler,Recogearena,모래모으기,すなあつめ
+First Impression,Escarmouche,Schermaglia,Überrumpler,Escaramuza,만나자마자,であいがしら
+Baneful Bunker,Blockhaus,Fortino,Bunker,Búnker,토치카,トーチカ
+Spirit Shackle,Tisse Ombre,Cucitura d’Ombra,Schattenfessel,Puntada Sombría,그림자꿰매기,かげぬい
+Darkest Lariat,Dark Lariat,Braccioteso,Dark Lariat,Lariat Oscuro,DD래리어트,ＤＤラリアット
+Sparkling Aria,Aria de l’Écume,Canto Effimero,Schaumserenade,Aria Burbuja,물거품아리아,うたかたのアリア
+Ice Hammer,Marteau de Glace,Martelgelo,Eishammer,Martillo Hielo,아이스해머,アイスハンマー
+Floral Healing,Soin Floral,Cura Floreale,Florakur,Cura Floral,플라워힐,フラワーヒール
+High Horsepower,Cavalerie Lourde,Forza Equina,Pferdestärke,Fuerza Equina,10만마력,１０まんばりき
+Strength Sap,Vol-Force,Assorbiforza,Kraftabsorber,Absorbefuerza,힘흡수,ちからをすいとる
+Solar Blade,Lame Solaire,Lama Solare,Solarklinge,Cuchilla Solar,솔라블레이드,ソーラーブレード
+Leafage,Feuillage,Fogliame,Blattwerk,Follaje,나뭇잎,このは
+Spotlight,Projecteur,Riflettore,Rampenlicht,Foco,스포트라이트,スポットライト
+Toxic Thread,Fil Toxique,Velenotela,Giftfaden,Hilo Venenoso,독실,どくのいと
+Laser Focus,Affilage,Concentrazione,Konzentration,Aguzar,예민해지기,とぎすます
+Gear Up,Engrenage,Marciainpiù,Hilfsmechanik,Piñón Auxiliar,어시스트기어,アシストギア
+Throat Chop,Exécu-Son,Colpo Infernale,Neck Strike,Golpe Mordaza,지옥찌르기,じごくづき
+Pollen Puff,Boule Pollen,Sferapolline,Pollenknödel,Bola de Polen,꽃가루경단,かふんだんご
+Anchor Shot,Ancrage,Colpo d’Ancora,Ankerschuss,Anclaje,앵커숏,アンカーショット
+Psychic Terrain,Champ Psychique,Campo Psichico,Psychofeld,Campo Psíquico,사이코필드,サイコフィールド
+Lunge,Furie-Bond,Assalto,Anfallen,Plancha,덤벼들기,とびかかる
+Fire Lash,Fouet de Feu,Frusta di Fuoco,Feuerpeitsche,Látigo Ígneo,불꽃채찍,ほのおのムチ
+Power Trip,Arrogance,Tracotanza,Überheblichkeit,Chulería,기어오르기,つけあがる
+Burn Up,Flamme Ultime,Ultima Fiamma,Ausbrennen,Llama Final,불사르기,もえつきる
+Speed Swap,Permuvitesse,Velociscambio,Initiativetausch,Cambia Velocidad,스피드스웹,スピードスワップ
+Smart Strike,Estocorne,Sottilcorno,Schmalhorn,Cuerno Certero,스마트호른,スマートホーン
+Purify,Purification,Purificazione,Läuterung,Purificación,정화,じょうか
+Revelation Dance,Danse Éveil,Mutadanza,Wecktanz,Danza Despertar,잠재댄스,めざめるダンス
+Core Enforcer,Sanction Suprême,Nucleocastigo,Sanktionskern,Núcleo Castigo,코어퍼니셔,コアパニッシャー
+Trop Kick,Botte Sucrette,Tropicalcio,Tropenkick,Patada Tropical,트로피컬킥,トロピカルキック
+Instruct,Sommation,Imposizione,Kommando,Mandato,지휘,さいはい
+Beak Blast,Bec-Canon,Cannonbecco,Schnabelkanone,Pico Cañón,부리캐논,くちばしキャノン
+Clanging Scales,Vibrécaille,Clamorsquame,Schuppenrasseln,Fragor Escamas,스케일노이즈,スケイルノイズ
+Dragon Hammer,Draco-Marteau,Marteldrago,Drachenhammer,Martillo Dragón,드래곤해머,ドラゴンハンマー
+Brutal Swing,Centrifugifle,Vorticolpo,Wirbler,Giro Vil,세차게휘두르기,ぶんまわす
+Aurora Veil,Voile Aurore,Velaurora,Auroraschleier,Velo Aurora,오로라베일,オーロラベール
+Sinister Arrow Raid,Fureur des Plumes Spectrales,Dardoassalto Spettrale,Schatten-Pfeilregen,Aluvión de Flechas Sombrías,섀도애로우즈스트라이크,シャドーアローズストライク
+Malicious Moonsault,Dark Body Press,Iperschianto delle Tenebre,Hyper Dark Crusher,Hiperplancha Oscura,하이퍼다크크러셔,ハイパーダーククラッシャー
+Oceanic Operetta,Symphonie des Ondines,Sinfonia del Mare,Grandiose Meeressymphonie,Sinfonía de la Diva Marina,바다의심포니,わだつみのシンフォニア
+Guardian of Alola,Colère du Gardien d’Alola,Collera del Guardiano,Alolas Wächter,Cólera del Guardián,알로라의수호자,ガーディアン・デ・アローラ
+Soul-Stealing 7-Star Strike,Fauche-Âme des Sept Étoiles,Colpo Eptastellare Rubanima,Sternbild des Seelenraubes,Constelación Robaalmas,칠성탈혼퇴,しちせいだっこんたい
+Stoked Sparksurfer,Électro-Surf Survolté,Elettrosurf Folgorante,Blitz-Wellenritt,Surfeo Galvánico,라이트닝서프라이드,ライトニングサーフライド
+Pulverizing Pancake,Gare au Ronflex,Adesso Faccio sul Serio,Schluss mit lustig,Arrojo Intempestivo,진심의공격,ほんきをだす　こうげき
+Extreme Evoboost,Neuf pour Un,Potenziamento Eevolutivo,Macht der Neun,Novena Potencia,나인이볼부스트,ナインエボルブースト
+Genesis Supernova,Supernova Originelle,Supernova delle Origini,Supernova des Ursprungs,Supernova Original,오리진즈슈퍼노바,オリジンズスーパーノヴァ
+Shell Trap,Carapiège,Gusciotrappola,Panzerfalle,Coraza Trampa,트랩셸,トラップシェル
+Fleur Cannon,Canon Floral,Cannonfiore,Kanonenbouquet,Cañón Floral,플뢰르캐논,フルールカノン
+Psychic Fangs,Psycho-Croc,Psicozanna,Psychobeißer,Psicocolmillo,사이코팽,サイコファング
+Stomping Tantrum,Trépignement,Battipiedi,Fruststampfer,Pataleta,분함의발구르기,じだんだ
+Shadow Bone,Os’Ombre,Ossotetro,Schattenknochen,Hueso Sombrío,섀도본,シャドーボーン
+Accelerock,Vif Roc,Rocciarapida,Turbofelsen,Roca Veloz,액셀록,アクセルロック
+Liquidation,Aqua-Brèche,Idrobreccia,Aquadurchstoß,Hidroariete,아쿠아브레이크,アクアブレイク
+Prismatic Laser,Laser Prisme,Prismalaser,Prisma-Laser,Láser Prisma,프리즘레이저,プリズムレーザー
+Spectral Thief,Clepto-Mânes,Ombrafurto,Diebesschatten,Robasombra,섀도스틸,シャドースチール
+Sunsteel Strike,Choc Météore,Astrocarica,Stahlgestirn,Meteoimpacto,메테오드라이브,メテオドライブ
+Moongeist Beam,Rayon Spectral,Raggio d’Ombra,Schattenstrahl,Rayo Umbrío,섀도레이,シャドーレイ
+Tearful Look,Larme à l’Œil,Occhionilucidi,Tränendrüse,Ojos Llorosos,눈물그렁그렁,なみだめ
+Zing Zap,Électrikipik,Elettropizzico,Elektropikser,Electropunzada,찌리리따끔따끔,びりびりちくちく
+Nature’s Madness,Ire de la Nature,Ira della Natura,Naturzorn,Furia Natural,자연의분노,しぜんのいかり
+Multi-Attack,Coup Varia-Type,Multiattacco,Multi-Angriff,Multiataque,멀티어택,マルチアタック
+"10,000,000 Volt Thunderbolt",Giga-Tonnerre,Iperfulmine,Tausendfacher Donnerblitz,Gigarrayo Fulminante,1000만볼트,１０００まんボルト

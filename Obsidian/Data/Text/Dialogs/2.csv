@@ -1,0 +1,21 @@
+Index,en,fr,es
+0,Would you like to discover the \c[1]Pokémon SDK\c[0] functionalities?,Souhaites-tu découvrir les fonctionnalités de \c[1]Pokémon SDK\c[0] ?,¿Te gustaría descubrir las funciones de Pokémon SDK?
+1,"Let's see that together!\nlMessages are displayed like they are in \c[1]Pokémon\c[0].\nlThere are only two lines of text but when more are entered in the \c[5]Show Message command\c[0], the system continues to show the message \c[4]line by line\c[0].","Voyons cela ensemble !\nlLes messages s'affichent comme dans \c[1]Pokémon\c[0].\nlIl n'y a que deux lignes de texte mais lorsque plusieurs lignes sont entrées dans la commande \c[5]Afficher un message\c[0], le système continue d'afficher le message \c[4]ligne par ligne\c[0].","¡Vamos a conocerlas juntos! Los mensajes son mostrados tal y como lo hacen en Pokémon. Solo hay dos lineas de texto, pero cuando más son introducidas en el comando de Mostrar Mensaje, el sistema continúa mostrando el mensaje línea por línea."
+2,"By the way, the code \c[2]\\c[x]\c[0] lets you change the global color of a choice option used by the \c[5]Show Choice\c[0] command, which works nicely on \c[1]Pokémon SDK\c[0].","Par ailleurs, la commande \c[2]\\c[x]\c[0] permet de définir la couleur globale du choix utilisée dans la commande \c[5]Afficher un choix\c[0] qui s'affiche de manière convenable sur \c[1]Pokémon SDK\c[0].","Por cierto, el código \\c[x] te permite cambiar el color global de un sistema de elecciones. "
+3,Ok...,D'accord... ,Vale...
+4,\c[1]Yes,\c[1]Oui,\c[1]Sí
+5,\c[2]No,\c[2]Non,\c[2]No
+6,,,
+7,"Hello \c[1]\n[1]\c[0].\nlI'm the ""online"" battle setup NPC.",Bonjour \c[1]\n[1]\c[0].\nlJe suis le PNJ de configuration des combats en ligne.,"Hola, yo soy el NPC encargado de la configuración de los combates ""online""."
+8,"Would you like to start an ""online"" battle with a partner?",Désires-tu démarrer un combat en ligne avec un partenaire ?,"¿Te gustaría empezar un combate ""online"" con un compañero?"
+9,"To start a battle, one of the participants has to be the ""\c[1]server\c[0]"".\nlTo be the \c[1]server\c[0], you must have the \c[1]UPnP\c[0] option enabled on you router.","Pour réaliser un combat, il faut que l'un des participants soit le ""\c[1]serveur\c[0]"".\nlPour être le \c[1]serveur\c[0], il est impératif d'avoir \c[1]UPnP\c[0] activé sur votre box Internet.","Para empezar un combate, uno de los participantes debe actuar como ""\c[1]servidor\c[0]"".\nlPor ser el \c[1]servidor\c[0],es necesario tener \c[1]UPnP\c[0] habilitado en su enrutador."
+10,Would you like to be the \c[1]server\c[0]?,Désirez-vous être le \c[1]serveur\c[0] ?,¿Quieres ser el \C[1]servidor\C[0]?
+11,We couldn't connect you...,Nous n'avons pas réussi à vous connecter.,No tuvo exito para connectar
+12,Invalid code.,Votre code est invalide...,Tu codigo es inválido...
+13,I hope to see you soon again.,N'hésites pas à repasser.,¡Espero verte de nuevo por aquí!
+14,,,
+15,"Hello, would you like to trade a Pokémon online?","Bonjour, souhaitez vous réaliser un échange de Pokémon en ligne ?",Buenos diàs. ¿Quieres hacer un intercambio de Pokemon en línea ?
+16,"To start a trade, one of the participants should be the ""\c[1]server\c[0]"".\nlTo be the \c[1]server\c[0], you must have the \c[1]UPnP\c[0] option enabled on you router.","Pour réaliser un échange, il faut que l'un des participants soit le ""\c[1]serveur\c[0]"".\nlPour être le \c[1]serveur\c[0], il est impératif d'avoir \c[1]UPnP\c[0] activé sur votre box Internet.","Por realizar un intercambio, uno de los participantes debe ser el ""\C[1]servidor\C[0]"".\nIPara ser el\C[1]servidor\C[0], es necesario tener \C[1]UnPnP\C[0] habilitado en su enrutador."
+17,,,
+18,An error occured...\nlCheck everything is alright.,Une erreur est survenue.\nlVérifiez que tout est correct.,Ha ocurrido un error...\nVerifica que todo esté correcto.
+19,Would you like to battle again?,Voulez-vous redémarrer un combat ?,¿Te gustaría luchar nuevamente?

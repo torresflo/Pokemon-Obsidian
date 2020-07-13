@@ -1,0 +1,49 @@
+Index,en,fr
+0,No species found.,Aucun Pokémon trouvé.
+1,Select a Species,Choisissez un Pokémon
+2,Cancel,Annuler
+3,Select Search Method,Choix de la méthode de recherche
+4,By Wanted,Par critères
+5,By Pokemon,Par Pokémon
+6,By OID,Par Online ID
+7,Exit,Quitter
+8,No Pokemon was found.,Aucun Pokémon n'a été trouvé.
+9,Failed to download Pokemon.,Échec du téléchargement des Pokémon.
+10,Failed to download Pokemon.,Échec du téléchargement du Pokémon.
+11,Failed to download Wanted Data.,Échec du téléchargement des critères.
+12,The selected pokemon does not match the wanted requirments.,Le Pokémon choisi ne correspond pas aux critères.
+13,"To Continue, please select a pokemon of yours, we will match it up with any possible matches and allow you to choose a match.",Choisissez un Pokémon. Nous allons essayer de trouver des Pokémon dont les critères lui correspond.
+14,"To confirm, this is the wanted data.","Pour confirmer, voici les critères."
+15,Select the online ID.,Choisissez l'Online ID.
+16,You cannot search by your own online ID!,Vous ne pouvez pas rechercher votre propre Online ID !
+17,No Pokemon with this online ID exists!,Aucun Pokémon avec un dresseur possédant cet Online ID n'existe.
+18,%<min>d to %<max>d,%<min>d à %<max>d
+19,Pokemon Wanted Data,Critères
+20,Pokemon You Want,Pokémon
+21,Gender,Sexe
+22,Level Range,Niveaux
+23,Search with these Conditions!,Chercher avec ces critères !
+24,Back,Retour
+25,Which gender do you want,Quel sexe désirez-vous ?
+26,Choose a Letter.,Choisissez une lettre.
+27,Set the Minimum wanted level.,Définissez le niveau minimal.
+28,Set the Maximum wanted level.,Définissez le niveau maximal.
+29,Search,Recherche
+30,Summary,Résumé
+31,Deposit,Déposer
+32,Are you sure you want to quit GTS?,Êtes-vous sûr de vouloir quitter le GTS ?
+33,Yes,Oui
+34,No,Non
+35,You cannot deposit your last able pokemon in your party!,Vous ne pouvez pas déposer le dernier Pokémon de votre équipe !
+36,Do you want to withdraw your pokemon from GTS?,Voulez-vous retirer votre Pokémon du GTS ?
+37,Are you sure you want to withdraw your pokemon?,Êtes-vous sûr de vouloir retirer votre Pokémon ?
+38,"Pokemon withdrawn, please be aware that your pokemon may have had been taken by now.",Pokémon retiré.
+39,Is this the pokemon you want?,Est-ce le Pokémon que vous désirez ?
+40,Stop looking for a pokemon?,Ne pas choisir de Pokémon ?
+41,Accept this trade?,Accepter cet échange ?
+42,Decline this trade?,Décliner cet échange ?
+43,WANTED INFO,CRITÈRES DEMANDÉS
+44,Species %<name>s\nlDex No. %<id>03d\nlLevel %<from>d to %<to>d\nlGender %<sexe>s,Nom %<name>s\nlNo. ID : %<id>03d\nlNiveaux de %<from>d à %<to>d\nlSexe : %<sexe>s
+45,Loading.,Chargement.
+46,Loading..,Chargement..
+47,Loading...,Chargement...

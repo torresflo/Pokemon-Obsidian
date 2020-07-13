@@ -1,0 +1,23 @@
+en,fr,it,de,es,ko,kana
+CONTINUE,Continuer,Continua,Weiter,Continuar,모험을 계속한다,つづきから　はじめる
+Badges:,Badges :,Medaglie:,Orden:,Medallas:,배지,バッジ
+"","","","","",개,こ
+Pokédex:,Pokédex :,Pokédex:,Pokédex:,Pokédex:,도감,ずかん
+"","","","","",마리,ひき
+Time:,Temps de jeu :,Tempo di gioco:,Spielzeit:,Tiempo jugado:,플레이 시간,プレイじかん
+:,:,:,:,:,:,:
+[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)]
+[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)],[VAR LOCATION(0000)]
+[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+POKÉMON LINK,Poké Lien,Pokémon Link,Pokémon-Link,Nexo Pokémon,포켓몬링크,ポケモンリンク
+MYSTERY GIFT,Cadeau Mystère,Dono Segreto,Geheimgeschehen,Regalo Misterioso,이상한 소포,ふしぎな　おくりもの
+LIVE COMPETITION,Compétitions Live,Gara in Diretta,Hautnahturnier,Torneo en Directo,라이브 대회,ライブたいかい
+[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16]
+The saved data was erased!,Le fichier de sauvegarde a été effacé.,I dati di gioco sono stati cancellati.,Der Spielstand wurde gelöscht!,Se ha borrado la partida.,리포트의 내용이 사라져 버렸다!,レポートの　ないようが きえてしまった！
+Delete all saved data?,Voulez-vous effacer toutes les données sauvegardées ?,Vuoi cancellare tutti i dati salvati?,Sollen alle gespeicherten Daten gelöscht werden?,¿Quieres borrar todos los datos guardados?,모든 저장 데이터를 삭제하겠습니까?,すべての　セーブデータエリアを しょうきょ　しますか？
+"Once the data has been deleted, there is no way to recover it. Is it really OK to delete this saved data?",Les données effacées ne pourront pas être récupérées. Voulez-vous continuer ?,I dati cancellati non potranno essere recuperati. Vuoi cancellare lo stesso tutti i dati salvati?,"Sobald die Daten gelöscht wurden, können sie nicht mehr wiederhergestellt werden. Den Löschvorgang trotzdem fortsetzen?","Una vez borrados, los datos no se pueden recuperar. ¿Seguro que quieres borrarlos?",삭제한 데이터는 복구할 수 없습니다 그래도 저장 데이터를 삭제하겠습니까?,しょうきょした　データは もとに　もどせません それでも　セーブデータエリアを しょうきょ　しますか？
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ

@@ -1,0 +1,18 @@
+Index,fr,en
+0,Veux-tu que je te suive ?,Do you want me to follow you?
+1,Je ne peux pas te suivre...,I cannot follow you...
+2,Je vais te soigner ton équipe :),I'm gonna heal your party :)
+3,Je ne peux plus te suivre...,I cannot follow you anymore...
+4,Il n'y a rien de mieux que l'entrainement !,There's nothing better than training!
+5,J'adore la pêche.,I like fishing.
+6,"Tu n'as pas de canne, je vais t'en donner une.","You don't have any fishing rod, I'm gonna give you one."
+7,"Si tu viens accompagné d'un montagnard, je te donne une biyclette et un vélo cross.","If you come with a Hiker, I give you a bicycle and an acro bike."
+8,Voilà tes vélos !,Here's your bikes!
+9,"Super tu a ramassé assez de poussière, voilà pour toi. Tu peux essayer les météorites avec ce Pokémon.","Great you piked up enough dust, here's for you. You can try the meteorites with this Pokemon."
+10,"Si tu ramasse 40 unités de poussières, je te donnerai un Pokémon intéressant.","If you pick up 40 units of dust, I'll give you an interesting Pokemon."
+11,"Parles aux météorites, tu verras c'est sympa.","Interact with the meteorites, you'll see it's cool."
+12,Derrière moi il se passe un truc trop bizarre. On m'a dit que c'était à cause de la constante \c[2]Game_Player::FALLING_HOLES\c[0].,Right behind me something strange happens. Someone told me it was because of the \c[2]Game_Player::FALLING_HOLES\c[0] constant.
+13,Deoxys passe en forme normale !,Deoxys' form change to the normal form!
+14,Deoxys passe en forme défense !,Deoxys' form change to the defense form!
+15,Deoxys passe en forme vitesse !,Deoxys' form change to the speed form!
+16,Deoxys passe en forme attaque !,Deoxys' form change to the attack form!

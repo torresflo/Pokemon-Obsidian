@@ -1,0 +1,176 @@
+--- !ruby/object:ScriptLoader::PSDKConfig
+game_title: Pokemon Obsidian
+game_version: 256
+native_resolution: 320x240
+window_scale: 2
+running_in_full_screen: false
+smooth_texture: false
+vsync_enabled: true
+pokemon_max_level: 100
+player_always_centered: true
+mouse_disabled: true
+default_language_code: fr
+choosable_language_code:
+- fr
+choosable_language_texts:
+- French
+maximum_saves: 4
+tilemap: !ruby/object:ScriptLoader::PSDKConfig::TilemapConfig
+  tilemap_class: Tilemap::WithLessRubySprites_16
+  tilemap_size_x: 22
+  tilemap_size_y: 17
+  character_tile_zoom: 0.5
+  center_x: 1216
+  center_y: 896
+  maplinker_offset_x: 10
+  maplinker_offset_y: 7
+  autotile_idle_frame_count: 6
+mouse_skin: 
+options: !ruby/object:ScriptLoader::PSDKConfig::OptionsConfig
+  order:
+  - :message_speed
+  - :message_frame
+  - :volume
+  - :battle_animation
+  - :battle_style
+  - :language
+  options:
+  - - :message_speed
+    - :choice
+    - - 1
+      - 2
+      - 3
+    - - - :text_get
+        - 42
+        - 4
+      - - :text_get
+        - 42
+        - 5
+      - - :text_get
+        - 42
+        - 6
+    - - :text_get
+      - 42
+      - 3
+    - - :text_get
+      - 42
+      - 7
+    - :message_speed
+  - - :message_frame
+    - :choice
+    - GameData::Windows::MESSAGE_FRAME
+    - GameData::Windows::MESSAGE_FRAME_NAMES
+    - - :ext_text
+      - 9000
+      - 165
+    - - :ext_text
+      - 9000
+      - 166
+    - :message_frame
+  - - :volume
+    - :slider
+    - :min: 0
+      :max: 100
+      :increment: 1
+    - "%d%%"
+    - - :ext_text
+      - 9000
+      - 29
+    - - :ext_text
+      - 9000
+      - 30
+    - :master_volume
+  - - :battle_animation
+    - :choice
+    - - true
+      - false
+    - - - :text_get
+        - 42
+        - 9
+      - - :text_get
+        - 42
+        - 10
+    - - :text_get
+      - 42
+      - 8
+    - - :text_get
+      - 42
+      - 11
+    - :show_animation
+  - - :battle_style
+    - :choice
+    - - true
+      - false
+    - - - :text_get
+        - 42
+        - 13
+      - - :text_get
+        - 42
+        - 14
+    - - :text_get
+      - 42
+      - 12
+    - - :text_get
+      - 42
+      - 15
+    - :battle_mode
+  - - :language
+    - :choice
+    - PSDK_CONFIG#choosable_language_code
+    - PSDK_CONFIG#choosable_language_texts
+    - - :ext_text
+      - 9000
+      - 167
+    - - :ext_text
+      - 9000
+      - 168
+    - :language
+layout: !ruby/object:ScriptLoader::PSDKConfig::LayoutConfig
+  general: !ruby/object:ScriptLoader::PSDKConfig::LayoutConfig::General
+    supports_pokemon_number: true
+    ttf_files:
+    - :id: 0
+      :name: PokemonDS
+      :size: 13
+      :line_height: 16
+    - :id: 1
+      :name: PokemonDS
+      :size: 26
+      :line_height: 32
+    - :id: 20
+      :name: PowerGreenSmall
+      :size: 11
+      :line_height: 13
+    alt_sizes:
+    - :id: 2
+      :size: 22
+      :line_height: 26
+    - :id: 3
+      :size: 13
+      :line_height: 13
+  messages:
+    :any: !ruby/object:ScriptLoader::PSDKConfig::LayoutConfig::Message
+      windowskin: 
+      name_windowskin: 
+      line_count: 2
+      border_spacing: 2
+      default_font: 0
+      default_color: 0
+      color_mapping: {}
+    Battle::Scene: !ruby/object:ScriptLoader::PSDKConfig::LayoutConfig::Message
+      windowskin: 
+      name_windowskin: 
+      line_count: 2
+      border_spacing: 2
+      default_font: 0
+      default_color: 0
+      color_mapping: {}
+  choices:
+    :any: !ruby/object:ScriptLoader::PSDKConfig::LayoutConfig::Choice
+      windowskin: 
+      border_spacing: 2
+      default_font: 0
+      default_color: 0
+      color_mapping: {}
+always_use_form0_for_evolution: false
+use_form0_when_no_evolution_data: true

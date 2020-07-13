@@ -1,0 +1,28 @@
+﻿Index,en,fr
+0,It is \c[1][HOUR]:[MINUTE]\c[0].,Il est \c[1][HOUR]:[MINUTE]\c[0].
+1,There is nothing inside.,C'est vide.
+2,"\c[2]\t[0, 479]\c[0] is attracted by the oven. Let \c[2]\t[0, 479]\c[0] go inside the oven?","\c[2]\t[0, 479]\c[0] est attiré par le four. Laisser \c[2]\t[0, 479]\c[0] aller dans le four ?"
+3,"\c[2]\t[0, 479]\c[0] is now in forme heat!","\c[2]\t[0, 479]\c[0] passe en forme chaleur !"
+4,"\c[2]\t[0, 479]\c[0] is attracted by the washing machine. Let \c[2]\t[0, 479]\c[0] go inside the washing machine?","\c[2]\t[0, 479]\c[0] est attiré par la machine à laver. Laisser \c[2]\t[0, 479]\c[0] aller dans la machine à laver ?"
+5,"\c[2]\t[0, 479]\c[0] is now in forme wash!","\c[2]\t[0, 479]\c[0] passe en forme laveuse !"
+6,"\c[2]\t[0, 479]\c[0] is attracted by the fridge. Let \c[2]\t[0, 479]\c[0] go inside the fridge?","\c[2]\t[0, 479]\c[0] est attiré par le réfrigérateur. Laisser \c[2]\t[0, 479]\c[0] aller dans le réfrigérateur ?"
+7,"\c[2]\t[0, 479]\c[0] is now in forme frost!","\c[2]\t[0, 479]\c[0] passe en forme frigo !"
+8,"There are some electric devices in these boxes. \c[2]\t[0, 479]\c[0] is attracted by some of them. Let \c[2]\t[0, 479]\c[0] go inside one?","Il y a quelques appareils électriques dans ces cartons. Certains d'entres eux attirent \c[2]\t[0, 479]\c[0]. Laisser \c[2]\t[0, 479]\c[0] aller dans un appareil ?"
+9,Light bulb,Ampoule
+10,Fan,Ventilateur
+11,Mower,Tondeuse
+12,Cancel,Annuler
+13,"\c[2]\t[0, 479]\c[0] is now in forme normale!","\c[2]\t[0, 479]\c[0] passe en forme normale !"
+14,"\c[2]\t[0, 479]\c[0] is now in forme fan!","\c[2]\t[0, 479]\c[0] passe en forme ventilateur !"
+15,"\c[2]\t[0, 479]\c[0] is now in forme mow!","\c[2]\t[0, 479]\c[0] passe en forme tondeuse !"
+16,Welcome into the world of Pokémon Obsidian! You adventure will begin!,Bienvenue dans la démo de Pokémon Obsidian !\nlTon aventure va bientôt commencer !
+17,TEXT,"Tout d'abord, nous te remercions d'avoir lancer le jeu et d'aider à son développement !\nlPour rappel, Pokémon Obsidian est encore en cours de création et à ce titre, la sauvegarde de la progression n'est pas assurée entre les différentes versions du jeu.\nlTu pourras même rencontrer certains bugs ou des crashs...\nlN'hésites pas à nous les remonter !\nlSur ce, nous te souhaitons une excellente partie !"
+18,"Before starting, do you want to see the game controls?","Avant de commencer, souhaites-tu consulter les contrôles de jeu ?"
+19,You can press F1 at any time to change the controls.,Tu peux à tout moment appuyer sur F1 pour modifier les contrôles.
+20,TEXT,Es-tu une fille ou un garçon ?
+21,TEXT,Et quel est ton nom ?
+22,TEXT,"Ah oui, tu es \n[1], un\E étudiant\E en journalisme, connu\E pour son blog sur internet.\nlC'est bien cela ? "
+23,TEXT,"Le monde des Pokémons est un monde incroyable, peuplé d'innombrables créatures qu'il te faudra apprendre à connaître et à aimer.\nlUne aventure pleine de mystères, de rêves et de rebondissements t'attends !"
+24,TEXT,Tu es prêt\E ?\nlAlors c'est parti !
+25,TEXT,Chaussures de course
+26,\c[7]Press \k[B] to run!,\c[7]Appuyez sur \k[B] pour courir !

@@ -1,0 +1,208 @@
+en,fr,it,de,es,ko,kana
+[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)]
+[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)]
+[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)],[VAR COLOR(0002)]♂[VAR COLOR(0000)]
+[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)],[VAR COLOR(0001)]♀[VAR COLOR(0000)]
+-,-,-,-,-,-,-
+Lv.,N. ,L. ,Lv. ,Nv. ,Lv.,Lv.
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+DEX NO.,Nº Pokédex,N° Pokédex ,Pokédex-Nr.,N.º Pokédex,도감No.,ずかんNo.
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+???,???,???,???,(?),???,???
+HP,PV,PS,KP,PS,HP,HP
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+/,/,/,/,/,/,/
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+ATTACK,Attaque,Attacco,Angriff,Ataque,공격,こうげき
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+DEFENSE,Défense,Difesa,Vert.,Defensa,방어,ぼうぎょ
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+SP. ATK,Atq. Spé.,Att. Sp.,Sp.-Ang.,At. Esp.,특수공격,とくこう
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+SP. DEF,Déf. Spé.,Dif. Sp.,Sp.-Vert.,Def. Esp.,특수방어,とくぼう
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+SPEED,Vitesse,Velocità,Initiative,Velocidad,스피드,すばやさ
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+NATURE,Nature,Natura,Wesen,Naturaleza,성격,せいかく
+[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)]
+ABILITY,Talent,Abilità,Fähigkeit,Habilidad,특성,とくせい
+[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)]
+ITEM,Objet,Strumento,Item,Objeto,지닌물건,もちもの
+[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)]
+MOVES LEARNED,Capacités,Mosse,Attacken,Movimientos,배운 기술,もっているわざ
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR BOX(0000)],[VAR BOX(0000)],[VAR BOX(0000)],[VAR BOX(0000)],[VAR BOX(0000)],[VAR BOX(0000)],[VAR BOX(0000)]
+BATTLE BOX,Boîte Combat,Box Lotta,Kampfbox,Caja de Combate,배틀박스,バトルボックス
+DEPOSIT,Déposer,Deposita,Ablegen,Dejar,맡긴다,あずける
+WITHDRAW,Retirer,Ritira,Mitnehmen,Sacar,데리고 간다,つれていく
+MOVE,Déplacer,Sposta,Bewegen,Mover,이동한다,いどうする
+ITEM,Objet,Strumento,Item,Objeto,지닌물건,もちもの
+SUMMARY,Résumé,Info,Bericht,Datos,상태를 본다,ようすをみる
+MARKING,Marquer,Segna,Markieren,Marcar,마킹,マーキング
+SWITCH BOX,Autres Boîtes,Cambia Box,Box wechseln,Ir a otra caja,점프한다,ジャンプする
+WALLPAPER,Fonds,Sfondo,Motiv,Fondo,벽지,かべがみ
+NAME,Nom,Nome,Name,Nombre,이름,なまえ
+SCENERY 1,Paysage 1,Tema 1,Hintergründe 1,Paisaje 1,풍경1,ふうけい１
+SCENERY 2,Paysage 2,Tema 2,Hintergründe 2,Paisaje 2,풍경2,ふうけい２
+SCENERY 3,Paysage 3,Tema 3,Hintergründe 3,Paisaje 3,풍경3,ふうけい３
+MISC.,Autres,Extra,Sonstige,Miscelánea,기타,エトセトラ
+SPECIAL,Spécial,Speciale,Spezialmotive,Especial,스페셜,スペシャル
+FOREST,Forêt,Foresta,Wald,Bosque,숲,もり
+CITY,Ville,Città,Stadt,Ciudad,시티,シティ
+DESERT,Désert,Deserto,Wüste,Desierto,사막,さばく
+SAVANNA,Savane,Savana,Steppe,Sabana,사바나,サバンナ
+CRAG,Rochers,Rocce,Geröll,Montaña,바위산,いわやま
+VOLCANO,Volcan,Vulcano,Vulkan,Volcán,화산,かざん
+SNOW,Neige,Neve,Schnee,Nieve,설산,ゆきやま
+CAVE,Grotte,Grotta,Höhle,Cueva,동굴,どうくつ
+BEACH,Plage,Spiaggia,Strand,Playa,바닷가,うみべ
+SEAFLOOR,Mer,Fondale,Tiefsee,Mar,해저,かいてい
+RIVER,Rivière,Fiume,Fluss,Río,강,かわ
+SKY,Ciel,Cielo,Himmel,Cielo,하늘,そら
+POKÉ CENTER,Centre Pokémon,Centro Pokémon,Poké-Center,Centro Pokémon,포켓센,ポケセン
+MACHINE,Métal,Metallo,Metall,Máquina,금속,きんぞく
+CHECKS,Vichy,Quadretti,Kariert,Cuadros,체크,チェック
+SIMPLE,Uni,Semplice,Weiß,Sencillo,심플,シンプル
+SPECIAL 1,Spécial 1,Speciale 1,Spezialmotiv 1,Especial 1,스페셜1,スペシャル１
+SPECIAL 2,Spécial 2,Speciale 2,Spezialmotiv 2,Especial 2,스페셜2,スペシャル２
+SPECIAL 3,Spécial 3,Speciale 3,Spezialmotiv 3,Especial 3,스페셜3,スペシャル３
+SPECIAL 4,Spécial 4,Speciale 4,Spezialmotiv 4,Especial 4,스페셜4,スペシャル４
+SPECIAL 5,Spécial 5,Speciale 5,Spezialmotiv 5,Especial 5,스페셜5,スペシャル５
+SPECIAL 6,Spécial 6,Speciale 6,Spezialmotiv 6,Especial 6,스페셜6,スペシャル６
+SPECIAL 7,Spécial 7,Speciale 7,Spezialmotiv 7,Especial 7,스페셜7,スペシャル７
+SPECIAL 8,Spécial 8,Speciale 8,Spezialmotiv 8,Especial 8,스페셜8,スペシャル８
+NEXT,Suivant,Successivi,Weiter,Siguiente,다음으로,つぎへ
+PREVIOUS,Précédent,Precedenti,Vorherige,Anterior,이전으로,まえへ
+BACK,Retour,Esci,Zurück,Atrás,뒤로,もどる
+CONFIRM,OK,Ok,O.K.,Vale,결정,けってい
+BAG,Ranger,In Borsa,Beutel,Bolsa,가방으로,バッグへ
+GIVE,Donner,Dai,Geben,Dar,건네준다,もたせる
+RELEASE,Relâcher,Libera,Freilassen,Liberar,놓아준다,にがす
+CANCEL,Quitter,Indietro,Zurück,Salir,취소,やめる
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ
+Continue operations?,Rester sur cet écran ?,Vuoi fare altro?,Weiter bearbeiten?,¿Quieres hacer algo más?,조작을 계속하겠습니까?,そうさを　つづけますか？
+[VAR PKNICK(0000)] is selected.,[VAR PKNICK(0000)] sélectionné.,Pokémon selezionato: [VAR PKNICK(0000)],Was soll mit [VAR PKNICK(0000)] geschehen?,[VAR PKNICK(0000)] ha sido seleccionado.,[VAR PKNICK(0000)][VAR 1900(0002)] 어떻게 할까?,[VAR PKNICK(0000)]をどうする？
+[~ 87],[~ 87],[~ 87],[~ 87],[~ 87],[~ 87],[~ 87]
+You need to keep a healthy Pokémon!,Il vous faut au moins un Pokémon en forme !,Devi avere almeno un Pokémon in forma.,Du benötigst ein kampffähiges Pokémon!,¡Necesitas al menos un Pokémon en forma!,싸울 포켓몬이 없어집니다!,たたかうポケモンが　いなくなります！
+Place it in which Box?,Déposer où ?,Dove vuoi depositarlo?,Wo ablegen?,¿Dónde lo quieres dejar?,어디에 맡길까?,どこに　あずける？
+The Box is full.,La Boîte est pleine.,Il Box è pieno!,Die Box ist voll!,La caja está llena.,이 박스는 가득 찼습니다!,このボックスは　いっぱいです！
+Your party is full!,Votre équipe est au complet !,La tua squadra è al completo!,Dein Team ist voll!,Tu equipo está completo.,지닌 포켓몬이 가득합니다!,てもちが　いっぱいです！
+What do you want to do?,Boîte sélectionnée.,Cosa vuoi fare?,Eine Box wurde ausgewählt. Was nun?,¿Qué quieres hacer con esta caja?,이 박스를 어떻게 하겠습니까?,この　ボックスを　どうしますか？
+Jump to where?,Aller à quelle Boîte ?,Scegli un Box.,Zu welcher Box springen?,¿A qué caja quieres ir?,어디로 점프하겠습니까?,どこに　ジャンプしますか？
+Please pick a theme.,Choisissez un thème.,Quale tema vuoi usare?,Wähle eine Motivkategorie.,Elige un tema.,어느 테마로 하겠습니까?,どの　テーマに　しますか？
+Pick a wallpaper.,Choisissez un fond.,Quale sfondo vuoi usare?,Wähle ein Hintergrundmotiv.,Elige un fondo.,어느 벽지로 하겠습니까?,どの　かべがみに　しますか？
+"Take th[VAR NUMBRNCH(0000,0102)]ise [VAR ITEM2(0000)]?",Prendre [VAR 1400(0000)][VAR ITEM2(0000)] ?,Vuoi prendere [VAR 1500(0000)][VAR ITEM2(0000)]?,[VAR ITEM2(0000)] an dich nehmen?,¿Quieres coger [VAR 1700(0000)][VAR ITEM2(0000)]?,[VAR ITEM2(0000)][VAR 1900(0002)] 가져오겠습니까?,[VAR ITEM2(0000)]を　あずかりますか？
+The Bag is full.,Vous avez trop d’exemplaires de cet objet !,Hai raggiunto il limite per questo oggetto!,Du hast keinen Platz dafür!,No te caben más en la Bolsa.,가방이 가득 찼습니다!,バッグが　いっぱいです！
+Placed the [VAR ITEM2(0000)] in the Bag.,"[VAR ITEM2(0000)] remis[VAR 1102(0000,0100,0200)]ees dans le Sac.",Hai messo [VAR 1500(0000)][VAR ITEM2(0000)] in Borsa.,[VAR ITEM2(0000)] im Beutel verstaut.,Has guardado [VAR 1700(0000)][VAR ITEM2(0000)].,[VAR ITEM2(0000)][VAR 1900(0002)] 가방에 넣었다!,[VAR ITEM2(0000)]を　バッグにいれた！
+A Pokémon Egg cannot hold an item.,Un Œuf ne peut pas tenir un objet.,Un Uovo non può tenere uno strumento!,Ein Ei kann kein Item tragen!,Los Huevos no pueden llevar objetos.,알은 도구를 지닐 수 없습니다!,タマゴは　どうぐを　もてません！
+Choose a mark.,Veuillez effectuer le marquage.,Scegli uno o più simboli.,Wähle eine Markierung aus.,Realiza una marca.,마킹해주세요,マーキング　してください
+Release this Pokémon?,Relâcher ce Pokémon ?,Vuoi davvero liberarlo?,Dieses Pokémon wirklich freilassen?,¿Quieres liberar a este Pokémon?,정말 놓아주겠습니까?,ほんとうに　にがしますか？
+[VAR PKNICK(0000)] was released.,[VAR PKNICK(0000)] a été relâché.,Hai liberato [VAR PKNICK(0000)]!,[VAR PKNICK(0000)] ist wieder frei.,[VAR PKNICK(0000)] ha sido liberado.,[VAR PKNICK(0000)][VAR 1900(0002)] 놓아주었다,[VAR PKNICK(0000)]を　にがしてあげた
+"Bye-bye, [VAR PKNICK(0000)]!","Bye-bye, [VAR PKNICK(0000)] !","Addio, [VAR PKNICK(0000)]!","Mach’s gut, [VAR PKNICK(0000)]!","¡Adiós, [VAR PKNICK(0000)]!","바이바이, [VAR PKNICK(0000)]!",ばいばい　[VAR PKNICK(0000)]！
+[VAR ITEM2(0000)] selected.,Sélection : [VAR ITEM2(0000)],Hai selezionato [VAR 1500(0000)][VAR ITEM2(0000)]!,[VAR ITEM2(0000)] ausgewählt. Was nun?,Has seleccionado [VAR 1700(0000)][VAR ITEM2(0000)].,[VAR ITEM2(0000)][VAR 1900(0002)] 어떻게 할까요?,[VAR ITEM2(0000)]を　どうしますか？
+It can hold an item.,Le Pokémon peut tenir un objet.,Il Pokémon può avere uno strumento.,Du kannst diesem Pokémon ein Item geben.,Puede llevar un objeto.,도구를 지닐 수 있습니다,どうぐを　もつことが　できます
+You cannot release a Pokémon Egg.,Un Œuf ne peut pas être relâché !,Non puoi liberare un Uovo!,Du kannst kein Ei freilassen!,No puedes liberar Huevos.,알은 놓아줄 수 없습니다!,タマゴを　にがすことは　できません！
+Your Battle Box is locked. You cannot move your Pokémon.,La Boîte Combat est verrouillée. Impossible de relâcher les Pokémon.,In questo momento il Box Lotta è bloccato. Non puoi liberare i Pokémon.,Die Kampfbox wurde abgeriegelt. Pokémon können nicht freigelassen werden.,La Caja de Combate está bloqueada. No se puede liberar a los Pokémon.,배틀박스가 잠겨 있습니다 포켓몬을 놓아줄 수 없습니다,バトルボックスが　ロックされています ポケモンは　にがせません
+You cannot release the fused Kyurem.,Kyurem fusiorbé ne peut pas être relâché !,Non puoi liberare un Kyurem endofuso!,Du kannst kein fusioniertes Kyurem freilassen!,No puedes liberar a Kyurem fusionado.,합체한 큐레무는 놓아줄 수 없습니다,がったいした　キュレムは　にがせない
+[VAR PKNICK(0000)] came back!,[VAR PKNICK(0000)] est revenu !,Ecco di ritorno [VAR PKNICK(0000)]!,[VAR PKNICK(0000)] ist zurückgekommen!,¡[VAR PKNICK(0000)] ha vuelto!,[VAR PKNICK(0000)][VAR 1900(0003)] 되돌아와 버렸다!,[VAR PKNICK(0000)]が　もどってきちゃった！
+Was it worried about you?,Il se faisait peut-être du souci…,Forse era in pensiero per te...,War es in Sorge um dich?,Quizás te echaba de menos...,걱정했었나...,しんぱい　だったのかな……
+You cannot change it in the Battle Box!,Impossible à changer dans la Boîte Combat.,Non puoi cambiarlo nel Box Lotta.,Keine Änderung in der Kampfbox möglich.,No se puede cambiar en la Caja de Combate.,배틀박스에서는 바꿀 수 없습니다!,バトルボックスでは　かえられません！
+[VAR PKNICK(0000)] is selected.,[VAR PKNICK(0000)] sélectionné.,Pokémon selezionato: [VAR PKNICK(0000)],Was soll mit [VAR PKNICK(0000)] geschehen?,[VAR PKNICK(0000)] ha sido seleccionado.,[VAR PKNICK(0000)][VAR 1900(0002)] 어떻게 할까?,[VAR PKNICK(0000)]をどうする？
+TRADE,Échanger,Scambia,Tausch,Intercambiar,교환한다,こうかんする
+DEPOSIT,Déposer,Deposita,Ablegen,Dejar,맡긴다,あずける
+CANCEL,Quitter,Esci,Zurück,Salir,취소,やめる
+It has learned an HM move. You cannot let it leave your party.,Ce Pokémon a appris une capacité précieuse et doit rester dans votre équipe.,Questo Pokémon deve restare in squadra perché conosce una mossa importante!,Das Pokémon verfügt über eine wichtige Attacke und kann nicht getauscht werden.,Este Pokémon conoce un movimiento importante. No puede abandonar el equipo.,중요한 기술을 배우고 있으므로 지닌 포켓몬에서 뺄 수 없습니다,たいせつな　わざを　おぼえているので てもちから　はずせません
+You need that Pokémon to get through your adventure!,Vous avez besoin de ce Pokémon pour progresser dans l’aventure !,"Se scambi quel Pokémon, non potrai procedere nell’avventura!","Wenn du dieses Pokémon tauschst, kannst du dein Abenteuer nicht fortsetzen!","¡Si intercambias ese Pokémon, no podrás continuar tu aventura!",그 포켓몬을 교환하면 모험을 할 수 없게 돼!,その　ポケモンを　こうかんすると ぼうけん　できなくなっちゃうよ！
+The Pokémon cannot be traded.,Ce Pokémon ne peut pas être échangé.,Questo Pokémon non può essere scambiato.,Dieses Pokémon kann nicht getauscht werden.,No se puede intercambiar ese Pokémon.,그 포켓몬은 교환할 수 없습니다,その　ポケモンは こうかんに　だせません
+Offer the Pokémon for trade?,Procéder à l’échange ?,Vuoi scambiarlo?,Dieses Pokémon zum Tausch anbieten?,¿Quieres intercambiarlo?,교환에 내보내겠습니까?,こうかんに　だしますか？
+YES,Oui,Sì,Ja,Sí,예,はい
+NO,Non,No,Nein,No,아니요,いいえ
+You cannot offer a Pokémon Egg in trade.,L’échange d’Œufs est impossible.,Non puoi scambiare un Uovo.,Ein Ei kann nicht zum Tausch angeboten werden.,No puedes intercambiar un Huevo.,알은 교환에 내보낼 수 없습니다,タマゴは こうかんに　だせません
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+You cannot include a Pokémon Egg!,Impossible de placer un Œuf.,Non puoi mettere un Uovo nel Box Lotta!,Es kann kein Ei abgelegt werden.,No puedes colocar Huevos.,알은 놓을 수 없습니다,タマゴは　おけません
+Your Battle Box is locked. You cannot move your Pokémon.,La Boîte Combat est verrouillée. Impossible de déplacer les Pokémon.,In questo momento il Box Lotta è bloccato. Non puoi spostare i Pokémon.,Die Kampfbox wurde abgeriegelt. Pokémon können nicht bewegt werden.,La Caja de Combate está bloqueada. No se pueden mover los Pokémon.,배틀박스가 잠겨 있습니다 포켓몬을 이동할 수 없습니다,バトルボックスが　ロックされています ポケモンは　いどう　できません
+Your Battle Box is locked. Items cannot be given or taken.,La Boîte Combat est verrouillée. Impossible de changer les objets tenus.,In questo momento il Box Lotta è bloccato. Non puoi cambiare gli strumenti.,Die Kampfbox wurde abgeriegelt. Zugriff auf Items nicht möglich.,La Caja de Combate está bloqueada. No se pueden cambiar los objetos.,배틀박스가 잠겨 있습니다 지닌물건을 변경할 수 없습니다,バトルボックスが　ロックされています もちものは　へんこう　できません
+You can register Pokémon you use in battle.,Enregistrement des Pokémon pour les combats.,Registra i Pokémon che vuoi usare per lottare.,Registriere Pokémon für Kämpfe.,Puedes registrar los Pokémon que usarás para combatir.,대전에서 쓸 포켓몬을 등록할 수 있습니다,たいせんで　つかう　ポケモンを　とうろくできます
+Your Battle Box is locked. You cannot mark your Pokémon.,La Boîte Combat est verrouillée. Impossible de marquer les Pokémon.,In questo momento il Box Lotta è bloccato. Non puoi aggiungere o rimuovere simboli.,Die Kampfbox wurde abgeriegelt. Pokémon können nicht markiert werden.,La Caja de Combate está bloqueada. No puedes realizar marcas.,배틀박스가 잠겨 있습니다 마킹할 수 없습니다,バトルボックスが　ロックされています マーキング　できません
+RESET,Réinitial.,Azzera,Neu,Reiniciar,리셋,リセット
+SEARCH,Chercher,Cerca,Suchen,Buscar,찾는다,さがす
+CANCEL,Quitter,Esci,Zurück,Salir,취소,やめる
+Pokémon,Pokémon,Pokémon,Pokémon,Pokémon,포켓몬,ポケモン
+[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)]
+Type 1,Type 1,Tipo 1,Typ 1,Tipo 1,타입1,タイプ１
+[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)]
+Type 2,Type 2,Tipo 2,Typ 2,Tipo 2,타입2,タイプ２
+[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)],[VAR TYPE(0000)]
+Move,Capacité,Mosse,Attacke,Movimiento,기술,わざ
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+TMs & HMs,CT & CS,MT e MN,TM & VM,MT y MO,기술머신,わざマシン
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+Ability,Talent,Abilità,Fähigkeit,Habilidad,특성,とくせい
+[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)]
+Nature,Nature,Natura,Wesen,Naturaleza,성격,せいかく
+[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)]
+Gender,Sexe,Sesso,Geschlecht,Sexo,성별,せいべつ
+♂,♂,♂,♂,♂,♂,♂
+♀,♀,♀,♀,♀,♀,♀
+Unknown,?,Sconosciuto,?,Desconocido,성별 없음,せいべつなし
+-,"",-,-,-,-,-
+Held Item,Objet,Strumento,Item,Objeto,지닌물건,もちもの
+[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)],[VAR ITEM2(0000)]
+Mark,Marque,Simboli,Markierung,Marca,마크,マーク
+Holding Item,Oui,Sì,Trägt ein Item,Con objeto,지니고 있다,もっている
+Not Holding Item,Non,No,Trägt kein Item,Sin objeto,지니고 있지 않다,もっていない
+"Choose the conditions, and press “SEARCH” to turn on the filter.",Définissez vos critères et appuyez sur Chercher pour activer la recherche.,Imposta dei criteri e seleziona “Cerca” per visualizzare i risultati.,"Wähle deine Filterkriterien und bestätige mit „Suchen“, um den Filtervorgang zu starten!",Elige los requisitos y toca “Buscar” para activar el filtro.,조건을 선택하고 “찾는다”를 누르면 추려 내기를 실행합니다!,じょうけんを　えらび　「さがす」をおすと しぼりこみを　かいし　します！
+Filter Pokémon,Chercher un Pokémon,Pokémon,Pokémon,Pokémon,포켓몬 추려 내기:,ポケモンのしぼりこみ：
+Choose the first letter of the Pokémon’s name.,Saisissez la première lettre du nom du Pokémon recherché.,Scegli la prima lettera del nome del Pokémon da cercare.,Gib den Anfangsbuchstaben des gewünschten Pokémon-Namens ein.,Introduce la inicial del nombre del Pokémon.,포켓몬 이름의 첫 글자를 선택해 주십시오,ポケモンの　なまえを かしらもじで　えらんでください
+Choose a Pokémon.,Veuillez choisir un Pokémon.,Scegli un Pokémon.,Wähle ein Pokémon.,Elige un Pokémon.,포켓몬을 선택해 주십시오,ポケモンを　えらんでください
+Choose Type 1.,Choisissez le premier type du Pokémon recherché.,Scegli il primo tipo.,Wähle Typ 1.,Elige el Tipo 1.,타입1을 선택해 주십시오,タイプ1を　えらんでください
+Choose Type 2.,Choisissez le second type du Pokémon recherché.,Scegli il secondo tipo.,Wähle Typ 2.,Elige el Tipo 2.,타입2를 선택해 주십시오,タイプ2を　えらんでください
+Choose the first letter of the move.,Choisissez la première lettre du nom d’une capacité apprise par le Pokémon recherché.,Scegli la prima lettera del nome della mossa da cercare.,Gib den Anfangsbuchstaben der gewünschten Attacke ein.,Introduce la inicial del movimiento.,기술 이름의 첫 글자를 선택해 주십시오,わざの　なまえの かしらもじを　えらんでください
+You can check whether any Pokémon can use the selected TM or HM.,Sélectionnez une CS ou une CT utilisable par le Pokémon recherché.,Scegli una MT o una MN per cercare i Pokémon che possono usare la mossa corrispondente.,"Suche nach Pokémon, auf die eine bestimmte TM/VM angewendet werden kann.",Comprueba qué Pokémon puede utilizar una determinada MT o MO.,선택한 기술머신을 포켓몬이 쓸 수 있는지 체크합니다,えらんだ　わざマシンを　ポケモンが つかえるかどうか　しらべます
+Please choose a Nature.,Choisissez la nature du Pokémon recherché.,Scegli la natura del Pokémon.,Wähle das gewünschte Wesen.,Elige la naturaleza del Pokémon.,포켓몬의 성격을 선택해 주십시오.,ポケモンの せいかくを　えらんでください
+Please choose the first letter of an Ability.,Saisissez la première lettre du nom du talent possédé par le Pokémon recherché.,Scegli la prima lettera del nome dell’abilità.,Gib den Anfangsbuchstaben der gewünschten Fähigkeit ein.,Introduce la inicial de la habilidad que buscas.,포켓몬 특성의 첫 글자를 선택해 주십시오,ポケモンの　とくせいの かしらもじを　えらんでください
+Please choose a gender.,Choisissez le sexe du Pokémon recherché.,Scegli il sesso del Pokémon.,Wähle das Geschlecht des Pokémon aus.,Elige el sexo del Pokémon.,포켓몬의 성별을 선택해 주십시오.,ポケモンの　せいべつを えらんでください
+You can check Pokémon with items.,Choisissez si le Pokémon recherché tient un objet ou non.,Cerca i Pokémon con o senza uno strumento.,"Wähle, ob bei der Suche ausschließlich Pokémon mit oder ohne Items berücksichtigt werden sollen.",Comprueba qué Pokémon lleva algún objeto.,물건을 지니고 있는 포켓몬을 체크할 수 있습니다,もちものを　もっている　ポケモンを しらべることが　できます
+You can check Pokémon with marks.,Sélectionnez le marquage du Pokémon recherché.,Cerca i Pokémon che hanno dei simboli.,"Suche nach Pokémon, die du mit einer Markierung versehen hast.",Comprueba qué Pokémon tiene alguna marca.,마킹되어 있는 포켓몬을 체크할 수 있습니다,マークを　つけた　ポケモンを しらべることが　できます
+[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)]
+[VAR TYPE(0001)],[VAR TYPE(0001)],[VAR TYPE(0001)],[VAR TYPE(0001)],[VAR TYPE(0001)],[VAR TYPE(0001)],[VAR TYPE(0001)]
+[VAR TYPE(0002)],[VAR TYPE(0002)],[VAR TYPE(0002)],[VAR TYPE(0002)],[VAR TYPE(0002)],[VAR TYPE(0002)],[VAR TYPE(0002)]
+[~ 172],[~ 172],[~ 172],[~ 172],[~ 172],[~ 172],[~ 172]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)],[VAR ITEM1(0000)]
+[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)]
+Every stat grows in a balanced way.,Progresse de façon équilibrée.,Il Pokémon cresce in modo equilibrato.,Alle Statuswerte steigen in gleichem Maße.,Desarrollo equilibrado.,밸런스 좋게 성장하기 쉽다.,バランスよく　せいちょう　しやすい。
+Attack grows faster. Defense grows slower.,"Progresse rapidement en Attaque, lentement en Défense.",L’Attacco tende a crescere di più. La Difesa tende a crescere di meno.,Erleichtert Training des Angriffs-Werts. Erschwert Training des Verteidigungs-Werts.,Facilidad para desarrollar Ataque. Dificultad para desarrollar Defensa.,공격이 성장하기 쉽다. 방어가 성장하기 어렵다.,こうげきが　せいちょう　しやすい。 ぼうぎょが　せいちょう　しにくい。
+Attack grows faster. Speed grows slower.,"Progresse rapidement en Attaque, lentement en Vitesse.",L’Attacco tende a crescere di più. La Velocità tende a crescere di meno.,Erleichtert Training des Angriffs-Werts. Erschwert Training der Initiative.,Facilidad para desarrollar Ataque. Dificultad para desarrollar Velocidad.,공격이 성장하기 쉽다. 스피드가 성장하기 어렵다.,こうげきが　せいちょう　しやすい。 すばやさが　せいちょう　しにくい。
+Attack grows faster. Sp. Atk grows slower.,"Progresse rapidement en Attaque, lentement en Attaque Spéciale.",L’Attacco tende a crescere di più. L’Attacco Speciale tende a crescere di meno.,Erleichtert Training des Angriffs-Werts. Erschwert Training des Sp.-Ang.-Werts.,Facilidad para desarrollar Ataque. Dificultad para desarrollar Ataque Especial.,공격이 성장하기 쉽다. 특수공격이 성장하기 어렵다.,こうげきが　せいちょう　しやすい。 とくこうが　せいちょう　しにくい。
+Attack grows faster. Sp. Def grows slower.,"Progresse rapidement en Attaque, lentement en Défense Spéciale.",L’Attacco tende a crescere di più. La Difesa Speciale tende a crescere di meno.,Erleichtert Training des Angriffs-Werts. Erschwert Training des Sp.-Vert.-Werts.,Facilidad para desarrollar Ataque. Dificultad para desarrollar Defensa Especial.,공격이 성장하기 쉽다. 특수방어가 성장하기 어렵다.,こうげきが　せいちょう　しやすい。 とくぼうが　せいちょう　しにくい。
+Defense grows faster. Attack grows slower.,"Progresse rapidement en Défense, lentement en Attaque.",La Difesa tende a crescere di più. L’Attacco tende a crescere di meno.,Erleichtert Training des Vert.-Werts. Erschwert Training des Angriffs-Werts.,Facilidad para desarrollar Defensa. Dificultad para desarrollar Ataque.,방어가 성장하기 쉽다. 공격이 성장하기 어렵다.,ぼうぎょが　せいちょう　しやすい。 こうげきが　せいちょう　しにくい。
+Every stat grows in a balanced way.,Progresse de façon équilibrée.,Il Pokémon cresce in modo equilibrato.,Alle Statuswerte steigen in gleichem Maße.,Desarrollo equilibrado.,밸런스 좋게 성장하기 쉽다.,バランスよく　せいちょう　しやすい。
+Defense grows faster. Speed grows slower.,"Progresse rapidement en Défense, lentement en Vitesse.",La Difesa tende a crescere di più. La Velocità tende a crescere di meno.,Erleichtert Training des Vert.-Werts. Erschwert Training der Initiative.,Facilidad para desarrollar Defensa. Dificultad para desarrollar Velocidad.,방어가 성장하기 쉽다. 스피드가 성장하기 어렵다.,ぼうぎょが　せいちょう　しやすい。 すばやさが　せいちょう　しにくい。
+Defense grows faster. Sp. Atk grows slower.,"Progresse rapidement en Défense, lentement en Attaque Spéciale.",La Difesa tende a crescere di più. L’Attacco Speciale tende a crescere di meno.,Erleichtert Training des Vert.-Werts. Erschwert Training des Sp.-Ang.-Werts.,Facilidad para desarrollar Defensa. Dificultad para desarrollar Ataque Especial.,방어가 성장하기 쉽다. 특수공격이 성장하기 어렵다.,ぼうぎょが　せいちょう　しやすい。 とくこうが　せいちょう　しにくい。
+Defense grows faster. Sp. Def grows slower.,"Progresse rapidement en Défense, lentement en Défense Spéciale.",La Difesa tende a crescere di più. La Difesa Speciale tende a crescere di meno.,Erleichtert Training des Vert.-Werts. Erschwert Training des Sp.-Vert.-Werts.,Facilidad para desarrollar Defensa. Dificultad para desarrollar Defensa Especial.,방어가 성장하기 쉽다. 특수방어가 성장하기 어렵다.,ぼうぎょが　せいちょう　しやすい。 とくぼうが　せいちょう　しにくい。
+Speed grows faster. Attack grows slower.,"Progresse rapidement en Vitesse, lentement en Attaque.",La Velocità tende a crescere di più. L’Attacco tende a crescere di meno.,Erleichtert Training der Initiative. Erschwert Training des Angriffs-Werts.,Facilidad para desarrollar Velocidad. Dificultad para desarrollar Ataque.,스피드가 성장하기 쉽다. 공격이 성장하기 어렵다.,すばやさが　せいちょう　しやすい。 こうげきが　せいちょう　しにくい。
+Speed grows faster. Defense grows slower.,"Progresse rapidement en Vitesse, lentement en Défense.",La Velocità tende a crescere di più. La Difesa tende a crescere di meno.,Erleichtert Training der Initiative. Erschwert Training des Vert.-Werts.,Facilidad para desarrollar Velocidad. Dificultad para desarrollar Defensa.,스피드가 성장하기 쉽다. 방어가 성장하기 어렵다.,すばやさが　せいちょう　しやすい。 ぼうぎょが　せいちょう　しにくい。
+Every stat grows in a balanced way.,Progresse de façon équilibrée.,Il Pokémon cresce in modo equilibrato.,Alle Statuswerte steigen in gleichem Maße.,Desarrollo equilibrado.,밸런스 좋게 성장하기 쉽다.,バランスよく　せいちょう　しやすい。
+Speed grows faster. Sp. Atk grows slower.,"Progresse rapidement en Vitesse, lentement en Attaque Spéciale.",La Velocità tende a crescere di più. L’Attacco Speciale tende a crescere di meno.,Erleichtert Training der Initiative. Erschwert Training des Sp.-Ang.-Werts.,Facilidad para desarrollar Velocidad. Dificultad para desarrollar Ataque Especial.,스피드가 성장하기 쉽다. 특수공격이 성장하기 어렵다.,すばやさが　せいちょう　しやすい。 とくこうが　せいちょう　しにくい。
+Speed grows faster. Sp. Def grows slower.,"Progresse rapidement en Vitesse, lentement en Défense Spéciale.",La Velocità tende a crescere di più. La Difesa Speciale tende a crescere di meno.,Erleichtert Training der Initiative. Erschwert Training des Sp.-Vert.-Werts.,Facilidad para desarrollar Velocidad. Dificultad para desarrollar Defensa Especial.,스피드가 성장하기 쉽다. 특수방어가 성장하기 어렵다.,すばやさが　せいちょう　しやすい。 とくぼうが　せいちょう　しにくい。
+Sp. Atk grows faster. Attack grows slower.,"Progresse rapidement en Attaque Spéciale, lentement en Attaque.",L’Attacco Speciale tende a crescere di più. L’Attacco tende a crescere di meno.,Erleichtert Training des Sp.-Ang.-Werts. Erschwert Training des Angriffs-Werts.,Facilidad para desarrollar Ataque Especial. Dificultad para desarrollar Ataque.,특수공격이 성장하기 쉽다. 공격이 성장하기 어렵다.,とくこうが　せいちょう　しやすい。 こうげきが　せいちょう　しにくい。
+Sp. Atk grows faster. Defense grows slower.,"Progresse rapidement en Attaque Spéciale, lentement en Défense.",L’Attacco Speciale tende a crescere di più. La Difesa tende a crescere di meno.,Erleichtert Training des Sp.-Ang.-Werts. Erschwert Training des Vert.-Werts.,Facilidad para desarrollar Ataque Especial. Dificultad para desarrollar Defensa.,특수공격이 성장하기 쉽다. 방어가 성장하기 어렵다.,とくこうが　せいちょう　しやすい。 ぼうぎょが　せいちょう　しにくい。
+Sp. Atk grows faster. Speed grows slower.,"Progresse rapidement en Attaque Spéciale, lentement en Vitesse.",L’Attacco Speciale tende a crescere di più. La Velocità tende a crescere di meno.,Erleichtert Training des Sp.-Ang.-Werts. Erschwert Training der Initiative.,Facilidad para desarrollar Ataque Especial. Dificultad para desarrollar Velocidad.,특수공격이 성장하기 쉽다. 스피드가 성장하기 어렵다.,とくこうが　せいちょう　しやすい。 すばやさが　せいちょう　しにくい。
+Every stat grows in a balanced way.,Progresse de façon équilibrée.,Il Pokémon cresce in modo equilibrato.,Alle Statuswerte steigen in gleichem Maße.,Desarrollo equilibrado.,밸런스 좋게 성장하기 쉽다.,バランスよく　せいちょう　しやすい。
+Sp. Atk grows faster. Sp. Def grows slower.,"Progresse rapidement en Attaque Spéciale, lentement en Défense Spéciale.",L’Attacco Speciale tende a crescere di più. La Difesa Speciale tende a crescere di meno.,Erleichtert Training des Sp.-Ang.-Werts. Erschwert Training des Sp.-Vert.-Werts.,Facilidad para desarrollar Ataque Especial. Dificultad para desarrollar Defensa Especial.,특수공격이 성장하기 쉽다. 특수방어가 성장하기 어렵다.,とくこうが　せいちょう　しやすい。 とくぼうが　せいちょう　しにくい。
+Sp. Def grows faster. Attack grows slower.,"Progresse rapidement en Défense Spéciale, lentement en Attaque.",La Difesa Speciale tende a crescere di più. L’Attacco tende a crescere di meno.,Erleichtert Training des Sp.-Vert.-Werts. Erschwert Training des Angriffs-Werts.,Facilidad para desarrollar Defensa Especial. Dificultad para desarrollar Ataque.,특수방어가 성장하기 쉽다. 공격이 성장하기 어렵다.,とくぼうが　せいちょう　しやすい。 こうげきが　せいちょう　しにくい。
+Sp. Def grows faster. Defense grows slower.,"Progresse rapidement en Défense Spéciale, lentement en Défense.",La Difesa Speciale tende a crescere di più. La Difesa tende a crescere di meno.,Erleichtert Training des Sp.-Vert.-Werts. Erschwert Training des Vert.-Werts.,Facilidad para desarrollar Defensa Especial. Dificultad para desarrollar Defensa.,특수방어가 성장하기 쉽다. 방어가 성장하기 어렵다.,とくぼうが　せいちょう　しやすい。 ぼうぎょが　せいちょう　しにくい。
+Sp. Def grows faster. Speed grows slower.,"Progresse rapidement en Défense Spéciale, lentement en Vitesse.",La Difesa Speciale tende a crescere di più. La Velocità tende a crescere di meno.,Erleichtert Training des Sp.-Vert.-Werts. Erschwert Training der Initiative.,Facilidad para desarrollar Defensa Especial. Dificultad para desarrollar Velocidad.,특수방어가 성장하기 쉽다. 스피드가 성장하기 어렵다.,とくぼうが　せいちょう　しやすい。 すばやさが　せいちょう　しにくい。
+Sp. Def grows faster. Sp. Atk grows slower.,"Progresse rapidement en Défense Spéciale, lentement en Attaque Spéciale.",La Difesa Speciale tende a crescere di più. L’Attacco Speciale tende a crescere di meno.,Erleichtert Training des Sp.-Vert.-Werts. Erschwert Training des Sp.-Ang.-Werts.,Facilidad para desarrollar Defensa Especial. Dificultad para desarrollar Ataque Especial.,특수방어가 성장하기 쉽다. 특수공격이 성장하기 어렵다.,とくぼうが　せいちょう　しやすい。 とくこうが　せいちょう　しにくい。
+Every stat grows in a balanced way.,Progresse de façon équilibrée.,Il Pokémon cresce in modo equilibrato.,Alle Statuswerte steigen in gleichem Maße.,Desarrollo equilibrado.,밸런스 좋게 성장하기 쉽다.,バランスよく　せいちょう　しやすい。
+It’s a special Pokémon. You cannot trade it!,C’est un Pokémon très spécial. Vous ne pouvez pas l’échanger !,"È un Pokémon speciale, non puoi scambiarlo!",Ein besonderes Pokémon wie dieses kann nicht zum Tausch angeboten werden!,"Es un Pokémon especial, por lo que no lo puedes intercambiar.",특별한 포켓몬이므로 교환에 내보낼 수 없습니다!,とくべつな　ポケモンなので こうかんに　だすことは　できません！
+Please choose a move.,Choisissez une capacité.,Scegli una mossa.,Wähle eine Attacke.,Elige un movimiento.,기술을 선택해 주십시오,わざを　えらんでください
+Please choose an Ability.,Choisissez un talent.,Scegli un’abilità.,Wähle eine Fähigkeit.,Elige una habilidad.,특성을 선택해 주십시오,とくせいを　えらんでください
+The Pokémon has a special item. You cannot offer it for trade.,Ce Pokémon tient un objet très spécial. Vous ne pouvez pas l’échanger !,Questo Pokémon ha uno strumento speciale e non può essere scambiato.,"Dieses Pokémon kann nicht getauscht werden, da es ein besonderes Item bei sich trägt.","Este Pokémon lleva un objeto especial, por lo que no lo puedes intercambiar.",특별한 도구를 지니고 있으므로 교환에 내보낼 수 없습니다,とくべつな　どうぐを　もっているので こうかんに　だすことが　できません
+OT,D.O.,AO,OT,EO,어버이,おや
+[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)]

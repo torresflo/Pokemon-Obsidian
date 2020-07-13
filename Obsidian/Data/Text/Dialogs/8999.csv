@@ -1,0 +1,22 @@
+Index,en,fr,es
+0,That's a bad news you're telling me there... All my condolences...,C'est une bien triste nouvelle ce que vous me racontez là... Toutes mes condoléances...,Son malas noticas las que me estás contando... Te doy mis condolencias...
+1,Fortunately your PC still contains some Pokémon. You can continue your adventure.,Heureusement votre PC contient encore quelques Pokémon. Vous pouvez continuer votre aventure.,Por suerte tu PC sigue conteniendo Pokémon. Puedes continuar con tu aventura.
+2,\p[1] is poisoned. He should be given an antidote.,"\p[1] est empoisonné, il faudrait lui donner un antidote.",\p[1] está envenenado. Deberías darle un antídoto.
+3,\n[1] gets on the bike.,\n[1] monte sur la bicyclette.,\n[1] se sube en la bicicleta.
+4,There is nothing here...,Il n'y a rien ici...,No hay nada por aquí...
+5,[VAR PKNICK(0000)] uses Headbutt.,[VAR PKNICK(0000)] utilise Coup d'Boule.,[VAR PKNICK(0000)] usa Golpe Cabeza.
+6,A Pokémon might shake this tree...,Un Pokémon pourrait secouer cette arbre...,Hay un árbol imponente al que puedes asestar un cabezazo.
+7,You are facing a swirl... Do you want to make it disappear?,Vous êtes face à un siphon... Voulez-vous le faire disparaître ?,"¡Hay un torbenillino muy grande!
+¿Quieres hacerlo desaparecer?"
+8,A swirl is making the swimming difficult. An ability could make it disappear.,Un siphon rend la nage difficile. Une capacité pourrait le faire disparaître.,El agua gira y se arremolina emitiendo un sonido atronador.
+9,Do you want to use Rock Climb?,Voulez-vous utiliser Escalade ?,¿Quieres usar Treparrocas?
+10,[VAR PKNICK(0000)] uses Rock Climb!,[VAR PKNICK(0000)] utilise Escalade !,¡[VAR PKNICK(0000)] usó Treparrocas!
+11,\n[1] gets on the Acro Bike.,\n[1] monte sur le Vélo Cross.,\n[1] montó en la Bici Acrobática.
+12,[VAR PKNAME(0000)] used [VAR MOVE(0000)]!,[VAR PKNAME(0000)] utilise [VAR MOVE(0000)] !,¡[VAR PKNAME(0000)] usó [VAR MOVE(0000)]!
+13,The wild [VAR PKNAME(0000)] used [VAR MOVE(0000)]!,Le [VAR PKNAME(0000)] sauvage utilise [VAR MOVE(0000)] !,¡El [VAR PKNAME(0000)] salvaje usó [VAR MOVE(0000)]!
+14,The opposing [VAR PKNAME(0000)] used [VAR MOVE(0000)]!,Le [VAR PKNAME(0000)] ennemi utilise [VAR MOVE(0000)] !,¡El [VAR PKNAME(0000)] enemigo usó [VAR MOVE(0000)]!
+15,\n[1] received [VAR PKNAME(0000)]!,\n[1] a obtenu [VAR PKNAME(0000)] !,¡\n[1] recibió un [VAR PKNAME(0000)]!
+16,Would you like to give your Pokémon a nickname?,Voulez-vous donner un surnom à votre Pokémon ?,¿Quieres darle un mote al Pokémon recibido?
+17,"So, you've decided its nickname will be [VAR PKNICK(0000)] ?","Donc, c'est décidé, son surnom sera [VAR PKNICK(0000)] ?","Entonces, ¿has decidido que su mote será [VAR PKNICK(0000)]?"
+18,[VAR PKNICK(0000)] was sent to [VAR BOXNAME].,[VAR PKNICK(0000)] a été transféré dans [VAR BOXNAME].,[VAR PKNICK(0000)] fue enviado a [VAR BOXNAME].
+19,There is something hidden in this direction!,,¡Hay algo escondido en esta dirección!
