@@ -1,7 +1,8 @@
-Data/*
-PSDK.24.74/*
-tiled2rxdata/*
-Tiled/.tmxconverter/*
+Data/
+PSDK.24.74/
+Tiled/.tmxconverter/
 Obsidian/Error.log
-Obsidian/Saves/*
-Obsidian/Saves_backup/*
+Obsidian/Saves/
+Obsidian/Saves_backup/
+Obsidian/plugins/
+tiled2rxdata/
