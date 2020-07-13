@@ -4,29 +4,29 @@
  <tileset firstgid="5465" source="passages.tsx"/>
  <tileset firstgid="5481" source="interior.tsx"/>
  <tileset firstgid="7497" source="interior_2.tsx"/>
- <layer id="1" name="regions_input" width="20" height="20" visible="0">
+ <layer id="1" name="regions_input" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBh5IEMU1c/IfBAbhkGq0NmoOocGD5sfQGIggCwH44MlRonREBgNgdEQIBACANsHB1Q=
+   eAFjYBh5IEMU1c/IfBAbhkGq0NmoOocGD5sfQGIggCwH44MlRgl4CCCHES42XPEoYzQERlAIAADOFApC
   </data>
  </layer>
- <layer id="2" name="regions_output" width="20" height="20" visible="0">
+ <layer id="2" name="regions_output" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYKA+yBBlYABhEEBmQ0RIJ2FmwXQi82Hmw8RgfJBamBhMH4xGF0fmw/TDxGB8fObBzKUWjc1ObO4h1k3UNo9a/hw1ZzQERkNgaIcAAHubEJs=
+   eAHtkFkKACAIRL1Ed+z+JwiJByKtMH8llM2k42Kmt1rM/LjFd2fub7TIjBh9OLDHwpGHz3zE5MOBV3roqvyo5qif057Ueqo50cn9zWYlfufVert6//9v4NUNNCECFnc=
   </data>
  </layer>
  <layer id="3" name="input_furniture_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBh5oJQV1c8VSPyfLAwMv4D4NxCDADtQjgMq/xoqBpEZOmSsJANDHBCDgKgKhBaD0oUyDAxFQAwD9tww1ig9GgKjITAaAvhDAACabge/
+   eAFjYBh5oJQV1c8VSPyfLAwMv4D4NxCDADtQjgMq/xoqBpEZOmSsJANDHBCDgKgKhBaD0oUyDAxFQAwD9tww1igNC4G77AwM94AYBO4D6QdQ9nEgfQLKhsiOkqMhMLJCAAB/CAzy
   </data>
  </layer>
  <layer id="4" name="output_furniture_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYKA+SGVlYEgDYhBIB9IZUDZEhHQyF01/ARL/IwsDwycg/gzEIPAfREPlH0PFwBJDiAiVZGAIA2IQ4FWB0HxQOlOGgSELiGHAnBvGGqVHQ2A0BEZDgL4hAAD16An0
+   eAFjYKA+SGVlYEgDYhBIB9IZUDZEhHQyF01/ARL/IwsDwycg/gzEIPAfREPlH0PFwBJDiAiVZGAIA2IQ4FWB0HxQOlOGgSELiGHAnBvGGrr0WXYGhnNADALngfQFKHs7kN4BZUNkiSOvAvVcg+q7DqRvQNn7gfQBKJs4k0ZVjYbAaAjgCwEAnDkTyg==
   </data>
  </layer>
- <layer id="5" name="output_passages" width="20" height="20" visible="0">
+ <layer id="5" name="output_passages" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBh5IEMU1c/I/ESgHAyDVCGzkdWhmjC4eSB3w9yOjYaJgXyBzB7cvhp13WgIjIbAQIcAACbHBzE=
+   eAFjYBh5IEMU1c/I/ESgHAyDVCGzkdWhmjC4eSB3w9yOjYaJgXyBzB7cvsLtOpAfYP7Axcate1RmNARGQ4DYEAAABEMKHw==
   </data>
  </layer>
 </map>

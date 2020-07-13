@@ -35,6 +35,16 @@
             "fileName": "road_101_3.tmx",
             "x": -10784,
             "y": -2400
+        },
+		{
+            "fileName": "road_101_4.tmx",
+            "x": -10784,
+            "y": -4224
+        },
+		{
+            "fileName": "fusiville_city.tmx",
+            "x": -10784,
+            "y": -5729
         }
     ],
     "type": "world"
