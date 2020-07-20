@@ -42,4 +42,4 @@
 40,TEXT,"Ton \c[2]\t[0, 479]\c[0] a l'air en forme !\nl"
 41,TEXT,Fais quelque chose !
 42,TEXT,"\t[10, 2] est une petite ville, nous n'avons qu'un centre Pokémon.\nlSi tu es à la recherche d'un magasin, tu devrais te rendre à \t[10, 4]."
-43,TEXT,"Bonjour et bienvenue au centre Pokémon de \[10, 2].\nlCe centre permet de soigner les Pokémons après un dur combat.\nlVous ne semblez pas avoir de Pokémon dans votre équipe."
+43,TEXT,"Bonjour et bienvenue au centre Pokémon de \t[10, 2].\nlCe centre permet de soigner les Pokémons après un dur combat.\nlVous ne semblez pas avoir de Pokémon dans votre équipe."

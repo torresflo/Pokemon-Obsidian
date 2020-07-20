@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="30" nextobjectid="1">
- <tileset firstgid="1" source="../exterior.tsx"/>
- <tileset firstgid="5465" source="../pokemon_center.tsx"/>
- <tileset firstgid="5985" source="../passages.tsx"/>
- <tileset firstgid="6001" source="../interior.tsx"/>
- <tileset firstgid="8017" source="../interior_2.tsx"/>
- <tileset firstgid="9841" source="../interactions.tsx"/>
+ <tileset firstgid="1" source="exterior.tsx"/>
+ <tileset firstgid="5465" source="pokemon_center.tsx"/>
+ <tileset firstgid="5985" source="passages.tsx"/>
+ <tileset firstgid="6001" source="interior.tsx"/>
+ <tileset firstgid="8017" source="interior_2.tsx"/>
+ <tileset firstgid="9841" source="interactions.tsx"/>
  <layer id="2" name="ground_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eAFjYBgFgzUEIsUYGKJIxLFA9bhAIlAuiUScise8TKCcNxD7koBz8ZjnCJTzJBEH4jGPVLNg6nGFH0yeVHrUPEgIkBpuMPW4wm9UfOBDAACTIja3

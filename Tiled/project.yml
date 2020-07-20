@@ -87,6 +87,27 @@
   road_101_island_cave_1.tmx:
     :id: 30
     :tileset: road_101_island_cave_1
+  road_101_4.tmx:
+    :id: 31
+    :tileset: road_101_4
+  fusiville_city.tmx:
+    :id: 32
+    :tileset: fusiville_city
+  fusiville_pokemon_center.tmx:
+    :id: 33
+    :tileset: fusiville_pokemon_center
+  fusiville_link_room.tmx:
+    :id: 34
+    :tileset: fusiville_link_room
+  fusiville_shop.tmx:
+    :id: 35
+    :tileset: fusiville_shop
+  fusiville_house_1.tmx:
+    :id: 36
+    :tileset: fusiville_house_1
+  fusiville_house_2.tmx:
+    :id: 37
+    :tileset: fusiville_house_2
 :tilesets:
   amaryllis_city: amaryllis_city.png
   amaryllis_player_house_floor_1: amaryllis_player_house_floor_1.png
@@ -117,3 +138,10 @@
   road_101_3: road_101_3.png
   road_101_island_house_1: road_101_island_house_1.png
   road_101_island_cave_1: road_101_island_cave_1.png
+  road_101_4: road_101_4.png
+  fusiville_city: fusiville_city.png
+  fusiville_pokemon_center: fusiville_pokemon_center.png
+  fusiville_link_room: fusiville_link_room.png
+  fusiville_shop: fusiville_shop.png
+  fusiville_house_1: fusiville_house_1.png
+  fusiville_house_2: fusiville_house_2.png

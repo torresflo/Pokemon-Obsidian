@@ -416,6 +416,10 @@
  <tile id="1241" terrain="34,34,34,"/>
  <tile id="1256" terrain=",34,34,34"/>
  <tile id="1257" terrain="34,,34,34"/>
+ <tile id="2093" terrain="14,14,14,"/>
+ <tile id="2095" terrain="14,14,,14"/>
+ <tile id="2109" terrain="14,,14,14"/>
+ <tile id="2111" terrain=",14,14,14"/>
  <tile id="2910" terrain=",17,17,17"/>
  <tile id="2911" terrain="17,,17,17"/>
  <tile id="2918" terrain="17,17,,17"/>

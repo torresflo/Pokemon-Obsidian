@@ -5,17 +5,17 @@
  <tileset firstgid="145" source="exterior.tsx"/>
  <layer id="1" name="regions_input" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBh5QADoZRAGAWQ2jA+WgBIwdTAxdD5MfKTRyOGAHIbEskdaeI36dzQEhmMIAAC+vAER
+   eAFjYBh5QADoZRAGAWQ2jA+WgBIwdTAxdD5MfKTRyOGAHIbEskdaeKH7Fzn80OVG+aMhMFRCAADrPAEh
   </data>
  </layer>
  <layer id="2" name="regions_output" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYKAMCGDRDhKDiWNjo8vh4sOMxmYGSA4mjks/ujytzIOZSy0al7vJNR/dPBgfZB6xbGS7YXpANAjA+KSwwRpHidEQGA2BIR0CAMNsBDE=
+   eAFjYKAMCGDRDhKDiWNjo8vh4sOMxmYGSA4mjks/ujytzIOZSy0al7vJNR/dPBgfZB6xbGS7YXpANAjA+KSwwRppSMDcRi0rBrt51PLnqDmjIUBKCAAAV/sEYQ==
   </data>
  </layer>
  <layer id="3" name="input_tree_root_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBh5YCoLA8M0IAaBVCCdBmX7AGlfIPaD8j2BtBcQe0P5hkDaCIiNoXyICSOPXAn0/yogXg0Nh+NA+gSUfR1I34CyI4F0FJQdDaRjoOx8KD3yQm7Ux6MhMLxCAAAx0AvL
+   eAFjYBh5YCoLA8M0IAaBVCCdBmX7AGlfIPaD8j2BtBcQe0P5hkDaCIiNoXyICSOPXAn0/yogXg0Nh+NA+gSUfR1I34CyI4F0FJQdDaRjoOx8KD3yQg7hY7PRMEAExihryIYAANMcDAU=
   </data>
  </layer>
  <layer id="12" name="output_tree_leafs_left_1" width="20" height="20">
@@ -35,7 +35,7 @@
  </layer>
  <layer id="5" name="output_tree_leafs_2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBj8oJeFgaEPiEEgFkjHQdkgvisSG8R3QuNrofFBakYiWERBOKRToHckhvWon0dDYKSEAAAukQO1
+   eAFjYBj8oJeFgaEPiEEgFkjHQdkgvisSG8R3QuNrofFBakYiWERBOKRToHe4hLXeaBgMl6gc9QcVQwAAyT0D5w==
   </data>
  </layer>
  <layer id="6" name="output_tree_leafs_right_2" width="20" height="20">
@@ -50,7 +50,7 @@
  </layer>
  <layer id="7" name="output_tree_leafs_top_first_3" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYKA+aGVhYGgDYhAIBdJhUDaIb4vEBvGt0PhCaHyQmpEIZo2Gw0iM9lE/j4bAkAoBALbEAvo=
+   eAFjYKA+aGVhYGgDYhAIBdJhUDaIb4vEBvGt0PhCaHyQmpEIZo2GA0XR7j8afhSF36jm0RAgJgQA0YcDTQ==
   </data>
  </layer>
  <layer id="14" name="output_tree_leafs_top_second_3" width="20" height="20">
@@ -65,7 +65,7 @@
  </layer>
  <layer id="8" name="output_passages" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBhcQACLc0BiMHFsbHQ5XHyY0djMQJaDsUE0zCyYGDofJj7YaWq7G9k8EBvGJ5Y92MNr1H2jITAaAoRDAADThwIB
+   eAFjYBhcQACLc0BiMHFsbHQ5XHyY0djMQJaDsUE0zCyYGDofJj7YaWq7G9k8EBvGJ5Y92MML3X0w/6GLk8untnnkumNU32gIUBICADGWAiE=
   </data>
  </layer>
  <layer id="13" name="output_systemtags" width="20" height="20">
