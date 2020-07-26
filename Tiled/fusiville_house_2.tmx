@@ -6,7 +6,7 @@
  <tileset firstgid="9305" source="passages.tsx"/>
  <layer id="2" name="ground_1" width="22" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyFAnxDwEmNgoBZGdnEI0FxPKuFRcyFhOZTDAdnto+yRHQIAIAcxsQ==
+   eAFjYBgFoyFAnxDwEmNgoBZGdnEI0FxPNAyyB5s4ujp0/qi5kLAkFA7o4UYsnx7mItsxyh7ZIQAAyBcx4Q==
   </data>
  </layer>
  <layer id="26" name="wall_1" width="22" height="20">

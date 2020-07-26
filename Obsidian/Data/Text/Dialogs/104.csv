@@ -14,7 +14,7 @@ Index,en,fr
 12,TEXT,Souaites-tu entendre ce que j'ai à te dire ?
 13,TEXT,Je vous écoute.
 14,TEXT,Non merci.
-15,TEXT,"Tans pis, je comprends. Repasse me voir si tu es toujous intéressé."
+15,TEXT,"Tans pis, je comprends. Repasse me voir si tu es toujous intéressé\E."
 16,TEXT,Bien. Si je t'ai fais venir ici c'est pour te parler d'un grave problème qui affecte actuellement la Ligue Pokémon.
 17,TEXT,Cela fait maintenant plusieurs années que plus personne ne gagne la compétition.
 18,TEXT,Le titre de Maître n'a pas changé depuis très longtemps.
@@ -26,7 +26,7 @@ Index,en,fr
 24,TEXT,"Cela doit surement faire beaucoup à entendre et il faut que tu saches que cela sera peut être même dangereux, même si je ferais tout pour t'aider au mieux."
 25,TEXT,La première étape va être que tu obtiennes une accréditation pour participer à la Ligue Pokémon.
 26,TEXT,"Pour qu'il n'y ai aucune suspicion, je ne vais pas pouvoir te la fournir moi-même."
-27,TEXT,Tu vas devoir te rendre à Fusiville à l'ouest d'ici et en demander une à l'Ecole de Dresseurs.\nlC'est la-bas que se réunissent tous les dresseurs pour participer à la compétition.
+27,TEXT,Tu vas devoir te rendre à Fusiville à l'ouest d'ici et en demander une au Club de Dresseurs.\nlC'est la-bas que se réunissent tous les dresseurs pour participer à la compétition.
 28,TEXT,"Ah, avant que tu ne partes, voici un cadeau pour toi."
 29,TEXT,"C'est un \c[1]\t[14, 1]\c[0]. Tous les dresseurs qui sortent de l'Ecole de Dresseurs en ont un.\nlCela te permets d'obtenir des informations sur tous les Pokémons que tu croiseras ou attraperas."
 30,TEXT,Nous discuterons de la suite ensemble plus tard.\nlBonne chance.

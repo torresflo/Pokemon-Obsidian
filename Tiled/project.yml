@@ -108,6 +108,12 @@
   fusiville_house_2.tmx:
     :id: 37
     :tileset: fusiville_house_2
+  fusiville_club_first_room.tmx:
+    :id: 38
+    :tileset: fusiville_club_first_room
+  fusiville_club_second_room.tmx:
+    :id: 39
+    :tileset: fusiville_club_second_room
 :tilesets:
   amaryllis_city: amaryllis_city.png
   amaryllis_player_house_floor_1: amaryllis_player_house_floor_1.png
@@ -145,3 +151,5 @@
   fusiville_shop: fusiville_shop.png
   fusiville_house_1: fusiville_house_1.png
   fusiville_house_2: fusiville_house_2.png
+  fusiville_club_first_room: fusiville_club_first_room.png
+  fusiville_club_second_room: fusiville_club_second_room.png
