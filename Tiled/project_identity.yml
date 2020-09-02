@@ -1,6 +1,6 @@
 --- !ruby/object:ScriptLoader::PSDKConfig
 game_title: Pokemon Obsidian
-game_version: 256
+game_version: 0.1
 native_resolution: 320x240
 window_scale: 2
 running_in_full_screen: false
@@ -11,11 +11,9 @@ player_always_centered: true
 mouse_disabled: true
 default_language_code: fr
 choosable_language_code:
-- fr
-- en
+- fr, en
 choosable_language_texts:
-- French
-- English
+- French, English
 maximum_saves: 4
 tilemap: !ruby/object:ScriptLoader::PSDKConfig::TilemapConfig
   tilemap_class: Tilemap::WithLessRubySprites_16

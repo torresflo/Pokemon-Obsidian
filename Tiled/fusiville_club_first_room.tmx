@@ -92,9 +92,9 @@
   </data>
  </layer>
  <group id="11" name="z=2"/>
- <layer id="12" name="passages" width="24" height="18">
+ <layer id="12" name="passages" width="24" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eAHtUMkNwDAIY5Eu0uvd/ScqVmTJQqEPmk+rIBFOG4LZlHmBMRe4FrMRmm1DbtTpV2zGv/n+KuCG0LaovZpT/wgcion8rAHfU9bV6izNw8/4Y1+MORv5L/Lrf5723/3Oa6KKg5/1nV6rCua/wVfn/hl3A+pRHUI=
+   eAHtUFsKwDAI8yK7yF7fu/+JZiiBUGYLrvsZFaxp00TRbMbcwJgNXIvZiIymoTd44kyN/DefXwPeCNZyK6e+KT4qD9XU/uSgf0ryWrWXvgO3uPqv3tm75/G1f7QfnbWHWzPuvuc1SNUBR/9O57KB/m/02b5/1t0ySB1c
   </data>
  </layer>
  <layer id="20" name="systemtags" width="24" height="18">
