@@ -1,0 +1,8 @@
+default_project.txt
+*.dll
+*.so
+lib/ruby/
+*.pem
+*.exe
+*.lock
+ruby_builtin_dlls/
