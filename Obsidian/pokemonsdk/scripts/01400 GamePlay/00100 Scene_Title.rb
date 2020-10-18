@@ -7,7 +7,7 @@ class Scene_Title
   # @return [String] name of the Title BGM
   TITLE_BGM_NAME = 'audio/bgm/rosa_title'
   # @return [Boolean] if the title screen use random font
-  RANDOM_TITLE_FONT = true
+  RANDOM_TITLE_FONT = false
   # Entry point of the scene. If player hit X + B + UP the GamePlay::Load scene will ask the save deletion.
   def main
     data_load
