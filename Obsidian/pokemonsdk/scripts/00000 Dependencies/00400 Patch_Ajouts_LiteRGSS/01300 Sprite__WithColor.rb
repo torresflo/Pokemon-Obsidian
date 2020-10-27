@@ -6,16 +6,17 @@ module LiteRGSS
       # @param viewport [LiteRGSS::Viewport, nil]
       def initialize(viewport = nil)
         super(viewport)
-        self.shader = Shader.new(Shader::GeneralColorSprite)
+        self.shader = Shader.create(:color_shader)
       end
 
       # Set the Sprite color
       # @param array [Array(Numeric, Numeric, Numeric, Numeric), LiteRGSS::Color] the color (values : 0~1.0)
       # @return [self]
-      def set_color(array)
+      def color=(array)
         shader.set_float_uniform('color', array)
         return self
       end
+      alias set_color color=
     end
   end
 end

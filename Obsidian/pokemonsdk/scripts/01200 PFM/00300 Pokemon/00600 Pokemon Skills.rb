@@ -147,7 +147,9 @@ module PFM
             @skills_set.shift if @skills_set.size > 4
             @skill_learnt << id unless @skill_learnt.include?(id)
           else
-            ::GamePlay::Skill_Learn.new(self, id).main
+            # TODO: make it call "$scene.call_scene"
+            ::GamePlay::MoveTeaching.new(self, id).main
+            Graphics.transition
           end
         end
       end

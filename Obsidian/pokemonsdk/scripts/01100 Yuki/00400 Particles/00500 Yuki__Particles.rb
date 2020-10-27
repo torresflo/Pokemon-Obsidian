@@ -10,6 +10,7 @@ module Yuki
       dispose if @stack && viewport != @viewport
       @clean_stack = false
       @stack ||= []
+      @named = {}
       @viewport = viewport
       @on_teleportation = false
     end
@@ -37,6 +38,7 @@ module Yuki
     # @param character [Game_Character] the character on which the particle displays
     # @param particle_tag [Integer, Symbol] identifier of the particle in the hash
     # @param params [Hash] additional params for the particle
+    # @return [Particle_Object]
     def add_particle(character, particle_tag, params = {})
       return unless ready?
       return if character.character_name.empty?
@@ -44,7 +46,19 @@ module Yuki
       particle_data = find_particle(character.terrain_tag, particle_tag)
       return unless particle_data
 
-      @stack.push(Particle_Object.new(character, particle_data, @on_teleportation, params))
+      @stack.push(particle = Particle_Object.new(character, particle_data, @on_teleportation, params))
+      return particle
+    end
+
+    # Add a named particle (particle that has a specific flow)
+    # @param name [Symbol] name of the particle to prevent collision
+    # @param character [Game_Character] the character on which the particle displays
+    # @param particle_tag [Integer, Symbol] identifier of the particle in the hash
+    # @param params [Hash] additional params for the particle
+    def add_named_particle(name, character, particle_tag, params = {})
+      return if @named[name] && !@named[name].disposed
+
+      @named[name] = add_particle(character, particle_tag, params)
     end
 
     # Add a parallax
@@ -104,14 +118,20 @@ module Yuki
     ensure
       @stack = nil
     end
+
+    class << self
+      # Return the list of named particles
+      # @return [Hash{ Symbol => Particle_Object }]
+      attr_reader :named
+    end
   end
 end
-Hooks.register(Spriteset_Map, :init_psdk_add) do
+Hooks.register(Spriteset_Map, :init_psdk_add, 'Yuki::Particles') do
   Yuki::Particles.init(@viewport1)
   Yuki::Particles.set_on_teleportation(true)
 end
-Hooks.register(Spriteset_Map, :init_player_end) do
+Hooks.register(Spriteset_Map, :init_player_end, 'Yuki::Particles') do
   Yuki::Particles.update
   Yuki::Particles.set_on_teleportation(false)
 end
-Hooks.register(Spriteset_Map, :update) { Yuki::Particles.update }
+Hooks.register(Spriteset_Map, :update, 'Yuki::Particles') { Yuki::Particles.update }

@@ -2,6 +2,10 @@ module GameData
   module Daycare
     # Only use the FIRST FORM for breed groups
     USE_FIRST_FORM_BREED_GROUPS = false
+    # Specific form handler (system that can force a for according to a code)
+    SPECIFIC_FORM_HANDLER = {
+      myfakepokemon: proc { |_mother, _father| next(rand(10)) } # Returns a random form between 0 and 9
+    }
     # List of Pokemon that cannot breed (event if the conditions are valid)
     NOT_BREEDING = %i[phione manaphy]
     # List of Pokemon that only breed with Ditto

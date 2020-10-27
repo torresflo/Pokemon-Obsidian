@@ -10,7 +10,9 @@ class Game_Character
   # @author Nuri Yuri
   def follower_move
     return unless @follower
+    return if @sliding && @follower.sliding
     return if $game_variables[Yuki::Var::FM_Sel_Foll] > 0
+
     if @memorized_move
       @memorized_move_arg ? @follower.send(@memorized_move, *@memorized_move_arg) : @follower.send(@memorized_move)
       @memorized_move_arg = nil

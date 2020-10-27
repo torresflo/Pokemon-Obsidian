@@ -221,7 +221,7 @@ module GamePlay
 
     def trade_select_pokemon
       Graphics.freeze
-      scene = GamePlay::StorageTrade.new
+      scene = GamePlay::PokemonTradeStorage.new
       scene.main
       Graphics.transition
       return scene.return_data

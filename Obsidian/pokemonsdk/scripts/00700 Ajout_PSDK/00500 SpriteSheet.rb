@@ -1,5 +1,5 @@
 # SpriteSheet is a class that helps the maker to display a sprite from a Sprite Sheet on the screen
-class SpriteSheet < Sprite
+class SpriteSheet < ShaderedSprite
   # Return the number of sprite on the x axis of the sheet
   # @return [Integer]
   attr_reader :nb_x

@@ -48,6 +48,8 @@ module Yuki
     # @param message [String] message of the warning/error
     def init_graphics(color, klass, message)
       @background_viewport = Viewport.create(0, 0, Graphics.width, Graphics.height, 999_999)
+      @background_viewport.extend(Viewport::WithToneAndColors)
+      @background_viewport.shader = Shader.create(:map_shader)
       @background_viewport.color = color
       @viewport = Viewport.create(0, 0, Graphics.width, Graphics.height, 999_999)
       Text.new(0, @viewport, 0, 0, Graphics.width, LINE_HEIGHT, klass.to_s, 1).load_color(9)
@@ -71,7 +73,7 @@ module Yuki
       # if WARNINGS.include?(exception.class)
       #   warning(exception.class, exception.message + "\n#{extended_message}")
       # else
-      error(exception, exception.message + "\n#{extended_message}")
+      error(exception, exception.message + "\n#{extended_message}") unless exception.is_a?(Reset)
       # end
     end
   end

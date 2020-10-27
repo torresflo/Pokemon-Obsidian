@@ -2,6 +2,7 @@ module GameData
   # Item Data structure
   # @author Nuri Yuri
   class Item < Base
+    extend DataSource
     # Default icon name
     NO_ICON = 'return'
     # HM/TM text
@@ -89,84 +90,9 @@ module GameData
     end
 
     class << self
-      # Data of the items
-      @data = []
-
-      # Get an Item by its ID or DB Symbol
-      # @param id [Integer, Symbol] ID of the move in database
-      # @return [GameData::Item]
-      def [](id)
-        id = get_id(id) if id.is_a?(Symbol)
-        id = 0 unless id.is_a?(Integer) && id_valid?(id)
-        return @data[id]
-      end
-
-      # Safely return the db_symbol of an item
-      # @param id [Integer] id of the item in the database
-      # @return [Symbol]
-      def db_symbol(id)
-        return (@data[id].db_symbol || :__undef__) if id_valid?(id)
-        return :__undef__
-      end
-
-      # Get id using symbol
-      # @param symbol [Symbol]
-      # @return [Integer]
-      def get_id(symbol)
-        return 0 if symbol == :__undef__
-
-        data = @data.index { |item| item.db_symbol == symbol }
-        data || 0
-      end
-
-      # Tell if the item id is valid
-      # @param id [Integer]
-      # @return [Boolean]
-      def id_valid?(id)
-        return id.between?(1, LAST_ID)
-      end
-
-      # Load the items
-      def load
-        @data = load_data('Data/PSDK/ItemData.rxdata').freeze
-        @data.each_with_index { |item, index| item&.id = index }
-        GameData::Item.const_set(:LAST_ID, @data.size - 1)
-      end
-
-      # Return all the item
-      # @return [Array<GameData::Item>]
-      def all
-        return @data
-      end
-
-      # Convert a collection to symbolized collection
-      # @param collection [Enumerable]
-      # @param keys [Boolean] if hash keys are converted
-      # @param values [Boolean] if hash values are converted
-      # @return [Enumerable] the collection
-      def convert_to_symbols(collection, keys: false, values: false)
-        if collection.is_a?(Hash)
-          new_collection = {}
-          collection.each do |key, value|
-            key = db_symbol(key) if keys && key.is_a?(Integer)
-            if value.is_a?(Enumerable)
-              value = convert_to_symbols(value, keys: keys, values: values)
-            elsif values && value.is_a?(Integer)
-              value = db_symbol(value)
-            end
-            new_collection[key] = value
-          end
-          collection = new_collection
-        else
-          collection.each_with_index do |value, index|
-            if value.is_a?(Enumerable)
-              collection[index] = convert_to_symbols(value, keys: keys, values: values)
-            elsif value.is_a?(Integer)
-              collection[index] = db_symbol(value)
-            end
-          end
-        end
-        collection
+      # Name of the file containing the data
+      def data_filename
+        return 'Data/PSDK/ItemData.rxdata'
       end
     end
   end

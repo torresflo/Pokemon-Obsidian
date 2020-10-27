@@ -41,8 +41,6 @@ module ScriptLoader
     attr_reader :skip_title_in_debug
     # @return [Boolean] if the game skips battle_transition in debug
     attr_reader :skip_battle_transition_in_debug
-    # @return [Integer, nil] Specific zoom for overworld things
-    attr_reader :specific_zoom
     # @return [Integer] OffsetX of all the viewports
     attr_reader :viewport_offset_x
     # @return [Integer] OffsetY of all the viewports
@@ -288,6 +286,8 @@ module ScriptLoader
       attr_reader :autotile_idle_frame_count
       # @return [Float] zoom of tiles in sprite character
       attr_reader :character_tile_zoom
+      # @return [Float] zoom of sprite character
+      attr_reader :character_sprite_zoom
       # @return [Integer] player center x value
       attr_reader :center_x
       # @return [Intger] player center y value
@@ -303,6 +303,7 @@ module ScriptLoader
         @tilemap_size_x = 22
         @tilemap_size_y = 17
         @character_tile_zoom = 0.5
+        @character_sprite_zoom = 1
         @center_x = (320 - 16) * 4
         @center_y = (240 - 16) * 4
         @maplinker_offset_x = 10
@@ -313,7 +314,9 @@ module ScriptLoader
       # Function that fix the missing values
       # @return [Boolean] if the files should be saved again
       def fix_missing_values
-        return ARGV.include?('debug') && false
+        need_save = false
+        need_save ||= @character_sprite_zoom != (@character_sprite_zoom ||= 1)
+        return ARGV.include?('debug') && need_save
       end
     end
 

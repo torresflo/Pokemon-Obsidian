@@ -57,14 +57,14 @@ module BattleEngine
 
     msg_push = true # Affiche <pkmn> utilise <attaque> si true
     targets.each do |target|
-      if (target and !target.dead?)
+      if !target&.dead?
         _State_local_update_target(target)
         #===
         #> Indication des données pour l'interpreter
         #===
         _message_stack_push([:parametre, launcher, (target ? target : launcher), skill])
         if BattleEngine.private_method_defined?(skill.symbol)
-          if (skill.symbol == :s_magnitude) # Ampleur
+          if skill.symbol == :s_magnitude # Ampleur
             if skill.power2 == nil
               #>Vérification
               rate = rand(100)
@@ -98,14 +98,14 @@ module BattleEngine
 
     #> Empêcher la perte de PP sur les répétitions
     counter = launcher.battle_effect.get_forced_attack_counter
-    if(counter == 0 and !@IA_flag)
+    if(counter == 0 && !@IA_flag)
       skill.pp-=1
       skill.pp-=1 if Abilities::enemy_has_ability_usable(launcher, 72) #> Pression
     end
 
-    if(skill.pp <= 0 and launcher.battle_effect.has_encore_effect? and !@IA_flag)
+    if(skill.pp <= 0 && launcher.battle_effect.has_encore_effect? && !@IA_flag)
       launcher.battle_effect.apply_encore(nil)
-    elsif(skill.pp <= 0 and @_State[:launcher_item] == 154) #> Baie Mepo
+    elsif(skill.pp <= 0 && @_State[:launcher_item] == 154) #> Baie Mepo
       _mp([:berry_use, launcher, true])
       _mp([:set_pp, 10])
       _msgp(19, 917, launcher, ITEM2[1] => launcher.item_name, MOVE[2] => skill.name)
@@ -115,7 +115,7 @@ module BattleEngine
     @_State[:last_skill] = skill if skill.id != 383
 
     #>Suppression du verrouillage
-    _mp([:apply_effect, launcher, :apply_lock_on, nil]) if skill.id != 199 and launcher.battle_effect.has_lock_on_effect?
+    _mp([:apply_effect, launcher, :apply_lock_on, nil]) if skill.id != 199 && launcher.battle_effect.has_lock_on_effect?
   end
 
   #===
@@ -139,7 +139,7 @@ module BattleEngine
   #===
   def _State_remove(symbol, text_id)
     value = @_State[symbol]
-    if value.is_a?(Integer) and value > 0
+    if value.is_a?(Integer) && value > 0
       @_State[symbol] = 0
       _mp([:msgf, parse_text(18, text_id)])
     elsif value == true
@@ -189,10 +189,10 @@ module BattleEngine
     st[:klutz] = false
     st[:air_lock] = false
     get_battlers.each do |i|
-      if(i and !i.dead? and i.position)
-        if(Abilities.has_ability_usable(i, 116)) #>Maladresse
+      if !i&.dead? && i&.position
+        if Abilities.has_ability_usable(i, 116) #>Maladresse
           st[:klutz] = i
-        elsif(Abilities.has_abilities(i, 109, 29)) #> Air Lock ou Ciel Gris
+        elsif Abilities.has_abilities(i, 109, 29) #> Air Lock ou Ciel Gris
           st[:air_lock] = i
         end
       end
@@ -257,18 +257,18 @@ module BattleEngine
   _State_reset
 
   #===
-  #>Mise à jour des infos relative au lanceur et à la cible
+  #>Mise à jour des infos relatives au lanceur et à la cible
   #===
   def _State_local_update_launcher(launcher)
     st = @_State
     st[:launcher_item] = _has_item(launcher, launcher.battle_item) ? launcher.battle_item : 0
-    st[:launcher_ability] = Abilities.has_ability_usable(launcher, launcher.ability) ? -1 : launcher.ability
+    st[:launcher_ability] = Abilities.has_ability_usable(launcher, launcher.ability) ? launcher.ability : -1
   end
 
   def _State_local_update_target(target)
     st = @_State
     st[:target_item] = _has_item(target, target.battle_item) ? target.battle_item : 0
-    st[:target_ability] = Abilities.has_ability_usable(target, target.ability) ? -1 : target.ability
+    st[:target_ability] = Abilities.has_ability_usable(target, target.ability) ? target.ability : -1
   end
 
   #===

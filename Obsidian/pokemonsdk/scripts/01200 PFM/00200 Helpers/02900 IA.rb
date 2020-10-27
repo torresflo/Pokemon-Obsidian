@@ -90,7 +90,7 @@ module PFM
         #-pkmn.battle_effect.get_forced_position-1,pkmn])
         return true
       #>Si lutte car pas de skills viable
-      elsif(BattleEngine::_lutte?(pkmn))
+      elsif(BattleEngine::forced_to_use_struggle?(pkmn))
         _stack_add_attack(target_position: rand($game_temp.vs_type), launcher: pkmn)
         #@results.push([0,nil,-rand($game_temp.vs_type)-1,pkmn])
         return true

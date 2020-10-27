@@ -10,6 +10,8 @@ module GamePlay
         3 => 12, # v4
         4 => 6, # v5
       }
+      # Actions for the mouse
+      ACTIONS = %i[action_b action_b action_b action_b]
       # Create a new SlotMachine Scene
       # @param speed [Integer] speed of the machine
       def initialize(speed)
@@ -54,7 +56,7 @@ module GamePlay
           @bands.each { |band| band.locked = false }
           @update_input_method = :update_input_band
         elsif Input.trigger?(:B)
-          play_cancel_se
+          action_b
         elsif index_changed(:@payout, :DOWN, :UP, 3, 1)
           play_cursor_se
           @payout_display.number = @payout
@@ -87,6 +89,16 @@ module GamePlay
         return false
       end
 
+      def update_mouse(moved)
+        return if @update_input_method != :update_input_pay
+        update_mouse_ctrl_buttons(@base_ui.ctrl, ACTIONS, true)
+      end
+
+      def action_b
+        play_cancel_se
+        @running = false
+      end
+
       # Tell if the animationes are done
       # @return [Boolean]
       def animation_done?
@@ -107,7 +119,7 @@ module GamePlay
       # Function that calculate the payout depending on the rows
       # @return [Integer, :replay]
       def calculate_payout
-        rows = calculate_payout
+        rows = all_rows
         rows.each do |row|
           val = row.first
           if row.all? { |value| value == val }

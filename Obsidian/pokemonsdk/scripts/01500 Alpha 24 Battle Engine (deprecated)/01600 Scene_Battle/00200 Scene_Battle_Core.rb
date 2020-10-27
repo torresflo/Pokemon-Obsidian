@@ -82,6 +82,8 @@ class Scene_Battle
     @wait_count = 0
     # Initialisation du background
     @viewport = Viewport.create(:main, 1000)
+    @viewport.extend(Viewport::WithToneAndColors)
+    @viewport.shader = Shader.create(:map_shader)
     if USE_ALPHA_25_UI
       rc = @viewport.rect
       @viewport_sub = Viewport.new(rc.x, rc.y + rc.height - 48, rc.width, 48)
@@ -145,16 +147,6 @@ class Scene_Battle
       $pokedex.mark_seen(pkmn.id,pkmn.form)
       $quests.see_pokemon(pkmn.id)
     end
-    #>Retrait de l'état de méga évolution
-    @actors.each do |pkmn|
-      next unless pkmn
-
-      pkmn.unmega_evolve
-      pkmn.reset_stat_stage
-      pkmn.form_calibrate
-      #>Vérifications de cheniti
-      pkmn.form = pkmn.form_generation(-1) if pkmn.id == 412 || pkmn.id == 413
-    end
     ::Scheduler.start(:on_scene_switch, ::Scene_Battle)
 =begin
     ::RPG::Cache.load_icon(true)
@@ -212,6 +204,16 @@ class Scene_Battle
 #      actor.remove_states_battle
 #    end
     # Effacement des ennemis
+    #>Retrait de l'état de méga évolution
+    @actors.each do |pkmn|
+      next unless pkmn
+
+      pkmn.unmega_evolve
+      pkmn.reset_stat_stage
+      pkmn.form_calibrate
+      #>Vérifications de cheniti
+      pkmn.form = pkmn.form_generation(-1) if pkmn.id == 412 || pkmn.id == 413
+    end
     $game_troop.enemies.clear
     # Appel de la procedure de fin de combat (pour la branche d'évent)
     if $game_temp.battle_proc != nil

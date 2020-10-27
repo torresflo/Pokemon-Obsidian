@@ -1,8 +1,5 @@
 module Battle
   class Move
-    # @return [Battle::Logic]
-    attr_accessor :logic
-
     # Range of the R random factor
     R_RANGE = 85..100
 

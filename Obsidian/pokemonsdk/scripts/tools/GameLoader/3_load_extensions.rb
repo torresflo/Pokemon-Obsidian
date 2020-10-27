@@ -1,6 +1,7 @@
 # Load the extensions
 begin
   $DEBUG = false
+  ENV['__GL_THREADED_OPTIMIZATIONS'] = '0'
   require 'zlib'
   require 'socket'
   require 'uri'
@@ -11,8 +12,17 @@ begin
   require 'yaml'
   require 'rexml/document'
   require PSDK_RUNNING_UNDER_WINDOWS ? './lib/LiteRGSS.so' : 'LiteRGSS'
-  require PSDK_RUNNING_UNDER_WINDOWS ? './lib/RubyFmod.so' : 'RubyFmod'
-rescue StandardError
+  # Attempt to load audio
+  begin
+    require PSDK_RUNNING_UNDER_WINDOWS ? './lib/RubyFmod.so' : 'RubyFmod'
+  rescue LoadError
+    begin
+      require PSDK_RUNNING_UNDER_WINDOWS ? './lib/SFMLAudio.so' : 'SFMLAudio'
+    rescue LoadError
+      puts 'Could not load Audio'
+    end
+  end
+rescue LoadError
   display_game_exception('An error occured during extensions loading.')
 end
 

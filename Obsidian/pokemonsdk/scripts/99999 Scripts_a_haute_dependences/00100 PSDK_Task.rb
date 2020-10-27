@@ -5,6 +5,7 @@ module Scheduler
     @storage[:old_player_y] = $game_player.y - Yuki::MapLinker.current_OffsetY
     @storage[:old_player_id] = $game_map.map_id
     $env.reset_worldmap_position # Reset the arbitrary worldmap position
+    $game_player.reset_follower
   end
 
   add_proc(:on_warp_start, ::Scene_Map, 'Calcul des positions des followers', 999) do

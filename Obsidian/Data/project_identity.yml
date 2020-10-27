@@ -25,6 +25,7 @@ tilemap: !ruby/object:ScriptLoader::PSDKConfig::TilemapConfig
   maplinker_offset_x: 10
   maplinker_offset_y: 7
   autotile_idle_frame_count: 6
+  character_sprite_zoom: 1
 mouse_skin: 
 options: !ruby/object:ScriptLoader::PSDKConfig::OptionsConfig
   order:

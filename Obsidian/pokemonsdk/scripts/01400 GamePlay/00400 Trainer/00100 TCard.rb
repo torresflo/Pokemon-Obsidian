@@ -106,6 +106,7 @@ module GamePlay
       create_money
       create_name
       create_do
+      create_badge
       create_play_time
     end
 

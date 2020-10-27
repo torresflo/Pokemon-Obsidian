@@ -29,7 +29,11 @@ module Yuki
         io << error_log
       else
         File.open('Error.log', 'wb') { |f| f << error_log }
-        try_graphic_display
+        puts <<~EODSP
+          The game crashed!
+          The error is stored in Error.log.
+        EODSP
+        system('pause')
       end
     end
 
@@ -93,26 +97,6 @@ module Yuki
     # @return [String, nil]
     def get_eval_script
       return @eval_script
-    end
-
-    # Try to show the exception
-    def try_graphic_display
-      str = <<~EODSP
-        The game crashed!
-        We copied the error in the clipboard. You can also find it in Error.log
-      EODSP
-      begin
-        @vp = Viewport.create(:main, 100_000)
-        @vp.color = Color.new(255, 0, 0)
-        Text.new(0, vp, 0, 16, vp.rect.width, Font::FONT_SMALL, str, 1, 0, 10)
-      rescue StandardError
-        puts str
-        system('pause')
-        return
-      end
-      Graphics.wait(100)
-      Graphics.update until Input.trigger?(:C)
-      @vp.dispose
     end
 
     # Build the SystemStackError message

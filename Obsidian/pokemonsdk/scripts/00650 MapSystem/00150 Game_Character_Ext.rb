@@ -73,7 +73,7 @@ class Game_Character
   # @author Nuri Yuri
   def move_speed
     return (@in_swamp == 1 ? 2 : 1) if @in_swamp
-    move_speed = @move_speed
+    move_speed = original_move_speed
     if move_speed > 1
       direction = @direction
       sys_tag = system_tag
@@ -85,6 +85,12 @@ class Game_Character
       end
     end
     return move_speed
+  end
+
+  # Return the original move speed of the character
+  # @return [Integer]
+  def original_move_speed
+    return @move_speed
   end
 
   # Check if it's possible to have contact interaction with this Game_Character at certain coordinates

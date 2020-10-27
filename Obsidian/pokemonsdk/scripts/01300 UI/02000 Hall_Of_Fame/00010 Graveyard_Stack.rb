@@ -24,7 +24,7 @@ module UI
         @anim_count = 0
         @graveyard = $pokemon_party.nuzlocke.graveyard
         @sprites = Array.new(@graveyard.size) { add_sprite(*initial_pos_sprites, NO_INITIAL_IMAGE, type: ShaderedSprite) }
-        @shader = Shader.new(Shader::FALLBACK_SHADER)
+        @shader = Shader.create(:full_shader)
         @shader.set_float_uniform('color', [1, 1, 1, 0])
         @shader.set_float_uniform('tone', [0, 0, 0, 1])
         @sprites.each_with_index do |sprite, i|

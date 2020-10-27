@@ -233,7 +233,8 @@ module PFM
           hash[:open_party] = true
           #> Le Pokémon ne doit pas être au taquet (on est gentil)
           hash[:on_pokemon_choice] = proc do |pkmn|
-            next(false) if pkmn.egg?
+            next(false) if pkmn.egg? || !pkmn.position
+            next(false) if pkmn.position >= $game_temp.vs_type
             pkmn.battle_stage[boost % 7] < 6
           end
           #> Génération de l'action en combat

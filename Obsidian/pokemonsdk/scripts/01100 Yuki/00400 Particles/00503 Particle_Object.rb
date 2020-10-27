@@ -2,8 +2,8 @@ module Yuki
   # The object that describe a particle
   # @author Nuri Yuri
   class Particle_Object
-    # The Zoom Division info
-    ZoomDiv = Sprite_Character::ZoomDiv
+    # Zoom of a tile to adjust coordinate
+    TILE_ZOOM = PSDK_CONFIG.tilemap.character_tile_zoom
     # if the particle is disposed
     # @return [Boolean]
     attr_reader :disposed
@@ -31,6 +31,8 @@ module Yuki
     #       rect: Array(Integer, Integer, Integer, Integer) # the parameter of the #set function of Rect (src_rect)
     # @param on_tp [Boolean] tells the particle to skip the :enter animation or not
     # @param params [Hash] additional params for the animation
+    # @option params [Symbol] :flow define the kind of flow to use for the animation
+    # @option params [Integer] :radius define the radius to use for the :update_radius_flow flow
     def initialize(character, data, on_tp = false, params = {})
       @character = character
       init_map_data(character)
@@ -42,6 +44,7 @@ module Yuki
       @counter = 0
       @position_type = :center_pos
       @state = (on_tp ? :stay : :enter)
+      @state = params[:state] if params.key?(:state)
       init_zoom
       @ox = 0
       @oy = 0
@@ -49,6 +52,7 @@ module Yuki
       @ox_off = 0
       @wait_count = 0
       @params = params
+      @flow = params[:flow] || :update_default_flow
     end
 
     # Update the particle animation
@@ -82,17 +86,57 @@ module Yuki
       if @counter < data[:max_counter]
         (action = data[:data][@counter]) && exectute_action(action)
         @counter += 1
-      elsif @state == :enter
-        @state = :stay
-        @counter = 0
-      elsif @state == :stay
-        @state = :leave if x != @character.x || y != @character.y
-        @counter = 0
+      elsif send(@flow, data)
+        return true
       elsif !data[:loop]
         dispose
         return false
       else
         @counter = 0
+      end
+      return true
+    end
+
+    # Update the default particle state flow
+    # @param data [Hash] the data related to the current state
+    # @return [Boolean]
+    def update_default_flow(data)
+      if @state == :enter
+        @state = :stay
+        @counter = 0
+      elsif @state == :stay
+        @state = :leave if x != @character.x || y != @character.y
+        @counter = 0
+      else
+        return false
+      end
+      return true
+    end
+
+    # Update the radius particle kind flow
+    # @param data [Hash] the data related to the current state
+    # @return [Boolean]
+    def update_radius_flow(data)
+      radius = Math.sqrt(($game_player.x - @character.x)**2 + ($game_player.y - @character.y)**2)
+      if @state == :enter
+        @state = :stay
+        @counter = 0
+      elsif @state == :stay
+        return false if @map_data.map_id != $game_map.map_id
+
+        if radius > @params[:radius]
+          @state = :leave
+          @counter = 0
+        end
+      elsif @state == :leave
+        return false if @map_data.map_id != $game_map.map_id
+
+        if (@sprite.visible = (radius <= @params[:radius]))
+          @state = :enter
+          @counter = 0
+        end
+      else
+        return false
       end
       return true
     end
@@ -111,25 +155,26 @@ module Yuki
     def update_sprite_position
       case @position_type
       when :center_pos, :grass_pos
-        @sprite.x = ((x * 128 - $game_map.display_x + 5) / 4 + 32) / @zoom
+        @sprite.x = (((x * 128 - $game_map.display_x + 5) / 4 + 16) * @tile_zoom).floor
         @sprite.y = ((y * 128 - $game_map.display_y + 5) / 4 + 32)
         if @position_type == :center_pos || @sprite.y >= @character.screen_y
           @sprite.z = (screen_z + @add_z)
         else
           @sprite.z = (screen_z - 1)
         end
-        @sprite.y /= @zoom
-        @sprite.ox = @ox * @zoom + @ox_off
-        @sprite.oy = @oy * @zoom + @oy_off
+        @sprite.y = (@sprite.y * @tile_zoom).floor
+        @sprite.ox = @ox + @ox_off
+        @sprite.oy = @oy + @oy_off
       when :character_pos
-        @sprite.x = @character.screen_x / @zoom
-        @sprite.y = @character.screen_y / @zoom
+        @sprite.x = @character.screen_x * @tile_zoom
+        @sprite.y = @character.screen_y * @tile_zoom
         @sprite.z = (@character.screen_z(0) + @add_z)
         @sprite.ox = @ox + @ox_off
         @sprite.oy = @oy + @oy_off
       end
     end
 
+    # Function that process screen z depending on original screen_y (without zoom)
     def screen_z
       (y * 128 - $game_map.display_y + 3) / 4 + 32 * @z + 31
     end
@@ -159,8 +204,8 @@ module Yuki
 
     # Initialize the zoom info
     def init_zoom
-      @zoom = PSDK_CONFIG.specific_zoom || ZoomDiv[1]
-      @add_z = @zoom
+      @tile_zoom = TILE_ZOOM
+      @add_z = (1 / @tile_zoom).floor
     end
   end
 end

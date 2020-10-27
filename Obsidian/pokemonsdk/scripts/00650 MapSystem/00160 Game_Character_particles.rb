@@ -9,6 +9,7 @@ class Game_Character
   def emotion(type, wait = 34, params = {})
     Yuki::Particles.add_particle(self, type, params)
     @wait_count = wait
+    @move_type_custom_special_result = true if wait > 0
   end
 
   # Constant defining all the particle method to call

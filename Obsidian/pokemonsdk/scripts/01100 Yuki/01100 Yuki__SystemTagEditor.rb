@@ -255,6 +255,8 @@ module Yuki
     def init_surfaces
       @background = Viewport.new(0, 0, 640, 480)
       @background.z = 19_999
+      @background.extend(Viewport::WithToneAndColors)
+      @background.shader = Shader.create(:map_shader)
       @background.color = BackColor
       @save_button = Utils.create_sprite(nil, 'save', 256, 0, 20_002, sprite_class: ::Sprite)
       txt = "Appuyez droite ou gauche pour\nafficher l'extension du tileset."

@@ -469,7 +469,7 @@ class Game_Character
   end
 
   # SystemTags that triggers "sliding" state
-  SlideTags = [TIce, RapidsL, RapidsR, RapidsU, RapidsD]
+  SlideTags = [TIce, RapidsL, RapidsR, RapidsU, RapidsD, RocketL, RocketU, RocketD, RocketR, RocketRL, RocketRU, RocketRD, RocketRR]
 
   # End of the movement process
   # @param no_follower_move [Boolean] if the follower should not move
@@ -480,6 +480,7 @@ class Game_Character
     if SlideTags.include?(sys_tag = system_tag) ||
        (sys_tag == MachBike && !($game_switches[::Yuki::Sw::EV_Bicycle] && @lastdir4 == 8))
       @sliding = true
+      @sliding_parameter = sys_tag
       Scheduler::EventTasks.trigger(:begin_slide, self)
     end
     z_bridge_check(sys_tag)

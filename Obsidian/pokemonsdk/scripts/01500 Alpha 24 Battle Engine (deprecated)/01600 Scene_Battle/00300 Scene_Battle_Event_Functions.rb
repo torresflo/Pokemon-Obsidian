@@ -33,7 +33,15 @@ class Scene_Battle
     enemy_party.clear
     data.team.each do |hash|
       next unless hash.class == Hash
-      enemy_party << PFM::Pokemon.generate_from_hash(hash)
+      enemy_party << (pokemon = PFM::Pokemon.generate_from_hash(hash))
+      # Remove moves that are 0
+      if $game_switches[Yuki::Sw::BT_NO_MOVE_WHEN_DEFAULT] && !hash[:moves].all?(&:zero?)
+        hash[:moves].each_with_index do |m, index|
+          pokemon.skills_set[index] = nil if m == 0
+          pokemon.skills_set.compact!
+        end
+      end
+      next
     end
     raise "Aucun Pokémon n'a été trouvé dans ce combat de dresseur..." if enemy_party.size == 0
   end
@@ -84,6 +92,7 @@ class Scene_Battle
     ability = $actors[0].ability
     #>Préparation Pokémon
     enemy_party = @enemy_party.actors
+    repel_active = $pokemon_party.repel_count > 0
     args.size.times do |i|
       pkmn_id=$data_troops[@troop_id].members[i]
       next unless pkmn_id
@@ -110,6 +119,10 @@ class Scene_Battle
         @select_pokemon_chances[i] = 1.5 if enemy_party[i].type_electric?
       when 33 #> Synchro
         @select_pokemon_chances[i] = 1.5 if enemy_party[i].nature_id == $actors[0].nature_id
+      end
+      if enemy_party[i].level < $actors[0].level
+        @select_pokemon_chances[i] *= 0.33 if $actors[0].item_db_symbol == :cleanse_tag
+        @select_pokemon_chances[i] = 0 if repel_active
       end
     end
   end

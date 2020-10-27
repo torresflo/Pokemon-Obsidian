@@ -1,54 +1,87 @@
-#encoding: utf-8
-
-#noyard
 module GamePlay
-  class Shortcut < Base
-    #> Inclusions
+  # Scene responsive of showing the shortcut menu
+  class Shortcut < BaseCleanUpdate
     include ::Util::Item
+    # List of shortcut key by index
+    SHORTCUT_KEYS = %i[UP LEFT DOWN RIGHT]
+    # List of key => method used by automatic_input_update
+    AIU_KEY2METHOD = { B: :action_b, Y: :action_b }
+    # Actions on mouse ctrl
+    ACTIONS = %i[action_b action_b action_b action_b]
+    # Create the shortcut scene
     def initialize
       super
       @items = $bag.shortcuts
-      @viewport = Viewport.create(:main, 10_000)
-      @back = Sprite.new(@viewport).set_bitmap('Shortcut', :interface)
-      @back.x = (320 - @back.bitmap.width) / 2
-      @back.y = (240 - @back.bitmap.height) / 2 - 9
-      delta_x = @back.bitmap.width / 3 + 1
-      delta_y = @back.bitmap.height / 3 + 1
-      @item_sprites = Array.new(PFM::Bag::SHORTCUT_AMOUNT) do |i|
-        sp = Sprite.new(@viewport)
-        sp.set_position(
-          @back.x + (i & 0x01 == 1 ? (delta_x * (i & 0x02)) : delta_x) + 1,
-          @back.y + (i & 0x01 == 1 ? delta_y : delta_y * i) + 1
-        )
-        sp.opacity = $bag.contain_item?(@items[i]) ? 255 : 96
-        sp.set_bitmap(GameData::Item[@items[i]].icon, :icon) unless @items[i] == 0
-        next(sp)
+    end
+
+    # Update the inputs of the scene
+    def update_inputs
+      return false unless automatic_input_update(AIU_KEY2METHOD)
+
+      SHORTCUT_KEYS.each_with_index do |key, index|
+        next unless Input.trigger?(key)
+
+        break use(index)
       end
     end
 
-    def update
-      return unless super
-      if Input.trigger?(:B) or Input.trigger?(:Y)
-        @running = false
-      elsif(Input.trigger?(:UP))
-        use(0)
-      elsif(Input.trigger?(:DOWN))
-        use(2)
-      elsif(Input.trigger?(:RIGHT))
-        use(3)
-      elsif(Input.trigger?(:LEFT))
-        use(1)
+    # Update the mouse interaction
+    def update_mouse(moved)
+      update_mouse_ctrl_buttons(@base_ui.ctrl, ACTIONS, true)
+      if Mouse.trigger?(:LEFT)
+        @shortcuts.each_with_index do |stack, index|
+          use(index) if stack.simple_mouse_in?
+        end
       end
+    end
+
+    private
+
+    def action_b
+      play_cancel_se
+      @running = false
     end
 
     def use(index)
       item_id = @items[index]
-      return @running = false if item_id == 0 or !$bag.contain_item?(item_id)
-      util_item_useitem(item_id)
+      if item_id == 0 || !$bag.contain_item?(item_id)
+        play_buzzer_se
+        return
+      end
+      play_decision_se
+      @running = false if util_item_useitem(item_id)
+      close_message_window
     end
 
     def create_graphics
-      # Skipped to prevent glitches
+      create_viewport
+      create_background
+      create_base_ui
+      create_elements
+    end
+
+    def create_background
+      add_disposable UI::BlurScreenshot.new(@__last_scene)
+    end
+
+    def create_elements
+      count = SHORTCUT_KEYS.size
+      # @type [Array<UI::ShortcutElement>]
+      @shortcuts = SHORTCUT_KEYS.each_with_index.map do |key, index|
+        UI::ShortcutElement.new(@viewport, count - index, @items[index], key)
+      end
+    end
+
+    # Create the base UI of the slot machine
+    def create_base_ui
+      @base_ui = UI::GenericBase.new(@viewport, button_texts)
+      @base_ui.background.visible = false
+    end
+
+    # Get the button text for the generic UI
+    # @return [Array<String>]
+    def button_texts
+      return [nil, nil, nil, ext_text(9000, 115)]
     end
   end
 end

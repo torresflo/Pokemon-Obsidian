@@ -60,6 +60,8 @@ class Scene_Battle
   #Mise à jour de la status bar d'un Pokémon
   #===
   def status_bar_update(pokemon)
+    return unless pokemon.position
+
     if pokemon.position.to_i<0
       bar=@enemy_bars[-pokemon.position-1]
     else
@@ -78,10 +80,10 @@ class Scene_Battle
     # @type [Array<PFM::Pokemon>]
     getters = (pokemon.position < 0 ? @actors : @enemies)
     # Calculate the total amount of turn
-    turn_sum = getters.sum { |battler| battler&.battle_turns || 0 }
+    turn_sum = getters.reject(&:dead?).sum { |battler| battler&.battle_turns || 0 }
     return if turn_sum == 0 # No exp if no turn used to beat the enemy
     # Number of turn used by the current battling pokemon
-    battle_turn = getters[0, $game_temp.vs_type].sum { |battler| battler&.battle_turns || 0 }
+    battle_turn = getters[0, $game_temp.vs_type].reject(&:dead?).sum { |battler| battler&.battle_turns || 0 }
     # We try to give exp to each pokemon
     getters.each_with_index do |battler, index|
       # No exp if KO or level >= max_level
@@ -125,17 +127,18 @@ class Scene_Battle
     )
     display_message(text)
     final_exp = battler.exp + exp_amount
+    play_animation = index < $game_temp.vs_type && battler.position
     # Distribution loop
     while battler.exp < final_exp && battler.level < $pokemon_party.level_max_limit
       exp_delta = (battler.exp_lvl - battler.exp_list[battler.level]) / 104
       exp_delta = 1 if exp_delta <= 0
-      Audio.se_play(EXP_SOUND)
+      Audio.se_play(EXP_SOUND) if play_animation
       # Current level exp distribution
       while battler.exp < final_exp && battler.exp < battler.exp_lvl
         # Add & calibration
         battler.exp = (battler.exp + exp_delta).clamp(0, battler.exp_lvl).clamp(0, final_exp)
         # Show bar animation
-        next unless index < $game_temp.vs_type
+        next unless play_animation
         status_bar_update(battler)
         Graphics.update
         update_animated_sprites
@@ -144,7 +147,7 @@ class Scene_Battle
       # Level up sequenc if needed
       if battler.exp >= battler.exp_lvl
         list = battler.level_up_stat_refresh
-        status_bar_update(battler) if index < $game_temp.vs_type
+        status_bar_update(battler) if play_animation
         Audio.me_play(LVL_SOUND)
         PFM::Text.set_num3(battler.level.to_s, 1)
         display_message(parse_text(18, 62, '[VAR 010C(0000)]' => battler.given_name))
@@ -172,19 +175,20 @@ class Scene_Battle
   #>phase4_actor_select_pkmn
   # Selection d'un Pokémon pour l'actor
   #===
-  def phase4_actor_select_pkmn(i)
+  def phase4_actor_select_pkmn(i,forced=true)
     egg_party = []
     @actors.each { |j| egg_party << j unless BattleEngine.get_ally!(i).include?(j) }
     egg_check = egg_party.all?(&:dead?)
     return false if egg_check
     
     @message_window.visible = false
-    $scene = scene = GamePlay::Party_Menu.new(@actors, :battle, no_leave: true)
+    $scene = scene = GamePlay::Party_Menu.new(@actors, :battle, no_leave: forced)
     scene.main#(true)
     @message_window.visible = true
     $scene = self
     return_data = scene.return_data
     Graphics.transition
+    return false if return_data == -1
     return [2,return_data,i.position]
   end
   #===
@@ -486,22 +490,22 @@ class Scene_Battle
       #>Soin Poison
       if(BattleEngine::Abilities::has_ability_usable(pkmn,89))
         BattleEngine::_msgp(19, 387, pkmn)
-        BattleEngine::_message_stack_push([:hp_up, pkmn, pkmn.poison_effect, true])
+        BattleEngine::_message_stack_push([:hp_up, pkmn, pkmn.poison_effect])
       else
         BattleEngine::_msgp(19, 243, pkmn)
         BattleEngine::_mp([:animation_on, pkmn, 469 + pkmn.status])
-        BattleEngine::_message_stack_push([:hp_down, pkmn, pkmn.poison_effect, true])
+        BattleEngine::_message_stack_push([:hp_down_proto, pkmn, pkmn.poison_effect])
       end
     elsif(pkmn.burn?) #Brûlure
       hp = pkmn.burn_effect
       hp /= 2 if BattleEngine::Abilities::has_ability_usable(pkmn, 117) #> Ignifugé
       BattleEngine::_msgp(19, 261, pkmn)
       BattleEngine::_mp([:animation_on, pkmn, 469 + pkmn.status])
-      BattleEngine::_message_stack_push([:hp_down,pkmn,pkmn.burn_effect,true])
+      BattleEngine::_message_stack_push([:hp_down,pkmn,pkmn.burn_effect])
     elsif(pkmn.toxic?) #Intoxiqué
       BattleEngine::_msgp(19, 243, pkmn)
       BattleEngine::_mp([:animation_on, pkmn, 469 + pkmn.status])
-      BattleEngine::_message_stack_push([:hp_down,pkmn,pkmn.toxic_effect,true])
+      BattleEngine::_message_stack_push([:hp_down_proto,pkmn,pkmn.toxic_effect])
     end
   end
   #===
@@ -529,7 +533,7 @@ class Scene_Battle
       )
       choice = display_message(text, true, 1, text_get(11, 27), text_get(11, 28))
       if choice == 0
-        result = phase4_actor_select_pkmn(@actors[0])
+        result = phase4_actor_select_pkmn(@actors[0],false)
         phase4_switch_pokemon(result) if result
       end
     end
@@ -562,7 +566,7 @@ class Scene_Battle
         new_enemy=phase4_enemie_select_pkmn(i)
         #phase4_switch_pokemon([2,-new_enemy-1,-i.position-1]) if new_enemy
         if new_enemy
-          phase4_switch_question(new_enemy) if $game_temp.vs_type == 1
+          phase4_switch_question(new_enemy) if $game_temp.vs_type == 1 && @actors[0].hp > 0
           phase4_switch_pokemon(new_enemy)
         end
         @e_remaining_pk.redraw if $game_temp.trainer_battle

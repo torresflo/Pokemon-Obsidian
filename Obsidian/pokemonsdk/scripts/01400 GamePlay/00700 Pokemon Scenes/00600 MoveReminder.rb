@@ -100,13 +100,11 @@ module GamePlay
     # Call the Skill Learn UI when the player press A
     def action_a
       $game_system.se_play($data_system.decision_se)
-      scene = GamePlay::Skill_Learn.new(@pokemon, @ui.learnable_skills[@index].id)
-      scene.main
-      if scene.learnt
-        @return_data = true
-        @running = false
-      else
-        Graphics.transition
+      call_scene(MoveTeaching, @pokemon, @ui.learnable_skills[@index].id) do |scene|
+        if scene.learnt
+          @return_data = true
+          @running = false
+        end
       end
     end
 

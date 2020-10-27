@@ -7,6 +7,8 @@ module UI
     attr_reader :button_texts
     # @return [Array<ControlButton>] the control buttons
     attr_reader :ctrl
+    # @return [Sprite]
+    attr_reader :background
     # List of key by default
     DEFAULT_KEYS = %i[A X Y B]
     # List of button to hide when a text is shown
@@ -15,6 +17,7 @@ module UI
     # @param viewport [Viewport]
     # @param texts [Array<String>] list of texts shown in the ControlButton
     # @param keys [Array<Symbol>] list of keys used in the ControlButton
+    # @param hide_background_and_button [Boolean] tell if we don't want to show the button and its bar
     def initialize(viewport, texts = [], keys = DEFAULT_KEYS, hide_background_and_button: false)
       super(viewport)
       @keys = keys

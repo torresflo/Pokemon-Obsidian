@@ -16,6 +16,8 @@ class Game_Event < Game_Character
   NO_SPRITE_TAG = '[sprite=off]'
   # Tag that give the event an symbol alias
   SYMBOL_ALIAS_TAG = /\[alias=([a-z\-0-9\-_]+)\]/
+  # Tag enabling reflection
+  REFLECTION_TAG = '[reflection=on]'
   # @return [Integer, nil] Type of trigger for the event (0: Action key, 1: Player contact, 2: Event contact, 3: Autorun, 4: Parallel process)
   attr_reader :trigger
   # @return [Array<RPG::EventCommand>] list of commands that should be executed
@@ -47,6 +49,7 @@ class Game_Event < Game_Character
     @erased = false
     @starting = false
     @through = true
+    @can_parallel_execute = @original_map == map_id
     initialize_parse_name
     moveto(@event.x, @event.y)
     refresh
@@ -61,6 +64,13 @@ class Game_Event < Game_Character
     @surfing = name.include?(SURFING_TAG)
     @invisible_event = (name == INVISIBLE_EVENT_NAME || name.include?(INVISIBLE_EVENT_TAG))
     name.sub(SYMBOL_ALIAS_TAG) { @sym_alias = $1.to_sym }
+    @reflection_enabled = name.include?(REFLECTION_TAG)
+  end
+
+  # Tell if the event can execute in parallel process or automatic process
+  # @return [Boolean]
+  def can_parallel_execute?
+    return @can_parallel_execute
   end
 
   # Tell if the event can have a sprite or not
@@ -73,11 +83,12 @@ class Game_Event < Game_Character
     @starting = false
   end
 
-  # Tells if the Event can start
+  # Tells if the Event cannot start
   # @return [Boolean]
   def over_trigger?
     return false if !@character_name.empty? && !@through || @invisible_event
     return false unless $game_map.passable?(@x, @y, 0)
+
     return true
   end
 
@@ -102,12 +113,14 @@ class Game_Event < Game_Character
     unless @erased
       @event.pages.reverse_each do |page|
         next unless page.condition.valid?(@original_map, @original_id)
+
         new_page = page
         break
       end
     end
     return if new_page == @page
-    return unless refresh_page(new_page)
+    return unless refresh_page(new_page) && can_parallel_execute?
+
     @interpreter = Interpreter.new if @trigger == 4
     check_event_trigger_auto
   end

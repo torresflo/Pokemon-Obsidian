@@ -113,6 +113,10 @@ module PFM
       if var[$game_player.terrain_tag].class == Wild_Info
         var = var[$game_player.terrain_tag]
         level = nil
+        if $pokemon_party.repel_count > 0
+          levels = var.levels.map { |i| i.is_a?(Integer) ? i : i[:level] }
+          return false unless levels.any? { |i| i >= $actors[0].level }
+        end
         if WEAK_POKEMON_ABILITY.include?($actors[0].ability_db_symbol)
           var.levels.each do |i|
             level = (i.is_a?(Integer) ? i : i[:level])

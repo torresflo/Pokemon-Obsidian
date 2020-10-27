@@ -4,6 +4,7 @@ pokemonsdk/scripts/00002 state.rb
 pokemonsdk/scripts/00003 SafeExec.rb
 pokemonsdk/scripts/00010 Hooks.rb
 pokemonsdk/scripts/00100 Yuki__EXC.rb
+pokemonsdk/scripts/00000 Dependencies/00000 Repository/00000 Repository.rb
 pokemonsdk/scripts/00000 Dependencies/00200 GameData(dep)/00100 GameData__SystemTags.rb
 pokemonsdk/scripts/00000 Dependencies/00200 GameData(dep)/00900 Yuki__VD.rb
 pokemonsdk/scripts/00000 Dependencies/00300 Patch_Ruby/00200 Object.rb
@@ -112,6 +113,7 @@ pokemonsdk/scripts/00700 PSDK Event Interpreter/01300 Interpreter_Sequences.rb
 pokemonsdk/scripts/00700 PSDK Event Interpreter/01301 Interpreter_Shop.rb
 pokemonsdk/scripts/00800 GameData/02400 GameData__Loader.rb
 pokemonsdk/scripts/00800 GameData/00100 Serializable/00000 Base.rb
+pokemonsdk/scripts/00800 GameData/00100 Serializable/00001 DataSource.rb
 pokemonsdk/scripts/00800 GameData/00100 Serializable/00101 BallData.rb
 pokemonsdk/scripts/00800 GameData/00100 Serializable/00102 ItemHeal.rb
 pokemonsdk/scripts/00800 GameData/00100 Serializable/00103 ItemMisc.rb
@@ -139,6 +141,7 @@ pokemonsdk/scripts/00800 GameData/00900 Constants/02100 Colors.rb
 pokemonsdk/scripts/00800 GameData/00900 Constants/02200 Pickup data.rb
 pokemonsdk/scripts/00800 GameData/00900 Constants/02300 Daycare.rb
 pokemonsdk/scripts/01000 Util/00100 Util__Item.rb
+pokemonsdk/scripts/01000 Util/00101 GiveTakeItem.rb
 pokemonsdk/scripts/01000 Util/00200 Util__TargetSelection.rb
 pokemonsdk/scripts/01000 Util/00300 Random.rb
 pokemonsdk/scripts/01000 Util/00500 Util_EventConvert.rb
@@ -190,7 +193,6 @@ pokemonsdk/scripts/01200 PFM/00100 Global Systems/00300 Bag.rb
 pokemonsdk/scripts/01200 PFM/00100 Global Systems/00400 Trainer.rb
 pokemonsdk/scripts/01200 PFM/00100 Global Systems/00500 Options.rb
 pokemonsdk/scripts/01200 PFM/00100 Global Systems/00700 Shop.rb
-pokemonsdk/scripts/01200 PFM/00100 Global Systems/01000 Storage (PSS).rb
 pokemonsdk/scripts/01200 PFM/00100 Global Systems/01100 Daycare.rb
 pokemonsdk/scripts/01200 PFM/00100 Global Systems/01200 Environnement.rb
 pokemonsdk/scripts/01200 PFM/00100 Global Systems/01300 MagnetoVS.rb
@@ -251,6 +253,11 @@ pokemonsdk/scripts/01300 UI/00700 Shop/00060 ScrollBar.rb
 pokemonsdk/scripts/01300 UI/00800 Pokemon_Shop/00010 ItemList.rb
 pokemonsdk/scripts/01300 UI/00800 Pokemon_Shop/00020 ItemDescWindow.rb
 pokemonsdk/scripts/01300 UI/00800 Pokemon_Shop/00030 ScrollBar.rb
+pokemonsdk/scripts/01300 UI/00900 MoveTeaching/00010 BaseBackground.rb
+pokemonsdk/scripts/01300 UI/00900 MoveTeaching/00020 PokemonInfos.rb
+pokemonsdk/scripts/01300 UI/00900 MoveTeaching/00030 SkillDescription.rb
+pokemonsdk/scripts/01300 UI/00900 MoveTeaching/00040 NewSkill.rb
+pokemonsdk/scripts/01300 UI/00900 MoveTeaching/00050 Skill.rb
 pokemonsdk/scripts/01300 UI/02000 Hall_Of_Fame/00001 Type_Background.rb
 pokemonsdk/scripts/01300 UI/02000 Hall_Of_Fame/00002 Pokemon_Battler_Stack.rb
 pokemonsdk/scripts/01300 UI/02000 Hall_Of_Fame/00003 Stars_Animation.rb
@@ -268,6 +275,7 @@ pokemonsdk/scripts/01300 UI/09000 Others/00100 KeyBindingViewer.rb
 pokemonsdk/scripts/01300 UI/09000 Others/00200 QuestInformer.rb
 pokemonsdk/scripts/01300 UI/09000 Others/00300 MenuButton.rb
 pokemonsdk/scripts/01300 UI/09000 Others/00400 LevelUpWindow.rb
+pokemonsdk/scripts/01300 UI/09000 Others/00500 Shortcut.rb
 pokemonsdk/scripts/01300 UI/09000 Others/01400 Dex UIs.rb
 pokemonsdk/scripts/01300 UI/09000 Others/02000 UI__TeamButton.rb
 pokemonsdk/scripts/01300 UI/09000 Others/02200 VoltorbFlipSprites.rb
@@ -321,18 +329,15 @@ pokemonsdk/scripts/01400 GamePlay/00600 Save & Load/00200 Load.rb
 pokemonsdk/scripts/01400 GamePlay/00600 Save & Load/00300 Language_Choice.rb
 pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00100 Evolve.rb
 pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00200 Hatch.rb
-pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00300 Skill_Learn.rb
 pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00400 WorldMap.rb
 pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00600 MoveReminder.rb
 pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/01000 Shortcut.rb
 pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/09000 GTS.rb
-pokemonsdk/scripts/01400 GamePlay/01000 Storage/03700 GamePlay__Storage.rb
-pokemonsdk/scripts/01400 GamePlay/01000 Storage/03800 GamePlay__StorageDrop.rb
-pokemonsdk/scripts/01400 GamePlay/01000 Storage/03900 GamePlay__StorageItems.rb
-pokemonsdk/scripts/01400 GamePlay/01000 Storage/04000 GamePlay__StorageMove.rb
-pokemonsdk/scripts/01400 GamePlay/01000 Storage/04100 GamePlay__StorageRemove.rb
-pokemonsdk/scripts/01400 GamePlay/01000 Storage/04300 GamePlay__StorageTrade.rb
-pokemonsdk/scripts/01400 GamePlay/01000 Storage/04400 GamePlay__StorageUtils.rb
+pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00300 MoveTeaching/00300 scene Initialize.rb
+pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00300 MoveTeaching/00301 scene Graphics.rb
+pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00300 MoveTeaching/00302 scene Inputs.rb
+pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00300 MoveTeaching/00303 scene Processes.rb
+pokemonsdk/scripts/01400 GamePlay/00700 Pokemon Scenes/00300 MoveTeaching/00304 scene Mouse.rb
 pokemonsdk/scripts/01400 GamePlay/01100 Input/00700 NameInput.rb
 pokemonsdk/scripts/01400 GamePlay/01100 Input/00701 NumberInput.rb
 pokemonsdk/scripts/01400 GamePlay/01100 Input/01100 InputNumber_message.rb
@@ -359,6 +364,32 @@ pokemonsdk/scripts/01400 GamePlay/02000 Hall_Of_Fame/00006 Inputs.rb
 pokemonsdk/scripts/01400 GamePlay/09000 Games/00001 Casino__VoltorbFlip.rb
 pokemonsdk/scripts/01400 GamePlay/09000 Games/00002 Ruine_Alpha_by_FL0RENT_.rb
 pokemonsdk/scripts/01400 GamePlay/09000 Games/00003 Casino__SlotMachine.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00001 PFM_Storage/00001 Main.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00001 PFM_Storage/00002 Box.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00001 PFM_Storage/00003 BattleBox.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00001 ModeSprite.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00002 SelectionModeSprite.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00003 WinMode.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00004 BoxBackground.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00005 BoxNameBackground.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00006 RapidSearch.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00007 DetailedSearch.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00008 Cursor.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00010 ModeHandler.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00011 CursorHandler.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00012 SelectionHandler.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00100 Composition.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00200 BoxStack.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00201 PokemonIcon.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00202 PartyStack.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00002 UI_Storage/00203 Summary.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00003 GamePlay_Storage/00001 Main.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00003 GamePlay_Storage/00002 Logic.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00003 GamePlay_Storage/00003 Inputs.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00003 GamePlay_Storage/00004 Mouse.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00003 GamePlay_Storage/00005 Choice.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00003 GamePlay_Storage/00006 Actions.rb
+pokemonsdk/scripts/01450 Systems/00010 Storage/00003 GamePlay_Storage/00100 Trade.rb
 pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01500 GamePlay__Battle_xxx/00100 GamePlay__BattleAbilityDisplayer.rb
 pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01500 GamePlay__Battle_xxx/00200 GamePlay__BattleBalls.rb
 pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01500 GamePlay__Battle_xxx/00300 GamePlay__BattleBar.rb
@@ -397,8 +428,27 @@ pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/
 pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/00800 BattleEngine___Calculator.rb
 pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/00900 BattleEngine___Messages.rb
 pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill.rb
-pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01100 BattleEngine___Skill_2_(add).rb
-pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01200 BattleEngine___Skill_3_(effect).rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Ability.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Absorb.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Adaptive_Power.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Copy.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Counter.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Environment.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Heal.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Items.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Lock.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Money.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Multi_Hit.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Multi_Turns.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_OHKO.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Priority.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Protect.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Recoil.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Sound.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Statistics.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Status.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Switches.rb
+pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01000 BattleEngine___Skill_Types.rb
 pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01300 BattleEngine___Skill_Util.rb
 pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01400 BattleEngine___Skill_Util_2.rb
 pokemonsdk/scripts/01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01600 BE_Interpreter.rb

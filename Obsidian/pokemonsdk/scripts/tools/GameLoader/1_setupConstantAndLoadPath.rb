@@ -1,5 +1,9 @@
 # Constant telling PSDK runs under windows
 PSDK_RUNNING_UNDER_WINDOWS = !ENV['windir'].nil?
+
+# Constant telling PSDK runs under mac
+PSDK_RUNNING_UNDER_MAC = RUBY_PLATFORM.include? "darwin"
+
 # Constant telling where is the PSDK master installation
 PSDK_PATH = (Dir.exist?('pokemonsdk') && 'pokemonsdk') ||
             ((ENV['APPDATA'] || ENV['HOME']).dup.force_encoding('UTF-8') + '/.pokemonsdk')

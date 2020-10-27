@@ -10,6 +10,8 @@ module LiteRGSS
     VIEWPORT_CONF_COMP = 'Data/Viewport.rxdata'
     # Filename for viewport uncompiled config
     VIEWPORT_CONF_TEXT = 'Data/Viewport.json'
+    # Test telling if PSDK runs under LiteRGSS2
+    RUNNING_UNDER_LITERGSS2 = !public_method_defined?(:color=)
     # Tell if the viewport needs to sort
     # @return [Boolean]
     attr_accessor :need_to_sort
@@ -72,17 +74,18 @@ module LiteRGSS
       end
     end
 
-    # Sort the z sprites inside the viewport
-    def sort_z
-      return unless @need_to_sort || @__last_size != @__elementtable.size
+    unless RUNNING_UNDER_LITERGSS2
+      # Sort the z sprites inside the viewport
+      def sort_z
+        return unless @need_to_sort || @__last_size != @__elementtable.size
 
-      @__elementtable.sort_by!(&:z2)
-      reload_stack
-      @__last_size = @__elementtable.size
-      @need_to_sort = false
+        @__elementtable.sort_by!(&:z2)
+        reload_stack
+        @__last_size = @__elementtable.size
+        @need_to_sort = false
+      end
     end
 
-    # To_S
     def to_s
       return format('#<Vewport:%08x : %00d>', __id__, __index__)
     end
@@ -91,100 +94,209 @@ module LiteRGSS
     # Flash the viewport
     # @param color [LiteRGSS::Color] the color used for the flash processing
     def flash(color, duration)
+      self.shader ||= Shader.create(:color_shader_with_background)
       color ||= Color.new(0, 0, 0)
-      @viewport_color = self.color.clone
       @flash_color = color
+      @flash_color_running = color.dup
       @flash_counter = 0
       @flash_duration = duration.to_f
-      ## @flash_mid = duration / 2
     end
 
     # Update the viewport
     def update
       if @flash_color
-        # alpha = (@flash_counter < @flash_mid ? @flash_counter : @flash_duration - @flash_counter)
-        # alpha /= @flash_mid.to_f
         alpha = 1 - @flash_counter / @flash_duration
-        # alpha2 = (1 - alpha)
-        self.color = @flash_color
-        color.alpha = @flash_color.alpha * alpha
-=begin
-      self.color.set(
-        @viewport_color.red * alpha2 + @flash_color.red * alpha,
-        @viewport_color.green * alpha2 + @flash_color.green * alpha,
-        @viewport_color.blue * alpha2 + @flash_color.blue * alpha,
-        @viewport_color.alpha * alpha2 + @flash_color.alpha * alpha
-      )
-=end
+        @flash_color_running.alpha = @flash_color.alpha * alpha
+        self.shader.set_float_uniform('color', @flash_color_running)
         @flash_counter += 1
         if @flash_counter >= @flash_duration
-          self.color = @viewport_color
-          @viewport_color = @flash_color = nil
+          self.shader.set_float_uniform('color', [0, 0, 0, 0])
+          @flash_color_running = @flash_color = nil
         end
+      end
+    end
+
+    undef color
+    undef color=
+    undef tone
+    undef tone=
+
+    module WithToneAndColors
+      class Tone < LiteRGSS::Tone
+        def initialize(viewport, r, g, b, g2)
+          @viewport = viewport
+          super(r, g, b, g2)
+          update_viewport
+        end
+
+        def set(*args)
+          r = red
+          g = green
+          b = blue
+          g2 = gray
+          super
+          update_viewport if r != red || g != green || b != blue || g2 != gray
+        end
+
+        def green=(v)
+          return if v == green
+
+          super
+          update_viewport
+        end
+
+        def blue=(v)
+          return if v == blue
+
+          super
+          update_viewport
+        end
+
+        def gray=(v)
+          return if v == gray
+
+          super
+          update_viewport
+        end
+
+        private
+
+        def update_viewport
+          @viewport.shader&.set_float_uniform('tone', self)
+        end
+      end
+
+      class Color < LiteRGSS::Color
+        def initialize(viewport, r, g, b, a)
+          @viewport = viewport
+          super(r, g, b, a)
+          update_viewport
+        end
+
+        def set(*args)
+          r = red
+          g = green
+          b = blue
+          a = alpha
+          super
+          update_viewport if r != red || g != green || b != blue || a != alpha
+        end
+
+        def green=(v)
+          return if v == green
+
+          super
+          update_viewport
+        end
+
+        def blue=(v)
+          return if v == blue
+
+          super
+          update_viewport
+        end
+
+        def alpha=(v)
+          return if v == alpha
+
+          super
+          update_viewport
+        end
+
+        private
+
+        def update_viewport
+          @viewport.shader&.set_float_uniform('color', self)
+        end
+      end
+      # Set color of the viewport
+      # @param value [Color]
+      def color=(value)
+        color.set(value.red, value.green, value.blue, value.alpha)
+      end
+
+      # Color of the viewport
+      # @return [Color]
+      def color
+        @color ||= Color.new(self, 0, 0, 0, 0)
+      end
+
+      # Set the tone
+      # @param value [Tone]
+      def tone=(value)
+        tone.set(value.red, value.green, value.blue, value.gray)
+      end
+
+      # Tone of the viewport
+      # @return [Tone]
+      def tone
+        @tone ||= Tone.new(self, 0, 0, 0, 0)
       end
     end
   end
 
-  class Drawable
-    def z2
-      @z2 ||= z * 10_000 + __index__
+  unless Viewport::RUNNING_UNDER_LITERGSS2
+    class Drawable
+      def z2
+        @z2 ||= z * 10_000 + __index__
+      end
     end
-  end
 
-  class Sprite
-    alias old_z_set z=
-    def z=(v)
-      return if z == v
+    class Sprite
+      alias old_z_set z=
+      def z=(v)
+        return if z == v
 
-      viewport&.need_to_sort = true
-      old_z_set(v)
-      @z2 = v * 10_000 + __index__
+        viewport&.need_to_sort = true
+        old_z_set(v)
+        @z2 = v * 10_000 + __index__
+      end
     end
-  end
 
-  class Shape
-    alias old_z_set z=
-    def z=(v)
-      return if z == v
+    class Shape
+      alias old_z_set z=
+      def z=(v)
+        return if z == v
 
-      viewport&.need_to_sort = true
-      old_z_set(v)
-      @z2 = v * 10_000 + __index__
+        viewport&.need_to_sort = true
+        old_z_set(v)
+        @z2 = v * 10_000 + __index__
+      end
     end
-  end
 
-  class Text
-    alias old_z_set z=
-    def z=(v)
-      return if z == v
+    class Text
+      alias old_z_set z=
+      def z=(v)
+        return if z == v
 
-      viewport&.need_to_sort = true
-      old_z_set(v)
-      @z2 = v * 10_000 + __index__
+        viewport&.need_to_sort = true
+        old_z_set(v)
+        @z2 = v * 10_000 + __index__
+      end
     end
-  end
 
-  class SpriteMap
-    alias old_z_set z=
-    def z=(v)
-      return if z == v
+    class SpriteMap
+      alias old_z_set z=
+      def z=(v)
+        return if z == v
 
-      viewport&.need_to_sort = true
-      old_z_set(v)
-      @z2 = v * 10_000 + __index__
+        viewport&.need_to_sort = true
+        old_z_set(v)
+        @z2 = v * 10_000 + __index__
+      end
     end
-  end
 
-  class Window
-    # Dummy attribute to prevent crash when sprites request sorting
-    attr_accessor :need_to_sort
-    alias old_z_set z=
-    def z=(v)
-      return if z == v
+    class Window
+      # Dummy attribute to prevent crash when sprites request sorting
+      attr_accessor :need_to_sort
+      alias old_z_set z=
+      def z=(v)
+        return if z == v
 
-      viewport&.need_to_sort = true
-      old_z_set(v)
-      @z2 = v * 10_000 + __index__
+        viewport&.need_to_sort = true
+        old_z_set(v)
+        @z2 = v * 10_000 + __index__
+      end
     end
   end
 end

@@ -5,7 +5,7 @@ module Battle
     # Perform the attack action
     # @param action [Hash] action data
     def perform_action_attack(action)
-      action[:skill].proceed(action[:launcher], action[:target_bank], action[:target_position], @battle_scene)
+      action[:skill].proceed(action[:launcher], action[:target_bank], action[:target_position])
     end
 
     # Perform the mega action (Mega-evolving)

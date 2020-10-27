@@ -36,6 +36,8 @@ module GamePlay
       return action_X if Input.trigger?(:X)
       return action_Y if Input.trigger?(:Y)
       return action_B if Input.trigger?(:B)
+      return false if @page_id
+
       if @state == 0 # Liste
         max_index = @selected_pokemons.size - 1
         if index_changed(:@index, :UP, :DOWN, max_index)
@@ -93,9 +95,9 @@ module GamePlay
 
     # Action triggered when X is pressed
     def action_X
+      return $game_system.se_play($data_system.buzzer_se) if @page_id
       @pokemon_worldmap.on_toggle_zoom if @state == 2
       return if @state > 1
-      return $game_system.se_play($data_system.buzzer_se) if @page_id
       return $game_system.se_play($data_system.buzzer_se) # Non programme
     end
 

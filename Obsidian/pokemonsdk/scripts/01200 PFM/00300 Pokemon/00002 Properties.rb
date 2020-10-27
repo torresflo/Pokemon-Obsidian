@@ -398,7 +398,7 @@ module PFM
     # Return the db_symbol of the Pokemon's item held
     # @return [Symbol]
     def item_db_symbol
-      return GameData::Item.db_symbol($game_temp.in_battle ? @battle_item : @item_holding)
+      return GameData::Item.db_symbol($game_temp.in_battle ? (@battle_item || @item_holding) : @item_holding)
     end
 
     # Alias for item_holding

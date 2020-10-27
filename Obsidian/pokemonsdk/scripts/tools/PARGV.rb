@@ -171,6 +171,7 @@ PARGV.define_arg(:scale, flag: false, default: nil) { |value| value.to_f.between
 PARGV.define_arg(:smooth)
 PARGV.define_arg(:"no-vsync", flag: true, default: nil)
 PARGV.define_arg(:fullscreen)
+PARGV.define_arg(:"ignore-gpu-issue", flag: true, default: nil)
 PARGV.define_arg(:help, aliases: [:h]) do
   print "\e[46m\e[30m"
   puts 'PSDK Help'.center(80, '=')

@@ -38,7 +38,7 @@ module GamePlay
       # Unload title related pictures
       RPG::Cache.load_title(true)
       RPG::Cache.load_interface(true)
-      ::Scheduler.start(:on_scene_switch, ::Scene_Title) unless @running
+      ::Scheduler.start(:on_scene_switch, ::Scene_Title) if !@running && $scene.is_a?(Scene_Map)
     end
 
     def update

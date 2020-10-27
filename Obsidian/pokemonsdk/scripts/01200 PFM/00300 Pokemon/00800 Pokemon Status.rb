@@ -28,7 +28,7 @@ module PFM
     # @param forcing [Boolean] force the new status
     # @return [Boolean] if the pokemon has been empoisoned
     def status_poison(forcing=false)
-      if((@status==0 or forcing) and !dead?)
+      if((@status==0 || forcing) && !dead?)
         @status = GameData::States::POISONED
         return true
       end
@@ -37,7 +37,7 @@ module PFM
     # Can the Pokemon be poisoned ?
     # @return [Boolean]
     def can_be_poisoned?
-      return false if type_poison? or type_steel?
+      return false if type_poison? || type_steel?
       return false if @status != 0
       return true
     end
@@ -55,7 +55,7 @@ module PFM
     # @param forcing [Boolean] force the new status
     # @return [Boolean] if the pokemon has been paralyzed
     def status_paralyze(forcing=false)
-      if((@status==0 or forcing) and !dead?)
+      if((@status==0 || forcing) && !dead?)
         @status = GameData::States::PARALYZED
         return true
       end
@@ -65,7 +65,7 @@ module PFM
     # @return [Boolean]
     def can_be_paralyzed?
       return false if @status != 0
-      return false if !::GameData::Flag_4G and type_electric?
+      return false if !::GameData::Flag_4G && type_electric?
       return true
     end
     # Paralyze check rate that prevent the Pokemon from using a move
@@ -96,7 +96,7 @@ module PFM
     # Can the Pokemon be burnt?
     # @return [Boolean]
     def can_be_burn?
-      return false if @status != 0 or type_fire?
+      return false if @status != 0 || type_fire?
       return true
     end
     # Return the burn effect on HP of the Pokemon
@@ -114,7 +114,7 @@ module PFM
     # @param nb_turn [Integer, nil] number of turn the Pokemon will sleep
     # @return [Boolean] if the pokemon has been put to sleep
     def status_sleep(forcing=false, nb_turn = nil)
-      if((@status==0 or forcing) and !dead?)
+      if((@status==0 || forcing) && !dead?)
         @status = GameData::States::ASLEEP
         @status_count = nb_turn ? nb_turn : rand(4) + 2
         #Vérifier la capacité qui réduit le nombre de tours du someil
@@ -147,7 +147,7 @@ module PFM
     # @param forcing [Boolean] force the new status
     # @return [Boolean] if the pokemon has been frozen
     def status_frozen(forcing=false)
-      if((@status==0 or forcing) and !dead?)
+      if((@status==0 or forcing) && !dead?)
         @status = GameData::States::FROZEN
         return true
       end
@@ -156,7 +156,7 @@ module PFM
     # Can the Pokemon be frozen?
     # @return [Boolean]
     def can_be_frozen?(skill_type = 0)
-      return false if @status != 0 or (skill_type == 6 and type_ice?)
+      return false if @status != 0 or (skill_type == 6 && type_ice?)
       return true
     end
     # Rate the Pokemon can be unfreeze
@@ -181,7 +181,7 @@ module PFM
     # @param forcing [Boolean] force the new status
     # @return [Boolean] if the pokemon has been confused
     def status_confuse(forcing=false)
-      if((!@confuse or forcing) and !dead?)
+      if((!@confuse || forcing) && !dead?)
         @confuse=true
         @state_count=rand(4)+2
         return true
@@ -212,7 +212,7 @@ module PFM
     # @param forcing [Boolean] force the new status
     # @return [Boolean] if the pokemon has been intoxicated
     def status_toxic(forcing=true)
-      if((@status==0 or forcing) and !dead?)
+      if((@status==0 || forcing) && !dead?)
         @status = GameData::States::TOXIC
         @status_count=0
         return true

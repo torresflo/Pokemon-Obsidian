@@ -91,5 +91,21 @@ module GameData
     BridgeRL = gen 4, 2
     # Define tiles that change the z property of a Game_Character.
     ZTag = [gen(0, 5), gen(1, 5), gen(2, 5), gen(3, 5), gen(4, 5), gen(5, 5), gen(6, 5)]
+    # Defines a tile that force the character to move left until he hits a wall.
+    RocketL = gen 0, 6
+    # Defines a tile that force the character to move down until he hits a wall.
+    RocketD = gen 1, 6
+    # Defines a tile that force the character to move up until he hits a wall.
+    RocketU = gen 2, 6
+    # Defines a tile that force the character to move Right until he hits a wall.
+    RocketR = gen 3, 6
+    # Defines a tile that force the character to move left until he hits a wall. (With Rotation)
+    RocketRL = gen 4, 6
+    # Defines a tile that force the character to move down until he hits a wall. (With Rotation)
+    RocketRD = gen 5, 6
+    # Defines a tile that force the character to move up until he hits a wall. (With Rotation)
+    RocketRU = gen 6, 6
+    # Defines a tile that force the character to move Right until he hits a wall. (With Rotation)
+    RocketRR = gen 7, 6
   end
 end

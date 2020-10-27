@@ -1,5 +1,6 @@
 module PFM
   class Pokemon
+    include Hooks
     # Tell if PSDK test evolve on form 0 or the current form
     EVOLVE_ON_FORM0 = PSDK_CONFIG.always_use_form0_for_evolution
     # List of key in evolution Hash that corresponds to the expected ID when evolution is valid
@@ -9,15 +10,26 @@ module PFM
     # List of evolution criteria
     # @return [Hash{ Symbol => Proc }]
     @evolution_criteria = {}
+    # List of evolution criteria required for specific reason
+    # @return [Hash{ Symbol => Array<Symbol> }]
+    @evolution_reason_required_criteria = {}
     class << self
       # List of evolution criteria
       # @return [Hash{ Symbol => Proc }]
       attr_reader :evolution_criteria
+      # List of evolution criteria required for specific reason
+      # @return [Hash{ Symbol => Array<Symbol> }]
+      attr_reader :evolution_reason_required_criteria
+
       # Add a new evolution criteria
       # @param key [Symbol] hash key expected in special evolution
+      # @param reasons [Array<Symbol>] evolution reasons that require this criteria in order to allow evolution
       # @param block [Proc] executed proc for special evolution test, will receive : value, extend_data, reason
-      def add_evolution_criteria(key, &block)
+      def add_evolution_criteria(key, reasons = nil, &block)
         @evolution_criteria[key] = block
+        reasons&.each do |reason|
+          (@evolution_reason_required_criteria[reason] ||= []) << key
+        end
       end
     end
 
@@ -155,9 +167,11 @@ module PFM
         return false unless data.special_evolution
       end
 
+      required_criterias = Pokemon.evolution_reason_required_criteria[reason] || []
       criteria = Pokemon.evolution_criteria
       expected_evolution = data.special_evolution.find do |evolution|
         next unless evolution.is_a?(Hash)
+        next unless (required_criterias - evolution.keys).empty?
 
         next evolution.all? { |key, value| criteria[key] && instance_exec(value, extend_data, reason, &criteria[key]) }
       end
@@ -168,13 +182,13 @@ module PFM
       return id, expected_evolution[:form]
     end
     # Exchanged with another pokemon
-    add_evolution_criteria(:trade_with) { |value, extend_data| extend_data == value }
+    add_evolution_criteria(:trade_with, [:trade]) { |value, extend_data| extend_data == value }
     # Minimum level
     add_evolution_criteria(:min_level) { |value| @level >= value.to_i }
     # Maximum level
     add_evolution_criteria(:max_level) { |value| @level <= value.to_i }
     # Holding an item
-    add_evolution_criteria(:itel_hold) { |value| value == @item_holding || value == item_db_symbol }
+    add_evolution_criteria(:item_hold) { |value| value == @item_holding || value == item_db_symbol }
     # Minimum loyalty
     add_evolution_criteria(:min_loyalty) { |value| @loyalty >= value.to_i }
     # Maximum loyalty
@@ -194,21 +208,60 @@ module PFM
     # Having a specific gender
     add_evolution_criteria(:gender) { |value| @gender == value }
     # Evolving from stone
-    add_evolution_criteria(:stone) { |value, extend_data, reason| reason == :stone && value == extend_data }
+    add_evolution_criteria(:stone, [:stone]) { |value, extend_data, reason| reason == :stone && value == extend_data }
     # Evolving on a specific day/night cycle
     add_evolution_criteria(:day_night) { |value| value == $game_variables[Yuki::Var::TJN_Tone] }
     # On a function call
     add_evolution_criteria(:func) { |value| send(value) }
     # Being on a specific map
-    add_evolution_criteria(:maps) { |value| maps.include?($game_map.map_id) }
+    add_evolution_criteria(:maps) { |value| value.include?($game_map.map_id) }
     # Being traded
-    add_evolution_criteria(:trade) { |_value, _extend_data, reason| reason == :trade }
+    add_evolution_criteria(:trade, [:trade]) { |_value, _extend_data, reason| reason == :trade }
     # ID field auto validation
     add_evolution_criteria(:id) { true }
     # FORM field auto validation
     add_evolution_criteria(:form) { true }
     # On a specific switch
     add_evolution_criteria(:switch) { |value| $game_switches[value] }
+
+    # Method that actually make a Pokemon evolve
+    # @param id [Integer] ID of the Pokemon that evolve
+    # @param form [Integer, nil] form of the Pokemon that evolve
+    def evolve(id, form)
+      self.id = id
+      if form
+        self.form = form
+      else
+        form_calibrate(:evolve)
+      end
+      return unless $actors.include?(self) # Don't do te rest if the pokemon isn't in the current party
+
+      evolution_items = (data.special_evolution || []).map { |hash| hash[:item_hold] || 0 }
+      self.item_holding = 0 if evolution_items.include?(item_holding) || evolution_items.include?(item_db_symbol)
+      # Normal skill learn
+      check_skill_and_learn
+      # Evovolution skill learn
+      check_skill_and_learn(false, 0)
+      # Pokedex register (self is used to be sure we get the right information)
+      $pokedex.mark_seen(self.id, self.form, forced: true)
+      $pokedex.mark_captured(self.id)
+      $pokedex.pokemon_captured_inc(self.id)
+      exec_hooks(PFM::Pokemon, :evolution, binding)
+    end
+
+    # Add Shedinja evolution
+    Hooks.register(PFM::Pokemon, :evolution, 'Shedinja Evolution') do
+      next unless id == 291 && $actors.size < 6 && $bag.contain_item?(4)
+
+      # @type [PFM::Pokemon]
+      munja = dup
+      munja.id = 292
+      munja.hp = munja.max_hp
+      $actors << munja
+      $bag.remove_item(4, 1)
+      $pokedex.mark_seen(292, forced: true)
+      $pokedex.mark_captured(292)
+    end
 
     # Change the id of the Pokemon
     # @param new_id [Integer] the new id of the Pokemon

@@ -1,6 +1,8 @@
 module GamePlay
   # Scene showing the Egg of a Pokemon hatching
   class Hatch < Base
+    # Constant telling if you have gifs or not during the scene
+    ENABLE_GIF = true
     # Move duration
     EGG_MOVE_DURATION = 180
     # Move period
@@ -48,6 +50,7 @@ module GamePlay
 
     # Update the hatching process
     def update
+      @pokemon_gif&.update(@pokemon_sprite.bitmap)
       # Prevent animation from continuing when message is showing
       return unless super
       update_message
@@ -156,18 +159,17 @@ module GamePlay
 
     # Create the background
     def create_background
-      id_bg = $env.get_zone_type(true)
-      if id_bg == 0
-        id_bg = 1 if $env.grass?
-      else
-        id_bg += 1
-      end
-      @background = Sprite.new(@viewport).set_bitmap(Evolve::BACK_NAMES[id_bg], :battleback)
+      background_filename = Battle::Visual.allocate.send(:background_name)
+      @background = Sprite.new(@viewport).set_bitmap(background_filename, :battleback)
     end
 
     # Create the Pokemon sprite
     def create_pokemon_sprite
-      @pokemon_sprite = Sprite::WithColor.new(@viewport).set_bitmap(@pokemon.battler_face)
+      if ENABLE_GIF && (@pokemon_gif = @pokemon.gif_face)
+        add_disposable bitmap = Bitmap.new(@pokemon_gif.width, @pokemon_gif.height)
+        @pokemon_gif&.update(bitmap)
+      end
+      @pokemon_sprite = Sprite::WithColor.new(@viewport).set_bitmap(bitmap || @pokemon.battler_face)
       @pokemon_sprite.set_position(@viewport.rect.width / 2, @viewport.rect.height / 2)
       @pokemon_sprite.set_origin_div(2, 1)
       @pokemon_sprite.set_color(@pokemon_color = Color.new(255, 255, 255, MAX_POKEMON_ALPHA))
@@ -193,6 +195,8 @@ module GamePlay
     # Create the scene viewport
     def create_viewport
       @viewport = Viewport.create(:main, @message_window.z - 1)
+      @viewport.extend(Viewport::WithToneAndColors)
+      @viewport.shader = Shader.create(:map_shader)
     end
   end
 end

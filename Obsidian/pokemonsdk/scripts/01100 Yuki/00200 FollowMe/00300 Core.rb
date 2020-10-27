@@ -66,7 +66,7 @@ module Yuki
     # Get the human follower entities
     # @return [Array<#character_name>]
     def human_entities
-      human = (0...human_count).map { |i| $game_actors[i] }
+      human = (0...human_count).map { |i| $game_actors[i + 2] }
       human.compact!
       return human
     end
@@ -117,7 +117,7 @@ module Yuki
         character.character_name = entity.character_name
         character.is_pokemon = character.step_anime = entity.class == PFM::Pokemon
       end
-      character.move_speed = $game_player.move_speed
+      character.move_speed = $game_player.original_move_speed
       character.through = true
       character.update
       follower.update
@@ -275,9 +275,9 @@ module Yuki
     end
   end
 end
-Hooks.register(Spriteset_Map, :init_psdk_add) { Yuki::FollowMe.init(@viewport1) }
-Hooks.register(Spriteset_Map, :init_player_begin) do
+Hooks.register(Spriteset_Map, :init_psdk_add, 'Yuki::FollowMe') { Yuki::FollowMe.init(@viewport1) }
+Hooks.register(Spriteset_Map, :init_player_begin, 'Yuki::FollowMe') do
   Yuki::FollowMe.update
   Yuki::FollowMe.particle_push
 end
-Hooks.register(Spriteset_Map, :update) { Yuki::FollowMe.update }
+Hooks.register(Spriteset_Map, :update, 'Yuki::FollowMe') { Yuki::FollowMe.update }

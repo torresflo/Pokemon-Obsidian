@@ -1,15 +1,19 @@
 # Class that describe a Character Sprite on the Map
 class Sprite_Character < RPG::Sprite
-  # Zoom conversion array
-  ZoomDiv = [1, 2, 1, 2 / 3.0, 1, 1]
-  # Zoom of a tile
+  # Zoom of a tile and factor used to fix coordinate
   TILE_ZOOM = PSDK_CONFIG.tilemap.character_tile_zoom
+  # Zoom of a Sprite
+  SPRITE_ZOOM = PSDK_CONFIG.tilemap.character_sprite_zoom
   # Tag that disable shadow
   Shadow_Tag = '§'
   # Name of the shadow file
   Shadow_File = '0 Ombre Translucide'
   # Tag that add 1 to the superiority of the Sprite_Character
   Sup_Tag = '¤'
+  # Blend mode for Reflection
+  REFLECTION_BLEND_MODE = BlendMode.new
+  REFLECTION_BLEND_MODE.alpha_dest_factor = BlendMode::One
+  REFLECTION_BLEND_MODE.alpha_src_factor = BlendMode::Zero
   # Character displayed by the Sprite_Character
   # @return [Game_Character]
   attr_accessor :character
@@ -32,10 +36,12 @@ class Sprite_Character < RPG::Sprite
   def init(character)
     @character = character
     dispose_shadow
+    dispose_reflection
     @bush_depth_sprite.visible = false
     @bush_depth = 0
+    init_reflection
     init_add_z_shadow
-    init_zoom
+    @tile_zoom = TILE_ZOOM
     @tile_id = 0
     @character_name = nil
     @pattern = 0
@@ -43,29 +49,16 @@ class Sprite_Character < RPG::Sprite
     update
   end
 
-  # Initialize the zoom info of the Sprite_Character
-  def init_zoom
-    self.zoom = 1 # $zoom_factor
-    @zoom = PSDK_CONFIG.specific_zoom || ZoomDiv[1] # $zoom_factor.to_i]
-  end
-
   # Initialize the add_z info & the shadow sprite of the Sprite_Character
   def init_add_z_shadow
     event = character.instance_variable_get(:@event)
     return @add_z = 2 if event && event.name.index(Sup_Tag) == 0
+
     @add_z = 0
     return unless $game_switches[::Yuki::Sw::CharaShadow]
     return if character.shadow_disabled && event && event.pages.size == 1
-    init_shadow if !event || event.name.index(Shadow_Tag) != 0
-  end
 
-  # Initialize the shadow display
-  def init_shadow
-    @shadow = Sprite.new(viewport)
-    @shadow.bitmap = bmp = RPG::Cache.character(Shadow_File)
-    @shadow.src_rect.set(0, 0, bmp.width / 4, bmp.height / 4)
-    @shadow.ox = bmp.width / 8
-    @shadow.oy = bmp.height / 4
+    init_shadow if !event || event.name.index(Shadow_Tag) != 0
   end
 
   # Update every informations about the Sprite_Character
@@ -91,19 +84,21 @@ class Sprite_Character < RPG::Sprite
     @tile_id = @character.tile_id
     @character_name = @character.character_name
     self.visible = !@character_name.empty? || @tile_id > 0
-    if @tile_id >= 384
-      update_tile_graphic
-    else
-      self.bitmap = RPG::Cache.character(@character_name, 0)
-      @cw = bitmap.width / 4
-      @height = @ch = bitmap.height / 4
-      self.ox = @cw / 2
-      self.oy = @ch
-      self.zoom = 1 if zoom_x != 1
-      src_rect.set(@character.pattern * @cw, (@character.direction - 2) / 2 * @ch, @cw, @ch)
-      @pattern = @character.pattern
-      @direction = @character.direction
-    end
+    # Update graphics depending on if it's a tile or a sprite
+    @tile_id >= 384 ? update_tile_graphic : update_sprite_graphic
+    update_reflection_graphics
+  end
+
+  # Update the sprite graphics
+  def update_sprite_graphic
+    self.bitmap = RPG::Cache.character(@character_name, 0)
+    @cw = bitmap.width / 4
+    @height = @ch = bitmap.height / 4
+    set_origin(@cw / 2, @ch)
+    self.zoom = SPRITE_ZOOM
+    src_rect.set(@character.pattern * @cw, (@character.direction - 2) / 2 * @ch, @cw, @ch)
+    @pattern = @character.pattern
+    @direction = @character.direction
   end
 
   # Update the tile graphic of the sprite
@@ -123,16 +118,16 @@ class Sprite_Character < RPG::Sprite
       event_map.assign_tile_to_sprite(self, @tile_id)
       @height = 32
     end
-    self.zoom = TILE_ZOOM # _x=self.zoom_y=(16*$zoom_factor)/32.0
-    self.ox = 16
-    self.oy = 32
+    self.zoom = TILE_ZOOM
+    set_origin(16, 32)
     @ch = 32
   end
 
   # Update the position of the Sprite_Character on the screen
   # @return [Boolean] if the update can continue after the call of this function or not
   def update_position
-    set_position(@character.screen_x / @zoom, @character.screen_y / @zoom)
+    set_position((@character.screen_x * @tile_zoom).floor, (@character.screen_y * @tile_zoom).floor)
+    @reflection&.set_position(x, y + ((@character.z - 1) * 32 * @tile_zoom).floor)
     self.z = @character.screen_z(@ch) + @add_z
     return true
   end
@@ -143,11 +138,13 @@ class Sprite_Character < RPG::Sprite
     if @pattern != pattern
       src_rect.x = pattern * @cw
       @pattern = pattern
+      @reflection&.src_rect&.x = src_rect.x
     end
     direction = @character.direction
     if @direction != direction
       src_rect.y = (direction - 2) / 2 * @ch
       @direction = direction
+      @reflection&.src_rect&.y = src_rect.y
     end
   end
 
@@ -175,20 +172,12 @@ class Sprite_Character < RPG::Sprite
     rc.set(rc2.x, rc2.y + rc2.height, rc2.width, bd)
   end
 
-  # Update the shadow
-  def update_shadow
-    @shadow.opacity = opacity
-    @shadow.x = @character.shadow_screen_x
-    @shadow.y = @character.shadow_screen_y
-    @shadow.z = z - 1
-    @shadow.visible = !@character.jumping? && !@character.shadow_disabled && @character.activated?
-  end
-
   # Change the bush_depth
   # @param value [Integer]
   def bush_depth=(value)
     @bush_depth = value.to_i
     return if (@bush_depth_sprite.visible = @bush_depth > 0)
+
     src_rect.height = @height
     self.oy = @height
   end
@@ -197,13 +186,61 @@ class Sprite_Character < RPG::Sprite
   def dispose
     super
     dispose_shadow
+    dispose_reflection
     @bush_depth_sprite.dispose
+  end
+
+  # Initialize the shadow display
+  def init_shadow
+    @shadow = Sprite.new(viewport)
+    @shadow.bitmap = bmp = RPG::Cache.character(Shadow_File)
+    @shadow.src_rect.set(0, 0, bmp.width / 4, bmp.height / 4)
+    @shadow.ox = bmp.width / 8
+    @shadow.oy = bmp.height / 4
+    @shadow.zoom = SPRITE_ZOOM
+  end
+
+  # Update the shadow
+  def update_shadow
+    @shadow.opacity = opacity
+    @shadow.x = @character.shadow_screen_x * @tile_zoom
+    @shadow.y = @character.shadow_screen_y * @tile_zoom
+    @shadow.z = z - 1
+    @shadow.visible = !@character.jumping? && !@character.shadow_disabled && @character.activated?
   end
 
   # Dispose the shadow sprite
   def dispose_shadow
     @shadow&.dispose
     @shadow = nil
+  end
+
+  # Init the reflection sprite
+  def init_reflection
+    return if $game_switches[Yuki::Sw::WATER_REFLECTION_DISABLED]
+    return unless @character.reflection_enabled
+
+    @reflection = ShaderedSprite.new(viewport)
+    @reflection.z = -1000
+    @reflection.angle = 180
+    @reflection.mirror = true
+    @reflection.shader = REFLECTION_BLEND_MODE
+  end
+
+  # Update the reflection graphics
+  def update_reflection_graphics
+    return unless @reflection
+
+    @reflection.bitmap = bitmap
+    @reflection.set_origin(ox, oy)
+    @reflection.zoom = zoom_x
+    @reflection.src_rect = src_rect
+  end
+
+  # Dispose the reflection sprite
+  def dispose_reflection
+    @reflection&.dispose
+    @reflection = nil
   end
 
   # Fix the animation file

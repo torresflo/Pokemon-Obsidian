@@ -206,19 +206,18 @@ module BattleEngine
       _message_stack_push([:unefficient_msg])
     end
   end
-  #===
-  #>__s_beg_step
-  # Définition de la procédure de début d'une attaque
-  #---
-  #E : <BE_Model1>
-  #S : bool : Si l'attaque peut continuer
-  #===
-  On_Launcher_Atk = [:user, :all_pokemon, :user_or_adjacent_ally, :all_ally, :none]#[:user, :one_ally, :all_ally, :field, :field_all, :none]
+
+  On_Launcher_Atk = [:user, :all_pokemon, :user_or_adjacent_ally, :all_ally, :none] # [:user, :one_ally, :all_ally, :field, :field_all, :none]
+
+  # Definition of a move's beginning procedure
+  # @param launcher [PFM::Pokemon] user of the move
+  # @param target [PFM::Pokemon] target of the move
+  # @param skill [PFM::Skill] move that is currently used
   def __s_beg_step(launcher, target, skill, msg_push = true)
     #>Ajout de machin utilise
     _message_stack_push([:use_skill_msg, launcher, target, skill]) if msg_push
 
-    #>Vérification du cas où on attaquais l'allié mais qu'il est KO (donc on se la prend)
+    #>Vérification du cas où on attaquait l'allié mais qu'il est KO (donc on se la prend)
     if(launcher == target and !On_Launcher_Atk.include?(skill.target))
       unless(skill.id == 174 and !launcher.type_ghost?) #> Malédiction
         _mp(MSG_Fail)
@@ -253,17 +252,17 @@ module BattleEngine
   def __s_stat_us_step(launcher, target, skill, prec1 = nil, prec2 = nil)
     did_something = false
     chance1 = prec1 ? prec1 : skill.effect_chance.to_i
-    #>Chance d'affecter des stats
-    if(chance1 > 0 and _chance(chance1, launcher, target, skill))
+    #> Stats chance
+    if(chance1 > 0 && _chance(chance1, launcher, target, skill))
       did_something |= _stat_change_attempt(launcher, target, skill)
-      unless prec1 or prec2 #>Si les deux sont à nil alors on inflige le statut en même temps !
+      unless prec1 or prec2 #> Si les deux sont à nil alors on inflige le statut en même temps !
         did_something |= _status_attempt(launcher, target, skill)
         return did_something
       end
     end
     chance2 = prec2 ? prec2 : skill.effect_chance.to_i
-    #>Chance d'affeter du statut
-    if(chance2 > 0 and skill.status_effect != 0 and 
+    #> Status chance
+    if(chance2 > 0 and skill.status_effect != 0 && 
       _status_chance(chance2, launcher, target, skill))
       did_something |= _status_attempt(launcher, target, skill)
     end
@@ -357,25 +356,36 @@ module BattleEngine
   #===
   def _skill_blocked?(launcher, skill, msg = true)
     id = skill.id
+    return false if id == ID_Struggle
     be = launcher.battle_effect
     #>Entrave
-    if(be.has_disable_effect? and id == be.disable_skill_id)
+    if be.has_disable_effect? && id == be.disable_skill_id
       _mp([:msg, parse_text_with_pokemon(19, 595, launcher, MOVE[1] => skill.name)]) if msg
       return true
-    elsif(skill.status? and be.has_taunt_effect?) #> Provoc
+    elsif skill.status? && be.has_taunt_effect? #> Taunt
       _mp([:msg, parse_text_with_pokemon(19, 571, launcher, MOVE[1] => skill.name)]) if msg
       return true
-    elsif(be.has_torment_effect? and skill.id == launcher.last_skill) #> Tourmente
+    elsif be.has_torment_effect? && skill.id == launcher.last_skill #> Imprison
       _mp([:msg, parse_text_with_pokemon(19, 580, launcher)]) if msg
       return true
-    elsif(be.has_imprison_effect? and be.is_skill_imprisonned?(skill)) #> Possessif
+    elsif be.has_imprison_effect? && be.is_skill_imprisonned?(skill) #> Torment
       _mp([:msg, parse_text_with_pokemon(19, 589, launcher, MOVE[1] => skill.name)]) if msg
       return true
-    elsif (skill.pp <= 0) #> Pas de PP
+    elsif blocked_by_choice_item?(launcher, id) #> Choice items
+      _mp([:msg, parse_text_with_pokemon(19, 911, launcher, MOVE[1] => skill.name)]) if msg
+      return true
+    elsif skill.pp <= 0 #> No PP
       _mp([:msg, parse_text_with_pokemon(18, 85, launcher, MOVE[1] => skill.name)]) if msg
       return true
     end
     return false
+  end
+  #===
+  #>_blocked_by_choice_item
+  # Teste si une attaque est bloquée par un objet "choix"
+  #===
+  def blocked_by_choice_item?(pokemon, move_id)
+    return _has_items(pokemon, 220, 287, 297) && pokemon.last_skill > 0 && move_id != pokemon.last_skill
   end
   #===
   #>_random_target_selection

@@ -2,6 +2,7 @@ module GameData
   # Trainer data structure
   # @author Nuri Yuri
   class Trainer < Base
+    extend DataSource
     # The value that is multiplied to the last pokemon level to get the money the trainer gives
     # @return [Integer]
     attr_accessor :base_money
@@ -30,41 +31,27 @@ module GameData
       @special_group = 0
     end
 
+    @first_index = 0
     class << self
-      # All the trainer
-      @data = []
+      # Name of the file containing the data
+      def data_filename
+        return 'Data/PSDK/Trainers.rxdata'
+      end
+
       # Return the trainer class name
       # @param id [Integer] id of the trainer in the database
       # @return [String]
       def class_name(id)
         return text_get(29, id) if id_valid?(id)
+
         return text_get(29, 0)
-      end
-
-      # Tell if the trainer id is valid
-      # @param id [Integer] ID of the trainer in the database
-      # @return [Boolean]
-      def id_valid?(id)
-        id.between?(0, @data.size - 1)
-      end
-
-      # Retrieve all the trainer
-      # @return [Array<GameData::Trainer>]
-      def all
-        return @data
       end
 
       # Get a specific trainer
       # @param id [Integer] ID of the trainer
       # @return [GameData::Trainer]
       def get(id)
-        return @data[id] if id_valid?(id)
-        return @data.first
-      end
-
-      # Load all the trainer
-      def load
-        @data = load_data('Data/PSDK/Trainers.rxdata').freeze
+        return self[id]
       end
     end
   end

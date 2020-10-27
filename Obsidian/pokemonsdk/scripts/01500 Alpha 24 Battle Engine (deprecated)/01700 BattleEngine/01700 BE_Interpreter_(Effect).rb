@@ -53,7 +53,7 @@ module BattleEngine
       msg(parse_text_with_pokemon(19, 1210, target))
     end
     #===
-    #>Forcer une attaque penden n tours
+    #> Force skill during n turns
     #===
     def force_attack(launcher, target, skill, nb_turn)
       launcher.battle_effect.apply_forced_attack(skill.id, nb_turn, target)
@@ -331,11 +331,11 @@ module BattleEngine
     #> berry_cure : Soin par baie
     #===
     def berry_cure(target, iname)
-      return if @ignore or target.hp<=0
+      return if @ignore || target.hp<=0
       if(target.status==0)
         return
       end
-      if(target.poisoned? or target.toxic?)
+      if(target.poisoned? || target.toxic?)
         id = 923
       elsif(target.burn?)
         id = 935
@@ -354,7 +354,8 @@ module BattleEngine
     #>confuse_cure : sortir de la confusion
     #===
     def confuse_cure(target, iname)
-      return if @ignore or target.hp<=0
+      return if @ignore || target.hp<=0
+      return unless target.confused?
       target.confuse = false
       _msgp(19, 938, target, ITEM2[1] => iname)
     end
@@ -364,7 +365,7 @@ module BattleEngine
     def cancel_attack(target)
       i = nil
       @scene.actions.each do |i|
-        if i[0] == 0 and i[3] == target
+        if i[0] == 0 && i[3] == target
           i[0] = -1
         end
       end
@@ -375,7 +376,7 @@ module BattleEngine
     def after_you(target)
       i = nil
       actions = @scene.actions
-      action = actions.find { |i| (i[0] == 0 and i[3] == target) }
+      action = actions.find { |i| (i[0] == 0 && i[3] == target) }
       if(action)
         actions.delete(action)
         actions.insert(@scene.phase4_step + 1, action)
@@ -387,7 +388,7 @@ module BattleEngine
     def quash(target)
       i = nil
       actions = @scene.actions
-      action = actions.find { |i| (i[0] == 0 and i[3] == target) }
+      action = actions.find { |i| (i[0] == 0 && i[3] == target) }
       if(action)
         actions.delete(action)
         actions.push(action)

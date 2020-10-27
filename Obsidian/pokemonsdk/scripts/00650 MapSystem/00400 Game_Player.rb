@@ -41,6 +41,7 @@ class Game_Player < Game_Character
     super
     center(x, y)
     make_encounter_count
+    @reflection_enabled = true if @reflection_enabled.nil?
   end
 
   # Manage the system_tag part of the moveto method

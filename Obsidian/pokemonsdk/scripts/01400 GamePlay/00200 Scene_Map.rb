@@ -98,25 +98,29 @@ class Scene_Map < GamePlay::Base
   # @note You have to dispose the bitmap you got from this function
   # @return [Bitmap]
   def snap_to_bitmap
-    back_bitmap = @viewport.snap_to_bitmap
-    if (vp = NuriYuri::DynamicLight.viewport)&.visible
+    temp_view = Viewport.create(:main)
+    # Snapshot of spriteset
+    bitmaps = @spriteset.snap_to_bitmaps
+    backs = bitmaps.map { |bmp| Sprite.new(temp_view).set_bitmap(bmp) }
+    # Snapshot of Dynamic Light
+    if (vp = NuriYuri::DynamicLight.viewport) && !vp.disposed? && vp.visible
       shader = vp.shader
       vp.shader = nil
       top_bitmap = vp.snap_to_bitmap
       vp.shader = shader
-      vp = Viewport.create(:main)
-      back = Sprite.new(vp).set_bitmap(back_bitmap)
-      top = ShaderedSprite.new(vp).set_bitmap(top_bitmap)
+      top = ShaderedSprite.new(temp_view).set_bitmap(top_bitmap)
       top.shader = shader
-      exec_hooks(Scene_Map, :snap_to_bitmap, binding)
-      result = vp.snap_to_bitmap
-      exec_hooks(Scene_Map, :snaped_to_bitmap, binding)
-      vp.dispose
-      back_bitmap.dispose
-      top_bitmap.dispose
-      return result
     end
-    return back_bitmap
+    # Start creating the snapshot of everything
+    exec_hooks(Scene_Map, :snap_to_bitmap, binding)
+    result = temp_view.snap_to_bitmap
+    exec_hooks(Scene_Map, :snaped_to_bitmap, binding)
+    # Dispose temporary snapshots
+    top_bitmap&.dispose
+    bitmaps.each(&:dispose)
+    temp_view.dispose
+    # Return actual snapshot
+    return result
   end
 
   private

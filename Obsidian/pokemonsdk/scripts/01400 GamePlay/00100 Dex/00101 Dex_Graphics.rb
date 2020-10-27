@@ -95,6 +95,8 @@ module GamePlay
     # Get the button text for the generic UI
     # @return [Array<Array<String>>]
     def button_texts
+      return [[nil, nil, nil, ext_text(9000, 9)]] * 3 if @page_id
+
       return [
         [ext_text(9000, 6), ext_text(9000, 7), ext_text(9000, 8), ext_text(9000, 9)],
         [ext_text(9000, 10), ext_text(9000, 11), ext_text(9000, 12), ext_text(9000, 13)],

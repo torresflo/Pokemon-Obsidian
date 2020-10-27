@@ -27,8 +27,6 @@ module Battle
       @global_states = {}
       @bank_states = Hash.new({})
       @battle_result = -1
-      load_rng
-      load_battlers
     end
 
     # Return the number of bank in the current battle

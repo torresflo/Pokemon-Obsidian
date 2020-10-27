@@ -2,6 +2,7 @@ module GameData
   # Pokemon Data Structure
   # @author Nuri Yuri
   class Pokemon < Base
+    extend DataSource2D
     # Height of the Pokemon in metter
     # @return [Numeric]
     attr_accessor :height
@@ -166,8 +167,10 @@ module GameData
     end
 
     class << self
-      # All the Pokemon with their form
-      @data = []
+      # Name of the file containing the data
+      def data_filename
+        return 'Data/PSDK/PokemonData.rxdata'
+      end
 
       # Safely return the list of Form of the Pokemon including the regular form (index = 0)
       # @param id [Intger, Symbol] id of the Pokemon in the database
@@ -177,40 +180,6 @@ module GameData
         return @data[id] || @data.first
       end
 
-      # Get a Pokemon and its form
-      # @param id [Integer] ID of the Pokemon
-      # @param form [Integer] Form index of the Pokemon
-      # @return [GameData::Pokemon]
-      # @note If the form doesn't exists, it gives the original form!
-      def [](id, form = 0)
-        id = get_id(id) if id.is_a?(Symbol)
-        return @data.dig(id, form) || @data.dig(id, 0) || @data.dig(0, 0)
-      end
-
-      # Safely return the db_symbol of an item
-      # @param id [Integer] id of the item in the database
-      # @return [Symbol]
-      def db_symbol(id)
-        return (@data[id][0].db_symbol || :__undef__) if id_valid?(id)
-        return :__undef__
-      end
-
-      # Get id using symbol
-      # @param symbol [Symbol]
-      # @return [Integer]
-      def get_id(symbol)
-        return 0 if symbol == :__undef__
-
-        pokemon = @data.index { |data| data[0].db_symbol == symbol }
-        return pokemon || 0
-      end
-
-      # Get all the Pokemon
-      # @return [Array<Array<GameData::Pokemon>>]
-      def all
-        return @data
-      end
-
       # Return the list of the zone id where the pokemon spawn
       # @param id [Integer] the id of pokemon
       # @return [Array<Integer>]
@@ -218,7 +187,7 @@ module GameData
         result = []
         GameData::Zone.all.each_with_index do |zone, index|
           is_here = false
-          zone.groups.each do |group|
+          zone.groups&.each do |group|
             group.each do |pkm|
               next unless pkm.is_a?(Hash)
               next unless pkm[:id] == id
@@ -230,55 +199,6 @@ module GameData
           end
         end
         return result
-      end
-
-      # Tell if the ID is valid
-      # @param id [Integer]
-      # @return [Boolean]
-      def id_valid?(id)
-        return id.between?(1, LAST_ID)
-      end
-
-      # Load the Pokemon
-      def load
-        @data = load_data('Data/PSDK/PokemonData.rxdata')
-        # set the LAST_ID of the Pokemon data
-        GameData::Pokemon.const_set(:LAST_ID, @data.size - 1)
-        @data[0] = [GameData::Pokemon.new]
-        @data.freeze
-        @data.each_with_index do |pokemon_arr, index|
-          pokemon_arr.each { |pokemon| pokemon&.id = index }
-        end
-      end
-
-      # Convert a collection to symbolized collection
-      # @param collection [Enumerable]
-      # @param keys [Boolean] if hash keys are converted
-      # @param values [Boolean] if hash values are converted
-      # @return [Enumerable] the collection
-      def convert_to_symbols(collection, keys: false, values: false)
-        if collection.is_a?(Hash)
-          new_collection = {}
-          collection.each do |key, value|
-            key = db_symbol(key) if keys && key.is_a?(Integer)
-            if value.is_a?(Enumerable)
-              value = convert_to_symbols(value, keys: keys, values: values)
-            elsif values && value.is_a?(Integer)
-              value = db_symbol(value)
-            end
-            new_collection[key] = value
-          end
-          collection = new_collection
-        else
-          collection.each_with_index do |value, index|
-            if value.is_a?(Enumerable)
-              collection[index] = convert_to_symbols(value, keys: keys, values: values)
-            elsif value.is_a?(Integer)
-              collection[index] = db_symbol(value)
-            end
-          end
-        end
-        collection
       end
     end
   end

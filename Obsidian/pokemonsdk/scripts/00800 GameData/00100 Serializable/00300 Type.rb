@@ -2,6 +2,7 @@ module GameData
   # Type data structure
   # @author Nuri Yuri
   class Type < Base
+    extend DataSource
     # Name of the unknown type
     DEFAULT_NAME = '???'
     # ID of the text that gives the type name
@@ -35,45 +36,12 @@ module GameData
       return @on_hit_tbl[offensive_type_id] || 1
     end
 
+    @first_index = 0
+
     class << self
-      # Data containing all the types
-      @data = []
-
-      # Get the type data
-      # @param id [Integer, Symbol]
-      # @return [GameData::Type]
-      def [](id)
-        id = get_id(id) if id.is_a?(Symbol)
-
-        return @data[id] || @data.first
-      end
-
-      # Get id using symbol
-      # @param symbol [Symbol]
-      # @return [Integer]
-      def get_id(symbol)
-        return 0 if symbol == :__undef__
-
-        @data.index { |data| data.db_symbol == symbol }.to_i
-      end
-
-      # Retrieve all the types
-      # @return [Array<GameData::Type>]
-      def all
-        @data
-      end
-
-      # Tell if the id is valid
-      # @param id [Intger]
-      # @return [Boolean]
-      def id_valid?(id)
-        return id.between?(0, @data.size - 1)
-      end
-
-      # Load the type
-      def load
-        @data = load_data('Data/PSDK/Types.rxdata').freeze
-        @data.each_with_index { |type, index| type&.id = index }
+      # Filename of the file containing the data
+      def data_filename
+        return 'Data/PSDK/Types.rxdata'
       end
     end
   end

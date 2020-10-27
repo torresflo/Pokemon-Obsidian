@@ -217,6 +217,8 @@ module PFM
         pokemon.captured_with = female.captured_with
       end
 
+      inherit_form(pokemon, female, male)
+
       pokemon.nature = male.nature_id if male.item_db_symbol == :everstone
       pokemon.nature = female.nature_id if female.item_db_symbol == :everstone
 
@@ -270,6 +272,18 @@ module PFM
       common_ot = male.trainer_id == female.trainer_id
       oval_charm = $bag.contain_item?(:oval_charm)
       return EGG_RATE.dig(common_in_group.any?.to_i, common_ot.to_i, oval_charm.to_i) || 0
+    end
+
+    # Make the pokemon inherit its form
+    # @param pokemon [PFM::Pokemon]
+    # @param female [PFM::Pokemon]
+    # @param male [PFM::Pokemon]
+    def inherit_form(pokemon, female, male)
+      if (handler = GameData::Daycare::SPECIFIC_FORM_HANDLER[pokemon.db_symbol])
+        pokemon.form = handler.call(female, male) || female.form
+        return
+      end
+      pokemon.form = female.form
     end
 
     # Make the Pokemon inherit the female ability

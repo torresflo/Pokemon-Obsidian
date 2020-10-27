@@ -9,7 +9,8 @@ module BattleEngine
   BattlePrio = 13 * DeltaPrio
   PursuitPrio = 14 * DeltaPrio
   SpecialPriorities = [BattlePrio + 1, BattlePrio + 1000, BattlePrio + 2000, BattlePrio + 999]
-
+  ParalysisSpeedMalus = 4 # 4 up to Gen 6; 2 from Gen 7
+  
   module_function
 
   # Return the priority of the Struggle move
@@ -52,10 +53,10 @@ module BattleEngine
     act_tailwind = @_State[:act_tailwind] > 0
     enn_tailwind = @_State[:enn_tailwind] > 0
     focus_punch_act = []
-    #>Calculs des vitesses et priorités
+    #> Priority & Speed calculation
     act.each do |i|
       #---
-      #>Prototypage des actions
+      #> Actions prototyping
       #---
       def i.priority
         return @priority
@@ -70,71 +71,73 @@ module BattleEngine
         @spd = v
       end
       #---
-      #>Définition des actions
+      #> Actions definition
       #---
-      if(i[0] == 0) #>Est une attaque
+      if i[0] == 0 #> Is a skill?
         pkmn = i[3]
-        #>Vérification de l'attaque
-        if(i[1]) #>N'est pas lutte
+        #> Skill check
+        if i[1] #> Not Struggle
           skill = pkmn.ss(i[1])
-          if(switch and skill.id == ID_Pursuit) #>Poursuite
+          if switch && skill.id == ID_Pursuit #> Pursuit
             i.priority = PursuitPrio
           else
-            i.priority = (skill.priority+pkmn.battle_effect.priority) * DeltaPrio
+            i.priority = (skill.priority + pkmn.battle_effect.priority) * DeltaPrio
           end
         else
           skill = PFM::Skill.new(ID_Struggle)
           i.priority = struggle_priority
         end
         i.spd = pkmn.spd
-        #>Vérification des objets / talents (avec prio)
-        if(_has_items(pkmn, 316, 279)) #>Encens Plein, Ralentiqueue
-          i.priority -= DeltaPrio/2
-        elsif(_has_item(pkmn, 217) && rand(100) < 20) #>Vive Griffe #>Utiliser chance 20 ou rand(100)<20 ?
-          i.priority += DeltaPrio #>Attaque avant
-          i.spd = -i.spd #>Mais ne parasite pas
-          quick_claw_triggered = true
-        elsif(_has_items(pkmn, 215, 278, 289, 290, 291, 292, 293, 294)) #>Bracelet Macho, Balle Fer, truc Pouvoir,
-          i.spd /= 2
-        elsif(pkmn.id == 132 and _has_item(pkmn, 274)) #>Poudre Vite / Métamorph
-          i.spd *= 2
-        elsif(pkmn.ability == 94) #>Frein
-          if(!pkmn.battle_effect.has_no_ability_effect?)
-            i.priority -= (DeltaPrio/4) #>Lent mais pas plus que Enscens plein et Ralentiqueue
-          end
-        elsif(pkmn.battle_item_data.include?(:attack_first))
-          i.priority = BattlePrio
-          pkmn.battle_item_data.delete(:attack_first)
-        end
-        #>Vérification des talents
-        if(!pkmn.battle_effect.has_no_ability_effect?)
-          if(pkmn.ability == 60) #> Glissade
+        #> Abilities check
+        if !pkmn.battle_effect.has_no_ability_effect?
+          if pkmn.ability == 60 #> Glissade
             i.spd *= 2 if $env.rain?
-          elsif(pkmn.ability == 20) #> Chlorophylle
+          elsif pkmn.ability == 20 #> Chlorophylle
             i.spd *= 2 if $env.sunny?
-          elsif(pkmn.ability == 145) #> Baigne Sable
+          elsif pkmn.ability == 145 #> Baigne Sable
             i.spd *= 2 if $env.sandstorm?
           end
         end
-        #>Vent arrière
-        if((pkmn.position < 0 ? enn_tailwind : act_tailwind))
+        #> Tail Wind
+        if (pkmn.position < 0 ? enn_tailwind : act_tailwind)
           i.spd *= 2
         end
-        #>Le maraicage
-        if(@_State[pkmn.position < 0 ? :enn_swamp : :act_swamp] > 0)
+        #> Items & abilities check (with priority)
+        if _has_items(pkmn, 316, 279) #>Encens Plein, Ralentiqueue
+          i.priority -= DeltaPrio/2
+        elsif _has_item(pkmn, 217) && rand(100) < 20 #> Vive Griffe #>Utiliser chance 20 ou rand(100)<20 ?
+          i.priority += DeltaPrio #> Attaque avant
+          i.spd = -i.spd #> Mais ne parasite pas
+          quick_claw_triggered = true
+        elsif _has_items(pkmn, 215, 278, 289, 290, 291, 292, 293, 294) #>Bracelet Macho, Iron Ball, truc Pouvoir,
           i.spd /= 2
+        elsif pkmn.id == 132 && _has_item(pkmn, 274) #>Poudre Vite / Métamorph
+          i.spd *= 2
+        elsif _has_item(pkmn, 287) #>Mouchoir Choix
+          i.spd *= 3/2
+        elsif pkmn.ability == 94 #>Frein
+          if !pkmn.battle_effect.has_no_ability_effect?
+            i.priority -= (DeltaPrio/4) #>Lent mais pas plus que Enscens plein et Ralentiqueue
+          end
+        elsif pkmn.battle_item_data.include?(:attack_first)
+          i.priority = BattlePrio
+          pkmn.battle_item_data.delete(:attack_first)
         end
-        i.spd /= 2 if pkmn.paralyzed?
+        #> Swamp
+        if @_State[pkmn.position < 0 ? :enn_swamp : :act_swamp] > 0
+          i.spd /= ParalysisSpeedMalus
+        end
+        i.spd /= ParalysisSpeedMalus if pkmn.paralyzed?
         i.spd *= trick_room
         #>Mitra-Poing
-        if(skill.id == 264)
+        if skill.id == 264
           i = i.clone
           i.priority = 13 * DeltaPrio
           focus_punch_act<<i
         end
       else
         #>Tout autre type d'action
-        if i[0] == 3 and i[2] == :roaming
+        if i[0] == 3 && i[2] == :roaming
           i.priority = struggle_priority
           i.spd = i[1].spd
         else
@@ -144,14 +147,14 @@ module BattleEngine
       end
     end
     act = focus_punch_act + act
-    #>Tri des actions
+    #> Actions order
     a = b = prio = nil
     act.sort! do |a,b|
       prio = b.priority <=> a.priority
       next(b.spd <=> a.spd) if(prio == 0)
       next(prio)
     end
-    #Mise à jour des positions des Pokémons
+    # Update of the Pokémon's positions
     enemies.each_index do |i|
       next unless enemies[i]
       enemies[i].position=-i-1
@@ -164,8 +167,8 @@ module BattleEngine
       actors[i].attack_order=255
       actors[i].prepared_skill=0
     end
-    #>Mise à jour des informations sur les attaques des Pokémons
-    act_ind=0
+    #>Update of the Pokémon's moves informations
+    act_ind = 0
     atk_first = nil
     atk_last = nil
     act.each do |i|
@@ -194,7 +197,7 @@ module BattleEngine
   end
   #===
   #>_attacking_first?
-  # Indique si le Pokémon attaque en premier
+  # Tell if the Pokémon's attacking first
   #===
   def _attacking_first?(pokemon)
     if @IA_flag
@@ -207,7 +210,7 @@ module BattleEngine
   end
   #===
   #>_attacking_last?
-  # Indique si le Pokémon attaque en dernier
+  # Tell if the Pokémon's attacking last
   #===
   def _attacking_last?(pokemon)
     if @IA_flag
@@ -220,7 +223,7 @@ module BattleEngine
   end
   #===
   #>_attacking_before?(launcher, target)
-  # Indique si launcher attaque avant target
+  # Tell if the launcher's attacking before target
   #===
   def _attacking_before?(launcher, target)
     if @IA_flag
@@ -228,7 +231,7 @@ module BattleEngine
     end
     lo = launcher.attack_order
     lt = target.attack_order
-    return true if(lo == 255)
+    return true if lo == 255
     return lo < lt
   end
 end

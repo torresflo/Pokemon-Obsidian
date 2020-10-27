@@ -67,42 +67,42 @@ vec4 weighted_distance(vec4 a, vec4 b, vec4 c, vec4 d, vec4 e, vec4 f, vec4 g, v
 void main() {
   float dx = 1.0 / rubyTextureSize.x;
   float dy = 1.0 / rubyTextureSize.y;
-  gl_TexCoord[1] = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx, -2.0*dy);  //  A1 B1 C1
-  gl_TexCoord[2] = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx,     -dy);  //   A  B  C
-  gl_TexCoord[3] = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx,       0);  //   D  E  F
-  gl_TexCoord[4] = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx,      dy);  //   G  H  I
-  gl_TexCoord[5] = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx,  2.0*dy);  //  G5 H5 I5
-  gl_TexCoord[6] = gl_TexCoord[0].xyyy + vec4(-2.0*dx, -dy,   0,      dy);  //  A0 D0 G0
-  gl_TexCoord[7] = gl_TexCoord[0].xyyy + vec4( 2.0*dx, -dy,   0,      dy);  //  C4 F4 I4 
+  vec4 text_coord1 = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx, -2.0*dy);  //  A1 B1 C1
+  vec4 text_coord2 = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx,     -dy);  //   A  B  C
+  vec4 text_coord3 = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx,       0);  //   D  E  F
+  vec4 text_coord4 = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx,      dy);  //   G  H  I
+  vec4 text_coord5 = gl_TexCoord[0].xxxy + vec4(    -dx,   0,  dx,  2.0*dy);  //  G5 H5 I5
+  vec4 text_coord6 = gl_TexCoord[0].xyyy + vec4(-2.0*dx, -dy,   0,      dy);  //  A0 D0 G0
+  vec4 text_coord7 = gl_TexCoord[0].xyyy + vec4( 2.0*dx, -dy,   0,      dy);  //  C4 F4 I4 
   vec2 fp = fract(gl_TexCoord[0].xy * rubyTextureSize);
 
-  vec3 A1 = texture2D(rubyTexture, gl_TexCoord[1].xw).rgb;
-  vec3 B1 = texture2D(rubyTexture, gl_TexCoord[1].yw).rgb;
-  vec3 C1 = texture2D(rubyTexture, gl_TexCoord[1].zw).rgb;
+  vec3 A1 = texture2D(rubyTexture, text_coord1.xw).rgb;
+  vec3 B1 = texture2D(rubyTexture, text_coord1.yw).rgb;
+  vec3 C1 = texture2D(rubyTexture, text_coord1.zw).rgb;
 
-  vec3 A  = texture2D(rubyTexture, gl_TexCoord[2].xw).rgb;
-  vec3 B  = texture2D(rubyTexture, gl_TexCoord[2].yw).rgb;
-  vec3 C  = texture2D(rubyTexture, gl_TexCoord[2].zw).rgb;
+  vec3 A  = texture2D(rubyTexture, text_coord2.xw).rgb;
+  vec3 B  = texture2D(rubyTexture, text_coord2.yw).rgb;
+  vec3 C  = texture2D(rubyTexture, text_coord2.zw).rgb;
 
-  vec3 D  = texture2D(rubyTexture, gl_TexCoord[3].xw).rgb;
-  vec3 E  = texture2D(rubyTexture, gl_TexCoord[3].yw).rgb;
-  vec3 F  = texture2D(rubyTexture, gl_TexCoord[3].zw).rgb;
+  vec3 D  = texture2D(rubyTexture, text_coord3.xw).rgb;
+  vec3 E  = texture2D(rubyTexture, text_coord3.yw).rgb;
+  vec3 F  = texture2D(rubyTexture, text_coord3.zw).rgb;
 
-  vec3 G  = texture2D(rubyTexture, gl_TexCoord[4].xw).rgb;
-  vec3 H  = texture2D(rubyTexture, gl_TexCoord[4].yw).rgb;
-  vec3 I  = texture2D(rubyTexture, gl_TexCoord[4].zw).rgb;
+  vec3 G  = texture2D(rubyTexture, text_coord4.xw).rgb;
+  vec3 H  = texture2D(rubyTexture, text_coord4.yw).rgb;
+  vec3 I  = texture2D(rubyTexture, text_coord4.zw).rgb;
 
-  vec3 G5 = texture2D(rubyTexture, gl_TexCoord[5].xw).rgb;
-  vec3 H5 = texture2D(rubyTexture, gl_TexCoord[5].yw).rgb;
-  vec3 I5 = texture2D(rubyTexture, gl_TexCoord[5].zw).rgb;
+  vec3 G5 = texture2D(rubyTexture, text_coord5.xw).rgb;
+  vec3 H5 = texture2D(rubyTexture, text_coord5.yw).rgb;
+  vec3 I5 = texture2D(rubyTexture, text_coord5.zw).rgb;
 
-  vec3 A0 = texture2D(rubyTexture, gl_TexCoord[6].xy).rgb;
-  vec3 D0 = texture2D(rubyTexture, gl_TexCoord[6].xz).rgb;
-  vec3 G0 = texture2D(rubyTexture, gl_TexCoord[6].xw).rgb;
+  vec3 A0 = texture2D(rubyTexture, text_coord6.xy).rgb;
+  vec3 D0 = texture2D(rubyTexture, text_coord6.xz).rgb;
+  vec3 G0 = texture2D(rubyTexture, text_coord6.xw).rgb;
 
-  vec3 C4 = texture2D(rubyTexture, gl_TexCoord[7].xy).rgb;
-  vec3 F4 = texture2D(rubyTexture, gl_TexCoord[7].xz).rgb;
-  vec3 I4 = texture2D(rubyTexture, gl_TexCoord[7].xw).rgb;
+  vec3 C4 = texture2D(rubyTexture, text_coord7.xy).rgb;
+  vec3 F4 = texture2D(rubyTexture, text_coord7.xz).rgb;
+  vec3 I4 = texture2D(rubyTexture, text_coord7.xw).rgb;
 
   vec4 b = RGBtoYUV(B, D, H, F);
   vec4 c = RGBtoYUV(C, A, G, I);

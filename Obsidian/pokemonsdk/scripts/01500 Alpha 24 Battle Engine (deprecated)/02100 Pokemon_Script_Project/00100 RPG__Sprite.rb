@@ -1,8 +1,55 @@
-#encoding: utf-8
-
-#noyard
 module RPG
-  class Sprite < ::Sprite
+  class Sprite
+    SHADER = <<~EOSHADER
+      uniform sampler2D texture;
+      uniform float hue;
+
+      // Source: https://gist.github.com/mairod/a75e7b44f68110e1576d77419d608786
+      vec3 hueShift( vec3 color, float hueAdjust ) {
+
+        const vec3  kRGBToYPrime = vec3 (0.299, 0.587, 0.114);
+        const vec3  kRGBToI      = vec3 (0.596, -0.275, -0.321);
+        const vec3  kRGBToQ      = vec3 (0.212, -0.523, 0.311);
+
+        const vec3  kYIQToR     = vec3 (1.0, 0.956, 0.621);
+        const vec3  kYIQToG     = vec3 (1.0, -0.272, -0.647);
+        const vec3  kYIQToB     = vec3 (1.0, -1.107, 1.704);
+
+        float   YPrime  = dot (color, kRGBToYPrime);
+        float   I       = dot (color, kRGBToI);
+        float   Q       = dot (color, kRGBToQ);
+        float   hue     = atan (Q, I);
+        float   chroma  = sqrt (I * I + Q * Q);
+
+        hue += hueAdjust;
+
+        Q = chroma * sin (hue);
+        I = chroma * cos (hue);
+
+        vec3    yIQ   = vec3 (YPrime, I, Q);
+
+        return vec3( dot (yIQ, kYIQToR), dot (yIQ, kYIQToG), dot (yIQ, kYIQToB) );
+      }
+
+      void main() {
+        vec4 color = texture2D(texture, gl_TexCoord[0].xy);
+        color.rgb = hueShift(color.rgb, hue);
+        gl_FragColor = color * gl_Color;
+      }
+    EOSHADER
+    TARGET_SHADER = <<~EOSHADER
+      uniform vec4 color;
+      uniform sampler2D texture;
+
+      void main() {
+        vec4 frag = texture2D(texture, gl_TexCoord[0].xy);
+        // Tone&Color process
+        frag.rgb = mix(frag.rgb, color.rgb, color.a);
+        frag.a *= gl_Color.a;
+        // Result
+        gl_FragColor = frag;
+      }
+    EOSHADER
     @@_animations = []
     @@_reference_count = {}
     def initialize(viewport = nil)
@@ -20,13 +67,24 @@ module RPG
       @_registered_y = 0
       @_registered_ox = 0
       @_registered_oy = 0
+      @flash_duration = 0
+    end
+
+    def flash(color, duration)
+      @flash_color = color
+      @flash_duration = duration
+      @flash_total_duration = duration
+    end
+
+    def color
+      return @_color ||= Color.new(0, 0, 0, 0)
     end
 
     def register_position
-      @_registered_x = self.x
-      @_registered_ox = self.ox
-      @_registered_y = self.y
-      @_registered_oy = self.oy
+      @_registered_x = x
+      @_registered_ox = ox
+      @_registered_y = y
+      @_registered_oy = oy
     end
 
     def reset_position
@@ -37,32 +95,27 @@ module RPG
     end
 
     def dispose_animation
-      if @_animation_sprites != nil
-        sprite = @_animation_sprites[0]
-        for sprite in @_animation_sprites
-          sprite.dispose
-        end
-        @_animation_sprites = nil
-        @_animation = nil
-      end
+      return unless @_animation_sprites
+
+      @_animation_sprites.each(&:dispose)
+      @_animation_sprites = nil
+      @_animation = nil
     end
 
     def dispose_loop_animation
-      if @_loop_animation_sprites != nil
-        sprite = @_loop_animation_sprites[0]
-        for sprite in @_loop_animation_sprites
-          sprite.dispose
-        end
-        @_loop_animation_sprites = nil
-        @_loop_animation = nil
-      end
+      return unless @_loop_animation_sprites
+
+      @_loop_animation_sprites.each(&:dispose)
+      @_loop_animation_sprites = nil
+      @_loop_animation = nil
     end
 
-    
     def animation(animation, hit, reverse = false)
       dispose_animation
       @_animation = animation
       return if @_animation == nil
+      self.shader ||= Shader.new(TARGET_SHADER)
+      self.shader.set_float_uniform('color', color)
       @_animation_hit = hit
       @_animation_duration = @_animation.frame_max
       animation_name = @_animation.animation_name
@@ -76,30 +129,25 @@ module RPG
       end
 =end
       @_animation_sprites = []
-      if @_animation.position != 3 or not @@_animations.include?(animation)
-        for i in 0..15
-          sprite = ::Sprite.new(self.viewport)
+      if @_animation.position != 3 || !@@_animations.include?(animation)
+        0.upto(15) do
+          sprite = LiteRGSS::ShaderedSprite.new(viewport)
           sprite.bitmap = bitmap
+          sprite.shader = LiteRGSS::Shader.new(SHADER)
+          sprite.shader.set_float_uniform('hue', Math::PI * (360 - animation_hue) / 180)
           sprite.visible = false
           @_animation_sprites.push(sprite)
         end
-        unless @@_animations.include?(animation)
-          @@_animations.push(animation)
-        end
+        @@_animations.push(animation) unless @@_animations.include?(animation)
       end
+      @_option = 0
       @_reverse = reverse
       if animation.name.include?('/')
         split_list = animation.name.split('/')
         if split_list.length == 2
-          if split_list[0].include?("R")
-            @_option = 1
-          end
-          if split_list[0].include?("N")
-            @_reverse = false
-          end
-          if split_list[0].include?("M")
-            @_option = 2
-          end
+          @_option = 1 if split_list[0].include?('R')
+          @_reverse = false if split_list[0].include?('N')
+          @_option = 2 if split_list[0].include?('M')
         end
       end
       update_animation
@@ -109,7 +157,7 @@ module RPG
       super
       if @_whiten_duration > 0
         @_whiten_duration -= 1
-        self.color.alpha = 128 - (16 - @_whiten_duration) * 10
+        color.alpha = 128 - (16 - @_whiten_duration) * 10
       end
       if @_appear_duration > 0
         @_appear_duration -= 1
@@ -123,6 +171,8 @@ module RPG
         @_collapse_duration -= 1
         self.opacity = 256 - (48 - @_collapse_duration) * 6
       end
+=begin
+      # Never reached
       if @_damage_duration > 0
         @_damage_duration -= 1
         case @_damage_duration
@@ -140,11 +190,12 @@ module RPG
           dispose_damage
         end
       end
-      if @_animation != nil and (Graphics.frame_count % 3 == 1) # % 2 == 0
+=end
+      if @_animation && (Graphics.frame_count % 3 == 1) # % 2 == 0
         @_animation_duration -= 1
         update_animation
       end
-      if @_loop_animation != nil and (Graphics.frame_count % 3 == 1) # % 2 == 0
+      if @_loop_animation && (Graphics.frame_count % 3 == 1) # % 2 == 0
         update_loop_animation
         @_loop_animation_index += 1
         @_loop_animation_index %= @_loop_animation.frame_max
@@ -156,10 +207,28 @@ module RPG
         else
           alpha = (@_blink_count - 16) * 6
         end
-        self.color.set(255, 255, 255, alpha)
+        color.set(255, 255, 255, alpha)
       end
       @@_animations.clear
-      self.viewport.update if self.viewport != nil
+      viewport&.update
+      handle_flash
+      shader.set_float_uniform('color', color)
+    end
+
+    def handle_flash
+      return if @flash_duration == 0
+
+      @flash_duration -= 1
+      if @flash_color
+        color.set(
+          @flash_color.red,
+          @flash_color.green,
+          @flash_color.blue,
+          @flash_color.alpha * @flash_duration / @flash_total_duration
+        )
+      else
+        self.visible = @flash_duration <= 0
+      end
     end
 
     def animation_set_sprites(sprites, cell_data, position)
@@ -167,110 +236,100 @@ module RPG
       sprite = sprites[15]
       pattern = cell_data[15, 0]
       jump = false
-      if sprite == nil or pattern == nil or pattern == -1
-        sprite.visible = false if sprite != nil
+      unless sprite && pattern && pattern != -1
+        sprite&.visible = false
         jump = true
       end
 
       x_compensate = 0
       y_compensate = 0
 
-      if not jump
+      unless jump
         if position == 3
-          if self.viewport != nil
-            self.x = self.viewport.rect.width / 2
-            self.y = (self.viewport.rect.height - 48) / 2 #self.viewport.rect.height - 160
+          if viewport
+            self.x = viewport.rect.width / 2
+            self.y = viewport.rect.height - 80
           else
-            self.x = Graphics.width / 2#320
-            self.y = Graphics.height / 2#240
+            self.x = Graphics.width / 2
+            self.y = Graphics.height / 2
           end
         else
           self.x = @_registered_x
           self.y = @_registered_y
         end
 
-        if @_reverse and position == 3
-          self.x = 320 - self.x #620 - self.x
-          self.y = 220 - self.y #440 - self.y #328 - self.y
-          #self.ox = self.src_rect.width / 2
-          #self.oy = self.src_rect.height / 2
+        if @_reverse && position == 3
+          self.x = 320 - x # 620 - self.x
+          self.y = 220 - y # 440 - self.y #328 - self.y
+          # self.ox = self.src_rect.width / 2
+          # self.oy = self.src_rect.height / 2
         end
 
-        if not @_reverse
-          self.x += cell_data[15, 1] / 2 #cell_data[15, 1]
-          self.y += cell_data[15, 2] / 2 #cell_data[15, 2]
-          x_compensate -= cell_data[15, 1] / 2 if position != 3#cell_data[15, 1] if position != 3
-          y_compensate -= cell_data[15, 2] / 2 if position != 3#cell_data[15, 2] if position != 3
+        if @_reverse
+          self.x -= cell_data[15, 1].to_i / 2
+          self.y -= cell_data[15, 2].to_i / 2
+          x_compensate += cell_data[15, 1].to_i / 2 if position != 3
+          y_compensate += cell_data[15, 2].to_i / 2 if position != 3
         else
-          self.x -= cell_data[15, 1] / 2 #cell_data[15, 1]
-          self.y -= cell_data[15, 2] / 2 #cell_data[15, 2]
-          x_compensate += cell_data[15, 1] / 2 if position != 3#cell_data[15, 1] if position != 3
-          y_compensate += cell_data[15, 2] / 2 if position != 3#cell_data[15, 2] if position != 3
+          self.x += cell_data[15, 1].to_i / 2
+          self.y += cell_data[15, 2].to_i / 2
+          x_compensate -= cell_data[15, 1].to_i / 2 if position != 3
+          y_compensate -= cell_data[15, 2].to_i / 2 if position != 3
         end
+        self.zoom = cell_data[15, 3].to_i / 100.0
       end
 
-      for i in 0..14
+      15.times do |i| # for i in 0..14
         sprite = sprites[i]
         pattern = cell_data[i, 0]
-        if sprite == nil or pattern == nil or pattern == -1
-          sprite.visible = false if sprite != nil
-          next
-        end
+
+        next sprite&.visible = false unless sprite && pattern && pattern != -1
 
         sprite.visible = true
         sprite.src_rect.set(pattern % 5 * 192, pattern / 5 * 192, 192, 192)
 
         if position == 3
-          if self.viewport != nil
-            sprite.x = self.viewport.rect.width / 2
-            sprite.y = (self.viewport.rect.height - 48) / 2#384 - 160#self.viewport.rect.height - 160
+          if viewport
+            sprite.x = viewport.rect.width / 2
+            sprite.y = viewport.rect.height - 80
           else
-            sprite.x = Graphics.width / 2#320
-            sprite.y = Graphics.height / 2#240
+            sprite.x = Graphics.width / 2 # 320
+            sprite.y = Graphics.height / 2 # 240
           end
         else
-          sprite.x = self.x - self.ox + self.src_rect.width / 2
-          sprite.y = self.y - self.oy / 2
-          sprite.y -= self.src_rect.height / 4 if position == 0
-          sprite.y += self.src_rect.height / 4 if position == 2
-=begin
-          sprite.y = self.y - self.oy + self.src_rect.height / 2
-          sprite.y -= self.src_rect.height / 4 if position == 0
-          sprite.y += self.src_rect.height / 4 if position == 2
-=end
+          sprite.x = x - ox + src_rect.width / 2
+          sprite.y = y - oy + src_rect.height / 2
+          sprite.y -= src_rect.height / 8 if position == 0
+          sprite.y += src_rect.height / 8 if position == 2
         end
 
-        if @_reverse and position == 3
-          sprite.x = 320 - sprite.x#620 - sprite.x
-          sprite.y = 220 - sprite.y#328 - sprite.y
+        if @_reverse && position == 3
+          sprite.x = 320 - sprite.x # 620 - sprite.x
+          sprite.y = 220 - sprite.y # 328 - sprite.y
         end
 
-        if not @_reverse
-          sprite.x += cell_data[i, 1].to_i / 2 + x_compensate # / 2 added
-          sprite.y += cell_data[i, 2].to_i / 2 + y_compensate # / 2 added
+        if @_reverse
+          sprite.x -= cell_data[i, 1].to_i / 2 - x_compensate
+          sprite.y -= cell_data[i, 2].to_i / 2 - y_compensate
         else
-          sprite.x -= cell_data[i, 1].to_i / 2 - x_compensate # / 2 added
-          sprite.y -= cell_data[i, 2].to_i / 2 - y_compensate # / 2 added
+          sprite.x += cell_data[i, 1].to_i / 2 + x_compensate
+          sprite.y += cell_data[i, 2].to_i / 2 + y_compensate
         end
+
+        # Little compensation because the screen animation seem a bit too low
+        sprite.y -= 24 if position == 3
 
         sprite.z = 2000
         sprite.ox = 96
         sprite.oy = 96
-        sprite.zoom_x = cell_data[i, 3].to_i / 100.0 / 2 # / 2 added
-        sprite.zoom_y = cell_data[i, 3].to_i / 100.0 / 2 # / 2 added
+        sprite.zoom = cell_data[i, 3].to_i / 200.0
         sprite.angle = cell_data[i, 4].to_i
-        if @_option == 1 and @_reverse
-          sprite.angle += 180
-        end
+        sprite.angle += 180 if @_option == 1 && @_reverse
         sprite.mirror = (cell_data[i, 5] == 1)
-        if @_option == 2 and @_reverse
-          sprite.mirror = (sprite.mirror == false)
-        end
-        sprite.opacity = cell_data[i, 6].to_i * self.opacity / 255.0
-        # sprite.blend_type = cell_data[i, 7]
+        sprite.mirror = (sprite.mirror == false) if @_option == 2 && @_reverse
+        sprite.opacity = cell_data[i, 6].to_i * opacity / 255.0
+        sprite.shader.blend_type = cell_data[i, 7].to_i
       end
     end
   end
-
 end
-

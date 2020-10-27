@@ -319,6 +319,8 @@ module GamePlay
           return true
         end
         return false
+      ensure
+        $game_variables[Yuki::Var::CoinCase] = @coin_case.to_i
       end
 
       # Update the keyboard inpute

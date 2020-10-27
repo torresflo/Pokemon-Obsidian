@@ -364,8 +364,8 @@ class Pokemon_Effect
 
   #>Récupération des dommages infligés par les Picots
   def get_spikes_dammages(pokemon)
-    #si Pokémon vol
-    if pokemon.type_fly? #Vérifier les autres exceptions !!!!
+    # If Flying type / Levitate / Iron Ball / Gravity
+    if (pokemon.type_fly? || BattleEngine::Abilities.has_ability_usable(pokemon, 26)) && !BattleEngine::_has_item(pokemon, 278) && !BattleEngine.state[:gravity] > 0
       return 0
     end
     case @spikes
@@ -602,6 +602,7 @@ class Pokemon_Effect
     @encore = skill
   end
 
+  # @return [PFM::Skill, nil]
   def encore_skill
     @encore
   end

@@ -25,33 +25,33 @@ module BattleEngine
       @launcher=launcher
       @target=target
       @skill=skill
-      @ignore=(launcher.hp<=0 or target.hp<=0) if launcher and target
+      @ignore=(launcher.hp<=0 || target.hp<=0) if launcher && target
       if skill and skill.symbol == :s_explosion
         @ignore = false #> Explosion
       end
       @no_secondary_effect = false #> Revoir cette variable
-      target.battle_effect.last_attacking = launcher if(skill and target and launcher != target)
+      target.battle_effect.last_attacking = launcher if (skill && target && launcher != target)
     end
     #===
-    #>Ajout d'un message dans le stack de BattleEngine
+    #> Add a message in the BattleEngine stack
     #===
     def _mp(msg)
       ::BattleEngine._mp(msg)
     end
     #===
-    #>Ajout d'un message textuel dans le stack
+    #> Add a textual message in the BattleEngine stack
     #===
     def _msgp(*args)
       ::BattleEngine._msgp(*args)
     end
     #===
-    #>Afficher un message de manière non forcée
+    #> Add a message without forcing it
     #===
     def msg(message)
       @scene.display_message(message, true) unless @no_more_msg
     end
     #===
-    #>Affichage forcé d'un message
+    #> Force display a message
     #===
     def msgf(message)
       @scene.display_message(message, true)
@@ -60,7 +60,7 @@ module BattleEngine
       @scene.gr_get_pokemon_bar(pokemon).refresh
     end
     #===
-    #>Affichage d'un échec
+    #> Display a fail
     #===
     def msg_fail(target = nil)
       unless target
@@ -71,13 +71,13 @@ module BattleEngine
       BattleEngine.state[:last_skill] = nil
     end
     #===
-    #>Signal pour ne plus afficher les message (éviter la répétition)
+    #> Don't display messages anymore
     #===
     def no_more_msg
       @no_more_msg=true
     end
     #===
-    #>Afficher le coup critique
+    #> Display critical hit
     #===
     def critical_hit
       return if @ignore
@@ -85,7 +85,7 @@ module BattleEngine
     end
     MOVE_REP = '[VAR MOVE(0000)]'
     #===
-    #>Affichage de "machin attaque truc"
+    #> Display Affichage de "machin attaque truc"
     #===
     def use_skill_msg(launcher, target, skill)
       return if @ignore or target.hp <= 0
@@ -102,7 +102,7 @@ module BattleEngine
     def efficient_msg
       return if @ignore
       msg(parse_text(18, 81))
-      if(BattleEngine._has_item(@target, 208)) #> Baie Enigma
+      if BattleEngine._has_item(@target, 208) #> Enigma berry
         hp_up(@target, 10, 914, ITEM2[1] => @target.item_name)
       end
       if BattleEngine._has_item(@target, 639) #> Vulné assurance
@@ -142,15 +142,15 @@ module BattleEngine
     end
     MULTI_HIT_MOVES = %i[s_multi_hit s_2hits]
     #===
-    #>Affichage de la perte de HP
+    #> Display hp lose
     #===
     def hp_down(target, hp, extra_info=0)
       return if @ignore or target.hp<=0
       @target = target
       
       be = target.battle_effect
-      #>Vérification de clonage
-      if(@skill and !@skill.sound_attack? and be.has_substitute_effect?)
+      #> Substitute check
+      if(@skill && !@skill.sound_attack? && be.has_substitute_effect?)
         sub_hp = be.substitute_hp
         be.substitute_hp -= hp
         hp -= sub_hp
@@ -163,25 +163,25 @@ module BattleEngine
           return
         end
       end
-      #>Vérification de ténacité / Bandeau
-      if hp >= target.hp and @skill
-        if(be.has_endure_effect? or (BattleEngine._has_item(target, 230) and rand(10)==0))
+      #> Endure & Focus Band checks
+      if hp >= target.hp && @skill
+        if be.has_endure_effect? || (BattleEngine._has_item(target, 230) && rand(10)==0)
           hp = target.hp - 1
-        elsif(BattleEngine._has_item(target, 275))
+        elsif BattleEngine._has_item(target, 275)
           if target.hp == target.max_hp && !MULTI_HIT_MOVES.include?(@skill.symbol)
             hp = target.hp - 1
             set_item(target, 0, true)
           end
         end
       end
-      #> Si le Pokémon a des capacités qui l'empêche de perdre des HP
+      #> If the Pokémon has abilities that prevent it from losing HP
       return unless Abilities.before_damage_ability(target, @skill, hp)
 
       @scene.phase4_message_remove_hp(target, hp)
-      #>Vérifier les baies et Gloutonnerie (50% hp pour déclanchement au lieu de 25%)
-      if(BattleEngine._has_item(target, target.battle_item))
+      #> Check berries & Gluttony
+      if BattleEngine._has_item(target, target.battle_item)
         item_id = target.battle_item
-        gl_rate = Abilities.has_ability_usable(target, 81) ? 2 : 1 #> Gloutonnerie
+        gl_rate = Abilities.has_ability_usable(target, 81) ? 2 : 1 #> Gluttony
         if((target.hp_rate*3) <= 2)
           if item_id == 155 #> Baie Oran
             berry_use(target)
@@ -201,65 +201,63 @@ module BattleEngine
           elsif(item_id == 210) #> Baie Chérim
             berry_use(target)
             target.battle_item_data << :attack_first
-          elsif(heal_data = ::GameData::Item[item_id].heal_data and heal_data.battle_boost)
+          elsif(heal_data = ::GameData::Item[item_id].heal_data && heal_data.battle_boost)
             berry_use(target)
             _mp([::PFM::ItemDescriptor::Boost[heal_data.battle_boost], target, 1])
           end
         elsif((target.hp_rate*8) <= 7) #> Soin de 1/8
-          if(item_id <= 163 and item_id >= 159)
+          if(item_id <= 163 && item_id >= 159)
             berry_use(target)
             hp_up(target, target.max_hp/8, 920, ITEM2[1] => target.item_name)
             #!!!Confusion !!!
           end
         end
         #> Ballon
-        if(item_id == 541 and BattleEngine.state[:gravity] <= 0)
+        if(item_id == 541 && BattleEngine.state[:gravity] <= 0)
           _msgp(19, 411, target)
           set_item(target, 0, true)
         end
         if(@skill)
-          if((@skill.physical? and item_id == 211) or 
-            (@skill.special? and item_id == 212)) #> Baie Jaboca / Baie Pommo
+          if((@skill.physical? && item_id == 211) || 
+            (@skill.special? && item_id == 212)) #> Baie Jaboca / Baie Pommo
             berry_use(target)
             hp_down_proto(@launcher, @launcher.max_hp/8)
             msg(parse_text_with_pokemon(19, 1044, @launcher, ITEM2[1] => target.item_name))
-          elsif(@skill.physical? and item_id == 687) #> Baie Éka
+          elsif(@skill.physical? && item_id == 687) #> Baie Éka
             berry_use(target)
             _mp([::PFM::ItemDescriptor::Boost[4], target, 1])
-          elsif(@skill.special? and item_id == 688) #> Baie Rangma
+          elsif(@skill.special? && item_id == 688) #> Baie Rangma
             berry_use(target)
             _mp([::PFM::ItemDescriptor::Boost[1], target, 1])
-          elsif(@skill.type_water? and item_id == 648) #> Lichen Lumineux
+          elsif(@skill.type_water? && item_id == 648) #> Lichen Lumineux
             change_dfs(target, 1)
             set_item(target, 0, true)
-          elsif(@skill.type_ice? and item_id == 649) #> Boule neige
+          elsif(@skill.type_ice? && item_id == 649) #> Boule neige
             change_atk(target, 1)
             set_item(target, 0, true)
           end
         end
       end
-      #>Mise à jour des dégas pris
-      if(@skill)
+      #> Update of taken damages
+      if @skill
         be.take_damages(hp, @skill.atk_class, @launcher)
         be.last_damaging_skill = @skill
-        #>Vérification de destiny bond (Prélèvem. Destin)
-        if(target.last_skill == 194 and @launcher and @launcher != target and target.hp <= 0)
+        #> Destiny Bond
+        if(target.last_skill == 194 && @launcher && @launcher != target && target.hp <= 0)
           hp_down(@launcher, @launcher.hp, true)
           msg(parse_text_with_pokemon(19, 629, target))
         end
-        #>Vérification de Frénésie
-        if(be.has_rage_effect?)
-          change_atk(target,1)
-        end
-        #>Rancune
-        if(be.has_grudge_effect? and target.dead?)
+        #> Rage
+        change_atk(target,1) if be.has_rage_effect?
+        #> Grudge
+        if(be.has_grudge_effect? && target.dead?)
           pp_down(@launcher, @skill, @skill.pp)
           msg(parse_text_with_pokemon(19, 635, @launcher, MOVE[1] => @skill.name))
         end
-        #>Grelot Coque
-        if(BattleEngine._has_item(@launcher, 253))
+        #> Shell Bell
+        if BattleEngine._has_item(@launcher, 253)
           hp_up(@launcher, hp / 8) if hp > 7
-        #>Piquants
+        #> Sticky Barb
         elsif(BattleEngine::_has_item(target, 288))
           hp_down_proto(@launcher, @launcher.max_hp / 8)
           if(@launcher.battle_item == 0)
@@ -267,10 +265,10 @@ module BattleEngine
             set_item(target, 0)
           end
         #> Roche Royale
-        elsif(@skill.king_rock_utility and BattleEngine::_has_item(target, 221) and rand(10) == 0)
+        elsif(@skill.king_rock_utility && BattleEngine::_has_item(target, 221) && rand(10) == 0)
           effect_afraid(@launcher)
         #> Croc Rasoir
-        elsif(BattleEngine::_has_item(target, 327) and rand(10) == 0)
+        elsif(BattleEngine::_has_item(target, 327) && rand(10) == 0)
           effect_afraid(target)
         end
         Abilities.on_dammage_ability(@launcher, target, @skill)
@@ -284,14 +282,14 @@ module BattleEngine
     #> Perte de HP sans rien autour
     #===
     def hp_down_proto(target, hp)
-      return if @ignore or target.hp<=0
+      return if @ignore || target.hp<=0
       @scene.phase4_message_remove_hp(target, hp)
     end
     #===
     #>Gain de HP
     #===
     def hp_up(target, hp, msg = nil, *args)
-      return if @ignore or target.hp<=0
+      return if @ignore || target.hp<=0
       msg(parse_text_with_pokemon(19, msg, target, *args)) if msg
       @scene.phase4_message_add_hp(target, hp)
     end
@@ -299,42 +297,42 @@ module BattleEngine
     #>KO en un coup ou Sacrifice
     #===
     def OHKO(target, sacrifice=false)
-      return if @ignore or target.hp<=0
-      #> Fermeté
-      if(Abilities.has_ability_usable(target, 37))
+      return if @ignore || target.hp<=0
+      #> Sturdy
+      if Abilities.has_ability_usable(target, 37)
         _mp([:ability_display, target])
         _mp([:msg_fail])
         return
       end
       @scene.phase4_message_remove_hp(target, target.hp)
-      #>Vérification de destiny bond (Prélèvem. Destin)
-      if(!sacrifice and target.last_skill == 194 and @launcher and @launcher != target)
+      #> Destiny Bond
+      if(!sacrifice && target.last_skill == 194 && @launcher && @launcher != target)
         hp_down(@launcher, @launcher.hp, true)
         msg(parse_text_with_pokemon(19, 629, target))
       end
       Abilities.on_dammage_ability(@launcher, target, @skill) if @skill
     end
     #===
-    #>Afficher une animation
+    #> Display an animation
     #===
     def animation(id)
       #print "Affichage de l'animation #{message[1]}"
     end
     #===
-    #>Fuire le combat
+    #> Flee the fight
     #===
     def end_flee
       $game_system.se_play($data_system.escape_se)
       @scene.battle_end(1)
     end
     #===
-    #>Forcer le changement de forme
+    #> Force the switch form
     #===
     def switch_form(target)
       @scene.gr_switch_form(target)
     end
     #===
-    #>Changement de météo
+    #> Weather change
     #===
     def weather_change(meteo_sym, nb_turn=5)
       case meteo_sym
@@ -356,34 +354,34 @@ module BattleEngine
       else
         $env.apply_weather(0, nb_turn)
       end
-      #> Indiquer que les effets n'agiront pas
-      if($env.current_weather != 0 and BattleEngine.state[:air_lock])
+      #> Display that the effect will not work
+      if($env.current_weather != 0 && BattleEngine.state[:air_lock])
         @scene.ability_display(BattleEngine.state[:air_lock])
-        @scene.display_message(parse_text(18,97))#"Les effets de la météo se dissipent.")
+        @scene.display_message(parse_text(18,97)) # "The effects of the weather disappeared."
       end
-      #> Capacité spéciale Météo
+      #> Weather ability
       Abilities.on_weather_change
     end
     #===
-    #>Afficher la capacité spé d'une cible
+    #> Display target's ability
     #===
     def ability_display(target, display_condition = nil)
       if(display_condition)
         return unless display_condition.call
       end
-      #> Empêcher l'affichage à la suite
-      return if @ability_displayed.include?(target) and @ability_displayed[-1] == target
+      #> Prevent display
+      return if @ability_displayed.include?(target) && @ability_displayed[-1] == target
       @scene.ability_display(target)
       @ability_displayed << target
     end
     #===
-    #>Mise à jour de la barre de status
+    #> Update of the status bar
     #===
     def status_bar_update(pokemon)
       @scene.status_bar_update(pokemon)
     end
     #===
-    #>Symbol inconnu ou stat_mod
+    #> Unknown symbol or stat_mod
     #===
     def stat_mod_or_unk(message)
       pc "Symbole Inconnu : #{message[0]}"

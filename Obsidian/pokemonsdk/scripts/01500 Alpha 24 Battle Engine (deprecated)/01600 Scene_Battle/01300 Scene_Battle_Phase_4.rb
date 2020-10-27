@@ -287,9 +287,11 @@ class Scene_Battle
     
     #> Recheck de la cible
     #<petite partie concernant le tour de repos
-    reload_state = @_launcher.battle_effect.must_reload
-    #> Si le lanceur ne doit pas se reposer
-    if !reload_state
+    if @_launcher.battle_effect.must_reload
+      display_message(parse_text_with_pokemon(19, 851, @_launcher))
+      @_launcher.battle_effect.set_reload_state(false)
+      return
+    else #> Si le lanceur ne doit pas se reposer
       if($game_switches[::Yuki::Sw::BT_HardExp])
         #Incrément du nombre de tours
         @_launcher.battle_turns+=1
@@ -329,7 +331,6 @@ class Scene_Battle
 
     #Interpretation du BattleEngine
     phase4_message_display
-    @_launcher.battle_effect.set_reload_state(false) if reload_state
 
     #Lire-Esprit
     @_launcher.battle_effect.apply_mind_reader(nil) if mind_reader

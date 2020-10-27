@@ -144,6 +144,7 @@ class Scene_Battle
       $game_system.se_play($data_system.escape_se)
       display_message(text_get(18,75))
       battle_end(1)
+      $env.apply_weather(0,0) unless $game_switches[Yuki::Sw::MixWeather]
     else
       display_message(text_get(18,76))
       launch_phase_event(4,false)

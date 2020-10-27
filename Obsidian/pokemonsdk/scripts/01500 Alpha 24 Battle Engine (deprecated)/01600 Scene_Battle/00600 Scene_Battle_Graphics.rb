@@ -3,49 +3,14 @@
 #noyard
 # Description: Gestion des graphismes de combat
 class Scene_Battle
-
   include UI
-
-  BackNames=["back_building","back_grass","back_tall_grass","back_taller_grass",
-    "back_cave","back_mount","back_pond","back_sea","back_under_water",
-    "back_ice","back_snow","back_sand"]
   #===
   #>Affichage du fond de combat
   #===
   def gr_display_background()
-    if($game_temp.battleback_name and $game_temp.battleback_name.size > 0)
-      @battleback_name = $game_temp.battleback_name
-    else
-      v=0
-      env = $env
-      if(env.grass?)
-        v=1
-      elsif(env.tall_grass?)
-        v=2
-      elsif(env.very_tall_grass?)
-        v=3
-      elsif(env.cave?)
-        v=4
-      elsif(env.mount?)
-        v=5
-      elsif(env.pond?)
-        v=6
-      elsif(env.sea?)
-        v=7
-      elsif(env.under_water?)
-        v=8
-      elsif(env.ice?)
-        v=9
-      elsif(env.snow?)
-        v=10
-      elsif(env.sand?)
-        v=11
-      end
-      @battleback_name = BackNames[v]
-    end
-    @background=Sprite.new(@viewport)
-    @background.z=0
-    @background.bitmap=RPG::Cache.battleback(@battleback_name)
+    @background = Sprite.new(@viewport)
+    @background.z = 0
+    @background.bitmap = RPG::Cache.battleback(Battle::Visual.allocate.send(:background_name))
   end
 
   #===

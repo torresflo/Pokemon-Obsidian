@@ -556,17 +556,12 @@ module BattleEngine
   NoAssist_Skill = [182, 495, 448, 214, 270, 18, 197, 525, 621, 166, 46, 343, 168, 165, 118, 119, 164, 382, 415, 383, 194, 509, 277, 467, 68, 364, 289, 203, 271, 243, 274]
   def s_assist(launcher, target, skill, msg_push = true)
     return unless __s_beg_step(launcher, target, skill, msg_push)
+
+    # @type [Array<PFM::Pokemon>]
     allies = (@_Actors.include?(launcher) ? @_Actors : @_Enemies)
     if allies.size > 1
-      skill_set = []
-      1.upto(allies.size - 1) do |i|
-        skill_set += allies[i].skills_set.collect do |skill|
-          !NoAssist_Skill.include?(skill.id)
-        end
-      end
-      if(skills_set.size > 0)
-        return _launch_skill(launcher, target, skills_set[rand(skills_set.size)])
-      end
+      moves = allies.compact.flat_map { |pokemon| pokemon.skills_set.compact.reject { |move| NoAssist_Skill.include?(move.id) } }
+      return _launch_skill(launcher, target, moves[rand(moves.size)]) if moves.any?
     end
     _mp(MSG_Fail)
   end
@@ -829,9 +824,10 @@ module BattleEngine
   MinusPlus = [96, 97]
   def s_magnetic_flux(launcher, target, skill, msg_push = true)
     return unless __s_beg_step(launcher, target, skill, msg_push)
-    allies = get_allies!(launcher)
+
+    allies = get_ally!(launcher)
     allies.each do |target|
-      if MinusPlus.include?(target.ability) and Abilities.has_ability_usable(target, target.ability)
+      if MinusPlus.include?(target.ability) && Abilities.has_ability_usable(target, target.ability)
         _mp([:change_dfe, target, 1])
         _mp([:change_dfs, target, 1])
       end

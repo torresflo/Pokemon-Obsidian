@@ -63,7 +63,8 @@ module UI
     def init_sprite
       super
       # Moving the original interface
-      set_position(0, 71)
+      move(0, 71)
+      @x = @y = 0
       @move_info.set_position(0, 71)
       # Fixing the background position
       @stack.first.set_position(0, 0)

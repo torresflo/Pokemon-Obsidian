@@ -73,8 +73,6 @@ module Battle
       return allies
     end
 
-    private
-
     # Load the battlers from the battle infos
     def load_battlers
       @battle_info.parties.each_with_index do |parties, bank|
@@ -89,6 +87,8 @@ module Battle
       end
     end
 
+    private
+
     # Load the battlers from a party
     # @param party [Array<PFM::Pokemon>]
     # @param bank [Integer]
@@ -98,7 +98,7 @@ module Battle
       battlers = (@battlers[bank] ||= [])
       max_level = @battle_info.max_level
       party.each do |pokemon|
-        battler = max_level ? PFM::PokemonBattler.new(pokemon, max_level) : PFM::PokemonBattler.new(pokemon)
+        battler = max_level ? PFM::PokemonBattler.new(pokemon, @battle_scene, max_level) : PFM::PokemonBattler.new(pokemon, @battle_scene)
         battler.bank = bank
         battler.party_id = index
         battlers << battler

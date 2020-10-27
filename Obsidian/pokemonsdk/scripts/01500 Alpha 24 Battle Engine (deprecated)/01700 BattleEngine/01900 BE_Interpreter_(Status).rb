@@ -3,19 +3,22 @@
 #noyard
 module BattleEngine
   module BE_Interpreter
-	Status_Abilities = [12, 14, 21, 33, 65]
-	Status_Items = [272, 273]
+		Status_Abilities = [12, 14, 21, 33, 65]
+		Status_Items = [272, 273]
+		Status_Not_Overwritten = [GameData::States::POISONED, GameData::States::BURN, GameData::States::PARALYZED, GameData::States::TOXIC]
     module_function
     #===
-    #>Synchro
+    #>Synchronize
     #===
     def synchro_apply(target, meth)
-      return if @ignore or target.hp<=0
-      #> Synchro
-      if(@launcher != target and @launcher and BattleEngine::Abilities.has_ability_usable(target, 33))
+      return if @ignore || target.hp<=0
+      #> Synchronize
+	  	if(@launcher != target && @launcher && BattleEngine::Abilities.has_ability_usable(target, 33))
+				# Security check
+				return if Status_Not_Overwritten.include?(@launcher.status)
         @launcher.send(meth, true)
         _msgp(19, 1159, @launcher)
-      #> Pied Véloce
+      #> Quick Feet
       elsif(BattleEngine::Abilities.has_ability_usable(target, 80))
         _mp([:ability_display, target])
         _mp([:change_spd, target, 1])
@@ -28,19 +31,19 @@ module BattleEngine
     def status_confuse(target, forced=false, msg_id = 345)
       return if @ignore or target.hp<=0
       return if @no_secondary_effect
-      #> Déjà confus
-      if(target.confused?)
+      #> Already confused
+      if target.confused?
         _msgp(19, 354, target)
         return
       end
       be = target.battle_effect
-      #> Clonage
-      if(be.has_substitute_effect? and @launcher != target and @skill)
+      #> Substitute
+      if(be.has_substitute_effect? && @launcher != target && @skill)
         msg_fail if @skill.power <= 0
         return
       end
-      #> Rune protect
-      if(!forced and be.has_safe_guard_effect?)
+      #> Safe Guard
+      if(!forced && be.has_safe_guard_effect?)
         _msgp(19, 842, target)
         return
       end
@@ -50,7 +53,6 @@ module BattleEngine
         _msgp(19, 357, target)
         return
       end
-      #> Rendre finalement confus
       target.status_confuse
       _msgp(19, msg_id, target)
       @scene.status_bar_update(target)
@@ -62,44 +64,43 @@ module BattleEngine
 			return if @ignore or target.hp<=0
 			return if @no_secondary_effect
 			# Herbivore
-			if @skill && @skill.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
+			if @skill&.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
 				_mp([:ability_display, target])
 				_mp([:change_atk, target, 1])
 				#_msgp(19, something_not_written,target)
 				return
 			end
-			if(target.asleep?)#> Déjà endormi
+			if target.asleep? #> Déjà endormi
 				_msgp(19, 315, target)
 				return
 			end
 			be = target.battle_effect
 			#> Clonage
-			if(be.has_substitute_effect? and @launcher != target and @skill)
-				msg_fail if @skill.power <= 0
+			if be.has_substitute_effect? && @launcher != target
+				msg_fail if @skill&.power <= 0
 				return
 			end
 			#> Rune protect
-			if(!forced and be.has_safe_guard_effect?)
+			if !forced && be.has_safe_guard_effect?
 				_msgp(19, 842, target)
 				return
 			end
 			return if check_flora_voile(target, forced) == true
 			#> Feuille Garde / Esprit Vital / Insomnia  / Flora-Voile
-			if(($env.sunny? and BattleEngine::Abilities.has_ability_usable(target, 58)) or
+			if(($env.sunny? && BattleEngine::Abilities.has_ability_usable(target, 58)) ||
 				BattleEngine::Abilities.has_abilities(target, 30, 49))
 				_mp([:ability_display, target])
-				_msgp(19, 318, target) #Si ce n'est pas Flora-Voile (un peu trop de conditions à mon goût, il faudra changer ça)
+				_msgp(19, 318, target)
 				return
 			end
-			#> On endort le Pokémon
-			if(target.can_be_asleep? or (@skill and @skill.id == 156)) #> Repos
+			#> Pokémon is now asleep
+			if target.can_be_asleep? || @skill&.id == 156 #> Rest
 				target.status_sleep(true, nb_turn)
 				#> Matinal
-				if(BattleEngine::Abilities.has_ability_usable(target, 41))
+				if BattleEngine::Abilities.has_ability_usable(target, 41)
 				  target.status_count /= 2
 				end
 				_msgp(19, 306, target)
-				synchro_apply(target, :status_sleep)
 			else
 				_msgp(19, 318, target)
 			end
@@ -110,10 +111,10 @@ module BattleEngine
 		#>Geler
 		#===
 		def status_frozen(target, forced = false)
-			return if @ignore or target.hp<=0
+			return if @ignore || target.hp<=0
 			return if @no_secondary_effect
 			# Herbivore
-			if @skill && @skill.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
+			if @skill&.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
 				_mp([:ability_display, target])
 				_mp([:change_atk, target, 1])
 				#_msgp(19, something_not_written,target)
@@ -126,18 +127,18 @@ module BattleEngine
 			end
 			be = target.battle_effect
 			#> Clonage
-			if(be.has_substitute_effect? and @launcher != target and @skill)
-				msg_fail if @skill.power <= 0
+			if be.has_substitute_effect? && @launcher != target
+				msg_fail if @skill&.power <= 0
 				return
 			end
 			#> Rune protect
-			if(!forced and be.has_safe_guard_effect?)
+			if(!forced && be.has_safe_guard_effect?)
 				_msgp(19, 842, target)
 				return
 			end
-			return if check_flora_voile(target, forced) == true
+			return if check_flora_voile(target, forced)
 			#> Feuille Garde / Armumagma
-			if(($env.sunny? and BattleEngine::Abilities.has_ability_usable(target, 58)) or
+			if(($env.sunny? && BattleEngine::Abilities.has_ability_usable(target, 58)) ||
 				BattleEngine::Abilities.has_ability_usable(target, 82))
 				_mp([:ability_display, target])
 				_msgp(19, 300, target)
@@ -148,68 +149,67 @@ module BattleEngine
 			if target.can_be_frozen?(@skill ? @skill.type : 0)
 				target.status_frozen
 				_msgp(19, 288, target)
-				synchro_apply(target, :status_frozen)
 			else
 				_msgp(19, 300, target)
 			end
 			@scene.status_bar_update(target)
 		end
 		#===
-		#>Enpoisonner
+		#>Poison
 		#===
 		def status_poison(target, forced = false)
 			return if @ignore or target.hp<=0
 			return if @no_secondary_effect
-			#> Déjà empoisonné
-			# Herbivore
-			if @skill && @skill.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
+			#> Already poisoned
+			# Sap Sipper
+			if @skill&.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
 				_mp([:ability_display, target])
 				_mp([:change_atk, target, 1])
 				#_msgp(19, something_not_written,target)
 				return
 			end
-			if(target.poisoned?)
+			if target.poisoned?
 				_msgp(19, 249, target)
 				return
 			end
 			be = target.battle_effect
-			#> Clonage
-			if(be.has_substitute_effect? and @launcher != target and @skill)
-				msg_fail if @skill.power <= 0
+			#> Substitute
+			if be.has_substitute_effect? && @launcher != target
+				msg_fail if @skill&.power <= 0
 				return
 			end
-			#> Rune protect
-			if(!forced and be.has_safe_guard_effect?)
+			#> Safe Guard
+			if !forced && be.has_safe_guard_effect?
 				_msgp(19, 842, target)
 				return
 			end
 			return if check_flora_voile(target, forced) == true
 			#> Feuille Garde / Vaccin
-			if(($env.sunny? and BattleEngine::Abilities.has_ability_usable(target, 58)) or
+			if(($env.sunny? && BattleEngine::Abilities.has_ability_usable(target, 58)) ||
 				BattleEngine::Abilities.has_ability_usable(target, 73))
 				_mp([:ability_display, target])
 				_msgp(19, 252, target)
 				return
 			end
-			#> Empoisonner
+			#> Poison
 			if target.can_be_poisoned?
 				target.status_poison
 				_msgp(19, 234, target)
-				synchro_apply(target, :status_poison)
+				synchro_apply(target, :status_poison) if @launcher&.can_be_poisoned?
 			else
 				_msgp(19, 252, target)
 			end
 			@scene.status_bar_update(target)
 		end
 		#===
-		#>Intoxiquer
+		#> Intoxicate
 		#===
 		def status_toxic(target, forced = false)
 			return if @ignore or target.hp<=0
 			return if @no_secondary_effect
-			#> Déjà empoisonné
-			# Herbivore
-			if @skill && @skill.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
+			#> Already poisoned
+			# Sap Sipper
+			if @skill&.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
 				_mp([:ability_display, target])
 				_mp([:change_atk, target, 1])
 				#_msgp(19, something_not_written,target)
@@ -220,119 +220,119 @@ module BattleEngine
 				return
 			end
 			be = target.battle_effect
-			#> Clonage
-			if(be.has_substitute_effect? and @launcher != target and @skill)
-				msg_fail if @skill.power <= 0
+			#> Substitute
+			if be.has_substitute_effect? && @launcher != target
+				msg_fail if @skill&.power <= 0
 				return
 			end
 			return if check_flora_voile(target, forced) == true
-			#> Feuille Garde / Vaccin
-			if(($env.sunny? and BattleEngine::Abilities.has_ability_usable(target, 58)) or
+			#> Leaf Guard / Immunity
+			if(($env.sunny? && BattleEngine::Abilities.has_ability_usable(target, 58)) ||
 				BattleEngine::Abilities.has_ability_usable(target, 73))
 				_mp([:ability_display, target])
 				_msgp(19, 252, target)
 				return
 			end
-			#> Intoxiquer
+			#> Intoxicate
 			if target.can_be_poisoned?
 				target.status_toxic
 				_msgp(19, 237, target)
-				synchro_apply(target, :status_toxic)
+				synchro_apply(target, :status_toxic) if @launcher&.can_be_poisoned?
 			else
 				_msgp(19, 252, target)
 			end
 			@scene.status_bar_update(target)
 		end
 		#===
-		#>Paralyser
+		#>Paralyze
 		#===
 		def status_paralyze(target, forced = false)
-			return if @ignore or target.hp<=0
+			return if @ignore || target.hp<=0
 			return if @no_secondary_effect
-			# Herbivore
-			if @skill && @skill.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
+			# Sap Sipper
+			if @skill&.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
 				_mp([:ability_display, target])
 				_mp([:change_atk, target, 1])
 				#_msgp(19, something_not_written,target)
 				return
 			end
-			#> Déjà Paralysé
-			if(target.paralyzed?)
+			#> Already paralyzed
+			if target.paralyzed?
 				_msgp(19, 282, target)
 				return
 			end
 			be = target.battle_effect
-			#> Clonage
-			if(be.has_substitute_effect? and @launcher != target and @skill)
-				msg_fail if @skill.power <= 0
+			#> Substitute
+			if be.has_substitute_effect? && @launcher != target
+				msg_fail if @skill&.power <= 0
 				return
 			end
-			#> Rune protect
-			if(!forced and be.has_safe_guard_effect?)
+			#> Safe Guard
+			if !forced && be.has_safe_guard_effect?
 				_msgp(19, 842, target)
 				return
 			end
 			return if check_flora_voile(target, forced) == true
-			#> Feuille Garde / Echauffement
-			if(($env.sunny? and BattleEngine::Abilities.has_ability_usable(target, 58)) or
+			#> Leaf Guard / Limber
+			if(($env.sunny? && BattleEngine::Abilities.has_ability_usable(target, 58)) ||
 				BattleEngine::Abilities.has_ability_usable(target, 27))
 				_mp([:ability_display, target])
 				_msgp(19, 285, target)
 				return
 			end
 			#> Paralyser
-			if target.can_be_paralyzed? or (@skill and @skill.id == 34) #> Plaquage
+			if target.can_be_paralyzed? || @skill&.id == 34 #> Body Slam
 				target.status_paralyze
 				_msgp(19, 273, target)
-				synchro_apply(target, :status_paralyze)
+				synchro_apply(target, :status_paralyze) if @launcher&.can_be_paralyzed?
 			else
 				_msgp(19, 285, target)
 			end
 			@scene.status_bar_update(target)
 		end
 		#===
-		#>Brûler
+		#>Burn
 		#===
 		def status_burn(target, forced = false)
 			return if @ignore or target.hp<=0
 			return if @no_secondary_effect
-			# Herbivore
-			if @skill && @skill.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
+			# Sap Sipper
+			if @skill&.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
 				_mp([:ability_display, target])
 				_mp([:change_atk, target, 1])
 				#_msgp(19, something_not_written,target)
 				return
 			end
-			#> Déjà brûlé
-			if(target.burn?)
+			#> Already burnt
+			if target.burn?
 				_msgp(19, 267, target)
 				return
 			end
 			be = target.battle_effect
 			#> Clonage
-			if(be.has_substitute_effect? and @launcher != target and @skill)
-				msg_fail if @skill.power <= 0
+			if be.has_substitute_effect? && @launcher != target
+				msg_fail if @skill&.power <= 0
 				return
 			end
 			#> Rune protect
-			if(!forced and be.has_safe_guard_effect?)
+			if !forced && be.has_safe_guard_effect?
 				_msgp(19, 842, target)
 				return
 			end
 			
 			return if check_flora_voile(target, forced) == true
 			#> Feuille Garde / Ignifu-Voile
-			if(($env.sunny? and BattleEngine::Abilities.has_ability_usable(target, 58)) or
+			if(($env.sunny? && BattleEngine::Abilities.has_ability_usable(target, 58)) ||
 				BattleEngine::Abilities.has_ability_usable(target, 62))
 				_mp([:ability_display, target])
 				_msgp(19, 270, target)
 				return
 			end
-			#> Brûler
+			#> Burn
 			if target.can_be_burn?
 				target.status_burn
 				_msgp(19, 255, target)
-				synchro_apply(target, :status_burn)
+				synchro_apply(target, :status_burn) if @launcher&.can_be_burn?
 			else
 				_msgp(19, 270, target)
 			end
@@ -346,7 +346,7 @@ module BattleEngine
 				c = target
 			end
 			
-			if ((BattleEngine::Abilities.has_ability_usable(target, 165) && target.type_plante?) || (BattleEngine::Abilities.has_ability_usable(c, 165) && target.type_plante?) ) && (@skill && @skill.id != 156)
+			if ((BattleEngine::Abilities.has_ability_usable(target, 165) && target.type_plante?) || (BattleEngine::Abilities.has_ability_usable(c, 165) && target.type_plante?) ) && (@skill&.id != 156)
 				unless forced == true 
 					_mp([:ability_display, target]) unless c.ability == 165 && target.ability != 165
 					_mp([:ability_display, c]) if c.ability == 165 && target.ability != 165
@@ -356,21 +356,19 @@ module BattleEngine
 			end
 		end
     #===
-    #>Soigner la cible
+    #>Heal the target
     #===
     def status_cure(target)
-      return if @ignore or target.hp<=0
-      if(target.status==0)
-#        @scene.display_message(GameData.b_str(47, target.given_name)) #"N'a aucune altération de status, cela échoue.")
-        return
-      end
-      if(target.poisoned? or target.toxic?)
+      return if @ignore || target.hp <= 0
+      return if target.status == 0
+			#@scene.display_message(GameData.b_str(47, target.given_name)) #"N'a aucune altération de status, cela échoue.")
+      if target.poisoned? || target.toxic?
         id = 246
-      elsif(target.burn?)
+			elsif target.burn?
         id = 264
-      elsif(target.frozen?)
+      elsif target.frozen?
         id = 294
-      elsif(target.paralyzed?)
+			elsif target.paralyzed?
         id = 279
       else #asleep
         id = 312
@@ -383,7 +381,7 @@ module BattleEngine
     #>Soin forcé du gel
     #===
     def ice_cure(target)
-      return if @ignore or target.hp<=0 or !target.frozen?
+      return if @ignore || target.hp<=0 || !target.frozen?
       target.cure
       _msgp(19, 294, target)
       @scene.status_bar_update(target)

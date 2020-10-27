@@ -39,6 +39,7 @@ class Scene_Battle
         sp.update
         Graphics.update
       end
+      sp&.viewport&.color&.set(0, 0, 0, 0) # Fix flash
       src_sprite.visible = visible
       sp.bitmap = nil
     end

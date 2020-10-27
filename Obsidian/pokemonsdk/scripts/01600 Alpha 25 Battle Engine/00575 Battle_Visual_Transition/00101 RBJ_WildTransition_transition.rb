@@ -15,7 +15,7 @@ module Battle
         @counter = 0
         @viewport.color.set(0, 0, 0, 0)
         @viewport.sort_z
-        @shader = Shader.new(Shader::GeneralColorSprite)
+        @shader = Shader.create(:color_shader)
         @shader.set_float_uniform('color', [0, 0, 0, 1])
         load_enemy_sprites
         load_actors_sprites

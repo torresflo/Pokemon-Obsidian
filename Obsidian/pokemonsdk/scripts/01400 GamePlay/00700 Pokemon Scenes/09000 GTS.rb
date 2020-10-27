@@ -323,7 +323,7 @@ module GTS
     # @return [Integer, nil]
     def choose_pokemon
       choice = nil
-      call_scene(GamePlay::StorageTrade) { |scene| choice = scene.return_data }
+      call_scene(GamePlay::PokemonTradeStorage) { |scene| choice = scene.return_data }
       return choice
     end
 

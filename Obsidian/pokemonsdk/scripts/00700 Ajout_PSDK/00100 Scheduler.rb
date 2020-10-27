@@ -61,10 +61,9 @@ module Scheduler
   # @param name [String] the name that describe the task
   # @param priority [Integer] its priority
   def __remove_task(reason, klass, name, priority)
-    task_hash = @tasks[reason]
-    return unless task_hash # Bad reason
-    task_array = task_hash[klass]
+    task_array = @tasks.dig(reason, klass.to_s)
     return unless task_array
+
     priority = -priority
     task_array.delete_if { |obj| obj.priority == priority && obj.name == name }
   end

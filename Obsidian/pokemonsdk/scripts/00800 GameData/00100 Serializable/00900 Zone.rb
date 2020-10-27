@@ -2,6 +2,7 @@ module GameData
   # Map Zone Data structure
   # @author Nuri Yuri
   class Zone < Base
+    extend DataSource
     # ID or list of MAP ID the zone is related to. (RMXP MAP ID !)
     # @return [Integer, Array<Integer>]
     attr_accessor :map_id
@@ -90,38 +91,27 @@ module GameData
       @warp_dissalowed
     end
 
+    @first_index = 0
     class << self
-      # All the zone
-      @data = []
-      # Load the data and check the version
-      def load
-        $game_data_map, game_data_zone = load_data('Data/PSDK/MapData.rxdata')
-        # Convert from PSDK 24.27 to PSDK 24.28+
-        game_data_zone.each do |zone|
-          zone.worldmap_id ||= 0
-        end
-        @data = game_data_zone.freeze
+      # Name of the file containing the data
+      def data_filename
+        return 'Data/PSDK/MapData.rxdata'
       end
 
-      # Retrieve all the defined zones
-      # @return [Array<Zone>]
-      def all
-        return @data
+      alias origina_load_data load_data
+      # Load the data properly
+      def load_data(filename)
+        data = origina_load_data(filename)
+        return data if data[0].is_a?(self)
+
+        return data[1] # Old PSDK format
       end
 
       # Return a zone according to its id
       # @param id [Integer]
       # @return [Zone]
       def get(id)
-        return @data[id] if id_valid?(id)
-        return @data.first
-      end
-
-      # Tell if the zone id is valid
-      # @param id [Integer]
-      # @return [Boolean]
-      def id_valid?(id)
-        return id.between?(0, @data.size - 1)
+        return self[id]
       end
     end
   end

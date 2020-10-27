@@ -10,9 +10,7 @@ class Spriteset_Map
     # Type of viewport the spriteset map uses
     viewport_type = :main
     exec_hooks(Spriteset_Map, :viewport_type, binding)
-    @viewport1 = Viewport.create(viewport_type, 0)
-    @viewport2 = Viewport.create(viewport_type, 200)
-    @viewport3 = Viewport.create(viewport_type, 5000)
+    init_viewports(viewport_type)
     Yuki::ElapsedTime.start(:spriteset_map)
     exec_hooks(Spriteset_Map, :initialize, binding)
     init_tilemap
@@ -23,6 +21,31 @@ class Spriteset_Map
     finish_init(zone)
   rescue ForceReturn => e
     log_error("Hooks tried to return #{e.data} in Spriteset_Map#initialize")
+  end
+
+  # Method responsive of initializing the viewports
+  # @param viewport_type [Symbol]
+  def init_viewports(viewport_type)
+    @viewport1 = Viewport.create(viewport_type, 0)
+    @viewport1.extend(Viewport::WithToneAndColors)
+    @viewport1.shader = Shader.create(:map_shader)
+    @viewport2 = Viewport.create(viewport_type, 200)
+    @viewport3 = Viewport.create(viewport_type, 5000)
+    @viewport3.extend(Viewport::WithToneAndColors)
+    @viewport3.shader = Shader.create(:map_shader)
+  end
+
+  # Take a snapshot of the spriteset
+  # @return [Array<Bitmap>]
+  def snap_to_bitmaps
+    @viewport1.sort_z
+    @viewport2.sort_z
+    @viewport3.sort_z
+    return [
+      @viewport1.snap_to_bitmap,
+      @viewport2.snap_to_bitmap,
+      @viewport3.snap_to_bitmap
+    ]
   end
 
   # Do the same as initialize but without viewport initialization (opti)
@@ -107,8 +130,8 @@ class Spriteset_Map
   rescue ForceReturn => e
     log_error("Hooks tried to return #{e.data} in Spriteset_Map#init_psdk_add")
   end
-  Hooks.register(self, :initialize) { init_psdk_add }
-  Hooks.register(self, :reload) { init_psdk_add }
+  Hooks.register(self, :initialize, 'PSDK Additional Spriteset Initialization') { init_psdk_add }
+  Hooks.register(self, :reload, 'PSDK Additional Spriteset Initialization') { init_psdk_add }
 
   # Sprite_Character initialization
   def init_characters
@@ -169,7 +192,7 @@ class Spriteset_Map
     # @type [Array<UI::QuestInformer>]
     @quest_informers = []
   end
-  Hooks.register(self, :initialize) { init_quest_informer }
+  Hooks.register(self, :initialize, 'Quest Informer') { init_quest_informer }
 
   # Tell if the spriteset is disposed
   # @return [Boolean]
@@ -290,7 +313,7 @@ class Spriteset_Map
     @sp_fg.z = 5002
     @counter = 0
   end
-  Hooks.register(self, :finish_init) { |method_binding| create_panel(method_binding[:zone]) }
+  Hooks.register(self, :finish_init, 'Zone Panel') { |method_binding| create_panel(method_binding[:zone]) }
 
   # Dispose the zone panel
   def dispose_sp_map
@@ -299,8 +322,8 @@ class Spriteset_Map
     @sp_fg&.dispose
     @sp_fg = nil
   end
-  Hooks.register(self, :reload) { dispose_sp_map }
-  Hooks.register(self, :dispose) { dispose_sp_map }
+  Hooks.register(self, :reload, 'Zone Panel') { dispose_sp_map }
+  Hooks.register(self, :dispose, 'Zone Panel') { dispose_sp_map }
 
   # Update the zone panel
   def update_panel
@@ -316,7 +339,7 @@ class Spriteset_Map
       @sp_fg.y -= 1
     end
   end
-  Hooks.register(self, :update) { update_panel }
+  Hooks.register(self, :update, 'Zone Panel') { update_panel }
 
   # Change the visible state of the Spriteset
   # @param value [Boolean] the new visibility state
@@ -364,5 +387,5 @@ class Spriteset_Map
     end
     @quest_informers.clear if @quest_informers.all?(&:done?)
   end
-  Hooks.register(self, :update) { update_quest_informer }
+  Hooks.register(self, :update, 'Quest Informer') { update_quest_informer }
 end

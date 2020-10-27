@@ -631,16 +631,16 @@ module BattleEngine
     skill.power2 = nil
     skill.type2 = nil
   end
-  #===
-  #>s_captivate
-  # Séduction
-  #===
+  # @param launcher [PFM::Pokemon]
+  # @param target [PFM::Pokemon]
+  # @param skill [PFM::Skill]
   def s_captivate(launcher, target, skill, msg_push = true)
     #>Benêt
-    if((target.gender * @launcher.gender == 2) and !Abilities.has_ability_usable(target, 39))
+    if ((target.gender * launcher.gender == 2) && !Abilities.has_ability_usable(target, 39))
       s_stat(launcher, target, skill)
     else
       return false unless __s_beg_step(launcher, target, skill, msg_push)
+
       _message_stack_push(MSG_Fail)
     end
   end

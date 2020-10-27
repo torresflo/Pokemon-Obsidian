@@ -19,19 +19,20 @@ module BattleEngine
     id = skill.id
     be = launcher.battle_effect
     return true if move_accuracy == 0
-    return true if be.has_mind_reader_effect? and target == be.get_mind_reader_target
-    return true if be.has_lock_on_effect? and be.get_lock_on_target == target
-    return true if @_State[:launcher_ability] == 34 or @_State[:target_ability] == 34 #> Annule Garde
+    return true if be.has_mind_reader_effect? && target == be.get_mind_reader_target
+    return true if be.has_lock_on_effect? && be.get_lock_on_target == target
+    return true if @_State[:launcher_ability] == 34 || @_State[:target_ability] == 34 #> Annule Garde
+    return true if id == 92 && launcher.type_poison? #> Toxik 6G
     #>Fatal-Foudres et Vent Violents
-    if(id == 87 or id == 542)
-      move_accuracy /= 2 if($env.sunny?)
-      move_accuracy = 100 if($env.rain?)
-    elsif(id == 59)
-      move_accuracy = 100 if($env.hail?)
+    if id == 87 || id == 542
+      move_accuracy /= 2 if $env.sunny?
+      move_accuracy = 100 if $env.rain?
+    elsif id == 59
+      move_accuracy = 100 if $env.hail?
     end
 
     #> Attaques qui ne ratent jamais contre un clone
-    return true if target.battle_effect.has_minimize_effect? and NeverFailMini.include?(id)
+    return true if target.battle_effect.has_minimize_effect? && NeverFailMini.include?(id)
 
     #====
     #>Coté attaquant (Acc)
@@ -39,7 +40,7 @@ module BattleEngine
     #>Stage du lanceur
     l_acc_stage = launcher.acc_stage
     #>Si il fait brûme et que Air-Lock n'est pas actif
-    l_acc_stage -= 1 if l_acc_stage > -6 and $env.fog? and !@_State[:air_lock]
+    l_acc_stage -= 1 if l_acc_stage > -6 && $env.fog? && !@_State[:air_lock]
     #>Modificateur de précision
     acc_mod = id == 533 ? ACC_Table[6] : ACC_Table[l_acc_stage+6]
     #>Talents
@@ -52,7 +53,7 @@ module BattleEngine
       acc_mod_ability *= 0.8 if skill.physical?
     end
     #> Baie Micle
-    if(@_State[:launcher_item] == 209)
+    if @_State[:launcher_item] == 209
       acc_mod_ability *= 1.2
       _mp([:berry_use, launcher, true])
     end
@@ -65,7 +66,7 @@ module BattleEngine
     #>Stage de la cible
     t_acc_stage=target.eva_stage
     #>Vérifier annule garde (launcher) et écrasement pour t_acc_stage
-    eva_mod = (id != 498 and id != 533) ? ACC_Table[t_acc_stage+6] : ACC_Table[6]
+    eva_mod = (id != 498 && id != 533) ? ACC_Table[t_acc_stage+6] : ACC_Table[6]
     #>Talents
     eva_mod_ability = 1
     ability = @_State[:target_ability]
@@ -77,11 +78,11 @@ module BattleEngine
     when 8 #> Pieds Confus
       eva_mod_ability *= 1.2 if target.confused?
     end
-    #>Modificateur des items
+    #> Items modificator
     eva_mod_item = _attack_hit_target_item?(launcher, target, skill)
 
-    #>Modificateur de gravité
-    gravity_mod = 1 #>Connait pas encore la formule pour...
+    #> Gravity Modificator
+    gravity_mod = 1 #> Connait pas encore la formule pour...
 
     #> Inconscient
     acc_mod = 1 if @_State[:target_ability] == 110
@@ -123,7 +124,7 @@ module BattleEngine
     return 1 unless item
     imisc = item.misc_data
     return 1 unless imisc
-    return 1 if imisc.need_user_id and imisc.need_user_id != launcher.id
+    return 1 if imisc.need_user_id && imisc.need_user_id != launcher.id
     n = 1
     n *= imisc.acc if imisc.acc
     return n
@@ -141,7 +142,7 @@ module BattleEngine
     return 1 unless item
     imisc = item.misc_data
     return 1 unless imisc
-    return 1 if imisc.need_user_id and imisc.need_user_id != target.id
+    return 1 if imisc.need_user_id && imisc.need_user_id != target.id
     n = 1
     n *= imisc.eva if imisc.eva
     return n

@@ -23,6 +23,8 @@ module Battle
       $game_temp.trainer_battle = battle_info.trainer_battle?
       $game_temp.in_battle = true
       @logic = create_logic
+      @logic.load_rng
+      @logic.load_battlers
       @visual = create_visual
       @AIs = Array.new(count_ai_battler) { create_ai }
       # Next method called in update

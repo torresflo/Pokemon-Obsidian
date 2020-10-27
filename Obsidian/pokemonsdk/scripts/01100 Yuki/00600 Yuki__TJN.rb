@@ -293,8 +293,8 @@ module Yuki
   end
 end
 
-Hooks.register(Spriteset_Map, :finish_init) do
+Hooks.register(Spriteset_Map, :finish_init, 'Yuki::TJN') do
   Yuki::TJN.force_update_tone
   Yuki::TJN.update
 end
-Hooks.register(Spriteset_Map, :update) { Yuki::TJN.update }
+Hooks.register(Spriteset_Map, :update, 'Yuki::TJN') { Yuki::TJN.update }

@@ -23,7 +23,7 @@ module GamePlay
     def update
       @utils.update
       return if $game_temp.message_text
-      if (Input.trigger?(:B) and @pokemon_move == nil)
+      if (Input.trigger?(:B) && @pokemon_move == nil && @utils.check)
         c = @utils.display_message(text_get(33, 85), 2, text_get(33, 83), text_get(33, 84))
         @running = false if (c == 1)
       end

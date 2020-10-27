@@ -154,12 +154,11 @@ module Yuki
       max_width = 0
       @texts.dispose
       @choices.each_index do |i|
-        text = PFM::Text.detect_dialog(@choices[i]).dup
+        text = PFM::Text.parse_string_for_messages(@choices[i]).dup
         text.gsub!(/\\[Cc]\[([0-9]+)\]/) do
           @colors[i] = translate_color($1.to_i)
           next(nil)
         end
-        text.gsub!(/\\t\[(.*),(.*)\]/) { ::PFM::Text.parse($1.to_i, $2.to_i) }
         text.gsub!(/\\d\[(.*),(.*)\]/) { $daycare.parse_poke($1.to_i, $2.to_i) }
         real_width = add_choice_text(text, i)
         max_width = real_width if max_width < real_width

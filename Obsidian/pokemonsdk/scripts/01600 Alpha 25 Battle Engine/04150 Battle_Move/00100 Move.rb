@@ -6,27 +6,31 @@ module Battle
 
     # @return [Integer] number of pp the move currently has
     attr_reader :pp
-
     # @return [Integer] maximum number of ppg the move currently has
     attr_reader :ppmax
-
     # @return [Boolean] if the move has been used
     attr_accessor :used
-
     # @return [Integer] Number of time the move was used consecutively
     attr_accessor :consecutive_use_count
+    # @return [Battle::Logic]
+    attr_reader :logic
+    # @return [Battle::Scene]
+    attr_reader :scene
 
     # Create a new move
     # @param id [Integer] ID of the move in the database
     # @param pp [Integer] number of pp the move currently has
     # @param ppmax [Integer] maximum number of pp the move currently has
-    def initialize(id, pp, ppmax)
+    # @param scene [Battle::Scene] current battle scene
+    def initialize(id, pp, ppmax, scene)
       @id = id
       @pp = pp
       @ppmax = ppmax
       @used = false
       @consecutive_use_count = 0
       @effectiveness = 1
+      @scene = scene
+      @logic = scene.logic
     end
 
     def to_s

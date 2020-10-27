@@ -16,7 +16,10 @@ module Util
         display_message(parse_text(22, 108))
         return false
       end
-
+      if $actors.empty? && extend_data[:open_party]
+        display_message(parse_text(22, 119))
+        return false
+      end
       return util_item_open_party_sequence(item, extend_data, result_process) if extend_data[:open_party]
       return util_item_on_use_sequence(item, extend_data) if extend_data[:on_use]
 

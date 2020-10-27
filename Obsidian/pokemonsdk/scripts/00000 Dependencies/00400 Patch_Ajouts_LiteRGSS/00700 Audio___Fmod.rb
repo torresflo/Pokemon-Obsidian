@@ -289,7 +289,7 @@ if Object.const_defined?(:FMOD)
     rescue FMOD::Error
       if !File.exist?(filename)
         log_error("Le fichier #{filename} n'a pas été trouvé !")
-      elsif $!.hr == 46
+      elsif $!.message.delete('FmodError ').to_i == 46
         p @se_sounds
         se_stop
         retry
@@ -479,6 +479,253 @@ if Object.const_defined?(:FMOD)
       FMOD::System.update
     end
   end
+elsif Object.const_defined?(:SFMLAudio)
+  module Audio
+    @bgm_sound = SFMLAudio::Music.new
+    @bgm_fade_settings = nil
+    @bgs_sound = SFMLAudio::Music.new
+    @bgs_fade_settings = nil
+    @me_sound = SFMLAudio::Sound.new
+    @me_buffer = SFMLAudio::SoundBuffer.new
+    @me_fade_settings = nil
+    @se_sounds = {}
+    @cries_stack = []
+    # List of extension that FmodEx can read (used to find files from names without ext name)
+    EXT = ['.ogg', '.mp3', '.wav', '.flac']
+
+    module_function
+
+    # plays a BGM and stop the current one
+    # @param file_name [String] name of the audio file
+    # @param volume [Integer] volume of the BGM between 0 and 100
+    # @param pitch [Integer] speed of the BGM in percent
+    # @param fade_in [Boolean, Integer] (ignored)
+    def bgm_play(file_name, volume = 100, pitch = 100, fade_in = true)
+      bgm_stop
+      return unless (memory = load_file_data(file_name))
+
+      @bgm_sound.open_from_memory(memory)
+      autoloop(@bgm_sound, memory)
+      @bgm_sound.set_loop(true)
+      @bgm_sound.set_pitch(pitch / 100.0)
+      @bgm_sound.set_volume(volume * @music_volume / 100.0)
+      @bgm_sound.play unless @me_sound.playing?
+      @bgm_was_playing = true
+    end
+
+    # Returns the BGM position
+    # @return [Integer]
+    def bgm_position
+      return 0 if @bgm_sound.stopped?
+
+      return (@bgm_sound.get_playing_offset * @bgm_sound.get_sample_rate).to_i
+    end
+
+    # Set the BGM position
+    # @param position [Integer]
+    def bgm_position=(position)
+      return if @bgm_sound.stopped?
+
+      @bgm_sound.set_playing_offset(position / @bgm_sound.get_sample_rate.to_f)
+    rescue StandardError
+      log_error("bgm_position= : #{$!.message}")
+    end
+
+    # Fades the BGM
+    # @param time [Integer] fade time in ms
+    def bgm_fade(time)
+      return if @bgm_sound.stopped?
+
+      @bgm_fade_settings = [Time.new, @bgm_sound.get_volume, time / 1000.0]
+    end
+
+    # Stop the BGM
+    def bgm_stop
+      @bgm_fade_settings = nil
+      @bgm_was_playing = false
+      return if @bgm_sound.stopped?
+
+      @bgm_sound.stop
+    end
+
+    # plays a BGS and stop the current one
+    # @param file_name [String] name of the audio file
+    # @param volume [Integer] volume of the BGS between 0 and 100
+    # @param pitch [Integer] speed of the BGS in percent
+    # @param fade_in [Boolean, Integer] if the BGS fades in when different (Integer = time to fade)
+    def bgs_play(file_name, volume = 100, pitch = 100, fade_in = true)
+      bgs_stop
+      return unless (memory = load_file_data(file_name))
+
+      @bgs_sound.open_from_memory(memory)
+      autoloop(@bgs_sound, memory)
+      @bgs_sound.set_loop(true)
+      @bgs_sound.set_pitch(pitch / 100.0)
+      @bgs_sound.set_volume(volume * @sfx_volume / 100.0)
+      @bgs_sound.play
+    end
+
+    # Fades the BGS
+    # @param time [Integer] fade time in ms
+    def bgs_fade(time)
+      return if @bgs_sound.stopped?
+
+      @bgs_fade_settings = [Time.new, @bgs_sound.get_volume, time / 1000.0]
+    end
+
+    # Stop the BGS
+    def bgs_stop
+      @bgs_fade_settings = nil
+      return if @bgs_sound.stopped?
+
+      @bgs_sound.stop
+    end
+
+    # plays a ME and stop the current one, the BGM will be paused during the ME play
+    # @param file_name [String] name of the audio file
+    # @param volume [Integer] volume of the ME between 0 and 100
+    # @param pitch [Integer] speed of the ME in percent
+    # @param preserve_bgm [Boolean] tell the function not to pause the bgm
+    def me_play(file_name, volume = 100, pitch = 100, preserve_bgm = false)
+      me_stop
+      return unless (memory = load_file_data(file_name))
+
+      @me_buffer.load_from_memory(memory)
+      @me_sound.set_buffer(@me_buffer)
+      @me_sound.set_pitch(pitch / 100.0)
+      @me_sound.set_volume(volume * @music_volume / 100.0)
+      @me_sound.play
+      @bgm_sound.pause if @bgm_sound.playing? && !preserve_bgm
+      @me_replay_bgm = true
+    end
+
+    # Fades the ME
+    # @param time [Integer] fade time in ms
+    def me_fade(time)
+      return if @me_sound.stopped?
+
+      @me_fade_settings = [Time.new, @me_sound.get_volume, time / 1000.0]
+    end
+
+    # Stop the ME
+    def me_stop
+      @me_fade_settings = nil
+      @bgm_sound.play if @bgm_was_playing && !@bgm_sound.stopped? && @me_replay_bgm
+      @me_replay_bgm = false
+      return if @me_sound.stopped?
+
+      @me_sound.stop
+    end
+
+    # plays a SE if possible
+    # @param file_name [String] name of the audio file
+    # @param volume [Integer] volume of the SE between 0 and 100
+    # @param pitch [Integer] speed of the SE in percent
+    def se_play(file_name, volume = 100, pitch = 100)
+      unless (sound = @se_sounds[file_name])
+        return unless (memory = load_file_data(file_name))
+
+        sound = SFMLAudio::Sound.new
+        buffer = SFMLAudio::SoundBuffer.new
+        buffer.load_from_memory(memory)
+        sound.set_buffer(buffer)
+        if file_name.downcase.include?('/cries/')
+          @cries_stack << sound
+          @cries_stack.shift.stop if @cries_stack.size > 5
+        else
+          @se_sounds[file_name] = sound
+        end
+      end
+      sound.stop if sound.playing?
+      sound.set_pitch(pitch / 100.0)
+      sound.set_volume(volume * @sfx_volume / 100.0)
+      sound.play
+    end
+
+    # Stops every SE
+    def se_stop
+      @se_sounds.each_value(&:stop)
+      @cries_stack.each(&:stop)
+      @cries_stack.clear
+      @se_sounds.clear
+    end
+
+    # Load the file data
+    # @param filename [String] name of the file without extension
+    # @return [String, nil]
+    def load_file_data(filename)
+      real_filename = search_filename(filename)
+      unless File.exist?(real_filename)
+        log_error("The audio file #{real_filename} couldn't be loaded")
+        return nil
+      end
+      return File.binread(real_filename)
+    end
+
+    # Search the real filename of the audio file
+    # @param file_name [String] filename of the audio file
+    # @return [String] real filename if found or file_name
+    def search_filename(file_name)
+      file_name = file_name.downcase
+      return file_name if File.exist?(file_name)
+
+      EXT.each do |ext|
+        filename = file_name + ext
+        return filename if File.exist?(filename)
+      end
+      return file_name
+    end
+
+    # Auto loop a music (only works for ogg if tags are in 2048 first bytes)
+    # @param music [SFML::Music] the music object
+    # @param memory [String] the file data
+    def autoloop(music, memory)
+      data = memory[0, 2048]
+      start_index = data.index('LOOPSTART=')
+      length_index = data.index('LOOPLENGTH=')
+      return unless start_index && length_index
+
+      start = data[start_index + 10, 20].to_i
+      lenght = data[length_index + 11, 20].to_i
+      log_info("LOOP: #{start} -> #{start + lenght}") unless PSDK_CONFIG.release?
+      frequency = music.get_sample_rate.to_f
+      music.set_loop_points(start / frequency, lenght / frequency)
+    end
+
+    # Reset the sound engine
+    def __reset__
+      bgm_stop
+      bgs_stop
+      me_stop
+      se_stop
+      @se_sounds = {}
+      @bgm_fade_settings = nil
+      @bgs_fade_settings = nil
+      @me_fade_settings = nil
+    end
+
+    # Update the Audio
+    def update
+      bgm_stop if @bgm_fade_settings && update_fade(@bgm_sound, *@bgm_fade_settings)
+      bgs_stop if @bgs_fade_settings && update_fade(@bgs_sound, *@bgs_fade_settings)
+      me_stop if @me_fade_settings && update_fade(@me_sound, *@me_fade_settings)
+      me_stop if @bgm_was_playing && @me_replay_bgm && @me_sound.stopped?
+    end
+
+    # Update a fading operation
+    # @param sound [SFMLAudio::Music]
+    # @param start_time [Time]
+    # @param volume [Float]
+    # @param duration [Float]
+    # @return [Boolean] if the sound should be stopped
+    def update_fade(sound, start_time, volume, duration)
+      current_duration = Graphics.current_time - start_time
+      return true if current_duration >= duration
+
+      sound.set_volume(volume * (1 - current_duration / duration))
+      return false
+    end
+  end
 else
   module Audio
     log_error('FMOD not found!')
@@ -499,7 +746,7 @@ else
 
     def se_play(*) end
 
-    def bgm_fate(time) end
+    def bgm_fade(time) end
 
     def bgs_fade(time) end
 

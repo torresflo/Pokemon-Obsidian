@@ -20,7 +20,7 @@ class Sprite_Picture < ShaderedSprite
   # @param picture [Game_Picture] the picture
   def initialize(viewport, picture)
     super(viewport)
-    self.shader = Shader.new(SPRITE_SHADER)
+    self.shader = Shader.create(:full_shader)
     @picture = picture
     @gif_handle = nil
     update

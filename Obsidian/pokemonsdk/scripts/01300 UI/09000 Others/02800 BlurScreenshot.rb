@@ -6,7 +6,7 @@ module UI
     def initialize(last_scene)
       @last_scene = last_scene
       super(guess_viewport)
-      self.shader = Shader.new(Shader.load_to_string('blur'))
+      self.shader = Shader.create(:blur)
       update_snapshot
     end
 

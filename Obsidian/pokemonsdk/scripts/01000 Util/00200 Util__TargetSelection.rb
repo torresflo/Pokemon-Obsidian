@@ -63,7 +63,7 @@ module Util
     def util_targetselection_automatic(launcher, skill)
       case skill.target
       when :adjacent_pokemon      #  eo eo ex / ux ao ax
-        arr = util_targetselection_adjacent_pokemon(launcher)
+        arr = util_targetselection_adjacent_foe(launcher)
         return [arr[rand(arr.size)]] if arr.size > 0
       when :adjacent_foe          #  eo eo ex / ux ax ax
         arr = util_targetselection_adjacent_foe(launcher)

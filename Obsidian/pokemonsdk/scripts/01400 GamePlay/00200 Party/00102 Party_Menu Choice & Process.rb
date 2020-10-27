@@ -1,5 +1,6 @@
 module GamePlay
   class Party_Menu
+    include Util::GiveTakeItem
     # List of all choice method to call according to the current mode
     CHOICE_METHODS = {
       menu: :show_menu_mode_choice,
@@ -138,70 +139,20 @@ module GamePlay
     # @param item2 [Integer] id of the item to give
     # @note if item2 is -1 it'll call the Bag interface to get the item
     def give_item(item2 = -1)
-      # @type [PFM::Pokemon]
-      pokemon = @party[@index]
-      if item2 == -1
-        @__result_process = proc { |scene| item2 = scene.return_data }
-        call_scene(Bag, :hold)
-        Graphics.wait(4) { update_during_process }
+      givetake_give_item(@party[@index], item2) do |pokemon|
+        @team_buttons[@index].data = pokemon
+        @team_buttons[@index].refresh
       end
-      return @base_ui.hide_win_text if item2 == -1
-      item1 = pokemon.item_holding
-      give_item_message(item1, item2, pokemon)
-      give_item_update_state(item1, item2, pokemon)
-      @team_buttons[@index].refresh
-      return @base_ui.hide_win_text unless pokemon.form_calibrate # Form adjustment
-      @team_buttons[@index].refresh
-      form_change_message(pokemon)
       @base_ui.hide_win_text
-    end
-
-    # Display the give item message
-    # @param item1 [Integer] taken item
-    # @param item2 [Integer] given item
-    # @param pokemon [PFM::Pokemon] Pokemong getting the item
-    def give_item_message(item1, item2, pokemon)
-      if item1 != 0 && item1 != item2
-        display_message(parse_text(22, 91, ::PFM::Text::ITEM2[0] => pokemon.item_name, ::PFM::Text::ITEM2[1] => ::GameData::Item[item2].name))
-      elsif item1 != item2
-        display_message(parse_text(22, 90, ::PFM::Text::ITEM2[0] => ::GameData::Item[item2].name))
-      end
-    end
-
-    # Update the bag and pokemon state when giving an item
-    # @param item1 [Integer] taken item
-    # @param item2 [Integer] given item
-    # @param pokemon [PFM::Pokemon] Pokemong getting the item
-    def give_item_update_state(item1, item2, pokemon)
-      pokemon.item_holding = item2
-      $bag.remove_item(item2, 1)
-      $bag.add_item(item1, 1) if item1 != 0
     end
 
     # Action of taking the item from the Pokemon
     def take_item
       @base_ui.hide_win_text
-      # @type [PFM::Pokemon]
-      pokemon = @party[@index]
-      item = pokemon.item_holding
-      $bag.add_item(item, 1)
-      pokemon.item_holding = 0
-      @team_buttons[@index].data = pokemon
-      @team_buttons[@index].refresh
-      display_message(parse_text(23, 78, ::PFM::Text::PKNICK[0] => pokemon.given_name, ::PFM::Text::ITEM2[1] => ::GameData::Item[item].name))
-      return @base_ui.hide_win_text unless pokemon.form_calibrate # Form ajustment
-      @team_buttons[@index].refresh
-      form_change_message(pokemon)
-      @base_ui.hide_win_text
-    end
-
-    # Form change message when item is taken or given
-    # @note : Also update interface state
-    # @param pokemon [PFM::Pokemon] Pokemon that change form
-    def form_change_message(pokemon)
-      pokemon.hp = ((pokemon.max_hp)*(pokemon.hp_rate)).round
-      @team_buttons[@index].data = pokemon
-      display_message(parse_text(22, 157, ::PFM::Text::PKNAME[0] => pokemon.given_name))
+      givetake_take_item(@party[@index]) do |pokemon|
+        @team_buttons[@index].data = pokemon
+        @team_buttons[@index].refresh
+      end
     end
 
     # Method telling if the Pokemon has no item or not
@@ -302,10 +253,10 @@ module GamePlay
             @running = false
           end
         elsif @extend_data[:open_skill_learn]
-          scene = Skill_Learn.new(pokemon, @extend_data[:open_skill_learn])
-          scene.main
-          @return_data = @index if scene.learnt
-          @running = false
+          call_scene(MoveTeaching, pokemon, @extend_data[:open_skill_learn]) do |scene|
+            @return_data = @index if scene.learnt
+            @running = false
+          end
         elsif @extend_data[:action_to_push]
           @return_data = @index
           @running = false

@@ -116,35 +116,45 @@ class Game_Character
 
   # SystemTags that forces the Game_Character to move
   RapidsTag = [RapidsL, RapidsU, RapidsD, RapidsR]
+  # System tag that force the player to move regardless if the system tag in front
+  ROCKET_TAGS = [RocketL, RocketU, RocketD, RocketR, RocketRL, RocketRU, RocketRD, RocketRR]
+  # List of translations for system tag movement
+  SLIDE_TAG_TO_MOVEMENT = {
+    TIce => :move_forward, RapidsL => :move_left, RapidsR => :move_right, RapidsU => :move_up, RapidsD => :move_down,
+    RocketL => :move_left, RocketU => :move_up, RocketD => :move_down, RocketR => :move_right,
+    RocketRL => :move_left, RocketRU => :move_up, RocketRD => :move_down, RocketRR => :move_right,
+    MachBike => :move_down
+  }
+  # System tags that rotate the player
+  ROTATING_SLIDING_TAGS = [RocketRL, RocketRU, RocketRD, RocketRR]
   # Update when the Game_Character slides
   def update_sliding
-    unless SlideTags.include?(sys_tag = system_tag) || sys_tag == MachBike
-      @sliding = false
-      Scheduler::EventTasks.trigger(:end_slide, self)
-    else
-      unless moving?
-        direction = @direction
-        case sys_tag
-        when TIce
-          move_forward
-        when RapidsL
-          move_left
-        when RapidsR
-          move_right
-        when RapidsU
-          move_up
-        when RapidsD, MachBike
-          move_down
-        end
-      end
-      if RapidsTag.include?(sys_tag)
-        if $game_switches[::Yuki::Sw::EV_TurnRapids]
-          @direction = direction
-          turn_left_90
-        end
+    return stop_slide unless can_slide?
+
+    sys_tag = system_tag
+    unless moving?
+      direction = @direction
+      movement = SLIDE_TAG_TO_MOVEMENT[sys_tag] || (ROCKET_TAGS.include?(@sliding_parameter) && SLIDE_TAG_TO_MOVEMENT[@sliding_parameter])
+      send(*movement) if movement
+      if RapidsTag.include?(sys_tag) && $game_switches[::Yuki::Sw::EV_TurnRapids] || ROTATING_SLIDING_TAGS.include?(@sliding_parameter)
+        @direction = direction
+        turn_left_90
       end
     end
+
     update_move
+  end
+
+  # Function that completely sto
+  def stop_slide
+    @sliding = false
+    Scheduler::EventTasks.trigger(:end_slide, self)
+  end
+
+  # Function that tells if the character can slide
+  # @return [Boolean]
+  def can_slide?
+    ROCKET_TAGS.include?(@sliding_parameter) || SlideTags.include?(sys_tag = system_tag) || sys_tag == MachBike
   end
 
   # Random movement (when Event is on "Move random")

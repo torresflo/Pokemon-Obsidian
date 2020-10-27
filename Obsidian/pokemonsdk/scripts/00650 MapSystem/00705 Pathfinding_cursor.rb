@@ -8,7 +8,7 @@ module Pathfinding
     # SystemTags that does not trigger leaving water
     SurfLTag = Game_Character::SurfLTag
     # SystemTags that triggers "sliding" state
-    SlideTags = [TIce, RapidsL, RapidsR, RapidsU, RapidsD]
+    SlideTags = [TIce, RapidsL, RapidsR, RapidsU, RapidsD, RocketL, RocketU, RocketD, RocketR, RocketRL, RocketRU, RocketRD, RocketRR]
     # Array used to detect if a character is on a bridge tile
     BRIDGE_TILES = [BridgeRL, BridgeUD]
 
@@ -414,6 +414,7 @@ module Pathfinding
       if SlideTags.include?(sys_tag = system_tag) ||
          (sys_tag == MachBike && !($game_switches[::Yuki::Sw::EV_Bicycle] && @lastdir4 == 8))
         @sliding = true
+        @sliding_param = sys_tag
       end
       @z = ZTag.index(sys_tag) if ZTag.include?(sys_tag)
       @z = 1 if @z < 1

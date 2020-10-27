@@ -89,12 +89,12 @@ class Scene_Battle
     #>Gestion de prescience et carnareket (OK !)
     #===
     battlers.each do |i|
-      if(i and i.hp>0 and i.battle_effect.is_locked_by_future_skill?)
-        if(i.battle_effect.get_future_skill_counter==1)
-          dmg=i.battle_effect.get_future_damage
+      if i&.hp > 0 && i&.battle_effect&.is_locked_by_future_skill?
+        if i.battle_effect.get_future_skill_counter == 1
+          dmg = i.battle_effect.get_future_damage
           skill_name = GameData::Skill[i.battle_effect.get_future_skill_id].name
           BattleEngine::_message_stack_push([:msgf, parse_text_with_pokemon(19, 1086, i, MOVE[1] => skill_name)])
-          if(dmg <= 0)
+          if dmg <= 0
             BattleEngine::_message_stack_push([:msg_fail])
           else
             BattleEngine::_message_stack_push([:hp_down, i, dmg])
@@ -105,77 +105,77 @@ class Scene_Battle
       end
     end
     #===
-    #>Bâillement
+    #> Yawn
     #===
     battlers.each do |i|
-      if(i and !i.dead? and i.battle_effect.fell_asleep_from_yawning?)
-        #> Garde Magik
-        if i.battle_effect.has_no_ability_effect? or i.ability != 17
-          _mp([:status_sleep, i, nil, 306, true]) #>Message ?
+      if !i&.dead? && i&.battle_effect&.fell_asleep_from_yawning?
+        #> Magic Guard
+        if i.battle_effect.has_no_ability_effect? || i.ability != 17
+          _mp([:status_sleep, i, nil, 306, true]) #> Message ?
         end
       end
     end
     #===
-    #>Gestion de voeux (OK !)
+    #> Wish
     #===
     battlers.each do |i|
-      if(i and !i.dead? and i.battle_effect.has_wish_effect?)
+      if !i&.dead? && i&.battle_effect&.has_wish_effect?
         BattleEngine::_mp([:msg, parse_text_with_pokemon(19, 700, i.battle_effect.get_wisher)])
         BattleEngine::_message_stack_push([:hp_up, i, i.max_hp / 2])
       end
     end
     #===
-    #>Gestion de Racines (OK !)
+    #> Ingrain
     #===
     battlers.each do |i|
-      if(i and !i.dead? and i.battle_effect.has_ingrain_effect?)
+      if !i&.dead? && i&.battle_effect&.has_ingrain_effect?
         BattleEngine::_mp([:msg, parse_text_with_pokemon(19, 739, i)])
         BattleEngine::_message_stack_push([:hp_up, i, i.max_hp / 16])
       end
     end
     #===
-    #>Gestion de Anneau Hydro (OK !)
+    #> Aqua Ring
     #===
     battlers.each do |i|
-      if(i and !i.dead? and i.battle_effect.has_aqua_ring_effect?)
+      if !i&.dead? && i&.battle_effect&.has_aqua_ring_effect?
         BattleEngine::_mp([:msg, parse_text_with_pokemon(19, 604, i)])
         BattleEngine::_message_stack_push([:hp_up, i, i.max_hp / 16])
       end
     end
     #===
-    #>Gestion des capacités spéciales heal
+    #> Heal abilities
     #===
     BattleEngine::Abilities.on_end_turn_heal_abilities
     phase4_message_display() if(BattleEngine::_message_stack_size>0)
     #===
-    #>Effet des objets (OK ?)
+    #> Item effects
     #===
     battlers.each do |i|
-      #> Garde Magik
-      if i.battle_effect.has_no_ability_effect? or i.ability != 17
-        #>Boue Noire
-        if(BattleEngine::_has_item(i, 281))
-          if(i.type_poison?)
+      #> Magic Guard
+      if i.battle_effect.has_no_ability_effect? || i.ability != 17
+        #> Black Sludge
+        if BattleEngine::_has_item(i, 281)
+          if i.type_poison?
             BattleEngine::_message_stack_push([:hp_up, i, i.max_hp/16])
           else
             BattleEngine::_message_stack_push([:hp_down, i, i.max_hp/8])
           end
-        #>Orbe Flamme
-        elsif(BattleEngine::_has_item(i, 273))
+        #> Flamme Orb
+        elsif BattleEngine::_has_item(i, 273)
           BattleEngine::_message_stack_push([:status_burn, i, true]) if i.battle_effect.nb_of_turn_here == 1
-        #>Orbe Toxique
-        elsif(BattleEngine::_has_item(i, 272))
+        #> Toxic Orb
+        elsif BattleEngine::_has_item(i, 272)
           BattleEngine::_message_stack_push([:status_toxic, i, true])  if i.battle_effect.nb_of_turn_here == 1
-        #>Orbe Vie
-        elsif(BattleEngine::_has_item(i, 270) && i.prepared_skill != 0)
+        #> Life Orb
+        elsif BattleEngine::_has_item(i, 270) && i.prepared_skill != 0
           BattleEngine::_message_stack_push([:hp_down, i, i.max_hp/10])
-        #>Piquants
-        elsif(BattleEngine::_has_item(i, 288))
+        #> Sticky Barb
+        elsif BattleEngine::_has_item(i, 288)
           BattleEngine::_message_stack_push([:hp_down, i, i.max_hp/8])
         end
       end
-      #>Restes
-      if(BattleEngine::_has_item(i, 234))
+      #> Leftovers
+      if BattleEngine::_has_item(i, 234)
         BattleEngine::_message_stack_push([:hp_up, i, i.max_hp/16])
       end
     end
@@ -183,40 +183,40 @@ class Scene_Battle
     #>Gestion de vampigraine (OK !)
     #===
     battlers.each do |i|
-      if(i and i.hp>0 and i.battle_effect.has_leech_seed_effect?)
-        #> Garde Magik
-        next if !i.battle_effect.has_no_ability_effect? and i.ability == 17
+      if i&.hp > 0 && i&.battle_effect&.has_leech_seed_effect?
+        #> Magic Guard
+        next if !i.battle_effect.has_no_ability_effect? && i.ability == 17
         BattleEngine::_message_stack_push([:msgf, parse_text_with_pokemon(19, 610, i)])
         hp=(i.max_hp<8 ? 1 : i.max_hp/8)
         BattleEngine::_message_stack_push([:hp_down, i, hp, true])
         receiver=i.battle_effect.get_leech_seed_receiver
-        if(receiver.battle_effect.has_heal_block_effect?)
+        if receiver.battle_effect.has_heal_block_effect?
           BattleEngine::_message_stack_push([:msg, parse_text_with_pokemon(19,890, receiver)])
           next
         end
-        #>Grosse Racine
-        hp = hp*130 / 100 if(BattleEngine::_has_item(receiver, 296))
+        #> Big Root
+        hp = hp*130 / 100 if BattleEngine::_has_item(receiver, 296)
         BattleEngine::_message_stack_push([:hp_up, receiver, hp])
         phase4_message_display()
       end
     end
     #===
-    #>Modifications des status (OK !)
+    #> Check status
     #===
     battlers.each do |i|
-      #> Garde Magik
-      if i.battle_effect.has_no_ability_effect? or i.ability != 17
+      #> Magic Guard
+      if i.battle_effect.has_no_ability_effect? || i.ability != 17
         _phase4_status_check(i)
       end
     end
-    phase4_message_display() if(BattleEngine::_message_stack_size>0)
+    phase4_message_display() if BattleEngine::_message_stack_size > 0
     #===
-    #>Gestione de l'effet d'Etreinte (OK !)
+    #> Bind
     #===
     battlers.each do |i|
-      if(i and i.hp>0 and i.battle_effect.has_bind_effect?)
-        #> Garde Magik
-        next if !i.battle_effect.has_no_ability_effect? and i.ability == 17
+      if i&.hp > 0 && i&.battle_effect&.has_bind_effect?
+        #> Magic Guard
+        next if !i.battle_effect.has_no_ability_effect? && i.ability == 17
         hp = i.battle_effect.get_bind_power(i)
         BattleEngine::_message_stack_push([:msgf, parse_text_with_pokemon(19, 1086, i, MOVE[1] => i.battle_effect.get_bind_skill_name)])
         BattleEngine::_message_stack_push([:hp_down, i, hp, true])
@@ -224,14 +224,14 @@ class Scene_Battle
       end
     end
     #===
-    #>Cauchemard (OK !)
+    #> Nightmare
     #===
     battlers.each do |i|
-      if(i and i.hp>0 and i.battle_effect.has_nightmare_effect?)
+      if i&.hp > 0 && i&.battle_effect&.has_nightmare_effect?
         #> Garde Magik
-        next if !i.battle_effect.has_no_ability_effect? and i.ability == 17
-        if(i.asleep?)
-          hp=i.max_hp/4
+        next if !i.battle_effect.has_no_ability_effect? && i.ability == 17
+        if i.asleep?
+          hp = i.max_hp / 4
           BattleEngine::_message_stack_push([:msgf, parse_text_with_pokemon(19, 324, i)])
           BattleEngine::_message_stack_push([:hp_down, i, hp, true])
           phase4_message_display()
@@ -241,13 +241,13 @@ class Scene_Battle
       end
     end
     #===
-    #>Malédication (OK !)
+    #> Curse
     #===
     battlers.each do |i|
-      if(i and i.hp>0 and i.battle_effect.has_curse_effect?)
-        #> Garde Magik
+      if i&.hp>0 && i&.battle_effect&.has_curse_effect?
+        #> Magik Guard
         next if !i.battle_effect.has_no_ability_effect? and i.ability == 17
-        hp=i.max_hp/4
+        hp = i.max_hp / 4
         BattleEngine::_message_stack_push([:msgf, parse_text_with_pokemon(19, 1077, i)])
         BattleEngine::_message_stack_push([:hp_down, i, hp, true])
         phase4_message_display()
@@ -302,7 +302,6 @@ class Scene_Battle
     end
     #>END
 
-    
     BattleEngine::_State_update
     phase4_message_display() if(BattleEngine::_message_stack_size>0)
     BattleEngine.get_actors.each { |pokemon| pokemon&.battle_turns = 0 } if @exp_distributed
@@ -321,87 +320,85 @@ class Scene_Battle
       next unless enemies[i]
       be=enemies[i].battle_effect
       #===
-      #>Vampigraine (OK !)
+      #> Leech Seed
       # On attribue le gain au Pokémon Switché
       #===
-      if(be.has_leech_seed_effect? and be.get_leech_seed_receiver==actors[old_pokemon])
-        if(actors[current_pokemon].type_plante?)
+      if be.has_leech_seed_effect? && be.get_leech_seed_receiver==actors[old_pokemon]
+        if actors[current_pokemon].type_plante?
           be.apply_leech_seed(actors[current_pokemon])
         else
           be.apply_leech_seed(false)
         end
       end
-      #>Possessif
-      if(be.has_imprison_effect? and be.get_imprison_launcher==actors[old_pokemon])
+      #> Imprison
+      if be.has_imprison_effect? && be.get_imprison_launcher==actors[old_pokemon]
         be.apply_imprison_effect(nil, nil)
       end
     end
     #>Médic Nature
-    if(BattleEngine::Abilities.has_ability_usable(actors[old_pokemon], 56))
+    if BattleEngine::Abilities.has_ability_usable(actors[old_pokemon], 56)
       actors[old_pokemon].cure
     end
 
     #>Danse-Lune / Vœu Soin
-    if(actors[old_pokemon].last_skill==461 or actors[old_pokemon].last_skill==361)
+    if actors[old_pokemon].last_skill==461 || actors[old_pokemon].last_skill==361
       BattleEngine::_message_stack_push([:hp_up, actors[current_pokemon], actors[current_pokemon].max_hp])
       BattleEngine::_message_stack_push([:status_cure, actors[current_pokemon]])
       BattleEngine::_message_stack_push([:msgf, parse_text_with_pokemon(19, actors[old_pokemon].last_skill==361 ? 697 : 694, actors[current_pokemon])])
     end
-    #>Effet lors des switchs
-    be=actors[old_pokemon].battle_effect
-    be2=actors[current_pokemon].battle_effect
-    #>Voeu
-    if(be.has_wish_effect?)
+    #> Switches' effects
+    be = actors[old_pokemon].battle_effect
+    be2 = actors[current_pokemon].battle_effect
+    #> Wish
+    if be.has_wish_effect?
       be2.apply_wish(be.get_wisher, 1)
     end
-    #>Préscience and co
-    if(be.is_locked_by_future_skill?)
+    #> Future Skill
+    if be.is_locked_by_future_skill?
       be2.set_future_skill(be.get_future_damage, be.get_future_skill_counter-1, be.get_future_skill_id)
     end
-    #>Copie
-    be.get_mimic.each do |pokemon, skill|
-      skill.reset
-    end
+    #> Mimic
+    be.get_mimic.each { |pokemon, skill| skill.reset }
     be.get_mimic.clear
-    #>Brûme
-    if(be.has_mist_effect?)
+    #> Mist
+    if be.has_mist_effect?
       be2.apply_mist(be.get_mist_counter)
     end
-    #> Partie Entry Hazard
+    #> Entry Hazard
     switch_turn_entry_hasard(actors[current_pokemon])
-    #>Relais
-    if(actors[old_pokemon].last_skill == 226)
-      if(be.has_leech_seed_effect?) #> Vampigraine <- Relais
+    #> Baton Pass
+    if actors[old_pokemon].last_skill == 226
+      if(be.has_leech_seed_effect?) #> Leech Seed <- Baton Pass
         be2.apply_leech_seed(be.get_leech_seed_receiver) unless actors[current_pokemon].type_grass?
       end
-      if(be.has_bind_effect?) #> Bind <- Relais
+      if(be.has_bind_effect?) #> Bind <- Baton Pass
         be.transmit_bind(be2)
       end
-      if(actors[old_pokemon].confused?) #> Confusion <- Relais
+      if(actors[old_pokemon].confused?) #> Confusion <- Baton Pass
         actors[current_pokemon].status_confuse
       end
-      if(be.has_aqua_ring_effect?) #> Anneau Hydro <- Relais
+      if(be.has_aqua_ring_effect?) #> Aqua Ring <- Baton Pass
         be2.apply_aqua_ring_effect
       end
-      if(be.has_substitute_effect?) #> Clonage <- Relais
+      if(be.has_substitute_effect?) #> Substitute <- Baton Pass
         be.transmit_substitute(be2)
       end
-      if(::GameData::Flag_4G and be.has_cant_flee_effect?) #> Regard Noir <- Relais
+      if(::GameData::Flag_4G && be.has_cant_flee_effect?) #> Mean Look <- Baton Pass
         be.transmit_cant_flee(be2)
       end
     end
-    actors[current_pokemon].attack_order=255
+    actors[current_pokemon].attack_order = 255
     BattleEngine::Abilities.on_launch_ability(actors[current_pokemon], true)
-    phase4_message_display() if(BattleEngine::_message_stack_size>0)
+    phase4_message_display() if BattleEngine::_message_stack_size > 0
   end
 
   def switch_turn_entry_hasard(pokemon)
-    return unless pokemon and !pokemon.dead?
+    return unless !pokemon&.dead?
     #>> Vérifier garde magique pour picot, piege de rock et pics toxiques !
     _state = ::BattleEngine.state
     _is_enemy = pokemon.position < 0
-    #>Picot
-    if((value = _state[_is_enemy ? :enn_spikes : :act_spikes]) > 0 and ::BattleEngine._is_grounded(pokemon))
+    #> Spikes
+    if (value = _state[_is_enemy ? :enn_spikes : :act_spikes]) > 0 && ::BattleEngine._is_grounded(pokemon)
       hp = pokemon.max_hp * (2 + value - 1) / 16
       if(hp > 0)
         BattleEngine::_message_stack_push([:hp_down, pokemon, hp, true])
@@ -409,33 +406,33 @@ class Scene_Battle
         phase4_message_display
       end
     end
-    #>Piege de rock
-    if(_state[_is_enemy ? :enn_stealth_rock : :act_stealth_rock])
+    #> Stealth Rock
+    if _state[_is_enemy ? :enn_stealth_rock : :act_stealth_rock]
       hp = pokemon.battle_effect.get_stealth_rock_dammages(pokemon)
-      if(hp > 0)
+      if hp > 0
         BattleEngine::_message_stack_push([:hp_down, pokemon, hp, true])
         BattleEngine::_msgp(19, 857, pokemon)
         phase4_message_display
       end
     end
-    #>Pics Toxic
+    #> Toxic Spikes
     if((value = _state[_is_enemy ? :enn_toxic_spikes : :act_toxic_spikes]) > 0 and ::BattleEngine._is_grounded(pokemon))
       if(pokemon.type_poison?)
         _state[_is_enemy ? :enn_toxic_spikes : :act_toxic_spikes] = 0
         BattleEngine::_msgp(18, _is_enemy ? 161 : 160)
-      elsif(pokemon.can_be_poisoned?)
+      elsif pokemon.can_be_poisoned?
         #BattleEngine::_msgp(19, 854, pokemon)
         BattleEngine::_message_stack_push([value == 1 ? :status_poison : :status_toxic, pokemon])
       end
       phase4_message_display
     end
-    #>Toile gluante
+    #> Sticky Web
     if((value = _state[_is_enemy ? :enn_sticky_web : :act_sticky_web]) and ::BattleEngine._is_grounded(pokemon))
       BattleEngine::_message_stack_push([:apply_effect, pokemon, :sticky_web])
       BattleEngine::_msgp(19, 1222, pokemon)
       phase4_message_display
     end
-    if BattleEngine._has_item(pokemon, 541) #> Ballon
+    if BattleEngine._has_item(pokemon, 541) #> Air Balloon
       BattleEngine._msgp(19, 408, pokemon)
     end
   end

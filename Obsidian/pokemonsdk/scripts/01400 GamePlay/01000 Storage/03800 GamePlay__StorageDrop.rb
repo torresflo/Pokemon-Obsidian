@@ -21,7 +21,7 @@ module GamePlay
       @utils.update
       return if $game_temp.message_text
       if (@mode == :selection)
-        if (Input.trigger?(:B))
+        if (Input.trigger?(:B) && @utils.check)
           c = @utils.display_message(text_get(33, 85), 2, text_get(33, 83), text_get(33, 84))
           @running = false if (c == 1)
         end

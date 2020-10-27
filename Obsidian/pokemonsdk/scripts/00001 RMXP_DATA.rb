@@ -544,7 +544,7 @@ module RPG
   end
 end
 module RPG
-  class Sprite < LiteRGSS::Sprite
+  class Sprite < LiteRGSS::ShaderedSprite
     attr_accessor :blend_type
     attr_accessor :bush_depth
     attr_accessor :tone

@@ -107,6 +107,8 @@ module Scheduler
 end
 
 Scheduler::EventTasks.on(:end_jump, 'Dust after jumping') do |event|
+  next if event.particles_disabled
+
   particle = Game_Character::SurfTag.include?(event.system_tag) ? :water_dust : :dust
   Yuki::Particles.add_particle(event, particle)
 end

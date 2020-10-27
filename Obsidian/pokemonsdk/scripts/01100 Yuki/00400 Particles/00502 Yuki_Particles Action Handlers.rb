@@ -20,8 +20,8 @@ module Yuki
     add_handler(:zoom) { |data| @sprite.zoom = data * 1 }
     add_handler(:file) do |data|
       @sprite.bitmap = RPG::Cache.particle(data)
-      @ox = (@sprite.bitmap.width * @sprite.zoom_x) / 2
-      @oy = (@sprite.bitmap.height * @sprite.zoom_y) / 2
+      @ox = @sprite.bitmap.width / 2
+      @oy = @sprite.bitmap.height
     end
     add_handler(:position) { |data| @position_type = data }
     add_handler(:angle) { |data| @sprite.angle = data }
@@ -45,7 +45,7 @@ module Yuki
     add_handler(:rect) do |data|
       @sprite.src_rect.set(*data)
       @ox = data[2] / 2 # d[2] * @sprite.zoom_x
-      @oy = data[3] / 2 # d[3] * @sprite.zoom_y
+      @oy = data[3] # d[3] * @sprite.zoom_y
     end
   end
 end

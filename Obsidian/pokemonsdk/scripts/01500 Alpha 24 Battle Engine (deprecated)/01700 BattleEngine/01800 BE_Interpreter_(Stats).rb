@@ -47,27 +47,27 @@ def change_{d1}(target, power)
   return if @ignore or target.hp<=0
   return if @no_secondary_effect
   return if target.battle_effect.has_no_stat_change_effect?
-  return if target.battle_effect.has_substitute_effect? and @launcher != target and @skill and @skill.id != 432
-  if(power < 0 and target != @launcher)
+  return if target.battle_effect.has_substitute_effect? && @launcher != target && @skill && @skill.id != 432
+  if power < 0 && target != @launcher
     #> Corps Sain / Écran Fumée
-	return if check_flora_stats(target) == true
-	# Herbivore
+	  return if check_flora_stats(target) == true
+	  # Herbivore
     if @skill && @skill.type_grass? && BattleEngine::Abilities.has_ability_usable(target, 156)
-	  _mp([:ability_display, target])
-	  _mp([:change_atk, target, 1])
-	  #_msgp(19, something_not_written,target)
-	  return
+	    _mp([:ability_display, target])
+	    _mp([:change_atk, target, 1])
+	    #_msgp(19, something_not_written,target)
+	    return
     end
     if(Abilities.has_abilities(target, 35, 101))
-	  _mp([:ability_display, target])
-	  _msgp(19, 198, target)
+	    _mp([:ability_display, target])
+	    _msgp(19, 198, target)
       return
     #> Hyper Cutter
     elsif(:{d1} == :atk and Abilities.has_ability_usable(target, 51))
       _mp([:ability_display, target])
       _msgp(19, 201, target)
       return
-    #> Regard Vif
+    #> Keen Eye
     elsif(:{d1} == :acc and Abilities.has_ability_usable(target, 7))
       _mp([:ability_display, target])
       _msgp(19, 207, target)

@@ -42,9 +42,11 @@ module PFM
 
     # Create a new PokemonBattler from a Pokemon
     # @param original [PFM::Pokemon] original Pokemon (protected during the battle)
+    # @param scene [Battle::Scene] current battle scene
     # @param max_level [Integer] new max level for Online battle
-    def initialize(original, max_level = Float::INFINITY)
+    def initialize(original, scene, max_level = Float::INFINITY)
       @original = original
+      @scene = scene
       copy_properties
       copy_moveset
       init_states
@@ -93,7 +95,7 @@ module PFM
     def copy_moveset
       @moveset = Array.new(@original.skills_set.size)
       @original.skills_set.each_with_index do |skill, index|
-        @moveset[index] = Battle::Move[skill.symbol].new(skill.id, skill.pp, skill.ppmax)
+        @moveset[index] = Battle::Move[skill.symbol].new(skill.id, skill.pp, skill.ppmax, @scene)
       end
       @skills_set = @moveset
     end
