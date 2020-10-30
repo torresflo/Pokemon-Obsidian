@@ -6,6 +6,8 @@ module NuriYuri
       DIRECTION_OFFSET = -12
       # Offset of the light in other modes
       NORMAL_OFFSET = -8
+      # Zoom of a tile to process coodinate properly
+      TILE_ZOOM = PSDK_CONFIG.tilemap.character_tile_zoom
 
       # @return [Integer] ID of the light in the stack
       attr_accessor :light_id
@@ -25,7 +27,7 @@ module NuriYuri
         @zoom_count = zoom_count
         @opacity_list = animation[:opacity]
         @opacity_count = opacity_count
-        @zoom = PSDK_CONFIG.specific_zoom || 2
+        @tile_zoom = TILE_ZOOM
       end
 
       # Update the sprite
@@ -36,7 +38,7 @@ module NuriYuri
 
         self.zoom = @zoom_list[@zoom_count]
         self.opacity = @opacity_list[@opacity_count]
-        set_position(@character.screen_x / @zoom, @character.screen_y / @zoom + @offset_y)
+        set_position((@character.screen_x * @tile_zoom).floor, (@character.screen_y * @tile_zoom).floor + @offset_y)
         sub_sprite_update if @sub_sprite
         update_direction if @mode == :direction
       end
