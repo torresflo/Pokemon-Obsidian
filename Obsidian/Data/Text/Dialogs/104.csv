@@ -28,7 +28,7 @@ Index,en,fr
 26,TEXT,"Pour qu'il n'y ai aucune suspicion, je ne vais pas pouvoir te la fournir moi-même."
 27,TEXT,"Tu vas devoir te rendre à \t[10, 8] à l'ouest d'ici et en demander une au \t[10, 9].\nlC'est la-bas que se réunissent tous les dresseurs pour participer à la compétition."
 28,TEXT,"Ah, avant que tu ne partes, voici un cadeau pour toi."
-29,TEXT,"C'est un \c[1]\t[14, 1]\c[0]. Tous les dresseurs qui sortent de l'Ecole de Dresseurs en ont un.\nlCela te permets d'obtenir des informations sur tous les Pokémons que tu croiseras ou attraperas."
+29,TEXT,"C'est un \c[1]\t[14, 1]\c[0]. Tous les dresseurs qui sortent de l'Ecole de Dresseurs en ont un.\nlCela te permets d'obtenir des informations sur tous les Pokémon que tu croiseras ou attraperas."
 30,TEXT,Nous discuterons de la suite ensemble plus tard.\nlBonne chance.
 31,TEXT,\n[1] !
 32,TEXT,"Je t'ai vu sortir du \t[10, 5].\nlJe ne savais pas que tu t'y intéressais."

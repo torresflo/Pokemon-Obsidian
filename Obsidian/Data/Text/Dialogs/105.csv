@@ -8,7 +8,7 @@ Index,en,fr
 6,TEXT,N'espère pas échapper à ce combat !\nlEt ne viens pas pleurer si tu perds !
 7,TEXT,C'est moi qui pleure de ma défaite...
 8,TEXT,Qu'est ce que tu préfères ?\nlPécher dans les étangs et les rivières ou dans la mer et l'océan ?
-9,TEXT,Tu savais que les Pokémons que tu peux pécher dans les étangs et les rivières ne sont pas les mêmes que ceux que l'on trouve dans la mer et l'océan ?
+9,TEXT,Tu savais que les Pokémon que tu peux pécher dans les étangs et les rivières ne sont pas les mêmes que ceux que l'on trouve dans la mer et l'océan ?
 10,TEXT,Oh non !\nlC'est catastrophique !\nlJ'ai fais tomber mon Pokédex et il a atterri de l'autre côté de la rive...\nl Tu veux bien m'aider à le récupérer s'il te plaît ?
 11,TEXT,Ce bateau est plutôt vieux mais à l'air en état de marche.
 12,TEXT,"Bonjour jeune homme.\nlJe vais bientôt effectuer un nouveau voyage vers \t[10, 8], es-tu intéressé pour que je t'y amène ?\nlAttention, je ne vais pas revenir ici avant un certain temps."
@@ -25,7 +25,7 @@ Index,en,fr
 23,TEXT,C'est un problème récurent sur les vieux bateaux.[WAIT 60]\nl...\nlJe dois avoir de quoi le réparer chez moi.\nlNous ferions mieux d'y aller tout de suite d'ailleurs.
 24,TEXT,Cette étrange machine semble pomper l'eau de ce lac souterrain.
 25,TEXT,L'ordinateur est verrouillé.
-26,TEXT,Laisse-moi soigner tes Pokémons.
-27,TEXT,Viens me voir si tu as besoin que je soigne tes Pokémons.
+26,TEXT,Laisse-moi soigner tes Pokémon.
+27,TEXT,Viens me voir si tu as besoin que je soigne tes Pokémon.
 28,TEXT,"Hmm, je devrai avoir de quoi réparer un gouvernail ici...[WAIT 60]\nl...[WAIT 60]\nlHmm, ça devrait faire l'affaire..."
 29,TEXT,"Je vais voir ce que je peux faire à ton bateau, retrouve moi la-bas."
