@@ -29,3 +29,13 @@ Index,en,fr
 27,TEXT,Viens me voir si tu as besoin que je soigne tes Pokémon.
 28,TEXT,"Hmm, je devrai avoir de quoi réparer un gouvernail ici...[WAIT 60]\nl...[WAIT 60]\nlHmm, ça devrait faire l'affaire..."
 29,TEXT,"Je vais voir ce que je peux faire à ton bateau, retrouve moi la-bas."
+30,TEXT,Ce gentil monsieur a accepté de nous aider à réparer notre bateau.\nlJ'espère que tout se passe bien...
+31,TEXT,"Une pièce à l'air coincé et je n'arrive pas à la débloquer...\nlIl nous faudrait l'aide d'un Pokémon fort tel que \c[2]\t[0, 66]\c[0].\nlPeux-tu essayer d'en attraper un ?\nlEt ne t'aventures pas trop loin dans la caverne.\nlReviens me voir si tu es à cours de \c[1]\t[12, 4]\c[0]."
+32,TEXT,"Je vois que tu n'as plus de \c[1]\t[12, 4]\c[0] ?\nlEn voilà quelques-unes, ne les gâche pas je n'en n'ai pas beaucoup !"
+33,TEXT,"Oh !\nlMais tu as attrapé un \c[2]\t[0, 66]\c[0] !\nlParfait, il va pouvoir nous aider à décoincer cette pièce bloquée."
+34,TEXT,"Bien voilà qui est fait, c'est réparé."
+35,TEXT,"Je retroune chez moi, bon voyage."
+36,TEXT,Que fais-tu encore ici ?\nlVous n'êtes pas encore partis ?
+37,TEXT,"La bateau est réparé, tu es prêt à repartir ?"
+38,TEXT,"Et voilà, nous somme arrivés à \t[10, 8] !\nlDésolé pour le contre temps !\nlJe te souhaites le meilleur pour ton aventure !"
+39,TEXT,"Je vais faire vérifier mon bateau avant de repartir, cela va prendre un peu de temps..."

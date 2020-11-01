@@ -4,6 +4,7 @@
  <tileset firstgid="5465" source="interior.tsx"/>
  <tileset firstgid="7481" source="interior_2.tsx"/>
  <tileset firstgid="9305" source="passages.tsx"/>
+ <tileset firstgid="9321" source="pokemon_center.tsx"/>
  <layer id="2" name="ground_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eAFjYBgFIykElogxMJCCCYUNyKzFJOBR81BDgNrhtw8YF9tIwKiuweQtApq1EA2HizMwRAAxujiIPwpGVggAAHpIRbY=
@@ -36,7 +37,7 @@
  </layer>
  <layer id="22" name="furniture_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgF1A6BVTLUNXET0Ly1QLwOydwNSGxSbdsF1LsViLchmbEDiQ0yT0Ecgkk1G596kJnEgolA95QCcRkQT0JzG7FmIKsDmVcLxHVUMg/ZbFxsYvzLqoJL96j4aAgM/hAAAKfLDVI=
+   eAFjYBgF1A6BVTL4TWxXxS+PLrsJaN5aIF6HZO4GJHY/iebtAurdCsTbkMzYgcSeDjRPQRyC0d1CCR9kJrFgItA9pUBcBsSTkNxGrH50dSDzaoG4jkrmoZuPjU+Mf1lVsOkcFRsNgaERAgAYgg9u
   </data>
  </layer>
  <group id="5" name="z=0"/>
