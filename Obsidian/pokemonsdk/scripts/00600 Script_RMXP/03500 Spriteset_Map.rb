@@ -308,7 +308,7 @@ class Spriteset_Map
       color = $1.to_i
       nil
     end
-    @sp_fg = Text.new(0, nil, 2, -30 - 4, bmp.width, bmp.height, map_name, 1,
+    @sp_fg = Text.new(0, nil, 2, -30 - 4, bmp.width, bmp.height + 12, map_name, 1,
                       Text::Util::DEFAULT_OUTLINE_SIZE, color)
     @sp_fg.z = 5002
     @counter = 0
