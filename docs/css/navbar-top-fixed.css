@@ -1,0 +1,267 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  background-color: #2f3749;
+}
+
+#initial-setup, #lightgun-setup, #command-line-options {
+	display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+.name-filter {
+	display: none;
+}
+
+.obsidianDownload {
+	padding: 5px;
+	color: #1c75bc;
+}
+
+.obsidianDownload:hover {
+	color: #fff;
+	background-color: #1c75bc;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.obsidianList li {
+	margin-bottom: 5px;
+}
+
+.qaq {
+	font-weight: bold;
+}
+
+.qaa {
+	margin-left: 15px;
+	padding-left: 5px;
+	border-left: 3px solid #27aae1;
+}
+
+.gpu-support i {
+	font-size: 36px;
+}
+
+.gpu-support p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#getStarted {
+	text-align: center;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+#getStarted a {
+	height: 100px;
+	line-height: 100px;
+	width: 100%;
+	font-size: 36px;
+	padding: 0;
+	margin: 0;
+}
+
+.compat-key i {
+	padding-right: 10px;
+}
+
+.obsidian-box-content {
+	padding: 15px;
+	background-color: #fff;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#quickTable, #gpuTable {
+	width: 99%;
+	margin: 0 auto;
+}
+
+#quickTable td {
+	width: 3.8%;
+	text-align: center;
+}
+
+#quickTable td a {
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+	color: #1c75bc;
+	padding: 5px 0;
+}
+
+#quickTable td a:hover {
+	background-color: #1c75bc;
+	color: #fff;
+	text-decoration: none;
+}
+
+#quickTable tr, #gpuTable tr {
+	border: 0;
+}
+
+#quickTable tr:hover, #gpuTable:hover {
+	background-color: #fff !important;
+}
+
+.click-row {
+	cursor: pointer;
+}
+
+table {
+	font-size: 14px;
+}
+
+table tbody {
+	border: 0 !important;
+	color: #1d222e;
+}
+
+table tbody i {
+	font-size: 40px;
+}
+table tbody td[data-col] i, .small-icon {
+	font-size: 1.25rem;
+}
+
+table tbody tr {
+	background-color: #fff;
+}
+
+table tbody tr:hover {
+	background-color: #1d222e !important;
+	color: #fff;
+}
+
+table th, table td {
+	border: 0 !important;
+}
+
+table thead tr {
+	border: 0;
+	color: #fff;
+}
+
+table tr {
+	border-top: 1px solid #000;
+}
+
+table img {
+	width: 75px;
+	height: 75px;
+}
+
+table th:first-child {
+	width: 110px;
+	text-align: center;
+}
+
+table tr td {
+	vertical-align: middle !important;
+}
+
+p, li {
+	font-size: 14px;
+}
+
+.wow {
+	font-weight: bold;
+	color: #fc001f;
+}
+
+.obsidian-box-header {
+	background-color: #1d222e;
+	color: #fff;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	padding: 15px;
+}
+
+.obsidian-box-header p {
+	font-weight: bold;
+	margin: 0 !important;
+}
+
+.obsidian-box-header i {
+	margin-right: 10px;
+}
+
+.bg-obsidian {
+	background-color: #1d222e;
+}
+
+.navbar {
+	padding: 0 1rem !important;
+}
+
+.nav-link {
+	color: #27aae1 !important;
+	padding: 0 1rem !important;
+	line-height: 80px;
+	font-size: 14px;
+	/*font-weight: bold;*/
+}
+
+.nav-link i {
+	margin-right: 5px;
+}
+
+.nav-link:hover {
+	color: #1d222e !important;
+	background-color: #27aae1;
+}
+
+.carousel {
+	margin-top: 20px;
+	border-radius: 3px;
+	background-color: #000;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+.carousel-item img {
+	max-width: 640px;
+	height: 480px;
+	margin: auto;
+}
+
+.obsidian-box {
+	background-color: #1d222e;
+	border-radius: 3px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+.obsidian-box-clear {
+	background-color: transparent;
+	border-radius: 3px;
+}
+
+.row {
+	margin-top: 20px;
+}
+.row .row {
+	margin-top: 0;
+}
+
+.perfect {
+	color: blue;
+}
+
+.great {
+	color: green;
+}
+
+.issues {
+	color: orange;
+}
+
+.unplayable {
+	color: red;
+}
+
+.unknown {
+	color: grey;
+}
