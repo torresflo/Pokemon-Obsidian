@@ -117,6 +117,9 @@
   fusiville_gym.tmx:
     :id: 40
     :tileset: fusiville_gym
+  fusiville_club_storage_room.tmx:
+    :id: 41
+    :tileset: fusiville_club_storage_room
 :tilesets:
   amaryllis_city: amaryllis_city.png
   amaryllis_player_house_floor_1: amaryllis_player_house_floor_1.png
@@ -157,3 +160,4 @@
   fusiville_club_first_room: fusiville_club_first_room.png
   fusiville_club_second_room: fusiville_club_second_room.png
   fusiville_gym: fusiville_gym.png
+  fusiville_club_storage_room: fusiville_club_storage_room.png
