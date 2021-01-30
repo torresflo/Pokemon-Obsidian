@@ -3,7 +3,7 @@
  <tileset firstgid="1" source="exterior.tsx"/>
  <tileset firstgid="5465" source="interior_2.tsx"/>
  <tileset firstgid="7289" source="interior.tsx"/>
- <tileset firstgid="9305" source="passages.tsx"/>
+ <tileset firstgid="9313" source="passages.tsx"/>
  <layer id="2" name="ground_1" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eAFjYBgFoyEwMkLgrAwDAzqmxOfoZoH4lICRbt6ZQRZ+lMTlSNELAC3RH9s=
@@ -92,9 +92,9 @@
   </data>
  </layer>
  <group id="11" name="z=2"/>
- <layer id="12" name="passages" width="20" height="20">
+ <layer id="12" name="passages" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyFAnRDIUGFgQMeUmAwzC2QGMptcM6OB7kMGsWh8ZDli2CA3gQDMbdQwD2YmyFxqmAcyBwaoZR7Mv8huhdlBCo0eHyC9aRTECcxdUUAzQDiOArNI8cdIVgsABO8Qhw==
+   eAFjYBgFoyFAnRAoUGFgQMeUmAwzC2QGMptcM5OB7kMGqWh8ZDli2CA3gQDMbdQwD2YmyFxqmAcyBwaoZR7Mv8huhdlBCo0eHyC9eRTECcxdSUAzQDiNArNI8cdIVgsApW0Rfw==
   </data>
  </layer>
  <layer id="20" name="systemtags" width="20" height="20">
