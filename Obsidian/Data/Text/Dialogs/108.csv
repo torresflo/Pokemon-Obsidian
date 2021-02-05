@@ -6,17 +6,17 @@ Index,en,fr
 4,TEXT,"Ce serveur contient les données de toutes les personnes possédant une \c[1]\t[12, 921]\c[0] qui ont été distribuées par le \t[10,9]."
 5,TEXT,Ce serveur semble gérer les différents matériels informatiques présents dans la pièce.
 6,TEXT,Il est possible de manipuler le verrou électronique d'un coffre.
-7,TEXT,Voulez-vous désactiver la serrure électronique du coffre ?
+7,TEXT,Souhaites-tu désactiver la serrure électronique du coffre ?
 8,TEXT,Le coffre est verrouillé par une serrure électronique.\nlIl doit y avoir de quoi la désactiver ici...
 9,TEXT,"Le coffre est ouvert.\nlIl y a une \c[1]\t[12, 921]\c[0] à l'intérieur !"
-10,TEXT,"L'\c[1]\t[12, 921]\c[0] n'est pas enregistrée à votre nom.\nlIl va falloir trouver un moyen de la mettre à jour..."
+10,TEXT,"L'\c[1]\t[12, 921]\c[0] n'est pas enregistrée à ton nom.\nlIl va falloir trouver un moyen de la mettre à jour..."
 11,TEXT,Cette télévision peut être utilisé pour distraire quelqu'un.
-12,TEXT,Voulez-vous saboter la télévision ?
-13,TEXT,"Voulez-vous enregistrer l'\c[1]\t[12, 921]\c[0] que vous avez trouvé à votre nom ?"
-14,TEXT,Motisma souhaite retourner auprès de vous...
+12,TEXT,Souhaites-tu saboter la télévision ?
+13,TEXT,"Souhaites-tu enregistrer l'\c[1]\t[12, 921]\c[0] que tu as trouvé à ton nom ?"
+14,TEXT,Motisma souhaite retourner auprès de toi...
 15,TEXT,"Visiblement, sa mission est terminée."
 16,TEXT,"Visiblement, sa mission n'est pas encore terminée."
 17,TEXT,Le coffre est ouvert et vide.
-18,TEXT,"Votre \c[1]\t[12, 921]\c[0] est bien enregistrée à votre nom."
+18,TEXT,"Ton \c[1]\t[12, 921]\c[0] est bien enregistrée à ton nom."
 19,TEXT,
 20,TEXT,

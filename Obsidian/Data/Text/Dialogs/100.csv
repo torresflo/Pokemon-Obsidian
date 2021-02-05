@@ -26,3 +26,9 @@
 24,TEXT,Tu es prêt\E ?\nlAlors c'est parti !
 25,TEXT,Chaussures de course
 26,\c[7]Press \k[B] to run!,\c[7]Appuyez sur \k[B] pour courir !
+27,,"Souhaites-tu voir les explications concernant l'infiltration avec \c[2]\t[0, 479]\c[0] ?"
+28,,"Pendant certaines phases de jeu, \c[2]\t[0, 479]\c[0] devra s'inflitrer discrètement dans certains lieux et remplir des objectifs.\nlPendant ces phases, \c[2]\t[0, 479]\c[0] ne peux ni utiliser un objet de l'inventaire. ni sauvegarder, ni accèder à un menu du jeu en général. "
+29,,"\c[2]\t[0, 479]\c[0] peut revenir à tout moment vers toi en revenant au point de départ, mais toute sa progression sera alors \c[2]perdue\c[0]."
+30,,"\c[2]Attention\c[0] ! Pendant ces phases d'inflitration, \c[2]\t[0, 479]\c[0] doit rester discret. S'il se fait remarquer, il devra alors tout \c[2]recommencer depuis le début\c[0] !"
+31,,"Pour l'aider, \c[2]\t[0, 479]\c[0] est capable d'intéragir avec une grande variété d'objets électriques afin d'activer des mécanismes, de résoudre des puzzles ou même de détourner l'attention d'autres personnes."
+32,,"C'est tout pour les phases d'infiltration avec \c[2]\t[0, 479]\c[0].\nlSouhaites-tu revoir ces explications ?"
