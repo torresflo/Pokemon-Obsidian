@@ -1,5 +1,5 @@
 Index,en,fr
-0,TEXT,Motisma entre dans le batiment...
+0,TEXT,"\c[2]\t[0, 479]\c[0] entre dans le batiment..."
 1,TEXT,Tu n'as rien à faire ici !
 2,TEXT,L'ordinateur est éteint.
 3,TEXT,"Ce serveur contient les données des membres du \t[10,9].\nlIl n'y a rien d'intéressant à en tirer."
@@ -18,5 +18,6 @@ Index,en,fr
 16,TEXT,"Visiblement, sa mission n'est pas encore terminée."
 17,TEXT,Le coffre est ouvert et vide.
 18,TEXT,"Ton \c[1]\t[12, 921]\c[0] est bien enregistrée à ton nom."
-19,TEXT,
-20,TEXT,
+19,TEXT,"\c[2]\t[0, 479]\c[0] est attiré par cet appareil, il pourrait se glisser dans le bâtiment en passant par ici si cela est nécessaire..."
+20,TEXT,"\c[2]\t[0, 479]\c[0] est attiré par cet appareil, il pourrait se glisser par ici pour s'infiltrer dans le bâtiment."
+21,TEXT,"Laisser \c[2]\t[0, 479]\c[0] s'infiltrer dans le bâtiment ?"
