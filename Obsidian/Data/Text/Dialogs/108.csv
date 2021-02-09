@@ -13,11 +13,14 @@ Index,en,fr
 11,TEXT,Cette télévision peut être utilisé pour distraire quelqu'un.
 12,TEXT,Souhaites-tu saboter la télévision ?
 13,TEXT,"Souhaites-tu enregistrer l'\c[1]\t[12, 921]\c[0] que tu as trouvé à ton nom ?"
-14,TEXT,Motisma souhaite retourner auprès de toi...
-15,TEXT,"Visiblement, sa mission est terminée."
-16,TEXT,"Visiblement, sa mission n'est pas encore terminée."
+14,TEXT,"Laisser \c[2]\t[0, 479]\c[0] retourner auprès de toi ?"
+15,TEXT,"\c[2]\t[0, 479]\c[0] a récupéré une \c[1]\t[12, 921]\c[0] enregistrée à ton nom, sa mission est terminée."
+16,TEXT,"\c[2]\t[0, 479]\c[0] n'a pas encore récupéré d'\c[1]\t[12, 921]\c[0] enregistrée à ton nom, sa mission n'est pas terminée."
 17,TEXT,Le coffre est ouvert et vide.
 18,TEXT,"Ton \c[1]\t[12, 921]\c[0] est bien enregistrée à ton nom."
 19,TEXT,"\c[2]\t[0, 479]\c[0] est attiré par cet appareil, il pourrait se glisser dans le bâtiment en passant par ici si cela est nécessaire..."
 20,TEXT,"\c[2]\t[0, 479]\c[0] est attiré par cet appareil, il pourrait se glisser par ici pour s'infiltrer dans le bâtiment."
 21,TEXT,"Laisser \c[2]\t[0, 479]\c[0] s'infiltrer dans le bâtiment ?"
+22,TEXT,"Cet appareil électrique pourrait intéresser \c[2]\t[0, 479]\c[0] s'il était avec toi..."
+23,TEXT,Tu vas te faire repérer si tu sors par cette porte !
+24,TEXT,"\c[2]\t[0, 479]\c[0] n'a rien à faire dans ce bâtiment."

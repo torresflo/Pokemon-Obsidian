@@ -19,4 +19,5 @@ Index,en,fr
 17,TEXT,"Si tu penses que tu as le choix, fais comme tu veux.\nlTu vas surement avoir du mal à t'en procurer une ici.\nlAucun des membres du \t[10, 9] présents dans cette ville ne voudra te céder la sienne."
 18,TEXT,Tu sais ou me trouver si tu changes d'avis.
 19,TEXT,"Hmm... Je vois que tu as obtenu ton \c[1]\t[12, 921]\c[0].\nlJe suis curieux de savoir comment tu a obtenu ça..."
-20,TEXT,
+20,TEXT,":[name=Walter, Champion de \t[10, 8]]:Comme je le disais, cette \c[1]\t[12, 921]\c[0] doit être désenregistrée, son possesseur ne s'en servira pas.\nlJe vous laisse gérer ça.\nlAssurez-vous qu'elle ne soit pas redistribuée à quelqu'un."
+21,TEXT,"Bien monsieur, ce sera fait."
