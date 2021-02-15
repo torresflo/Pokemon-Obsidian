@@ -5,7 +5,7 @@ Index,en,fr
 3,TEXT,"Bienvenue dans l'arène de \t[10, 4] !\nlN'hésites pas à me parler si tu as besoin de conseils !"
 4,TEXT,"<Help text for \t[10, 4] gym>"
 5,TEXT,"Bienvenue dans l'arène de \t[10, 8] !\nlN'hésites pas à me parler si tu as besoin de conseils !"
-6,TEXT,"Walter, le Champion de \t[10, 8] est le spécialiste des Pokémon de type Eau.\nlN'espère cependant pas pouvoir gagner qu'avec des Pokémon de type Electrique, il est bien plus malin que ça !"
+6,TEXT,"Walter, le Champion de \t[10, 8] est le spécialiste des Pokémon de type \t[3, 10].\nlN'espère cependant pas pouvoir gagner qu'avec des Pokémon de type \t[3, 12], il est bien plus malin que ça !"
 7,TEXT,
 8,TEXT,
 9,TEXT,
