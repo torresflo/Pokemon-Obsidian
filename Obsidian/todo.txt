@@ -1,16 +1,6 @@
 Variable: Amaryllis Intro
 -> 0 rien
 -> 1 Got Motisma
--> 2 Go to forest
--> 3 Forest Complete
--> 4 Combat contre Alfred
--> 5 Recontre avec Helio
--> 6 Helio
----> 7 bypass all
-
-Variable: Amaryllis Intro
--> 0 rien
--> 1 Got Motisma
 -> 2 Start event forest
 -> 3 Fight Complete
 -> 4 Forest Complete
@@ -18,3 +8,15 @@ Variable: Amaryllis Intro
 -> 6 Rencontre avec Helio
 -> 7 Helio
 ---> 8 bypass all
+
+
+----------------------------
+
+- Fix dialogs male vs female (especially at Fusiville)
+- A few typos to fix
+- Fix fight balancing: 
+	- Nincada too hard against the player
+	- Levels are too high at Fusiville
+	- Add way to level up at Fusiville
+- Fix Walter that does not appear in Fusiville (same bug as Alfred at Amarylis)
+- Fix pokeball that does not appear during catching

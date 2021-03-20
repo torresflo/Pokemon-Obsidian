@@ -1,27 +1,27 @@
 Index,en,fr
 0,TEXT,"Laissez-moi vérifier votre \c[1]\t[12, 921]\c[0] s'il vous plaît..."
-1,TEXT,"Désolé, vous n'avez pas d'\c[1]\t[12, 921]\c[0], vous n'êtes pas autorsié à affronter le champion de cette arène."
+1,TEXT,"Désolé, vous n'avez pas d'\c[1]\t[12, 921]\c[0], vous n'êtes pas autorisé à affronter le champion de cette arène."
 2,TEXT,"Bien, tout est en règle !"
 3,TEXT,"Bienvenue dans l'arène de \t[10, 4] !\nlN'hésites pas à me parler si tu as besoin de conseils !"
 4,TEXT,"<Help text for \t[10, 4] gym>"
 5,TEXT,"Bienvenue dans l'arène de \t[10, 8] !\nlN'hésites pas à me parler si tu as besoin de conseils !"
-6,TEXT,"Walter, le Champion de \t[10, 8] est le spécialiste des Pokémon de type \t[3, 10].\nlN'espère cependant pas pouvoir gagner qu'avec des Pokémon de type \t[3, 12], il est bien plus malin que ça !"
-7,TEXT,
-8,TEXT,
-9,TEXT,
-10,TEXT,
-11,TEXT,
-12,TEXT,
-13,TEXT,
-14,TEXT,
-15,TEXT,
-16,TEXT,
-17,TEXT,
-18,TEXT,
-19,TEXT,
-20,TEXT,
-21,TEXT,
-22,TEXT,
+6,TEXT,"Walter, le Champion de \t[10, 8] est le spécialiste des Pokémons de type \t[3, 10].\nlN'espère cependant pas pouvoir gagner qu'avec des Pokémon de type \t[3, 12], il est bien plus malin que ça !"
+7,TEXT,"D'habitude, personne ne passe par ici car c'est un cul-de sac !\nlTu n'es pas vraiment futé\E j'ai l'impression...\nlQu'à cela ne tienne, je ne refuse jamais un bon combat !"
+8,TEXT,Je m'en doutais...\nlJe ne vois pas assez de dresseur dans ce cul-de-sac et je n'entraine donc pas assez mes Pokémons...
+9,TEXT,Je reviens d'une pêche fructueuse et j'ai capturé des Pokémon surpuissants !\nlN'espère pas affronter notre champion si tu ne me bats pas !
+10,TEXT,Hm... Je crois que ma pêche n'était peut-être pas si fructueuse...
+11,TEXT,"Tu sais, si tu avait été plus malin\E, tu aurais pu esquiver ce combat. Maintenant que je t'ai en face de moi, c'est trop tard !"
+12,TEXT,Peut être que tu es plus malin\E que tu n'y parais en fait...
+13,TEXT,Tu ne pensais pas pouvoir affronter Walter immédiatement j'espère ?\nlEn garde !
+14,TEXT,N'imagine pas pouvoir battre Walter pour autant !
+15,TEXT,"Tu viens peut être de battre mon partenaire de combat, mais tu ne me battras pas !"
+16,TEXT,"Je ne comprends pas, à nous deux d'habitude nous sommes imbattables..."
+17,TEXT,"Mais...?\nlJe te reconnais !\nlTu es \f[la dresseuse§le dresseur] qui cherchais une \c[1]\t[12, 921]\c[0].\nlComment as-tu fais pour t'en procurer une ?\nl...[WAIT 30]\nl...[WAIT 30]\nlPeu importe !\nlTu n'as aucune chance de me battre !"
+18,TEXT,"Grr... C'est impossible...[WAIT 30]\nlComment un\E inconnu\E a pu se procurer une \c[1]\t[12, 921]\c[0] et me battre..."
+19,TEXT,"Mais les règles sont les règles, voici donc ton premier badge."
+20,TEXT,"Ne pense pas pouvoir t'en sortir aussi simplement, tu n'as aucune idée dans quoi tu viens de mettre les pieds..."
+21,TEXT,"Vous recevez le badge de l'arêne de \t[10, 4] ![WAIT 300] "
+22,TEXT,"Félicitations pour avoir battu Walter et l'obtention de ton premier badge !\nlJ'ai hâte de voir où tu cela va te mener !  "
 23,TEXT,
 24,TEXT,
 25,TEXT,
