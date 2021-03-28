@@ -120,6 +120,9 @@
   fusiville_club_storage_room.tmx:
     :id: 41
     :tileset: fusiville_club_storage_room
+  road_102.tmx:
+    :id: 42
+    :tileset: road_102
 :tilesets:
   amaryllis_city: amaryllis_city.png
   amaryllis_player_house_floor_1: amaryllis_player_house_floor_1.png
@@ -161,3 +164,4 @@
   fusiville_club_second_room: fusiville_club_second_room.png
   fusiville_gym: fusiville_gym.png
   fusiville_club_storage_room: fusiville_club_storage_room.png
+  road_102: road_102.png
