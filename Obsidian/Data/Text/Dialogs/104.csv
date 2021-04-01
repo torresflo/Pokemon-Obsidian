@@ -35,9 +35,8 @@ Index,en,fr
 33,TEXT,"...[WAIT 20]\nl...[WAIT 20]\nlOh, tu comptes participer à la Ligue Pokémon pour une enquête ?\nlCa a l'air excitant !"
 34,TEXT,Tu n'es pas sans savoir que c'est aussi mon but.\nlMême si dans mon cas c'est pour bien sûr décrocher le titre de Maître que je suis dans la compétition.
 35,TEXT,"Tu sais ce que cela ve dire \n[1], n'est-ce pas ?[WAIT 40]\nlNous allons devoir nous affronter régulièrement !"
-36,TEXT,"Même si ce n'est pas pour les mêmes raisons, à compter d'aujourd'hui, nous sommes rivals !"
+36,TEXT,"Même si ce n'est pas pour les mêmes raisons, à compter d'aujourd'hui, nous sommes rivaux !"
 37,TEXT,"Et en tant que rival, je ferais tout pour te battre lors de la compétition !\nlEn garde !"
 38,TEXT,C'était un beau combat.\nlJ'ai encore des progrès à faire si je veux espérer te battre.
 39,TEXT,J'ai un cadeau pour toi pour cette victoire.
 40,TEXT,Nous serons amené à nous revoir !\nlA la prochaine !
-41,,

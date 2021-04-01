@@ -12,9 +12,6 @@ Variable: Amaryllis Intro
 
 ----------------------------
 
-- Fix dialogs male vs female (especially at Fusiville)
-- A few typos to fix
 - Fix fight balancing: 
 	- Levels are too high at Fusiville
-- Fix Walter that does not appear in Fusiville (same bug as Alfred at Amarylis)
 - Fix pokeball that does not appear during catching
