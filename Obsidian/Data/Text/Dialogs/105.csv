@@ -11,7 +11,7 @@ Index,en,fr
 9,TEXT,Tu savais que les Pokémon que tu peux pécher dans les étangs et les rivières ne sont pas les mêmes que ceux que l'on trouve dans la mer et l'océan ?
 10,TEXT,Oh non !\nlC'est catastrophique !\nlJ'ai fais tomber mon Pokédex et il a atterri de l'autre côté de la rive...\nl Tu veux bien m'aider à le récupérer s'il te plaît ?
 11,TEXT,Ce bateau est plutôt vieux mais à l'air en état de marche.
-12,TEXT,"Bonjour jeune homme.\nlJe vais bientôt effectuer un nouveau voyage vers \t[10, 8], es-tu intéressé pour que je t'y amène ?\nlAttention, je ne vais pas revenir ici avant un certain temps."
+12,TEXT,"Bonjour jeune \f[dresseuse§dresseur].\nlJe vais bientôt effectuer un nouveau voyage vers \t[10, 8], es-tu intéressé\E pour que je t'y amène ?\nlAttention, je ne vais pas revenir ici avant un certain temps."
 13,TEXT,"Très bien, alors en route !"
 14,TEXT,Je vois. N'hésites pas à me dire si tu souhaites partir avec moi.
 15,TEXT,"Oui, allons vers \t[10, 8]."
@@ -21,7 +21,7 @@ Index,en,fr
 19,TEXT,"Il semblerait que j'ai un problème avec mon gouvernail.\nlJe vais essayer de le réparer, essaye de voir si quelqu'un sur cette île peut nous aider."
 20,TEXT,Hmm... Il semblerait qu'il faille creuser encore plus profond...
 21,TEXT,Aaaaaah ! Tu m'as fait peur !\nlRecule un peu !
-22,TEXT,"Mais qu'est ce que tu fais ici ?[WAIT 60]\nl...[WAIT 60]\nl...\nlOh je vois, tu t'es échoué sur cette île à cause d'un problème de gouvernail."
+22,TEXT,"Mais qu'est ce que tu fais ici ?[WAIT 60]\nl...[WAIT 60]\nl...\nlOh je vois, tu t'es échoué\E sur cette île à cause d'un problème de gouvernail."
 23,TEXT,C'est un problème récurent sur les vieux bateaux.[WAIT 60]\nl...\nlJe dois avoir de quoi le réparer chez moi.\nlNous ferions mieux d'y aller tout de suite d'ailleurs.
 24,TEXT,Cette étrange machine semble pomper l'eau de ce lac souterrain.
 25,TEXT,L'ordinateur est verrouillé.
@@ -30,7 +30,7 @@ Index,en,fr
 28,TEXT,"Hmm, je devrai avoir de quoi réparer un gouvernail ici...[WAIT 60]\nl...[WAIT 60]\nlHmm, ça devrait faire l'affaire..."
 29,TEXT,"Je vais voir ce que je peux faire à ton bateau, retrouve moi la-bas."
 30,TEXT,Ce gentil monsieur a accepté de nous aider à réparer notre bateau.\nlJ'espère que tout se passe bien...
-31,TEXT,"Une pièce à l'air coincé et je n'arrive pas à la débloquer...\nlIl nous faudrait l'aide d'un Pokémon fort tel que \c[2]\t[0, 66]\c[0].\nlPeux-tu essayer d'en attraper un ?\nlEt ne t'aventures pas trop loin dans la caverne.\nlReviens me voir si tu es à cours de \c[1]\t[12, 4]\c[0]."
+31,TEXT,"Une pièce a l'air coincé et je n'arrive pas à la débloquer...\nlIl nous faudrait l'aide d'un Pokémon fort tel que \c[2]\t[0, 66]\c[0].\nlPeux-tu essayer d'en attraper un ?\nlEt ne t'aventures pas trop loin dans la caverne.\nlReviens me voir si tu es à cours de \c[1]\t[12, 4]\c[0]."
 32,TEXT,"Je vois que tu n'as plus de \c[1]\t[12, 4]\c[0] ?\nlEn voilà quelques-unes, ne les gâche pas je n'en n'ai pas beaucoup !"
 33,TEXT,"Oh !\nlMais tu as attrapé un \c[2]\t[0, 66]\c[0] !\nlParfait, il va pouvoir nous aider à décoincer cette pièce bloquée."
 34,TEXT,"Bien voilà qui est fait, c'est réparé."

@@ -4,7 +4,7 @@ Index,en,fr
 2,TEXT,"Tu viens de \t[10, 2] ?\nlJ'aimerais bien aller visiter cet endroit mais j'ai le mal de mer."
 3,TEXT,"Le \t[10, 9] est l'endroit le plus prestigieux de la région!\nlJe suis fier être l'un de ses membres les plus importants !"
 4,TEXT,"J'ai fais un long trajet depuis le nord pour m'inscrire au \t[10, 9]. Ils sont apparement très sélectifs, j'espère que je vais pouvoir y entrer sans trop de difficultés."
-5,TEXT,"Utilises un \c[1]\t[12, 22]\c[0] lorsque ton Pokémon est paralysé. Cela lui permettra de se sentir mieux et d'éviter qu'ils ratent ses prochaines attaques."
+5,TEXT,"Utilises un \c[1]\t[12, 22]\c[0] lorsque ton Pokémon est paralysé. Cela lui permettra de se sentir mieux et d'éviter qu'il rate ses prochaines attaques."
 6,TEXT,"Arêne de \t[10, 8]"
 7,TEXT,"Il y a quelques années, mon mari qui est pécheur à pris la mer.[WAIT 30]\nlIl n'est jamais revenu... Depuis, je l'attends ici en espérant le revoir.[WAIT 30]\nlJe ne me fais plus trop d'idées, mais j'aimerais savoir ce qui lui est arrivé...\nlMalheuresement je suis trop agée pour voyager...\nlPeut-être pourrais-tu m'aider à retrouver ce qui a pu lui arriver..."
 8,TEXT,"Si tu apprends quelque chose sur mon mari, reviens me voir."
@@ -21,7 +21,7 @@ Index,en,fr
 19,TEXT,"Tu es fort\E, mais je n'ai pas dit mon dernier mot !\nlJe vais m'entrainer encore pour participer à la Ligue Pokémon !"
 20,TEXT,"J'ai encore perdu...\nlMon père m'a donné une \c[1]\t[12, 921]\c[0] et m'a dit que ce ne serait pas compliqué...\nlJe trouve les combats de Pokémon vraiment difficiles...[WAIT 60]Tu veux te procurer une \c[1]\t[12, 921]\c[0] ?\nlTrès bien, si tu me bats je veux bien te laisser la mienne."
 21,TEXT,Tu veux nous affronter en combat ?
-22,TEXT,"Bravo, c'était un beau combat.\nlCela m'a montré que je n'étais pas prête pour la Ligue Pokémon...\nlTiens, tu peux prendre mon \c[1]\t[12, 921]\c[0]..."
+22,TEXT,"Bravo, c'était un beau combat.\nlCela m'a montré que je n'étais vraiment pas prêt pour la Ligue Pokémon...\nlTiens, tu peux prendre mon \c[1]\t[12, 921]\c[0]..."
 23,TEXT,"Tout le monde ne parle que du \t[10, 9] dans cette ville, alors il ne s'agit que d'un groupe de privilégiés..."
 24,TEXT,":[name=Walter, Champion de \t[10, 8]]:Superbe combat !"
 25,TEXT,"Oh mais c'est Walter, le champion de l'arène de \t[10, 8].\nlQu'est ce que vous faites ici ?"
