@@ -14,6 +14,9 @@
 		},
 		{
 			"path": "Tiled"
+		},
+		{
+			"path": "docs"
 		}
 	],
 	"settings": {}
