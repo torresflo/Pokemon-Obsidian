@@ -23,11 +23,11 @@ Index,en,fr
 21,TEXT,Tu veux nous affronter en combat ?
 22,TEXT,"Bravo, c'était un beau combat.\nlCela m'a montré que je n'étais vraiment pas prêt pour la Ligue Pokémon...\nlTiens, tu peux prendre mon \c[1]\t[12, 921]\c[0]..."
 23,TEXT,"Tout le monde ne parle que du \t[10, 9] dans cette ville, alors il ne s'agit que d'un groupe de privilégiés..."
-24,TEXT,":[name=Walter, Champion de \t[10, 8]]:Superbe combat !"
+24,TEXT,":[name=Walter, Champion de \t[10, 8]]:C'était un superbe combat !"
 25,TEXT,"Oh mais c'est Walter, le champion de l'arène de \t[10, 8].\nlQu'est ce que vous faites ici ?"
 26,TEXT,":[name=Walter, Champion de \t[10, 8]]:J'observe les combats de Pokémon de mes futurs adversaires. Tu me semble prêt pour la Ligue Pokémon !"
 27,TEXT,"Ah... Je n'en suis pas sûr... Je viens de perdre pourtant, je comptais donner mon \c[1]\t[12, 921]\c[0] à \f[cette dresseuse§ce dresseur]."
 28,TEXT,":[name=Walter, Champion de \t[10, 8]]:Allons, une \c[1]\t[12, 921]\c[0] ne se donne pas comme ça à n'importe qui.\nl\f[Cette dresseuse§Ce dresseur] ne fait meme pas partie du \t[10, 9].\nlQue va penser ton père de tout ça ?"
-29,TEXT,Mais je vois bien que je ne suis pas prêt pour la Ligue Pokémon pourtant...\nl\f[Cette dresseuse§Ce dresseur] en aura plus l'utilisé que moi je pense.
+29,TEXT,Mais je vois bien que je ne suis pas prêt pour la Ligue Pokémon pourtant...\nl\f[Cette dresseuse§Ce dresseur] en aura plus l'utilité que moi je pense.
 30,TEXT,":[name=Walter, Champion de \t[10, 8]]:Si tu ne veux plus de ton \c[1]\t[12, 921]\c[0], je vais m'occuper de la remettre au \t[10, 9].\nlTu pourras retenter la Ligue Pokémon l'année prochaine quand tu seras prêt."
 31,TEXT,"Désolé, j'espère que tu pourras trouver une \c[1]\t[12, 921]\c[0] rapidement..."
