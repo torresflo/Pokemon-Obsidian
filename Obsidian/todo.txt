@@ -15,3 +15,14 @@ Variable: Amaryllis Intro
 - Fix fight balancing: 
 	- Levels are too high at Fusiville
 - Fix pokeball that does not appear during catching
+- Some sentences are weird (beginning of the game, especially Helio)
+- Computers are not well translated
+- In Fusiville, fix dialogue that said the training ground is at the west when it is at the east
+- Allow players to run more quickly
+- Add fullscreen option
+- Fix controllers issues
+- Old man in Silverbridge does not use correct gender
+- Add more visibility to the secret entrance of the trainers club
+- Add notification to explain when Motisma mission is done
+- On the Unknown Island, after retrieving a Machop, it is not possible to heal our team anymore.
+- On the Unknown Island, dying creates a soft lock.
