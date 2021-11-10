@@ -1,0 +1,37 @@
+0 : Argent
+1 : [VAR 0206(0000,202F)] $
+2 : [VAR 0206(0000,202F)] $
+3 : [VAR 01C1(0000)]
+4 : [VAR 01C1(0000)]
+5 : [VAR 01C2(0000)]
+6 : Acheté
+7 : Aucun article n’est disponible
+8 : Oui
+9 : Non
+10 : Cela vous fera [VAR 0206(0000,202F)] $. Cela vous convient-il ?
+11 : Cela vous fera [VAR 0206(0000,202F)] $. Par contre, cet article n’est pas compatible avec ce que vous portez. Le prenez-vous quand même ?
+12 : Vous n’avez pas assez d’argent !
+13 : Vous avez déjà acheté cet article.
+14 : Souhaitez-vous porter votre nouvelle tenue ?
+15 : Merci ! Si vous voulez vous changer, la cabine d’essayage est juste là !
+16 : Merci ! Voulez-vous porter tout de suite ce que vous venez d’acheter ?
+17 : Merci pour votre achat !
+18 : Voulez-vous mettre cette tenue ?
+19 : Voulez-vous mettre à jour votre carte de Ligue ?
+20 : Ce sera tout ?
+21 : Vous renoncez donc à changer de look ?
+22 : Vous ne pouvez pas porter ceci avec votre coupe actuelle.
+23 :  Confirmer
+24 :  Quitter
+25 :  Se regarder
+26 :  Retirer
+27 :  Changer
+28 :  Zoomer
+29 :  Dézoomer
+30 :  Retour
+31 :  Retirer le haut
+32 :  Retirer les chaussures
+33 :  Mettre un haut
+34 :  Mettre des chaussures
+35 : Sortir sans se changer
+36 : Votre coupe ne permet pas de porter de chapeau. Voulez-vous tout de même mettre cette tenue ?

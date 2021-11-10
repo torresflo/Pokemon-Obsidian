@@ -21,7 +21,11 @@ class Game_Temp
   attr_accessor :battle_can_escape        # バトル 逃走可能フラグ
   attr_accessor :battle_can_lose          # バトル 敗北可能フラグ
   attr_accessor :battle_proc              # バトル コールバック (Proc)
-  attr_accessor :battle_turn              # バトル ターン数
+  # Current turn of the battle
+  # - each time AI is about to get triggered, this counter increase by 1 (after player choice)
+  # - starts at 0 before 1st AI trigger (meaning that launching all Pokemon phase is 0)
+  # @return [Integer]
+  attr_accessor :battle_turn
   attr_accessor :battle_event_flags       # バトル イベント実行済みフラグ
   attr_accessor :battle_abort             # バトル 中断フラグ
   attr_accessor :battle_main_phase        # バトル メインフェーズフラグ
@@ -64,6 +68,9 @@ class Game_Temp
   # ID of the currently processed map by the maplinker (to fetch the tileset)
   # @return [String]
   attr_accessor :maplinker_map_id
+  # Store the id of last repel used
+  attr_accessor :last_repel_used_id
+
   # Initialize with default game state
   def initialize
     @map_bgm = nil
@@ -119,5 +126,6 @@ class Game_Temp
     @trainer_battle=false
     @last_menu_index=0
     @temp_team = []
+    @last_repel_used_id = 0
   end
 end

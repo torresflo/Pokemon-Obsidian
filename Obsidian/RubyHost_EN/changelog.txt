@@ -1,0 +1,18 @@
+RubyHost updates:
+
+#May 5, 2019
+Translated some more text
+Added button to edit names in zone tab
+Added button to edit trainer classes in trainer tab
+
+#May 17, 2019
+Translated more text
+Fixed a bug with trainer dialog
+
+#June 26, 2019
+Translated text for the item editor (Specifically the healing part)
+All "new" Pokémon by default have a base friendship of 70 (This was done because most Pokémon have 70 base friendship)
+Female rate for "new" Pokémon by default will have 50% female rate (This was done because most Pokémon have 50% female rate)
+Translated text for special evolution requirements
+Reworded "Parabolic" to "Medium Slow/Parabolic"
+Reworded "Ok" to "Save" on the heal data screen

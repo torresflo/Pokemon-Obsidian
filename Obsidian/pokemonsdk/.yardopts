@@ -1,0 +1,19 @@
+--hide-void-return
+--default-return ''
+--title "Pokemon SDK"
+--exclude "scripts/VSCodeHelper.rb"
+--exclude "scripts/00001 RMXP_DATA.rb"
+--exclude "scripts/ScriptLoad.rb"
+--exclude "scripts/00650 MapSystem/00700 Pathfinding.rb"
+--exclude "scripts/00650 MapSystem/00705 Pathfinding_cursor.rb"
+--exclude "scripts/00650 MapSystem/00710 Pathfinding_targets.rb"
+--exclude "scripts/01400 GamePlay/00300 Bag/*"
+--exclude "scripts/01300 UI/09900 Leikt/*"
+--exclude "scripts/my_scripts/"
+--exclude "scripts/tools/"
+--exclude "scripts/01500 *"
+--exclude "scripts/01600 Alpha 25 Battle Engine/"
+--readme README.md
+
+scripts/*.rb
+scripts/**/*.rb

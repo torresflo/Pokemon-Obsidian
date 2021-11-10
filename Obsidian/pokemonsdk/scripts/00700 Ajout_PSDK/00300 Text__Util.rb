@@ -8,7 +8,7 @@ module LiteRGSS
       # Offset induced by the Font
       FOY = 2#4
       # Returns the text viewport
-      # @return [LiteRGSS::Viewport]
+      # @return [Viewport]
       def text_viewport
         return @text_viewport
       end
@@ -18,7 +18,7 @@ module LiteRGSS
       end
       # Initialize the texts
       # @param font_id [Integer] the default font id of the texts
-      # @param viewport [LiteRGSS::Viewport, nil] the viewport
+      # @param viewport [Viewport, nil] the viewport
       def init_text(font_id = 0, viewport = nil, z = 1000)
         log_error('init_text is deprecated')
         @texts = [] unless @texts.class == Array
@@ -35,7 +35,7 @@ module LiteRGSS
       # @param align [0, 1, 2] the align of the text in its surface (best effort => no resize), 0 = left, 1 = center, 2 = right
       # @param outlinesize [Integer, nil] the size of the text outline
       # @param type [Class] the type of text
-      # @return [LiteRGSS::Text] the text object
+      # @return [Text] the text object
       def add_text(x, y, width, height, str, align = 0, outlinesize = DEFAULT_OUTLINE_SIZE, type: Text)
         log_error('add_text from Text::Util is deprecated')
         if @window and @window.viewport == @text_viewport

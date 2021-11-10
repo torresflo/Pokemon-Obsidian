@@ -42,8 +42,10 @@ module EventText2CSV
         end
       end
     end
-    save_csv(csv_id, csv_header, csv_rows)
-    save_data(map, filename)
+    unless csv_rows.empty?
+      save_csv(csv_id, csv_header, csv_rows)
+      save_data(map, filename)
+    end
   end
 
   # Function that process a message
@@ -67,6 +69,7 @@ module EventText2CSV
     command.parameters[0].map! do |choice|
       text = choice.dup.force_encoding(Encoding::UTF_8)
       next(text) if text.match?(/^([0-9]+),( |)([0-9]+)/)
+
       push_text_to_csv(csv_indexes, csv_rows, text)
       next("#{csv_id}, #{csv_rows.size - 1} #{text}")
     end

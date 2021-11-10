@@ -9,7 +9,8 @@ module Yuki
       'city=' => :parse_city_image,
       'can_skip' => :parse_can_skip,
       'windowskin=' => :parse_window_skin,
-      'lookto=' => :look_to_event
+      'lookto=' => :look_to_event,
+      'align=' => :parse_message_align
     }
 
     # Parse the speakers information
@@ -110,5 +111,12 @@ module Yuki
       event = event.to_i
       event == 0 ? $game_player.look_to($game_system.map_interpreter.event_id) : $game_player.look_to(event)
     end
+
+    # Parse the message alignment
+    # @param align [String] position of text
+    def parse_message_align(align = 'left')
+      @align = align.to_sym
+    end
+
   end
 end

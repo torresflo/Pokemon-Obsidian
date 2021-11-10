@@ -206,13 +206,14 @@ class Interpreter_RMXP
   def eval_condition_script(script)
     last_eval = Yuki::EXC.get_eval_script
     script = script.force_encoding('UTF-8')
-    result = false
     Yuki::EXC.set_eval_script(script)
-    Yuki::ErrorHandler.critical_section("Eval from condition (EVENT_ID = #{@event_id.to_i}).\nThe condition will not be valid.\nScript:\n#{script}") do
-      result = eval(script) ? true : false
-    end
-    Yuki::EXC.set_eval_script(last_eval)
+    result = eval(script) ? true : false
     return result
+  rescue StandardError => e
+    Yuki::EXC.run(e)
+    return false
+  ensure
+    Yuki::EXC.set_eval_script(last_eval)
   end
 
   # Command testing the false section of condition

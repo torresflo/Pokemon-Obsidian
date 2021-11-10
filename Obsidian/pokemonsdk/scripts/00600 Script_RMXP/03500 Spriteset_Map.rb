@@ -36,12 +36,18 @@ class Spriteset_Map
   end
 
   # Take a snapshot of the spriteset
-  # @return [Array<Bitmap>]
+  # @return [Array<Texture>]
   def snap_to_bitmaps
     @viewport1.sort_z
     @viewport2.sort_z
     @viewport3.sort_z
+    background = Texture.new(@viewport1.rect.width, @viewport2.rect.width)
+    background_image = Image.new(background.width, background.height)
+    background_image.fill_rect(0, 0, background.width, background.height, Color.new(0, 0, 0))
+    background_image.copy_to_bitmap(background)
+    background_image.dispose
     return [
+      background,
       @viewport1.snap_to_bitmap,
       @viewport2.snap_to_bitmap,
       @viewport3.snap_to_bitmap
@@ -102,7 +108,7 @@ class Spriteset_Map
 
   # Attempt to load an autotile
   # @param filename [String] name of the autotile
-  # @return [Bitmap] the bitmap of the autotile
+  # @return [Texture] the bitmap of the autotile
   def load_autotile(filename)
     target_filename = filename + '_._tiled'
     if RPG::Cache.autotile_exist?(target_filename)
@@ -184,7 +190,7 @@ class Spriteset_Map
   def init_weather_picture_timer
     @weather = RPG::Weather.new(@viewport1)
     @picture_sprites = Array.new(50) { |i| Sprite_Picture.new(@viewport2, $game_screen.pictures[i + 1]) }
-    @timer_sprite = Sprite_Timer.new
+    @timer_sprite = Sprite_Timer.new(Graphics.window)
   end
 
   # Create the quest informer array
@@ -239,7 +245,8 @@ class Spriteset_Map
     @viewport1.update
     @viewport3.update
     exec_hooks(Spriteset_Map, :update, binding)
-    @viewport1.sort_z unless Graphics.skipping_frame?
+    Graphics::FPSBalancer.global.run { exec_hooks(Spriteset_Map, :update_fps_balanced, binding) }
+    @viewport1.sort_z # unless Graphics.skipping_frame?
   rescue ForceReturn => e
     log_error("Hooks tried to return #{e.data} in Spriteset_Map#update")
   end
@@ -265,22 +272,22 @@ class Spriteset_Map
     if @panorama_name != $game_map.panorama_name # or @panorama_hue != $game_map.panorama_hue
       @panorama_name = $game_map.panorama_name
       @panorama_hue = $game_map.panorama_hue
-      unless @panorama.bitmap.nil?
-        @panorama.bitmap.dispose
-        @panorama.bitmap = nil
+      unless @panorama.texture.nil?
+        @panorama.texture.dispose
+        @panorama.texture = nil
       end
-      @panorama.bitmap = RPG::Cache.panorama(@panorama_name, @panorama_hue) unless @panorama_name.empty? # if @panorama_name != ""
+      @panorama.texture = RPG::Cache.panorama(@panorama_name, @panorama_hue) unless @panorama_name.empty? # if @panorama_name != ""
       Graphics.frame_reset
     end
 
     if @fog_name != $game_map.fog_name # or @fog_hue != $game_map.fog_hue
       @fog_name = $game_map.fog_name
       @fog_hue = $game_map.fog_hue
-      unless @fog.bitmap.nil?
-        @fog.bitmap.dispose
-        @fog.bitmap = nil
+      unless @fog.texture.nil?
+        @fog.texture.dispose
+        @fog.texture = nil
       end
-      @fog.bitmap = RPG::Cache.fog(@fog_name, @fog_hue) unless @fog_name.empty? # if @fog_name != ""
+      @fog.texture = RPG::Cache.fog(@fog_name, @fog_hue) unless @fog_name.empty? # if @fog_name != ""
       Graphics.frame_reset
     end
 
@@ -297,62 +304,39 @@ class Spriteset_Map
   # @param zone [Integer, nil] the id of the zone where the player is
   def create_panel(zone)
     return unless zone && GameData::Zone.get(zone).panel_id > 0
-    @sp_bg ||= Sprite.new
-    @sp_bg.x = 2
-    @sp_bg.y = -30
-    @sp_bg.z = 5001
-    @sp_bg.bitmap = bmp = RPG::Cache.windowskin("Pannel_#{GameData::Zone.get(zone).panel_id}")
-    map_name = PFM::Text.parse_string_for_messages(GameData::Zone.get(zone).map_name)
-    color = 10
-    map_name.gsub!(/\\c\[([0-9]+)\]/) do
-      color = $1.to_i
-      nil
-    end
-    @sp_fg = Text.new(0, nil, 2, -30 - 4, bmp.width, bmp.height + 12, map_name, 1,
-                      Text::Util::DEFAULT_OUTLINE_SIZE, color)
-    @sp_fg.z = 5002
-    @counter = 0
+
+    @map_panel = UI::MapPanel.new(@viewport2, GameData::Zone.get(zone))
   end
   Hooks.register(self, :finish_init, 'Zone Panel') { |method_binding| create_panel(method_binding[:zone]) }
 
   # Dispose the zone panel
   def dispose_sp_map
-    @sp_bg&.dispose
-    @sp_bg = nil
-    @sp_fg&.dispose
-    @sp_fg = nil
+    @map_panel&.dispose
+    @map_panel = nil
   end
   Hooks.register(self, :reload, 'Zone Panel') { dispose_sp_map }
   Hooks.register(self, :dispose, 'Zone Panel') { dispose_sp_map }
 
   # Update the zone panel
   def update_panel
-    return unless @sp_bg
-    @counter += 1
-    if @counter < 32
-      @sp_bg.y += 1
-      @sp_fg.y += 1
-    elsif @counter == 154
-      dispose_sp_map
-    elsif @counter > 122
-      @sp_bg.y -= 1
-      @sp_fg.y -= 1
-    end
+    return unless @map_panel
+
+    @map_panel.update
+    dispose_sp_map if @map_panel.done?
   end
   Hooks.register(self, :update, 'Zone Panel') { update_panel }
 
   # Change the visible state of the Spriteset
   # @param value [Boolean] the new visibility state
   def visible=(value)
-    @sp_bg&.visible = value
-    @sp_fg&.visible = value
+    @map_panel&.visible = value
     @viewport1.visible = value
     @viewport2.visible = value
     @viewport3.visible = value
   end
 
   # Return the map viewport
-  # @return [LiteRGSS::Viewport]
+  # @return [Viewport]
   def map_viewport
     return @viewport1
   end

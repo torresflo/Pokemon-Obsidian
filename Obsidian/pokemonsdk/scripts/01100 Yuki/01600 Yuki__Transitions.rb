@@ -10,8 +10,8 @@ module Yuki
     # @param direction [-1, 1] -1 = out -> in, 1 = in -> out
     # @note A block can be yield if given, its parameter is i (frame) and sp1 (the screenshot)
     def circular(direction = -1)
-      sp1 = ShaderedSprite.new
-      sp1.bitmap = Bitmap.new(Graphics.width, Graphics.height)
+      sp1 = ShaderedSprite.new($scene.viewport || Graphics.window)
+      sp1.bitmap = Texture.new(Graphics.width, Graphics.height)
       sp1.shader = shader = Shader.create(:yuki_circular)
       shader.set_float_uniform('xfactor', sp1.bitmap.width.to_f / (h = sp1.bitmap.height))
       0.upto(NB_Frame) do |i|
@@ -63,8 +63,8 @@ module Yuki
       dx *= -1 if gp.direction == 6
       dy *= -1 if gp.direction == 2
       d = gp.direction * direction
-      sp1 = ShaderedSprite.new
-      sp1.bitmap = Bitmap.new(w, w2.to_i)
+      sp1 = ShaderedSprite.new($scene.viewport || Graphics.window)
+      sp1.bitmap = Texture.new(w, w2.to_i)
       sp1.shader = Shader.create(:yuki_directed)
       sp1.shader.set_float_array_uniform('yval', Array.new(10) { |i| (w + 10 * i) / w2 })
       # Processing
@@ -87,7 +87,7 @@ module Yuki
     # @param min_tau [Float] the minimum tau value of the transition effect
     # @param delta_tau [Float] the derivative of tau between the begining and the end of the transition
     def weird_transition(nb_frame = 60, radius = 0.25, max_alpha = 0.5, min_tau = 0.07, delta_tau = 0.07, bitmap: nil)
-      sp = ShaderedSprite.new
+      sp = ShaderedSprite.new($scene.viewport || Graphics.window)
       sp.bitmap = bitmap || $scene.snap_to_bitmap
       sp.zoom = Graphics.width / sp.bitmap.width.to_f
       sp.shader = shader = Shader.create(:yuki_weird)

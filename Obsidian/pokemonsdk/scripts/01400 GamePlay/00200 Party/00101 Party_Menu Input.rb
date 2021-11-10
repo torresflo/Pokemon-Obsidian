@@ -95,7 +95,7 @@ module GamePlay
       if @mode != :select
         update_mouse_ctrl_buttons(@base_ui.ctrl, Actions, @base_ui.win_text_visible?)
       else
-        update_mouse_ctrl_buttons(@base_ui.ctrl, [:action_X], false)
+        update_mouse_ctrl_buttons(@base_ui.ctrl, [nil, nil, nil, :action_X], false)
       end
     end
 

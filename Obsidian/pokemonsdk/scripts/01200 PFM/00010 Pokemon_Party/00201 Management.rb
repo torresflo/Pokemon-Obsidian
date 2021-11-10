@@ -150,7 +150,6 @@ module PFM
     # @param level [Integer, nil] the level required
     # @param form [Integer, nil] the form of the Pokemon
     # @param shiny [Boolean, nil] if the Pokemon should be shiny or not
-    # @param index [Boolean] if you want an index when found
     # @return [Integer, false] index of the Pokemon in the party
     def pokemon_index(id, level = nil, form = nil, shiny = nil)
       has_pokemon?(id, level, form, shiny, index: true)

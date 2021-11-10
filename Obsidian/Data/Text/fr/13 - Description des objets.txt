@@ -1,0 +1,1608 @@
+0 : ???
+1 : Assurément la Poké Ball la plus performante. Elle permet de capturer à coup sûr un Pokémon sauvage.
+2 : Une Poké Ball très performante dont le taux de réussite est supérieur à celui de la Super Ball.
+3 : Une Poké Ball très performante dont le taux de réussite est supérieur à celui de la Poké Ball.
+4 : Un objet semblable à une capsule, qui capture les Pokémon sauvages. Il suffit pour cela de le lancer comme une balle.
+5 : Une Poké Ball spéciale anciennement utilisée au Parc Safari de Kanto et au Grand Marais de Sinnoh.
+6 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les Pokémon Eau ou Insecte.
+7 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les Pokémon sous-marins.
+8 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les Pokémon les plus faibles.
+9 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les espèces de Pokémon déjà capturées.
+10 : Une Poké Ball un peu spéciale qui fonctionne de mieux en mieux à mesure que le combat s’éternise.
+11 : Une Poké Ball pratique qui permet de gagner rapidement l’amitié d’un Pokémon sauvage attrapé.
+12 : Une Poké Ball assez rare qui fut créée pour un évènement particulier.
+13 : Une Poké Ball efficace de nuit ou dans les endroits sombres, tels que les grottes.
+14 : Une Poké Ball de soin qui rend tous ses PV au Pokémon attrapé et qui soigne toutes ses altérations de statut.
+15 : Une Poké Ball qui permet d’attraper un Pokémon sauvage plus facilement si on l’utilise au début du combat.
+16 : Une Poké Ball plutôt rare qui fut créée pour une occasion spéciale.
+17 : Un spray qui soigne les blessures. Restaure 20 PV d’un Pokémon.
+18 : Un médicament sous forme de spray. Guérit un Pokémon empoisonné.
+19 : Un médicament sous forme de spray. Soigne les brûlures d’un Pokémon.
+20 : Un médicament sous forme de spray. Réchauffe un Pokémon gelé.
+21 : Un médicament sous forme de spray. Réveille un Pokémon endormi.
+22 : Un médicament sous forme de spray. Soigne un Pokémon de la paralysie.
+23 : Un médicament qui restaure tous les PV d’un Pokémon et soigne toutes ses altérations de statut.
+24 : Un spray qui soigne les blessures. Restaure tous les PV d’un Pokémon.
+25 : Un spray qui soigne les blessures. Restaure 120 PV d’un Pokémon.
+26 : Un spray qui soigne les blessures. Restaure 60 PV d’un Pokémon.
+27 : Un médicament sous forme de spray. Soigne toutes les altérations de statut d’un Pokémon.
+28 : Un médicament qui ranime un Pokémon K.O. et restaure la moitié de ses PV max.
+29 : Un médicament qui ranime un Pokémon K.O. et restaure tous ses PV.
+30 : Une eau riche en minéraux. Restaure 30 PV d’un Pokémon.
+31 : Une boisson pétillante. Restaure 50 PV d’un Pokémon.
+32 : Une boisson très sucrée. Restaure 70 PV d’un Pokémon.
+33 : Un lait très nourrissant. Restaure 100 PV d’un Pokémon.
+34 : Une poudre médicinale très amère. Restaure 60 PV d’un Pokémon.
+35 : Une racine très amère. Restaure 120 PV d’un Pokémon.
+36 : Une poudre médicinale très amère. Soigne toutes les altérations de statut d’un Pokémon.
+37 : Une herbe médicinale très amère. Ranime un Pokémon K.O. et restaure tous ses PV.
+38 : Restaure 10 PP d’une capacité sélectionnée.
+39 : Restaure tous les PP d’une capacité sélectionnée.
+40 : Restaure 10 PP de toutes les capacités d’un Pokémon.
+41 : Restaure tous les PP de toutes les capacités d’un Pokémon.
+42 : Une spécialité de Vermilava. Soigne toutes les altérations de statut d’un Pokémon.
+43 : Une boisson 100 % pur Jus de Baie. Restaure 20 PV d’un Pokémon.
+44 : Ranime tous les Pokémon K.O. et restaure tous leurs PV.
+45 : Une boisson très nutritive qui augmente les PV de base d’un Pokémon.
+46 : Une boisson très nutritive qui augmente l’Attaque de base d’un Pokémon.
+47 : Une boisson très nutritive qui augmente la Défense de base d’un Pokémon.
+48 : Une boisson très nutritive qui augmente la Vitesse de base d’un Pokémon.
+49 : Une boisson très nutritive qui augmente l’Attaque Spéciale de base d’un Pokémon.
+50 : Un bonbon plein d’énergie. Il permet à un Pokémon de monter d’un niveau.
+51 : Augmente un peu les PP max d’une capacité sélectionnée.
+52 : Une boisson très nutritive qui augmente la Défense Spéciale de base d’un Pokémon.
+53 : Augmente sensiblement les PP max d’une capacité sélectionnée.
+54 : Une spécialité du Vieux Château. Soigne toutes les altérations de statut d’un Pokémon.
+55 : Empêche la baisse des stats de tous les Pokémon de l’équipe pendant cinq tours.
+56 : Augmente fortement le taux de critiques. Utilisable une seule fois. L’effet disparaît si le Pokémon est retiré.
+57 : Augmente beaucoup l’Attaque pendant un combat. L’effet disparaît si le Pokémon est retiré.
+58 : Augmente beaucoup la Défense pendant un combat. L’effet disparaît si le Pokémon est retiré.
+59 : Augmente beaucoup la Vitesse pendant un combat. L’effet disparaît si le Pokémon est retiré.
+60 : Augmente beaucoup la Précision pendant un combat. L’effet disparaît si le Pokémon est retiré.
+61 : Augmente beaucoup l’Attaque Spéciale pendant un combat. L’effet disparaît si le Pokémon est retiré.
+62 : Augmente beaucoup la Défense Spéciale pendant un combat. L’effet disparaît si le Pokémon est retiré.
+63 : Une poupée qui attire les Pokémon. Permet de s’enfuir d’un combat contre un Pokémon sauvage.
+64 : Un objet qui attire les Pokémon. Permet de s’enfuir d’un combat contre un Pokémon sauvage.
+65 : Un jouet en forme de flûte en verre bleu. Réveille un Pokémon endormi.
+66 : Un jouet en forme de flûte en verre jaune. Soigne la confusion.
+67 : Un jouet en forme de flûte en verre rouge. Annule l’effet du statut attraction.
+68 : Un jouet en forme de flûte en verre noir. Augmente les chances de rencontrer des Pokémon sauvages puissants là où l’on en joue.
+69 : Un jouet en forme de flûte en verre blanc. Augmente les chances de rencontrer des Pokémon sauvages faibles là où l’on en joue.
+70 : Du sel provenant de la Grotte Tréfonds.
+71 : Un coquillage provenant de la Grotte Tréfonds.
+72 : Un petit tesson rouge. Il semble provenir d’un objet très ancien.
+73 : Un petit tesson bleu. Il semble provenir d’un objet très ancien.
+74 : Un petit tesson jaune. Il semble provenir d’un objet très ancien.
+75 : Un petit tesson vert. Il semble provenir d’un objet très ancien.
+76 : Repousse les Pokémon sauvages faibles pendant une durée plus longue que celle du Repousse.
+77 : Repousse les Pokémon sauvages faibles pendant une durée plus longue que celle du Super Repousse.
+78 : Une corde longue et solide permettant de sortir rapidement d’une grotte ou d’un donjon. Elle peut être utilisée à volonté.
+79 : Repousse les Pokémon sauvages faibles pendant un court moment.
+80 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Elle est rouge comme le soleil couchant.
+81 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Elle est sombre comme la nuit.
+82 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Elle est jaune et orange.
+83 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Un éclair est dessiné dessus.
+84 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Elle est de couleur bleue.
+85 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Une feuille est dessinée dessus.
+86 : Un petit champignon assez rare. Il est plutôt populaire parmi certains fans dévoués.
+87 : Un grand champignon assez rare. Il est très populaire parmi certains fans dévoués.
+88 : Une petite perle qui brille d’une jolie couleur argent. Peut être vendue à bas prix en magasin.
+89 : Une grosse perle qui brille d’une jolie couleur argent. Peut être vendue à bon prix en magasin.
+90 : Du sable rouge ravissant, aux grains très fins. Peut être vendu aux magasins pour un peu d’argent.
+91 : Un fragment de gemme qui brille d’un éclat rouge. Peut être vendu à bon prix en magasin.
+92 : Une pépite d’or pur qui brille d’un éclat magnifique. Peut être vendue à bon prix en magasin.
+93 : Une écaille très rare et jolie en forme de cœur. Certaines personnes sont ravies quand on leur en donne une.
+94 : Du miel au parfum riche rassemblé par des Pokémon. Peut être vendu à bas prix en magasin.
+95 : Un engrais à utiliser sur un sol meuble. Il n’est cependant pas adapté aux terres de Hoenn et n’y a aucun effet.
+96 : Un engrais à utiliser sur un sol meuble. Il n’est cependant pas adapté aux terres de Hoenn et n’y a aucun effet.
+97 : Un engrais à utiliser sur un sol meuble. Il n’est cependant pas adapté aux terres de Hoenn et n’y a aucun effet.
+98 : Un engrais à utiliser sur un sol meuble. Il n’est cependant pas adapté aux terres de Hoenn et n’y a aucun effet.
+99 : Le fossile d’un ancien Pokémon aquatique. On dirait un morceau de racine.
+100 : Le fossile d’un ancien Pokémon aquatique. On dirait un morceau de griffe.
+101 : Le fossile d’un ancien Pokémon aquatique. On dirait un morceau de coquillage.
+102 : Le fossile d’un ancien Pokémon aquatique. On dirait un morceau de carapace.
+103 : Un morceau d’ambre contenant l’ADN d’un ancien Pokémon. Il est de couleur jaune.
+104 : Le fossile d’un Pokémon préhistorique terrestre. On dirait un morceau de collier.
+105 : Le fossile d’un Pokémon préhistorique terrestre. On dirait un morceau de crâne.
+106 : Un os d’une grande valeur pour l’archéologie Pokémon. Peut être vendu à bon prix en magasin.
+107 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Elle brille d’une lumière aveuglante.
+108 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Elle est sombre comme une nuit sans lune.
+109 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Elle brille comme un œil.
+110 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Elle a la forme d’un œuf.
+111 : Un objet très important qui empêche une tour en pierre de s’écrouler. Des voix en sortent parfois.
+112 : Un mystérieux objet destiné à Giratina. Améliore les capacités de types Dragon et Spectre.
+113 : Un thé aromatique légèrement amer. Il a des vertus désaltérantes.
+114 : - - -
+115 : C’est un autographe de Major Bob, le Champion de l’Arène de Carmin sur Mer ! Il y a écrit « Good luck ! » dessus.
+116 : Tenu par Genesect, ce module change la capacité Techno-Buster en une capacité de type Eau.
+117 : Tenu par Genesect, ce module change la capacité Techno-Buster en une capacité de type Électrik.
+118 : Tenu par Genesect, ce module change la capacité Techno-Buster en une capacité de type Feu.
+119 : Tenu par Genesect, ce module change la capacité Techno-Buster en une capacité de type Glace.
+120 : - - -
+121 : - - -
+122 : - - -
+123 : - - -
+124 : - - -
+125 : - - -
+126 : Une malle très légère qui contient vos costumes et ceux de votre partenaire.
+127 : - - -
+128 : - - -
+129 : - - -
+130 : - - -
+131 : - - -
+132 : - - -
+133 : - - -
+134 : Un chocolat extrêmement sucré. Restaure 20 PV d’un Pokémon.
+135 : Un orbe très brillant destiné à Dialga. Augmente la puissance des capacités de types Dragon et Acier.
+136 : Un bel orbe luisant destiné à Palkia. Augmente la puissance des capacités de types Dragon et Eau.
+137 : Un papier à lettres idéal pour se présenter. Peut être tenu et livré par un Pokémon.
+138 : Un papier à lettres idéal pour parler de ce que l’on aime. Peut être tenu et livré par un Pokémon.
+139 : Un papier à lettres idéal pour les invitations. Peut être tenu et livré par un Pokémon.
+140 : Un papier à lettres idéal pour les remerciements. Peut être tenu et livré par un Pokémon.
+141 : Un papier à lettres idéal pour poser des questions. Peut être tenu et livré par un Pokémon.
+142 : Un papier à lettres idéal pour donner des conseils. Peut être tenu et livré par un Pokémon.
+143 : Un papier à lettres idéal pour répondre à un autre courrier. Peut être tenu et livré par un Pokémon.
+144 : Un papier à lettres avec un motif de pont traversant le ciel. Peut être tenu et livré par un Pokémon.
+145 : Un papier à lettres avec un motif de pont mobile rouge. Peut être tenu et livré par un Pokémon.
+146 : Un papier à lettres avec un motif de pont suspendu en acier. Peut être tenu et livré par un Pokémon.
+147 : Un papier à lettres avec un motif de pont en briques. Peut être tenu et livré par un Pokémon.
+148 : Un papier à lettres avec un motif de pont à voûtes. Peut être tenu et livré par un Pokémon.
+149 : Une Baie qui soigne la paralysie lorsqu’elle est tenue par un Pokémon.
+150 : Une Baie qui soigne le sommeil lorsqu’elle est tenue par un Pokémon.
+151 : Une Baie qui soigne l’empoisonnement lorsqu’elle est tenue par un Pokémon.
+152 : Une Baie qui soigne une brûlure lorsqu’elle est tenue par un Pokémon.
+153 : Une Baie qui soigne le gel lorsqu’elle est tenue par un Pokémon.
+154 : Une Baie qui restaure 10 PP lorsqu’elle est tenue par un Pokémon.
+155 : Une Baie qui restaure 10 PV lorsqu’elle est tenue par un Pokémon.
+156 : Une Baie qui soigne la confusion lorsqu’elle est tenue par un Pokémon.
+157 : Une Baie qui soigne toutes les altérations de statut lorsqu’elle est tenue par un Pokémon.
+158 : Une Baie qui restaure quelques PV lorsqu’elle est tenue par un Pokémon.
+159 : Tenue, cette Baie restaure des PV en cas de besoin, mais rend le Pokémon confus si son goût lui déplaît.
+160 : Tenue, cette Baie restaure des PV en cas de besoin, mais rend le Pokémon confus si son goût lui déplaît.
+161 : Tenue, cette Baie restaure des PV en cas de besoin, mais rend le Pokémon confus si son goût lui déplaît.
+162 : Tenue, cette Baie restaure des PV en cas de besoin, mais rend le Pokémon confus si son goût lui déplaît.
+163 : Tenue, cette Baie restaure des PV en cas de besoin, mais rend le Pokémon confus si son goût lui déplaît.
+164 : Une Baie orange au goût épicé, utilisée pour préparer des Pokéblocs permettant d’augmenter le Sang-froid d’un Pokémon.
+165 : Une Baie violette et âpre, utilisée pour préparer des Pokéblocs permettant d’augmenter la Beauté d’un Pokémon.
+166 : Une Baie rose au goût sucré, utilisée pour préparer des Pokéblocs permettant d’augmenter la Grâce d’un Pokémon.
+167 : Une Baie verte au goût amer, utilisée pour préparer des Pokéblocs permettant d’augmenter l’Intelligence d’un Pokémon.
+168 : Une Baie jaune au goût acide, utilisée pour préparer des Pokéblocs permettant d’augmenter la Robustesse d’un Pokémon.
+169 : Une Baie qui rend les Pokémon plus amicaux, mais baisse leurs PV de base.
+170 : Une Baie qui rend les Pokémon plus amicaux, mais baisse leur Attaque de base.
+171 : Une Baie qui rend les Pokémon plus amicaux, mais baisse leur Défense de base.
+172 : Une Baie qui rend les Pokémon plus amicaux, mais baisse leur Attaque Spéciale de base.
+173 : Une Baie qui rend les Pokémon plus amicaux, mais baisse leur Défense Spéciale de base.
+174 : Une Baie qui rend les Pokémon plus amicaux, mais baisse leur Vitesse de base.
+175 : Une Baie très rare en dehors de cette région, utilisée pour préparer des Pokéblocs permettant d’augmenter la Beauté d’un Pokémon.
+176 : Une Baie très rare en dehors de cette région, utilisée pour préparer des Pokéblocs permettant d’augmenter la Grâce d’un Pokémon.
+177 : Une Baie très rare en dehors de cette région, utilisée pour préparer des Pokéblocs permettant d’augmenter l’Intelligence d’un Pokémon.
+178 : Une Baie très rare en dehors de cette région, utilisée pour préparer des Pokéblocs permettant d’augmenter la Robustesse d’un Pokémon.
+179 : Une Baie très rare en dehors de cette région, utilisée pour préparer des Pokéblocs permettant d’augmenter la Grâce d’un Pokémon.
+180 : Une Baie très rare en dehors de cette région, utilisée pour préparer des Pokéblocs permettant d’augmenter la Beauté d’un Pokémon.
+181 : Une Baie très rare en dehors de cette région, utilisée pour préparer des Pokéblocs permettant d’augmenter l’Intelligence d’un Pokémon.
+182 : Une Baie très rare en dehors de cette région, utilisée pour préparer des Pokéblocs permettant d’augmenter l’Intelligence d’un Pokémon.
+183 : Une Baie très rare en dehors de cette région, utilisée pour préparer des Pokéblocs permettant d’augmenter la Beauté d’un Pokémon.
+184 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Feu.
+185 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Eau.
+186 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Électrik.
+187 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Plante.
+188 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Glace.
+189 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Combat.
+190 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Poison.
+191 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Sol.
+192 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Vol.
+193 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Psy.
+194 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Insecte.
+195 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Roche.
+196 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Spectre.
+197 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Dragon.
+198 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Ténèbres.
+199 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Acier.
+200 : Tenue, cette Baie affaiblit une attaque ennemie de type Normal.
+201 : Tenue, cette Baie augmente l’Attaque en cas de besoin.
+202 : Tenue, cette Baie augmente la Défense en cas de besoin.
+203 : Tenue, cette Baie augmente la Vitesse en cas de besoin.
+204 : Tenue, cette Baie augmente l’Attaque Spéciale en cas de besoin.
+205 : Tenue, cette Baie augmente la Défense Spéciale en cas de besoin.
+206 : Tenue, cette Baie augmente le taux de critiques en cas de besoin.
+207 : Tenue, cette Baie augmente beaucoup une des stats en cas de besoin.
+208 : Tenue, cette Baie restaure les PV du Pokémon s’il subit une attaque super efficace.
+209 : Tenue, cette Baie augmente une fois la Précision d’une capacité en cas de besoin.
+210 : Tenue, cette Baie permet d’utiliser une capacité en priorité une fois en cas de besoin.
+211 : Tenue, cette Baie inflige des dégâts à l’attaquant s’il utilise une capacité physique qui atteint sa cible.
+212 : Tenue, cette Baie inflige des dégâts à l’attaquant s’il utilise une capacité spéciale qui atteint sa cible.
+213 : Objet à tenir. Intimide l’ennemi et baisse sa Précision.
+214 : Objet à tenir. Restaure les stats qui ont subi une baisse. Ne peut être utilisé qu’une fois.
+215 : Objet à tenir. Un bracelet dur et lourd qui rend le porteur plus fort, mais baisse sa Vitesse.
+216 : Objet à activer. Permet de faire gagner des Points d’Expérience à tous les Pokémon de l’équipe, même à ceux qui n’ont pas participé au combat.
+217 : Objet à tenir. Une griffe légère mais tranchante qui permet parfois de frapper en priorité.
+218 : Objet à tenir. Un grelot dont le carillon calme le porteur et favorise l’amitié.
+219 : Objet à tenir. Guérit de certaines attaques limitant le choix des capacités. Ne peut être utilisé qu’une fois.
+220 : Objet à tenir. Ce bandeau augmente l’Attaque, mais ne permet d’utiliser qu’une seule capacité.
+221 : Objet à tenir. Peut apeurer l’ennemi lorsque le porteur lui inflige des dégâts.
+222 : Objet à tenir. De la poudre d’argent brillante qui augmente la puissance des capacités de type Insecte.
+223 : Objet à tenir. Double l’argent gagné si le porteur se joint au combat.
+224 : Objet à tenir. Aide à repousser les Pokémon sauvages si le porteur est le premier Pokémon de l’équipe.
+225 : Objet à faire tenir à Latios ou Latias. Un orbe prodigieux qui augmente la puissance de leurs capacités de type Psy ou Dragon.
+226 : Objet à faire tenir à Coquiperl. Une dent de couleur argent qui augmente son Attaque Spéciale.
+227 : Objet à faire tenir à Coquiperl. Une écaille de couleur rose qui augmente sa Défense Spéciale.
+228 : Objet à tenir. Permet au porteur de s’enfuir à coup sûr face à un Pokémon sauvage.
+229 : Objet à tenir. Une pierre merveilleuse empêchant l’évolution.
+230 : Objet à tenir pouvant parfois empêcher d’être mis K.O., ne laissant qu’un seul PV.
+231 : Objet à tenir. Un œuf rempli de joie qui augmente le nombre de Points d’Expérience gagnés au combat.
+232 : Objet à tenir. Une lentille qui augmente le taux de critiques du porteur.
+233 : Objet à tenir. Une pellicule métallique spéciale qui augmente la puissance des capacités de type Acier.
+234 : Objet à tenir. Permet de restaurer graduellement les PV du porteur durant le combat.
+235 : Une écaille épaisse et dure, parfois tenue par les Pokémon de type Dragon quand ils sont attrapés.
+236 : Objet à faire tenir à Pikachu. Un orbe énigmatique qui augmente son Attaque et son Attaque Spéciale.
+237 : Objet à tenir. Du sable fin et soyeux qui augmente la puissance des capacités de type Sol.
+238 : Objet à tenir. Une pierre incassable qui augmente la puissance des capacités de type Roche.
+239 : Objet à tenir. Une graine remplie de vie qui augmente la puissance des capacités de type Plante.
+240 : Objet à tenir. Une paire de lunettes à l’aspect louche qui augmente la puissance des capacités de type Ténèbres.
+241 : Objet à tenir. Une ceinture d’art martial qui augmente la puissance des capacités de type Combat.
+242 : Objet à tenir. Un aimant puissant qui augmente la puissance des capacités de type Électrik.
+243 : Objet à tenir. Une gemme en forme de goutte d’eau qui augmente la puissance des capacités de type Eau.
+244 : Objet à tenir. Un bec long et pointu qui augmente la puissance des capacités de type Vol.
+245 : Objet à tenir. Un petit pic empoisonné qui augmente la puissance des capacités de type Poison.
+246 : Objet à tenir. Un morceau de glace qui réfléchit la chaleur et augmente la puissance des capacités de type Glace.
+247 : Objet à tenir. Un talisman sinistre et étrange qui augmente la puissance des capacités de type Spectre.
+248 : Objet à tenir. Une cuillère contenant un pouvoir télékinétique qui augmente la puissance des capacités de type Psy.
+249 : Objet à tenir. Un combustible qui augmente la puissance des capacités de type Feu.
+250 : Objet à tenir. Un croc dur et pointu qui augmente la puissance des capacités de type Dragon.
+251 : Objet à tenir. Un mouchoir somptueux qui augmente la puissance des capacités de type Normal.
+252 : Un dispositif transparent rempli de données diverses et variées. Fabriqué par la Sylphe SARL.
+253 : Objet à tenir. Restaure un peu les PV du porteur chaque fois qu’il inflige des dégâts.
+254 : Objet à tenir. Un encens au parfum curieux augmentant la puissance des capacités de type Eau.
+255 : Objet à tenir. Le parfum trompeur de cet encens baisse la Précision de l’ennemi.
+256 : Objet à faire tenir à Leveinard. Une paire de gants qui augmente son taux de critiques.
+257 : Objet à faire tenir à Métamorph. Cette poudre étrange, très fine mais résistante, augmente sa Défense.
+258 : Objet à faire tenir à Osselait ou Ossatueur. Un os dur qui augmente leur Attaque.
+259 : Objet à faire tenir à Canarticho. Un poireau très long et solide qui augmente son taux de critiques.
+260 : Objet à tenir. Augmente le Sang-froid d’un Pokémon dans les concours.
+261 : Objet à tenir. Augmente la Beauté d’un Pokémon dans les concours.
+262 : Objet à tenir. Augmente la Grâce d’un Pokémon dans les concours.
+263 : Objet à tenir. Augmente l’Intelligence d’un Pokémon dans les concours.
+264 : Objet à tenir. Augmente la Robustesse d’un Pokémon dans les concours.
+265 : Objet à tenir. Une loupe qui augmente légèrement la Précision des capacités.
+266 : Objet à tenir. Un bandeau qui augmente légèrement la puissance des capacités physiques.
+267 : Objet à tenir. Une paire de lunettes épaisses qui augmente légèrement la puissance des capacités spéciales.
+268 : Objet à tenir. Une ceinture usée qui augmente légèrement la puissance des capacités super efficaces.
+269 : Objet à tenir. Prolonge la durée des capacités barrières telles que Mur Lumière et Protection.
+270 : Objet à tenir. Augmente la puissance des capacités, mais dépense des PV à chaque coup.
+271 : Objet à tenir et à usage unique. Permet d’utiliser immédiatement une capacité qui devrait se charger au premier tour.
+272 : Objet à tenir. Un orbe bizarre qui empoisonne gravement son porteur durant le combat.
+273 : Objet à tenir. Un orbe bizarre qui brûle son porteur durant le combat.
+274 : Objet à faire tenir à Métamorph. Cette poudre étrange, très fine mais résistante, augmente sa Vitesse.
+275 : Objet à tenir. S’il a encore tous ses PV, le porteur pourra éviter d’être mis K.O. en un coup. Il ne conservera alors qu’un seul PV.
+276 : Objet à tenir. Augmente la Précision du porteur s’il attaque après l’ennemi.
+277 : Objet à tenir. Booste une capacité utilisée à répétition. L’effet s’annule si une autre capacité est utilisée.
+278 : Objet à tenir. Réduit la Vitesse. Rend les porteurs de type Vol, ainsi que ceux en lévitation, sensibles aux capacités de type Sol.
+279 : Objet à tenir extrêmement lourd qui ralentit le porteur.
+280 : Un long fil rouge vif à faire tenir à un Pokémon. Si le porteur tombe amoureux, l’ennemi aussi.
+281 : Objet à tenir. Restaure peu à peu les PV des Pokémon de type Poison. Inflige des dégâts à tous les autres types.
+282 : Objet à tenir. Prolonge la durée de la capacité Grêle utilisée par le porteur.
+283 : Objet à tenir. Prolonge la durée de la capacité Tempête de Sable utilisée par le porteur.
+284 : Objet à tenir. Prolonge la durée de la capacité Zénith utilisée par le porteur.
+285 : Objet à tenir. Prolonge la durée de la capacité Danse Pluie utilisée par le porteur.
+286 : Objet à tenir. Prolonge la durée des attaques à tours multiples telles que Ligotage et Étreinte.
+287 : Objet à tenir. Augmente la Vitesse, mais ne permet d’utiliser qu’une seule capacité.
+288 : Objet à tenir. Blesse le porteur à chaque tour. Peut s’accrocher aux ennemis qui attaquent le porteur.
+289 : Objet à tenir. Permet à l’Attaque de progresser plus vite, mais réduit la Vitesse pendant le combat.
+290 : Objet à tenir. Permet à la Défense de progresser plus vite, mais réduit la Vitesse pendant le combat.
+291 : Objet à tenir. Permet à l’Attaque Spéciale de progresser plus vite, mais réduit la Vitesse pendant le combat.
+292 : Objet à tenir. Permet à la Défense Spéciale de progresser plus vite, mais réduit la Vitesse pendant le combat.
+293 : Objet à tenir. Permet à la Vitesse de progresser plus vite, mais la réduit pendant le combat.
+294 : Objet à tenir. Permet aux PV max de progresser plus vite, mais réduit la Vitesse pendant le combat.
+295 : Objet à tenir. Une carapace dure qui permet au porteur de se retirer même s’il est affecté par une attaque immobilisante.
+296 : Objet à tenir. Augmente la puissance des capacités volant des PV.
+297 : Objet à tenir. Augmente l’Attaque Spéciale, mais ne permet d’utiliser qu’une seule capacité.
+298 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Feu.
+299 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Eau.
+300 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Électrik.
+301 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Plante.
+302 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Glace.
+303 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Combat.
+304 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Poison.
+305 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Sol.
+306 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Vol.
+307 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Psy.
+308 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Insecte.
+309 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Roche.
+310 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Spectre.
+311 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Dragon.
+312 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Ténèbres.
+313 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Acier.
+314 : Objet à tenir. Un encens au parfum exotique augmentant la puissance des capacités de type Psy.
+315 : Objet à tenir. Un encens au parfum exotique augmentant la puissance des capacités de type Roche.
+316 : Objet à tenir. Un encens au parfum exotique qui fait enfler son porteur et le fait se déplacer lentement.
+317 : Objet à tenir. Un encens au parfum curieux augmentant la puissance des capacités de type Eau.
+318 : Objet à tenir. Un encens au parfum exotique augmentant la puissance des capacités de type Plante.
+319 : Objet à tenir. Double l’argent gagné si le porteur se joint au combat.
+320 : Objet à tenir. Aide à repousser les Pokémon sauvages si le porteur est le premier Pokémon de l’équipe.
+321 : Un objet protecteur très dur et très lourd, apprécié d’un certain Pokémon.
+322 : Une boîte remplie d’une énorme quantité d’énergie électrique. Appréciée d’un certain Pokémon.
+323 : Une boîte remplie d’une énorme quantité d’énergie magmatique. Appréciée d’un certain Pokémon.
+324 : Un appareil transparent rempli de données douteuses. Son fabricant n’est pas connu.
+325 : Un tissu imprégné d’une énergie spirituelle horriblement puissante. Apprécié d’un certain Pokémon.
+326 : Objet à tenir. Une griffe crochue et pointue augmentant le taux de critiques.
+327 : Objet à tenir. Peut apeurer l’ennemi quand le porteur lui inflige des dégâts.
+328 : Un coup de pied surpuissant qui frappe l’ennemi.
+329 : Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat.
+330 : Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler.
+331 : Un coup de poing glacé vient frapper l’ennemi. Peut le geler.
+332 : Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser.
+333 : Le lanceur s’envole au premier tour et frappe au second.
+334 : Envoie une rafale de dards. Peut toucher de deux à cinq fois.
+335 : Projette un puissant rayon sur l’ennemi. Le lanceur doit se reposer au tour suivant.
+336 : Le lanceur charge l’ennemi de toute sa puissance et doit ensuite se reposer au tour suivant.
+337 : Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais.
+338 : Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.
+339 : Le lanceur absorbe la lumière au premier tour et attaque au second tour en libérant cette énergie sous forme de lames.
+340 : Un tourbillon de flammes emprisonne l’ennemi pendant quatre à cinq tours.
+341 : Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé.
+342 : Le lanceur creuse au premier tour et frappe au second.
+343 : Le lanceur émet un son strident qui baisse beaucoup la Défense de l’ennemi.
+344 : Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales pendant cinq tours.
+345 : Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités physiques pendant cinq tours.
+346 : Crée un champ protecteur qui empêche toutes les altérations de statut pendant cinq tours.
+347 : Le lanceur explose en blessant tous les Pokémon autour de lui. Le lanceur tombe K.O.
+348 : Le lanceur regagne tous ses PV et soigne ses altérations de statut, puis il dort pendant deux tours.
+349 : Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.
+350 : Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.
+351 : Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi.
+352 : Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite.
+353 : Le lanceur fait une grimace qui effraie l’ennemi et réduit beaucoup sa Vitesse.
+354 : Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse.
+355 : Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.
+356 : Le lanceur fait les yeux doux pour berner l’ennemi et beaucoup réduire son Attaque.
+357 : Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur.
+358 : Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer.
+359 : Une tempête de sable blesse tous les Pokémon pendant cinq tours, sauf ceux de type Roche, Sol ou Acier. Augmente la Défense Spéciale des Pokémon Roche.
+360 : Invoque de fortes pluies qui durent cinq tours, augmentant la puissance des capacités de type Eau et baissant celle des capacités de type Feu.
+361 : Fait briller le soleil pendant cinq tours, augmentant la puissance des capacités de type Feu et baissant celle des capacités de type Eau.
+362 : Invoque une tempête de grêle qui dure cinq tours. Blesse tous les Pokémon, sauf ceux de type Glace.
+363 : Piège l’ennemi dans une trombe d’eau pendant quatre à cinq tours.
+364 : Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques.
+365 : Lance un bouquet de flammes maléfiques à l’ennemi pour lui infliger une brûlure.
+366 : Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé.
+367 : Le lanceur envoie des rayons d’étoiles. Touche toujours l’ennemi.
+368 : Une capacité qui augmente la puissance d’attaque d’un allié.
+369 : Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour.
+370 : Le lanceur attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière et Protection.
+371 : Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser.
+372 : Le lanceur plonge sous l’eau au premier tour et frappe au second.
+373 : Une attaque dont la puissance et le type varient en fonction du temps qu’il fait.
+374 : Le lanceur fait semblant de pleurer pour troubler l’ennemi et beaucoup baisser sa Défense Spéciale.
+375 : Des rochers frappent l’ennemi. Réduit aussi sa Vitesse.
+376 : Le lanceur emprisonne l’ennemi dans une tempête de sable terrifiante qui dure de quatre à cinq tours.
+377 : Le lanceur mitraille l’ennemi avec une rafale de graines. De deux à cinq rafales sont lancées à la suite.
+378 : Le lanceur jette des pics de glace sur l’ennemi, de deux à cinq fois de suite.
+379 : Le lanceur bondit très haut et plonge sur l’ennemi au second tour. Peut aussi le paralyser.
+380 : Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible.
+381 : Le lanceur projette un rocher sur l’ennemi de deux à cinq fois d’affilée.
+382 : Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV.
+383 : Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.
+384 : Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi.
+385 : Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour.
+386 : Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet.
+387 : Pouvoir qui échange les modifications de l’Attaque Spéciale et de l’Attaque du lanceur avec la cible.
+388 : Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible.
+389 : Intervertit la Vitesse du lanceur et celle de la cible.
+390 : Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur.
+391 : Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant le tour.
+392 : Attaque avec une griffe puissante faite d’ombres. Taux de critiques élevé.
+393 : Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.
+394 : Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.
+395 : Le lanceur utilise une morsure enflammée. Peut aussi brûler ou apeurer l’ennemi.
+396 : Le lanceur entaille l’ennemi grâce à des lames faites d’énergie psychique. Taux de critiques élevé.
+397 : Le lanceur crée une zone mystérieuse où les Pokémon les plus lents frappent en priorité pendant cinq tours.
+398 : Le lanceur crée une zone mystérieuse où la Défense et la Défense Spéciale de tous les Pokémon sont inversées pendant cinq tours.
+399 : Le lanceur crée une zone mystérieuse où les objets tenus par tous les Pokémon n’ont plus aucun effet pendant cinq tours.
+400 : Un coup tranchant qui peut empoisonner l’ennemi. Taux de critiques élevé.
+401 : Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné.
+402 : Un coup rapide qui affecte la mobilité de l’ennemi et diminue sa Vitesse.
+403 : Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente.
+404 : Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut.
+405 : Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts.
+406 : Venge un Pokémon de l’équipe mis K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, l’effet augmente.
+407 : Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.
+408 : Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi leur Vitesse.
+409 : Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi.
+410 : Un coquillage aiguisé lacère l’ennemi. Peut aussi baisser sa Défense.
+411 : Le lanceur frappe l’ennemi de deux à cinq fois d’affilée avec sa queue robuste.
+412 : Le lanceur hurle sur l’ennemi. Baisse l’Attaque Spéciale de l’ennemi.
+413 : Le lanceur disparaît au premier tour et frappe au second. Cette attaque passe outre les protections.
+414 : Aspire la force vitale de l’ennemi par un baiser. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.
+415 : Pendant cinq tours, les Pokémon au sol récupèrent quelques PV à chaque tour et la puissance des capacités de type Plante augmente.
+416 : Pendant cinq tours, les Pokémon au sol ne peuvent pas subir d’altération de statut et la puissance des capacités de type Dragon est divisée par deux.
+417 : Pendant cinq tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance des capacités de type Électrik augmente.
+418 : Pendant cinq tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente.
+419 : Attaque avec des flammes brûlantes soufflées de la bouche du lanceur. Diminue l’Attaque Spéciale de l’ennemi.
+420 : - - -
+421 : - - -
+422 : - - -
+423 : - - -
+424 : - - -
+425 : - - -
+426 : - - -
+427 : - - -
+428 : Un sac contenant des objets utiles à l’exploration. Permet d’entrer dans le Souterrain.
+429 : Un grand sac robuste utilisé pour transporter le butin obtenu dans la mine de charbon.
+430 : La liste des règles de combat. Permet de choisir les règles des combats en réseau.
+431 : Un objet permettant de trouver les Pokémon qui se cachent dans les hautes herbes. Se recharge quand l’on marche.
+432 : Une carte indiquant le nombre de Points de Combat obtenus.
+433 : Un journal de bord qui garde en mémoire vos aventures quotidiennes.
+434 : Une boîte pouvant contenir des Sceaux à placer sur les capsules des Poké Balls.
+435 : Une boîte permettant de ranger les Parures pour habiller les Pokémon au Music-Hall.
+436 : Un petit sac pouvant contenir dix Sceaux pour décorer les Poké Balls.
+437 : Un carnet bien pratique pour enregistrer vos amis, leurs codes ami et des données de jeu.
+438 : Une grande clé servant à ouvrir la porte de la centrale Les Éoliennes du canyon. Un Sbire de la Team Galaxie la détenait.
+439 : Un ancien porte-bonheur fait d’os de Pokémon à apporter à la doyenne de Célestia.
+440 : Une clé magnétique servant à désactiver les systèmes de sécurité du QG Galaxie. La perdre entraîne une punition.
+441 : Une chaîne mystique qui serait reliée au Pokémon légendaire ayant créé la région de Sinnoh.
+442 : Une carte très pratique pouvant être consultée n’importe quand. Elle indique la position actuelle.
+443 : Un appareil indiquant les Dresseurs prêts à se battre. La batterie se recharge quand l’on marche.
+444 : Une boîte pour conserver les Jetons obtenus à la salle d’arcade. Peut contenir jusqu’à 50 000 Jetons.
+445 : Une vieille canne usée. Utilisez-la pour pêcher des Pokémon sauvages dans les points d’eau.
+446 : Une canne neuve et de bonne qualité. Utilisez-la pour pêcher des Pokémon sauvages dans les points d’eau.
+447 : Une canne à pêche ultramoderne. Utilisez-la pour pêcher des Pokémon sauvages dans les points d’eau.
+448 : Un arrosoir en forme de Psykokwak. Aide à la croissance des Baies plantées dans les sols meubles.
+449 : Une boîte pour ranger les Poffins faits à partir de Baies.
+450 : Une Bicyclette pliable permettant de se déplacer bien plus rapidement qu’en marchant.
+451 : La clé de l’une des suites de l’hôtel de luxe se trouvant près du lac. Bizarrement, elle disparaît souvent.
+452 : Une lettre du Professeur Chen vous demandant de vous rendre sur la Route 224.
+453 : Une plume qui brille comme la lune. On dit qu’elle a le pouvoir de chasser les cauchemars.
+454 : Une carte nécessaire pour entrer à l’auberge de Joliberges. Le dernier tampon date d’il y a 50 ans !
+455 : Une flûte produisant des sons qui semblent provenir d’un autre monde. On ne sait pas qui l’a fabriquée.
+456 : Un ticket nécessaire pour embarquer sur le ferry L’Aquaria. Un bateau est dessiné dessus.
+457 : La carte requise pour participer aux Concours Pokémon. Il y a un ruban dessiné dessus.
+458 : Une pierre formée à partir de roche en fusion solidifiée. Elle contient du magma.
+459 : Un paquet qu’on vous a confié. Vous devez le remettre à votre ami d’enfance qui a quitté Bonaugure.
+460 : Un des trois bons à échanger contre une Pokémontre.
+461 : Un des trois bons à échanger contre une Pokémontre.
+462 : Un des trois bons à échanger contre une Pokémontre.
+463 : La clé de l’entrepôt de la Team Galaxie situé à la périphérie de Voilaroc.
+464 : Un médicament génial vendu à la pharmacie d’Irisia. Soigne toutes les altérations de statut d’un Pokémon.
+465 : Un appareil utile permettant d’enregistrer les combats entre amis et ceux ayant lieu dans un bâtiment de combat.
+466 : Une fleur que l’on offre en gage de reconnaissance, notamment à l’occasion d’un anniversaire.
+467 : Une clé destinée à une serrure très complexe. Ouvre une porte en transmettant un signal électrique.
+468 : Une boîte bien pratique qui peut contenir jusqu’à 99 Noigrumes.
+469 : Un carnet permettant de noter toutes les formes de Zarbi capturées.
+470 : Un accessoire portatif qui permet de cultiver des Baies en tout lieu et à tout moment.
+471 : Un appareil high-tech qui indique l’emplacement des objets invisibles. Il se porte sur la tête.
+472 : Une carte pour accumuler les points de l’émission « Le Mot de Passe de Buena ».
+473 : Une queue d’origine inconnue tout à fait savoureuse, vendue très cher.
+474 : Une cloche antique au tintement apaisant.
+475 : Une clé en forme de carte permettant d’ouvrir les cloisons de la Tour Radio.
+476 : Une clé qui permet d’ouvrir la porte au fond du Doublon-Tunnel.
+477 : Un arrosoir qui permet de faire croître rapidement les Baies plantées dans le Plante-Baies.
+478 : Une écaille du Léviator apparu au Lac Colère. Elle rougeoie comme une flamme.
+479 : La Poupée Mime Jr. perdue par la Copieuse.
+480 : Un ticket nécessaire pour monter à bord du Train Magnétique. Utilisable à volonté.
+481 : Une pièce essentielle du générateur de la Centrale.
+482 : Une étrange plume qui brille d’un éclat argenté.
+483 : Une étrange plume qui brille d’un éclat arc-en-ciel.
+484 : Un Œuf étrange confié par M. Pokémon. Personne ne sait ce qu’il contient.
+485 : Un Noigrume de couleur rouge. Il dégage un puissant arôme.
+486 : Un Noigrume de couleur bleue. Il dégage un arôme un peu aigre.
+487 : Un Noigrume de couleur jaune. Il dégage un arôme délicat.
+488 : Un Noigrume de couleur verte. Il dégage un arôme étonnamment riche.
+489 : Un Noigrume de couleur rose. Il dégage un arôme sucré.
+490 : Un Noigrume de couleur blanche. Il ne dégage aucun arôme.
+491 : Un Noigrume de couleur noire. Il dégage un arôme indéfinissable.
+492 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les Pokémon qui ont tendance à fuir.
+493 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les Pokémon de niveau inférieur au sien.
+494 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les Pokémon ferrés avec une canne à pêche.
+495 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les Pokémon lourds.
+496 : Une Poké Ball un peu spéciale qui fonctionne mieux sur un Pokémon de sexe opposé.
+497 : Une Poké Ball un peu spéciale qui permet de rendre rapidement amicaux les Pokémon sauvages attrapés avec celle-ci.
+498 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les Pokémon évoluant avec une Pierre Lune.
+499 : Une Poké Ball spéciale anciennement utilisée au Concours de Capture d’insecte de Johto.
+500 : Une Poké Ball spéciale utilisée au Parc des Amis.
+501 : Un album décoré de photos souvenirs prises pendant le voyage.
+502 : Un lecteur de musique qui permet de se plonger dans une atmosphère rétro. Une pression suffit pour changer de mode.
+503 : Une cloche antique au tintement apaisant.
+504 : Un bonbon, spécialité d’Acajou. Soigne toutes les altérations de statut d’un Pokémon.
+505 : Contient vos données du Pokéathlon. Sur cette carte est inscrit votre nombre de victoires au Pokéathlon.
+506 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de fois où vous avez fini en dernier.
+507 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de sprints de vos Pokémon.
+508 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de sauts de vos Pokémon.
+509 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires à la Cours’Obstacles.
+510 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires à la Course de Relais.
+511 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires au Capture Drapeau.
+512 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires au Casse Roc.
+513 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires à l’Attrap’Disques.
+514 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires à la Bataille Neige.
+515 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de points gagnés par vos Pokémon.
+516 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre d’erreurs de vos Pokémon.
+517 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de points perdus par vos Pokémon.
+518 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de charges de vos Pokémon.
+519 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de fois où vos Pokémon sont tombés.
+520 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires au Combat Ring-Out.
+521 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires au Saute-Lumière.
+522 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires au Cercle Musical.
+523 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires en réseau.
+524 : Contient vos données du Pokéathlon. Il y est inscrit le nombre de fois où vous avez fini en dernier en réseau.
+525 : Contient vos données du Pokéathlon. Sur cette carte est inscrit votre nombre de victoires aux épreuves.
+526 : Contient vos données du Pokéathlon. Il y est inscrit le nombre de fois où vous avez fini en dernier aux épreuves.
+527 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de fois où vous avez changé de Pokémon.
+528 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le nombre de victoires à la Balle au But.
+529 : Contient vos données du Pokéathlon. Sur cette carte est inscrit votre nombre de prix individuels.
+530 : Contient vos données du Pokéathlon. Il y est inscrit le nombre de fois où vous avez touché vos Pokémon.
+531 : Contient vos données du Pokéathlon. Sur cette carte est inscrit le temps que vous avez passé à y jouer.
+532 : Un orbe viride dont on dit qu’il a un lien très étroit avec les légendes de Hoenn.
+533 : Un écrin résistant qui ne s’ouvre qu’avec une clé spéciale.
+534 : Une gemme incarnate dont on dit qu’elle a un lien très étroit avec les légendes de Hoenn.
+535 : Une gemme céruléenne dont on dit qu’elle a un lien très étroit avec les légendes de Hoenn.
+536 : Un orbe cristallin fraîchement déterré. Il est encore pris dans une gangue de terre et de roche.
+537 : Une écaille étrange qui fait évoluer une certaine espèce de Pokémon. Elle a une couleur arc-en-ciel.
+538 : Objet à tenir. Un étrange concentré d’évolution qui augmente la Défense et la Défense Spéciale d’un Pokémon pouvant évoluer.
+539 : Objet à tenir. Une pierre très légère qui réduit le poids du Pokémon qui la tient.
+540 : Objet à tenir. Inflige des dégâts à l’attaquant si ce dernier utilise une capacité qui atteint directement le porteur.
+541 : Objet à tenir. Permet au porteur de flotter dans les airs. Il éclate quand le porteur encaisse une attaque.
+542 : Objet à tenir. Une carte au pouvoir mystérieux qui permet d’éjecter un Pokémon du combat si ce dernier attaque le porteur.
+543 : Objet à tenir. Rend le porteur sensible aux capacités auxquelles il devrait être immunisé en raison de son type.
+544 : Objet à tenir. Augmente la puissance des attaques immobilisantes telles que Ligotage ou Étreinte.
+545 : Objet à tenir. Un bulbe jetable qui augmente l’Attaque Spéciale du porteur lorsqu’il encaisse une attaque de type Eau.
+546 : Objet à tenir. Une pile jetable qui augmente l’Attaque du porteur lorsqu’il encaisse une attaque de type Électrik.
+547 : Objet à tenir. Permet au porteur de quitter le combat après avoir été touché par une attaque.
+548 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Feu.
+549 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Eau.
+550 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Électrik.
+551 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Plante.
+552 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Glace.
+553 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Combat.
+554 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Poison.
+555 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Sol.
+556 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Vol.
+557 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Psy.
+558 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Insecte.
+559 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Roche.
+560 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Spectre.
+561 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Dragon.
+562 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Ténèbres.
+563 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Acier.
+564 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Normal.
+565 : Objet à utiliser sur un Pokémon pour un peu augmenter ses PV de base.
+566 : Objet à utiliser sur un Pokémon pour un peu augmenter son Attaque de base.
+567 : Objet à utiliser sur un Pokémon pour un peu augmenter sa Défense de base.
+568 : Objet à utiliser sur un Pokémon pour un peu augmenter son Attaque Spéciale de base.
+569 : Objet à utiliser sur un Pokémon pour un peu augmenter sa Défense Spéciale de base.
+570 : Objet à utiliser sur un Pokémon pour un peu augmenter sa Vitesse de base.
+571 : Une plume très jolie, mais ordinaire et sans effet particulier.
+572 : Le fossile d’un ancien Pokémon aquatique. Il semble que ce soit une partie de son dos.
+573 : Le fossile d’un ancien Pokémon volant. Il semble que ce soit un morceau d’aile.
+574 : Un ticket spécial permettant de se rendre sur l’Île Liberté à bord du bateau de Volucité.
+575 : Une sphère mystérieuse contenant l’Aura d’Unys et permettant l’utilisation des Offri-Auras.
+576 : Une Poké Ball un peu spéciale qui fonctionne particulièrement bien sur les Pokémon endormis.
+577 : Un objet qui attire les Pokémon. Permet de s’enfuir d’un combat contre un Pokémon sauvage.
+578 : Une boîte permettant de ranger les Parures pour habiller les Pokémon au Music-Hall.
+579 : Le crâne d’un Pokémon qui aurait survolé librement la mer déchaînée.
+580 : Un champignon rare qui répand un agréable parfum autour de lui. Peut être vendu à bon prix en magasin.
+581 : Une pépite d’or pur qui brille d’un éclat magnifique. Peut être vendue à bon prix en magasin.
+582 : Une grappe de perles brillant d’une jolie couleur argent. Peut être vendue à bon prix en magasin.
+583 : Un fragment de comète, tombé au sol quand elle traversait l’atmosphère. Peut être vendu à bon prix en magasin.
+584 : Une pièce de cuivre d’une civilisation vieille de plus de 3 000 ans.
+585 : Une pièce d’argent d’une civilisation vieille de plus de 3 000 ans.
+586 : Une pièce d’or d’une civilisation vieille de plus de 3 000 ans.
+587 : Un vase d’une civilisation vieille de plus de 3 000 ans.
+588 : Un bijou d’une civilisation vieille de plus de 3 000 ans.
+589 : Une statuette d’une civilisation vieille de plus de 3 000 ans.
+590 : Une couronne d’une civilisation vieille de plus de 3 000 ans.
+591 : Une spécialité de Volucité. Soigne toutes les altérations de statut d’un Pokémon.
+592 : Augmente le taux de critiques. Plus efficace à chaque utilisation. L’effet se dissipe si le Pokémon est retiré.
+593 : Augmente un peu la Vitesse pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+594 : Augmente un peu l’Attaque Spéciale pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+595 : Augmente un peu la Défense Spéciale pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+596 : Augmente un peu la Défense pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+597 : Augmente un peu l’Attaque pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+598 : Augmente un peu la Précision pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+599 : Augmente sensiblement la Vitesse pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+600 : Augmente sensiblement l’Attaque Spéciale pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+601 : Augmente sensiblement la Défense Spéciale pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+602 : Augmente sensiblement la Défense pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+603 : Augmente sensiblement l’Attaque pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+604 : Augmente sensiblement la Précision pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+605 : Augmente fortement la Vitesse pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+606 : Augmente fortement l’Attaque Spéciale pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+607 : Augmente fortement la Défense Spéciale pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+608 : Augmente fortement la Défense pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+609 : Augmente fortement l’Attaque pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+610 : Augmente fortement la Précision pendant un combat. L’effet se dissipe si le Pokémon est retiré.
+611 : Déclenche le talent d’un Pokémon de l’équipe.
+612 : Retire tout objet tenu par un Pokémon de l’équipe.
+613 : Permet d’utiliser immédiatement l’objet tenu par un Pokémon de l’équipe.
+614 : Permet d’annuler les variations de stats d’un Pokémon de l’équipe.
+615 : Augmente fortement le taux de critiques. Plus efficace à chaque utilisation. L’effet se dissipe si le Pokémon est retiré.
+616 : Ce sont les derniers restes du corps de Reshiram. On dit qu’ils attendent l’apparition d’un héros.
+617 : Ce sont les derniers restes du corps de Zekrom. On dit qu’ils attendent l’apparition d’un héros.
+618 : Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent beaucoup son Attaque Spéciale.
+619 : Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.
+620 : Le lanceur attaque avec une lame d’air qui fend tout. Peut aussi apeurer l’ennemi.
+621 : Un transmetteur high-tech permettant à quatre personnes de communiquer par le son et l’image.
+622 : Une pierre fantomatique.
+623 : Un courrier important transporté par un Goélise.
+624 : Un courrier important transporté par un Goélise.
+625 : Un courrier important transporté par un Goélise.
+626 : Un transmetteur high-tech permettant à quatre personnes de communiquer par le son et l’image.
+627 : Une boîte qui permet de ranger les Médailles et d’enregistrer des informations à leur sujet.
+628 : Un outil qui permet la fusiorption de Kyurem et d’un autre Pokémon avec lequel il ne faisait qu’un à l’origine.
+629 : Un outil qui permet de séparer Kyurem et le Pokémon avec lequel il a fusiorbé.
+630 : Un permis nécessaire pour pénétrer dans la Réserve Naturelle, lieu protégé des foules modernes.
+631 : Un mystérieux charme rond qui permet de trouver plus facilement des Œufs à la Garderie Pokémon.
+632 : Un mystérieux charme scintillant qui facilite la rencontre avec les Pokémon chromatiques.
+633 : Une clé magnétique indispensable pour entrer le mot de passe sur la Frégate Plasma.
+634 : Un mouchoir égaré par un habitué du Café de la Grange. Il sent légèrement le Pokémon.
+635 : Un appareil spécial qui permet d’éveiller de force la puissance des Pokémon. Mais il ne s’agit que d’un prototype.
+636 : Un Vokit trouvé au parc d’attractions de Méanville. C’est un modèle pour garçons.
+637 : Un Vokit trouvé au parc d’attractions de Méanville. C’est un modèle pour filles.
+638 : Un mystérieux miroir qui, en reflétant la vérité, permet de redonner à un Pokémon sa forme originelle.
+639 : Objet à tenir. Augmente beaucoup l’Attaque et l’Attaque Spéciale du Pokémon lorsqu’il est touché par une capacité d’un type auquel il est vulnérable.
+640 : Objet à tenir. Une veste augmentant la Défense Spéciale, mais empêchant d’utiliser des capacités de statut.
+641 : Un appareil portable permettant de recevoir et de visualiser des hologrammes à volonté.
+642 : Une lettre du Professeur Platane à Maman. Elle dégage un parfum subtil.
+643 : Aussi connus sous le nom de patins à roulettes, ils permettent de se déplacer rapidement et éventuellement de réaliser des figures.
+644 : Objet à tenir. Une tablette en pierre augmentant la puissance des capacités de type Fée.
+645 : Une capsule permettant à un Pokémon pouvant avoir deux talents de passer de l’un à l’autre.
+646 : Une crème sucrée qui fond dans la bouche, légère comme un nuage. Elle est appréciée d’un certain Pokémon.
+647 : Un sachet d’herbes et d’épices, au parfum trop marqué pour beaucoup, mais néanmoins apprécié d’un certain Pokémon.
+648 : Objet à tenir. Du lichen à usage unique qui augmente la Défense Spéciale du porteur lorsqu’il encaisse une attaque de type Eau.
+649 : Objet à tenir. Une boule de neige à usage unique qui augmente l’Attaque du porteur lorsqu’il encaisse une attaque de type Glace.
+650 : Objet à tenir. Protège le Pokémon contre les dégâts dus à la météo et la plupart des capacités utilisant de la poudre.
+651 : Une flûte au son si particulier qu’elle permet de réveiller les Pokémon les plus profondément endormis.
+652 : Un engrais à utiliser sur un sol meuble. Il n’est cependant pas adapté aux terres de Hoenn et n’y a aucun effet.
+653 : Un engrais à utiliser sur un sol meuble. Il n’est cependant pas adapté aux terres de Hoenn et n’y a aucun effet.
+654 : Un engrais à utiliser sur un sol meuble. Il n’est cependant pas adapté aux terres de Hoenn et n’y a aucun effet.
+655 : Un engrais à utiliser sur un sol meuble. Il n’est cependant pas adapté aux terres de Hoenn et n’y a aucun effet.
+656 : Une variété de Méga-Gemme. Tenue par un Ectoplasma, elle lui permet de méga-évoluer durant un combat.
+657 : Une variété de Méga-Gemme. Tenue par un Gardevoir, elle lui permet de méga-évoluer durant un combat.
+658 : Une variété de Méga-Gemme. Tenue par un Pharamp, elle lui permet de méga-évoluer durant un combat.
+659 : Une variété de Méga-Gemme. Tenue par un Florizarre, elle lui permet de méga-évoluer durant un combat.
+660 : Une variété de Méga-Gemme. Tenue par un Dracaufeu, elle lui permet de méga-évoluer durant un combat.
+661 : Une variété de Méga-Gemme. Tenue par un Tortank, elle lui permet de méga-évoluer durant un combat.
+662 : Une variété de Méga-Gemme. Tenue par Mewtwo, elle lui permet de méga-évoluer durant un combat.
+663 : Une variété de Méga-Gemme. Tenue par Mewtwo, elle lui permet de méga-évoluer durant un combat.
+664 : Une variété de Méga-Gemme. Tenue par un Braségali, elle lui permet de méga-évoluer durant un combat.
+665 : Une variété de Méga-Gemme. Tenue par un Charmina, elle lui permet de méga-évoluer durant un combat.
+666 : Une variété de Méga-Gemme. Tenue par un Démolosse, elle lui permet de méga-évoluer durant un combat.
+667 : Une variété de Méga-Gemme. Tenue par un Galeking, elle lui permet de méga-évoluer durant un combat.
+668 : Une variété de Méga-Gemme. Tenue par un Branette, elle lui permet de méga-évoluer durant un combat.
+669 : Une variété de Méga-Gemme. Tenue par un Tyranocif, elle lui permet de méga-évoluer durant un combat.
+670 : Une variété de Méga-Gemme. Tenue par un Cizayox, elle lui permet de méga-évoluer durant un combat.
+671 : Une variété de Méga-Gemme. Tenue par un Scarabrute, elle lui permet de méga-évoluer durant un combat.
+672 : Une variété de Méga-Gemme. Tenue par un Ptéra, elle lui permet de méga-évoluer durant un combat.
+673 : Une variété de Méga-Gemme. Tenue par un Lucario, elle lui permet de méga-évoluer durant un combat.
+674 : Une variété de Méga-Gemme. Tenue par un Blizzaroi, elle lui permet de méga-évoluer durant un combat.
+675 : Une variété de Méga-Gemme. Tenue par un Kangourex, elle lui permet de méga-évoluer durant un combat.
+676 : Une variété de Méga-Gemme. Tenue par un Léviator, elle lui permet de méga-évoluer durant un combat.
+677 : Une variété de Méga-Gemme. Tenue par un Absol, elle lui permet de méga-évoluer durant un combat.
+678 : Une variété de Méga-Gemme. Tenue par un Dracaufeu, elle lui permet de méga-évoluer durant un combat.
+679 : Une variété de Méga-Gemme. Tenue par un Alakazam, elle lui permet de méga-évoluer durant un combat.
+680 : Une variété de Méga-Gemme. Tenue par un Scarhino, elle lui permet de méga-évoluer durant un combat.
+681 : Une variété de Méga-Gemme. Tenue par un Mysdibule, elle lui permet de méga-évoluer durant un combat.
+682 : Une variété de Méga-Gemme. Tenue par un Élecsprint, elle lui permet de méga-évoluer durant un combat.
+683 : Une variété de Méga-Gemme. Tenue par un Carchacrok, elle lui permet de méga-évoluer durant un combat.
+684 : Une variété de Méga-Gemme. Tenue par Latias, elle lui permet de méga-évoluer durant un combat.
+685 : Une variété de Méga-Gemme. Tenue par Latios, elle lui permet de méga-évoluer durant un combat.
+686 : Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Fée.
+687 : Tenue, cette Baie augmente la Défense du Pokémon lorsqu’il est touché par une capacité physique.
+688 : Tenue, cette Baie augmente la Défense Spéciale du Pokémon lorsqu’il est touché par une capacité spéciale.
+689 : Un arrosoir en forme de Nénupiot qui aide à la croissance des Baies plantées dans les sols meubles.
+690 : Le lanceur transperce la cible avec sa corne effilée. Touche toujours l’ennemi.
+691 : Le lanceur pivote pour prendre de l’élan et infliger des dégâts.
+692 : Le lanceur attaque en utilisant sa frustration. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance de Trépignement est doublée.
+693 : Le lanceur balaie violemment le camp adverse avec son immense queue. Baisse l’Attaque de la cible.
+694 : Dévoile des secrets à l’ennemi, qui perd alors sa concentration et voit son Attaque Spéciale diminuer.
+695 : Un passe de sécurité permettant d’accéder à la Centrale de Kalos, à proximité de la Route 13.
+696 : Un anneau aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+697 : Une pierre assez étrange qui pourrait avoir de la valeur pour certains.
+698 : Une pierre assez banale qui pourrait avoir de la valeur pour certains.
+699 : Un ticket donnant droit à une réduction dans les boutiques de vêtements.
+700 : Un passe de sécurité permettant d’accéder à l’ascenseur des Laboratoires Lysandre. Il est décoré du logo de la Team Flare.
+701 : Un abonnement à vie à la ligne de TMV qui relie Illumis à Batisques.
+702 : Une récompense symbolique offerte à ceux qui ont contribué de manière exceptionnelle à la grandeur de Kalos.
+703 : Une petite machine qui enregistre automatiquement les conseils qu’un Dresseur reçoit au cours de ses aventures.
+704 : Un ornement à l’image d’un Pokémon vénéré à Alola et considéré comme divinité protectrice depuis des temps immémoriaux.
+705 : Un étui plutôt chic destiné aux lentilles de contact.
+706 : Un étui très chic destiné aux rouges à lèvres.
+707 : Une valise extrêmement légère, parfaite pour stocker un grand nombre de vêtements et d’accessoires de mode.
+708 : Une spécialité d’Illumis. Soigne toutes les altérations de statut d’un Pokémon.
+709 : La spécialité de Yantreizh. Elle soigne tous les problèmes de statut d’un Pokémon.
+710 : Le fossile d’un Pokémon préhistorique terrestre. On dirait un morceau de mâchoire.
+711 : Le fossile d’un Pokémon préhistorique terrestre. On dirait un morceau de nageoire.
+712 : Un ticket brillant de mille feux, peint à la main par Beladonis.
+713 : Une Bicyclette pliable permettant de se déplacer bien plus rapidement qu’en marchant.
+714 : Un appareil portable permettant de recevoir et de visualiser des hologrammes à volonté.
+715 : Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Fée.
+716 : Un charme aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+717 : Un gant aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+718 : Un vélo pliable qui roule jusqu’à deux fois plus vite qu’une bicyclette ordinaire.
+719 : Un vélo pliable qui permet de bondir et de rouler sur la roue arrière.
+720 : Sert à arroser les Baies plantées dans le sol.
+721 : Une valise qui contient des pièces mécaniques fabriquées par la société Devon.
+722 : Un sac utilisé pour ramasser les cendres volcaniques accumulées au sol.
+723 : Une clé permettant d’accéder à New Lavandia, dans les sous-sols de Lavandia.
+724 : Boîte pour ranger le Mixeur à Baies et les Pokéblocs.
+725 : Une lettre confiée par le directeur de Devon.
+726 : Un billet de ferry pour l’Île du Sud. Norman, le Champion de l’Arène de Clémenti-Ville, semble savoir quelque chose à son sujet.
+727 : Un objet trouvé à Lavandia Sea.
+728 : Une paire de lunettes bien pratique qui protège les yeux en cas de tempête de sable dans le désert.
+729 : Une météorite qui s’est écrasée sur le Site Météore, trouvée au Mont Chimnée.
+730 : La clé d’une salle de Lavandia Sea.
+731 : La clé d’une salle de Lavandia Sea.
+732 : La clé d’une salle de Lavandia Sea.
+733 : La clé d’une salle de Lavandia Sea.
+734 : La clé de la réserve de Lavandia Sea.
+735 : Ce produit en série limitée de Devon émet un signal sonore pour signaler la présence de Pokémon invisibles.
+736 : Indispensable pour prendre le ferry.
+737 : Le lanceur plonge sous l’eau au premier tour et frappe au second.
+738 : Un masque à oxygène fabriqué par la société Devon et utilisé pour la plongée sous-marine.
+739 : Un costume très rock porté pour le Concours Pokémon Live !
+740 : Une robe très mignonne portée pour le Concours Pokémon Live !
+741 : Une combinaison créée à partir des méthodes scientifiques de la Team Magma. Elle résiste à tous les chocs.
+742 : Une combinaison créée à partir des méthodes scientifiques de la Team Aqua. Elle résiste à tous les chocs.
+743 : Un ticket pour deux personnes pour le spectacle d’astronomie se déroulant au Centre Spatial d’Algatia.
+744 : Un bracelet aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+745 : Un pendentif aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+746 : Des lunettes aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+747 : Une ancre aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+748 : Un pin’s aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+749 : Une tiare aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+750 : Une grève aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+751 : Une météorite trouvée au Mont Chimnée. Elle émet une légère lueur.
+752 : Une variété de Méga-Gemme. Tenue par un Laggron, elle lui permet de méga-évoluer durant un combat.
+753 : Une variété de Méga-Gemme. Tenue par un Jungko, elle lui permet de méga-évoluer durant un combat.
+754 : Une variété de Méga-Gemme. Tenue par un Ténéfix, elle lui permet de méga-évoluer durant un combat.
+755 : Une variété de Méga-Gemme. Tenue par un Altaria, elle lui permet de méga-évoluer durant un combat.
+756 : Une variété de Méga-Gemme. Tenue par un Gallame, elle lui permet de méga-évoluer durant un combat.
+757 : Une variété de Méga-Gemme. Tenue par un Nanméouïe, elle lui permet de méga-évoluer durant un combat.
+758 : Une variété de Méga-Gemme. Tenue par un Métalosse, elle lui permet de méga-évoluer durant un combat.
+759 : Une variété de Méga-Gemme. Tenue par un Sharpedo, elle lui permet de méga-évoluer durant un combat.
+760 : Une variété de Méga-Gemme. Tenue par un Flagadoss, elle lui permet de méga-évoluer durant un combat.
+761 : Une variété de Méga-Gemme. Tenue par un Steelix, elle lui permet de méga-évoluer durant un combat.
+762 : Une variété de Méga-Gemme. Tenue par un Roucarnage, elle lui permet de méga-évoluer durant un combat.
+763 : Une variété de Méga-Gemme. Tenue par un Oniglali, elle lui permet de méga-évoluer durant un combat.
+764 : Une variété de Méga-Gemme. Tenue par un Diancie, elle lui permet de méga-évoluer durant un combat.
+765 : Récipient utilisé il y a fort longtemps pour sceller le pouvoir d’un certain Pokémon.
+766 : Un bracelet aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.
+767 : Une variété de Méga-Gemme. Tenue par un Camérupt, elle lui permet de méga-évoluer durant un combat.
+768 : Une variété de Méga-Gemme. Tenue par un Lockpin, elle lui permet de méga-évoluer durant un combat.
+769 : Une variété de Méga-Gemme. Tenue par un Drattak, elle lui permet de méga-évoluer durant un combat.
+770 : Une variété de Méga-Gemme. Tenue par un Dardargnan, elle lui permet de méga-évoluer durant un combat.
+771 : Une météorite trouvée au Mont Chimnée. Elle émet une faible lueur de façon continue, et est légèrement tiède au toucher.
+772 : Une météorite trouvée au Mont Chimnée. Un étrange symbole est gravé à sa surface, et luit des sept couleurs de l’arc-en-ciel.
+773 : Une pierre aux pouvoirs mystérieux permettant à un Pokémon tenant la Méga-Gemme adéquate de méga-évoluer.
+774 : L’un des fragments de météorite tombés dans la Grotte Granite. Il est légèrement tiède au toucher.
+775 : Une flûte capable d’appeler Latios ou Latias où que l’on soit.
+776 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Normal en capacité Z.
+777 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Feu en capacité Z.
+778 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Eau en capacité Z.
+779 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Électrik en capacité Z.
+780 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Plante en capacité Z.
+781 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Glace en capacité Z.
+782 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Combat en capacité Z.
+783 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Poison en capacité Z.
+784 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Sol en capacité Z.
+785 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Vol en capacité Z.
+786 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Psy en capacité Z.
+787 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Insecte en capacité Z.
+788 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Roche en capacité Z.
+789 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Spectre en capacité Z.
+790 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Dragon en capacité Z.
+791 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Ténèbres en capacité Z.
+792 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Acier en capacité Z.
+793 : Une cristallisation de la Force Z, permettant de transformer les capacités de type Fée en capacité Z.
+794 : Une cristallisation de la Force Z, permettant de transformer l’Électacle d’un Pikachu en capacité Z.
+795 : Une jolie capsule en argent. Certaines personnes adorent en recevoir.
+796 : Une jolie capsule en or, encore plus rare que la Capsule d’Argent. Certaines personnes adorent en recevoir.
+797 : Un bracelet mystérieux utilisant la force vitale du Dresseur pour permettre à ses Pokémon d’utiliser la Force Z.
+798 : Une cristallisation de la Force Z, permettant de transformer le Tisse Ombre d’un Archéduc en capacité Z.
+799 : Une cristallisation de la Force Z, permettant de transformer le Dark Lariat d’un Félinferno en capacité Z.
+800 : Une cristallisation de la Force Z, permettant de transformer l’Aria de l’Écume d’un Oratoria en capacité Z.
+801 : Une cristallisation de la Force Z, permettant de transformer l’Ire de la Nature d’un Toko en capacité Z.
+802 : Une cristallisation de la Force Z, permettant de transformer le Clepto-Mânes de Marshadow en capacité Z.
+803 : Une cristallisation de la Force Z, permettant de transformer le Tonnerre d’un Raichu de la région d’Alola en capacité Z.
+804 : Une cristallisation de la Force Z, permettant de transformer le Giga Impact d’un Ronflex en capacité Z.
+805 : Une cristallisation de la Force Z, permettant de transformer le Dernier Recours d’un Évoli en capacité Z.
+806 : Une cristallisation de la Force Z, permettant de transformer le Psyko de Mew en capacité Z.
+807 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Normal en capacité Z.
+808 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Feu en capacité Z.
+809 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Eau en capacité Z.
+810 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Électrik en capacité Z.
+811 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Plante en capacité Z.
+812 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Glace en capacité Z.
+813 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Combat en capacité Z.
+814 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Poison en capacité Z.
+815 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Sol en capacité Z.
+816 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Vol en capacité Z.
+817 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Psy en capacité Z.
+818 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Insecte en capacité Z.
+819 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Roche en capacité Z.
+820 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Spectre en capacité Z.
+821 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Dragon en capacité Z.
+822 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Ténèbres en capacité Z.
+823 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Acier en capacité Z.
+824 : Permet de concentrer la Force Z en un cristal, qui autorise son porteur à transformer ses capacités de type Fée en capacité Z.
+825 : Permet de concentrer la Force Z en un cristal, qui autorise le Pikachu qui le tient à transformer son Électacle en capacité Z.
+826 : Permet de concentrer la Force Z en un cristal, qui autorise l’Archéduc qui le tient à transformer son Tisse Ombre en capacité Z.
+827 : Permet de concentrer la Force Z en un cristal, qui autorise le Félinferno qui le tient à transformer son Dark Lariat en capacité Z.
+828 : Permet de concentrer la Force Z en un cristal, qui autorise l’Oratoria qui le tient à transformer son Aria de l’Écume en capacité Z.
+829 : Permet de concentrer la Force Z en un cristal, qui autorise le Pokémon Tutélaire qui le tient à transformer son Ire de la Nature en capacité Z.
+830 : Permet de concentrer la Force Z en un cristal, qui autorise le Marshadow qui le tient à transformer son Clepto-Mânes en capacité Z.
+831 : Permet de concentrer la Force Z en un cristal, qui autorise le Raichu de la région d’Alola qui le tient à transformer son Tonnerre en capacité Z.
+832 : Permet de concentrer la Force Z en un cristal, qui autorise le Ronflex qui le tient à transformer son Giga Impact en capacité Z.
+833 : Permet de concentrer la Force Z en un cristal, qui autorise l’Évoli qui le tient à transformer son Dernier Recours en capacité Z.
+834 : Permet de concentrer la Force Z en un cristal, qui autorise le Mew qui le tient à transformer son Psyko en capacité Z.
+835 : Permet de concentrer la Force Z en un cristal, qui autorise le Pikachu à casquette qui le tient à transformer son Tonnerre en capacité Z.
+836 : Une cristallisation de la Force Z, permettant de transformer le Tonnerre du Pikachu à casquette en capacité Z.
+837 : ITEMINFO_837
+838 : ITEMINFO_838
+839 : ITEMINFO_839
+840 : ITEMINFO_840
+841 : Un sac pour mettre les ingrédients récoltés dans la jungle, utilisé dans l’Épreuve de Barbara.
+842 : Une Canne à Pêche fabriquée par la Capitaine Néphie. Permet de pêcher les Pokémon cachés dans les rochers immergés.
+843 : Le masque de Royal Mask ! On raconte que ce catcheur professionnel aurait cousu son costume lui-même.
+844 : Permet de commencer une mini-quête sur la Place Festival.
+845 : Une pierre donnée par un Pokémon gardien d’Alola. Son éclat cache un secret.
+846 : Objet à tenir. Si le porteur subit une Intimidation, sa Vitesse augmente.
+847 : Un artefact dans lequel les Cellules et Cœurs de Zygarde ont été rassemblés. Il permet à Zygarde de changer de forme.
+848 : ITEMINFO_848
+849 : Une pierre étrange qui fait évoluer certaines espèces de Pokémon. Un flocon de neige semble dessiné dessus.
+850 : Un appareil permettant d’appeler une Poké Monture instantanément en tapant le bon numéro.
+851 : Une Poké Ball un peu spéciale avec laquelle il est assez difficile de capturer des Pokémon.
+852 : Une spécialité d’Alola. Soigne toutes les altérations de statut d’un Pokémon.
+853 : Un nectar obtenu au Jardin d’Ula-Ula. Permet à un certain Pokémon de changer d’apparence.
+854 : Un nectar obtenu au Jardin de Mele-Mele. Permet à un certain Pokémon de changer d’apparence.
+855 : Un nectar obtenu à partir des fleurs de la Rue du Dôme Royal. Permet à un certain Pokémon de changer d’apparence.
+856 : Un nectar obtenu au Jardin de Poni. Permet à un certain Pokémon de changer d’apparence.
+857 : Une flûte dont le timbre permettait d’exprimer sa reconnaissance au Pokémon légendaire du soleil.
+858 : Une flûte dont le timbre permettait d’exprimer sa reconnaissance au Pokémon légendaire de la lune.
+859 : ITEMINFO_859
+860 : Une carte étrange sur laquelle quelqu’un a écrit : « Je t’attends dans une chambre du motel de la Route 8 sur l’île d’Akala. »
+861 : Une Baie à donner à un Pokémon sauvage pour pouvoir l’attraper plus facilement.
+862 : Une Baie à donner à un Pokémon sauvage pour pouvoir l’attraper beaucoup plus facilement.
+863 : Une Baie à donner à un Pokémon sauvage au moment de la capture pour le calmer pendant un instant.
+864 : Une Baie à donner à un Pokémon sauvage au moment de la capture pour le calmer durablement.
+865 : Une Baie à donner à un Pokémon sauvage pour avoir plus de chances d’obtenir un objet après l’avoir capturé.
+866 : Une Baie à donner à un Pokémon sauvage pour avoir beaucoup plus de chances d’obtenir un objet après l’avoir capturé.
+867 : ITEMINFO_867
+868 : ITEMINFO_868
+869 : ITEMINFO_869
+870 : ITEMINFO_870
+871 : ITEMINFO_871
+872 : La clé de la porte de l’Arène de Cramois’Île. Elle est décorée en rouge.
+873 : Un ticket nécessaire pour embarquer à bord de L’Océane. Il y a une image du navire dessus.
+874 : Un appareil permettant de voir les Pokémon invisibles. Il est fabriqué par la Sylphe SARL.
+875 : Un paquet à livrer au Professeur Chen de la part de la Boutique Pokémon de Jadielle.
+876 : Une carte magnétique pouvant ouvrir les portes du siège de la Sylphe SARL à Safrania.
+877 : Un dentier en or perdu par le directeur du Parc Safari. Il lui donne un sourire étincelant.
+878 : Une clé activant l’ascenseur du Repaire de la Team Rocket. Elle porte la marque de l’organisation.
+879 : Objet à tenir. Prolonge la durée des champs que le Pokémon peut créer sur le terrain avec une capacité ou un talent.
+880 : Objet à tenir. Annule les effets subis par le porteur quand il utilise une attaque directe sur un autre Pokémon.
+881 : Objet à tenir. Augmente la Défense lorsque le terrain est couvert d’un Champ Électrifié.
+882 : Objet à tenir. Augmente la Défense Spéciale lorsque le terrain est couvert d’un Champ Psychique.
+883 : Objet à tenir. Augmente la Défense Spéciale lorsque le terrain est couvert d’un Champ Brumeux.
+884 : Objet à tenir. Augmente la Défense lorsque le terrain est couvert d’un Champ Herbu.
+885 : Un petit ressort fin et complètement distendu. Nul ne sait à quoi il peut bien servir.
+886 : Une petite pierre blanchâtre trouvée sur le bord de la route.
+887 : Une bille de verre transparente avec un motif coloré à l’intérieur.
+888 : Une boucle d’oreille perdue par quelqu’un.
+889 : Un morceau de verre coloré arrondi par les vagues. Sa texture est légèrement rugueuse.
+890 : Une feuille dorée mystérieuse. Elle ne semble appartenir à aucun arbre connu.
+891 : Une feuille argentée mystérieuse. Elle ne semble appartenir à aucun arbre connu.
+892 : Une boulette de boue si bien polie qu’elle brille de mille feux.
+893 : Un joli coquillage blanc. Il a peut-être été porté par les vagues depuis une région tropicale.
+894 : Une lettre rédigée sur une feuille d’arbre. Pikachu semble y avoir écrit quelque chose avec ses pattes.
+895 : Une lettre rédigée sur une feuille d’arbre. Évoli semble y avoir écrit quelque chose avec ses pattes.
+896 : Un petit bouquet arrangé avec amour pour un[VAR 1100(00FF,0B09)] Dresseure Dresseuse vraiment unique.
+897 : ITEMINFO_897
+898 : ITEMINFO_898
+899 : ITEMINFO_899
+900 : Une substance qui fait apparaître les Pokémon rares plus facilement pendant un court moment.
+901 : Une substance qui fait apparaître les Pokémon rares plus facilement pendant une durée plus longue que le Parfum.
+902 : Une substance qui fait apparaître les Pokémon rares plus facilement pendant une durée plus longue que le Super Parfum.
+903 : Une spécialité d’Argenta. Soigne toutes les altérations de statut d’un Pokémon.
+904 : Une carte mémoire contenant des données sur le type Combat. Un certain Pokémon peut changer de type en l’équipant.
+905 : Une carte mémoire contenant des données sur le type Vol. Un certain Pokémon peut changer de type en l’équipant.
+906 : Une carte mémoire contenant des données sur le type Poison. Un certain Pokémon peut changer de type en l’équipant.
+907 : Une carte mémoire contenant des données sur le type Sol. Un certain Pokémon peut changer de type en l’équipant.
+908 : Une carte mémoire contenant des données sur le type Roche. Un certain Pokémon peut changer de type en l’équipant.
+909 : Une carte mémoire contenant des données sur le type Insecte. Un certain Pokémon peut changer de type en l’équipant.
+910 : Une carte mémoire contenant des données sur le type Spectre. Un certain Pokémon peut changer de type en l’équipant.
+911 : Une carte mémoire contenant des données sur le type Acier. Un certain Pokémon peut changer de type en l’équipant.
+912 : Une carte mémoire contenant des données sur le type Feu. Un certain Pokémon peut changer de type en l’équipant.
+913 : Une carte mémoire contenant des données sur le type Eau. Un certain Pokémon peut changer de type en l’équipant.
+914 : Une carte mémoire contenant des données sur le type Plante. Un certain Pokémon peut changer de type en l’équipant.
+915 : Une carte mémoire contenant des données sur le type Électrik. Un certain Pokémon peut changer de type en l’équipant.
+916 : Une carte mémoire contenant des données sur le type Psy. Un certain Pokémon peut changer de type en l’équipant.
+917 : Une carte mémoire contenant des données sur le type Glace. Un certain Pokémon peut changer de type en l’équipant.
+918 : Une carte mémoire contenant des données sur le type Dragon. Un certain Pokémon peut changer de type en l’équipant.
+919 : Une carte mémoire contenant des données sur le type Ténèbres. Un certain Pokémon peut changer de type en l’équipant.
+920 : Une carte mémoire contenant des données sur le type Fée. Un certain Pokémon peut changer de type en l’équipant.
+921 : Une cristallisation de la Force Z, permettant de transformer le Choc Météore de Solgaleo en capacité Z.
+922 : Une cristallisation de la Force Z, permettant de transformer le Rayon Spectral de Lunala en capacité Z.
+923 : Une cristallisation de la Force Z, permettant de transformer le Photo-Geyser de Necrozma en capacité Z.
+924 : Une cristallisation de la Force Z, permettant de transformer la capacité Câlinerie d’un Mimiqui en capacité Z.
+925 : Une cristallisation de la Force Z, permettant de transformer la capacité Lame de Roc d’un Lougaroc en capacité Z.
+926 : Une cristallisation de la Force Z, permettant de transformer la capacité Vibrécaille d’un Ékaïser en capacité Z.
+927 : Permet de concentrer la Force Z en un cristal qui, tenu, autorise Solgaleo à transformer son Choc Météore en capacité Z.
+928 : Permet de concentrer la Force Z en un cristal qui, tenu, autorise Lunala à transformer son Rayon Spectral en capacité Z.
+929 : Un cristal permettant de donner une nouvelle forme à Necrozma quand il a fusionné avec Solgaleo ou Lunala.
+930 : Permet de concentrer la Force Z en un cristal, qui autorise le Mimiqui qui le tient à transformer sa capacité Câlinerie en capacité Z.
+931 : Permet de concentrer la Force Z en un cristal, qui autorise le Lougaroc qui le tient à transformer sa capacité Lame de Roc en capacité Z.
+932 : Permet de concentrer la Force Z en un cristal, qui autorise l’Ékaïser qui le tient à transformer sa capacité Vibrécaille en capacité Z.
+933 : Un bracelet mystérieux utilisant la force vitale du Dresseur pour permettre à ses Pokémon d’utiliser la Force Z.
+934 : Un pétale pressé qu’Oléa vous a remis lors de son Épreuve. Il y en a sept à collectionner.
+935 : Un pétale pressé qu’Althéo vous a remis lors de l’Épreuve d’Oléa. Il y en a sept à collectionner.
+936 : Un pétale pressé que Néphie vous a remis lors de l’Épreuve d’Oléa. Il y en a sept à collectionner.
+937 : Un pétale pressé que Kiawe vous a remis lors de l’Épreuve d’Oléa. Il y en a sept à collectionner.
+938 : Un pétale pressé que Barbara vous a remis lors de l’Épreuve d’Oléa. Il y en a sept à collectionner.
+939 : Un pétale pressé que Chrys vous a remis lors de l’Épreuve d’Oléa. Il y en a sept à collectionner.
+940 : Un pétale pressé que Danh vous a remis lors de l’Épreuve d’Oléa. Il y en a sept à collectionner.
+941 : Une fleur formée à partir des pétales que vous ont remis les sept Capitaines. C’est le symbole de ce que vous avez accompli jusqu’ici.
+942 : Un badge promotionnel obtenu à l’Arène de Kanto. Il paraît que c’est une imitation du Badge d’une certaine Arène.
+943 : Un appareil permettant à un Necrozma assoiffé de lumière de fusionner avec Solgaleo.
+944 : Un appareil permettant à un Necrozma assoiffé de lumière de fusionner avec Lunala.
+945 : Un appareil permettant d’annuler la fusion d’un Necrozma assoiffé de lumière avec Solgaleo.
+946 : Un appareil permettant d’annuler la fusion d’un Necrozma assoiffé de lumière avec Lunala.
+947 : Une Normazélite qu’Althéo vous a confiée. Il vous a demandé de la déposer sur le piédestal qui se trouve au fond de la Grotte Verdoyante.
+948 : Une Poké Ball contenant un Pokémon dont le Dresseur a disparu. Il semblerait que ce Dresseur soit originaire d’Ula-Ula.
+949 : Une des Motism’Auras. Elle permet de faire éclore les Œufs beaucoup plus rapidement.
+950 : Une des Motism’Auras. Elle permet de réduire de moitié le coût des objets vendus dans les Boutiques Pokémon.
+951 : Une des Motism’Auras. Elle permet de tripler les gains d’argent à la fin d’un combat.
+952 : Une des Motism’Auras. Elle permet d’augmenter légèrement l’expérience gagnée par vos Pokémon en combat.
+953 : Une des Motism’Auras. Elle permet d’augmenter plus rapidement l’amitié que vous portent les Pokémon de votre équipe.
+954 : Une des Motism’Auras. Elle permet de rencontrer plus de Pokémon sauvages de haut niveau durant une période déterminée.
+955 : Une des Motism’Auras. Elle permet de ne plus rencontrer de Pokémon sauvages durant une période déterminée.
+956 : Une des Motism’Auras. Elle permet à vos Pokémon en combat de récupérer la totalité de leurs PV.
+957 : Une des Motism’Auras. Elle permet à vos Pokémon en combat de récupérer la totalité de leurs PP.
+958 : Une des Motism’Auras. Elle permet d’augmenter toutes les stats de vos Pokémon en combat.
+959 : Une des Motism’Auras. Elle permet d’attraper beaucoup plus facilement le Pokémon sauvage que vous affrontez.
+960 : Un bonbon plein d’énergie. Il augmente les PV d’un Pokémon.
+961 : Un bonbon plein d’énergie. Il augmente l’Attaque d’un Pokémon.
+962 : Un bonbon plein d’énergie. Il augmente la Défense d’un Pokémon.
+963 : Un bonbon plein d’énergie. Il augmente l’Attaque Spéciale d’un Pokémon.
+964 : Un bonbon plein d’énergie. Il augmente la Défense Spéciale d’un Pokémon.
+965 : Un bonbon plein d’énergie. Il augmente la Vitesse d’un Pokémon.
+966 : Un gros bonbon plein d’énergie. Il augmente les PV d’un Pokémon de niveau 30 ou supérieur.
+967 : Un gros bonbon plein d’énergie. Il augmente l’Attaque d’un Pokémon de niveau 30 ou supérieur.
+968 : Un gros bonbon plein d’énergie. Il augmente la Défense d’un Pokémon de niveau 30 ou supérieur.
+969 : Un gros bonbon plein d’énergie. Il augmente l’Attaque Spéciale d’un Pokémon de niveau 30 ou supérieur.
+970 : Un gros bonbon plein d’énergie. Il augmente la Défense Spéciale d’un Pokémon de niveau 30 ou supérieur.
+971 : Un gros bonbon plein d’énergie. Il augmente la Vitesse d’un Pokémon de niveau 30 ou supérieur.
+972 : Un énorme bonbon plein d’énergie. Il augmente les PV d’un Pokémon de niveau 60 ou supérieur.
+973 : Un énorme bonbon plein d’énergie. Il augmente l’Attaque d’un Pokémon de niveau 60 ou supérieur.
+974 : Un énorme bonbon plein d’énergie. Il augmente la Défense d’un Pokémon de niveau 60 ou supérieur.
+975 : Un énorme bonbon plein d’énergie. Il augmente l’Attaque Spéciale d’un Pokémon de niveau 60 ou supérieur.
+976 : Un énorme bonbon plein d’énergie. Il augmente la Défense Spéciale d’un Pokémon de niveau 60 ou supérieur.
+977 : Un énorme bonbon plein d’énergie. Il augmente la Vitesse d’un Pokémon de niveau 60 ou supérieur.
+978 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+979 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+980 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+981 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+982 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+983 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+984 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+985 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+986 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+987 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+988 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+989 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+990 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+991 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+992 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+993 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+994 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+995 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+996 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+997 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+998 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+999 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1000 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1001 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1002 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1003 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1004 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1005 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1006 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1007 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1008 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1009 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1010 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1011 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1012 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1013 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1014 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1015 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1016 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1017 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1018 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1019 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1020 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1021 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1022 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1023 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1024 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1025 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1026 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1027 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1028 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1029 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1030 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1031 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1032 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1033 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1034 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1035 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1036 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1037 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1038 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1039 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1040 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1041 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1042 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1043 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1044 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1045 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1046 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1047 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1048 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1049 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1050 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1051 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1052 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1053 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1054 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1055 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1056 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1057 : Un bonbon plein d’énergie. Il augmente toutes les stats d’un certain Pokémon.
+1058 : ITEMINFO_1058
+1059 : ITEMINFO_1059
+1060 : ITEMINFO_1060
+1061 : ITEMINFO_1061
+1062 : ITEMINFO_1062
+1063 : ITEMINFO_1063
+1064 : ITEMINFO_1064
+1065 : ITEMINFO_1065
+1066 : ITEMINFO_1066
+1067 : ITEMINFO_1067
+1068 : ITEMINFO_1068
+1069 : ITEMINFO_1069
+1070 : ITEMINFO_1070
+1071 : ITEMINFO_1071
+1072 : ITEMINFO_1072
+1073 : ITEMINFO_1073
+1074 : Une lettre qui permet de participer au Défi des Arènes.
+1075 : Permet d’accéder aux Boîtes PC du Centre Pokémon à tout moment pour y déposer ou en retirer des Pokémon.
+1076 : Une gemme aux pouvoirs mystérieux que l’on trouve dans la région de Galar. On raconte que le vœu de la personne l’ayant ramassée se réalisera.
+1077 : Quand elle se trouve près d’une Source d’Énergie, l’Étoile Vœu sertie dans ce poignet brille, ce qui permet de donner à un Pokémon sa forme Dynamax.
+1078 : ITEMINFO_1078
+1079 : ITEMINFO_1079
+1080 : Une canne qui permet de pêcher divers Pokémon sauvages dans les points d’eau.
+1081 : Motisma est entré dans le moteur de cette bicyclette à assistance électrique et permet désormais de mettre le turbo.
+1082 : ITEMINFO_1082
+1083 : ITEMINFO_1083
+1084 : Un ingrédient de cuisine pour le camping. À faire bouillir avant de déguster.
+1085 : Un ingrédient de cuisine pour le camping. Cette conserve, vendue par Bob, connaît un succès étonnant à Galar.
+1086 : Un ingrédient de cuisine pour le camping. Cette conserve, vendue par Bach, connaît un succès surprenant à Galar.
+1087 : Un ingrédient de cuisine pour le camping. À faire mijoter avec les autres ingrédients pour que la douce saveur des fèves se propage.
+1088 : Un ingrédient de cuisine pour le camping. Parfait pour saucer le curry quand on a fini son assiette.
+1089 : Un ingrédient de cuisine pour le camping. Fabriquées avec de la farine de blé, ces pâtes se marient étonnamment bien avec le curry.
+1090 : Un ingrédient de cuisine pour le camping. La texture unique de chaque champignon influence la sensation en bouche du curry.
+1091 : Un ingrédient de cuisine pour le camping. Lorsque la queue d’un Ramoloss tombe, elle repousse tout de suite.
+1092 : Un ingrédient de cuisine pour le camping. On ne sait pas trop pourquoi les Canarticho les affectionnent tant.
+1093 : Un ingrédient de cuisine pour le camping. Cette pomme a été spécialement sélectionnée pour sa forme et sa peau brillante.
+1094 : Un ingrédient de cuisine pour le camping. Les saveurs subtiles extraites de cet os donnent un goût exquis aux plats.
+1095 : Un ingrédient de cuisine pour le camping. Ces féculents permettent d’atténuer le piquant du curry pour le rendre plus doux.
+1096 : Un ingrédient de cuisine pour le camping. Cette racine permet d’ajouter du parfum et de la couleur aux plats.
+1097 : Un ingrédient de cuisine pour le camping. Cet assortiment de légumes divers permet de préparer des plats équilibrés.
+1098 : Un ingrédient de cuisine pour le camping. Ces fritures sont sorties de la friteuse depuis un moment déjà, et l’huile a commencé à couler.
+1099 : Un ingrédient de cuisine pour le camping. Le simple ajout d’un œuf donne une touche de prestige à tous les plats.
+1100 : Ce kit permet d’installer une tente dans les zones de camping des Terres Sauvages et d’y cuisiner.
+1101 : ITEMINFO_1101
+1102 : ITEMINFO_1102
+1103 : On raconte que cette épée fut jadis utilisée par un héros pour vaincre une calamité. À présent, elle est toute usée et rouillée.
+1104 : On raconte que ce bouclier fut jadis utilisé par un héros pour vaincre une calamité. À présent, il est tout usé et rouillé.
+1105 : Un morceau du fossile d’un ancien Pokémon volant. Nul ne sait à quoi il ressemblait.
+1106 : Un morceau du fossile d’un ancien Pokémon aquatique. Nul ne sait à quoi il ressemblait.
+1107 : Un morceau du fossile d’un ancien Pokémon terrestre. Nul ne sait à quoi il ressemblait.
+1108 : Un morceau du fossile d’un ancien Pokémon aquatique. Nul ne sait à quoi il ressemblait.
+1109 : Un bonbon en forme de fraise. Quand on le donne à un Crèmy, il danse de bonheur.
+1110 : Un bonbon en forme de cœur. Quand on le donne à un Crèmy, il danse de bonheur.
+1111 : Un bonbon en forme de Baie. Quand on le donne à un Crèmy, il danse de bonheur.
+1112 : Un bonbon en forme de trèfle. Quand on le donne à un Crèmy, il danse de bonheur.
+1113 : Un bonbon en forme de fleur. Quand on le donne à un Crèmy, il danse de bonheur.
+1114 : Un bonbon en forme d’étoile. Quand on le donne à un Crèmy, il danse de bonheur.
+1115 : Un bonbon en forme de ruban. Quand on le donne à un Crèmy, il danse de bonheur.
+1116 : Une pomme mystérieuse très sucrée qui permet de faire évoluer un certain Pokémon.
+1117 : Une pomme mystérieuse très acide qui permet de faire évoluer un certain Pokémon.
+1118 : Augmente l’Attaque Spéciale du porteur lorsqu’il utilise une capacité basée sur le son.
+1119 : Objet à tenir. Si le porteur subit une baisse de stats, il revient vers son Dresseur et change de place avec un coéquipier.
+1120 : Le porteur ne subit plus les effets des pièges ou autres entraves posés sur le terrain.
+1121 : Si un Pokémon manque sa cible parce qu’une capacité a peu de Précision, sa Vitesse augmente beaucoup.
+1122 : Objet à tenir. Baisse la Vitesse du porteur lorsque la capacité Distorsion est active.
+1123 : Objet à tenir. Protège le porteur des effets de la pluie et des rayons du soleil.
+1124 : Un bonbon plein d’énergie. Il permet à un Pokémon de gagner un petit peu de Points d’Expérience.
+1125 : Un bonbon plein d’énergie. Il permet à un Pokémon de gagner un peu de Points d’Expérience.
+1126 : Un bonbon plein d’énergie. Il permet à un Pokémon de gagner quelques Points d’Expérience.
+1127 : Un bonbon plein d’énergie. Il permet à un Pokémon de gagner une bonne quantité de Points d’Expérience.
+1128 : Un bonbon plein d’énergie. Il permet à un Pokémon de gagner beaucoup de Points d’Expérience.
+1129 : Un bonbon plein d’énergie qui fait monter le niveau Dynamax d’un Pokémon d’un point. Plus ce dernier est élevé, plus les PV sous forme Dynamax augmentent.
+1130 : Une danse frénétique qui exalte l’esprit combatif. Augmente beaucoup l’Attaque du lanceur.
+1131 : Le lanceur se laisse tomber sur l’ennemi de tout son poids. Peut aussi le paralyser.
+1132 : L’ennemi reçoit un torrent de flammes. Peut aussi le brûler.
+1133 : Un puissant jet d’eau est dirigé sur l’ennemi.
+1134 : Une énorme vague s’abat sur le champ de bataille et inflige des dégâts à tous les Pokémon autour du lanceur.
+1135 : Un rayon de glace frappe l’ennemi. Peut aussi le geler.
+1136 : Une violente tempête de neige s’abat sur l’ennemi. Peut aussi le geler.
+1137 : Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds.
+1138 : Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.
+1139 : La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.
+1140 : Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui.
+1141 : Une puissante force télékinétique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.
+1142 : Le lanceur se relaxe et allège son corps pour beaucoup augmenter sa Vitesse.
+1143 : Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critiques.
+1144 : Le lanceur agite un doigt et stimule son cerveau pour utiliser presque n’importe quelle capacité au hasard.
+1145 : Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.
+1146 : Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer.
+1147 : Le lanceur fait le vide dans son esprit pour oublier ses soucis. Augmente beaucoup sa Défense Spéciale.
+1148 : Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.
+1149 : Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi.
+1150 : Le lanceur crée un clone en sacrifiant quelques PV. Ce clone sert de leurre.
+1151 : Le lanceur ne retient plus ses coups. Plus ses PV sont bas, plus l’attaque est puissante.
+1152 : Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.
+1153 : Le lanceur disperse des piquants sur le sol pour blesser tout ennemi qui entre au combat.
+1154 : Le lanceur enrage et attaque pendant deux ou trois tours avant de devenir confus.
+1155 : Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.
+1156 : Le lanceur résiste aux attaques avec 1 PV. Peut échouer si utilisée plusieurs fois de suite.
+1157 : Le lanceur utilise une de ses capacités au hasard pendant qu’il dort.
+1158 : Le lanceur utilise ses gigantesques cornes pour charger l’ennemi.
+1159 : Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe.
+1160 : Oblige l’ennemi à répéter la dernière capacité utilisée durant trois tours.
+1161 : Attaque l’ennemi avec une queue de fer. Peut aussi baisser sa Défense.
+1162 : Le lanceur mord l’ennemi de ses crocs pointus. Peut aussi baisser sa Défense.
+1163 : Projette une grande ombre sur l’ennemi. Peut aussi faire baisser sa Défense Spéciale.
+1164 : De l’énergie psychique vient frapper l’ennemi deux tours après l’utilisation de cette capacité.
+1165 : Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir.
+1166 : Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi.
+1167 : Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours.
+1168 : Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien.
+1169 : Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur.
+1170 : Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible.
+1171 : Le lanceur envoie un coup de pied au taux de critiques élevé. Peut aussi brûler la cible.
+1172 : Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts à l’ennemi.
+1173 : Attaque l’ennemi à pleine puissance. Le contrecoup baisse beaucoup l’Attaque Spéciale du lanceur.
+1174 : Le lanceur absorbe un pouvoir mystique spatial qui augmente sa Défense et sa Défense Spéciale.
+1175 : Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi.
+1176 : L’épiderme du lanceur devient dur comme du fer, ce qui augmente beaucoup sa Défense.
+1177 : Le lanceur lacère l’ennemi de ses grandes griffes aiguisées.
+1178 : Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense.
+1179 : Le lanceur se concentre et fait le vide dans son esprit pour augmenter son Attaque Spéciale et sa Défense Spéciale.
+1180 : Une feuille coupante comme une lame entaille l’ennemi. Taux de critiques élevé.
+1181 : Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur.
+1182 : Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il inflige de dégâts.
+1183 : Le lanceur combat au corps à corps sans se protéger. Baisse aussi sa Défense et sa Défense Spéciale.
+1184 : Lance des pics autour de l’ennemi. Ils empoisonnent les ennemis qui entrent au combat.
+1185 : Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi.
+1186 : Le lanceur dégage une aura et projette de l’énergie. N’échoue jamais.
+1187 : Attaque l’ennemi avec un tentacule, un bras, ou un autre membre plein de poison. Peut aussi l’empoisonner.
+1188 : Le lanceur dégage une horrible aura chargée de pensées maléfiques. Peut aussi apeurer l’ennemi.
+1189 : Le lanceur fait pleuvoir un déluge de graines explosives sur l’ennemi.
+1190 : Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux.
+1191 : Le lanceur fait vibrer son corps pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.
+1192 : Le lanceur ouvre la bouche pour envoyer une onde de choc qui frappe l’ennemi.
+1193 : Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes.
+1194 : Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.
+1195 : Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser sa Défense Spéciale.
+1196 : Le lanceur replie ses ailes et charge en rase-mottes. Blesse gravement le lanceur.
+1197 : De terribles séismes secouent l’ennemi. Peut aussi baisser sa Défense Spéciale.
+1198 : Stimule l’esprit par de mauvaises pensées. Augmente beaucoup l’Attaque Spéciale du lanceur.
+1199 : Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi.
+1200 : Le lanceur concentre son énergie lumineuse et la fait exploser. Peut aussi baisser la Défense Spéciale de l’ennemi.
+1201 : Invoque une tempête de feuilles acérées. Le contrecoup réduit beaucoup l’Attaque Spéciale du lanceur.
+1202 : Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi.
+1203 : Le lanceur envoie des détritus sur l’ennemi. Peut aussi l’empoisonner.
+1204 : Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi l’apeurer.
+1205 : Fait surgir des pierres aiguisées sous l’ennemi. Taux de critiques élevé.
+1206 : Lance des pierres flottantes autour de l’ennemi, qui blessent tout adversaire entrant au combat.
+1207 : L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts.
+1208 : Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.
+1209 : Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.
+1210 : Le lanceur envoie une boule d’électricité. Si sa Vitesse est plus grande que celle de l’ennemi, les dégâts augmentent d’autant.
+1211 : Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts.
+1212 : Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace.
+1213 : Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain.
+1214 : L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler.
+1215 : Le lanceur se rengorge. Augmente l’Attaque et l’Attaque Spéciale.
+1216 : Une charge électrique violente qui blesse aussi légèrement le lanceur.
+1217 : Le lanceur tourne sur lui-même comme une perceuse et se jette sur l’ennemi. Taux de critiques élevé.
+1218 : Le lanceur projette son corps enflammé contre l’ennemi. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.
+1219 : Le lanceur déclenche une tempête de vents violents qui s’abat sur l’ennemi. Peut aussi le rendre confus.
+1220 : Attaque l’ennemi avec un câlin. Peut diminuer son Attaque.
+1221 : Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné.
+1222 : Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi.
+1223 : Le Pokémon étend les bras et frappe l’adversaire en tournant violemment. Inflige des dégâts et ignore les changements de stats de la cible.
+1224 : Le lanceur attaque violemment en utilisant tout son poids.
+1225 : Inflige une douleur tellement violente à la cible qu’elle ne peut plus émettre de sons pendant deux tours.
+1226 : Utilisée sur l’ennemi, envoie une boule explosive qui fait des dégâts ; sur un allié, donne du bon pollen nutritif qui fait récupérer des PV.
+1227 : Le lanceur mord la cible avec ses pouvoirs psychiques. Brise aussi les barrières comme Mur Lumière et Protection.
+1228 : Le lanceur utilise la force de l’eau pour attaquer. Peut aussi baisser la Défense de la cible.
+1229 : Le lanceur utilise son corps pour attaquer sa cible. Plus la Défense du lanceur est élevée, plus les dégâts infligés sont importants.
+1230 : L’ennemi reçoit un coup de poing d’une puissance incroyable.
+1231 : Si un Pokémon hume cet aromate, son Attaque montera plus facilement, mais sa Défense se développera plus lentement.
+1232 : Si un Pokémon hume cet aromate, son Attaque montera plus facilement, mais son Attaque Spéciale se développera plus lentement.
+1233 : Si un Pokémon hume cet aromate, son Attaque montera plus facilement, mais sa Défense Spéciale se développera plus lentement.
+1234 : Si un Pokémon hume cet aromate, son Attaque montera plus facilement, mais sa Vitesse se développera plus lentement.
+1235 : Si un Pokémon hume cet aromate, sa Défense montera plus facilement, mais son Attaque se développera plus lentement.
+1236 : Si un Pokémon hume cet aromate, sa Défense montera plus facilement, mais son Attaque Spéciale se développera plus lentement.
+1237 : Si un Pokémon hume cet aromate, sa Défense montera plus facilement, mais sa Défense Spéciale se développera plus lentement.
+1238 : Si un Pokémon hume cet aromate, sa Défense montera plus facilement, mais sa Vitesse se développera plus lentement.
+1239 : Si un Pokémon hume cet aromate, son Attaque Spéciale montera plus facilement, mais son Attaque se développera plus lentement.
+1240 : Si un Pokémon hume cet aromate, son Attaque Spéciale montera plus facilement, mais sa Défense se développera plus lentement.
+1241 : Si un Pokémon hume cet aromate, son Attaque Spéciale montera plus facilement, mais sa Défense Spéciale se développera plus lentement.
+1242 : Si un Pokémon hume cet aromate, son Attaque Spéciale montera plus facilement, mais sa Vitesse se développera plus lentement.
+1243 : Si un Pokémon hume cet aromate, sa Défense Spéciale montera plus facilement, mais son Attaque se développera plus lentement.
+1244 : Si un Pokémon hume cet aromate, sa Défense Spéciale montera plus facilement, mais sa Défense se développera plus lentement.
+1245 : Si un Pokémon hume cet aromate, sa Défense Spéciale montera plus facilement, mais son Attaque Spéciale se développera plus lentement.
+1246 : Si un Pokémon hume cet aromate, sa Défense Spéciale montera plus facilement, mais sa Vitesse se développera plus lentement.
+1247 : Si un Pokémon hume cet aromate, sa Vitesse montera plus facilement, mais son Attaque se développera plus lentement.
+1248 : Si un Pokémon hume cet aromate, sa Vitesse montera plus facilement, mais sa Défense se développera plus lentement.
+1249 : Si un Pokémon hume cet aromate, sa Vitesse montera plus facilement, mais son Attaque Spéciale se développera plus lentement.
+1250 : Si un Pokémon hume cet aromate, sa Vitesse montera plus facilement, mais sa Défense Spéciale se développera plus lentement.
+1251 : Si un Pokémon hume cet aromate, son Attaque, sa Défense, sa Vitesse, son Attaque Spéciale et sa Défense Spéciale se développeront uniformément.
+1252 : Un objet à lancer dans l’antre d’un Pokémon pour y faire apparaître un Pokémon Dynamax.
+1253 : Un récipient mystérieux pouvant faire évoluer un certain Pokémon. Il est abîmé, mais on y fait du bon thé.
+1254 : Un récipient mystérieux pouvant faire évoluer un certain Pokémon. Il est ébréché, mais on y fait du bon thé.
+1255 : Cet objet incroyable permet de contrôler librement le volume sonore de divers éléments.
+1256 : Un ingrédient de cuisine pour le camping. Les fruits écrasés donnent un parfum tropical à toute préparation.
+1257 : Un ingrédient de cuisine pour le camping. Une fois fondu, il apporte une dose d’onctuosité au curry.
+1258 : Un ingrédient de cuisine pour le camping. Ce mélange de plus d’une cinquantaine d’épices est souvent utilisé pour donner du piquant au curry.
+1259 : Un ingrédient de cuisine pour le camping. En fouettant cette crème, elle peut être ajoutée à un curry pour y apporter de la douceur.
+1260 : Un ingrédient de cuisine pour le camping. À ajouter au curry pour corriger les erreurs de préparation.
+1261 : Un ingrédient de cuisine pour le camping. La douceur incomparable de cette boisson à la noix de coco lui vaut un grand succès.
+1262 : Un ingrédient de cuisine pour le camping. La saveur de cet ingrédient, somme toute banal, se marie étonnamment bien avec le curry.
+1263 : Un ingrédient de cuisine pour le camping. Quand on ne sait pas quoi ajouter à un curry, le steak haché est une valeur sûre.
+1264 : Un ingrédient de cuisine pour le camping. Une simple pincée de cette épice mystérieuse permet de donner une taille démesurée au curry.
+1265 : En lancer plusieurs dans l’antre d’un Pokémon augmente les chances d’y faire apparaître un Pokémon Dynamax.
+1266 : Sous l’influence de Motisma, cette bicyclette permet non seulement de mettre le turbo, mais également de se déplacer sur l’eau.
+1267 : Ce porte-bonheur permet de stabiliser les Poké Balls et augmente les chances de réaliser une capture critique.
+1268 : ITEMINFO_1268
+1269 : Une lettre confiée par une petite fille, dont le destinataire est un petit garçon. Elle semble jaunie par le temps...
+1270 : Une dédicace des membres du célèbre groupe de Galar, « The Maximizers », au grand complet.
+1271 : Ouvrage publié par Professeure Sonya, où elle conte à sa manière les nouvelles découvertes faites au sujet des légendes de Galar.
+1272 : ITEMINFO_1272
+1273 : ITEMINFO_1273
+1274 : ITEMINFO_1274
+1275 : ITEMINFO_1275
+1276 : ITEMINFO_1276
+1277 : ITEMINFO_1277
+1278 : Un catalogue présentant divers appareils ménagers que Motisma apprécie. À utiliser pour faire entrer Motisma dans ces appareils ou l’en faire sortir.
+1279 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1280 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1281 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1282 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1283 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1284 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1285 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1286 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1287 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1288 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1289 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1290 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1291 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1292 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1293 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1294 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1295 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1296 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1297 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1298 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1299 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1300 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1301 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1302 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1303 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1304 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1305 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1306 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1307 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1308 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1309 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1310 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1311 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1312 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1313 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1314 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1315 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1316 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1317 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1318 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1319 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1320 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1321 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1322 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1323 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1324 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1325 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1326 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1327 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1328 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1329 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1330 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1331 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1332 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1333 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1334 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1335 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1336 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1337 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1338 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1339 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1340 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1341 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1342 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1343 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1344 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1345 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1346 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1347 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1348 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1349 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1350 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1351 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1352 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1353 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1354 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1355 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1356 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1357 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1358 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1359 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1360 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1361 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1362 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1363 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1364 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1365 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1366 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1367 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1368 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1369 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1370 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1371 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1372 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1373 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1374 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1375 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1376 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1377 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1378 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1379 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1380 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1381 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1382 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1383 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1384 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1385 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1386 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1387 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1388 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1389 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1390 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1391 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1392 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1393 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1394 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1395 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1396 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1397 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1398 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1399 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1400 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1401 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1402 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1403 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1404 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1405 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1406 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1407 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1408 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1409 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1410 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1411 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1412 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1413 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1414 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1415 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1416 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1417 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1418 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1419 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1420 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1421 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1422 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1423 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1424 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1425 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1426 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1427 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1428 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1429 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1430 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1431 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1432 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1433 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1434 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1435 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1436 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1437 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1438 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1439 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1440 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1441 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1442 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1443 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1444 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1445 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1446 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1447 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1448 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1449 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1450 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1451 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1452 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1453 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1454 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1455 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1456 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1457 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1458 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1459 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1460 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1461 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1462 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1463 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1464 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1465 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1466 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1467 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1468 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1469 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1470 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1471 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1472 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1473 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1474 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1475 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1476 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1477 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1478 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1479 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1480 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1481 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1482 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1483 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1484 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1485 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1486 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1487 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1488 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1489 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1490 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1491 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1492 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1493 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1494 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1495 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1496 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1497 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1498 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1499 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1500 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1501 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1502 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1503 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1504 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1505 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1506 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1507 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1508 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1509 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1510 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1511 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1512 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1513 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1514 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1515 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1516 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1517 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1518 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1519 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1520 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1521 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1522 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1523 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1524 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1525 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1526 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1527 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1528 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1529 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1530 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1531 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1532 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1533 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1534 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1535 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1536 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1537 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1538 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1539 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1540 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1541 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1542 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1543 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1544 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1545 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1546 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1547 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1548 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1549 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1550 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1551 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1552 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1553 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1554 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1555 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1556 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1557 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1558 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1559 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1560 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1561 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1562 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1563 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1564 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1565 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1566 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1567 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1568 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1569 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1570 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1571 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1572 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1573 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1574 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1575 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1576 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1577 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1578 : Un objet faisant apparaître un [VAR PKNAME(0000)] dans l’antre géant de la Tour en ruines des Terres Sauvages jusqu’à la fin de la journée.
+1579 : Un miel crémeux produit par un Apireine Dynamax qui permet d’adoucir le goût de la Maxi Soupe. Il a également le même effet qu’un Rappel Max.
+1580 : Un champignon pouvant modifier l’apparence des Pokémon Dynamax. Utilisé en combat, il augmente toutes les stats d’un Pokémon.
+1581 : Une branche de Galanoa, un arbre qui pousse dans certains endroits de Galar. Elle sert à fabriquer des accessoires pour un Pokémon en particulier.
+1582 : Un bracelet confectionné à partir de Branches Galanoa. Les Ramoloss de Galar adorent en porter.
+1583 : Une carte permettant d’accéder à un plus vaste choix d’articles dans les boutiques chics et à davantage de coiffures dans les salons Salle à Mèche.
+1584 : Un pass pour se rendre à Isolarmure. Montrez-le à l’employé de la Gare de Brasswick.
+1585 : Une bicyclette qui permet de mettre le turbo et de se déplacer sur l’eau grâce à Motisma. D’une blancheur éclatante, elle projette des étincelles sur son passage.
+1586 : Une bicyclette qui permet de mettre le turbo et de se déplacer sur l’eau grâce à Motisma. Son noir crépusculaire brille d’une lueur rouge.
+1587 : Un charme permettant aux Pokémon de gagner davantage de Points d’Expérience. Il renferme une espèce de mécanisme.
+1588 : Un minerai rare que l’on trouve à Isolarmure. Vous pourriez avoir une bonne surprise en le donnant à un collectionneur de l’île.
+1589 : Un charme mystérieux qui permet de rencontrer plus facilement des Pokémon avec des insignes.
+1590 : Une offrande des humains au roi. Ces rênes permettent d’unir Sylveroy à son fidèle destrier, et renforcent son habilité à prodiguer d’abondantes récoltes.
+1591 : Une offrande des humains au roi. Ces rênes permettent à ceux qu’elles unissent de se comprendre. Elles permettent aussi de séparer Sylveroy de son destrier.
+1592 : Une couronne confectionnée à partir de Branches Galanoa. Les Ramoloss de Galar adorent en porter.
+1593 : Les notes de Dhilan sur le légendaire Seigneur des récoltes. Elles sont accompagnées d’une vieille photographie.
+1594 : Les notes de Dhilan sur les colosses légendaires. Il a pris le temps de les accompagner d’illustrations.
+1595 : Les notes de Dhilan sur les oiseaux de légende. Il a pris le temps de les accompagner d’une illustration.
+1596 : Une note mystérieuse que Dhilan a égarée. On peut y voir la photo d’un trou de lumière, dans le Grand Antre Dynamax.
+1597 : Un pass pour se rendre à Couronneige. Montrez-le à l’employé de la Gare de Brasswick.
+1598 : Une mystérieuse sculpture en bois. On dirait qu’il lui manque un morceau, comme s’il s’agissait d’un fragment de quelque chose.
+1599 : Un pétale offert par le Seigneur des récoltes. Il en émane une faible lueur.
+1600 : Des crins de Blizzeval, le fidèle destrier du Seigneur des récoltes. Ils sont à la fois souples et robustes.
+1601 : Des crins de Spectreval, le fidèle destrier du Seigneur des récoltes. Ils sont soyeux au toucher.
+1602 : Un légume très apprécié du fidèle destrier du Seigneur des récoltes. Il a été cultivé dans un champ entouré d’une neige épaisse.
+1603 : Un légume très apprécié du fidèle destrier du Seigneur des récoltes. Il a été cultivé dans un champ ombragé.
+1604 : Un minerai mystérieux que l’on trouve dans le Grand Antre Dynamax. Vous pourriez avoir une bonne surprise en le donnant à un collectionneur de Couronneige.
+1605 : Des graines à planter dans un champ. L’espèce de carotte obtenue varie selon le type de sol.
+1606 : Un objet qui permet de remplacer le talent ordinaire d’un Pokémon par un talent rare.
+1607 : Une courroie faite d’un tissu qui scintille à la lumière. Les humains en offraient autrefois au Seigneur des récoltes en gage de leur gratitude.

@@ -40,7 +40,7 @@ module PFM
     end
 
     # Display the choice
-    # @param viewport [LiteRGSS::Viewport] viewport in wich the choice is shown
+    # @param viewport [Viewport] viewport in wich the choice is shown
     # @param x [Integer] x coordinate of the choice window
     # @param y [Integer] y coordinate of the choice window
     # @param width [Integer] width of the choice window
@@ -54,6 +54,8 @@ module PFM
       window = build_choice_window(viewport, x, y, width, align_right)
       loop do
         Graphics.update
+        next if Graphics::FPSBalancer.global.skipping?
+
         window.update
         on_update&.call(*args)
         break if check_cancel(window)
@@ -69,7 +71,7 @@ module PFM
     private
 
     # Build the choice window
-    # @param viewport [LiteRGSS::Viewport] viewport in wich the choice is shown
+    # @param viewport [Viewport] viewport in wich the choice is shown
     # @param x [Integer] x coordinate of the choice window
     # @param y [Integer] y coordinate of the choice window
     # @param width [Integer] width of the choice window

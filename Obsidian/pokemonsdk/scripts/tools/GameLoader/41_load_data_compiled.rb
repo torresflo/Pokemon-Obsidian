@@ -13,6 +13,8 @@ def load_data(filename, utf8 = false)
     return load_data_vd(filename, 'Data/3.dat', utf8)
   elsif filename.start_with?('Data/Animations/')
     return load_data_vd(filename, 'Data/4.dat', utf8)
+  elsif filename.start_with?('Data/Events/Battle/')
+    return load_data_vd(filename.split('/').last, 'Data/5.dat', false)
   elsif filename.start_with?('Data/')
     filename = filename.gsub('Data/Buildings/', 'buildings_') if filename.start_with?('Data/Buildings/')
     return load_data_vd(filename, 'Data/0.dat', utf8)
@@ -43,7 +45,11 @@ class File
     alias old_exist? exist?
     def exist?(filename)
       if filename.start_with?('Data/Buildings')
-        return ::Kernel::Loaded['Data/0.dat']&.exists?(filename.gsub('Data/Buildings/', 'buildings_')) == true
+        ::Kernel::Loaded['Data/0.dat'] ||= Yuki::VD.new('Data/0.dat', :read)
+        return ::Kernel::Loaded['Data/0.dat'].exists?(filename.gsub('Data/Buildings/', 'buildings_')) == true
+      elsif filename.start_with?('Data/Events/Battle')
+        ::Kernel::Loaded['Data/5.dat'] ||= Yuki::VD.new('Data/5.dat', :read)
+        return ::Kernel::Loaded['Data/5.dat'].exists?(filename.split('/').last) == true
       end
       return old_exist?(filename)
     end

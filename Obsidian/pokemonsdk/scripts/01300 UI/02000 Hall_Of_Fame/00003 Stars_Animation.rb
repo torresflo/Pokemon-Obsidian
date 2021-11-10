@@ -11,7 +11,7 @@ module UI
       # Initialize the SpriteSheet
       # @param viewport [Viewport]
       # @param frame_count [Integer] how many frames between each anim update
-      # @param :repeat [Boolean] if the animation has to repeat itself
+      # @param repeat [Boolean] if the animation has to repeat itself
       def initialize(viewport, frame_count = 2, repeat: false)
         super(viewport, 6, 1)
         set_bitmap('hall_of_fame/stars', :interface)

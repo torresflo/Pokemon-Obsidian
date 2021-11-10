@@ -70,7 +70,7 @@ module UI
         @band.each_with_index do |value, index|
           dest_img.blt(0, cell_height * index, band_images[value], rect)
         end
-        bmp = Bitmap.new(dest_img.width, dest_img.height)
+        bmp = Texture.new(dest_img.width, dest_img.height)
         dest_img.copy_to_bitmap(bmp)
         self.bitmap = bmp
         self.src_rect.height = 3 * cell_height

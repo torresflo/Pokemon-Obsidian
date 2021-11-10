@@ -106,7 +106,7 @@ module Util
           text_handler.set_num1(value, number)
         elsif key.match?(IS_NUMBER2)
           text_handler.set_num2(value, number)
-        elsif key.match?(IS_NUMBER2)
+        elsif key.match?(IS_NUMBER3)
           text_handler.set_num3(value, number)
         end
       end

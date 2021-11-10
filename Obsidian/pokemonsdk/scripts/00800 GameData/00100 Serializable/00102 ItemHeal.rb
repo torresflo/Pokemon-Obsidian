@@ -1,6 +1,7 @@
 module GameData
   # Specific data of an healing item
   # @author Nuri Yuri
+  # @deprecated This class is deprecated in .25, please stop using it!
   class ItemHeal < Base
     # Number of HP healed by the Item
     # @return [Integer] 0 if no hp heal

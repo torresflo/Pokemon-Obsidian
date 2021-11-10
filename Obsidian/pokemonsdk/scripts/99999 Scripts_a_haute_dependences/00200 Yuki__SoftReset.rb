@@ -23,18 +23,16 @@ unless PARGV[:worldmap] || PARGV[:"animation-editor"] || PARGV[:test] || PARGV[:
         Scheduler.start(:on_transition)
         # Disposing everything and freeing memory
         Audio.__reset__
-        ObjectSpace.each_object(LiteRGSS::Viewport) { |v| v.dispose unless v.disposed? }
+        ObjectSpace.each_object(::Viewport) { |v| v.dispose unless v.disposed? }
         GC.start
-        ObjectSpace.each_object(LiteRGSS::Sprite) { |s| s.dispose unless s.disposed? }
-        ObjectSpace.each_object(LiteRGSS::Text) { |t| t.dispose unless t.disposed? }
-        ObjectSpace.each_object(LiteRGSS::Bitmap) { |b| b.dispose unless b.disposed? }
+        ObjectSpace.each_object(::Sprite) { |s| s.dispose unless s.disposed? }
+        ObjectSpace.each_object(::Text) { |t| t.dispose unless t.disposed? }
+        ObjectSpace.each_object(::Texture) { |b| b.dispose unless b.disposed? }
         Pathfinding.debug = false
+        $pokemon_party = nil
         GC.start
-        # Reloading required ressources
-        Graphics.on_start { Graphics.init_sprite }
         ts = 0.1
         sleep(ts) while Input::Keyboard.press?(Input::Keyboard::F12)
-        $scene = Scheduler.get_boot_scene
       end
 
       def update

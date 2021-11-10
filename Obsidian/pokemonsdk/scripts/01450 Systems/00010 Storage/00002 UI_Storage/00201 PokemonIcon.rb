@@ -7,7 +7,7 @@ module UI
       end
 
       # Set the box data
-      # @param [PFM::Storage::Box]
+      # @param box [PFM::Storage::Box]
       def data=(box)
         super(box.content[@index])
       end
@@ -27,7 +27,7 @@ module UI
       end
 
       # Set the box data
-      # @param [PFM::Storage::Box]
+      # @param box [PFM::Storage::Box]
       def data=(box)
         item_id = box.content[@index]&.item_db_symbol
         super(item_id) if (self.visible = (item_id && item_id != :__undef__))

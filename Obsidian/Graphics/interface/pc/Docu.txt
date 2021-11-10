@@ -1,0 +1,419 @@
+Interface du menu des boîtes Pokémon - PSDK
+
+Nomenclature : 
+
+• Nom du fichier ou indicateur du texte
+Position x;y;z (plus le z est élevé, plus l'image est au-dessus des autres). Par défaut, la référence du placement est coin supérieur gauche.
+Description : indique quand l'image est affichée et ses fonctionnalités.
+
+L'interface des boîtes propose 4 types d'affichages différents : 
+  - affichage "Pokémon" : affiche les icônes des Pokémon contenus dans chaque boîte,
+    → Afficher la quatrième icône en partant du haut de "modes" en 84;5;31
+  - affichage "Objet" : noircit les icônes des Pokémon qui n'ont pas d'objets et permet de rapidement sélectionner les objets tenus par les Pokémon pour les échanger
+    ou les ranger,
+    → Afficher la cinquième icône en partant du haut de "modes" en 84;5;31
+  - affichage "Combat" : affiche des boîtes de 6 Pokémon à droite de l'écran, pouvant être sélectionnées en vue de combats (avec éventuellement la possibilité d'appeler 
+    l'affichage des boîtes de combat depuis d'autres menus, comme celui des combats en ligne par exemple),
+    → Afficher la sixième icône en partant du haut de "modes" en 84;5;31
+  - affichage "Boîtes" : affiche des icônes correspondant à l'ensemble des boîtes sur une seule page, en fonction de si elles sont pleines, partiellement remplies ou vides,
+    → Afficher la septième icône en partant du haut de "modes" en 84;5;31
+À tout instant où le joueur n'est pas en train de réaliser une action, il peut passer d'un mode à l'autre en appuyant sur la touche définie pour le bouton "Boîtes" situé en 
+bas à gauche.
+La touche à presser pour changer de mode d'affichage est indiquée à côté du bouton "boîtes" tout en bas au milieu. L'affichage change aussi si le joueur clique sur le bouton
+"boîtes" ou n'importe où dans la zone comprise entre 84;5 et 107;14.
+
+À tout moment, excepté en mode "Boîtes", le joueur peut aussi choisir d'afficher une page de résumé du Pokémon survolé ou bien son équipe (affichage résumé/équipe).
+
+Le joueur peut également à tout moment switcher entre :
+  - sélection détaillée (quand il presse la touche Action ou qu'il clique sur une icône, un menu déroulant apparaît), 
+    → Afficher la première icône en partant du haut de "modes" en 25;5;31
+  - sélection rapide (quand il presse la touche Action ou qu'il clique sur une icône, le Pokémon est directement sélectionné),
+    → Afficher la deuxième icône en partant du haut de "modes" en 25;5;31
+  - sélection groupée (pour sélectionner plusieurs Pokémon en même temps),
+    → Afficher la troisième icône en partant du haut de "modes" en 25;5;31
+La touche à presser pour changer de mode de sélection est indiquée à côté du bouton "mode" tout en bas à gauche. Le mode change aussi si le joueur clique sur le bouton
+"mode" ou n'importe où dans la zone comprise entre 25;5 et 48;14.
+
+
+♦ 1 : Affichage Pokémon
+
+• frame_FR/EN 
+0;0;32 (toujours au-dessus)
+Barre anthracite indiquant le nom du menu. Toujours située au-dessus du reste.
+
+• frame_split
+207;25;33 (au-dessus de "frame")
+Barre de séparation entre les boîtes et l'équipe/résumé.
+
+• win_modes (bande bleue)
+0;0;30
+Bande de couleur bleue indiquant que l'affichage sélectionné est "Pokémon". Chaque élément de la tilesheet fait 21px de haut.
+
+• Win_Txt
+0;217;30
+Cadre gris foncé apparaîssant au-dessus des boutons principaux du menu quand une phrase est affichée à l'écran ou qu'une entrée manuscrite peut être rentrée par le joueur.
+
+• f_0,1,2...
+0;0;1
+Fond des boîtes, qui peut être changé pour chaque boîte en fonction des envies du joueur.
+
+| • name_frame
+| 15;22;2
+| Cadre dans lequel est inscrit le nom de la boîte. Lorsque le curseur est situé sur "name_frame" et que le joueur presse le bouton principal, une liste 
+| de 4 propositions s'affiche en bas à droite de l'écran :
+| 
+| • selec_button
+| 306;216;20 (coordonnées en bas à droite du premier bouton - cf. interface du sac)
+| Options affichées lorsque le joueur a placé le curseur sur "name_frame" et qu'il presse le bouton principal (Win_Txt s'affiche et le texte suivant est écrit : "Que voulez-vous faire ?") :
+|   - Nom (permet de changer le nom de la boîte - affiche la même interface que pour nommer un joueur ?)
+|   - Fond (permet de changer le fond de la boîte et du cadre)
+|   - Trier (permet de trier tous les Pokémon présents dans la boîte sélectionnée (le texte suivant est écrit : "Comment voulez-vous trier ?") :
+|     → Alphabétique (basé sur les surnoms donnés - s'il y a plusieurs Pokémon avec un même surnom, ils sont triés entre eux en partant du niveau le plus bas)
+|     → Niveau (basé sur le niveau des Pokémon - s'il y a plusieurs Pokémon de même niveau, ils sont triés entre eux par ordre alphabétique)
+|     → Retour (ou touche équivalant à "annuler")
+|   - Retour (ou touche équivalant à "annuler")
+
+| • arrow_frame_l
+| 6;29;2
+| Flèche située à gauche de "name_frame". Se décale de 2px vers la gauche quand le joueur change de boîte vers la gauche.
+| 
+| • arrow_frame_r
+| 134;29;2
+| Flèche située à droite de "name_frame". Se décale de 2px vers la droite quand le joueur change de boîte vers la droite.
+
+| • t_1,2,3...
+| 20;27;3
+| Fond du cadre de nom de la boîte, qui change en fonction du fond de la boîte. Quand le joueur clique sur cette image, le menu d'options relatives aux noms et fonds des boîtes
+| s'ouvre (cf. "• name_frame" supra).
+| 
+| • slots
+| 10;56;2
+| Image en transparence indiquant les emplacements où seront affichées les icônes des Pokémon.
+| 
+| • select
+| 7;53;3 (coordonnées du cadre de sélection lorsqu'il est généré tout en haut à gauche de la boîte. Chaque extension du cadre ajoute 32px)
+| Cadre de sélection généré lorsque le joueur est en sélection groupée. Une première pression du bouton principal fixe le cadre sur un emplacement. Le joueur peut alors 
+| étendre la zone de sélection à partir de cet emplacement. Une seconde pression sur le bouton principal définit la sélection, et tous les Pokémon présents à l'intérieur sont 
+| alors sélectionnés. Le joueur peut enfin les déplacer où il le souhaite (au sein de la même boîte ou dans d'autres boîtes) et les placer dans n'importe quelle zone de la 
+| même taille qui ne comprendrait aucun Pokémon. Si le joueur essaie de replacer des Pokémon alors qu'au moins un des emplacements ciblé contient déjà un Pokémon,
+l'action ne fait rien et un SE est joué ("bump" ?).
+| En mode sélection groupée, le joueur ne peut bouger le curseur qu'au-dessus des emplacements de la boîte (il ne peut  pas aller au-dessus de "name_frame" ou des 
+| emplacements de l'équipe).
+| 
+| • icônes des Pokémon des boîtes
+| 8;54;4 (coordonnées de l'icône située le plus en haut à gauche dans la boîte. Chaque icône est ensuite décalée de 32px)
+| Icônes des Pokémon présents dans chaque boîte.
+| Quand un Pokémon est sélectionné, il est décalé de 4 pixels vers le haut, et une ombre portée #393b43 d'opacité 50% est créée en-dessous de lui.
+
+| • txt_party
+| 234;37;2
+| Texte "équipe" affiché selon la langue paramétrée (dans l'ordre : japonais, anglais, français, italien, allemand, espagnol, coréen). Chaque partie de la tilesheet fait 16px de haut.
+| 
+| • party_pkmn
+| 221;61;2
+| Emplacements des icônes des Pokémon présents dans l'équipe.
+| 
+| • icônes des Pokémon de l'équipe
+| 224;64;4 (haut-gauche)
+| 272;80;4 (haut-droite)
+| 224;112;4 (milieu-gauche)
+| 272;128;4 (milieu-droite)
+| 224;160;4 (bas-gauche)
+| 272;176;4 (bas-droite)
+| Icône des Pokémon présents dans l'équipe du joueur.
+
+• arrow
+17;42;5 (coordonnées de la flèche lorsqu'elle est située au-dessus de l'emplacement le plus en haut à gauche de la boîte. Chaque déplacement décale la flèche de 32px)
+Indique la position du curseur du joueur dans la boîte. La couleur de la flèche change en fonction du mode de sélection (rouge = sélection détaillée ; bleue = sélection rapide ; 
+verte = sélection groupée ; jaune = objets). Se déplace en boucle d'un pixel vers le haut, puis d'un pixel vers le bas.
+Le curseur peut être placé au-dessus de n'importe quelle icône de Pokémon de la boîte, au-dessus de "name_frame" pour changer de nom ou de fond de boîte (67;12), et 
+au-dessus de n'importe quel emplacement de l'équipe lorsque l'affichage équipe est activé (233;50 haut-gauche - 281;66 haut-droite - 233;98 milieu-gauche - 
+281;115 milieu-droite - 233;146 bas-gauche - 281;162 bas-droite)
+Si la souris est utilisée quelque part sur l'écran, "arrow" est rendue invisible tant que le joueur clique.
+
+En mode de sélection détaillée, lorsqu'un Pokémon est sélectionné, il est décalé de 4 pixels vers le haut, et une ombre portée #393b43 d'opacité 50% est créée en-dessous de lui.
+Win_Txt s'affiche et le texte suivant est écrit : "Que faire avec [nom du Pokémon] ?".
+Différentes options s'affichent alors (cf. "• selec_button" supra) :
+  - Déplacer : sélectionne le Pokémon pour être déplacé entre les autres Pokémon de la boîte, d'autres boîtes ou de l'équipe,
+  - Résumé : ouvre l'interface de résumé du Pokémon,
+  - Objet : ouvre l'interface du sac et permet de donner un objet ou d'échanger avec l'objet déjà tenu le cas échéant,
+  - Marquer : ouvre une fenêtre affichant les différents marquages disponibles (interface graphique à faire),
+  - Relâcher : écrit le texte "Relâcher ce Pokémon ?" et affiche les choix suivants : 
+    → Non : annule tout,
+    → Oui : l'icône du Pokémon est réduite jusqu'à disparaître et le Pokémon est relâché. Les textes suivants sont écrits : "[nom du Pokémon] a été relâché." puis "Bye-bye [nom du Pokémon] !".
+
+| • resume (affichage réduit)
+| 210;200;5
+| La fenêtre "résumé" a deux affichages : un affichage réduit, avec uniquement un petit onglet dépassant en bas et, après pression de la touche indiquée sur cet onglet (à définir), 
+| un affichage développé, qui contient toutes les informations du Pokémon survolé par le curseur. Possibilité aussi de cliquer n'importe où dans la zone comprise entre 210;200 et 237;214 
+| pour l'affichage développé.
+|
+| • Lettre correspondant à l'input pour passer de l'affichage réduit à l'affichage développé
+| 213;202;6
+|
+| • resume (affichage développé)
+| 210;10;5
+| Fenêtre affichant les infos du Pokémon survolé ou sélectionné. Quand l'affichage est en mode "développé, le curseur ne peut plus être placé au-dessus des Pokémon de l'équipe. De plus,
+| lorsqu'une liste de choix est affichée (selec_button), elle l'est à gauche de l'écran et pas à droite. Le joueur peut "fermer" l'affichage développé en pressant à nouveau la touche définie, 
+| ou en cliquant n'importe où dans la zone comprise entre 292;25 et 319;39.
+|
+| • Texte : numéro du Pokémon
+| 212;27;6
+| Texte en blanc (ffffff), ombre en gris (606060) - Police utilisée : Pokemon Platine Speciale
+|
+| • Lettre correspondant à l'input pour passer de l'affichage réduit à l'affichage développé
+| 306;27;6
+|
+| • Texte : nom du Pokémon
+| Texte centré dans la zone suivante : 225;35;6 et 304;50;6
+| Texte en blanc (ffffff), ombre en gris (606060)
+|
+| • Sprite du Pokémon
+| 217;56;6
+| Sprite du Pokémon au-dessus duquel le curseur est placé.
+|
+| • Surnom du Pokémon
+| Texte centré dans la zone suivante : 225;153;6 et 304;168;6
+| Texte en blanc (ffffff), ombre en gris (606060)
+|
+| • Ic_Fem / Ic_Mal
+| 306;156;6
+| Icône représentant le genre du Pokémon
+|
+| •Lv
+| 272;171;6
+| Icône indiquant le niveau du Pokémon
+|
+| • Texte : niveau du Pokémon
+| 286;172;6
+| Texte en blanc (ffffff), ombre en gris (606060) - Police utilisée : Pokemon Platine Speciale
+|
+| •Symbols
+| 218;172;6
+| Symbole(s) attribué(s) au Pokémon (des gens se servent de ce truc ?)
+|
+| • Type(s)
+| 215;182;6 (type 1) - 267;182;6 (type 2)
+| Type(s) du Pokémon
+|
+| • Texte : nature/talent/objet tenu
+| 218;201;6
+| Texte en blanc (ffffff), ombre en gris (606060)
+| Affiche la nature, le talent et l'objet tenu par le Pokémon ("Pas d'objet" si le Pokémon n'en tient pas). Le texte défile vers le bas toutes les 2 secondes pour afficher l'info suivante.
+
+
+♦ 2 : Affichage Objets 
+
+• win_modes (bande jaune)
+0;0;30
+Bande de couleur jaune indiquant que l'affichage sélectionné est "Objets". Chaque élément de la tilesheet fait 21px de haut.
+
+• party_items
+221;61;2
+Emplacements des icônes des Pokémon présents dans l'équipe (effacer les emplacements du mode précédemment sélectionné).
+
+
+En affichage Objets, les icônes de Pokémon ne portant pas d'objets sont noircies, contrairement à ceux portant des objets. Si le mode de sélection est en "détaillé", quand le joueur clique
+sur un Pokémon qui ne tient pas d'objet, une liste de choix apparaît : 
+  - Donner : l'l'interface du Sac s'ouvre. Le joueur peut alors y sélectionner un objet, qui sera donné au Pokémon.
+  - Retour : annule.
+
+S'il clique sur un Pokémon qui tient un objet, une liste de choix apparaît, proposant : Prendre, Donner, Ranger ou Retour :
+  - Déplacer : l'icône de l'objet apparaît sous le curseur (de la même manière que lorsqu'un Pokémon de la boîte est sélectionné, avec une ombre portée générée en-dessous), et le joueur peut
+    la déplacer entre les boîtes comme s'il s'agissait d'un Pokémon. En tenant un objet et un cliquant sur un Pokémon qui n'en tient pas, l'objet lui est donné. En cliquant sur un Pokémon qui 
+    tient déjà un objet, les deux sont échangés.
+  - Donner : l'interface du Sac s'ouvre. Le joueur peut alors y sélectionner un objet, qui sera interchangé avec celui actuellement tenu par le Pokémon.
+  - Ranger : remet l'objet dans le Sac du joueur.
+  - Retour : annule.
+
+Si le mode de sélection est en "rapide", quand le joueur clique sur un Pokémon tenant un objet, celui-ci est directement sélectionné pour être déplacé (cf. choix "Déplacer" juste au-dessus).
+
+Le mode de sélection "groupée" est indisponible en affichage Objets. Si le joueur est en mode "sélection groupée" lorsqu'il passe sur l'affichage Objets, la sélection repasse en "détaillé" 
+automatiquement.
+
+
+♦ 3 : Affichage Combat
+
+• win_modes (bande rouge)
+0;0;30
+Bande de couleur rouge indiquant que l'affichage sélectionné est "Combat". Chaque élément de la tilesheet fait 21px de haut.
+
+• party_battle
+221;61;2
+Emplacements des icônes des Pokémon présents dans la boîte Combat sélectionnée (effacer les emplacements du mode précédemment sélectionné).
+
+• key_leftright
+214;38;2 (flèche de gauche)
+301;38;2 (flèche de droite)
+Icônes indiquant les touches à presser (à définir) pour passer d'une boîte combat à l'autre. Il est aussi possible de changer de boîte en cliquant sur l'image. Lors du changement de boîte, l'icône 
+correspondant au sens de changement (si on va vers la boîte de gauche, l'icône de gauche) bouge de 2px horizontalement et revient à sa position initiale. Chaque élément de la tilesheet fait 
+14px de haut.
+
+En affichage Combat, le menu montrant l'équipe du joueur n'est plus affiché. À la place, le joueur peut naviguer entre 16 (à définir ?) ensembles de 6 emplacements de combat, auxquels il pourra
+par la suite accéder rapidement, par exemple avant des combats en ligne ou à la Zone de combat. La navigation dans les boîtes se fait de la même manière qu'en affichage Pokémon, la seule différence
+étant qu'à la place de l'équipe actuelle du joueur sont affichées les boîtes de combat. Il est toujours possible d'activer l'affichage développé du résumé du Pokémon survolé. De même, le mode de sélection
+"groupée" n'est pas disponible.
+
+
+♦ 4 : Affichage Boîtes
+
+Effacer "frame_split", "win_modes", "modes", "solts", "name_frame", "f", "t", "arrow_frame_l", "arrow_frame-r" et "resume".
+
+• f_boxes
+0;0;1
+Fond qui s'affiche à la place du fond des boîtes en affichage "Boîtes".
+
+• slots_ext
+18;56;2
+Image en transparence indiquant les emplacements où seront affichées les icônes des boîtes.
+
+• folders
+18;56;3 (coordonnées de l'icône située tout en haut à gauche. Chaque emplacement est espacé de 32px)
+Icônes des boîtes. La première désigne une boîte contenant 30 Pokémon ; la deuxième, une boîte contenant entre 1 et 29 Pokémon ; la troisième, une boîte vide. Chaque élément de la tilesheet fait 32x32px.
+
+• arrow
+24;42;5 (coordonnées de la flèche lorsqu'elle est située au-dessus de l'emplacement le plus en haut à gauche de la boîte. Chaque déplacement décale la flèche de 32px)
+Indique la position du curseur du joueur dans la boîte. La couleur de la flèche ne peut pas changer en affichage "boîtes", contrairement aux autres affichages, car il n'y a que le mode de sélection "détaillée"
+qui est actif. Se déplace en boucle d'un pixel vers le haut, puis d'un pixel vers le bas. Le curseur peut être placé au-dessus de n'importe quelle icône de la boîte.
+Si la souris est utilisée quelque part sur l'écran, "arrow" est rendue invisible tant que le joueur clique.
+Quand le joueur passe d'un autre affichage à l'affichage "boîtes", le curseur est automatiquement placé tout en haut à gauche (en 24;42). Lorsqu'il quitte l'affichage "boîtes", le curseur est placé tout en haut
+à gauche de l'autre interface (en 17;42).
+
+En affichage "boîtes", le joueur peut naviguer facilement entre toutes les boîtes du PC. Pour l'instant, l'UI permet d'afficher 45 boîtes (soit 1350 Pokémon en tout), mais il est éventuellement possible de rajouter
+plus de boîtes et de rajouter une scrollbar à droite. À voir comment on pourrait laisser au maker la possibilité de gérer le nombre max de boîtes dispo, voire la possibilité de débloquer des boîtes supplémentaires
+au fur et à mesure de son aventure.
+
+Le seul mode de sélection est "détaillée". Lorsque le joueur presse la touche action ou clique sur l'icône d'une boîte, une liste d'options apparaît (à droite si la boîte se trouve dans les 5 colonnes de gauche ; à
+gauche si elle se trouve dans les 4 colonnes de droite) : 
+  - Ouvrir : ouvre la boîte sélectionnée en affichage "Pokémon",
+  - Déplacer : l'icône de la boîte est sélectionnée de la même manière que lorsqu'un Pokémon est déplace. Le joueur peut ensuite déplacer la boîte sur un autre emplacement. Si l'emplacement est déjà occupé par
+    une autre boîte, les deux sont interverties,
+  - Trier numéro : affiche le texte "Trier toutes les boîtes ?" et le choix "Oui / Non".
+  - Retour
+
+
+♦ Recherche
+
+En pressant la touche associée (à définir) ou en cliquant sur le bouton correspondant dans le menu du bas, le joueur accède tout d'abord à un choix :
+  - rapide
+  - détaillée
+
+• Rapide : "Win_Txt" est affichée et le joueur peut taper le nom officiel (partiel ou complet) du ou des Pokémon qu'il cherche, puis valider en appuyant sur Entrée ou annuler en appuyant sur X.
+
+• Détaillée : passe à l'interface de recherche :
+
+Tous les éléments graphiques sont effacés, à l'exception de : 
+  - background
+  - frame + texte
+
+Sur la barre de menu du bas, seuls sont présents les trois boutons suivants : 
+  - valider
+  - réinit.
+  - retour
+
+L'interface est divisée en deux listes, situées à gauche et à droite de l'écran. Le joueur doit tout d'abord sélectionner une catégorie, puis choisir une ou plusieurs options au sein de la catégorie sélectionnée.
+Quand une catégorie est sélectionnée, la majeure partie de l'écran s'obscurcit et les boutons situés à droite de l'écran sont très rapidement décalés vers la gauche pour apparaître en entier et afficher les 
+différentes options présentes au sein de chaque catégorie.
+
+À gauche : 
+
+| • button_list_ext
+| 20;33;2 (puis chaque bouton supplémentaire est affiché 26px en-dessous du précédent)
+| Boutons indiquant les catégories de recherche, à savoir : 
+|  - Pokémon (chercher un Pokémon en particulier)
+|  - Type 1 (chercher chaque Pokémon ayant au moins ce type)
+|  - Type 2 (bis)
+|  - Capacité (chercher chaque Pokémon ayant cette attaque dans son pool actuel)
+|  - CT (chercher chaque Pokémon pouvant apprendre cette CT)
+|  - Talent (chercher chaque Pokémon ayant ce talent)
+|  - Nature (chercher chaque Pokémon ayant cette nature)
+|  - Sexe (chercher chaque Pokémon ayant ce sexe)
+|  - Objet (chercher chaque Pokémon tenant ou non un objet)
+|  - Marque (chercher chaque Pokémon ayant exactement la ou les marques sélectionnées)
+|
+| • Texte : nom de la catégorie
+| 25;36;3
+| Texte en blanc (ffffff), ombre en gris (606060)
+|
+| • Texte : option choisie dans la catégorie. Quand aucune option n'a été choisie, "-" est affiché.
+| 105;36;3
+| Texte en blanc (ffffff), ombre en bleu (3d6481)
+|
+| • arrow
+| 2;38;2 (coordonnées lorsque la flèche est au niveau du premier bouton. Pour chaque bouton supplémentaire, la flèche est décalée de 26px vers le bas)
+| Flèche indiquant le bouton sélectionné. Se déplace en boucle d'un pixel vers la droite, puis vers la gauche.
+
+À droite :
+
+| • button_list
+| 303;33;5
+| Coordonnées des boutons lorsqu'ils sont inactifs, à savoir quand le joueur navigue dans la liste de gauche. Dès lors qu'un bouton de la liste de gauche est sélectionné, les boutons sont décalés de 85px vers la
+| gauche, presque instantanément, et les textes des différentes options ou des sous-ensembles d'options apparaîssent.
+|
+| • shadow
+| 0;0;4
+| Ombre venant obscurcir la liste de gauche quand celle de droite est active. Disparaît dès lors qu'une option a été choisie ou que le joueur fait "retour".
+|
+| • Texte : options et sous-ensembles d'options
+| 223;36;6
+| Texte en blanc (ffffff), ombre en gris (606060)
+| Liste des sous-ensembles et des options : 
+|
+|  - Pokémon : 
+|    → "-" (permet de ne rien mettre comme option ou de réinitialiser l'option déjà choisie)
+|    → "A" (liste tous les Pokémon dont le nom officiel commence par A)
+|    → "B" (liste tous les Pokémon dont le nom officiel commence par B)
+|    → etc. (lorsque le joueur ne possède aucun Pokémon dont le nom commence par une certaine lettre, cette lettre est inscrite en gris (9c9da1), avec une ombre gris foncé (606060)
+|
+|  - Type 1 et Type 2 : "-", puis liste des types
+|
+|  - Capacité : "-", puis sous-ensembles alphabétiques, de la même manière que pour les noms des Pokémon
+|
+|  - CT : "-", puis liste des CT par ordre numérique
+|
+|  - Talent : "-", puis sous-ensembles alphabétiques, de la même manière que pour les noms des Pokémon
+|
+|  - Nature : "-", puis liste des natures
+|
+|  - Sexe : "-", puis "♂", "♀" ou "?" (assexué)
+|
+|  - Objet : "-", puis "Avec" ou "Sans"
+|
+|  - Marque : par défaut, les marques sont inscrites en gris (9c9da1), avec une ombre gris foncé (606060). Lorsqu'une marque est cliquée une première fois, elle est colorée en 
+|    bleu (418ec0), signifiant que n'importe quel Pokémon ayant au moins cette marque sera sélectionné. Lorsqu'elle est cliquée une seconde fois, elle est colorée en rouge (f43f46), signifiant
+|    qu'aucun Pokémon ayant au moins cette marque ne sera sélectionné. Une troisième pression sur la marque la remet en gris.
+|    → •
+|    → ▲
+|    → ■
+|    → ♥
+|    → * (étoile)
+|    → ♦
+|
+| • arrow
+| 200;38;5 (coordonnées lorsque la flèche est au niveau du premier bouton. Pour chaque bouton supplémentaire, la flèche est décalée de 26px vers le bas)
+| Flèche indiquant le bouton sélectionné. Se déplace en boucle d'un pixel vers la droite, puis vers la gauche.
+
+Une fois qu'une option a été choisie, "shadow", "arrow" et les textes disparaissent instantanément, puis les boutons "button_list" sont presque instantanément déplacés de 85px vers la droite. L'option
+choisie est inscrite à droite de la catégorie correspondante et le joueur peut alors de nouveau naviguer dans la liste de gauche.
+
+| • scroll
+| 191;38;5
+| Barre de défilement
+|
+| • button_scroll
+| 191;43;6 (tout en haut) / 191;195;6 (tout en bas)
+| Bouton indiquant à quelle hauteur de la liste le curseur se situe. Le bouton s'adapte en fonction de si la liste de gauche ou de droite est active.
+
+
+→ Fonctionnement global de la fonction "chercher".
+Une fois la ou les options définies par le joueur, il peut presser la touche correspondante ou cliquer sur le bouton "valider" tout en bas à gauche. L'affichage repasse en "Pokémon", à
+ceci près que toutes les icônes sont noircies (cf. ce qui se fait en affichage "Objets") à l'exception de celles correspondant à ou aux options sélectionnées. Le joueur peut toujours switcher entre les 
+différents modes de sélection (détaillée, rapide ou groupée), mais ne peut plus changer d'affichage. S'il tente de le faire, "Win_Txt" s'affiche et le texte suivant est inscrit : "Arrêter la rechercher ?", 
+avec un choix "Oui" ou "Non". Changer d'affichage (à savoir passer en affichage "Objets", "Combat" ou "Boîtes") peut donc mettre fin à la recherche.
+Si le joueur presse à nouveau le touche correspondante ou qu'il clique à nouveau sur le bouton "chercher", il revient directement sur l'interface de recherche (le choix entre recherche rapide ou 
+détaillée n'est plus proposé), avec les options précédemment sélectionnées. Il peut alors compléter sa recherche ou la réinitialiser.
+
+
+
+
+

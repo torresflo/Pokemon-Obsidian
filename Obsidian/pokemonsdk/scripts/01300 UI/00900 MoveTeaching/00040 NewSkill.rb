@@ -6,7 +6,7 @@ module UI
       attr_reader :selected
       # Create informations of the new skill to learn
       # @param viewport [Viewport]
-      # @param skill [PFM::Skill]
+      # @param index [Integer]
       def initialize(viewport, index)
         super(viewport, 35, 133, default_cache: :interface)
         create_texts

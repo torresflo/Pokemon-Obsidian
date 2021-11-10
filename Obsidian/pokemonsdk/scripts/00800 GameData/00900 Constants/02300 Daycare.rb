@@ -10,6 +10,8 @@ module GameData
     NOT_BREEDING = %i[phione manaphy]
     # List of Pokemon that only breed with Ditto
     BREEDING_WITH_DITTO = %i[phione manaphy]
+    # ID of the Ditto group
+    DITTO_GROUP = 13
     # ID of the breed group that forbid breeding
     NOT_BREEDING_GROUP = 15
     # List of price rate for all daycare
@@ -29,8 +31,8 @@ module GameData
     # "Female" breeder that can have different baby (non-incense condition)
     # @return [Hash{Symbol => Array}]
     BABY_VARIATION = {
-      "nidoran♀": nidoran = %i[nidoran♀ nidoran♂],
-      "nidoran♂": nidoran,
+      nidoranf: nidoran = %i[nidoranf nidoranm],
+      nidoranm: nidoran,
       volbeat: volbeat = %i[volbeat illumise],
       illumise: volbeat,
       tauros: tauros = %i[tauros miltank],
@@ -48,7 +50,7 @@ module GameData
       roserade: budew,
       chimecho: IncenseInfo.new(:pure_incense, :chingling),
       sudowoodo: IncenseInfo.new(:rock_incense, :bonsly),
-      "mr._mime": IncenseInfo.new(:odd_incense, :"mime_jr."),
+      mr_mime: IncenseInfo.new(:odd_incense, :mime_jr),
       chansey: happiny = IncenseInfo.new(:luck_incense, :happiny),
       blissey: happiny,
       snorlax: IncenseInfo.new(:full_incense, :munchlax),

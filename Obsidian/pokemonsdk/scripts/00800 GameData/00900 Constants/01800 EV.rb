@@ -13,6 +13,10 @@ module GameData
     SPD = 3
     # HP EV Index
     HP = 0
+    # Max Total EV a Pokemon can earn
+    MAX_TOTAL_EV = 510
+    # Max Stat EV a Pokemon can earn
+    MAX_STAT_EV = 252
 
     module_function
 

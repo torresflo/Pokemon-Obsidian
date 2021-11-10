@@ -75,9 +75,9 @@ module PFM
     end
 
     # Check the legitimity of the parameters
-    # @param symbol_of_shop [Symbol]
-    # @param list_item_id_to_remove [Array<Integer>]
-    # @param list_quantity_to_remove [Array<Integer>]
+    # @param symbol [Symbol]
+    # @param arr1 [Array<Integer>]
+    # @param arr2 [Array<Integer>]
     # @return [Boolean] return true if all params are legit
     def shop_param_legit?(symbol, arr1, arr2)
       validate_param(:shop_param_legit?, :symbol, symbol => Symbol)
@@ -141,7 +141,7 @@ module PFM
 
     # Remove Pokemon from an already existing shop (return if do not exist)
     # @param symbol_of_shop [Symbol] the symbol of the existing shop
-    # @param list_item_id_to_remove [Array<Integer>] the array of the Pokemon id
+    # @param remove_list_mon [Array<Integer>] the array of the Pokemon id
     # @param param_form [Array<Hash>] the form of the Pokemon to delete (only if there is more than one form of a Pokemon in the list)
     # @param list_quantity_to_remove [Array<Integer>] the array of the quantity to remove
     def remove_from_pokemon_shop(symbol_of_shop, remove_list_mon, param_form = [], list_quantity_to_remove = [])
@@ -200,7 +200,7 @@ module PFM
     # @param list_id [Array<Integer>]
     # @param list_param [Array]
     # @param list_price [Array<Integer>]
-    # @param list_quantity_to_remove [Array<Integer>]
+    # @param list_quantity [Array<Integer>]
     # @return [Boolean] return true if all params are legit
     def mon_shop_param_legit?(sym, list_id: nil, list_param: nil, list_price: nil, list_quantity: nil)
       validate_param(:mon_shop_param_legit?, :sym, sym => Symbol)

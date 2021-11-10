@@ -51,7 +51,7 @@ module UI
       end
 
       # Create the button
-      # @return [LiteRGSS::Sprite]
+      # @return [Sprite]
       def create_button
         add_sprite(-1, 0, BUTTON).set_z(2)
       end

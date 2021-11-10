@@ -1,0 +1,38 @@
+en,fr,it,de,es,ko,kana
+YOUR MONEY,Argent,Soldi,Geld:,Dinero,용돈,おこづかい
+"$[VAR 0206(0000,002C)]","[VAR 0206(0000,202F)] $","[VAR 0206(0000,002E)] $","[VAR 0206(0000,002E)] $","[VAR 0206(0000,202F)] $","[VAR 0206(0000,0000)]원","[VAR 0206(0000,0000)]円"
+"$[VAR 0206(0000,002C)]","[VAR 0206(0000,202F)] $","[VAR 0206(0000,002E)] $","[VAR 0206(0000,002E)] $","[VAR 0206(0000,202F)] $","[VAR 0206(0000,0000)]원","[VAR 0206(0000,0000)]円"
+[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)]
+[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)],[VAR 01C1(0000)]
+[VAR 01C2(0000)],[VAR 01C2(0000)],[VAR 01C2(0000)],[VAR 01C2(0000)],[VAR 01C2(0000)],[VAR 01C2(0000)],[VAR 01C2(0000)]
+Already purchased,Acheté,Articolo acquistato,Gekauft,Artículo comprado,이미 구매함,こうにゅうずみ
+None available,Aucun article n’est disponible,Nessun articolo disponibile,Keine Items vorhanden,No hay artículos de este tipo.,아이템이 없습니다,アイテムは　ありません
+Yes,Oui,Sì,Ja,Sí,예,はい
+No,Non,No,Nein,No,아니요,いいえ
+"That’ll be $[VAR 0206(0000,002C)], OK?","Cela vous fera [VAR 0206(0000,202F)] $. Cela vous convient-il ?","Fanno [VAR 0206(0000,002E)] $. Va bene?","Das macht [VAR 0206(0000,002E)] $. Einverstanden?","Te costará [VAR 0206(0000,202F)] $. ¿Te parece bien?","[VAR 0206(0000,0000)]원입니다만 구입하겠습니까?","[VAR 0206(0000,0000)]円に　なりますが よろしい　ですか？"
+"That’ll be $[VAR 0206(0000,0000)]. And it’s OK that you can’t use that accessory with your current style, right?","Cela vous fera [VAR 0206(0000,202F)] $. Par contre, cet article n’est pas compatible avec ce que vous portez. Le prenez-vous quand même ?","Fanno [VAR 0206(0000,002E)] $. Non puoi indossare questo articolo con la tua acconciatura. Vuoi comprarlo lo stesso?","Das macht [VAR 0206(0000,002E)] $. Du kannst den Artikel nicht mit deinem jetzigen Look kombinieren. Willst du ihn dennoch kaufen?","Serán [VAR 0206(0000,202F)] $. El peinado que llevas no te permite ponerte este accesorio. ¿Seguro que quieres comprarlo?","[VAR 0206(0000,0000)]원입니다 지금 모습에는 사용할 수 없습니다만 괜찮겠습니까?","[VAR 0206(0000,0000)]円に　なります いまの　すがたでは　つけられませんが よろしい　ですか？"
+You don’t have enough money!,Vous n’avez pas assez d’argent !,Non hai abbastanza soldi.,Du hast nicht genug Geld.,¡No tienes dinero suficiente!,돈이 부족합니다!,おかねが　たりません！
+You’ve already purchased that item!,Vous avez déjà acheté cet article.,Hai già acquistato questo articolo.,Diesen Artikel besitzt du bereits.,Ya has comprado este artículo.,이 아이템은 이미 구매했습니다,こちらの　アイテムは すでに　こうにゅうずみ　です
+Would you like to change?,Souhaitez-vous porter votre nouvelle tenue ?,Vuoi indossare i tuoi ultimi acquisti?,Möchtest du deine Neuanschaffung gleich anprobieren?,¿Quieres ponerte lo que acabas de comprar?,구입한 아이템으로 갈아입겠습니까?,こうにゅうした アイテムに　きがえますか？
+"Thank you very much! If you’d like to change, feel free to use any nearby fitting room you find!","Merci ! Si vous voulez vous changer, la cabine d’essayage est juste là !","Grazie! Se vuoi cambiarti, usa pure il camerino!","Vielen Dank! Wenn du dich umziehen möchtest, nutze doch einfach unsere Umkleidekabine.","¡Muchas gracias! Si quieres cambiarte, usa el probador.",감사합니다! 갈아입으시겠다면 가까운 피팅룸을 이용해주세요!,ありがとうございます！ おきがえなら　おちかくの フィッティングルームで　どうぞ！
+Thanks very much for your purchase! Would you like to put it on at once?,Merci ! Voulez-vous porter tout de suite ce que vous venez d’acheter ?,Grazie! Vuoi indossare subito i capi che hai acquistato?,"Vielen Dank! Möchtest du dir gleich anziehen, was du gekauft hast?",¡Muchas gracias! ¿Quieres ponerte lo que te acabas de comprar?,감사합니다! 구입한 아이템으로 갈아입겠습니까?,ありがとうございます！　こうにゅうした アイテムに　きがえますか？
+Thanks for stopping by!,Merci pour votre achat !,Grazie!,Vielen Dank!,¡Muchas gracias!,감사합니다!,ありがとうございます！
+Would you like to go with this look?,Voulez-vous mettre cette tenue ?,Va bene questo look?,Möchtest du dieses Outfit anziehen?,¿Quieres ponerte este conjunto?,이 모습으로 갈아입겠습니까?,この　コーディネートに　きがえますか？
+Would you like to update your League Card?,Voulez-vous mettre à jour votre carte de Ligue ?,Vuoi aggiornare la tua Card della Lega Pokémon?,Möchtest du deine Ligakarte aktualisieren?,¿Quieres actualizar tu Tarjeta de Liga?,리그 카드를 업데이트하겠습니까?,リーグカードを こうしん　しますか？
+Are you all done shopping for now?,Ce sera tout ?,Hai finito?,Möchtest du deinen Einkauf beenden?,¿Has terminado?,쇼핑을 그만두겠습니까?,おかいものは もう　よろしいですか？
+You’re going to keep your current look?,Vous renoncez donc à changer de look ?,Vuoi uscire senza cambiarti?,Möchtest du dein altes Outfit beibehalten?,¿Prefieres no cambiarte?,갈아입기를 그만두시겠습니까?,きがえるのを　やめますか？
+You can’t wear this item with the way your hair is styled now.,Vous ne pouvez pas porter ceci avec votre coupe actuelle.,Non puoi usare questo accessorio con la tua acconciatura.,Modeartikel dieser Art sind nicht mit dieser Frisur kombinierbar.,El peinado que llevas no te permite ponerte este accesorio.,현재 헤어스타일에는 사용할 수 없습니다,いまの　かみがたでは つけられません
+ Confirm, Confirmer, Ok, Auswählen, Confirmar,결정,けってい
+ Leave, Quitter, Esci, Beenden, Salir,끝낸다,おわる
+ Check Appearance, Se regarder, Guardati, Betrachten, Ver en el espejo,모습을 본다,すがたをみる
+ Remove, Retirer, Rimuovi, Ablegen, Quitar,벗는다,はずす
+ Put On, Changer, Indossa, Auswählen, Poner,갈아입는다,きがえる
+ Zoom In, Zoomer, Zoom avanti, Heranzoomen, Acercar,줌 인,ズームイン
+ Zoom Out, Dézoomer, Zoom indietro, Herauszoomen, Alejar,줌 아웃,ズームアウト
+ Back, Retour, Indietro, Zurück, Atrás,돌아간다,もどる
+ Take off outerwear, Retirer le haut, Rimuovi giacca o felpa, Jacke ausziehen, Quitar chaqueta,겉옷을 벗는다,うわぎをぬぐ
+ Take off shoes, Retirer les chaussures, Rimuovi scarpe, Schuhe ausziehen, Quitar calzado,신발을 벗는다,くつをぬぐ
+ Put on outerwear, Mettre un haut, Indossa giacca o felpa, Jacke anziehen, Poner chaqueta,겉옷을 입는다,うわぎをきる
+ Put on shoes, Mettre des chaussures, Indossa scarpe, Schuhe anziehen, Poner calzado,신발을 신는다,くつをはく
+Leave without changing,Sortir sans se changer,Esci senza cambiarti,Nicht umziehen,Salir sin cambiarse,갈아입지 않고 끝낸다,きがえずおわる
+You can’t wear a hat with your current hairstyle! Do you want to put on the rest of this outfit?,Votre coupe ne permet pas de porter de chapeau. Voulez-vous tout de même mettre cette tenue ?,"Non puoi indossare il cappello con la tua acconciatura. Vuoi indossare tutto il resto, senza il cappello?",Deine Frisur ist nicht mit einer Kopfbedeckung kombinierbar. Möchtest du den Rest des Outfits anziehen?,El peinado que llevas no te permite ponerte el casco. ¿Quieres ponerte el resto del uniforme?,지금의 헤어스타일로는 모자를 쓸 수 없습니다 모자 이외의 아이템을 갈아입겠습니까?,いまの　かみがたでは ぼうしを　かぶれません ぼうしいがいの　アイテムを きがえますか？

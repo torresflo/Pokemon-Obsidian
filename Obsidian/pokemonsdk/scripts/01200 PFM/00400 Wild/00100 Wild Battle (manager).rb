@@ -2,7 +2,6 @@ module PFM
   # The wild battle management
   #
   # The main object is stored in $wild_battle and $pokemon_party.wild_battle
-  # @author Nuri Yuri
   class Wild_Battle
     # The number of zone type that can be stored
     MAX_ZONE_COUNT = 10
@@ -65,68 +64,16 @@ module PFM
       end
     end
 
-    # Set the battle up with the right parameter
-    # @note Must be called in Scene_Battle as the current $scene
-    def setup
-      return if $scene.class != Scene_Battle
-      # If it was a forced battle
-      if @forced_wild_battle
-        $scene.enemy_party.actors.clear
-        $scene.enemy_party.actors = @forced_wild_battle
-        $scene.setup_battle(@forced_wild_battle.size, 1, 1)
-        @forced_wild_battle = false
-        return
-      end
-      wi = @fish_battle || @remaining_pokemons[$env.get_zone_type][$game_player.terrain_tag]
-      return unless wi
-      troop = $data_troops[1].members
-      wi.ids.each_index do |i|
-        troop[i] = RPG::Troop::Member.new unless troop[i]
-        troop[i].enemy_id = wi.ids[i]
-      end
-      $scene.setup_battle(wi.vs_type, 1, 1)
-      $scene.configure_pokemons(*wi.levels)
-      $scene.select_pokemon(*wi.chances)
-      $scene.fished = (@fish_battle ? @fished : false)
-      @fish_battle = nil
-    end
-
     # Is a wild battle available ?
     # @return [Boolean]
     def available?
-      return false if $scene.is_a?(Scene_Battle)
-      return true if @fish_battle
-      # Check roaming pokemon
-      @roaming_pokemons.each do |roaming_info|
-        if roaming_info.appearing?
-          PFM::Wild_RoamingInfo.unlock  # Allow Roaming pokemon update at the end of the battle
-          roaming_info.spotted = true
-          init_battle(roaming_info.pokemon)
-          return true
-        end
-      end
-      # Check remaining Pokemon
-      @forced_wild_battle = false
-      var = @remaining_pokemons[$env.get_zone_type]
-      return false unless var
+      return false if $scene.is_a?(Battle::Scene)
       return false unless $actors[0]
-      if var[$game_player.terrain_tag].class == Wild_Info
-        var = var[$game_player.terrain_tag]
-        level = nil
-        if $pokemon_party.repel_count > 0
-          levels = var.levels.map { |i| i.is_a?(Integer) ? i : i[:level] }
-          return false unless levels.any? { |i| i >= $actors[0].level }
-        end
-        if WEAK_POKEMON_ABILITY.include?($actors[0].ability_db_symbol)
-          var.levels.each do |i|
-            level = (i.is_a?(Integer) ? i : i[:level])
-            return true if (level + 5) >= $actors[0].level
-          end
-          return rand(100) < 50
-        end
-        return true
-      end
-      return false
+      return true if @fish_battle
+      return true if roaming_battle_available?
+
+      @forced_wild_battle = false
+      return remaining_battle_available?
     end
 
     # Test if there's any fish battle available and start it if asked.
@@ -173,18 +120,21 @@ module PFM
     end
 
     # Start a wild battle
-    # @note call the common event 1 to start the battle
     # @overload start_battle(id, level, *args)
     #   @param id [PFM::Pokemon] First Pokemon in the wild battle.
     #   @param level [Object] ignored
     #   @param args [Array<PFM::Pokemon>] other pokemon in the wild battle.
+    #   @param battle_id [Integer] ID of the events to load for battle scenario
     # @overload start_battle(id, level, *args)
     #   @param id [Integer] id of the Pokemon in the database
     #   @param level [Integer] level of the first Pokemon
     #   @param args [Array<Integer, Integer>] array of id, level of the other Pokemon in the wild battle.
-    def start_battle(id, level = 70, *others)
+    #   @param battle_id [Integer] ID of the events to load for battle scenario
+    def start_battle(id, level = 70, *others, battle_id: 1)
       init_battle(id, level, *others)
-      $game_system.map_interpreter.launch_common_event(1)
+      Graphics.freeze
+      $scene = Battle::Scene.new(setup(battle_id))
+      Yuki::FollowMe.set_battle_entry
     end
 
     # Init a wild battle
@@ -210,6 +160,23 @@ module PFM
       end
     end
 
+    # Set the Battle::Info with the right information
+    # @param battle_id [Integer] ID of the events to load for battle scenario
+    # @return [Battle::Logic::BattleInfo, nil]
+    def setup(battle_id = 1)
+      # If it was a forced battle
+      return configure_battle(@forced_wild_battle, battle_id) if @forced_wild_battle
+      # @type [Wild_Info]
+      return nil unless (wi = @fish_battle || @remaining_pokemons[$env.get_zone_type][$game_player.terrain_tag])
+
+      pokemon_to_select = configure_pokemon(wi.pokemon)
+      selected_pokemon = select_pokemon(wi, pokemon_to_select)
+      return configure_battle(selected_pokemon, battle_id)
+    ensure
+      @forced_wild_battle = false
+      @fish_battle = nil
+    end
+
     # Define a group of remaining wild battle
     # @param zone_type [Integer] type of the zone, see $env.get_zone_type to know the id
     # @param tag [Integer] terrain_tag on which the player should be to start a battle with wild Pokemon of this group
@@ -219,7 +186,6 @@ module PFM
     def set(zone_type, tag, delta_level, vs_type, *data)
       return if MAX_ZONE_COUNT <= zone_type
       wi = Wild_Info.new
-      wi.delta_level = delta_level
       ids = wi.ids
       levels = wi.levels
       chances = wi.chances
@@ -240,15 +206,15 @@ module PFM
       else
         @fishing[tag == 11 ? :rock : :headbutt][zone_type] = wi
       end
+      wi.delta_level = delta_level
     end
 
     # Test if a Pokemon is a roaming Pokemon (Usefull in battle)
-    def is_roaming?(pokemon)
-      @roaming_pokemons.each do |roaming_info|
-        return true if roaming_info.pokemon == pokemon
-      end
-      return false
+    # @return [Boolean]
+    def roaming?(pokemon)
+      return roaming_pokemons.any? { |info| info.pokemon == pokemon }
     end
+    alias is_roaming? roaming?
 
     # Add a roaming Pokemon
     # @param chance [Integer] the chance divider to see the Pokemon
@@ -267,7 +233,7 @@ module PFM
     # Remove a roaming Pokemon from the roaming Pokemon array
     # @param pokemon [PFM::Pokemon] the Pokemon that should be removed
     def remove_roaming_pokemon(pokemon)
-      @roaming_pokemons.delete_if { |i| i.pokemon == pokemon }
+      roaming_pokemons.delete_if { |i| i.pokemon == pokemon }
     end
 
     # Ability that increase the rate of any fishing rod # Glue / Ventouse
@@ -285,7 +251,7 @@ module PFM
       else
         rate = 30
       end
-      rate *= 1.5 if FishIncRate.include?($actors[0] ? $actors[0].ability_db_symbol : -1)
+      rate *= 1.5 if FishIncRate.include?(pokemon_ability)
       return rate < rand(100)
     end
 
@@ -295,11 +261,49 @@ module PFM
         yield(roaming_info.pokemon)
       end
     end
+
     # Tell the roaming pokemon that the playe has look at their position
     def on_map_viewed
       @roaming_pokemons.each do |info|
         info.spotted = true
       end
+    end
+
+    private
+
+    # Test if a roaming battle is available
+    # @return [Boolean]
+    def roaming_battle_available?
+      # @type [PFM::Wild_RoamingInfo]
+      return false unless (info = roaming_pokemons.find(&:appearing?))
+
+      PFM::Wild_RoamingInfo.unlock
+      info.spotted = true
+      init_battle(info.pokemon)
+      return true
+    end
+
+    # Test if a remaining battle is available
+    # @return [Boolean]
+    def remaining_battle_available?
+      # @type [PFM::Wild_Info]
+      return false unless (group = remaining_pokemons.dig($env.get_zone_type, $game_player.terrain_tag))
+      return false unless group.is_a?(Wild_Info)
+
+      actor_level = $actors[0].level
+      levels = group.levels.map { |level| level.is_a?(Integer) ? level : level[:level] }
+      return false if $pokemon_party.repel_count > 0 && levels.none? { |level| level >= actor_level }
+      return levels.any? { |level| level + 5 >= actor_level } || rand(100) < 50 if WEAK_POKEMON_ABILITY.include?(pokemon_ability)
+
+      return true
+    end
+
+    # Function that returns the Pokemon ability of the Pokemon triggering all the stuff related to ability
+    # @return [Symbol] db_symbol of the ability
+    def pokemon_ability
+      return :__undef__ unless $actors[0]
+
+      return $actors[0].ability_db_symbol
     end
   end
 

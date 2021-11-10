@@ -8,7 +8,7 @@ rgss_main do
   end
   need_to_open_window = false
   # Check project integrity
-  puts 'Some resources of your project are missing!' unless File.exist?('audio/se/cries/001cry.wav')
+  puts 'Some resources of your project are missing!' unless File.exist?('audio/se/cries/001cry.ogg')
   GC.start
   # Prepare for transition
   Graphics.freeze
@@ -18,7 +18,7 @@ rgss_main do
   Graphics.transition(20)
   Graphics.stop
 rescue Exception
-  Graphics.stop if $!.class != LiteRGSS::Graphics::ClosedWindowError && $!.class.to_s != 'Reset'
+  Graphics.stop if $!.class != LiteRGSS::DisplayWindow::ClosedWindowError && $!.class.to_s != 'Reset'
   if Object.const_defined?(:Yuki) && Yuki.const_defined?(:EXC)
     Yuki::EXC.run($!)
   else

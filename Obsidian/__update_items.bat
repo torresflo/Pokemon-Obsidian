@@ -1,1 +1,1 @@
-start game.exe --util=update_db_symbol
+game --util=update_db_symbol

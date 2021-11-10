@@ -103,7 +103,7 @@ module GamePlay
     # @param no_message [Boolean] if the scene is created wihout the message management
     # @param message_z [Integer] the z superiority of the message
     # @param message_viewport_args [Array] if empty : [:main, message_z] will be used.
-    def initialize(no_message = false, message_z = 10_001, *message_viewport_args)
+    def initialize(no_message = false, message_z = 20_000, *message_viewport_args)
       # List of object to dispose in #dispose
       @object_to_dispose = []
       # Force the message window of the map to be closed
@@ -202,6 +202,8 @@ module GamePlay
       # Message update
       while processing_message
         Graphics.update
+        next if Graphics::FPSBalancer.global.skipping?
+
         @message_window.update
         @__display_message_proc&.call
         if edit_max && @message_window.input_number_window
@@ -220,22 +222,24 @@ module GamePlay
     # @return [Integer, nil] the choice result
     def display_message_and_wait(message, start = 1, *choices)
       choice = display_message(message, start, *choices)
-      close_message_window
+      close_message_window(&@__display_message_proc)
       return choice
     end
 
     # Call an other scene
     # @param name [Class] the scene to call
     # @param args [Array] the parameter of the initialize method of the scene to call
+    # @param fade_out_params [Array, nil] params to send to the fade_out function (when this scene hides to call the next scene)
+    # @param fade_in_params [Array, nil] params to send to the fade_in function (when this scene comes back)
     # @return [Boolean] if this scene can still run
-    def call_scene(name, *args, &result_process)
-      fade_out(@cfo_type || DEFAULT_TRANSITION, @cfo_param || DEFAULT_TRANSITION_PARAMETER)
+    def call_scene(name, *args, fade_out_params: nil, fade_in_params: nil, **kwarg, &result_process)
+      fade_out(*(fade_out_params || [@cfo_type || DEFAULT_TRANSITION, @cfo_param || DEFAULT_TRANSITION_PARAMETER]))
       # Make the current scene invisible
       self.visible = false
       result_process ||= @__result_process
       @__result_process = nil
       # @type [GamePlay::Base]
-      scene = name.new(*args)
+      scene = name.new(*args, **kwarg)
       scene.main { Scheduler.start(:on_scene_switch, self.class) }
       # Call the result process if any
       result_process&.call(scene)
@@ -243,7 +247,7 @@ module GamePlay
       return @running = false if $scene != self || !@running
 
       self.visible = true
-      fade_in(@cfi_type || DEFAULT_TRANSITION, @cfi_param || DEFAULT_TRANSITION_PARAMETER)
+      fade_in(*(fade_in_params || [@cfi_type || DEFAULT_TRANSITION, @cfi_param || DEFAULT_TRANSITION_PARAMETER]))
       return true
     end
 
@@ -273,9 +277,24 @@ module GamePlay
 
     # Take a snapshot of the scene
     # @note You have to dispose the bitmap you got from this function
-    # @return [Bitmap]
+    # @return [Texture]
     def snap_to_bitmap
-      @viewport&.snap_to_bitmap || Bitmap.new(16, 16)
+      @viewport&.snap_to_bitmap || Texture.new(16, 16)
+    end
+
+    # Find a parent scene
+    # @param klass [Class<GamePlay::Base>] criteria passed to .is_a?()
+    # @param fallback [GamePlay::Base] result if the scene was not found
+    def find_parent(klass, fallback = self)
+      scene = self
+      while scene.is_a?(Base)
+        scene = scene.__last_scene
+        break if scene == self
+        next unless scene.is_a?(klass)
+
+        return scene
+      end
+      return false
     end
 
     private
@@ -312,13 +331,8 @@ module GamePlay
       elsif no_message
         @message_window = false
       else
-        # if $game_temp.in_battle
-        #  @message_window = ::Scene_Battle::Window_Message.new
-        #  @message_window.wait_input = true
-        # else
         message_viewport_args = [:main, message_z] if message_viewport_args.empty?
         @message_window = message_class.new(Viewport.create(*message_viewport_args), self)
-        # end
         @message_window.z = message_z
       end
     end
@@ -326,6 +340,7 @@ module GamePlay
     # Force the message window to "close"
     def close_message_window
       return unless @message_window
+
       while $game_temp.message_window_showing
         Graphics.update
         yield if block_given?
@@ -379,11 +394,13 @@ module GamePlay
       if Mouse.trigger?(:left)
         buttons.each_with_index do |sp, i|
           next if only_test_return && i != return_index
+          next unless actions[i]
           sp.set_press(sp.simple_mouse_in?)
         end
       elsif Mouse.released?(:left)
         buttons.each_with_index do |sp, i|
           next if only_test_return && i != return_index
+          next unless actions[i]
           if sp.simple_mouse_in?
             send(actions[i])
             sp.set_press(false)
@@ -486,7 +503,7 @@ module GamePlay
     # Create the viewport (oftern used)
     def create_viewport
       # Main viewport
-      # @type [LiteRGSS::Viewport]
+      # @type [Viewport]
       @viewport = Viewport.create(:main, 10_000)
     end
 
@@ -498,26 +515,6 @@ module GamePlay
     # Sort the sprites inside the main viewport
     def sort_sprites
       @viewport&.sort_z
-    end
-
-    # Play decision SE
-    def play_decision_se
-      $game_system&.se_play($data_system&.decision_se)
-    end
-
-    # Play cursor SE
-    def play_cursor_se
-      $game_system&.se_play($data_system&.cursor_se)
-    end
-
-    # Play buzzer SE
-    def play_buzzer_se
-      $game_system&.se_play($data_system&.buzzer_se)
-    end
-
-    # Play cancel SE
-    def play_cancel_se
-      $game_system&.se_play($data_system&.cancel_se)
     end
   end
 
@@ -591,6 +588,20 @@ module GamePlay
         end
       end
       return true
+    end
+
+    # Base that takes frame balancing in account
+    class FrameBalanced < self
+      include Graphics::FPSBalancer::Marker
+
+      # Update with frame balancing
+      def update
+        if Graphics::FPSBalancer.global.skipping?
+          @message_window.update if @message_window
+        else
+          super
+        end
+      end
     end
   end
 end

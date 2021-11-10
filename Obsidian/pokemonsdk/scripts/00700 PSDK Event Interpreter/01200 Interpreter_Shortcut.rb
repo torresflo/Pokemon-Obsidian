@@ -29,6 +29,12 @@ class Interpreter
     $game_player
   end
 
+  # Return the $game_map.events[id]
+  # @return [Game_Event]
+  def ge(id = @event_id)
+    gm.events[id]
+  end
+
   # Return the $pokemon_party
   # @return [PFM::Pokemon_Party]
   def party
@@ -157,10 +163,11 @@ class Interpreter
   # @param id_var [Integer] id of the variable in which the index will be store (-1 = no selection)
   # @param party [Array<PFM::Pokemon>] the array of Pokemon to show in the menu
   # @param mode [Symbol] the mode of the Menu (:map, :menu, :item, :hold, :battle)
+  # @param extend_data [Integer, PFM::ItemDescriptor::Wrapper, Array, Symbol] extend_data informations
   # @author Nuri Yuri
-  def call_party_menu(id_var = ::Yuki::Var::Party_Menu_Sel, party = $actors, mode = :map)
+  def call_party_menu(id_var = ::Yuki::Var::Party_Menu_Sel, party = $actors, mode = :map, extend_data = nil)
     Graphics.freeze
-    scene = GamePlay::Party_Menu.new(party, mode)
+    scene = GamePlay::Party_Menu.new(party, mode, extend_data)
     scene.main
     $game_variables[id_var] = scene.return_data
     Graphics.transition
@@ -169,11 +176,12 @@ class Interpreter
   alias appel_menu_equipe call_party_menu
   # Show the quest book
   def quest_book
-    GamePlay::QuestBookMenu.new.main
+    GamePlay::QuestUI.new.main
     Graphics.transition
     @wait_count = 2
   end
   alias livre_quetes quest_book
+  alias quest_ui quest_book
   # Add a parallax
   # @overload add_parallax(image, x, y, z, zoom_x = 1, zoom_y = 1, opacity = 255, blend_type = 0)
   #   @param image [String] name of the image in Graphics/Pictures/
@@ -202,15 +210,15 @@ class Interpreter
     index = party.send(method_name, *args) if index < 0
     return index
   end
-  
+
   # Shortcut for get_character(@event_id).find_path(*args).
   # Exemple : find_path to:[10,15], radius:5
-  # @param to: [Array<Integer, Integer>, Game_Character] the target, [x, y] or Game_Character object
-  # @param radius: [Integer] <default : 0> the distance from the target to consider it as reached
-  # @param priority: [Integer] <default : Pathfinding::PRIORITY_NORMAL> the priority in front of the other requests
-  # @param tries: [Integer, Symbol] <default : 5> the number of tries allowed to this request, use :infinity to unlimited tris count
-  def find_path(*args)
-    get_character(@event_id).find_path(*args)
+  # @param to [Array<Integer, Integer>, Game_Character] the target, [x, y] or Game_Character object
+  # @param radius [Integer] <default : 0> the distance from the target to consider it as reached
+  # @param priority [Integer] <default : Pathfinding::PRIORITY_NORMAL> the priority in front of the other requests
+  # @param tries [Integer, Symbol] <default : 5> the number of tries allowed to this request, use :infinity to unlimited tris count
+  def find_path(**kwargs)
+    get_character(@event_id).find_path(**kwargs)
   end
 
   # Shortcut for get_character(@event_id).stop_path
@@ -237,10 +245,10 @@ class Interpreter
   # @param reverse [Boolean] <default: false> set it to true if the animation is reversed
   # @param repeat [Boolean] <default: false> set it to true if the animation is looped
   # @return [Boolean]
-  def animate_from_charset(*args)
-    return get_character(@event_id).animate_from_charset(*args)
+  def animate_from_charset(lines, duration, reverse: false, repeat: false)
+    return get_character(@event_id).animate_from_charset(lines, duration, reverse: reverse, repeat: repeat)
   end
-  
+
   # Shortcut for wait_character_move_completion(0)
   # Wait for the end of the player movement
   def wait_for_player
@@ -276,5 +284,28 @@ class Interpreter
     hall_of_fame.main
     Graphics.transition
     @wait_count = 2
+  end
+
+  # Open the Mining Game UI
+  # @overload mining_game(item_count, music_filename = GamePlay::MiningGame::DEFAULT_MUSIC)
+  #   @param item_count [Integer] the number of items to search
+  #   @param music_filename [String] the filename of the music to play
+  # @overload mining_game(wanted_item_db_symbols, music_filename = GamePlay::MiningGame::DEFAULT_MUSIC)
+  #   @param wanted_item_db_symbols [Array<Symbol>] the array containing the specific items (comprised between 1 and 5 items)
+  #   @param music_filename [String] the filename of the music to play
+  def mining_game(param = nil, music_filename = GamePlay::MiningGame::DEFAULT_MUSIC, delete_after: true)
+    message_id = $game_map.events[@event_id].event.name.downcase.include?('miningrock') ? 2 : 0
+    if $pokemon_party.bag.contain_item?(:explorer_kit)
+      if yes_no_choice(ext_text(9005, message_id))
+        $game_system.bgm_memorize
+        $game_system.bgm_fade(0.2)
+        $scene.call_scene(GamePlay::MiningGame, param, music_filename, fade_out_params: [:mining_game, 0])
+        $game_system.bgm_restore
+        @wait_count = 2
+        delete_this_event_forever if delete_after
+      end
+    else
+      message(ext_text(9005, message_id + 1))
+    end
   end
 end

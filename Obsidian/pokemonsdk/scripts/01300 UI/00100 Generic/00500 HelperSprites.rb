@@ -2,7 +2,7 @@ module UI
   # Sprite that show the 1st type of the Pokemon
   class Type1Sprite < SpriteSheet
     # Create a new Type Sprite
-    # @param viewport [LiteRGSS::Viewport, nil] the viewport in which the sprite is stored
+    # @param viewport [Viewport, nil] the viewport in which the sprite is stored
     # @param from_pokedex [Boolean] if the type is the Pokedex type (other source image)
     def initialize(viewport, from_pokedex = false)
       super(viewport, 1, GameData::Type.all.size)
@@ -56,7 +56,7 @@ module UI
     # Name of the gender image in Graphics/Interface
     IMAGE_NAME = 'battlebar_gender'
     # Create a new Gender Sprite
-    # @param viewport [LiteRGSS::Viewport, nil] the viewport in which the sprite is stored
+    # @param viewport [Viewport, nil] the viewport in which the sprite is stored
     def initialize(viewport)
       super(viewport, 3, 1)
       set_bitmap(IMAGE_NAME, :interface)
@@ -78,7 +78,7 @@ module UI
     # Number of official states
     STATE_COUNT = 10
     # Create a new Status Sprite
-    # @param viewport [LiteRGSS::Viewport, nil] the viewport in which the sprite is stored
+    # @param viewport [Viewport, nil] the viewport in which the sprite is stored
     def initialize(viewport)
       super(viewport, 1, STATE_COUNT)
       filename = IMAGE_NAME + $options.language
@@ -98,7 +98,7 @@ module UI
     # Name of the image in Graphics/Interface
     IMAGE_NAME = 'hold'
     # Create a new Hold Sprite
-    # @param viewport [LiteRGSS::Viewport, nil] the viewport in which the sprite is stored
+    # @param viewport [Viewport, nil] the viewport in which the sprite is stored
     def initialize(viewport)
       super(viewport)
       set_bitmap(IMAGE_NAME, :interface)
@@ -137,7 +137,7 @@ module UI
     # Name of the image in Graphics/Interface
     IMAGE_NAME = 'skill_categories'
     # Create a new category sprite
-    # @param viewport [LiteRGSS::Viewport] viewport in which the sprite is shown
+    # @param viewport [Viewport] viewport in which the sprite is shown
     def initialize(viewport)
       super(viewport, 1, 3)
       set_bitmap(IMAGE_NAME, :interface)
@@ -180,11 +180,11 @@ module UI
 
     # Load the Sprite bitmap
     # @param pokemon [PFM::Pokemon]
-    # @return [Bitmap]
+    # @return [Texture]
     def load_bitmap(pokemon)
       bitmap&.dispose if @gif_reader
       if (@gif_reader = pokemon.send(*gif_source))
-        bmp = Bitmap.new(@gif_reader.width, @gif_reader.height)
+        bmp = Texture.new(@gif_reader.width, @gif_reader.height)
         @gif_reader.update(bmp)
         return bmp
       end
@@ -204,7 +204,7 @@ module UI
     end
 
     # Align the sprite according to the bitmap properties
-    # @param bmp [Bitmap] the bitmap source
+    # @param bmp [Texture] the bitmap source
     # @param pokemon [PFM::Pokemon]
     def auto_align(bmp, pokemon)
       oy = bmp.height + (self.class == PokemonFaceSprite ? pokemon.front_offset_y : 0)
@@ -276,7 +276,7 @@ module UI
     end
 
     # Align the sprite according to the bitmap properties
-    # @param bmp [Bitmap] the bitmap source
+    # @param bmp [Texture] the bitmap source
     def auto_align(bmp)
       set_origin(width / 2, bmp.height / 2)
     end
@@ -296,8 +296,9 @@ module UI
   # Class that show the item icon
   class ItemSprite < Sprite
     # Set the item that should be shown
-    # @param item_id [Integer, Symbol]
+    # @param item_id [Integer, Symbol, GameData::Item]
     def data=(item_id)
+      item_id = item_id.db_symbol if item_id.is_a?(GameData::Item)
       set_bitmap(GameData::Item[item_id].icon, :icon)
     end
   end
@@ -307,7 +308,7 @@ module UI
     # Name of the image shown
     IMAGE_NAME = 'battle_attack_dummy'
     # Create a new category sprite
-    # @param viewport [LiteRGSS::Viewport] viewport in which the sprite is shown
+    # @param viewport [Viewport] viewport in which the sprite is shown
     def initialize(viewport)
       super(viewport, 1, GameData::Type.all.size)
       set_bitmap(IMAGE_NAME, :interface)
@@ -324,7 +325,7 @@ module UI
   class SymText < Text
     # Add a text inside the window, the offset x/y will be adjusted
     # @param font_id [Integer] the id of the font to use to draw the text
-    # @param viewport [LiteRGSS::Viewport, nil] the viewport used to show the text
+    # @param viewport [Viewport, nil] the viewport used to show the text
     # @param x [Integer] the x coordinate of the text surface
     # @param y [Integer] the y coordinate of the text surface
     # @param width [Integer] the width of the text surface

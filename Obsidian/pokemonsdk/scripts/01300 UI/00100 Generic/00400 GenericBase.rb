@@ -112,7 +112,7 @@ module UI
     # @return [Text]
     def win_text
       @win_text_background ||= add_sprite(0, 217, 'team/Win_Txt').set_z(502)
-      @win_text ||= add_text(2, 220, 238, 15, nil.to_s, color: 9)
+      @win_text ||= add_text(5, 222, 238, 15, nil.to_s, color: 9)
       @win_text.z = 502
       @win_text
     end
@@ -128,7 +128,7 @@ module UI
       # Array of button coordinates
       COORDINATES = [[3, 219], [83, 219], [163, 219], [243, 219]]
       # Create a new Button
-      # @param viewport [LiteRGSS::Viewport]
+      # @param viewport [Viewport]
       # @param coords_index [Integer] index of the coordinates to use in order to position the button
       # @param key [Symbol] key to show by default
       def initialize(viewport, coords_index, key)
@@ -154,8 +154,10 @@ module UI
       # Set the text shown by the button
       # @param value [String] text to show
       def text=(value)
-        return unless value.is_a?(String)
-        @text.text = value
+        return unless value.is_a?(String) || value.nil?
+
+        @text.text = value if value
+        self.visible = (value ? true : false)
       end
 
       # Set the key shown by the button

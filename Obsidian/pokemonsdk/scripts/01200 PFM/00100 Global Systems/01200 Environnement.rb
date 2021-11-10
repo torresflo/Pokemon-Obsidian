@@ -20,11 +20,15 @@ module PFM
     # Return the modified worldmap position or nil
     # @return [Array, nil]
     attr_reader :modified_worldmap_position
+
     # Create a new Environnement object
     def initialize
       @weather = 0
       @battle_weather = 0
+      @fterrain = 0
+      @battle_fterrain = 0
       @duration = Float::INFINITY
+      @ftduration = Float::INFINITY
       # Zone where the player currently is
       @zone = 0
       # Zone where the current zone is a child of
@@ -37,93 +41,6 @@ module PFM
       # Worldmap where the player currently is
       @worldmap = 0
       @worldmap_custom_markers = []
-    end
-
-    # Apply a new weather to the current environment
-    # @param id [Integer] ID of the weather : 0 = None, 1 = Rain, 2 = Sun/Zenith, 3 = Darud Sandstorm, 4 = Hail, 5 = Foggy
-    # @param duration [Integer, nil] the total duration of the weather (battle), nil = never stops
-    def apply_weather(id, duration = nil)
-      @battle_weather = id
-      @weather = id unless $game_temp.in_battle && !$game_switches[::Yuki::Sw::MixWeather]
-      @duration = (duration || Float::INFINITY)
-      ajust_weather_switches
-    end
-
-    # Ajust the weather switch to put the game in the correct state
-    def ajust_weather_switches
-      weather = current_weather
-      $game_switches[::Yuki::Sw::WT_Rain] = (weather == 1)
-      $game_switches[::Yuki::Sw::WT_Sunset] = (weather == 2)
-      $game_switches[::Yuki::Sw::WT_Sandstorm] = (weather == 3)
-      $game_switches[::Yuki::Sw::WT_Snow] = (weather == 4)
-      $game_switches[::Yuki::Sw::WT_Fog] = (weather == 5)
-    end
-
-    # Return the current weather duration
-    # @return [Numeric] can be Float::INFINITY
-    def weather_duration
-      return @duration
-    end
-    alias get_weather_duration weather_duration
-
-    # Decrease the weather duration, set it to normal (none = 0) if the duration is less than 0
-    # @return [Boolean] true = the weather stopped
-    def decrease_weather_duration
-      @duration -= 1 if @duration > 0
-      if @duration <= 0 && @battle_weather != 0
-        apply_weather(0, 0)
-        return true
-      end
-      return false
-    end
-
-    # Return the current weather id according to the game state (in battle or not)
-    # @return [Integer]
-    def current_weather
-      return $game_temp.in_battle ? @battle_weather : @weather
-    end
-
-    # Is it rainning?
-    # @return [Boolean]
-    def rain?
-      return false if $game_temp.in_battle && ::BattleEngine.state[:air_lock]
-      return current_weather == 1
-    end
-
-    # Is it sunny?
-    # @return [Boolean]
-    def sunny?
-      return false if $game_temp.in_battle && ::BattleEngine.state[:air_lock]
-      return current_weather == 2
-    end
-
-    # Duuuuuuuuuuuuuuuuuuuuuuun
-    # Dun dun dun dun dun dun dun dun dun dun dun dundun dun dundundun dun dun dun dun dun dun dundun dundun
-    # @return [Boolean]
-    def sandstorm?
-      return false if $game_temp.in_battle && ::BattleEngine.state[:air_lock]
-      return current_weather == 3
-    end
-
-    # Does it hail ?
-    # @return [Boolean]
-    def hail?
-      return false if $game_temp.in_battle && ::BattleEngine.state[:air_lock]
-      return current_weather == 4
-    end
-
-    # Is it foggy ?
-    # @return [Boolean]
-    def fog?
-      return false if $game_temp.in_battle && ::BattleEngine.state[:air_lock]
-      return current_weather == 5
-    end
-
-    # Is the weather normal
-    # @return [Boolean]
-    def normal?
-      return false if $game_temp.in_battle && ::BattleEngine.state[:air_lock]
-      return current_weather == 0
     end
 
     # Is the player inside a building (and not on a systemtag)
@@ -260,11 +177,11 @@ module PFM
     # @return [Integer]
     def get_worldmap(zone = @zone)
       if @modified_worldmap_position && @modified_worldmap_position[2]
-        return @modified_worldmap_position[2]
+        return @modified_worldmap_position[2] || 0
       elsif zone.is_a?(GameData::Zone)
-        return zone.worldmap_id
+        return zone.worldmap_id || 0
       else
-        return GameData::Zone.get(zone).worldmap_id
+        return GameData::Zone.get(zone).worldmap_id || 0
       end
     end
 

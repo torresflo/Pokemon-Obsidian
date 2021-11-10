@@ -7,10 +7,10 @@ module UI
     # Return the data source to get the rate info through data=
     attr_accessor :data_source
     # Create a new bar
-    # @param viewport [LiteRGSS::Viewport] the viewport in which the bar is shown
+    # @param viewport [Viewport] the viewport in which the bar is shown
     # @param x [Integer] the x position of the bar
     # @param y [Integer] the y position of the bar
-    # @param bmp [LiteRGSS::Bitmap] the texture of the bar (including the bar states)
+    # @param bmp [Texture] the texture of the bar (including the bar states)
     # @param bw [Integer] the bar width (progress part)
     # @param bh [Integer] the bar height (progress part)
     # @param bx [Integer] the x position of the bar inside the sprite

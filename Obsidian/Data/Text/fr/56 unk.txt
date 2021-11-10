@@ -1,0 +1,3 @@
+0 : Hein ?!
+1 : Un [VAR PKNAME(0000)] vient de sortir de l’Œuf !
+2 : Voulez-vous donner un surnom à [VAR PKNAME(0000)] ?

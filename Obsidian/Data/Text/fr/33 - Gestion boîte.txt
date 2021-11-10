@@ -1,0 +1,207 @@
+0 : [VAR PKNICK(0000)]
+1 : [VAR PKNAME(0000)]
+2 : [VAR COLOR(0002)]♂[VAR COLOR(0000)]
+3 : [VAR COLOR(0001)]♀[VAR COLOR(0000)]
+4 : -
+5 : N. 
+6 : [VAR NUM3(0000)]
+7 : Nº Pokédex
+8 : [VAR NUM3(0000)]
+9 : ???
+10 : PV
+11 : [VAR NUM3(0000)]
+12 : /
+13 : [VAR NUM3(0000)]
+14 : Attaque
+15 : [VAR NUM3(0000)]
+16 : Défense
+17 : [VAR NUM3(0000)]
+18 : Atq. Spé.
+19 : [VAR NUM3(0000)]
+20 : Déf. Spé.
+21 : [VAR NUM3(0000)]
+22 : Vitesse
+23 : [VAR NUM3(0000)]
+24 : Nature
+25 : [VAR ITEM1(0000)]
+26 : Talent
+27 : [VAR ABILITY(0000)]
+28 : Objet
+29 : [VAR ITEM2(0000)]
+30 : Capacités
+31 : [VAR MOVE(0000)]
+32 : [VAR MOVE(0000)]
+33 : [VAR MOVE(0000)]
+34 : [VAR MOVE(0000)]
+35 : [VAR BOX(0000)]
+36 : Boîte Combat
+37 : Déposer
+38 : Retirer
+39 : Déplacer
+40 : Objet
+41 : Résumé
+42 : Marquer
+43 : Autres Boîtes
+44 : Fonds
+45 : Nom
+46 : Paysage 1
+47 : Paysage 2
+48 : Paysage 3
+49 : Autres
+50 : Spécial
+51 : Forêt
+52 : Ville
+53 : Désert
+54 : Savane
+55 : Rochers
+56 : Volcan
+57 : Neige
+58 : Grotte
+59 : Plage
+60 : Mer
+61 : Rivière
+62 : Ciel
+63 : Centre Pokémon
+64 : Métal
+65 : Vichy
+66 : Uni
+67 : Spécial 1
+68 : Spécial 2
+69 : Spécial 3
+70 : Spécial 4
+71 : Spécial 5
+72 : Spécial 6
+73 : Spécial 7
+74 : Spécial 8
+75 : Suivant
+76 : Précédent
+77 : Retour
+78 : OK
+79 : Ranger
+80 : Donner
+81 : Relâcher
+82 : Quitter
+83 : Oui
+84 : Non
+85 : Rester sur cet écran ?
+86 : [VAR PKNICK(0000)] sélectionné.
+87 : [~ 87]
+88 : Il vous faut au moins un Pokémon en forme !
+89 : Déposer où ?
+90 : La Boîte est pleine.
+91 : Votre équipe est au complet !
+92 : Boîte sélectionnée.
+93 : Aller à quelle Boîte ?
+94 : Choisissez un thème.
+95 : Choisissez un fond.
+96 : Prendre [VAR 1400(0000)][VAR ITEM2(0000)] ?
+97 : Vous avez trop d’exemplaires de cet objet !
+98 : [VAR ITEM2(0000)] remis[VAR 1102(0000,0100,0200)]ees dans le Sac.
+99 : Un Œuf ne peut pas tenir un objet.
+100 : Veuillez effectuer le marquage.
+101 : Relâcher ce Pokémon ?
+102 : [VAR PKNICK(0000)] a été relâché.
+103 : Bye-bye, [VAR PKNICK(0000)] !
+104 : Sélection : [VAR ITEM2(0000)]
+105 : Le Pokémon peut tenir un objet.
+106 : Un Œuf ne peut pas être relâché !
+107 : La Boîte Combat est verrouillée. Impossible de relâcher les Pokémon.
+108 : Kyurem fusiorbé ne peut pas être relâché !
+109 : [VAR PKNICK(0000)] est revenu !
+110 : Il se faisait peut-être du souci…
+111 : Impossible à changer dans la Boîte Combat.
+112 : [VAR PKNICK(0000)] sélectionné.
+113 : Échanger
+114 : Déposer
+115 : Quitter
+116 : Ce Pokémon a appris une capacité précieuse et doit rester dans votre équipe.
+117 : Vous avez besoin de ce Pokémon pour progresser dans l’aventure !
+118 : Ce Pokémon ne peut pas être échangé.
+119 : Procéder à l’échange ?
+120 : Oui
+121 : Non
+122 : L’échange d’Œufs est impossible.
+123 : [VAR NUM2(0000)]
+124 : Impossible de placer un Œuf.
+125 : La Boîte Combat est verrouillée. Impossible de déplacer les Pokémon.
+126 : La Boîte Combat est verrouillée. Impossible de changer les objets tenus.
+127 : Enregistrement des Pokémon pour les combats.
+128 : La Boîte Combat est verrouillée. Impossible de marquer les Pokémon.
+129 : Réinitial.
+130 : Chercher
+131 : Quitter
+132 : Pokémon
+133 : [VAR PKNAME(0000)]
+134 : Type 1
+135 : [VAR TYPE(0000)]
+136 : Type 2
+137 : [VAR TYPE(0000)]
+138 : Capacité
+139 : [VAR MOVE(0000)]
+140 : CT & CS
+141 : [VAR MOVE(0000)]
+142 : Talent
+143 : [VAR ABILITY(0000)]
+144 : Nature
+145 : [VAR ITEM1(0000)]
+146 : Sexe
+147 : ♂
+148 : ♀
+149 : ?
+150 : 
+151 : Objet
+152 : [VAR ITEM2(0000)]
+153 : Marque
+154 : Oui
+155 : Non
+156 : Définissez vos critères et appuyez sur Chercher pour activer la recherche.
+157 : Chercher un Pokémon
+158 : Saisissez la première lettre du nom du Pokémon recherché.
+159 : Veuillez choisir un Pokémon.
+160 : Choisissez le premier type du Pokémon recherché.
+161 : Choisissez le second type du Pokémon recherché.
+162 : Choisissez la première lettre du nom d’une capacité apprise par le Pokémon recherché.
+163 : Sélectionnez une CS ou une CT utilisable par le Pokémon recherché.
+164 : Choisissez la nature du Pokémon recherché.
+165 : Saisissez la première lettre du nom du talent possédé par le Pokémon recherché.
+166 : Choisissez le sexe du Pokémon recherché.
+167 : Choisissez si le Pokémon recherché tient un objet ou non.
+168 : Sélectionnez le marquage du Pokémon recherché.
+169 : [VAR PKNAME(0000)]
+170 : [VAR TYPE(0001)]
+171 : [VAR TYPE(0002)]
+172 : [~ 172]
+173 : [VAR MOVE(0000)]
+174 : [VAR ITEM1(0000)]
+175 : [VAR ABILITY(0000)]
+176 : Progresse de façon équilibrée.
+177 : Progresse rapidement en Attaque, lentement en Défense.
+178 : Progresse rapidement en Attaque, lentement en Vitesse.
+179 : Progresse rapidement en Attaque, lentement en Attaque Spéciale.
+180 : Progresse rapidement en Attaque, lentement en Défense Spéciale.
+181 : Progresse rapidement en Défense, lentement en Attaque.
+182 : Progresse de façon équilibrée.
+183 : Progresse rapidement en Défense, lentement en Vitesse.
+184 : Progresse rapidement en Défense, lentement en Attaque Spéciale.
+185 : Progresse rapidement en Défense, lentement en Défense Spéciale.
+186 : Progresse rapidement en Vitesse, lentement en Attaque.
+187 : Progresse rapidement en Vitesse, lentement en Défense.
+188 : Progresse de façon équilibrée.
+189 : Progresse rapidement en Vitesse, lentement en Attaque Spéciale.
+190 : Progresse rapidement en Vitesse, lentement en Défense Spéciale.
+191 : Progresse rapidement en Attaque Spéciale, lentement en Attaque.
+192 : Progresse rapidement en Attaque Spéciale, lentement en Défense.
+193 : Progresse rapidement en Attaque Spéciale, lentement en Vitesse.
+194 : Progresse de façon équilibrée.
+195 : Progresse rapidement en Attaque Spéciale, lentement en Défense Spéciale.
+196 : Progresse rapidement en Défense Spéciale, lentement en Attaque.
+197 : Progresse rapidement en Défense Spéciale, lentement en Défense.
+198 : Progresse rapidement en Défense Spéciale, lentement en Vitesse.
+199 : Progresse rapidement en Défense Spéciale, lentement en Attaque Spéciale.
+200 : Progresse de façon équilibrée.
+201 : C’est un Pokémon très spécial. Vous ne pouvez pas l’échanger !
+202 : Choisissez une capacité.
+203 : Choisissez un talent.
+204 : Ce Pokémon tient un objet très spécial. Vous ne pouvez pas l’échanger !
+205 : D.O.
+206 : [VAR TRNAME(0000)]

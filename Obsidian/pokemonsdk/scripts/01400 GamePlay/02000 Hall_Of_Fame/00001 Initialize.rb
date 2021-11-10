@@ -25,7 +25,7 @@ module GamePlay
     end
 
     # Get the cry's filename of the Pokemon at index equal to @anim_count
-    # @return str [String] the filename of the cry
+    # @return [String] the filename of the cry
     def pkm_cry_filename
       str = $actors[@anim_count].cry.sub('Audio/SE/', '')
       return str

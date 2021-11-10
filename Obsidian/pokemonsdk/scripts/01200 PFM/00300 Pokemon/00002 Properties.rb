@@ -132,9 +132,6 @@ module PFM
     # ID of the Pokemon ability in the database
     # @return [Integer]
     attr_writer :ability
-    # ID of the ability the Pokemon has in battle
-    # @return [Integer]
-    attr_accessor :ability_current
     # Index of the ability in the Pokemon data
     # @return [Integer, nil]
     attr_accessor :ability_index
@@ -154,19 +151,13 @@ module PFM
     attr_accessor :battle_stage
     # The Pokemon critical modifier (always 0 but usable for scenaristic reasons...)
     # @return [Integer]
-    attr_accessor :critical_modifier
-    # Last skill ID used in battle
-    # @return [Integer]
-    attr_accessor :last_skill
-    # Number of times the last skill was used
-    # @return [Integer]
-    attr_accessor :skill_use_times
+    attr_writer :critical_modifier
+    def critical_modifier
+      @critical_modifier || 0
+    end
     # The position in the Battle, > 0 = actor, < 0 = enemy (index = -position-1), nil = not fighting
     # @return [Integer, nil]
     attr_accessor :position
-    # The effect data information...
-    # @return [Pokemon_Effect, nil]
-    attr_accessor :battle_effect
     # If the pokemon is confused
     # @return [Boolean]
     attr_accessor :confuse
@@ -211,7 +202,7 @@ module PFM
     # @return [Integer]
     def max_level
       infinity = Float::INFINITY
-      return [@max_level || infinity, $pokemon_party.level_max_limit || infinity, PSDK_CONFIG.pokemon_max_level].min
+      return [@max_level || infinity, $pokemon_party.level_max_limit || infinity, PSDK_CONFIG.pokemon_max_level].min.clamp(1, Float::INFINITY)
     end
 
     # Set the maximum level of the Pokemon
@@ -410,7 +401,7 @@ module PFM
     # Return the current ability of the Pokemon
     # @return [Integer]
     def ability
-      return @ability_current
+      return @ability
     end
 
     # Return the db_symbol of the Pokemon's Ability

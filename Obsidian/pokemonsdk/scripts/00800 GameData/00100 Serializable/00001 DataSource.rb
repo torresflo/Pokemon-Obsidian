@@ -39,7 +39,7 @@ module GameData
     # Load the items
     def load
       # @type [Array<GameData::Base>]
-      @data = load_data(data_filename).freeze
+      @data = load_data(data_filename)
       @data.each_with_index { |item, index| item&.id = index }
       const_set(:LAST_ID, @last_index = @data.size - 1)
       # @type [Hash{Symbol => Integer}]

@@ -54,12 +54,12 @@ module UI
         add_line(0, :name, 2, type: SymText, color: 1, dx: 1)
         @id = no_egg add_line(1, :id_text, 2, type: SymText, color: 1)
         @level_value = no_egg(add_line(1, :level_text, 2, type: SymText, color: 1, dx: 1))
-        no_egg add_line(3, :trainer_name, 2, type: SymText, color: 1)
         no_egg add_line(3, :trainer_id_text, 2, type: SymText, color: 1, dx: 1)
         no_egg add_line(4, :exp_text, 2, type: SymText, color: 1, dx: 1)
         no_egg add_line(5, :exp_remaining_text, 2, type: SymText, color: 1, dx: 1)
         no_egg add_line(6, :item_name, 2, type: SymText, color: 1, dx: 1)
       end
+      no_egg add_text(114, 19 + 16 * 3, 92, 16, :trainer_name, 2, type: SymText, color: 1)
       no_egg push(241, 19 + 34, nil, type: Type1Sprite)
       no_egg push(275, 19 + 34, nil, type: Type2Sprite)
     end

@@ -1,0 +1,70 @@
+0 : Je travaille à la Pension Pokémon. Ici, nous nous occupons des précieux Pokémon de nos amis Dresseurs. Si tu veux nous confier un ou plusieurs Pokémon, adresse-toi à la patronne.
+1 : Ah, c’est toi ! Quel plaisir de te voir. [VAR PKNAME(0000)] va très bien.
+2 : Ah, c’est toi ! [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sont en pleine forme ! Ils ont l’air de très bien s’entendre.
+3 : Ah, c’est toi ! [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sont en pleine forme ! Ils ont l’air de s’entendre.
+4 : Ah, c’est toi ! [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sont en pleine forme ! Mais ils ont l’air de ne pas trop s’apprécier.
+5 : Ah, c’est toi ! [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sont en pleine forme ! Mais ils ont tendance à jouer avec d’autres Pokémon plutôt qu’entre eux.
+6 : Ah, c’est toi ! On a eu une surprise en élevant tes Pokémon ! Tout d’un coup, voilà que l’un d’entre eux s’est ramené avec un Œuf ! On ne sait pas où il l’a trouvé, mais c’est le sien. Tu comptes l’emporter, n’est-ce pas ?
+7 : L’Hôte de la Pension Pokémon donne l’Œuf à [VAR TRNAME(0000)].
+8 : Prends-en bien soin !
+9 : Tu n’as pas de place, on dirait… Reviens plus tard.
+10 : Je veux bien le garder pour moi, mais en fait… tu veux cet Œuf, avoue !
+11 : Puisque tu insistes, je le garde, alors. Merci !
+12 : Je suis l’Hôtesse de la Pension. Mon travail, c’est d’élever les Pokémon que nous confient leurs Dresseurs. Veux-tu me confier un Pokémon ?
+13 : Je suis l’Hôtesse de la Pension. Mon travail, c’est d’élever les Pokémon que nous confient leurs Dresseurs. Que puis-je faire pour toi aujourd’hui ?
+14 : Reviens quand tu veux !
+15 : Oh, c’est toi ! Va voir mon mari à l’entrée, il te cherchait !
+16 : Si tu me confies ce Pokémon, comment feras-tu pour te défendre ?
+17 : Quel Pokémon voudrais-tu me confier ?
+18 : Mais enfin, ce n’est qu’un Œuf !
+19 : Viens avec moi, [VAR PKNAME(0000)]. Je vais m’occuper de toi pendant quelque temps.
+20 : Reviens nous voir dans quelque temps !
+21 : Nous pouvons élever deux Pokémon pour toi. Veux-tu nous en confier un autre ?
+22 : Tous tes Pokémon sont en pleine forme. Veux-tu en récupérer un ?
+23 : Ton [VAR PKNAME(0000)] a gagné [VAR NUM2(0001)] niveau[VAR NUMBRNCH(0001,0100)]x.
+24 : Le montant de la pension de [VAR PKNAME(0000)] s’élève à [VAR NUM5(0001,E07F)] $.
+25 : Je suis désolée, mais tu n’as pas assez d’argent.
+26 : L’Hôtesse de la Pension Pokémon a rendu [VAR PKNAME(0000)] à [VAR TRNAME(0001)].
+27 : Veux-tu récupérer l’autre Pokémon que tu nous as confié ?
+28 : Oh… Mais si tu nous confies un Pokémon, il ne t’en restera plus qu’un en forme ! Reviens nous voir quand tu en auras attrapé d’autres.
+29 : Tu n’as pas de place, on dirait… Reviens nous voir plus tard.
+30 : Confier un Pokémon
+31 : Récupérer un Pokémon
+32 : Annuler
+33 : Niveau [VAR NUM3(0001)]
+34 : [VAR PKNAME(0000)] ♂ Niveau [VAR NUM3(0001)]
+35 : [VAR PKNAME(0000)] ♀ Niveau [VAR NUM3(0001)]
+36 : [VAR PKNAME(0000)] Niveau [VAR NUM3(0001)]
+37 : Hein ?!
+38 : Un [VAR PKNAME(0000)] vient de sortir de l’Œuf !
+39 : Voulez-vous donner un surnom au [VAR PKNAME(0000)] nouveau-né ?
+40 : Bienvenue à notre Pension, où nous nous occupons des précieux Pokémon de nos amis Dresseurs. Si tu veux nous confier un ou plusieurs Pokémon, adresse-toi à ma grande sœur à l’intérieur !
+41 : Salut ! [VAR PKNICK(0000)] va très bien.
+42 : Salut ! [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sont en pleine forme ! Ils ont l’air de très bien s’entendre.
+43 : Salut ! [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sont en pleine forme ! Ils ont l’air de s’entendre.
+44 : Salut ! [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sont en pleine forme ! Mais ils ont l’air de ne pas trop s’apprécier.
+45 : Salut ! [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sont en pleine forme ! Mais ils ont tendance à jouer avec d’autres Pokémon plutôt qu’entre eux.
+46 : Ah, tu tombes bien ! Figure-toi qu’un de tes Pokémon s’est ramené tout à coup avec un Œuf ! On ne sait pas où il l’a trouvé, mais c’est le sien. Tu comptes l’emporter, n’est-ce pas ?
+47 : L’Hôte de la Pension donne l’Œuf à [VAR TRNAME(0000)].
+48 : Prends-en bien soin !
+49 : Tu n’as pas de place, on dirait… Tu devrais laisser un de tes Pokémon dans une Boîte PC.
+50 : Je veux bien le garder pour moi, mais… En fait, tu veux cet Œuf, avoue !
+51 : Puisque tu insistes, je le garde, alors. Merci !
+52 : Je suis l’Hôtesse de la Pension. Mon travail, c’est d’élever les Pokémon que nous confient leurs Dresseurs. Veux-tu me confier un Pokémon ?
+53 : Je suis l’Hôtesse de la Pension. Mon travail, c’est d’élever les Pokémon que nous confient leurs Dresseurs. Que puis-je faire pour toi aujourd’hui ?
+54 : Reviens quand tu veux !
+55 : Oh, c’est toi ! Va voir mon petit frère à l’entrée, il te cherchait !
+56 : Si tu me confies ce Pokémon, comment feras-tu pour te battre ?
+57 : Quel Pokémon voudrais-tu me confier ?
+58 : Mais enfin, ce n’est qu’un Œuf !
+59 : Viens avec moi, [VAR PKNAME(0000)]. Je vais m’occuper de toi pendant quelque temps.
+60 : Reviens nous voir dans quelque temps !
+61 : Nous pouvons élever deux Pokémon pour toi. Veux-tu nous en confier un autre ?
+62 : Tous tes Pokémon sont en pleine forme. Veux-tu en récupérer un ?
+63 : Ton [VAR PKNAME(0000)] a gagné [VAR NUM2(0001)] niveau[VAR NUMBRNCH(0001,0100)]x.
+64 : Le montant de la pension de [VAR PKNAME(0000)] s’élève à [VAR NUM5(0001,E07F)] $.
+65 : Je suis désolée, mais tu n’as pas assez d’argent.
+66 : L’Hôtesse de la Pension Pokémon a rendu [VAR PKNAME(0000)] à [VAR TRNAME(0001)].
+67 : Veux-tu récupérer l’autre Pokémon que tu nous as confié ?
+68 : Oh… Mais si tu nous confies un Pokémon, il ne t’en restera plus qu’un en forme ! Reviens nous voir quand tu en auras attrapé d’autres.
+69 : Tu n’as pas de place, on dirait… Tu devrais laisser un de tes Pokémon dans une Boîte PC. Reviens nous voir plus tard.

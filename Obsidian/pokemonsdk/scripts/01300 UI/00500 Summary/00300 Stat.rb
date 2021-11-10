@@ -60,16 +60,16 @@ module UI
         add_line(1, texts[15]) # HP
         @stat_name_texts << add_line(2, texts[18]) # Attack
         @stat_name_texts << add_line(3, texts[20]) # Defense
-        @stat_name_texts << add_line(4, texts[26]) # Speed
-        @stat_name_texts << add_line(5, texts[22]) # Attack Spe
-        @stat_name_texts << add_line(6, texts[24]) # Defense Spe
+        @stat_name_texts << add_line(4, texts[22]) # Attack Spe
+        @stat_name_texts << add_line(5, texts[24]) # Defense Spe
+        @stat_name_texts << add_line(6, texts[26]) # Speed
         # --- Data part ---
         add_line(1, :hp_text, 2, type: SymText, color: 1)
         add_line(2, :atk_basis, 2, type: SymText, color: 1)
         add_line(3, :dfe_basis, 2, type: SymText, color: 1)
-        add_line(4, :spd_basis, 2, type: SymText, color: 1)
-        add_line(5, :ats_basis, 2, type: SymText, color: 1)
-        add_line(6, :dfs_basis, 2, type: SymText, color: 1)
+        add_line(4, :ats_basis, 2, type: SymText, color: 1)
+        add_line(5, :dfs_basis, 2, type: SymText, color: 1)
+        add_line(6, :spd_basis, 2, type: SymText, color: 1)
       end
       init_ev_iv
     end
@@ -92,9 +92,9 @@ module UI
           add_line(1, :ev_hp_text, type: SymText)
           add_line(2, :ev_atk_text, type: SymText)
           add_line(3, :ev_dfe_text, type: SymText)
-          add_line(4, :ev_spd_text, type: SymText)
-          add_line(5, :ev_ats_text, type: SymText)
-          add_line(6, :ev_dfs_text, type: SymText)
+          add_line(4, :ev_ats_text, type: SymText)
+          add_line(5, :ev_dfs_text, type: SymText)
+          add_line(6, :ev_spd_text, type: SymText)
         end
         offset += 44
       end
@@ -104,9 +104,9 @@ module UI
           add_line(1, :iv_hp_text, type: SymText)
           add_line(2, :iv_atk_text, type: SymText)
           add_line(3, :iv_dfe_text, type: SymText)
-          add_line(4, :iv_spd_text, type: SymText)
-          add_line(5, :iv_ats_text, type: SymText)
-          add_line(6, :iv_dfs_text, type: SymText)
+          add_line(4, :iv_ats_text, type: SymText)
+          add_line(5, :iv_dfs_text, type: SymText)
+          add_line(6, :iv_spd_text, type: SymText)
         end
       end
     end

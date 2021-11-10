@@ -7,8 +7,8 @@ end
 GameData::Pokemon.load
 Dir['graphics/pokedex/pokefront/*.png'].each do |fn|
   if match = fn.match(/graphics\/pokedex\/pokefront\/([0-9]{3})_?([0-9]{2})?\.png/)
-    puts (id = match.captures[0].to_i)
-    puts (form = match.captures[1].to_i)
+    id = match.captures[0].to_i
+    form = match.captures[1].to_i
     img = Image.new(fn)
     GameData::Pokemon[id, form].front_offset_y = (96 - find_height(img)) / 2
     img.dispose

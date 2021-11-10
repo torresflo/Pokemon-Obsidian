@@ -91,19 +91,19 @@ module Yuki
     end
 
     # Update the origin x/y
-    # @param wm [Class] should contain TileSize and BitmapOffset constants
+    # @param worldmap [Class<GamePlay::WorldMap>] should contain TileSize and BitmapOffset constants
     def update_origin(worldmap)
-      @ox += 1 if Input.repeat?(:right)
+      @ox += 1 if Input.repeat?(:RIGHT)
       max_ox = (@map_sprite.width - Graphics.width + worldmap::BitmapOffset) / worldmap::TileSize
       max_ox = 1 if max_ox <= 0
       @ox = max_ox - 1 if @ox >= max_ox
-      @ox -= 1 if Input.repeat?(:left)
+      @ox -= 1 if Input.repeat?(:LEFT)
       @ox = 0 if @ox < 0
-      @oy += 1 if Input.repeat?(:down)
+      @oy += 1 if Input.repeat?(:DOWN)
       max_oy = (@map_sprite.height - Graphics.height + worldmap::BitmapOffset) / worldmap::TileSize
       max_oy = 1 if max_oy <= 0
       @oy = max_oy - 1 if @oy >= max_oy
-      @oy -= 1 if Input.repeat?(:up)
+      @oy -= 1 if Input.repeat?(:UP)
       @oy = 0 if @oy < 0
     end
 
@@ -235,7 +235,7 @@ module Yuki
       Object.define_method(:save) { Yuki::WorldMapEditor.save }
       Object.define_method(:clear_map) { Yuki::WorldMapEditor.clear_map }
       Object.define_method(:select_worldmap) { |id| Yuki::WorldMapEditor.select_worldmap(id) }
-      Object.define_method(:add_worldmap) { |name, image| Yuki::WorldMapEditor.add_worldmap(name, image) }
+      Object.define_method(:add_worldmap) { |image, text_id, file_id = nil| Yuki::WorldMapEditor.add_worldmap(image, text_id, file_id) }
       Object.define_method(:delete_worldmap) { |id| Yuki::WorldMapEditor.delete_worldmap(id) }
       Object.define_method(:list_worldmap) { |name = ''| Yuki::WorldMapEditor.list_worldmap(name) }
       Object.define_method(:set_worldmap_image) { |id, value| Yuki::WorldMapEditor.set_worldmap_image(id, value) }

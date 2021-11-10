@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    nuri_game-tmx_reader (0.1.1)
+    nuri_game-tsx_reader (0.1.0)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  nuri_game-tmx_reader
+  nuri_game-tsx_reader
+
+BUNDLED WITH
+   1.16.4

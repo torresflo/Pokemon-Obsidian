@@ -1,0 +1,23 @@
+0 : [VAR TRNAME(0000)] reçoit [VAR 1402(0001)][VAR BD00(0007,0000,0000)][VAR ITEM2(0001)][VAR BD01] !
+1 : [VAR TRNAME(0000)] obtient [VAR 1402(0001)][VAR BD00(0007,0000,0000)][VAR ITEM2(0001)][VAR BD01] !
+2 : [VAR TRNAME(0000)] reçoit [VAR 1402(0001)][VAR BD00(0007,0000,0000)][VAR ITEM2(0001)][VAR BD01] !
+3 : [VAR TRNAME(0000)] reçoit la [VAR ITEM2(0001)] [VAR BD00(0007,0000,0000)][VAR MOVE(0002)][VAR BD01] !
+4 : [VAR TRNAME(0000)] trouve [VAR 1402(0001)][VAR BD00(0007,0000,0000)][VAR ITEM2(0001)][VAR BD01] !
+5 : [VAR TRNAME(0000)] trouve [VAR 1402(0001)][VAR BD00(0007,0000,0000)][VAR ITEM2(0001)][VAR BD01] !
+6 : [VAR TRNAME(0000)] trouve la [VAR ITEM2(0001)] [VAR BD00(0007,0000,0000)][VAR MOVE(0002)][VAR BD01] !
+7 : Quel dommage ! Vous n’avez plus de place pour [VAR 1400(0000)][VAR ITEM2(0000)] !
+8 : Vous avez trouvé [VAR 1402(0000)][VAR ITEM2(0000)], mais il n’y a plus de place dans le Sac !
+9 : [VAR TRNAME(0000)] a mis [VAR 1400(0001)][VAR ITEM2(0001)] dans la [VAR BD00(0007,0000,0000)]Poche [VAR 0112(0002)][VAR BD01].
+10 : [~ 10]
+11 : Oh ! Il y a une note sur l’objet : « J’espère que cet objet te sera utile ! Signé : [VAR TRNAME(0003)] » On dirait que c’est [VAR TRNAME(0003)] qui l’avait caché ici !
+12 : Dommage, vous n’avez plus de place pour cet objet ! [VAR TRNAME(0000)] a abandonné l’objet caché.
+13 : Une silhouette vient de disparaître sous vos yeux ! On dirait que quelque chose est tombé au fond de la poubelle…
+14 : Une poubelle !
+15 : Des Baies commencent à pousser en haut de l’arbuste, mais elles semblent difficiles à atteindre.
+16 : Des Baies poussent en haut de l’arbuste, mais elles ne sont pas encore mûres…
+17 : Des Baies mûres attendent en haut de l’arbuste. On peut se demander si elles vont finir par tomber.
+18 : [VAR TRNAME(0000)] reçoit un [VAR BD00(0007,0000,0000)][VAR RIBBON(0001)][VAR BD01] !
+19 : [VAR TRNAME(0000)] met à [VAR PKNAME(0002)] le [VAR RIBBON(0001)] !
+20 : [VAR TRNAME(0000)] reçoit [VAR 1400(0001)][VAR BD00(0007,0000,0000)][VAR ITEM2(0001)][VAR BD01] !
+21 : [VAR TRNAME(0000)] obtient un objet décoratif : [VAR 1402(0001)][VAR BD00(0007,0000,0000)][VAR 01A6(0001)][VAR BD01] !
+22 : [VAR TRNAME(0000)] envoie [VAR 1400(0001)][VAR 01A6(0001)] dans le [VAR BD00(0007,0000,0000)]PC Secret[VAR BD01] !

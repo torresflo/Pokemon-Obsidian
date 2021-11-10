@@ -1,0 +1,17 @@
+current directory: C:/Ruby30/lib/ruby/gems/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+C:/Ruby30/bin/ruby.exe -I C:/Ruby30/lib/ruby/3.0.0 -r ./siteconf20210309-5972-d47wkm.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: C:/Ruby30/lib/ruby/gems/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: C:/Ruby30/lib/ruby/gems/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+generating cparse-i386-mingw32.def
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: C:/Ruby30/lib/ruby/gems/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20210309-5972-sxfr09/racc

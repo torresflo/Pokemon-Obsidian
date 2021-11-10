@@ -1,0 +1,1253 @@
+0 : [VAR PKNICK(0000)] est K.O. !
+1 : Le [VAR PKNICK(0000)] sauvage est K.O. !
+2 : Le [VAR PKNICK(0000)] ennemi est K.O. !
+3 : [VAR PKNICK(0000)] n’est plus K.O. !
+4 : Le [VAR PKNICK(0000)] sauvage n’est plus K.O. !
+5 : Le [VAR PKNICK(0000)] ennemi n’est plus K.O. !
+6 : C’est super efficace sur [VAR PKNICK(0000)] !
+7 : C’est super efficace sur le [VAR PKNICK(0000)] sauvage !
+8 : C’est super efficace sur le [VAR PKNICK(0000)] ennemi !
+9 : C’est super efficace sur [VAR PKNICK(0000)] et [VAR PKNICK(0001)] !
+10 : C’est super efficace sur les [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sauvages !
+11 : C’est super efficace sur les [VAR PKNICK(0000)] et [VAR PKNICK(0001)] ennemis !
+12 : C’est super efficace sur [VAR PKNICK(0000)], [VAR PKNICK(0001)] et [VAR PKNICK(0002)] !
+13 : C’est super efficace sur les [VAR PKNICK(0000)], [VAR PKNICK(0001)] et [VAR PKNICK(0002)] sauvages !
+14 : C’est super efficace sur les [VAR PKNICK(0000)], [VAR PKNICK(0001)] et [VAR PKNICK(0002)] ennemis !
+15 : Ce n’est pas très efficace sur [VAR PKNICK(0000)]…
+16 : Ce n’est pas très efficace sur le [VAR PKNICK(0000)] sauvage…
+17 : Ce n’est pas très efficace sur le [VAR PKNICK(0000)] ennemi…
+18 : Ce n’est pas très efficace sur [VAR PKNICK(0000)] ni sur [VAR PKNICK(0001)]…
+19 : Ce n’est pas très efficace sur les [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sauvages…
+20 : Ce n’est pas très efficace sur les [VAR PKNICK(0000)] et [VAR PKNICK(0001)] ennemis…
+21 : Ce n’est pas très efficace sur [VAR PKNICK(0000)], ni sur [VAR PKNICK(0001)], ni sur [VAR PKNICK(0002)]…
+22 : Ce n’est pas très efficace sur les [VAR PKNICK(0000)], [VAR PKNICK(0001)] et [VAR PKNICK(0002)] sauvages…
+23 : Ce n’est pas très efficace sur les [VAR PKNICK(0000)], [VAR PKNICK(0001)] et [VAR PKNICK(0002)] ennemis…
+24 : Mais cela échoue sur [VAR PKNICK(0000)] !
+25 : Mais cela échoue sur le [VAR PKNICK(0000)] sauvage !
+26 : Mais cela échoue sur le [VAR PKNICK(0000)] ennemi !
+27 : L’Attaque de [VAR PKNICK(0000)] augmente !
+28 : L’Attaque du [VAR PKNICK(0000)] sauvage augmente !
+29 : L’Attaque du [VAR PKNICK(0000)] ennemi augmente !
+30 : La Défense de [VAR PKNICK(0000)] augmente !
+31 : La Défense du [VAR PKNICK(0000)] sauvage augmente !
+32 : La Défense du [VAR PKNICK(0000)] ennemi augmente !
+33 : L’Attaque Spéciale de [VAR PKNICK(0000)] augmente !
+34 : L’Attaque Spéciale du [VAR PKNICK(0000)] sauvage augmente !
+35 : L’Attaque Spéciale du [VAR PKNICK(0000)] ennemi augmente !
+36 : La Défense Spéciale de [VAR PKNICK(0000)] augmente !
+37 : La Défense Spéciale du [VAR PKNICK(0000)] sauvage augmente !
+38 : La Défense Spéciale du [VAR PKNICK(0000)] ennemi augmente !
+39 : La Vitesse de [VAR PKNICK(0000)] augmente !
+40 : La Vitesse du [VAR PKNICK(0000)] sauvage augmente !
+41 : La Vitesse du [VAR PKNICK(0000)] ennemi augmente !
+42 : La Précision de [VAR PKNICK(0000)] augmente !
+43 : La Précision du [VAR PKNICK(0000)] sauvage augmente !
+44 : La Précision du [VAR PKNICK(0000)] ennemi augmente !
+45 : L’Esquive de [VAR PKNICK(0000)] augmente !
+46 : L’Esquive du [VAR PKNICK(0000)] sauvage augmente !
+47 : L’Esquive du [VAR PKNICK(0000)] ennemi augmente !
+48 : L’Attaque de [VAR PKNICK(0000)] augmente beaucoup !
+49 : L’Attaque du [VAR PKNICK(0000)] sauvage augmente beaucoup !
+50 : L’Attaque du [VAR PKNICK(0000)] ennemi augmente beaucoup !
+51 : La Défense de [VAR PKNICK(0000)] augmente beaucoup !
+52 : La Défense du [VAR PKNICK(0000)] sauvage augmente beaucoup !
+53 : La Défense du [VAR PKNICK(0000)] ennemi augmente beaucoup !
+54 : L’Attaque Spéciale de [VAR PKNICK(0000)] augmente beaucoup !
+55 : L’Attaque Spéciale du [VAR PKNICK(0000)] sauvage augmente beaucoup !
+56 : L’Attaque Spéciale du [VAR PKNICK(0000)] ennemi augmente beaucoup !
+57 : La Défense Spéciale de [VAR PKNICK(0000)] augmente beaucoup !
+58 : La Défense Spéciale du [VAR PKNICK(0000)] sauvage augmente beaucoup !
+59 : La Défense Spéciale du [VAR PKNICK(0000)] ennemi augmente beaucoup !
+60 : La Vitesse de [VAR PKNICK(0000)] augmente beaucoup !
+61 : La Vitesse du [VAR PKNICK(0000)] sauvage augmente beaucoup !
+62 : La Vitesse du [VAR PKNICK(0000)] ennemi augmente beaucoup !
+63 : La Précision de [VAR PKNICK(0000)] augmente beaucoup !
+64 : La Précision du [VAR PKNICK(0000)] sauvage augmente beaucoup !
+65 : La Précision du [VAR PKNICK(0000)] ennemi augmente beaucoup !
+66 : L’Esquive de [VAR PKNICK(0000)] augmente beaucoup !
+67 : L’Esquive du [VAR PKNICK(0000)] sauvage augmente beaucoup !
+68 : L’Esquive du [VAR PKNICK(0000)] ennemi augmente beaucoup !
+69 : L’Attaque de [VAR PKNICK(0000)] augmente énormément !
+70 : L’Attaque du [VAR PKNICK(0000)] sauvage augmente énormément !
+71 : L’Attaque du [VAR PKNICK(0000)] ennemi augmente énormément !
+72 : La Défense de [VAR PKNICK(0000)] augmente énormément !
+73 : La Défense du [VAR PKNICK(0000)] sauvage augmente énormément !
+74 : La Défense du [VAR PKNICK(0000)] ennemi augmente énormément !
+75 : L’Attaque Spéciale de [VAR PKNICK(0000)] augmente énormément !
+76 : L’Attaque Spéciale du [VAR PKNICK(0000)] sauvage augmente énormément !
+77 : L’Attaque Spéciale du [VAR PKNICK(0000)] ennemi augmente énormément !
+78 : La Défense Spéciale de [VAR PKNICK(0000)] augmente énormément !
+79 : La Défense Spéciale du [VAR PKNICK(0000)] sauvage augmente énormément !
+80 : La Défense Spéciale du [VAR PKNICK(0000)] ennemi augmente énormément !
+81 : La Vitesse de [VAR PKNICK(0000)] augmente énormément !
+82 : La Vitesse du [VAR PKNICK(0000)] sauvage augmente énormément !
+83 : La Vitesse du [VAR PKNICK(0000)] ennemi augmente énormément !
+84 : La Précision de [VAR PKNICK(0000)] augmente énormément !
+85 : La Précision du [VAR PKNICK(0000)] sauvage augmente énormément !
+86 : La Précision du [VAR PKNICK(0000)] ennemi augmente énormément !
+87 : L’Esquive de [VAR PKNICK(0000)] augmente énormément !
+88 : L’Esquive du [VAR PKNICK(0000)] sauvage augmente énormément !
+89 : L’Esquive du [VAR PKNICK(0000)] ennemi augmente énormément !
+90 : L’Attaque de [VAR PKNICK(0000)] baisse !
+91 : L’Attaque du [VAR PKNICK(0000)] sauvage baisse !
+92 : L’Attaque du [VAR PKNICK(0000)] ennemi baisse !
+93 : La Défense de [VAR PKNICK(0000)] baisse !
+94 : La Défense du [VAR PKNICK(0000)] sauvage baisse !
+95 : La Défense du [VAR PKNICK(0000)] ennemi baisse !
+96 : L’Attaque Spéciale de [VAR PKNICK(0000)] baisse !
+97 : L’Attaque Spéciale du [VAR PKNICK(0000)] sauvage baisse !
+98 : L’Attaque Spéciale du [VAR PKNICK(0000)] ennemi baisse !
+99 : La Défense Spéciale de [VAR PKNICK(0000)] baisse !
+100 : La Défense Spéciale du [VAR PKNICK(0000)] sauvage baisse !
+101 : La Défense Spéciale du [VAR PKNICK(0000)] ennemi baisse !
+102 : La Vitesse de [VAR PKNICK(0000)] baisse !
+103 : La Vitesse du [VAR PKNICK(0000)] sauvage baisse !
+104 : La Vitesse du [VAR PKNICK(0000)] ennemi baisse !
+105 : La Précision de [VAR PKNICK(0000)] baisse !
+106 : La Précision du [VAR PKNICK(0000)] sauvage baisse !
+107 : La Précision du [VAR PKNICK(0000)] ennemi baisse !
+108 : L’Esquive de [VAR PKNICK(0000)] baisse !
+109 : L’Esquive du [VAR PKNICK(0000)] sauvage baisse !
+110 : L’Esquive du [VAR PKNICK(0000)] ennemi baisse !
+111 : L’Attaque de [VAR PKNICK(0000)] baisse beaucoup !
+112 : L’Attaque du [VAR PKNICK(0000)] sauvage baisse beaucoup !
+113 : L’Attaque du [VAR PKNICK(0000)] ennemi baisse beaucoup !
+114 : La Défense de [VAR PKNICK(0000)] baisse beaucoup !
+115 : La Défense du [VAR PKNICK(0000)] sauvage baisse beaucoup !
+116 : La Défense du [VAR PKNICK(0000)] ennemi baisse beaucoup !
+117 : L’Attaque Spéciale de [VAR PKNICK(0000)] baisse beaucoup !
+118 : L’Attaque Spéciale du [VAR PKNICK(0000)] sauvage baisse beaucoup !
+119 : L’Attaque Spéciale du [VAR PKNICK(0000)] ennemi baisse beaucoup !
+120 : La Défense Spéciale de [VAR PKNICK(0000)] baisse beaucoup !
+121 : La Défense Spéciale du [VAR PKNICK(0000)] sauvage baisse beaucoup !
+122 : La Défense Spéciale du [VAR PKNICK(0000)] ennemi baisse beaucoup !
+123 : La Vitesse de [VAR PKNICK(0000)] baisse beaucoup !
+124 : La Vitesse du [VAR PKNICK(0000)] sauvage baisse beaucoup !
+125 : La Vitesse du [VAR PKNICK(0000)] ennemi baisse beaucoup !
+126 : La Précision de [VAR PKNICK(0000)] baisse beaucoup !
+127 : La Précision du [VAR PKNICK(0000)] sauvage baisse beaucoup !
+128 : La Précision du [VAR PKNICK(0000)] ennemi baisse beaucoup !
+129 : L’Esquive de [VAR PKNICK(0000)] baisse beaucoup !
+130 : L’Esquive du [VAR PKNICK(0000)] sauvage baisse beaucoup !
+131 : L’Esquive du [VAR PKNICK(0000)] ennemi baisse beaucoup !
+132 : L’Attaque de [VAR PKNICK(0000)] baisse énormément !
+133 : L’Attaque du [VAR PKNICK(0000)] sauvage baisse énormément !
+134 : L’Attaque du [VAR PKNICK(0000)] ennemi baisse énormément !
+135 : La Défense de [VAR PKNICK(0000)] baisse énormément !
+136 : La Défense du [VAR PKNICK(0000)] sauvage baisse énormément !
+137 : La Défense du [VAR PKNICK(0000)] ennemi baisse énormément !
+138 : L’Attaque Spéciale de [VAR PKNICK(0000)] baisse énormément !
+139 : L’Attaque Spéciale du [VAR PKNICK(0000)] sauvage baisse énormément !
+140 : L’Attaque Spéciale du [VAR PKNICK(0000)] ennemi baisse énormément !
+141 : La Défense Spéciale de [VAR PKNICK(0000)] baisse énormément !
+142 : La Défense Spéciale du [VAR PKNICK(0000)] sauvage baisse énormément !
+143 : La Défense Spéciale du [VAR PKNICK(0000)] ennemi baisse énormément !
+144 : La Vitesse de [VAR PKNICK(0000)] baisse énormément !
+145 : La Vitesse du [VAR PKNICK(0000)] sauvage baisse énormément !
+146 : La Vitesse du [VAR PKNICK(0000)] ennemi baisse énormément !
+147 : La Précision de [VAR PKNICK(0000)] baisse énormément !
+148 : La Précision du [VAR PKNICK(0000)] sauvage baisse énormément !
+149 : La Précision du [VAR PKNICK(0000)] ennemi baisse énormément !
+150 : L’Esquive de [VAR PKNICK(0000)] baisse énormément !
+151 : L’Esquive du [VAR PKNICK(0000)] sauvage baisse énormément !
+152 : L’Esquive du [VAR PKNICK(0000)] ennemi baisse énormément !
+153 : L’Attaque de [VAR PKNICK(0000)] ne peut plus augmenter !
+154 : L’Attaque du [VAR PKNICK(0000)] sauvage ne peut plus augmenter !
+155 : L’Attaque du [VAR PKNICK(0000)] ennemi ne peut plus augmenter !
+156 : La Défense de [VAR PKNICK(0000)] ne peut plus augmenter !
+157 : La Défense du [VAR PKNICK(0000)] sauvage ne peut plus augmenter !
+158 : La Défense du [VAR PKNICK(0000)] ennemi ne peut plus augmenter !
+159 : L’Attaque Spéciale de [VAR PKNICK(0000)] ne peut plus augmenter !
+160 : L’Attaque Spéciale du [VAR PKNICK(0000)] sauvage ne peut plus augmenter !
+161 : L’Attaque Spéciale du [VAR PKNICK(0000)] ennemi ne peut plus augmenter !
+162 : La Défense Spéciale de [VAR PKNICK(0000)] ne peut plus augmenter !
+163 : La Défense Spéciale du [VAR PKNICK(0000)] sauvage ne peut plus augmenter !
+164 : La Défense Spéciale du [VAR PKNICK(0000)] ennemi ne peut plus augmenter !
+165 : La Vitesse de [VAR PKNICK(0000)] ne peut plus augmenter !
+166 : La Vitesse du [VAR PKNICK(0000)] sauvage ne peut plus augmenter !
+167 : La Vitesse du [VAR PKNICK(0000)] ennemi ne peut plus augmenter !
+168 : La Précision de [VAR PKNICK(0000)] ne peut plus augmenter !
+169 : La Précision du [VAR PKNICK(0000)] sauvage ne peut plus augmenter !
+170 : La Précision du [VAR PKNICK(0000)] ennemi ne peut plus augmenter !
+171 : L’Esquive de [VAR PKNICK(0000)] ne peut plus augmenter !
+172 : L’Esquive du [VAR PKNICK(0000)] sauvage ne peut plus augmenter !
+173 : L’Esquive du [VAR PKNICK(0000)] ennemi ne peut plus augmenter !
+174 : L’Attaque de [VAR PKNICK(0000)] ne peut plus baisser !
+175 : L’Attaque du [VAR PKNICK(0000)] sauvage ne peut plus baisser !
+176 : L’Attaque du [VAR PKNICK(0000)] ennemi ne peut plus baisser !
+177 : La Défense de [VAR PKNICK(0000)] ne peut plus baisser !
+178 : La Défense du [VAR PKNICK(0000)] sauvage ne peut plus baisser !
+179 : La Défense du [VAR PKNICK(0000)] ennemi ne peut plus baisser !
+180 : L’Attaque Spéciale de [VAR PKNICK(0000)] ne peut plus baisser !
+181 : L’Attaque Spéciale du [VAR PKNICK(0000)] sauvage ne peut plus baisser !
+182 : L’Attaque Spéciale du [VAR PKNICK(0000)] ennemi ne peut plus baisser !
+183 : La Défense Spéciale de [VAR PKNICK(0000)] ne peut plus baisser !
+184 : La Défense Spéciale du [VAR PKNICK(0000)] sauvage ne peut plus baisser !
+185 : La Défense Spéciale du [VAR PKNICK(0000)] ennemi ne peut plus baisser !
+186 : La Vitesse de [VAR PKNICK(0000)] ne peut plus baisser !
+187 : La Vitesse du [VAR PKNICK(0000)] sauvage ne peut plus baisser !
+188 : La Vitesse du [VAR PKNICK(0000)] ennemi ne peut plus baisser !
+189 : La Précision de [VAR PKNICK(0000)] ne peut plus baisser !
+190 : La Précision du [VAR PKNICK(0000)] sauvage ne peut plus baisser !
+191 : La Précision du [VAR PKNICK(0000)] ennemi ne peut plus baisser !
+192 : L’Esquive de [VAR PKNICK(0000)] ne peut plus baisser !
+193 : L’Esquive du [VAR PKNICK(0000)] sauvage ne peut plus baisser !
+194 : L’Esquive du [VAR PKNICK(0000)] ennemi ne peut plus baisser !
+195 : Les stats de [VAR PKNICK(0000)] sont revenues à la normale !
+196 : Les stats du [VAR PKNICK(0000)] sauvage sont revenues à la normale !
+197 : Les stats du [VAR PKNICK(0000)] ennemi sont revenues à la normale !
+198 : Les stats de [VAR PKNICK(0000)] ne baissent pas !
+199 : Les stats du [VAR PKNICK(0000)] sauvage ne baissent pas !
+200 : Les stats du [VAR PKNICK(0000)] ennemi ne baissent pas !
+201 : L’Attaque de [VAR PKNICK(0000)] ne baisse pas !
+202 : L’Attaque du [VAR PKNICK(0000)] sauvage ne baisse pas !
+203 : L’Attaque du [VAR PKNICK(0000)] ennemi ne baisse pas !
+204 : La Défense de [VAR PKNICK(0000)] ne baisse pas !
+205 : La Défense du [VAR PKNICK(0000)] sauvage ne baisse pas !
+206 : La Défense du [VAR PKNICK(0000)] ennemi ne baisse pas !
+207 : La Précision de [VAR PKNICK(0000)] ne baisse pas !
+208 : La Précision du [VAR PKNICK(0000)] sauvage ne baisse pas !
+209 : La Précision du [VAR PKNICK(0000)] ennemi ne baisse pas !
+210 : Ça n’affecte pas [VAR PKNICK(0000)]…
+211 : Ça n’affecte pas le [VAR PKNICK(0000)] sauvage…
+212 : Ça n’affecte pas le [VAR PKNICK(0000)] ennemi…
+213 : [VAR PKNICK(0000)] évite l’attaque !
+214 : Le [VAR PKNICK(0000)] sauvage évite l’attaque !
+215 : Le [VAR PKNICK(0000)] ennemi évite l’attaque !
+216 : [VAR PKNICK(0000)] n’est pas affecté !
+217 : Le [VAR PKNICK(0000)] sauvage n’est pas affecté !
+218 : Le [VAR PKNICK(0000)] ennemi n’est pas affecté !
+219 : [VAR 1401(0001)][VAR ITEM2(0001)] rédui[VAR NUMBRNCH(0001,0300)]sent les dégâts infligés à [VAR PKNICK(0000)] !
+220 : [VAR 1403(0001)][VAR ITEM2(0001)] rédui[VAR NUMBRNCH(0001,0300)]sent les dégâts infligés au [VAR PKNICK(0000)] sauvage !
+221 : [VAR 1403(0001)][VAR ITEM2(0001)] rédui[VAR NUMBRNCH(0001,0300)]sent les dégâts infligés au [VAR PKNICK(0000)] ennemi !
+222 : [VAR PKNICK(0000)] se transforme !
+223 : Le [VAR PKNICK(0000)] sauvage se transforme !
+224 : Le [VAR PKNICK(0000)] ennemi se transforme !
+225 : [VAR PKNICK(0000)] a laissé tomber [VAR 1400(0001)][VAR ITEM2(0001)] !
+226 : Le [VAR PKNICK(0000)] sauvage a laissé tomber [VAR 1402(0001)][VAR ITEM2(0001)] !
+227 : Le [VAR PKNICK(0000)] ennemi a laissé tomber [VAR 1402(0001)][VAR ITEM2(0001)] !
+228 : Les changements de stats de [VAR PKNICK(0000)] ont tous été annulés !
+229 : Les changements de stats du [VAR PKNICK(0000)] sauvage ont tous été annulés !
+230 : Les changements de stats du [VAR PKNICK(0000)] ennemi ont tous été annulés !
+231 : [VAR PKNICK(0000)] s’est déplacé au milieu !
+232 : Le [VAR PKNICK(0000)] sauvage s’est déplacé au milieu !
+233 : Le [VAR PKNICK(0000)] ennemi s’est déplacé au milieu !
+234 : [VAR PKNICK(0000)] est empoisonné !
+235 : Le [VAR PKNICK(0000)] sauvage est empoisonné !
+236 : Le [VAR PKNICK(0000)] ennemi est empoisonné !
+237 : [VAR PKNICK(0000)] est gravement empoisonné !
+238 : Le [VAR PKNICK(0000)] sauvage est gravement empoisonné !
+239 : Le [VAR PKNICK(0000)] ennemi est gravement empoisonné !
+240 : [VAR PKNICK(0000)] est gravement empoisonné par [VAR 1400(0001)][VAR ITEM2(0001)] !
+241 : Le [VAR PKNICK(0000)] sauvage est gravement empoisonné par [VAR 1400(0001)][VAR ITEM2(0001)] !
+242 : Le [VAR PKNICK(0000)] ennemi est gravement empoisonné par [VAR 1400(0001)][VAR ITEM2(0001)] !
+243 : [VAR PKNICK(0000)] souffre du poison !
+244 : Le [VAR PKNICK(0000)] sauvage souffre du poison !
+245 : Le [VAR PKNICK(0000)] ennemi souffre du poison !
+246 : [VAR PKNICK(0000)] n’est plus empoisonné !
+247 : Le [VAR PKNICK(0000)] sauvage n’est plus empoisonné !
+248 : Le [VAR PKNICK(0000)] ennemi n’est plus empoisonné !
+249 : [VAR PKNICK(0000)] est déjà empoisonné.
+250 : Le [VAR PKNICK(0000)] sauvage est déjà empoisonné.
+251 : Le [VAR PKNICK(0000)] ennemi est déjà empoisonné.
+252 : [VAR PKNICK(0000)] ne peut pas être empoisonné !
+253 : Le [VAR PKNICK(0000)] sauvage ne peut pas être empoisonné !
+254 : Le [VAR PKNICK(0000)] ennemi ne peut pas être empoisonné !
+255 : [VAR PKNICK(0000)] est brûlé !
+256 : Le [VAR PKNICK(0000)] sauvage est brûlé !
+257 : Le [VAR PKNICK(0000)] ennemi est brûlé !
+258 : [VAR PKNICK(0000)] est brûlé par [VAR 1400(0001)][VAR ITEM2(0001)] !
+259 : Le [VAR PKNICK(0000)] sauvage est brûlé par [VAR 1400(0001)][VAR ITEM2(0001)] !
+260 : Le [VAR PKNICK(0000)] ennemi est brûlé par [VAR 1400(0001)][VAR ITEM2(0001)] !
+261 : [VAR PKNICK(0000)] souffre de sa brûlure !
+262 : Le [VAR PKNICK(0000)] sauvage souffre de sa brûlure !
+263 : Le [VAR PKNICK(0000)] ennemi souffre de sa brûlure !
+264 : [VAR PKNICK(0000)] n’est plus brûlé !
+265 : Le [VAR PKNICK(0000)] sauvage n’est plus brûlé !
+266 : Le [VAR PKNICK(0000)] ennemi n’est plus brûlé !
+267 : [VAR PKNICK(0000)] est déjà brûlé.
+268 : Le [VAR PKNICK(0000)] sauvage est déjà brûlé.
+269 : Le [VAR PKNICK(0000)] ennemi est déjà brûlé.
+270 : [VAR PKNICK(0000)] ne peut pas être brûlé !
+271 : Le [VAR PKNICK(0000)] sauvage ne peut pas être brûlé !
+272 : Le [VAR PKNICK(0000)] ennemi ne peut pas être brûlé !
+273 : [VAR PKNICK(0000)] est paralysé ! Il aura du mal à attaquer !
+274 : Le [VAR PKNICK(0000)] sauvage est paralysé ! Il aura du mal à attaquer !
+275 : Le [VAR PKNICK(0000)] ennemi est paralysé ! Il aura du mal à attaquer !
+276 : [VAR PKNICK(0000)] est paralysé ! Il n’a pas pu attaquer !
+277 : Le [VAR PKNICK(0000)] sauvage est paralysé ! Il n’a pas pu attaquer !
+278 : Le [VAR PKNICK(0000)] ennemi est paralysé ! Il n’a pas pu attaquer !
+279 : [VAR PKNICK(0000)] n’est plus paralysé !
+280 : Le [VAR PKNICK(0000)] sauvage n’est plus paralysé !
+281 : Le [VAR PKNICK(0000)] ennemi n’est plus paralysé !
+282 : [VAR PKNICK(0000)] est déjà paralysé.
+283 : Le [VAR PKNICK(0000)] sauvage est déjà paralysé.
+284 : Le [VAR PKNICK(0000)] ennemi est déjà paralysé.
+285 : [VAR PKNICK(0000)] ne peut pas être paralysé !
+286 : Le [VAR PKNICK(0000)] sauvage ne peut pas être paralysé !
+287 : Le [VAR PKNICK(0000)] ennemi ne peut pas être paralysé !
+288 : [VAR PKNICK(0000)] est gelé !
+289 : Le [VAR PKNICK(0000)] sauvage est gelé !
+290 : Le [VAR PKNICK(0000)] ennemi est gelé !
+291 : [VAR PKNICK(0000)] est gelé ! Il ne peut plus attaquer !
+292 : Le [VAR PKNICK(0000)] sauvage est gelé ! Il ne peut plus attaquer !
+293 : Le [VAR PKNICK(0000)] ennemi est gelé ! Il ne peut plus attaquer !
+294 : [VAR PKNICK(0000)] n’est plus gelé !
+295 : Le [VAR PKNICK(0000)] sauvage n’est plus gelé !
+296 : Le [VAR PKNICK(0000)] ennemi n’est plus gelé !
+297 : [VAR PKNICK(0000)] est déjà gelé.
+298 : Le [VAR PKNICK(0000)] sauvage est déjà gelé.
+299 : Le [VAR PKNICK(0000)] ennemi est déjà gelé.
+300 : [VAR PKNICK(0000)] ne peut pas être gelé !
+301 : Le [VAR PKNICK(0000)] sauvage ne peut pas être gelé !
+302 : Le [VAR PKNICK(0000)] ennemi ne peut pas être gelé !
+303 : La glace a fondu grâce à la capacité [VAR MOVE(0001)] de [VAR PKNICK(0000)] !
+304 : La glace a fondu grâce à la capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] sauvage !
+305 : La glace a fondu grâce à la capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] ennemi !
+306 : [VAR PKNICK(0000)] s’est endormi !
+307 : Le [VAR PKNICK(0000)] sauvage s’est endormi !
+308 : Le [VAR PKNICK(0000)] ennemi s’est endormi !
+309 : [VAR PKNICK(0000)] dort profondément.
+310 : Le [VAR PKNICK(0000)] sauvage dort profondément.
+311 : Le [VAR PKNICK(0000)] ennemi dort profondément.
+312 : [VAR PKNICK(0000)] se réveille !
+313 : Le [VAR PKNICK(0000)] sauvage se réveille !
+314 : Le [VAR PKNICK(0000)] ennemi se réveille !
+315 : [VAR PKNICK(0000)] dort déjà.
+316 : Le [VAR PKNICK(0000)] sauvage dort déjà.
+317 : Le [VAR PKNICK(0000)] ennemi dort déjà.
+318 : [VAR PKNICK(0000)] ne s’endort pas !
+319 : Le [VAR PKNICK(0000)] sauvage ne s’endort pas !
+320 : Le [VAR PKNICK(0000)] ennemi ne s’endort pas !
+321 : [VAR PKNICK(0000)] commence à cauchemarder !
+322 : Le [VAR PKNICK(0000)] sauvage commence à cauchemarder !
+323 : Le [VAR PKNICK(0000)] ennemi commence à cauchemarder !
+324 : [VAR PKNICK(0000)] est prisonnier d’un cauchemar !
+325 : Le [VAR PKNICK(0000)] sauvage est prisonnier d’un cauchemar !
+326 : Le [VAR PKNICK(0000)] ennemi est prisonnier d’un cauchemar !
+327 : [VAR PKNICK(0000)] est amoureux !
+328 : Le [VAR PKNICK(0000)] sauvage est amoureux !
+329 : Le [VAR PKNICK(0000)] ennemi est amoureux !
+330 : [VAR 1403(0001)][VAR ITEM2(0001)] rend[VAR NUMBRNCH(0001,0300)]ent [VAR PKNICK(0000)] amoureux !
+331 : [VAR 1401(0001)][VAR ITEM2(0001)] rend[VAR NUMBRNCH(0001,0300)]ent le [VAR PKNICK(0000)] sauvage amoureux !
+332 : [VAR 1401(0001)][VAR ITEM2(0001)] rend[VAR NUMBRNCH(0001,0300)]ent le [VAR PKNICK(0000)] ennemi amoureux !
+333 : [VAR PKNICK(0000)] est amoureux de [VAR PKNICK(0001)] !
+334 : Le [VAR PKNICK(0000)] sauvage est amoureux de [VAR PKNICK(0001)] !
+335 : Le [VAR PKNICK(0000)] ennemi est amoureux de [VAR PKNICK(0001)] !
+336 : L’amour empêche [VAR PKNICK(0000)] d’agir !
+337 : L’amour empêche le [VAR PKNICK(0000)] sauvage d’agir !
+338 : L’amour empêche le [VAR PKNICK(0000)] ennemi d’agir !
+339 : [VAR PKNICK(0000)] n’est plus amoureux !
+340 : Le [VAR PKNICK(0000)] sauvage n’est plus amoureux !
+341 : Le [VAR PKNICK(0000)] ennemi n’est plus amoureux !
+342 : [VAR PKNICK(0000)] est redevenu normal !
+343 : Le [VAR PKNICK(0000)] sauvage est redevenu normal !
+344 : Le [VAR PKNICK(0000)] ennemi est redevenu normal !
+345 : Ça rend [VAR PKNICK(0000)] confus !
+346 : Ça rend le [VAR PKNICK(0000)] sauvage confus !
+347 : Ça rend le [VAR PKNICK(0000)] ennemi confus !
+348 : [VAR PKNICK(0000)] est confus !
+349 : Le [VAR PKNICK(0000)] sauvage est confus !
+350 : Le [VAR PKNICK(0000)] ennemi est confus !
+351 : [VAR PKNICK(0000)] n’est plus confus !
+352 : Le [VAR PKNICK(0000)] sauvage n’est plus confus !
+353 : Le [VAR PKNICK(0000)] ennemi n’est plus confus !
+354 : [VAR PKNICK(0000)] est déjà confus !
+355 : Le [VAR PKNICK(0000)] sauvage est déjà confus !
+356 : Le [VAR PKNICK(0000)] ennemi est déjà confus !
+357 : [VAR PKNICK(0000)] ne peut pas être rendu confus !
+358 : Le [VAR PKNICK(0000)] sauvage ne peut pas être rendu confus !
+359 : Le [VAR PKNICK(0000)] ennemi ne peut pas être rendu confus !
+360 : La fatigue rend [VAR PKNICK(0000)] confus !
+361 : La fatigue rend le [VAR PKNICK(0000)] sauvage confus !
+362 : La fatigue rend le [VAR PKNICK(0000)] ennemi confus !
+363 : [VAR PKNICK(0000)] a la trouille ! Il ne peut plus attaquer !
+364 : Le [VAR PKNICK(0000)] sauvage a la trouille ! Il ne peut plus attaquer !
+365 : Le [VAR PKNICK(0000)] ennemi a la trouille ! Il ne peut plus attaquer !
+366 : [VAR PKNICK(0000)] n’est plus concentré. Il ne peut plus attaquer !
+367 : Le [VAR PKNICK(0000)] sauvage n’est plus concentré. Il ne peut plus attaquer !
+368 : Le [VAR PKNICK(0000)] ennemi n’est plus concentré. Il ne peut plus attaquer !
+369 : [VAR PKNICK(0000)] est identifié !
+370 : Le [VAR PKNICK(0000)] sauvage est identifié !
+371 : Le [VAR PKNICK(0000)] ennemi est identifié !
+372 : [VAR PKNICK(0000)] est blessé par la capacité [VAR MOVE(0001)] !
+373 : Le [VAR PKNICK(0000)] sauvage est blessé par la capacité [VAR MOVE(0001)] !
+374 : Le [VAR PKNICK(0000)] ennemi est blessé par la capacité [VAR MOVE(0001)] !
+375 : [VAR PKNICK(0000)] est libéré de la capacité [VAR MOVE(0001)] !
+376 : Le [VAR PKNICK(0000)] sauvage est libéré de la capacité [VAR MOVE(0001)] !
+377 : Le [VAR PKNICK(0000)] ennemi est libéré de la capacité [VAR MOVE(0001)] !
+378 : [VAR PKNICK(0000)] est blessé par le contrecoup !
+379 : Le [VAR PKNICK(0000)] sauvage est blessé par le contrecoup !
+380 : Le [VAR PKNICK(0000)] ennemi est blessé par le contrecoup !
+381 : Le talent [VAR ABILITY(0001)] de [VAR PKNICK(0000)] a été calqué !
+382 : Le talent [VAR ABILITY(0001)] du [VAR PKNICK(0000)] sauvage a été calqué !
+383 : Le talent [VAR ABILITY(0001)] du [VAR PKNICK(0000)] ennemi a été calqué !
+384 : [VAR BD00(0007,0000,0000)]Coup critique[VAR BD01] infligé à [VAR PKNICK(0000)] !
+385 : [VAR BD00(0007,0000,0000)]Coup critique[VAR BD01] infligé au [VAR PKNICK(0000)] sauvage !
+386 : [VAR BD00(0007,0000,0000)]Coup critique[VAR BD01] infligé au [VAR PKNICK(0000)] ennemi !
+387 : [VAR PKNICK(0000)] récupère des PV !
+388 : Le [VAR PKNICK(0000)] sauvage récupère des PV !
+389 : Le [VAR PKNICK(0000)] ennemi récupère des PV !
+390 : [VAR PKNICK(0000)] récupère des PP pour sa capacité [VAR MOVE(0001)] !
+391 : Le [VAR PKNICK(0000)] sauvage récupère des PP pour sa capacité [VAR MOVE(0001)] !
+392 : Le [VAR PKNICK(0000)] ennemi récupère des PP pour sa capacité [VAR MOVE(0001)] !
+393 : [VAR PKNICK(0000)] récupère des PP pour toutes ses capacités !
+394 : Le [VAR PKNICK(0000)] sauvage récupère des PP pour toutes ses capacités !
+395 : Le [VAR PKNICK(0000)] ennemi récupère des PP pour toutes ses capacités !
+396 : La tempête de sable inflige des dégâts à [VAR PKNICK(0000)] !
+397 : La tempête de sable inflige des dégâts au [VAR PKNICK(0000)] sauvage !
+398 : La tempête de sable inflige des dégâts au [VAR PKNICK(0000)] ennemi !
+399 : La tempête de grêle inflige des dégâts à [VAR PKNICK(0000)] !
+400 : La tempête de grêle inflige des dégâts au [VAR PKNICK(0000)] sauvage !
+401 : La tempête de grêle inflige des dégâts au [VAR PKNICK(0000)] ennemi !
+402 : [VAR PKNICK(0000)] est blessé !
+403 : Le [VAR PKNICK(0000)] sauvage est blessé !
+404 : Le [VAR PKNICK(0000)] ennemi est blessé !
+405 : Le talent de [VAR PKNICK(0000)] devient [VAR ABILITY(0001)] !
+406 : Le talent du [VAR PKNICK(0000)] sauvage devient [VAR ABILITY(0001)] !
+407 : Le talent du [VAR PKNICK(0000)] ennemi devient [VAR ABILITY(0001)] !
+408 : [VAR PKNICK(0000)] flotte grâce à son Ballon !
+409 : Le [VAR PKNICK(0000)] sauvage flotte grâce à son Ballon !
+410 : Le [VAR PKNICK(0000)] ennemi flotte grâce à son Ballon !
+411 : Le Ballon de [VAR PKNICK(0000)] a éclaté !
+412 : Le Ballon du [VAR PKNICK(0000)] sauvage a éclaté !
+413 : Le Ballon du [VAR PKNICK(0000)] ennemi a éclaté !
+414 : [VAR PKNICK(0000)] se retire grâce au Bouton Fuite !
+415 : Le [VAR PKNICK(0000)] sauvage se retire grâce au Bouton Fuite !
+416 : Le [VAR PKNICK(0000)] ennemi se retire grâce au Bouton Fuite !
+417 : [VAR PKNICK(0000)] a mis un Carton Rouge à [VAR PKNICK(0001)] !
+418 : [VAR PKNICK(0000)] a mis un Carton Rouge au [VAR PKNICK(0001)] sauvage !
+419 : [VAR PKNICK(0000)] a mis un Carton Rouge au [VAR PKNICK(0001)] ennemi !
+420 : Le [VAR PKNICK(0000)] sauvage a mis un Carton Rouge à [VAR PKNICK(0001)] !
+421 : Le [VAR PKNICK(0000)] sauvage a mis un Carton Rouge au [VAR PKNICK(0001)] sauvage !
+422 : Le [VAR PKNICK(0000)] ennemi a mis un Carton Rouge à [VAR PKNICK(0001)] !
+423 : Le [VAR PKNICK(0000)] ennemi a mis un Carton Rouge au [VAR PKNICK(0001)] ennemi !
+424 : [VAR PKNICK(0000)] est blessé par le Casque Brut !
+425 : Le [VAR PKNICK(0000)] sauvage est blessé par le Casque Brut !
+426 : Le [VAR PKNICK(0000)] ennemi est blessé par le Casque Brut !
+427 : [VAR PKNICK(0000)] augmente sa puissance de feu !
+428 : Le [VAR PKNICK(0000)] sauvage augmente sa puissance de feu !
+429 : Le [VAR PKNICK(0000)] ennemi augmente sa puissance de feu !
+430 : [VAR PKNICK(0000)] s’est blessé en attaquant !
+431 : Le [VAR PKNICK(0000)] sauvage s’est blessé en attaquant !
+432 : Le [VAR PKNICK(0000)] ennemi s’est blessé en attaquant !
+433 : La capacité [VAR MOVE(0001)] de [VAR PKNICK(0000)] a été détectée !
+434 : La capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] sauvage a été détectée !
+435 : La capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] ennemi a été détectée !
+436 : [VAR PKNICK(0000)] est tout tremblant !
+437 : Le [VAR PKNICK(0000)] sauvage est tout tremblant !
+438 : Le [VAR PKNICK(0000)] ennemi est tout tremblant !
+439 : [VAR PKNICK(0000)] a décelé que [VAR PKNICK(0001)] tient [VAR 1402(0002)][VAR ITEM2(0002)] !
+440 : Le [VAR PKNICK(0000)] sauvage a décelé que [VAR PKNICK(0001)] tient [VAR 1402(0002)][VAR ITEM2(0002)] !
+441 : Le [VAR PKNICK(0000)] ennemi a décelé que [VAR PKNICK(0001)] tient [VAR 1402(0002)][VAR ITEM2(0002)] !
+442 : [VAR PKNICK(0000)] brise le moule !
+443 : Le [VAR PKNICK(0000)] sauvage brise le moule !
+444 : Le [VAR PKNICK(0000)] ennemi brise le moule !
+445 : [VAR PKNICK(0000)] paresse !
+446 : Le [VAR PKNICK(0000)] sauvage paresse !
+447 : Le [VAR PKNICK(0000)] ennemi paresse !
+448 : [VAR PKNICK(0000)] attire les coups sur lui !
+449 : Le [VAR PKNICK(0000)] sauvage attire les coups sur lui !
+450 : Le [VAR PKNICK(0000)] ennemi attire les coups sur lui !
+451 : [VAR PKNICK(0000)] ne s’endort pas !
+452 : Le [VAR PKNICK(0000)] sauvage ne s’endort pas !
+453 : Le [VAR PKNICK(0000)] ennemi ne s’endort pas !
+454 : [VAR PKNICK(0000)] s’accroche avec sa Ventouse !
+455 : Le [VAR PKNICK(0000)] sauvage s’accroche avec sa Ventouse !
+456 : Le [VAR PKNICK(0000)] ennemi s’accroche avec sa Ventouse !
+457 : [VAR PKNICK(0000)] aspire le Suintement !
+458 : Le [VAR PKNICK(0000)] sauvage aspire le Suintement !
+459 : Le [VAR PKNICK(0000)] ennemi aspire le Suintement !
+460 : [VAR PKNICK(0000)] s’est fait voler [VAR 1400(0001)][VAR ITEM2(0001)] !
+461 : Le [VAR PKNICK(0000)] sauvage s’est fait voler [VAR 1402(0001)][VAR ITEM2(0001)] !
+462 : Le [VAR PKNICK(0000)] ennemi s’est fait voler [VAR 1402(0001)][VAR ITEM2(0001)] !
+463 : Le talent de [VAR PKNICK(0000)] devient Momie !
+464 : Le talent du [VAR PKNICK(0000)] sauvage devient Momie !
+465 : Le talent du [VAR PKNICK(0000)] ennemi devient Momie !
+466 : [VAR PKNICK(0000)] a renvoyé la capacité [VAR MOVE(0001)] !
+467 : Le [VAR PKNICK(0000)] sauvage a renvoyé la capacité [VAR MOVE(0001)] !
+468 : Le [VAR PKNICK(0000)] ennemi a renvoyé la capacité [VAR MOVE(0001)] !
+469 : [VAR PKNICK(0000)] ne peut pas être attaqué par ses alliés !
+470 : Le [VAR PKNICK(0000)] sauvage ne peut pas être attaqué par ses alliés !
+471 : Le [VAR PKNICK(0000)] ennemi ne peut pas être attaqué par ses alliés !
+472 : [VAR PKNICK(0000)] est aspergé de poison !
+473 : Le [VAR PKNICK(0000)] sauvage est aspergé de poison !
+474 : Le [VAR PKNICK(0000)] ennemi est aspergé de poison !
+475 : [VAR PKNICK(0000)] a récolté [VAR 1402(0001)][VAR ITEM2(0001)] !
+476 : Le [VAR PKNICK(0000)] sauvage a récolté [VAR 1402(0001)][VAR ITEM2(0001)] !
+477 : Le [VAR PKNICK(0000)] ennemi a récolté [VAR 1402(0001)][VAR ITEM2(0001)] !
+478 : L’Illusion de [VAR PKNICK(0000)] se brise !
+479 : L’Illusion du [VAR PKNICK(0000)] sauvage se brise !
+480 : L’Illusion du [VAR PKNICK(0000)] ennemi se brise !
+481 : [VAR PKNICK(0000)] monte son Attaque au maximum !
+482 : Le [VAR PKNICK(0000)] sauvage monte son Attaque au maximum !
+483 : Le [VAR PKNICK(0000)] ennemi monte son Attaque au maximum !
+484 : [VAR PKNICK(0000)] a le sommeil agité !
+485 : Le [VAR PKNICK(0000)] sauvage a le sommeil agité !
+486 : Le [VAR PKNICK(0000)] ennemi a le sommeil agité !
+487 : [VAR PKNICK(0000)] augmente la pression !
+488 : Le [VAR PKNICK(0000)] sauvage augmente la pression !
+489 : Le [VAR PKNICK(0000)] ennemi augmente la pression !
+490 : [VAR PKNICK(0000)] trouve [VAR 1402(0001)][VAR ITEM2(0001)] !
+491 : Le [VAR PKNICK(0000)] sauvage trouve [VAR 1402(0001)][VAR ITEM2(0001)] !
+492 : Le [VAR PKNICK(0000)] ennemi trouve [VAR 1402(0001)][VAR ITEM2(0001)] !
+493 : L’objet de [VAR PKNICK(0000)] ne peut pas être volé !
+494 : L’objet du [VAR PKNICK(0000)] sauvage ne peut pas être volé !
+495 : L’objet du [VAR PKNICK(0000)] ennemi ne peut pas être volé !
+496 : [VAR PKNICK(0000)] n’arrive pas à se motiver !
+497 : Le [VAR PKNICK(0000)] sauvage n’arrive pas à se motiver !
+498 : Le [VAR PKNICK(0000)] ennemi n’arrive pas à se motiver !
+499 : [VAR PKNICK(0000)] arrive enfin à s’y mettre sérieusement !
+500 : Le [VAR PKNICK(0000)] sauvage arrive enfin à s’y mettre sérieusement !
+501 : Le [VAR PKNICK(0000)] ennemi arrive enfin à s’y mettre sérieusement !
+502 : [VAR PKNICK(0000)] dégage une aura électrique instable !
+503 : Le [VAR PKNICK(0000)] sauvage dégage une aura électrique instable !
+504 : Le [VAR PKNICK(0000)] ennemi dégage une aura électrique instable !
+505 : [VAR PKNICK(0000)] dégage une aura de flammes incandescentes !
+506 : Le [VAR PKNICK(0000)] sauvage dégage une aura de flammes incandescentes !
+507 : Le [VAR PKNICK(0000)] ennemi dégage une aura de flammes incandescentes !
+508 : [VAR PKNICK(0000)] et sa cible échangent leurs talents !
+509 : Le [VAR PKNICK(0000)] sauvage et sa cible échangent leurs talents !
+510 : Le [VAR PKNICK(0000)] ennemi et sa cible échangent leurs talents !
+511 : [VAR PKNICK(0000)] se prépare à encaisser les coups !
+512 : Le [VAR PKNICK(0000)] sauvage se prépare à encaisser les coups !
+513 : Le [VAR PKNICK(0000)] ennemi se prépare à encaisser les coups !
+514 : [VAR PKNICK(0000)] encaisse les coups !
+515 : Le [VAR PKNICK(0000)] sauvage encaisse les coups !
+516 : Le [VAR PKNICK(0000)] ennemi encaisse les coups !
+517 : [VAR PKNICK(0000)] est prêt à se protéger !
+518 : Le [VAR PKNICK(0000)] sauvage est prêt à se protéger !
+519 : Le [VAR PKNICK(0000)] ennemi est prêt à se protéger !
+520 : Ça transperce la protection de [VAR PKNICK(0000)] !
+521 : Ça transperce la protection du [VAR PKNICK(0000)] sauvage !
+522 : Ça transperce la protection du [VAR PKNICK(0000)] ennemi !
+523 : [VAR PKNICK(0000)] se protège !
+524 : Le [VAR PKNICK(0000)] sauvage se protège !
+525 : Le [VAR PKNICK(0000)] ennemi se protège !
+526 : [VAR PKNICK(0000)] succombe à la Ruse !
+527 : Le [VAR PKNICK(0000)] sauvage succombe à la Ruse !
+528 : Le [VAR PKNICK(0000)] ennemi succombe à la Ruse !
+529 : [VAR PKNICK(0000)] s’envole !
+530 : Le [VAR PKNICK(0000)] sauvage s’envole !
+531 : Le [VAR PKNICK(0000)] ennemi s’envole !
+532 : La Frénésie de [VAR PKNICK(0000)] augmente !
+533 : La Frénésie du [VAR PKNICK(0000)] sauvage augmente !
+534 : La Frénésie du [VAR PKNICK(0000)] ennemi augmente !
+535 : [VAR PKNICK(0000)] se cache sous l’eau !
+536 : Le [VAR PKNICK(0000)] sauvage se cache sous l’eau !
+537 : Le [VAR PKNICK(0000)] ennemi se cache sous l’eau !
+538 : [VAR PKNICK(0000)] se cache dans le sol !
+539 : Le [VAR PKNICK(0000)] sauvage se cache dans le sol !
+540 : Le [VAR PKNICK(0000)] ennemi se cache dans le sol !
+541 : [VAR PKNICK(0000)] disparaît instantanément !
+542 : Le [VAR PKNICK(0000)] sauvage disparaît instantanément !
+543 : Le [VAR PKNICK(0000)] ennemi disparaît instantanément !
+544 : [VAR PKNICK(0000)] se propulse dans les airs !
+545 : Le [VAR PKNICK(0000)] sauvage se propulse dans les airs !
+546 : Le [VAR PKNICK(0000)] ennemi se propulse dans les airs !
+547 : [VAR PKNICK(0000)] se prépare à lancer une bourrasque !
+548 : Le [VAR PKNICK(0000)] sauvage se prépare à lancer une bourrasque !
+549 : Le [VAR PKNICK(0000)] ennemi se prépare à lancer une bourrasque !
+550 : [VAR PKNICK(0000)] est entouré d’une lumière intense !
+551 : Le [VAR PKNICK(0000)] sauvage est entouré d’une lumière intense !
+552 : Le [VAR PKNICK(0000)] ennemi est entouré d’une lumière intense !
+553 : [VAR PKNICK(0000)] absorbe la lumière !
+554 : Le [VAR PKNICK(0000)] sauvage absorbe la lumière !
+555 : Le [VAR PKNICK(0000)] ennemi absorbe la lumière !
+556 : [VAR PKNICK(0000)] baisse la tête !
+557 : Le [VAR PKNICK(0000)] sauvage baisse la tête !
+558 : Le [VAR PKNICK(0000)] ennemi baisse la tête !
+559 : [VAR PKNICK(0000)] ! Encore une fois !
+560 : [VAR PKNICK(0000)] sauvage ! Encore une fois !
+561 : [VAR PKNICK(0000)] ennemi ! Encore une fois !
+562 : [VAR PKNICK(0000)] n’a plus à répéter la même capacité !
+563 : Le [VAR PKNICK(0000)] sauvage n’a plus à répéter la même capacité !
+564 : Le [VAR PKNICK(0000)] ennemi n’a plus à répéter la même capacité !
+565 : Le talent de [VAR PKNICK(0000)] ne fait plus effet !
+566 : Le talent du [VAR PKNICK(0000)] sauvage ne fait plus effet !
+567 : Le talent du [VAR PKNICK(0000)] ennemi ne fait plus effet !
+568 : [VAR PKNICK(0000)] répond à la Provoc !
+569 : Le [VAR PKNICK(0000)] sauvage répond à la Provoc !
+570 : Le [VAR PKNICK(0000)] ennemi répond à la Provoc !
+571 : [VAR PKNICK(0000)] ne peut pas utiliser la capacité [VAR MOVE(0001)] après la Provoc !
+572 : Le [VAR PKNICK(0000)] sauvage ne peut pas utiliser la capacité [VAR MOVE(0001)] après la Provoc !
+573 : Le [VAR PKNICK(0000)] ennemi ne peut pas utiliser la capacité [VAR MOVE(0001)] après la Provoc !
+574 : [VAR PKNICK(0000)] a oublié la Provoc !
+575 : Le [VAR PKNICK(0000)] sauvage a oublié la Provoc !
+576 : Le [VAR PKNICK(0000)] ennemi a oublié la Provoc !
+577 : [VAR PKNICK(0000)] est tourmenté !
+578 : Le [VAR PKNICK(0000)] sauvage est tourmenté !
+579 : Le [VAR PKNICK(0000)] ennemi est tourmenté !
+580 : Tourmenté, [VAR PKNICK(0000)] ne peut pas utiliser la même capacité deux fois de suite !
+581 : Tourmenté, le [VAR PKNICK(0000)] sauvage ne peut pas utiliser la même capacité deux fois de suite !
+582 : Tourmenté, le [VAR PKNICK(0000)] ennemi ne peut pas utiliser la même capacité deux fois de suite !
+583 : Les tourments de [VAR PKNICK(0000)] sont apaisés !
+584 : Les tourments du [VAR PKNICK(0000)] sauvage sont apaisés !
+585 : Les tourments du [VAR PKNICK(0000)] ennemi sont apaisés !
+586 : [VAR PKNICK(0000)] bloque les capacités en commun avec l’adversaire !
+587 : Le [VAR PKNICK(0000)] sauvage bloque les capacités en commun avec l’adversaire !
+588 : Le [VAR PKNICK(0000)] ennemi bloque les capacités en commun avec l’adversaire !
+589 : [VAR PKNICK(0000)] ne peut pas utiliser la capacité bloquée [VAR MOVE(0001)] !
+590 : Le [VAR PKNICK(0000)] sauvage ne peut pas utiliser la capacité bloquée [VAR MOVE(0001)] !
+591 : Le [VAR PKNICK(0000)] ennemi ne peut pas utiliser la capacité bloquée [VAR MOVE(0001)] !
+592 : La capacité [VAR MOVE(0001)] de [VAR PKNICK(0000)] est mise sous Entrave !
+593 : La capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] sauvage est mise sous Entrave !
+594 : La capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] ennemi est mise sous Entrave !
+595 : Il y a une Entrave sur la capacité [VAR MOVE(0001)] de [VAR PKNICK(0000)] !
+596 : Il y a une Entrave sur la capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] sauvage !
+597 : Il y a une Entrave sur la capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] ennemi !
+598 : La capacité de [VAR PKNICK(0000)] n’est plus sous Entrave !
+599 : La capacité du [VAR PKNICK(0000)] sauvage n’est plus sous Entrave !
+600 : La capacité du [VAR PKNICK(0000)] ennemi n’est plus sous Entrave !
+601 : [VAR PKNICK(0000)] s’entoure d’un voile d’eau !
+602 : Le [VAR PKNICK(0000)] sauvage s’entoure d’un voile d’eau !
+603 : Le [VAR PKNICK(0000)] ennemi s’entoure d’un voile d’eau !
+604 : Le voile d’eau restaure les PV de [VAR PKNICK(0000)] !
+605 : Le voile d’eau restaure les PV du [VAR PKNICK(0000)] sauvage !
+606 : Le voile d’eau restaure les PV du [VAR PKNICK(0000)] ennemi !
+607 : [VAR PKNICK(0000)] est infecté !
+608 : Le [VAR PKNICK(0000)] sauvage est infecté !
+609 : Le [VAR PKNICK(0000)] ennemi est infecté !
+610 : Vampigraine draine l’énergie de [VAR PKNICK(0000)] !
+611 : Vampigraine draine l’énergie du [VAR PKNICK(0000)] sauvage !
+612 : Vampigraine draine l’énergie du [VAR PKNICK(0000)] ennemi !
+613 : [VAR PKNICK(0000)] sacrifie des PV et monte son Attaque au maximum !
+614 : Le [VAR PKNICK(0000)] sauvage sacrifie des PV et monte son Attaque au maximum !
+615 : Le [VAR PKNICK(0000)] ennemi sacrifie des PV et monte son Attaque au maximum !
+616 : [VAR PKNICK(0000)] se concentre davantage !
+617 : Le [VAR PKNICK(0000)] sauvage se concentre davantage !
+618 : Le [VAR PKNICK(0000)] ennemi se concentre davantage !
+619 : [VAR PKNICK(0000)] copie le talent [VAR ABILITY(0002)] de [VAR PKNICK(0001)] !
+620 : [VAR PKNICK(0000)] copie le talent [VAR ABILITY(0002)] du [VAR PKNICK(0001)] sauvage !
+621 : [VAR PKNICK(0000)] copie le talent [VAR ABILITY(0002)] du [VAR PKNICK(0001)] ennemi !
+622 : Le [VAR PKNICK(0000)] sauvage copie le talent [VAR ABILITY(0002)] de [VAR PKNICK(0001)] !
+623 : Le [VAR PKNICK(0000)] sauvage copie le talent [VAR ABILITY(0002)] du [VAR PKNICK(0001)] sauvage !
+624 : Le [VAR PKNICK(0000)] ennemi copie le talent [VAR ABILITY(0002)] de [VAR PKNICK(0001)] !
+625 : Le [VAR PKNICK(0000)] ennemi copie le talent [VAR ABILITY(0002)] du [VAR PKNICK(0001)] ennemi !
+626 : [VAR PKNICK(0000)] veut emmener son ennemi au tapis !
+627 : Le [VAR PKNICK(0000)] sauvage veut emmener son ennemi au tapis !
+628 : Le [VAR PKNICK(0000)] ennemi veut emmener son ennemi au tapis !
+629 : [VAR PKNICK(0000)] emmène son adversaire au tapis !
+630 : Le [VAR PKNICK(0000)] sauvage emmène son adversaire au tapis !
+631 : Le [VAR PKNICK(0000)] ennemi emmène son adversaire au tapis !
+632 : [VAR PKNICK(0000)] veut que son adversaire subisse sa Rancune !
+633 : Le [VAR PKNICK(0000)] sauvage veut que son adversaire subisse sa Rancune !
+634 : Le [VAR PKNICK(0000)] ennemi veut que son adversaire subisse sa Rancune !
+635 : La capacité [VAR MOVE(0001)] de [VAR PKNICK(0000)] perd ses PP à cause de la Rancune !
+636 : La capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] sauvage perd ses PP à cause de la Rancune !
+637 : La capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] ennemi perd ses PP à cause de la Rancune !
+638 : [VAR PKNICK(0000)] a récupéré en dormant !
+639 : Le [VAR PKNICK(0000)] sauvage a récupéré en dormant !
+640 : Le [VAR PKNICK(0000)] ennemi a récupéré en dormant !
+641 : Les PP de la capacité [VAR MOVE(0001)] de [VAR PKNICK(0000)] baissent de [VAR NUM1(0002)] !
+642 : Les PP de la capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] sauvage baissent de [VAR NUM1(0002)] !
+643 : Les PP de la capacité [VAR MOVE(0001)] du [VAR PKNICK(0000)] ennemi baissent de [VAR NUM1(0002)] !
+644 : [VAR PKNICK(0000)] prend l’apparence de [VAR PKNICK(0001)] !
+645 : [VAR PKNICK(0000)] prend l’apparence du [VAR PKNICK(0001)] sauvage !
+646 : [VAR PKNICK(0000)] prend l’apparence du [VAR PKNICK(0001)] ennemi !
+647 : Le [VAR PKNICK(0000)] sauvage prend l’apparence de [VAR PKNICK(0001)] !
+648 : Le [VAR PKNICK(0000)] sauvage prend l’apparence du [VAR PKNICK(0001)] sauvage !
+649 : Le [VAR PKNICK(0000)] ennemi prend l’apparence de [VAR PKNICK(0001)] !
+650 : Le [VAR PKNICK(0000)] ennemi prend l’apparence du [VAR PKNICK(0001)] ennemi !
+651 : [VAR PKNICK(0000)] vise [VAR PKNICK(0001)] !
+652 : [VAR PKNICK(0000)] vise le [VAR PKNICK(0001)] sauvage !
+653 : [VAR PKNICK(0000)] vise le [VAR PKNICK(0001)] ennemi !
+654 : Le [VAR PKNICK(0000)] sauvage vise [VAR PKNICK(0001)] !
+655 : Le [VAR PKNICK(0000)] sauvage vise le [VAR PKNICK(0001)] sauvage !
+656 : Le [VAR PKNICK(0000)] ennemi vise [VAR PKNICK(0001)] !
+657 : Le [VAR PKNICK(0000)] ennemi vise le [VAR PKNICK(0001)] ennemi !
+658 : [VAR PKNICK(0000)] lévite sur un champ magnétique !
+659 : Le [VAR PKNICK(0000)] sauvage lévite sur un champ magnétique !
+660 : Le [VAR PKNICK(0000)] ennemi lévite sur un champ magnétique !
+661 : Le magnétisme de [VAR PKNICK(0000)] se dissipe !
+662 : Le magnétisme du [VAR PKNICK(0000)] sauvage se dissipe !
+663 : Le magnétisme du [VAR PKNICK(0000)] ennemi se dissipe !
+664 : [VAR PKNICK(0000)] se met à charger son énergie !
+665 : Le [VAR PKNICK(0000)] sauvage se met à charger son énergie !
+666 : Le [VAR PKNICK(0000)] ennemi se met à charger son énergie !
+667 : Ça rend [VAR PKNICK(0000)] somnolent !
+668 : Ça rend le [VAR PKNICK(0000)] sauvage somnolent !
+669 : Ça rend le [VAR PKNICK(0000)] ennemi somnolent !
+670 : [VAR PKNICK(0000)] devient le centre d’attention !
+671 : Le [VAR PKNICK(0000)] sauvage devient le centre d’attention !
+672 : Le [VAR PKNICK(0000)] ennemi devient le centre d’attention !
+673 : [VAR PKNICK(0000)] intervertit ses changements de stats avec ceux de sa cible !
+674 : Le [VAR PKNICK(0000)] sauvage intervertit ses changements de stats avec ceux de sa cible !
+675 : Le [VAR PKNICK(0000)] ennemi intervertit ses changements de stats avec ceux de sa cible !
+676 : [VAR PKNICK(0000)] intervertit les changements de son Attaque et Attaque Spéciale avec ceux de sa cible !
+677 : Le [VAR PKNICK(0000)] sauvage intervertit les changements de son Attaque et Attaque Spéciale avec ceux de sa cible !
+678 : Le [VAR PKNICK(0000)] ennemi intervertit les changements de son Attaque et Attaque Spéciale avec ceux de sa cible !
+679 : [VAR PKNICK(0000)] intervertit les changements de sa Défense et Défense Spéciale avec ceux de sa cible !
+680 : Le [VAR PKNICK(0000)] sauvage intervertit les changements de sa Défense et Défense Spéciale avec ceux de sa cible !
+681 : Le [VAR PKNICK(0000)] ennemi intervertit les changements de sa Défense et Défense Spéciale avec ceux de sa cible !
+682 : [VAR PKNICK(0000)] échange son objet avec celui de sa cible !
+683 : Le [VAR PKNICK(0000)] sauvage échange son objet avec celui de sa cible !
+684 : Le [VAR PKNICK(0000)] ennemi échange son objet avec celui de sa cible !
+685 : [VAR PKNICK(0000)] obtient [VAR 1402(0001)][VAR ITEM2(0001)] !
+686 : Le [VAR PKNICK(0000)] sauvage obtient [VAR 1402(0001)][VAR ITEM2(0001)] !
+687 : Le [VAR PKNICK(0000)] ennemi obtient [VAR 1402(0001)][VAR ITEM2(0001)] !
+688 : [VAR PKNICK(0000)] apprend [VAR MOVE(0001)] !
+689 : Le [VAR PKNICK(0000)] sauvage apprend [VAR MOVE(0001)] !
+690 : Le [VAR PKNICK(0000)] ennemi apprend [VAR MOVE(0001)] !
+691 : [VAR PKNICK(0000)] gribouille [VAR MOVE(0001)] !
+692 : Le [VAR PKNICK(0000)] sauvage gribouille [VAR MOVE(0001)] !
+693 : Le [VAR PKNICK(0000)] ennemi gribouille [VAR MOVE(0001)] !
+694 : [VAR PKNICK(0000)] est baigné par des rayons de lune !
+695 : Le [VAR PKNICK(0000)] sauvage est baigné par des rayons de lune !
+696 : Le [VAR PKNICK(0000)] ennemi est baigné par des rayons de lune !
+697 : Le Vœu Soin est exaucé et profite à [VAR PKNICK(0000)] !
+698 : Le Vœu Soin est exaucé et profite au [VAR PKNICK(0000)] sauvage !
+699 : Le Vœu Soin est exaucé et profite au [VAR PKNICK(0000)] ennemi !
+700 : Le Vœu de [VAR PKNICK(0000)] se réalise !
+701 : Le Vœu du [VAR PKNICK(0000)] sauvage se réalise !
+702 : Le Vœu du [VAR PKNICK(0000)] ennemi se réalise !
+703 : [VAR PKNICK(0000)] provoque un Brouhaha !
+704 : Le [VAR PKNICK(0000)] sauvage provoque un Brouhaha !
+705 : Le [VAR PKNICK(0000)] ennemi provoque un Brouhaha !
+706 : [VAR PKNICK(0000)] est réveillé par le Brouhaha !
+707 : Le [VAR PKNICK(0000)] sauvage est réveillé par le Brouhaha !
+708 : Le [VAR PKNICK(0000)] ennemi est réveillé par le Brouhaha !
+709 : Mais le Brouhaha tient [VAR PKNICK(0000)] éveillé !
+710 : Mais le Brouhaha tient le [VAR PKNICK(0000)] sauvage éveillé !
+711 : Mais le Brouhaha tient le [VAR PKNICK(0000)] ennemi éveillé !
+712 : Mais son Brouhaha empêche [VAR PKNICK(0000)] de dormir !
+713 : Mais son Brouhaha empêche le [VAR PKNICK(0000)] sauvage de dormir !
+714 : Mais son Brouhaha empêche le [VAR PKNICK(0000)] ennemi de dormir !
+715 : [VAR PKNICK(0000)] continue son Brouhaha !
+716 : Le [VAR PKNICK(0000)] sauvage continue son Brouhaha !
+717 : Le [VAR PKNICK(0000)] ennemi continue son Brouhaha !
+718 : [VAR PKNICK(0000)] se calme.
+719 : Le [VAR PKNICK(0000)] sauvage se calme.
+720 : Le [VAR PKNICK(0000)] ennemi se calme.
+721 : [VAR PKNICK(0000)] utilise la capacité Stockage [VAR NUM1(0001)] fois !
+722 : Le [VAR PKNICK(0000)] sauvage utilise la capacité Stockage [VAR NUM1(0001)] fois !
+723 : Le [VAR PKNICK(0000)] ennemi utilise la capacité Stockage [VAR NUM1(0001)] fois !
+724 : Les effets accumulés par [VAR PKNICK(0000)] se dissipent !
+725 : Les effets accumulés par le [VAR PKNICK(0000)] sauvage se dissipent !
+726 : Les effets accumulés par le [VAR PKNICK(0000)] ennemi se dissipent !
+727 : [VAR PKNICK(0000)] ne peut plus utiliser d’objets !
+728 : Le [VAR PKNICK(0000)] sauvage ne peut plus utiliser d’objets !
+729 : Le [VAR PKNICK(0000)] ennemi ne peut plus utiliser d’objets !
+730 : [VAR PKNICK(0000)] peut de nouveau utiliser des objets !
+731 : Le [VAR PKNICK(0000)] sauvage peut de nouveau utiliser des objets !
+732 : Le [VAR PKNICK(0000)] ennemi peut de nouveau utiliser des objets !
+733 : [VAR PKNICK(0000)] trouve [VAR 1402(0001)][VAR ITEM2(0001)] !
+734 : Le [VAR PKNICK(0000)] sauvage trouve [VAR 1402(0001)][VAR ITEM2(0001)] !
+735 : Le [VAR PKNICK(0000)] ennemi trouve [VAR 1402(0001)][VAR ITEM2(0001)] !
+736 : [VAR PKNICK(0000)] plante ses racines !
+737 : Le [VAR PKNICK(0000)] sauvage plante ses racines !
+738 : Le [VAR PKNICK(0000)] ennemi plante ses racines !
+739 : [VAR PKNICK(0000)] absorbe des nutriments avec ses racines !
+740 : Le [VAR PKNICK(0000)] sauvage absorbe des nutriments avec ses racines !
+741 : Le [VAR PKNICK(0000)] ennemi absorbe des nutriments avec ses racines !
+742 : [VAR PKNICK(0000)] s’accroche avec ses racines !
+743 : Le [VAR PKNICK(0000)] sauvage s’accroche avec ses racines !
+744 : Le [VAR PKNICK(0000)] ennemi s’accroche avec ses racines !
+745 : [VAR PKNICK(0000)] se concentre !
+746 : Le [VAR PKNICK(0000)] sauvage se concentre !
+747 : Le [VAR PKNICK(0000)] ennemi se concentre !
+748 : [VAR PKNICK(0000)] envoie la sauce !
+749 : Le [VAR PKNICK(0000)] sauvage envoie la sauce !
+750 : Le [VAR PKNICK(0000)] ennemi envoie la sauce !
+751 : [VAR PKNICK(0000)] attend qu’une cible agisse !
+752 : Le [VAR PKNICK(0000)] sauvage attend qu’une cible agisse !
+753 : Le [VAR PKNICK(0000)] ennemi attend qu’une cible agisse !
+754 : [VAR PKNICK(0000)] saisit la capacité de [VAR PKNICK(0001)] !
+755 : [VAR PKNICK(0000)] saisit la capacité du [VAR PKNICK(0001)] sauvage !
+756 : [VAR PKNICK(0000)] saisit la capacité du [VAR PKNICK(0001)] ennemi !
+757 : Le [VAR PKNICK(0000)] sauvage saisit la capacité de [VAR PKNICK(0001)] !
+758 : Le [VAR PKNICK(0000)] sauvage saisit la capacité du [VAR PKNICK(0001)] sauvage !
+759 : Le [VAR PKNICK(0000)] ennemi saisit la capacité de [VAR PKNICK(0001)] !
+760 : Le [VAR PKNICK(0000)] ennemi saisit la capacité du [VAR PKNICK(0001)] ennemi !
+761 : [VAR PKNICK(0000)] s’entoure du Reflet Magik !
+762 : Le [VAR PKNICK(0000)] sauvage s’entoure du Reflet Magik !
+763 : Le [VAR PKNICK(0000)] ennemi s’entoure du Reflet Magik !
+764 : [VAR PKNICK(0000)] repousse la capacité [VAR MOVE(0001)] ! Retour à l’envoyeur !
+765 : Le [VAR PKNICK(0000)] sauvage repousse la capacité [VAR MOVE(0001)] ! Retour à l’envoyeur !
+766 : Le [VAR PKNICK(0000)] ennemi repousse la capacité [VAR MOVE(0001)] ! Retour à l’envoyeur !
+767 : [VAR PKNICK(0000)] s’enfuit !
+768 : Le [VAR PKNICK(0000)] sauvage s’enfuit !
+769 : Le [VAR PKNICK(0000)] ennemi s’enfuit !
+770 : [VAR PKNICK(0000)] revient vers [VAR TRNAME(0001)] !
+771 : Le [VAR PKNICK(0000)] sauvage revient vers [VAR TRNAME(0001)] !
+772 : Le [VAR PKNICK(0000)] ennemi revient vers [VAR TRNAME(0001)] !
+773 : [VAR PKNICK(0000)] échange son Attaque et sa Défense !
+774 : Le [VAR PKNICK(0000)] sauvage échange son Attaque et sa Défense !
+775 : Le [VAR PKNICK(0000)] ennemi échange son Attaque et sa Défense !
+776 : [VAR PKNICK(0000)] vole et mange [VAR 1400(0001)][VAR ITEM2(0001)] de la cible !
+777 : Le [VAR PKNICK(0000)] sauvage vole et mange [VAR 1400(0001)][VAR ITEM2(0001)] de la cible !
+778 : Le [VAR PKNICK(0000)] ennemi vole et mange [VAR 1400(0001)][VAR ITEM2(0001)] de la cible !
+779 : [VAR PKNICK(0000)] lance [VAR 1402(0001)][VAR ITEM2(0001)] !
+780 : Le [VAR PKNICK(0000)] sauvage lance [VAR 1402(0001)][VAR ITEM2(0001)] !
+781 : Le [VAR PKNICK(0000)] ennemi lance [VAR 1402(0001)][VAR ITEM2(0001)] !
+782 : [VAR PKNICK(0000)] repousse la capacité [VAR MOVE(0001)] !
+783 : Le [VAR PKNICK(0000)] sauvage repousse la capacité [VAR MOVE(0001)] !
+784 : Le [VAR PKNICK(0000)] ennemi repousse la capacité [VAR MOVE(0001)] !
+785 : [VAR PKNICK(0000)] crée un clone !
+786 : Le [VAR PKNICK(0000)] sauvage crée un clone !
+787 : Le [VAR PKNICK(0000)] ennemi crée un clone !
+788 : [VAR PKNICK(0000)] a déjà un clone !
+789 : Le [VAR PKNICK(0000)] sauvage a déjà un clone !
+790 : Le [VAR PKNICK(0000)] ennemi a déjà un clone !
+791 : Le clone prend les dégâts à la place de [VAR PKNICK(0000)] !
+792 : Le clone prend les dégâts à la place du [VAR PKNICK(0000)] sauvage !
+793 : Le clone prend les dégâts à la place du [VAR PKNICK(0000)] ennemi !
+794 : Le clone de [VAR PKNICK(0000)] disparaît…
+795 : Le clone du [VAR PKNICK(0000)] sauvage disparaît…
+796 : Le clone du [VAR PKNICK(0000)] ennemi disparaît…
+797 : [VAR PKNICK(0000)] est protégé par la Garde Large !
+798 : Le [VAR PKNICK(0000)] sauvage est protégé par la Garde Large !
+799 : Le [VAR PKNICK(0000)] ennemi est protégé par la Garde Large !
+800 : [VAR PKNICK(0000)] est protégé par la capacité Prévention !
+801 : Le [VAR PKNICK(0000)] sauvage est protégé par la capacité Prévention !
+802 : Le [VAR PKNICK(0000)] ennemi est protégé par la capacité Prévention !
+803 : [VAR PKNICK(0000)] est protégé par la capacité Vigilance !
+804 : Le [VAR PKNICK(0000)] sauvage est protégé par la capacité Vigilance !
+805 : Le [VAR PKNICK(0000)] ennemi est protégé par la capacité Vigilance !
+806 : [VAR PKNICK(0000)] est pris dans l’étreinte de [VAR PKNICK(0001)] !
+807 : [VAR PKNICK(0000)] est pris dans l’étreinte du [VAR PKNICK(0001)] sauvage !
+808 : [VAR PKNICK(0000)] est pris dans l’étreinte du [VAR PKNICK(0001)] ennemi !
+809 : Le [VAR PKNICK(0000)] sauvage est pris dans l’étreinte de [VAR PKNICK(0001)] !
+810 : Le [VAR PKNICK(0000)] sauvage est pris dans l’étreinte du [VAR PKNICK(0001)] sauvage !
+811 : Le [VAR PKNICK(0000)] ennemi est pris dans l’étreinte de [VAR PKNICK(0001)] !
+812 : Le [VAR PKNICK(0000)] ennemi est pris dans l’étreinte du [VAR PKNICK(0001)] ennemi !
+813 : [VAR PKNICK(0000)] est ligoté par [VAR PKNICK(0001)] !
+814 : [VAR PKNICK(0000)] est ligoté par le [VAR PKNICK(0001)] sauvage !
+815 : [VAR PKNICK(0000)] est ligoté par le [VAR PKNICK(0001)] ennemi !
+816 : Le [VAR PKNICK(0000)] sauvage est ligoté par [VAR PKNICK(0001)] !
+817 : Le [VAR PKNICK(0000)] sauvage est ligoté par le [VAR PKNICK(0001)] sauvage !
+818 : Le [VAR PKNICK(0000)] ennemi est ligoté par [VAR PKNICK(0001)] !
+819 : Le [VAR PKNICK(0000)] ennemi est ligoté par le [VAR PKNICK(0001)] ennemi !
+820 : [VAR PKNICK(0000)] est pris dans le Claquoir de [VAR PKNICK(0001)] !
+821 : [VAR PKNICK(0000)] est pris dans le Claquoir du [VAR PKNICK(0001)] sauvage !
+822 : [VAR PKNICK(0000)] est pris dans le Claquoir du [VAR PKNICK(0001)] ennemi !
+823 : Le [VAR PKNICK(0000)] sauvage est pris dans le Claquoir de [VAR PKNICK(0001)] !
+824 : Le [VAR PKNICK(0000)] sauvage est pris dans le Claquoir du [VAR PKNICK(0001)] sauvage !
+825 : Le [VAR PKNICK(0000)] ennemi est pris dans le Claquoir de [VAR PKNICK(0001)] !
+826 : Le [VAR PKNICK(0000)] ennemi est pris dans le Claquoir du [VAR PKNICK(0001)] ennemi !
+827 : [VAR PKNICK(0000)] est piégé dans le tourbillon !
+828 : Le [VAR PKNICK(0000)] sauvage est piégé dans le tourbillon !
+829 : Le [VAR PKNICK(0000)] ennemi est piégé dans le tourbillon !
+830 : [VAR PKNICK(0000)] est piégé dans un tourbillon de feu !
+831 : Le [VAR PKNICK(0000)] sauvage est piégé dans un tourbillon de feu !
+832 : Le [VAR PKNICK(0000)] ennemi est piégé dans un tourbillon de feu !
+833 : [VAR PKNICK(0000)] est piégé dans un tourbillon de magma !
+834 : Le [VAR PKNICK(0000)] sauvage est piégé dans un tourbillon de magma !
+835 : Le [VAR PKNICK(0000)] ennemi est piégé dans un tourbillon de magma !
+836 : [VAR PKNICK(0000)] est piégé par le Tourbi-Sable !
+837 : Le [VAR PKNICK(0000)] sauvage est piégé par le Tourbi-Sable !
+838 : Le [VAR PKNICK(0000)] ennemi est piégé par le Tourbi-Sable !
+839 : [VAR PKNICK(0000)] n’a plus de capacités utilisables !
+840 : Le [VAR PKNICK(0000)] sauvage n’a plus de capacités utilisables !
+841 : Le [VAR PKNICK(0000)] ennemi n’a plus de capacités utilisables !
+842 : [VAR PKNICK(0000)] est protégé par la capacité Rune Protect !
+843 : Le [VAR PKNICK(0000)] sauvage est protégé par la capacité Rune Protect !
+844 : Le [VAR PKNICK(0000)] ennemi est protégé par la capacité Rune Protect !
+845 : [VAR PKNICK(0000)] est protégé par la Brume !
+846 : Le [VAR PKNICK(0000)] sauvage est protégé par la Brume !
+847 : Le [VAR PKNICK(0000)] ennemi est protégé par la Brume !
+848 : [VAR PKNICK(0000)] est traîné de force au combat !
+849 : Le [VAR PKNICK(0000)] sauvage est traîné de force au combat !
+850 : Le [VAR PKNICK(0000)] ennemi est traîné de force au combat !
+851 : Le contrecoup empêche [VAR PKNICK(0000)] de bouger !
+852 : Le contrecoup empêche le [VAR PKNICK(0000)] sauvage de bouger !
+853 : Le contrecoup empêche le [VAR PKNICK(0000)] ennemi de bouger !
+854 : [VAR PKNICK(0000)] est blessé par les Picots !
+855 : Le [VAR PKNICK(0000)] sauvage est blessé par les Picots !
+856 : Le [VAR PKNICK(0000)] ennemi est blessé par les Picots !
+857 : Des pierres pointues transpercent [VAR PKNICK(0000)] !
+858 : Des pierres pointues transpercent le [VAR PKNICK(0000)] sauvage !
+859 : Des pierres pointues transpercent le [VAR PKNICK(0000)] ennemi !
+860 : [VAR PKNICK(0000)] fausse les dimensions !
+861 : Le [VAR PKNICK(0000)] sauvage fausse les dimensions !
+862 : Le [VAR PKNICK(0000)] ennemi fausse les dimensions !
+863 : Le compte à rebours du Requiem de [VAR PKNICK(0000)] descend à [VAR NUM1(0001)] !
+864 : Le compte à rebours du Requiem du [VAR PKNICK(0000)] sauvage descend à [VAR NUM1(0001)] !
+865 : Le compte à rebours du Requiem du [VAR PKNICK(0000)] ennemi descend à [VAR NUM1(0001)] !
+866 : [VAR PKNICK(0000)] est baigné par une lumière blafarde !
+867 : Le [VAR PKNICK(0000)] sauvage est baigné par une lumière blafarde !
+868 : Le [VAR PKNICK(0000)] ennemi est baigné par une lumière blafarde !
+869 : [VAR PKNICK(0000)] est entouré d’un air glacial !
+870 : Le [VAR PKNICK(0000)] sauvage est entouré d’un air glacial !
+871 : Le [VAR PKNICK(0000)] ennemi est entouré d’un air glacial !
+872 : [VAR PKNICK(0000)] rend la fuite impossible grâce à son talent [VAR ABILITY(0001)] !
+873 : Le [VAR PKNICK(0000)] sauvage rend la fuite impossible grâce à son talent [VAR ABILITY(0001)] !
+874 : Le [VAR PKNICK(0000)] ennemi rend la fuite impossible grâce à son talent [VAR ABILITY(0001)] !
+875 : [VAR PKNICK(0000)] ne peut plus s’échapper !
+876 : Le [VAR PKNICK(0000)] sauvage ne peut plus s’échapper !
+877 : Le [VAR PKNICK(0000)] ennemi ne peut plus s’échapper !
+878 : [VAR PKNICK(0000)] ne peut pas s’échapper !
+879 : Le [VAR PKNICK(0000)] sauvage ne peut pas s’échapper !
+880 : Le [VAR PKNICK(0000)] ennemi ne peut pas s’échapper !
+881 : [VAR PKNICK(0000)] empêche les changements grâce à son talent [VAR ABILITY(0001)] !
+882 : Le [VAR PKNICK(0000)] sauvage empêche les changements grâce à son talent [VAR ABILITY(0001)] !
+883 : Le [VAR PKNICK(0000)] ennemi empêche les changements grâce à son talent [VAR ABILITY(0001)] !
+884 : [VAR PKNICK(0000)] ne peut pas guérir !
+885 : Le [VAR PKNICK(0000)] sauvage ne peut pas guérir !
+886 : Le [VAR PKNICK(0000)] ennemi ne peut pas guérir !
+887 : [VAR PKNICK(0000)] peut à nouveau guérir !
+888 : Le [VAR PKNICK(0000)] sauvage peut à nouveau guérir !
+889 : Le [VAR PKNICK(0000)] ennemi peut à nouveau guérir !
+890 : [VAR PKNICK(0000)] ne peut pas guérir à cause d’Anti-Soin !
+891 : Le [VAR PKNICK(0000)] sauvage ne peut pas guérir à cause d’Anti-Soin !
+892 : Le [VAR PKNICK(0000)] ennemi ne peut pas guérir à cause d’Anti-Soin !
+893 : [VAR PKNICK(0000)] ne peut pas utiliser la capacité [VAR MOVE(0001)] à cause d’Anti-Soin !
+894 : Le [VAR PKNICK(0000)] sauvage ne peut pas utiliser la capacité [VAR MOVE(0001)] à cause d’Anti-Soin !
+895 : Le [VAR PKNICK(0000)] ennemi ne peut pas utiliser la capacité [VAR MOVE(0001)] à cause d’Anti-Soin !
+896 : Les PV de [VAR PKNICK(0000)] sont au maximum !
+897 : Les PV du [VAR PKNICK(0000)] sauvage sont au maximum !
+898 : Les PV du [VAR PKNICK(0000)] ennemi sont au maximum !
+899 : [VAR PKNICK(0000)] prend le type [VAR TYPE(0001)] !
+900 : Le [VAR PKNICK(0000)] sauvage prend le type [VAR TYPE(0001)] !
+901 : Le [VAR PKNICK(0000)] ennemi prend le type [VAR TYPE(0001)] !
+902 : [VAR PKNICK(0000)] gagne le type [VAR TYPE(0001)].
+903 : Le [VAR PKNICK(0000)] sauvage gagne le type [VAR TYPE(0001)].
+904 : Le [VAR PKNICK(0000)] ennemi gagne le type [VAR TYPE(0001)].
+905 : L’énergie de [VAR PKNICK(0000)] est drainée !
+906 : L’énergie du [VAR PKNICK(0000)] sauvage est drainée !
+907 : L’énergie du [VAR PKNICK(0000)] ennemi est drainée !
+908 : [VAR PKNICK(0000)] s’écrase au sol !
+909 : Le [VAR PKNICK(0000)] sauvage s’écrase au sol !
+910 : Le [VAR PKNICK(0000)] ennemi s’écrase au sol !
+911 : Impossible pour [VAR PKNICK(0000)] d’utiliser la capacité [VAR MOVE(0001)] !
+912 : Impossible pour le [VAR PKNICK(0000)] sauvage d’utiliser la capacité [VAR MOVE(0001)] !
+913 : Impossible pour le [VAR PKNICK(0000)] ennemi d’utiliser la capacité [VAR MOVE(0001)] !
+914 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] restaure[VAR NUMBRNCH(0001,0200)]nt son énergie !
+915 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage restaure[VAR NUMBRNCH(0001,0200)]nt son énergie !
+916 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi restaure[VAR NUMBRNCH(0001,0200)]nt son énergie !
+917 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] restaure[VAR NUMBRNCH(0001,0200)]nt les PP de sa capacité [VAR MOVE(0002)] !
+918 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage restaure[VAR NUMBRNCH(0001,0200)]nt les PP de sa capacité [VAR MOVE(0002)] !
+919 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi restaure[VAR NUMBRNCH(0001,0200)]nt les PP de sa capacité [VAR MOVE(0002)] !
+920 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] restaure[VAR NUMBRNCH(0001,0200)]nt un peu ses PV !
+921 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage restaure[VAR NUMBRNCH(0001,0200)]nt un peu ses PV !
+922 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi restaure[VAR NUMBRNCH(0001,0200)]nt un peu ses PV !
+923 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] le guéri[VAR NUMBRNCH(0001,0400)]ssent de son empoisonnement !
+924 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage le guéri[VAR NUMBRNCH(0001,0400)]ssent de son empoisonnement !
+925 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi le guéri[VAR NUMBRNCH(0001,0400)]ssent de son empoisonnement !
+926 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] le sort[VAR NUMBRNCH(0001,0300)]ent de sa paralysie !
+927 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage le sort[VAR NUMBRNCH(0001,0300)]ent de sa paralysie !
+928 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi le sort[VAR NUMBRNCH(0001,0300)]ent de sa paralysie !
+929 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] le réveille[VAR NUMBRNCH(0001,0200)]nt !
+930 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage le réveille[VAR NUMBRNCH(0001,0200)]nt !
+931 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi le réveille[VAR NUMBRNCH(0001,0200)]nt !
+932 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] le dégèle[VAR NUMBRNCH(0001,0200)]nt !
+933 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage le dégèle[VAR NUMBRNCH(0001,0200)]nt !
+934 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi le dégèle[VAR NUMBRNCH(0001,0200)]nt !
+935 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] le guéri[VAR NUMBRNCH(0001,0400)]ssent de sa brûlure !
+936 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage le guéri[VAR NUMBRNCH(0001,0400)]ssent de sa brûlure !
+937 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi le guéri[VAR NUMBRNCH(0001,0400)]ssent de sa brûlure !
+938 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] le tire[VAR NUMBRNCH(0001,0200)]nt de sa confusion !
+939 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage le tire[VAR NUMBRNCH(0001,0200)]nt de sa confusion !
+940 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi le tire[VAR NUMBRNCH(0001,0200)]nt de sa confusion !
+941 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont faner son amour !
+942 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont faner son amour !
+943 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont faner son amour !
+944 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont augmenter son Attaque !
+945 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont augmenter son Attaque !
+946 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont augmenter son Attaque !
+947 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Défense !
+948 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Défense !
+949 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Défense !
+950 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont augmenter son Attaque Spéciale !
+951 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont augmenter son Attaque Spéciale !
+952 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont augmenter son Attaque Spéciale !
+953 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Défense Spéciale !
+954 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Défense Spéciale !
+955 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Défense Spéciale !
+956 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Vitesse !
+957 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Vitesse !
+958 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Vitesse !
+959 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Précision !
+960 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Précision !
+961 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont augmenter sa Précision !
+962 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont augmenter son Esquive !
+963 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont augmenter son Esquive !
+964 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont augmenter son Esquive !
+965 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter son Attaque !
+966 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter son Attaque !
+967 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter son Attaque !
+968 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Défense !
+969 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Défense !
+970 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Défense !
+971 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter son Attaque Spéciale !
+972 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter son Attaque Spéciale !
+973 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter son Attaque Spéciale !
+974 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Défense Spéciale !
+975 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Défense Spéciale !
+976 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Défense Spéciale !
+977 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Vitesse !
+978 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Vitesse !
+979 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Vitesse !
+980 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Précision !
+981 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Précision !
+982 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter sa Précision !
+983 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter son Esquive !
+984 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter son Esquive !
+985 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont beaucoup augmenter son Esquive !
+986 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter son Attaque !
+987 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter son Attaque !
+988 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter son Attaque !
+989 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Défense !
+990 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Défense !
+991 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Défense !
+992 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter son Attaque Spéciale !
+993 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter son Attaque Spéciale !
+994 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter son Attaque Spéciale !
+995 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Défense Spéciale !
+996 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Défense Spéciale !
+997 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Défense Spéciale !
+998 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Vitesse !
+999 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Vitesse !
+1000 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Vitesse !
+1001 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Précision !
+1002 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Précision !
+1003 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter sa Précision !
+1004 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter son Esquive !
+1005 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter son Esquive !
+1006 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi f[VAR NUMBRNCH(0001,0202)]aiont énormément augmenter son Esquive !
+1007 : [VAR PKNICK(0000)] est plein d’énergie grâce [VAR 1404(0001)][VAR ITEM2(0001)] !
+1008 : Le [VAR PKNICK(0000)] sauvage est plein d’énergie grâce [VAR 1404(0001)][VAR ITEM2(0001)] !
+1009 : Le [VAR PKNICK(0000)] ennemi est plein d’énergie grâce [VAR 1404(0001)][VAR ITEM2(0001)] !
+1010 : [VAR PKNICK(0000)] fuit en utilisant [VAR 1400(0001)][VAR ITEM2(0001)] !
+1011 : Le [VAR PKNICK(0000)] sauvage fuit en utilisant [VAR 1402(0001)][VAR ITEM2(0001)] !
+1012 : Le [VAR PKNICK(0000)] ennemi fuit en utilisant [VAR 1402(0001)][VAR ITEM2(0001)] !
+1013 : [VAR PKNICK(0000)] tient bon grâce [VAR 1404(0001)][VAR ITEM2(0001)] !
+1014 : Le [VAR PKNICK(0000)] sauvage tient bon grâce [VAR 1404(0001)][VAR ITEM2(0001)] !
+1015 : Le [VAR PKNICK(0000)] ennemi tient bon grâce [VAR 1404(0001)][VAR ITEM2(0001)] !
+1016 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] le f[VAR NUMBRNCH(0001,0202)]aiont revenir à la normale.
+1017 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage le f[VAR NUMBRNCH(0001,0202)]aiont revenir à la normale.
+1018 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi le f[VAR NUMBRNCH(0001,0202)]aiont revenir à la normale.
+1019 : [VAR PKNICK(0000)] perd quelques PV !
+1020 : Le [VAR PKNICK(0000)] sauvage perd quelques PV !
+1021 : Le [VAR PKNICK(0000)] ennemi perd quelques PV !
+1022 : … Mais [VAR PKNICK(0000)] n’était plus là !
+1023 : … Mais le [VAR PKNICK(0000)] sauvage n’était plus là !
+1024 : … Mais le [VAR PKNICK(0000)] ennemi n’était plus là !
+1025 : … Mais [VAR PKNICK(0000)] n’avait plus d’objet !
+1026 : … Mais le [VAR PKNICK(0000)] sauvage n’avait plus d’objet !
+1027 : … Mais le [VAR PKNICK(0000)] ennemi n’avait plus d’objet !
+1028 : [VAR PKNICK(0000)] est complètement chargé grâce [VAR 1404(0001)][VAR ITEM2(0001)] !
+1029 : Le [VAR PKNICK(0000)] sauvage est complètement chargé grâce [VAR 1404(0001)][VAR ITEM2(0001)] !
+1030 : Le [VAR PKNICK(0000)] ennemi est complètement chargé grâce [VAR 1404(0001)][VAR ITEM2(0001)] !
+1031 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] lui permet[VAR NUMBRNCH(0001,0400)]tent d’agir en premier !
+1032 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage lui permet[VAR NUMBRNCH(0001,0400)]tent d’agir en premier !
+1033 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi lui permet[VAR NUMBRNCH(0001,0400)]tent d’agir en premier !
+1034 : [VAR PKNICK(0000)] augmente la Précision de sa prochaine capacité grâce à [VAR 1402(0001)][VAR ITEM2(0001)] !
+1035 : Le [VAR PKNICK(0000)] sauvage augmente la Précision de sa prochaine capacité grâce à [VAR 1402(0001)][VAR ITEM2(0001)] !
+1036 : Le [VAR PKNICK(0000)] ennemi augmente la Précision de sa prochaine capacité grâce à [VAR 1402(0001)][VAR ITEM2(0001)] !
+1037 : [VAR 1401(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] blesse[VAR NUMBRNCH(0002,0200)]nt [VAR PKNICK(0000)] !
+1038 : [VAR 1401(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] sauvage blesse[VAR NUMBRNCH(0002,0200)]nt [VAR PKNICK(0000)] !
+1039 : [VAR 1401(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] ennemi blesse[VAR NUMBRNCH(0002,0200)]nt [VAR PKNICK(0000)] !
+1040 : [VAR 1401(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] blesse[VAR NUMBRNCH(0002,0200)]nt le [VAR PKNICK(0000)] sauvage !
+1041 : [VAR 1401(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] sauvage blesse[VAR NUMBRNCH(0002,0200)]nt le [VAR PKNICK(0000)] sauvage !
+1042 : [VAR 1401(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] blesse[VAR NUMBRNCH(0002,0200)]nt le [VAR PKNICK(0000)] ennemi !
+1043 : [VAR 1401(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] ennemi blesse[VAR NUMBRNCH(0002,0200)]nt le [VAR PKNICK(0000)] ennemi !
+1044 : [VAR PKNICK(0000)] est blessé par [VAR 1400(0001)][VAR ITEM2(0001)] !
+1045 : Le [VAR PKNICK(0000)] sauvage est blessé par [VAR 1400(0001)][VAR ITEM2(0001)] !
+1046 : Le [VAR PKNICK(0000)] ennemi est blessé par [VAR 1400(0001)][VAR ITEM2(0001)] !
+1047 : [VAR PKNICK(0000)] se gonfle !
+1048 : Le [VAR PKNICK(0000)] sauvage se gonfle !
+1049 : Le [VAR PKNICK(0000)] ennemi se gonfle !
+1050 : [VAR PKNICK(0000)] est prêt à aider [VAR PKNICK(0001)] !
+1051 : Le [VAR PKNICK(0000)] sauvage est prêt à aider le [VAR PKNICK(0001)] sauvage !
+1052 : Le [VAR PKNICK(0000)] ennemi est prêt à aider le [VAR PKNICK(0001)] ennemi !
+1053 : [VAR PKNICK(0000)] copie les changements de stats de [VAR PKNICK(0001)] !
+1054 : Le [VAR PKNICK(0000)] sauvage copie les changements de stats de [VAR PKNICK(0001)] !
+1055 : Le [VAR PKNICK(0000)] ennemi copie les changements de stats de [VAR PKNICK(0001)] !
+1056 : [VAR PKNICK(0000)] fait tomber [VAR 1400(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] !
+1057 : [VAR PKNICK(0000)] fait tomber [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] sauvage !
+1058 : [VAR PKNICK(0000)] fait tomber [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] ennemi !
+1059 : Le [VAR PKNICK(0000)] sauvage fait tomber [VAR 1400(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] !
+1060 : Le [VAR PKNICK(0000)] sauvage fait tomber [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] sauvage !
+1061 : Le [VAR PKNICK(0000)] ennemi fait tomber [VAR 1400(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] !
+1062 : Le [VAR PKNICK(0000)] ennemi fait tomber [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] ennemi !
+1063 : [VAR PKNICK(0000)] vole [VAR 1400(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] !
+1064 : [VAR PKNICK(0000)] vole [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] sauvage !
+1065 : [VAR PKNICK(0000)] vole [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] ennemi !
+1066 : Le [VAR PKNICK(0000)] sauvage vole [VAR 1400(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] !
+1067 : Le [VAR PKNICK(0000)] sauvage vole [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] sauvage !
+1068 : Le [VAR PKNICK(0000)] ennemi vole [VAR 1400(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] !
+1069 : Le [VAR PKNICK(0000)] ennemi vole [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] ennemi !
+1070 : [VAR PKNICK(0000)] sacrifie des PV et lance une Malédiction à [VAR PKNICK(0001)] !
+1071 : [VAR PKNICK(0000)] sacrifie des PV et lance une Malédiction au [VAR PKNICK(0001)] sauvage !
+1072 : [VAR PKNICK(0000)] sacrifie des PV et lance une Malédiction au [VAR PKNICK(0001)] ennemi !
+1073 : Le [VAR PKNICK(0000)] sauvage sacrifie des PV et lance une Malédiction à [VAR PKNICK(0001)] !
+1074 : Le [VAR PKNICK(0000)] sauvage sacrifie des PV et lance une Malédiction au [VAR PKNICK(0001)] sauvage !
+1075 : Le [VAR PKNICK(0000)] ennemi sacrifie des PV et lance une Malédiction à [VAR PKNICK(0001)] !
+1076 : Le [VAR PKNICK(0000)] ennemi sacrifie des PV et lance une Malédiction au [VAR PKNICK(0001)] ennemi !
+1077 : [VAR PKNICK(0000)] est touché par la Malédiction !
+1078 : Le [VAR PKNICK(0000)] sauvage est touché par la Malédiction !
+1079 : Le [VAR PKNICK(0000)] ennemi est touché par la Malédiction !
+1080 : [VAR PKNICK(0000)] prévoit une attaque !
+1081 : Le [VAR PKNICK(0000)] sauvage prévoit une attaque !
+1082 : Le [VAR PKNICK(0000)] ennemi prévoit une attaque !
+1083 : [VAR PKNICK(0000)] souhaite le déclenchement de la capacité Carnareket !
+1084 : Le [VAR PKNICK(0000)] sauvage souhaite le déclenchement de la capacité Carnareket !
+1085 : Le [VAR PKNICK(0000)] ennemi souhaite le déclenchement de la capacité Carnareket !
+1086 : [VAR PKNICK(0000)] subit l’attaque [VAR MOVE(0001)] !
+1087 : Le [VAR PKNICK(0000)] sauvage subit l’attaque [VAR MOVE(0001)] !
+1088 : Le [VAR PKNICK(0000)] ennemi subit l’attaque [VAR MOVE(0001)] !
+1089 : [VAR PKNICK(0000)] ne peut pas rester en l’air à cause de la Gravité !
+1090 : Le [VAR PKNICK(0000)] sauvage ne peut pas rester en l’air à cause de la Gravité !
+1091 : Le [VAR PKNICK(0000)] ennemi ne peut pas rester en l’air à cause de la Gravité !
+1092 : [VAR PKNICK(0000)] ne peut pas utiliser la capacité [VAR MOVE(0001)] à cause de la Gravité !
+1093 : Le [VAR PKNICK(0000)] sauvage ne peut pas utiliser la capacité [VAR MOVE(0001)] à cause de la Gravité !
+1094 : Le [VAR PKNICK(0000)] ennemi ne peut pas utiliser la capacité [VAR MOVE(0001)] à cause de la Gravité !
+1095 : [VAR PKNICK(0000)] a pris le même type que [VAR PKNICK(0001)] !
+1096 : [VAR PKNICK(0000)] a pris le même type que le [VAR PKNICK(0001)] sauvage !
+1097 : [VAR PKNICK(0000)] a pris le même type que le [VAR PKNICK(0001)] ennemi !
+1098 : Le [VAR PKNICK(0000)] sauvage a pris le même type que [VAR PKNICK(0001)] !
+1099 : Le [VAR PKNICK(0000)] sauvage a pris le même type que le [VAR PKNICK(0001)] sauvage !
+1100 : Le [VAR PKNICK(0000)] ennemi a pris le même type que [VAR PKNICK(0001)] !
+1101 : Le [VAR PKNICK(0000)] ennemi a pris le même type que le [VAR PKNICK(0001)] ennemi !
+1102 : [VAR PKNICK(0000)] partage ses forces avec sa cible !
+1103 : Le [VAR PKNICK(0000)] sauvage partage ses forces avec sa cible !
+1104 : Le [VAR PKNICK(0000)] ennemi partage ses forces avec sa cible !
+1105 : [VAR PKNICK(0000)] partage sa garde avec sa cible !
+1106 : Le [VAR PKNICK(0000)] sauvage partage sa garde avec sa cible !
+1107 : Le [VAR PKNICK(0000)] ennemi partage sa garde avec sa cible !
+1108 : [VAR PKNICK(0000)] est devenu très vif !
+1109 : Le [VAR PKNICK(0000)] sauvage est devenu très vif !
+1110 : Le [VAR PKNICK(0000)] ennemi est devenu très vif !
+1111 : [VAR PKNICK(0000)] est arrosé d’une gerbe de flammes !
+1112 : Le [VAR PKNICK(0000)] sauvage est arrosé d’une gerbe de flammes !
+1113 : Le [VAR PKNICK(0000)] ennemi est arrosé d’une gerbe de flammes !
+1114 : [VAR 1401(0001)][VAR ITEM2(0001)] de [VAR PKNICK(0000)] [VAR 1102(0001,0C0B,0E0D)]est détruitest détruitesont détruitssont détruites par le feu !
+1115 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] sauvage [VAR 1102(0001,0C0B,0E0D)]est détruitest détruitesont détruitssont détruites par le feu !
+1116 : [VAR 1401(0001)][VAR ITEM2(0001)] du [VAR PKNICK(0000)] ennemi [VAR 1102(0001,0C0B,0E0D)]est détruitest détruitesont détruitssont détruites par le feu !
+1117 : [VAR PKNICK(0000)] obtient [VAR 1400(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] !
+1118 : [VAR PKNICK(0000)] obtient [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] sauvage !
+1119 : [VAR PKNICK(0000)] obtient [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] ennemi !
+1120 : Le [VAR PKNICK(0000)] sauvage obtient [VAR 1400(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] !
+1121 : Le [VAR PKNICK(0000)] sauvage obtient [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] sauvage !
+1122 : Le [VAR PKNICK(0000)] ennemi obtient [VAR 1400(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0001)] !
+1123 : Le [VAR PKNICK(0000)] ennemi obtient [VAR 1400(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0001)] ennemi !
+1124 : [VAR PKNICK(0000)] emporte [VAR PKNICK(0001)] haut dans le ciel !
+1125 : [VAR PKNICK(0000)] emporte le [VAR PKNICK(0001)] sauvage haut dans le ciel !
+1126 : [VAR PKNICK(0000)] emporte le [VAR PKNICK(0001)] ennemi haut dans le ciel !
+1127 : Le [VAR PKNICK(0000)] sauvage emporte [VAR PKNICK(0001)] haut dans le ciel !
+1128 : Le [VAR PKNICK(0000)] sauvage emporte le [VAR PKNICK(0001)] sauvage haut dans le ciel !
+1129 : Le [VAR PKNICK(0000)] ennemi emporte [VAR PKNICK(0001)] haut dans le ciel !
+1130 : Le [VAR PKNICK(0000)] ennemi emporte le [VAR PKNICK(0001)] ennemi haut dans le ciel !
+1131 : [VAR PKNICK(0000)] est lâché en Chute Libre !
+1132 : Le [VAR PKNICK(0000)] sauvage est lâché en Chute Libre !
+1133 : Le [VAR PKNICK(0000)] ennemi est lâché en Chute Libre !
+1134 : Touché dans les airs, [VAR PKNICK(0000)] s’écrase au sol !
+1135 : Touché dans les airs, le [VAR PKNICK(0000)] sauvage s’écrase au sol !
+1136 : Touché dans les airs, le [VAR PKNICK(0000)] ennemi s’écrase au sol !
+1137 : [VAR PKNICK(0000)] doit retourner à la queue !
+1138 : Le [VAR PKNICK(0000)] sauvage doit retourner à la queue !
+1139 : Le [VAR PKNICK(0000)] ennemi doit retourner à la queue !
+1140 : [VAR PKNICK(0000)] accepte avec joie !
+1141 : Le [VAR PKNICK(0000)] sauvage accepte avec joie !
+1142 : Le [VAR PKNICK(0000)] ennemi accepte avec joie !
+1143 : [VAR PKNICK(0000)] et [VAR PKNICK(0001)] échangent leur place !
+1144 : Les [VAR PKNICK(0000)] et [VAR PKNICK(0001)] sauvages échangent leur place !
+1145 : Les [VAR PKNICK(0000)] et [VAR PKNICK(0001)] ennemis échangent leur place !
+1146 : Ça fait léviter [VAR PKNICK(0000)] !
+1147 : Ça fait léviter le [VAR PKNICK(0000)] sauvage !
+1148 : Ça fait léviter le [VAR PKNICK(0000)] ennemi !
+1149 : [VAR PKNICK(0000)] est libéré de la capacité Lévikinésie !
+1150 : Le [VAR PKNICK(0000)] sauvage est libéré de la capacité Lévikinésie !
+1151 : Le [VAR PKNICK(0000)] ennemi est libéré de la capacité Lévikinésie !
+1152 : [VAR PKNICK(0000)] attend [VAR PKNICK(0001)]…
+1153 : [VAR PKNICK(0000)] attend le [VAR PKNICK(0001)] sauvage…
+1154 : [VAR PKNICK(0000)] attend le [VAR PKNICK(0001)] ennemi…
+1155 : Le [VAR PKNICK(0000)] sauvage attend [VAR PKNICK(0001)]…
+1156 : Le [VAR PKNICK(0000)] sauvage attend le [VAR PKNICK(0001)] sauvage…
+1157 : Le [VAR PKNICK(0000)] ennemi attend [VAR PKNICK(0001)]…
+1158 : Le [VAR PKNICK(0000)] ennemi attend le [VAR PKNICK(0001)] ennemi…
+1159 : Il est parfaitement synchro avec [VAR PKNICK(0000)] !
+1160 : Il est parfaitement synchro avec le [VAR PKNICK(0000)] sauvage !
+1161 : Il est parfaitement synchro avec le [VAR PKNICK(0000)] ennemi !
+1162 : [VAR PKNICK(0000)] est plongé dans un océan de feu !
+1163 : Le [VAR PKNICK(0000)] sauvage est plongé dans un océan de feu !
+1164 : Le [VAR PKNICK(0000)] ennemi est plongé dans un océan de feu !
+1165 : [VAR 1401(0002)][VAR ITEM2(0002)] de [VAR PKNICK(0000)] réagi[VAR NUMBRNCH(0002,0400)]ssent [VAR 1404(0003)][VAR ITEM2(0003)] de [VAR TRNAME(0001)] !
+1166 : Le [VAR PKNICK(0000)] sauvage réagit [VAR 1404(0002)][VAR ITEM2(0002)] de [VAR TRNAME(0001)].
+1167 : [VAR 1401(0002)][VAR ITEM2(0002)] du [VAR PKNICK(0000)] ennemi réagi[VAR NUMBRNCH(0002,0400)]ssent [VAR 1404(0003)][VAR ITEM2(0003)] de [VAR TRNAME(0001)] !
+1168 : [VAR PKNICK(0000)] méga-évolue en Méga-[VAR PKNAME(0001)] !
+1169 : Le [VAR PKNICK(0000)] sauvage méga-évolue en Méga-[VAR PKNAME(0001)] !
+1170 : Le [VAR PKNICK(0000)] ennemi méga-évolue en Méga-[VAR PKNAME(0001)] !
+1171 : [~ 1171]
+1172 : [~ 1172]
+1173 : [~ 1173]
+1174 : [~ 1174]
+1175 : [~ 1175]
+1176 : [~ 1176]
+1177 : Les changements de stats de [VAR PKNICK(0000)] sont inversés !
+1178 : Les changements de stats du [VAR PKNICK(0000)] sauvage sont inversés !
+1179 : Les changements de stats du [VAR PKNICK(0000)] ennemi sont inversés !
+1180 : [VAR PKNICK(0000)] est protégé par le Flora-Voile !
+1181 : Le [VAR PKNICK(0000)] sauvage est protégé par le Flora-Voile !
+1182 : Le [VAR PKNICK(0000)] ennemi est protégé par le Flora-Voile !
+1183 : [VAR PKNICK(0000)] est protégé par Aroma-Voile !
+1184 : Le [VAR PKNICK(0000)] sauvage est protégé par Aroma-Voile !
+1185 : Le [VAR PKNICK(0000)] ennemi est protégé par Aroma-Voile !
+1186 : Le Gluco-Voile empêche [VAR PKNICK(0000)] de dormir !
+1187 : Le Gluco-Voile empêche le [VAR PKNICK(0000)] sauvage de dormir !
+1188 : Le Gluco-Voile empêche le [VAR PKNICK(0000)] ennemi de dormir !
+1189 : [VAR PKNICK(0000)] se prépare à utiliser un tatami pour bloquer les attaques !
+1190 : Le [VAR PKNICK(0000)] sauvage se prépare à utiliser un tatami pour bloquer les attaques !
+1191 : Le [VAR PKNICK(0000)] ennemi se prépare à utiliser un tatami pour bloquer les attaques !
+1192 : [VAR PKNICK(0000)] ne peut pas utiliser cette capacité… Il doit d’abord tenir une Baie et la manger.
+1193 : Le [VAR PKNICK(0000)] sauvage ne peut pas utiliser cette capacité… Il doit d’abord tenir une Baie et la manger.
+1194 : Le [VAR PKNICK(0000)] ennemi ne peut pas utiliser cette capacité… Il doit d’abord tenir une Baie et la manger.
+1195 : L’Électrisation donne le type Électrik à la prochaine capacité de [VAR PKNICK(0000)] !
+1196 : L’Électrisation donne le type Électrik à la prochaine capacité du [VAR PKNICK(0000)] sauvage !
+1197 : L’Électrisation donne le type Électrik à la prochaine capacité du [VAR PKNICK(0000)] ennemi !
+1198 : [VAR PKNICK(0000)] est protégé de la capacité [VAR MOVE(0002)] par [VAR 1400(0001)][VAR ITEM2(0001)] !
+1199 : Le [VAR PKNICK(0000)] sauvage est protégé de la capacité [VAR MOVE(0002)] par [VAR 1402(0001)][VAR ITEM2(0001)] !
+1200 : Le [VAR PKNICK(0000)] ennemi est protégé de la capacité [VAR MOVE(0002)] par [VAR 1402(0001)][VAR ITEM2(0001)] !
+1201 : [VAR PKNICK(0000)] dégage une aura de ténèbres !
+1202 : Le [VAR PKNICK(0000)] sauvage dégage une aura de ténèbres !
+1203 : Le [VAR PKNICK(0000)] ennemi dégage une aura de ténèbres !
+1204 : [VAR PKNICK(0000)] dégage une aura enchanteresse !
+1205 : Le [VAR PKNICK(0000)] sauvage dégage une aura enchanteresse !
+1206 : Le [VAR PKNICK(0000)] ennemi dégage une aura enchanteresse !
+1207 : [VAR PKNICK(0000)] est protégé par le Champ Électrifié !
+1208 : Le [VAR PKNICK(0000)] sauvage est protégé par le Champ Électrifié !
+1209 : Le [VAR PKNICK(0000)] ennemi est protégé par le Champ Électrifié !
+1210 : [VAR PKNICK(0000)] est couvert de poudre !
+1211 : Le [VAR PKNICK(0000)] sauvage est couvert de poudre !
+1212 : Le [VAR PKNICK(0000)] ennemi est couvert de poudre !
+1213 : [VAR PKNICK(0000)] concentre son énergie !
+1214 : Le [VAR PKNICK(0000)] sauvage concentre son énergie !
+1215 : Le [VAR PKNICK(0000)] ennemi concentre son énergie !
+1216 : [VAR PKNICK(0000)] s’est blessé en attaquant !
+1217 : Le [VAR PKNICK(0000)] sauvage s’est blessé en attaquant !
+1218 : Le [VAR PKNICK(0000)] ennemi s’est blessé en attaquant !
+1219 : [VAR PKNICK(0000)] donne [VAR 1400(0001)][VAR ITEM2(0001)] à [VAR PKNICK(0002)] !
+1220 : Le [VAR PKNICK(0000)] sauvage donne [VAR 1400(0001)][VAR ITEM2(0001)] à [VAR PKNICK(0002)] !
+1221 : Le [VAR PKNICK(0000)] ennemi donne [VAR 1400(0001)][VAR ITEM2(0001)] à [VAR PKNICK(0002)] !
+1222 : [VAR PKNICK(0000)] est pris dans la Toile Gluante !
+1223 : Le [VAR PKNICK(0000)] sauvage est pris dans la Toile Gluante !
+1224 : Le [VAR PKNICK(0000)] ennemi est pris dans la Toile Gluante !
+1225 : [VAR PKNICK(0000)] est protégé par le Champ Brumeux !
+1226 : Le [VAR PKNICK(0000)] sauvage est protégé par le Champ Brumeux !
+1227 : Le [VAR PKNICK(0000)] ennemi est protégé par le Champ Brumeux !
+1228 : [VAR PKNICK(0000)] est trop lourd pour être emporté !
+1229 : Le [VAR PKNICK(0000)] sauvage est trop lourd pour être emporté !
+1230 : Le [VAR PKNICK(0000)] ennemi est trop lourd pour être emporté !
+1231 : [VAR PKNICK(0000)] inverse toutes les auras !
+1232 : Le [VAR PKNICK(0000)] sauvage inverse toutes les auras !
+1233 : Le [VAR PKNICK(0000)] ennemi inverse toutes les auras !
+1234 : [VAR PKNICK(0000)] est harcelé par [VAR PKNICK(0001)] !
+1235 : [VAR PKNICK(0000)] est harcelé par le [VAR PKNICK(0001)] sauvage !
+1236 : [VAR PKNICK(0000)] est harcelé par le [VAR PKNICK(0001)] ennemi !
+1237 : Le [VAR PKNICK(0000)] sauvage est harcelé par [VAR PKNICK(0001)] !
+1238 : Le [VAR PKNICK(0000)] sauvage est harcelé par le [VAR PKNICK(0001)] sauvage !
+1239 : Le [VAR PKNICK(0000)] ennemi est harcelé par [VAR PKNICK(0001)] !
+1240 : Le [VAR PKNICK(0000)] ennemi est harcelé par le [VAR PKNICK(0001)] ennemi !
+1241 : Primo-Résurgence de [VAR PKNICK(0000)] ! Il retrouve son apparence originelle !
+1242 : Primo-Résurgence du [VAR PKNICK(0000)] sauvage ! Il retrouve son apparence originelle !
+1243 : Primo-Résurgence du [VAR PKNICK(0000)] ennemi ! Il retrouve son apparence originelle !
+1244 : Primo-Résurgence de [VAR PKNICK(0000)] ! Il retrouve son apparence originelle !
+1245 : Primo-Résurgence du [VAR PKNICK(0000)] sauvage ! Il retrouve son apparence originelle !
+1246 : Primo-Résurgence du [VAR PKNICK(0000)] ennemi ! Il retrouve son apparence originelle !
+1247 : L’esprit de [VAR TRNAME(0001)] entre en résonance avec la volonté de [VAR PKNICK(0000)] !
+1248 : L’esprit de [VAR TRNAME(0001)] entre en résonance avec la volonté du [VAR PKNICK(0000)] sauvage !
+1249 : L’esprit de [VAR TRNAME(0001)] entre en résonance avec la volonté du [VAR PKNICK(0000)] ennemi !
+1250 : [VAR PKNICK(0000)] méga-évolue en Méga-[VAR PKNAME(0001)] !
+1251 : Le [VAR PKNICK(0000)] sauvage méga-évolue en Méga-[VAR PKNAME(0001)] !
+1252 : Le [VAR PKNICK(0000)] ennemi méga-évolue en Méga-[VAR PKNAME(0001)] !

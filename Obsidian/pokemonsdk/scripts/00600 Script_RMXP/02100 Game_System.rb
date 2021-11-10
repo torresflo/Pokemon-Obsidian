@@ -134,12 +134,7 @@ class Game_System
   # Returns the name of the window skin
   # @return [String] The name of the window skin
   def windowskin_name
-    if @windowskin_name == nil
-      #windowskin = $data_system.windowskin_name
-      return Window_Message::WindowSkin#RPG::Cache.windowskin_exist?(windowskin) ? windowskin : Window_Message::WindowSkin
-    else
-      return @windowskin_name
-    end
+    return @windowskin_name || 'message'
   end
   # Sets the name of the window skin
   # @param windowskin_name [String] The name of the window skin

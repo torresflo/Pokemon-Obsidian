@@ -1,0 +1,16 @@
+0 : Bonjour ! Bienvenue au Centre Pokémon, où nous soignons les Pokémon. Voulez-vous que nous nous occupions de votre équipe ?
+1 : Bonjour ! Bienvenue au Centre Pokémon, où nous soignons les Pokémon. Voulez-vous que nous nous occupions de votre équipe ?
+2 : Bonjour ! Bienvenue au Centre Pokémon, où nous soignons les Pokémon. Voulez-vous que nous nous occupions de votre équipe ?
+3 : Très bien ! Confiez-moi votre équipe un instant.
+4 : Merci d’avoir attendu. Votre équipe a retrouvé la santé !
+5 : À bientôt !
+6 : [~ 6]
+7 : Joyeux anniversaire ! Le Centre Pokémon est toujours heureux de pouvoir vous servir ! Voulez-vous que nous nous occupions de votre équipe ?
+8 : [~ 8]
+9 : Bonjour ! Bienvenue au Centre Pokémon, où nous soignons les Pokémon. Voulez-vous…
+10 : Cette… Carte de Dresseur ! Quelle couleur ! Et ce brillant ! J’ai déjà vu plusieurs Dresseurs avec une carte Argent… Mais vous les surpassez tous avec cette carte-ci. S’il vous plaît, [VAR TRNAME(0000)], puis-je avoir l’honneur de soigner vos Pokémon ?
+11 : Vous revoilà, [VAR TRNAME(0000)] ! Même chose que d’habitude ?
+12 : Un de vos Pokémon a peut-être attrapé le Pokérus. On sait peu de choses sur le Pokérus, si ce n’est qu’il s’agit d’une forme de vie microscopique se fixant sur les Pokémon. Les Pokémon qui en sont porteurs se développeraient incroyablement bien.
+13 : Ah, vous voici, M[VAR GENDBR(00FF,0B07)]onsieurademoiselle [VAR TRNAME(0000)] ! Bon anniversaire !
+14 : M[VAR GENDBR(00FF,0B07)]onsieurademoiselle [VAR TRNAME(0000)] ! Nous vous souhaitons beaucoup de bonheur pour les jours à venir !
+15 : M[VAR GENDBR(00FF,0B07)]onsieurademoiselle [VAR TRNAME(0000)], aujourd’hui est un jour très spécial. Il passera sûrement très vite, mais profitez-en ! Joyeux anniversaire avec un jour d’avance !

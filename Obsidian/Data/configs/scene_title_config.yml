@@ -1,0 +1,6 @@
+--- !ruby/object:Configs::SceneTitleConfig
+intro_movie_map_id: 43
+bgm_duration: 4418000
+bgm_name: audio/bgm/rosa_title
+language_selection_enabled: true
+control_wait: 0.5

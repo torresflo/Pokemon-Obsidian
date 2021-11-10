@@ -1,9 +1,11 @@
 # The map gameplay scene
 class Scene_Map < GamePlay::Base
   include Hooks
+  include Graphics::FPSBalancer::Marker
   # Access to the spriteset of the map
   # @return [Spriteset_Map]
   attr_reader :spriteset
+
   # Create a new Scene_Map
   def initialize
     super
@@ -13,7 +15,7 @@ class Scene_Map < GamePlay::Base
 
   # Update the scene process
   def update
-    auto_transfert_update
+    Graphics::FPSBalancer.global.run { auto_transfert_update }
     update_graphics
     return false if switched_to_main_rmxp_scene
     return false unless super # Update message window & break if messages are shown
@@ -49,7 +51,12 @@ class Scene_Map < GamePlay::Base
 
   # Display the repel check sequence
   def display_repel_check
-    display_message(parse_text(39, 0))
+    if $bag.item_quantity($game_temp.last_repel_used_id || 0) == 0
+      display_message(parse_text(39, 0))
+    elsif display_message(parse_text(39, 1), 1, text_get(25, 20), text_get(25, 21)) == 0
+      $pokemon_party.set_repel_count(GameData::Item[$game_temp.last_repel_used_id].repel_count)
+      $bag.remove_item($game_temp.last_repel_used_id, 1)
+    end
   end
 
   # Display the end of poisoning sequence
@@ -57,6 +64,12 @@ class Scene_Map < GamePlay::Base
   def display_poison_end(pokemon)
     PFM::Text.set_pknick(pokemon, 0)
     display_message(parse_text(22, 110))
+  end
+
+  # Display text showing pokemon fainted from poison
+  def display_poison_faint(pokemon)
+    PFM::Text.set_pknick(pokemon, 0)
+    display_message(parse_text(22, 185))
   end
 
   # Display the poisoning animation sequence
@@ -96,7 +109,7 @@ class Scene_Map < GamePlay::Base
 
   # Take a snapshot of the scene
   # @note You have to dispose the bitmap you got from this function
-  # @return [Bitmap]
+  # @return [Texture]
   def snap_to_bitmap
     temp_view = Viewport.create(:main)
     # Snapshot of spriteset

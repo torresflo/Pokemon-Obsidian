@@ -48,7 +48,7 @@ class Game_Variables < Array
 
   # Setter
   # @param index [Integer] the index of the variable in the Array
-  # @param v [Integer] the new value of the variable
+  # @param value [Integer] the new value of the variable
   def []=(index, value)
     unless value.is_a?(Integer)
       raise TypeError, "Unexpected #{value.class} value. $game_variables store numbers and nothing else, use $option to store anything else."

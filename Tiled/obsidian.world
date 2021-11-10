@@ -1,56 +1,76 @@
 {
-    "maps":
-	[
+    "maps": [
         {
             "fileName": "amaryllis_city.tmx",
+            "height": 0,
+            "width": 0,
             "x": 0,
             "y": 0
         },
         {
             "fileName": "amaryllis_forest.tmx",
+            "height": 1216,
+            "width": 2656,
             "x": -2656,
             "y": 192
         },
         {
             "fileName": "amaryllis_forest_2.tmx",
-            "x": -3776,
-            "y": -704        
-		},
-		{
+            "height": 2368,
+            "width": 1216,
+            "x": -3840,
+            "y": -704
+        },
+        {
             "fileName": "silverbridge_city.tmx",
-            "x": -4160,
-            "y": -2400
+            "height": 1792,
+            "width": 1696,
+            "x": -4224,
+            "y": -2496
         },
-		{
+        {
             "fileName": "road_101.tmx",
-            "x": -6624,
-            "y": -2400
+            "height": 1792,
+            "width": 2464,
+            "x": -6688,
+            "y": -2496
         },
-		{
+        {
             "fileName": "road_101_2.tmx",
-            "x": -9088,
-            "y": -2400
+            "height": 1792,
+            "width": 2464,
+            "x": -9152,
+            "y": -2496
         },
-		{
+        {
             "fileName": "road_101_3.tmx",
-            "x": -10784,
-            "y": -2400
+            "height": 1792,
+            "width": 1696,
+            "x": -10848,
+            "y": -2496
         },
-		{
+        {
             "fileName": "road_101_4.tmx",
-            "x": -10784,
-            "y": -4224
+            "height": 1824,
+            "width": 1792,
+            "x": -10848,
+            "y": -4320
         },
-		{
+        {
             "fileName": "fusiville_city.tmx",
-            "x": -10944,
-            "y": -5889
+            "height": 1664,
+            "width": 2112,
+            "x": -11008,
+            "y": -5984
         },
-		{
+        {
             "fileName": "road_102.tmx",
+            "height": 1504,
+            "width": 2112,
             "x": -10944,
-            "y": -7389
+            "y": -7488
         }
     ],
+    "onlyShowAdjacentMaps": false,
     "type": "world"
 }

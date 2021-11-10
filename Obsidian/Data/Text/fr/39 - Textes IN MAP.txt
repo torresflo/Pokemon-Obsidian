@@ -1,0 +1,18 @@
+0 : L’effet du répulsif s’est dissipé.
+1 : L’effet du répulsif s’est dissipé. Voulez-vous en utiliser un autre ?
+2 : [VAR TRNAME(0000)] utilise [VAR 1402(0001)][VAR ITEM2(0001)] !
+3 : Vous avez reçu un message sur votre [VAR ITEM2(0000)].
+4 : L’effet de l’[VAR OPOWER(0000)] s’est dissipé.
+5 : On dirait qu’il n’y a pas de Pokémon à proximité.
+6 : Énergie restante : [VAR NUM2(0000)] Marchez pour en accumuler !
+7 : Apparemment, il n’y a rien ici…
+8 : Le Doux Parfum semble s’être dissipé…
+9 : Vous avez ramené la ligne trop vite !
+10 : Vous avez ramené la ligne trop lentement !
+11 : Ça ne mord pas…
+12 : Peut-être qu’en changeant légèrement d’emplacement, ça mordrait plus.
+13 : [VAR TRNAME(0000)] ouvre s[VAR 1102(0001,0102,0202)]onaeses [VAR ITEM2(0001)].
+14 : ABC Aventure - Chapitre 1 Le bouton X permet d’ouvrir le menu. ABC Aventure - Chapitre 2 Sauvegarder permet d’enregistrer sa progression. ABC Aventure - Chapitre 3 Les Poké Balls capturent les Pokémon. ABC Aventure - Chapitre 4 Un Pokémon affaibli est plus simple à capturer. ABC Aventure - Chapitre 5 Les Pokémon s’entraînent en se battant. ABC Aventure - Chapitre 6 Les Centres Pokémon soignent les Pokémon. ABC Aventure - Chapitre 7 Il vaut mieux acheter les objets en gros. ABC Aventure - Chapitre 8 Parlez aux gens que vous rencontrez ! ABC Aventure - Chapitre 9 La Carte permet de retrouver son chemin. ABC Aventure - Chapitre 10 Profitez de votre voyage avec les Pokémon !
+15 : L’effet de l’[VAR OPOWER(0000)] s’est dissipé.
+16 : Ce serait trop dangereux de lâcher prise maintenant !
+17 : Vous ne pouvez pas descendre de selle ici !

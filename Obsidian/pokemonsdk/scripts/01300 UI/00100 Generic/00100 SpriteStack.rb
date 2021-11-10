@@ -15,9 +15,12 @@ module UI
     attr_reader :data
     # Get the stack
     attr_reader :stack
+    # Get the viewport
+    # @return [Viewport]
+    attr_reader :viewport
 
     # Create a new Sprite stack
-    # @param viewport [LiteRGSS::Viewport] the viewport where the sprites will be shown
+    # @param viewport [Viewport] the viewport where the sprites will be shown
     # @param x [Numeric] the x position of the sprite stack
     # @param y [Numeric] the y position of the sprite stack
     # @param default_cache [Symbol] the RPG::Cache function to call when setting the bitmap
@@ -38,12 +41,12 @@ module UI
     # @param ox [Numeric] the ox of the sprite
     # @param oy [Numeric] the oy of the sprite
     # @return [Sprite] the pushed sprite
-    def push(x, y, bmp, *args, rect: nil, type: LiteRGSS::Sprite, ox: 0, oy: 0)
+    def push(x, y, bmp, *args, rect: nil, type: Sprite, ox: 0, oy: 0)
       sprite = type.new(@viewport, *args)
       sprite.set_position(@x + x, @y + y).set_origin(ox, oy)
       sprite.set_bitmap(bmp, @default_cache) if bmp
       sprite.src_rect.set(*rect) if rect.is_a?(Array)
-      sprite.src_rect = rect if rect.is_a?(LiteRGSS::Rect)
+      sprite.src_rect = rect if rect.is_a?(Rect)
       return push_sprite(sprite)
     end
     alias add_sprite push
@@ -58,7 +61,7 @@ module UI
     # @param outlinesize [Integer, nil] the size of the text outline
     # @param type [Class] the type of text
     # @param color [Integer] the id of the color
-    # @return [LiteRGSS::Text] the text object
+    # @return [Text] the text object
     def add_text(x, y, width, height, str, align = 0, outlinesize = Text::Util::DEFAULT_OUTLINE_SIZE, type: Text, color: nil, sizeid: nil)
       height ||= Fonts.line_height(sizeid || @font_id.to_i)
       text = type.new(@font_id.to_i, @viewport, x + @x, y - Text::Util::FOY + @y, width, height, str, align, outlinesize, color, sizeid)
@@ -72,18 +75,18 @@ module UI
     # @param rect [Array, nil] the src_rect.set arguments if required
     # @param type [Class] the class to use to generate the sprite
     # @return [Sprite]
-    def add_background(filename, type: LiteRGSS::Sprite, rect: nil)
+    def add_background(filename, type: Sprite, rect: nil)
       sprite = type.new(@viewport)
       sprite.set_position(@x, @y)
       sprite.set_bitmap(filename, @default_cache)
       sprite.src_rect.set(*rect) if rect.is_a?(Array)
-      sprite.src_rect = rect if rect.is_a?(LiteRGSS::Rect)
+      sprite.src_rect = rect if rect.is_a?(Rect)
       return push_sprite(sprite)
     end
     alias add_foreground add_background
 
     # Push a sprite object to the stack
-    # @param sprite [LiteRGSS::Sprite, LiteRGSS::Text]
+    # @param sprite [Sprite, Text]
     # @return [sprite]
     def push_sprite(sprite)
       @stack << sprite
@@ -158,7 +161,7 @@ module UI
     # @param type [Class] the type of text
     # @param color [Integer] the id of the color
     # @param dx [Integer] offset x to use "table like" display (this value is multiplied by width)
-    # @return [LiteRGSS::Text] the text object
+    # @return [Text] the text object
     def add_line(line_index, str, align = 0, outlinesize = Text::Util::DEFAULT_OUTLINE_SIZE, type: Text, color: nil, dx: 0)
       x = @surface_x + dx * (@surface_width + @surface_offset_width)
       y = @surface_y + line_index * (height = Fonts.line_height(@surface_size_id || @font_id.to_i))
@@ -170,7 +173,7 @@ module UI
 
     # Return an element of the stack
     # @param index [Integer] index of the element in the stack
-    # @return [LiteRGSS::Sprite, LiteRGSS::Text]
+    # @return [Sprite, Text]
     def [](index)
       @stack[index]
     end
@@ -221,7 +224,7 @@ module UI
 
     # Set the origin (does nothing)
     # @param _ox [Integer] new origin x
-    # @parma _oy [Integer] new origin y
+    # @param _oy [Integer] new origin y
     # @note this function is only for compatibility, it does nothing
     def set_origin(_ox, _oy)
       # Does nothing
@@ -245,7 +248,7 @@ module UI
     # @param mx [Numeric] mouse x coordinate
     # @param my [Numeric] mouse y coordinate
     # @return [Boolean]
-    def simple_mouse_in?(mx = LiteRGSS::Mouse.x, my = LiteRGSS::Mouse.y)
+    def simple_mouse_in?(mx = Mouse.x, my = Mouse.y)
       return false if @stack.empty?
       return @stack.first.simple_mouse_in?(mx, my)
     end
@@ -254,7 +257,7 @@ module UI
     # @param mx [Numeric] mouse x coordinate
     # @param my [Numeric] mouse y coordinate
     # @return [Array(Numeric, Numeric)]
-    def translate_mouse_coords(mx = LiteRGSS::Mouse.x, my = LiteRGSS::Mouse.y)
+    def translate_mouse_coords(mx = Mouse.x, my = Mouse.y)
       return 0,0 if @stack.empty?
       return @stack.first.translate_mouse_coords(mx, my)
     end

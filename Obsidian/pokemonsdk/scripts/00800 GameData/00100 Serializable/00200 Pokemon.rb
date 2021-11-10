@@ -68,7 +68,7 @@ module GameData
     # @return [Integer] 0 = No evolution
     attr_accessor :evolution_id
     # Special evolution informations
-    # @return [Hash, nil]
+    # @return [Array<Hash>, nil]
     attr_accessor :special_evolution
     # Index of the Pokemon exp curve (GameData::EXP_TABLE)
     # @return [Integer]

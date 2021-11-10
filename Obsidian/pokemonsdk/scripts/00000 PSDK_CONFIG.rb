@@ -8,7 +8,7 @@ module ScriptLoader
     # @return [String] the game resolution
     attr_reader :native_resolution
     # @return [String] default language of the game
-    attr_reader :default_language_code
+    attr_accessor :default_language_code
     # @return [Array<String>] list of language the player can choose
     attr_reader :choosable_language_code
     # @return [Array<String>] list of language the player can choose (names)
@@ -64,7 +64,6 @@ module ScriptLoader
         instance_variable_set(ivar_name, data.instance_variable_get(ivar_name))
       end
       fix_variables(!data || should_save)
-      adjust_litergss_config
     end
 
     def copy_past_old_project_identity
@@ -94,6 +93,29 @@ module ScriptLoader
       save_data(self, DAT_FILENAME)
     end
 
+    # Function that choose the best resolution
+    # @return [Array<Integer>]
+    def choose_best_resolution
+      return editors_resolution if running_editor?
+
+      native = @native_resolution.split('x').collect(&:to_i)
+      @viewport_offset_x = 0
+      @viewport_offset_y = 0
+      if @running_in_full_screen
+        desired = [native.first * @window_scale, native.last * @window_scale].map(&:round)
+        all_res = LiteRGSS::DisplayWindow.list_resolutions
+        return native if all_res.include?(desired)
+
+        if all_res.include?(native)
+          @window_scale = 1
+          return native
+        end
+        return find_best_matching_resolution(native, desired, all_res)
+      else
+        return native
+      end
+    end
+
     private
 
     # Try to load configs from data or yml
@@ -111,9 +133,9 @@ module ScriptLoader
     def fix_variables(save)
       @game_title = (@game_title || 'Pokémon SDK').to_s
       @game_version = (@game_version || 256).to_i
-      @default_language_code = (@default_language_code || 'en').to_s
       @choosable_language_code ||= %w[en fr es]
       @choosable_language_texts ||= %w[English French Spanish]
+      @default_language_code = guess_language_code
       @maximum_saves = (@maximum_saves || 4).to_i
       @mouse_skin = nil unless @mouse_skin.is_a?(String)
       fix_resolution
@@ -150,6 +172,9 @@ module ScriptLoader
     def fix_scale
       @window_scale = (PARGV[:scale] || @window_scale).to_i
       @window_scale = 2 if @window_scale < 0.1
+      if PARGV[:scale] && ARGV.include?(new_opt = "--scale=#{PARGV[:scale].to_i}")
+        PARGV.update_game_opts(new_opt)
+      end
     end
 
     # Function that fix the fullscreen
@@ -185,51 +210,6 @@ module ScriptLoader
         must_save = true
       end
       return must_save
-    end
-
-    # Function that adjust the liteRGSS configs
-    def adjust_litergss_config
-      resolution = choose_best_resolution
-      param = self
-      Config.module_eval do
-        remove_const :Title if const_defined?(:Title)
-        const_set :Title, param.game_title
-        remove_const :ScreenWidth if const_defined?(:ScreenWidth)
-        const_set :ScreenWidth, resolution.first
-        remove_const :ScreenHeight if const_defined?(:ScreenHeight)
-        const_set :ScreenHeight, resolution.last
-        remove_const :ScreenScale if const_defined?(:ScreenScale)
-        const_set :ScreenScale, param.window_scale
-        remove_const :SmoothScreen if const_defined?(:SmoothScreen)
-        const_set :SmoothScreen, param.smooth_texture
-        remove_const :FullScreen if const_defined?(:FullScreen)
-        const_set :FullScreen, param.running_in_full_screen
-        remove_const :Vsync if const_defined?(:Vsync)
-        const_set :Vsync, param.vsync_enabled
-      end
-    end
-
-    # Function that choose the best resolution
-    # @return [Array<Integer>]
-    def choose_best_resolution
-      return editors_resolution if running_editor?
-
-      native = @native_resolution.split('x').collect(&:to_i)
-      @viewport_offset_x = 0
-      @viewport_offset_y = 0
-      if @running_in_full_screen
-        desired = [native.first * @window_scale, native.last * @window_scale].map(&:round)
-        all_res = Graphics.list_resolutions
-        return native if all_res.include?(desired)
-
-        if all_res.include?(native)
-          @window_scale = 1
-          return native
-        end
-        return find_best_matching_resolution(native, desired, all_res)
-      else
-        return native
-      end
     end
 
     # Return the editor resolution
@@ -274,6 +254,15 @@ module ScriptLoader
              (File.mtime(DAT_FILENAME) < File.mtime(YAML_FILENAME))
     end
 
+    # Function that guess the default language code based on PARGV
+    # @return [String]
+    def guess_language_code
+      return PARGV[:lang] if @choosable_language_code.include?(PARGV[:lang])
+
+      value = @default_language_code || 'en'
+      return @choosable_language_code.include?(value) ? value : (@choosable_language_code.first || 'en')
+    end
+
     # Class describing the tilemap configuation
     class TilemapConfig
       # @return [String] full constant path of the tilemap class (from Object)
@@ -296,6 +285,8 @@ module ScriptLoader
       attr_reader :maplinker_offset_x
       # @return [Integer] number of tile in y to make a proper map transition with map linker
       attr_reader :maplinker_offset_y
+      # @return [Boolean] if the game use old maplinker method
+      attr_reader :old_maplinker
 
       # Create a new TilemapConfig
       def initialize

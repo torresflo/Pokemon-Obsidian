@@ -1,0 +1,84 @@
+0 : Ceriz
+1 : Maron
+2 : Pêcha
+3 : Fraive
+4 : Willia
+5 : Mepo
+6 : Oran
+7 : Kika
+8 : Prine
+9 : Sitrus
+10 : Figuy
+11 : Wiki
+12 : Mago
+13 : Gowav
+14 : Papaya
+15 : Framby
+16 : Remu
+17 : Nanab
+18 : Repoi
+19 : Nanana
+20 : Grena
+21 : Alga
+22 : Qualot
+23 : Lonme
+24 : Résin
+25 : Tamato
+26 : Siam
+27 : Mangou
+28 : Rabuta
+29 : Tronci
+30 : Kiwan
+31 : Palma
+32 : Stekpa
+33 : Durin
+34 : Myrte
+35 : Chocco
+36 : Pocpoc
+37 : Parma
+38 : Ratam
+39 : Nanone
+40 : Pomroz
+41 : Kébia
+42 : Jouca
+43 : Cobaba
+44 : Yapap
+45 : Panga
+46 : Charti
+47 : Sédra
+48 : Fraigo
+49 : Lampou
+50 : Babiri
+51 : Zalis
+52 : Lichii
+53 : Lingan
+54 : Sailak
+55 : Pitaye
+56 : Abriko
+57 : Lansat
+58 : Frista
+59 : Enigma
+60 : Micle
+61 : Chérim
+62 : Jaboca
+63 : Pommo
+64 : Selro
+65 : Éka
+66 : Rangma
+67 : [~ 67]
+68 : [~ 68]
+69 : [~ 69]
+70 : [~ 70]
+71 : [~ 71]
+72 : [~ 72]
+73 : [~ 73]
+74 : [~ 74]
+75 : [~ 75]
+76 : [~ 76]
+77 : [~ 77]
+78 : [~ 78]
+79 : [~ 79]
+80 : [~ 80]
+81 : [~ 81]
+82 : [~ 82]
+83 : [~ 83]

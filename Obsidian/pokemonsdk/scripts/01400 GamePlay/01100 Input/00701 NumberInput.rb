@@ -10,7 +10,7 @@ module GamePlay
     # @param ord [Integer] value of the char in numbers
     # @return [Boolean]
     def char_valid?(ord)
-      ord .between?(48, 57)
+      ord.between?(48, 57)
     end
   end
 end

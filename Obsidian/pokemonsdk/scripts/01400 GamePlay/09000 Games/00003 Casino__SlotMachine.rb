@@ -1,6 +1,6 @@
 module GamePlay
   module Casino
-    class SlotMachine < BaseCleanUpdate
+    class SlotMachine < BaseCleanUpdate::FrameBalanced
       include UI::Casino
       # PAYOUT associated to each values
       PAYOUT_VALUES = {

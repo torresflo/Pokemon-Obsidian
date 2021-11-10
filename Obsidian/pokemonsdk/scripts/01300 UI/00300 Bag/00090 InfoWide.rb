@@ -54,31 +54,31 @@ module UI
         add_sprite(0, 3, NO_INITIAL_IMAGE, type: ItemSprite).set_z(5)
       end
 
-      # @return [LiteRGSS::Sprite]
+      # @return [Sprite]
       def create_cross
         add_sprite(34, 7, 'bag/num_x').set_z(5)
       end
 
-      # @return [LiteRGSS::Text]
+      # @return [Text]
       def create_quantity_text
         text = add_text(41, 1, 0, 13, nil.to_s, color: 10)
         text.z = 5
         return text
       end
 
-      # @return [LiteRGSS::Sprite]
+      # @return [Sprite]
       def create_favorite_icon
         add_sprite(147, 6, 'bag/icon_fav').set_z(5)
       end
 
-      # @return [LiteRGSS::Text]
+      # @return [Text]
       def create_name_text
         text = add_text(34, 17, 0, 13, nil.to_s, color: 24)
         text.z = 5
         return text
       end
 
-      # @return [LiteRGSS::Text]
+      # @return [Text]
       def create_descr_text
         text = add_text(3, 37, 151, 16, nil.to_s)
         text.z = 5

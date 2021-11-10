@@ -1,7 +1,7 @@
 module UI
   module Storage
     # Background of the box
-    class BoxBackground < LiteRGSS::ShaderedSprite
+    class BoxBackground < ShaderedSprite
       # Get current box data
       # @return [PFM::Storage::Box]
       attr_reader :data

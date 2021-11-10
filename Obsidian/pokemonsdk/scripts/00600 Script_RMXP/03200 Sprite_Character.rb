@@ -5,11 +5,13 @@ class Sprite_Character < RPG::Sprite
   # Zoom of a Sprite
   SPRITE_ZOOM = PSDK_CONFIG.tilemap.character_sprite_zoom
   # Tag that disable shadow
-  Shadow_Tag = '§'
+  SHADOW_TAG = '§'
   # Name of the shadow file
-  Shadow_File = '0 Ombre Translucide'
+  SHADOW_FILE = '0 Ombre Translucide'
+  # Enable or disable realistic shadow
+  REALISTIC_SHADOW = true
   # Tag that add 1 to the superiority of the Sprite_Character
-  Sup_Tag = '¤'
+  SUP_TAG = '¤'
   # Blend mode for Reflection
   REFLECTION_BLEND_MODE = BlendMode.new
   REFLECTION_BLEND_MODE.alpha_dest_factor = BlendMode::One
@@ -52,13 +54,13 @@ class Sprite_Character < RPG::Sprite
   # Initialize the add_z info & the shadow sprite of the Sprite_Character
   def init_add_z_shadow
     event = character.instance_variable_get(:@event)
-    return @add_z = 2 if event && event.name.index(Sup_Tag) == 0
+    return @add_z = 2 if event && event.name.index(SUP_TAG) == 0
 
     @add_z = 0
     return unless $game_switches[::Yuki::Sw::CharaShadow]
     return if character.shadow_disabled && event && event.pages.size == 1
 
-    init_shadow if !event || event.name.index(Shadow_Tag) != 0
+    init_shadow if !event || event.name.index(SHADOW_TAG) != 0
   end
 
   # Update every informations about the Sprite_Character
@@ -126,7 +128,7 @@ class Sprite_Character < RPG::Sprite
   # Update the position of the Sprite_Character on the screen
   # @return [Boolean] if the update can continue after the call of this function or not
   def update_position
-    set_position((@character.screen_x * @tile_zoom).floor, (@character.screen_y * @tile_zoom).floor)
+    set_position(@character.screen_x * @tile_zoom, @character.screen_y * @tile_zoom)
     @reflection&.set_position(x, y + ((@character.z - 1) * 32 * @tile_zoom).floor)
     self.z = @character.screen_z(@ch) + @add_z
     return true
@@ -193,7 +195,7 @@ class Sprite_Character < RPG::Sprite
   # Initialize the shadow display
   def init_shadow
     @shadow = Sprite.new(viewport)
-    @shadow.bitmap = bmp = RPG::Cache.character(Shadow_File)
+    @shadow.bitmap = bmp = RPG::Cache.character(SHADOW_FILE)
     @shadow.src_rect.set(0, 0, bmp.width / 4, bmp.height / 4)
     @shadow.ox = bmp.width / 8
     @shadow.oy = bmp.height / 4
@@ -206,7 +208,18 @@ class Sprite_Character < RPG::Sprite
     @shadow.x = @character.shadow_screen_x * @tile_zoom
     @shadow.y = @character.shadow_screen_y * @tile_zoom
     @shadow.z = z - 1
-    @shadow.visible = !@character.jumping? && !@character.shadow_disabled && @character.activated?
+    @shadow.visible = (!@character.jumping? || REALISTIC_SHADOW) && !@character.shadow_disabled && @character.activated?
+
+    if REALISTIC_SHADOW
+      character_offset_y_on_tiles = (@character.shadow_screen_y - @character.screen_y - 2) / 32
+      if character_offset_y_on_tiles < 4
+        @shadow.zoom_x = SPRITE_ZOOM - 0.25 * character_offset_y_on_tiles
+        @shadow.zoom_y = SPRITE_ZOOM - 0.25 * character_offset_y_on_tiles
+      else
+        @shadow.zoom_x = 0
+        @shadow.zoom_y = 0
+      end
+    end
   end
 
   # Dispose the shadow sprite

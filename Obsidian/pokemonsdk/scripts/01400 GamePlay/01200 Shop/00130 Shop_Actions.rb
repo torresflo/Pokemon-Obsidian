@@ -124,7 +124,6 @@ module GamePlay
     end
 
     # Execute the special offer of the shop when the player bough an item
-    # @param item_id [Integer] ID of the item bought
     # @param quantity [Integer] Number of item bought
     def buy_item_special_offer(quantity)
       if (1..16).include?(@list_item[@index]) && quantity >= 10

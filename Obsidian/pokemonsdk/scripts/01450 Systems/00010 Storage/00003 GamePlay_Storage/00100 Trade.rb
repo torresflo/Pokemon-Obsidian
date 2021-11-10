@@ -1,7 +1,7 @@
 module GamePlay
   class PokemonTradeStorage < PokemonStorage
     # Message shown to tell to choose a Pokemon
-    CHOOSE_POKEMON_MESSAGE = 'Choose a Pokemon to trade'
+    CHOOSE_POKEMON_MESSAGE = [:ext_text, 9007, 13] # "Choose a Pokemon to trade."
     # List of option when pressing A
     TRADE_OPTIONS = [
       [:ext_text, 9000, 90], # Trade
@@ -52,15 +52,16 @@ module GamePlay
 
     def choice_trade
       return play_buzzer_se if @current_pokemon.nil?
+      return @utils.display_message(parse_text(33, 118)) if @current_pokemon.absofusionned?
 
       play_decision_se
       choices = PFM::Choice_Helper.new(Yuki::ChoiceWindow::But, true, 999)
       choices
-        .register_choice(get_text(TRADE_OPTIONS[0]), on_validate: method(:trade_pokemon))
-        .register_choice(get_text(TRADE_OPTIONS[1]), on_validate: method(:show_pokemon_summary))
-        .register_choice(get_text(TRADE_OPTIONS[2]))
+        .register_choice(send(*TRADE_OPTIONS[0]), on_validate: method(:trade_pokemon))
+        .register_choice(send(*TRADE_OPTIONS[1]), on_validate: method(:show_pokemon_summary))
+        .register_choice(send(*TRADE_OPTIONS[2]))
 
-      @base_ui.show_win_text(format(get_text(SINGLE_POKEMON_MESSAGE), name: @current_pokemon.given_name))
+      @base_ui.show_win_text(format(send(*SINGLE_POKEMON_MESSAGE), name: @current_pokemon.given_name))
       @base_ui.mode = 7
       choice = choices.display_choice(@viewport, *choice_coordinates(choices), nil, on_update: method(:update_graphics), align_right: true)
       show_pokemon_choice if choice != 0

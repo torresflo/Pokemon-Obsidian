@@ -25,7 +25,7 @@ data.each_index do |i|
   d.each_index do |j|
     str<<sprintf("%d : %s\r\n",j,d[j])
   end
-  f=open(fn+"/"+id_descr[i]+".txt","wb")
+  f=open(fn+"/"+(id_descr[i] || "#{i} unk")+".txt","wb")
   f.write(str)
   f.close
 end

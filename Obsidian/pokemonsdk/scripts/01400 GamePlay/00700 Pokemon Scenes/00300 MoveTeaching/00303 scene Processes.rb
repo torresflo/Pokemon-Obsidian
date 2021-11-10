@@ -97,8 +97,8 @@ module GamePlay
       # You're good with having it forget xxx?
       c = display_forget_question
       if c == 0
-        @pokemon.replace_skill_index(@index, @skill_learn.id)
         display_move_forgotten_new_move_learnt
+        @pokemon.replace_skill_index(@index, @skill_learn.id)
         @learnt = true
         @running = false
         battle_check

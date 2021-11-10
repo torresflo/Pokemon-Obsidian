@@ -1,0 +1,29 @@
+0 : [VAR 01C4(0000)]
+1 : [VAR TRNAME(0000)]
+2 : [VAR 01C4(0000)]
+3 : Pokédex
+4 : Enregistré[VAR 1100(00FF,0100)]e le
+5 : Début de l’aventure
+6 : [VAR NUM3(0000)]
+7 : [VAR NUM3(0000)]:[VAR NUM2(0001)]
+8 : [VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR 0203(0000,0000)]
+9 : Nº ID
+10 : [VAR 0205(0000,0000)]
+11 : [~ 11]
+12 : [~ 12]
+13 : [~ 13]
+14 : [~ 14]
+15 : [~ 15]
+16 : [~ 16]
+17 : [~ 17]
+18 : Currydex :
+19 : [VAR NUM3(0000)] type[VAR NUMBRNCH(0000,0100)]s de currys
+20 : Meilleur score au Moti-Rallye :
+21 : [VAR 0204(0000,202F)] point[VAR NUMBRNCH(0000,0100)]s
+22 : Nombre total de captures :
+23 : [VAR 0204(0000,202F)]
+24 : Pokémon chromatiques vus :
+25 : [VAR 0204(0000,202F)] espèce[VAR NUMBRNCH(0000,0100)]s
+26 : [~ 26]
+27 : Premier Pokémon
+28 : [~ 28]

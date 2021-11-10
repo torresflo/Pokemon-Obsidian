@@ -55,11 +55,23 @@ module Kernel
   # @param message [String]
   # @return [String] the message
   def log_debug(message)
-    return unless debug?
+    return nil.to_s unless debug?
 
     rc = binding.receiver
     rc = rc.is_a?(Module) ? rc : rc.class
     pcc "[#{rc}] #{message}", 0x06
+    return message
+  end
+
+  # Display a data message in debug
+  # @param message [String]
+  # @return [String] the message
+  def log_data(message)
+    return nil.to_s unless debug?
+
+    rc = binding.receiver
+    rc = rc.is_a?(Module) ? rc : rc.class
+    pcc "[#{rc}] #{message}", 0x03
     return message
   end
 

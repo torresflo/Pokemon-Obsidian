@@ -14,7 +14,7 @@ module PFM
         $scene.display_message(parse_text(22, 108))
       end
     end,
-    "soft-boiled": milk_drink,
+    soft_boiled: milk_drink,
     sweet_scent: proc do |_pkmn, _skill, test = false|
       next false if test
       if $env.normal?

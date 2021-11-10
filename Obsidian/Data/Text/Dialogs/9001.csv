@@ -1,922 +1,1609 @@
-en,fr,de,es,it,kana,ko
-None,???,Nichts,Ningún objeto,Niente,なし,없음
-Master Balls,Master Balls,Meisterbälle,Master Balls,Master Ball,マスターボール,마스터볼
-Ultra Balls,Hyper Balls,Hyperbälle,Ultra Balls,Ultra Ball,ハイパーボール,하이퍼볼
-Great Balls,Super Balls,Superbälle,Super Balls,Mega Ball,スーパーボール,수퍼볼
-Poké Balls,Poké Balls,Pokébälle,Poké Balls,Poké Ball,モンスターボール,몬스터볼
-Safari Balls,Safari Balls,Safaribälle,Safari Balls,Safari Ball,サファリボール,사파리볼
-Net Balls,Filet Balls,Netzbälle,Malla Balls,Rete Ball,ネットボール,넷트볼
-Dive Balls,Scuba Balls,Tauchbälle,Buceo Balls,Sub Ball,ダイブボール,다이브볼
-Nest Balls,Faiblo Balls,Nestbälle,Nido Balls,Minor Ball,ネストボール,네스트볼
-Repeat Balls,Bis Balls,Wiederbälle,Acopio Balls,Bis Ball,リピートボール,리피드볼
-Timer Balls,Chrono Balls,Timerbälle,Turno Balls,Timer Ball,タイマーボール,타이마볼
-Luxury Balls,Luxe Balls,Luxusbälle,Lujo Balls,Chic Ball,ゴージャスボール,럭셔리볼
-Premier Balls,Honor Balls,Premierbälle,Honor Balls,Premier Ball,プレミアボール,프레미어볼
-Dusk Balls,Sombre Balls,Finsterbälle,Ocaso Balls,Scuro Ball,ダークボール,다크볼
-Heal Balls,Soin Balls,Heilbälle,Sana Balls,Cura Ball,ヒールボール,힐볼
-Quick Balls,Rapide Balls,Flottbälle,Veloz Balls,Velox Ball,クイックボール,퀵볼
-Cherish Balls,Mémoire Balls,Jubelbälle,Gloria Balls,Pregio Ball,プレシャスボール,프레셔스볼
-Potions,Potions,Tränke,Pociones,Pozioni,キズぐすり,상처약
-Antidotes,Antidotes,Gegengifte,Antídotos,Antidoti,どくけし,해독제
-Burn Heals,Anti-Brûle,Feuerheiler,Antiquemar,Antiscottatura,やけどなおし,화상치료제
-Ice Heals,Antigels,Eisheiler,Antihielos,Antigelo,こおりなおし,얼음상태치료제
-Awakenings,Réveils,Aufwecker,Despertar,Sveglie,ねむけざまし,잠깨는약
-Paralyze Heals,Anti-Para,Para-Heiler,Antiparalizadores,Antiparalisi,まひなおし,마비치료제
-Full Restores,Guérisons,Top-Genesungen,Restaurar Todo,Ricariche Totali,かいふくのくすり,회복약
-Max Potions,Potions Max,Top-Tränke,Pociones Máximas,Pozioni Max,まんたんのくすり,풀회복약
-Hyper Potions,Hyper Potions,Hypertränke,Hiperpociones,Iperpozioni,すごいキズぐすり,고급상처약
-Super Potions,Super Potions,Supertränke,Superpociones,Superpozioni,いいキズぐすり,좋은상처약
-Full Heals,Total Soins,Hyperheiler,Curas Totales,Cure Totali,なんでもなおし,만병통치제
-Revives,Rappels,Beleber,Revivir,Revitalizzanti,げんきのかけら,기력의조각
-Max Revives,Rappels Max,Top-Beleber,Revivir Máximos,Revitalizz. Max,げんきのかたまり,기력의덩어리
-Fresh Waters,Eaux Fraîches,Tafelwässer,Aguas Frescas,Acqua Fresca,おいしいみず,맛있는물
-Soda Pops,Sodas Cool,Sprudel,Refrescos,Gassose,サイコソーダ,미네랄사이다
-Lemonades,Limonades,Limonaden,Limonadas,Lemonsucchi,ミックスオレ,후르츠밀크
-Moomoo Milks,Laits Meumeu,Kuhmuh-Milch,Leches Mu-mu,Latte Mumu,モーモーミルク,튼튼밀크
-Energy Powders,Poudrénergies,Energiestäube,Polvos Energía,Polvenergia,ちからのこな,힘의가루
-Energy Roots,Racinénergies,Kraftwurzeln,Raíces Energía,Radicenergia,ちからのねっこ,힘의뿌리
-Heal Powders,Poudres Soin,Heilpuder,Polvos Curación,Polvocura,ばんのうごな,만능가루
-Revival Herbs,Herbes Rappel,Vitalkräuter,Hierbas Revivir,Vitalerbe,ふっかつそう,부활초
-Ethers,Huiles,Äther,Éteres,Etere,ピーピーエイド,PP에이드
-Max Ethers,Huiles Max,Top-Äther,Éteres Máximos,Etere Max,ピーピーリカバー,PP회복
-Elixirs,Élixirs,Elixiere,Elixires,Elisir,ピーピーエイダー,PP에이더
-Max Elixirs,Max Élixirs,Top-Elixiere,Elixires Máximos,Elisir Max,ピーピーマックス,PP맥스
-Lava Cookies,Lava Cookies,Lavakekse,Galletas Lava,Lavottini,フエンせんべい,용암전병
-Berry Juices,Jus de Baie,Beerensäfte,Zumos de Baya,Succodibacca,きのみジュース,나무열매쥬스
-Sacred Ashes,Cendres Sacrées,Zauberaschen,Cenizas Sagradas,Ceneremagica,せいなるはい,성스러운분말
-HP Ups,PV Plus,KP-Plus,Más PS,PS-Su,マックスアップ,맥스업
-Proteins,Protéines,Proteine,Proteínas,Proteine,タウリン,타우린
-Irons,Fers,Eisen,Hierros,Ferro,ブロムヘキシン,사포닌
-Carbos,Carbones,Carbon,Carburantes,Carburante,インドメタシン,알칼로이드
-Calciums,Calciums,Kalzium,Calcios,Calcio,リゾチウム,리보플라빈
-Rare Candies,Super Bonbons,Sonderbonbons,Caramelos Raros,Caramelle Rare,ふしぎなアメ,이상한사탕
-PP Ups,PP Plus,AP-Plus,Más PP,PP-Su,ポイントアップ,포인트업
-Zincs,Zincs,Zink,Zincs,Zinco,キトサン,키토산
-PP Maxes,PP Max,AP-Tops,PP Máximos,PP-Max,ポイントマックス,포인트맥스
-Old Gateaux,Vieux Gâteaux,Spezialitäten,Barritas Plus,Dolci Gateau,もりのヨウカン,숲의양갱
-Guard Specs.,Défenses Spéciales,Megablocks,Protec. Especiales,Superguardie,エフェクトガード,이펙트가드
-Dire Hits,Muscles +,Angriffplus,Directo,Supercolpi,クリティカット,크리티컬커터
-X Attacks,Attaques +,X-Angriffe,Ataque X,Attacchi X,プラスパワー,플러스파워
-X Defenses,Défenses +,X-Abwehr,Defensa X,Difese X,ディフェンダー,디펜드업
-X Speeds,Vitesses +,X-Tempos,Velocidad X,Velocità X,スピーダー,스피드업
-X Accuracies,Précisions +,X-Treffer,Precisión X,Precisioni X,ヨクアタール,잘-맞히기
-X Sp. Atks,Spéciaux +,X-Spezial,Especial X,Att. Speciali X,スペシャルアップ,스페셜업
-X Sp. Defs,Déf. Spé. +,X-Spezial-Vert.,Defensa Especial X,Dif. Speciali X,スペシャルガード,스페셜가드
-Poké Dolls,Poké Poupées,Poképuppen,Poké Muñecos,Poké Bambole,ピッピにんぎょう,삐삐인형
-Fluffy Tails,Queues Skitty,Eneco-Ruten,Colas Skitty,Code Skitty,エネコのシッポ,에나비꼬리
-Blue Flutes,Flûtes Bleues,Blaue Flöten,Flautas Azules,Flauti Blu,あおいビードロ,파랑비드로
-Yellow Flutes,Flûtes Jaunes,Gelbe Flöten,Flautas Amarillas,Flauti Gialli,きいろビードロ,노랑비드로
-Red Flutes,Flûtes Rouges,Rote Flöten,Flautas Rojas,Flauti Rossi,あかいビードロ,빨강비드로
-Black Flutes,Flûtes Noires,Schwarze Flöten,Flautas Negras,Flauti Neri,くろいビードロ,검정비드로
-White Flutes,Flûtes Blanches,Weiße Flöten,Flautas Blancas,Flauti Bianchi,しろいビードロ,하양비드로
-Shoal Salts,Sels Tréfonds,Küstensalze,Sales Cardumen,Sale Ondoso,あさせのしお,여울소금
-Shoal Shells,CoquillesTréfonds,Küstenschalen,Conchas Cardumen,Gusciondosi,あさせのかいがら,여울조개껍질
-Red Shards,Tessons Rouges,Purpurstücke,Partes Rojas,Cocci Rossi,あかいかけら,빨강조각
-Blue Shards,Tessons Bleus,Indigostücke,Partes Azules,Cocci Blu,あおいかけら,파랑조각
-Yellow Shards,Tessons Jaunes,Gelbstücke,Partes Amarillas,Cocci Gialli,きいろいかけら,노랑조각
-Green Shards,Tessons Verts,Grünstücke,Partes Verdes,Cocci Verdi,みどりのかけら,초록조각
-Super Repels,Super Repousses,Superschutze,Superrepelentes,Superrepellenti,シルバースプレー,실버스프레이
-Max Repels,Max Repousses,Top-Schutze,Repelentes Máximos,Repellenti Max,ゴールドスプレー,골드스프레이
-Escape Ropes,Cordes Sortie,Fluchtseile,Cuerdas Huida,Funi di Fuga,あなぬけのヒモ,동굴탈출로프
-Repels,Repousses,Schutze,Repelentes,Repellenti,むしよけスプレー,벌레회피스프레이
-Sun Stones,Pierres Soleil,Sonnensteine,Piedras Solares,Pietresolari,たいようのいし,태양의돌
-Moon Stones,Pierres Lune,Mondsteine,Piedras Lunares,Pietrelunari,つきのいし,달의돌
-Fire Stones,Pierres Feu,Feuersteine,Piedras Fuego,Pietrefocaie,ほのおのいし,불꽃의돌
-Thunder Stones,Pierres Foudre,Donnersteine,Piedras Trueno,Pietretuono,かみなりのいし,천둥의돌
-Water Stones,Pierres Eau,Wassersteine,Piedras Agua,Pietreidriche,みずのいし,물의돌
-Leaf Stones,Pierres Plante,Blattsteine,Piedras Hoja,Pietrefoglia,リーフのいし,리프의돌
-Tiny Mushrooms,Petits Champis,Minipilze,Minisetas,Minifunghi,ちいさなキノコ,작은버섯
-Big Mushrooms,Gros Champis,Riesenpilze,Setas Grandes,Grandi Funghi,おおきなキノコ,큰버섯
-Pearls,Perles,Perlen,Perlas,Perle,しんじゅ,진주
-Big Pearls,Grandes Perles,Riesenperlen,Perlas Grandes,Grandi Perle,おおきなしんじゅ,큰진주
-Stardusts,Poussières Étoiles,Sternenstäube,Polvos Estelares,Polvostella,ほしのすな,별의모래
-Star Pieces,Morceaux d’Étoiles,Sternenstücke,Trozos Estrella,Pezzi Stella,ほしのかけら,별의조각
-Nuggets,Pépites,Nuggets,Pepitas,Pepite,きんのたま,금구슬
-Heart Scales,Écailles Cœur,Herzschuppen,Escamas Corazón,Squame Cuore,ハートのウロコ,하트비늘
-Honey,Miels,Honige,Mieles,Miele,あまいミツ,달콤한꿀
-Growth Mulch,Fertipousses,Wachsmulche,Abonos Rápidos,Fertilrapido,すくすくこやし,무럭무럭비료
-Damp Mulch,Fertihumides,Feuchtmulche,Abonos Lentos,Fertilidro,じめじめこやし,축축이비료
-Stable Mulch,Fertistables,Stabilmulche,Abonos Fijadores,Fertilsaldo,ながながこやし,오래오래비료
-Gooey Mulch,Fertiglus,Neumulche,Abonos Brote,Fertilcolla,ねばねばこやし,끈적끈적비료
-Root Fossils,Fossiles Racines,Wurzelfossilien,Fósiles Raíz,Radifossili,ねっこのカセキ,뿌리화석
-Claw Fossils,Fossiles Griffes,Klauenfossilien,Fósiles Garra,Fossilunghia,ツメのカセキ,발톱화석
-Helix Fossils,Nautiles,Helixfossilien,Fósiles Hélix,Helixfossili,かいのカセキ,조개화석
-Dome Fossils,Fossiles Dômes,Domfossilien,Fósiles Domo,Domofossili,こうらのカセキ,껍질화석
-Old Ambers,Vieux Ambres,Altbernsteine,Ámbares Viejos,Ambre Antiche,ひみつのコハク,비밀의호박
-Armor Fossils,Fossiles Armures,Panzerfossilien,Fósiles Coraza,Fossilscudo,たてのカセキ,방패의화석
-Skull Fossils,Fossiles Crânes,Kopffossilien,Fósiles Cráneo,Fossilcranio,ずがいのカセキ,두개의화석
-Rare Bones,Os Rares,Steinknochen,Huesos Raros,Ossi Rari,きちょうなホネ,귀중한뼈
-Shiny Stones,Pierres Éclat,Leuchtsteine,Piedras Día,Pietrebrillo,ひかりのいし,빛의돌
-Dusk Stones,Pierres Nuit,Finstersteine,Piedras Noche,Neropietre,やみのいし,어둠의돌
-Dawn Stones,Pierres Aube,Funkelsteine,Piedras Alba,Pietralbori,めざめいし,각성의돌
-Oval Stones,Pierres Ovales,Ovale Steine,Piedras Ovales,Pietreovali,まんまるいし,동글동글돌
-Odd Keystones,Clés de Voûte,Spiritkerne,Piedras Espíritu,Roccianime,かなめいし,쐐기돌
-Griseous Orbs,Orbes Platinés,Platinum-Orbs,Griseosferas,Grigiosfere,はっきんだま,백금옥
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-Douse Drives,Modules Aqua,Aquamodule,HidroROM,Idromoduli,アクアカセット,아쿠아카세트
-Shock Drives,Modules Choc,Blitzmodule,FulgoROM,Voltmoduli,イナズマカセット,번개카세트
-Burn Drives,Modules Pyro,Flammenmodule,PiroROM,Piromoduli,ブレイズカセット,블레이즈카세트
-Chill Drives,Modules Cryo,Gefriermodule,CrioROM,Gelomoduli,フリーズカセット,프리즈카세트
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-Sweet Hearts,Chococœurs,Herzkonfekte,Corazones Dulces,Dolcicuori,ハートスイーツ,하트스위트
-Adamant Orbs,Orbes Adamants,Adamant-Orbs,Diamansferas,Adamasfere,こんごうだま,금강옥
-Lustrous Orbs,Orbes Perlés,Weiß-Orbs,Lustresferas,Splendisfere,しらたま,백옥
-Greet Mail,Lettres Salut,Grußbriefe,Cartas Iniciales,Messaggi Inizio,はじめてメール,첫메일
-Favored Mail,Lettres Fan,Faiblebriefe,Cartas Favoritos,Messaggi TVB,だいすきメール,애호메일
-RSVP Mail,Lettres Invit,Einladebriefe,Cartas Invitar,Messaggi Invito,おさそいメール,권유메일
-Thanks Mail,Lettres Merci,Dankesbriefe,Cartas Gracias,Messaggi Grazie,かんしゃメール,감사메일
-Inquiry Mail,Lettres Demande,Fragebriefe,Cartas Pregunta,Messaggi Chiedi,しつもんメール,질문메일
-Like Mail,Lettres Avis,Insiderbriefe,Cartas Gustos,Mess. Sugg.,おすすめメール,추천메일
-Reply Mail,Lettres Réponse,Rückbriefe,Cartas Respuesta,Mess. Risp.,おかえしメール,답장메일
-Bridge Mail S,Lettres Pont S,Brückbriefe H,Cartas Puente S,Mess. Frec.,ブリッジメールＳ,브리지메일S
-Bridge Mail D,Lettres Pont Y,Brückbriefe M,Cartas Puente F,Mess. Libec.,ブリッジメールＨ,브리지메일M
-Bridge Mail T,Lettres Pont F,Brückbriefe Z,Cartas Puente A,Mess. Prop.,ブリッジメールＣ,브리지메일C
-Bridge Mail V,Lettres Pont H,Brückbriefe D,Cartas Puente V,Mess. Vill.,ブリッジメールＶ,브리지메일V
-Bridge Mail M,Lettres Pont I,Brückbriefe W,Cartas Puente P,Mess. Merav.,ブリッジメールＷ,브리지메일W
-Cheri Berries,Baies Ceriz,Amrenabeeren,Bayas Zreza,Baccaliegia,クラボのみ,버치열매
-Chesto Berries,Baies Maron,Maronbeeren,Bayas Atania,Baccastagna,カゴのみ,유루열매
-Pecha Berries,Baies Pêcha,Pirsifbeeren,Bayas Meloc,Baccapesca,モモンのみ,복슝열매
-Rawst Berries,Baies Fraive,Fragiabeeren,Bayas Safre,Baccafrago,チーゴのみ,복분열매
-Aspear Berries,Baies Willia,Wilbirbeeren,Bayas Perasi,Baccaperina,ナナシのみ,배리열매
-Leppa Berries,Baies Mepo,Jonagobeeren,Bayas Zanama,Baccamela,ヒメリのみ,과사열매
-Oran Berries,Baies Oran,Sinelbeeren,Bayas Aranja,Baccarancia,オレンのみ,오랭열매
-Persim Berries,Baies Kika,Persimbeeren,Bayas Caquic,Baccaki,キーのみ,시몬열매
-Lum Berries,Baies Prine,Prunusbeeren,Bayas Ziuela,Baccaprugna,ラムのみ,리샘열매
-Sitrus Berries,Baies Sitrus,Tsitrubeeren,Bayas Zidra,Baccacedro,オボンのみ,자뭉열매
-Figy Berries,Baies Figuy,Giefebeeren,Bayas Higog,Baccafico,フィラのみ,무화열매
-Wiki Berries,Baies Wiki,Wikibeeren,Bayas Wiki,Baccakiwi,ウイのみ,위키열매
-Mago Berries,Baies Mago,Magobeeren,Bayas Ango,Baccamango,マゴのみ,마고열매
-Aguav Berries,Baies Gowav,Gauvebeeren,Bayas Guaya,Baccaguava,バンジのみ,아바열매
-Iapapa Berries,Baies Papaya,Yapabeeren,Bayas Pabaya,Baccapaia,イアのみ,파야열매
-Razz Berries,Baies Framby,Himmihbeeren,Bayas Frambu,Baccalampon,ズリのみ,라즈열매
-Bluk Berries,Baies Remu,Morbbeeren,Bayas Oram,Baccamora,ブリーのみ,블리열매
-Nanab Berries,Baies Nanab,Nanabbeeren,Bayas Latano,Baccabana,ナナのみ,나나열매
-Wepear Berries,Baies Repoi,Nirbebeeren,Bayas Peragu,Baccapera,セシナのみ,서배열매
-Pinap Berries,Baies Nanana,Sananabeeren,Bayas Pinia,Baccananas,パイルのみ,파인열매
-Pomeg Berries,Baies Grena,Granabeeren,Bayas Grana,Baccagrana,ザロクのみ,유석열매
-Kelpsy Berries,Baies Alga,Setangbeeren,Bayas Algama,Baccalga,ネコブのみ,시마열매
-Qualot Berries,Baies Qualot,Qualotbeeren,Bayas Ispero,Baccaloquat,タポルのみ,파비열매
-Hondew Berries,Baies Lonme,Honmelbeeren,Bayas Meluce,Baccamelon,ロメのみ,로매열매
-Grepa Berries,Baies Résin,Labrusbeeren,Bayas Uvav,Baccauva,ウブのみ,또뽀열매
-Tamato Berries,Baies Tamato,Tamotbeeren,Bayas Tamate,Baccamodoro,マトマのみ,토망열매
-Cornn Berries,Baies Siam,Saimbeeren,Bayas Mais,Baccavena,モコシのみ,수숙열매
-Magost Berries,Baies Mangou,Magostbeeren,Bayas Aostan,Baccagostan,ゴスのみ,고스티열매
-Rabuta Berries,Baies Rabuta,Rabutabeeren,Bayas Rautan,Baccambutan,ラブタのみ,라부탐열매
-Nomel Berries,Baies Tronci,Tronzibeeren,Bayas Monli,Baccalemon,ノメルのみ,노멜열매
-Spelon Berries,Baies Kiwan,Kiwanbeeren,Bayas Wikano,Baccamelos,ノワキのみ,메호키열매
-Pamtre Berries,Baies Palma,Pallmbeeren,Bayas Plama,Baccapalma,シーヤのみ,자야열매
-Watmel Berries,Baies Stekpa,Wasmelbeeren,Bayas Sambia,Baccacomero,カイスのみ,슈박열매
-Durin Berries,Baies Durin,Durinbeeren,Bayas Rudion,Baccadurian,ドリのみ,두리열매
-Belue Berries,Baies Myrte,Myrtilbeeren,Bayas Andano,Baccartillo,ベリブのみ,루베열매
-Occa Berries,Baies Chocco,Koakobeeren,Bayas Caoca,Baccacao,オッカのみ,오카열매
-Passho Berries,Baies Pocpoc,Foepasbeeren,Bayas Pasio,Baccapasflo,イトケのみ,꼬시개열매
-Wacan Berries,Baies Parma,Kerzalbeeren,Bayas Gualot,Baccaparmen,ソクノのみ,초나열매
-Rindo Berries,Baies Ratam,Grindobeeren,Bayas Tamar,Baccarindo,リンドのみ,린드열매
-Yache Berries,Baies Nanone,Kiroyabeeren,Bayas Rimoya,Baccamoya,ヤチェのみ,플카열매
-Chople Berries,Baies Pomroz,Rospelbeeren,Bayas Pomaro,Baccarosmel,ヨプのみ,로플열매
-Kebia Berries,Baies Kébia,Grarzbeeren,Bayas Kebia,Baccakebia,ビアーのみ,으름열매
-Shuca Berries,Baies Jouca,Schukebeeren,Bayas Acardo,Baccanaca,シュカのみ,슈캐열매
-Coba Berries,Baies Cobaba,Kobabeeren,Bayas Kouba,Baccababa,バコウのみ,바코열매
-Payapa Berries,Baies Yapap,Pyapabeeren,Bayas Payapa,Baccapayapa,ウタンのみ,야파열매
-Tanga Berries,Baies Panga,Tanigabeeren,Bayas Yecana,Baccaitan,タンガのみ,리체열매
-Charti Berries,Baies Charti,Chiaribeeren,Bayas Alcho,Baccaciofo,ヨロギのみ,루미열매
-Kasib Berries,Baies Sédra,Zitarzbeeren,Bayas Drasi,Baccacitrus,カシブのみ,수불열매
-Haban Berries,Baies Fraigo,Terirobeeren,Bayas Anjiro,Baccahaban,ハバンのみ,하반열매
-Colbur Berries,Baies Lampou,Burleobeeren,Bayas Dillo,Baccaxan,ナモのみ,마코열매
-Babiri Berries,Baies Babiri,Babiribeeren,Bayas Baribá,Baccababiri,リリバのみ,바리비열매
-Chilan Berries,Baies Zalis,Latchibeeren,Bayas Chilan,Baccacinlan,ホズのみ,카리열매
-Liechi Berries,Baies Lichii,Lydzibeeren,Bayas Lichi,Baccalici,チイラのみ,치리열매
-Ganlon Berries,Baies Lingan,Linganbeeren,Bayas Gonlan,Baccalongan,リュガのみ,용아열매
-Salac Berries,Baies Sailak,Salkabeeren,Bayas Aslac,Baccasalak,カムラのみ,캄라열매
-Petaya Berries,Baies Pitaye,Tahaybeeren,Bayas Yapati,Baccapitaya,ヤタピのみ,야타비열매
-Apicot Berries,Baies Abriko,Apikobeeren,Bayas Aricoc,Baccacocca,ズアのみ,규살열매
-Lansat Berries,Baies Lansat,Lansatbeeren,Bayas Zonlan,Baccalangsa,サンのみ,랑사열매
-Starf Berries,Baies Frista,Krambobeeren,Bayas Arabol,Baccambola,スターのみ,스타열매
-Enigma Berries,Baies Enigma,Enigmabeeren,Bayas Enigma,Baccaenigma,ナゾのみ,의문열매
-Micle Berries,Baies Micle,Wunfrubeeren,Bayas Lagro,Baccaracolo,ミクルのみ,미클열매
-Custap Berries,Baies Chérim,Eipfelbeeren,Bayas Chiri,Baccacrela,イバンのみ,애슈열매
-Jaboca Berries,Baies Jaboca,Jabocabeeren,Bayas Jaboca,Baccajaba,ジャポのみ,자보열매
-Rowap Berries,Baies Pommo,Roselbeeren,Bayas Magua,Baccaroam,レンブのみ,애터열매
-Bright Powders,Poudres Claires,Blendpuder,Polvos Brillo,Luminpolvere,ひかりのこな,반짝가루
-White Herbs,Herbes Blanches,Schlohkräuter,Hierbas Blancas,Erbechiare,しろいハーブ,하양허브
-Macho Braces,Bracelets Macho,Machobänder,Brazales Firmes,Crescicappa,きょうせいギプス,교정깁스
-Exp. Shares,Multi Exp,EP-Teiler,Repartir Exp,Condividi Esp.,がくしゅうそうち,학습장치
-Quick Claws,Vives Griffes,Flinkklauen,Garras Rápidas,Rapidartigli,せんせいのツメ,선제공격손톱
-Soothe Bells,Grelots Zen,Sanftglocken,Campanas Alivio,Calmanelle,やすらぎのすず,평온의방울
-Mental Herbs,Herbes Mental,Mentalkräuter,Hierbas Mentales,Mentalerbe,メンタルハーブ,멘탈허브
-Choice Bands,Bandeaux Choix,Wahlbänder,Cintas Elegidas,Bendescelta,こだわりハチマキ,구애머리띠
-King’s Rocks,Roches Royales,King-Steine,Rocas del Rey,Rocce di Re,おうじゃのしるし,왕의징표석
-Silver Powders,Poudres Argentées,Silberstäube,Polvos Plata,Argenpolvere,ぎんのこな,은빛가루
-Amulet Coins,Pièces Rune,Münzamulette,Monedas Amuleto,Monetamuleti,おまもりこばん,부적금화
-Cleanse Tags,Runes Purifiantes,Schutzbänder,Amuletos,Velipuri,きよめのおふだ,순결의부적
-Soul Dews,Rosées Âme,Seelentau,Rocíos Bondad,Cuorugiada,こころのしずく,마음의물방울
-Deep Sea Teeth,Dents Océan,Abysszähne,Dientes Marinos,Denti Abissi,しんかいのキバ,심해의이빨
-Deep Sea Scales,Écailles Océan,Abyssplatten,Escamas Marinas,Squameabissi,しんかいのウロコ,심해의비늘
-Smoke Balls,Boules Fumée,Rauchbälle,Bolas Humo,Palle Fumo,けむりだま,연막탄
-Everstones,Pierres Stase,Ewigsteine,Piedras Eternas,Pietrestanti,かわらずのいし,변함없는돌
-Focus Bands,Bandeaux,Fokus-Bänder,Cintas Focus,Bandane,きあいのハチマキ,기합의머리띠
-Lucky Eggs,Œufs Chance,Glücks-Eier,Huevos Suerte,Fortunuovo,しあわせタマゴ,행복의알
-Scope Lenses,Lentilscopes,Scope-Linsen,Periscopios,Mirini,ピントレンズ,초점렌즈
-Metal Coats,Peaux Métal,Metallmäntel,Revest. Metálicos,Metalcoperte,メタルコート,금속코트
-Leftovers,Restes,Überreste,Restos,Avanzi,たべのこし,먹다남은음식
-Dragon Scales,Écailles Draco,Drachenhäute,Escamas Dragón,Squame Drago,りゅうのウロコ,용의비늘
-Light Balls,Balles Lumière,Kugelblitze,Bolas Luminosas,Elettropalle,でんきだま,전기구슬
-Soft Sand,Sables Doux,Pudersande,Arenas Finas,Sabbia Soffice,やわらかいすな,부드러운모래
-Hard Stones,Pierres Dures,Granitsteine,Piedras Duras,Pietredure,かたいいし,딱딱한돌
-Miracle Seeds,Grains Miracles,Wundersaaten,Semillas Milagro,Miracolsemi,きせきのタネ,기적의씨
-Black Glasses,Lunettes Noires,Schattengläser,Gafas de Sol,Occhialineri,くろいメガネ,검은안경
-Black Belts,Ceintures Noires,Schwarzgurte,Cinturones Negros,Cinturenere,くろおび,검은띠
-Magnets,Aimants,Magnete,Imanes,Calamite,じしゃく,자석
-Mystic Waters,Eaux Mystiques,Zauberwässer,Aguas Místicas,Acqua Magica,しんぴのしずく,신비의물방울
-Sharp Beaks,Becs Pointus,Hackattacken,Picos Afilados,Beccaffilati,するどいくちばし,예리한부리
-Poison Barbs,Pics Venin,Giftstiche,Flechas Venenosas,Velenaculei,どくバリ,독바늘
-Never-Melt Ices,Glaces Éternelles,Ewiges Eis,Antiderretir,Gelomai,とけないこおり,녹지않는얼음
-Spell Tags,Runes Sort,Bannsticker,Hechizos,Spettrotarghe,のろいのおふだ,저주의부적
-Twisted Spoons,Cuillers Tordues,Krummlöffel,Cucharas Torcidas,Cucchiai Torti,まがったスプーン,휘어진스푼
-Charcoals,Charbons,Holzkohlen,Carbones,Carbonella,もくたん,목탄
-Dragon Fangs,Crocs Dragon,Drachenzähne,Colmillos Dragón,Dentididrago,りゅうのキバ,용의이빨
-Silk Scarves,Mouchoirs Soie,Seidenschals,Pañuelos Seda,Sciarpe Seta,シルクのスカーフ,실크스카프
-Up-Grades,Améliorators,Up-Grades,Mejoras,Upgrade,アップグレード,업그레이드
-Shell Bells,Grelots Coque,Seegesänge,Campanas Concha,Conchinelle,かいがらのすず,조개껍질방울
-Sea Incenses,Encens Mer,Seerauch,Inciensos Marinos,Marearomi,うしおのおこう,바닷물향로
-Lax Incenses,Encens Doux,Laxrauch,Inciensos Suaves,Distraromi,のんきのおこう,무사태평향로
-Lucky Punches,Poings Chance,Lucky Punchs,Puños Suerte,Fortunpugni,ラッキーパンチ,럭키펀치
-Metal Powders,Poudres Métal,Metallstäube,Polvos Metálicos,Metalpolvere,メタルパウダー,금속파우더
-Thick Clubs,Masses Os,Kampfknochen,Huesos Gruesos,Ossispessi,ふといホネ,굵은뼈
-Sticks,Bâtons,Lauchstangen,Palos,Gambi,ながねぎ,대파
-Red Scarves,Foulards Rouges,Rote Schals,Pañuelos Rojos,Fasce Rosse,あかいバンダナ,빨강밴드
-Blue Scarves,Foulards Bleus,Blaue Schals,Pañuelos Azules,Fasce Blu,あおいバンダナ,파랑밴드
-Pink Scarves,Foulards Roses,Rosa Schals,Pañuelos Rosas,Fasce Rosa,ピンクのバンダナ,분홍밴드
-Green Scarves,Foulards Verts,Grüne Schals,Pañuelos Verdes,Fasce Verdi,みどりのバンダナ,초록밴드
-Yellow Scarves,Foulards Jaunes,Gelbe Schals,Pañuelos Amarillos,Fasce Gialle,きいろのバンダナ,노랑밴드
-Wide Lenses,Loupes,Großlinsen,Lupas,Grandilenti,こうかくレンズ,광각렌즈
-Muscle Bands,Bandeaux Muscle,Muskelbänder,Cintas Fuertes,Muscolbande,ちからのハチマキ,힘의머리띠
-Wise Glasses,Lunettes Sages,Schlaugläser,Gafas Especiales,Saviocchiali,ものしりメガネ,박식안경
-Expert Belts,Ceintures Pro,Expertengurte,Cintas Experto,Abilcinture,たつじんのおび,달인의띠
-Light Clays,Lumargiles,Lichtlehme,Refleluces,Creta Luce,ひかりのねんど,빛의점토
-Life Orbs,Orbes Vie,Leben-Orbs,Vidasferas,Assorbisfere,いのちのたま,생명의구슬
-Power Herbs,Herbes Pouvoir,Energiekräuter,Hierbas Únicas,Vigorerbe,パワフルハーブ,파워풀허브
-Toxic Orbs,Orbes Toxiques,Toxik-Orbs,Toxisferas,Tossicsfere,どくどくだま,맹독구슬
-Flame Orbs,Orbes Flamme,Heiß-Orbs,Llamasferas,Fiammosfere,かえんだま,화염구슬
-Quick Powders,Poudres Vite,Flottstäube,Polvos Veloces,Velopolvere,スピードパウダー,스피드파우더
-Focus Sashes,Ceintures Force,Fokusgurte,Bandas Focus,Focalnastri,きあいのタスキ,기합의띠
-Zoom Lenses,Lentilles Zoom,Zoomlinsen,Telescopios,Zoomlenti,フォーカスレンズ,포커스렌즈
-Metronomes,Métronomes,Metronome,Metrónomos,Plessimetri,メトロノーム,메트로놈
-Iron Balls,Balles Fer,Eisenkugeln,Bolas Férreas,Ferropalle,くろいてっきゅう,검은철구
-Lagging Tails,Ralentiqueues,Schwerschweife,Colas Plúmbeas,Rallentocode,こうこうのしっぽ,느림보꼬리
-Destiny Knots,Nœuds Destin,Fatumknoten,Lazos Destino,Destincomune,あかいいと,빨간실
-Black Sludges,Boues Noires,Giftschleime,Lodos Negros,Fangopece,くろいヘドロ,검은진흙
-Icy Rocks,Roches Glace,Eisbrocken,Rocas Heladas,Roccefredde,つめたいいわ,차가운바위
-Smooth Rocks,Roches Lisses,Glattbrocken,Rocas Suaves,Roccelisce,さらさらいわ,보송보송바위
-Heat Rocks,Roches Chaudes,Heißbrocken,Rocas Calor,Roccecalde,あついいわ,뜨거운바위
-Damp Rocks,Roches Humides,Nassbrocken,Rocas Lluvia,Rocceumide,しめったいわ,축축한바위
-Grip Claws,Accro Griffes,Griffklauen,Garras Garfio,Presartigli,ねばりのかぎづめ,끈기갈고리손톱
-Choice Scarves,Mouchoirs Choix,Wahlschals,Pañuelos Elegidos,Stolescelta,こだわりスカーフ,구애스카프
-Sticky Barbs,Piquants,Klettdornen,Toxiestrellas,Vischiopunte,くっつきバリ,끈적끈적바늘
-Power Bracers,Poignées Pouvoir,Machtreife,Brazales Recios,Vigorcerchi,パワーリスト,파워리스트
-Power Belts,Ceintures Pouvoir,Machtgurte,Cintos Recios,Vigorfasce,パワーベルト,파워벨트
-Power Lenses,Lentilles Pouvoir,Machtlinsen,Lentes Recias,Vigorlenti,パワーレンズ,파워렌즈
-Power Bands,Bandeaux Pouvoir,Machtbänder,Bandas Recias,Vigorbande,パワーバンド,파워밴드
-Power Anklets,Chaînes Pouvoir,Machtketten,Franjas Recias,Vigorgliere,パワーアンクル,파워앵클릿
-Power Weights,Poids Pouvoir,Machtgewichte,Pesas Recias,Vigorpesi,パワーウエイト,파워웨이트
-Shed Shells,Carapaces Mue,Wechselhüllen,Mudas Concha,Disfogusci,きれいなぬけがら,아름다운허물
-Big Roots,Grosses Racines,Großwurzeln,Raíces Grandes,Granradici,おおきなねっこ,큰뿌리
-Choice Specs,Lunettes Choix,Wahlgläser,Gafas Elegid,Lentiscelta,こだわりメガネ,구애안경
-Flame Plates,Plaques Flamme,Feuertafeln,Tablas Llama,Lastrerogo,ひのたまプレート,불구슬플레이트
-Splash Plates,Plaques Hydro,Wassertafeln,Tablas Linfa,Lastreidro,しずくプレート,물방울플레이트
-Zap Plates,Plaques Volt,Blitztafeln,Tablas Trueno,Lastresaetta,いかずちプレート,우뢰플레이트
-Meadow Plates,Plaques Herbe,Wiesentafeln,Tablas Pradal,Lastreprato,みどりのプレート,초록플레이트
-Icicle Plates,Plaques Glace,Frosttafeln,Tablas Heladas,Lastregelo,つららのプレート,고드름플레이트
-Fist Plates,Plaques Poing,Fausttafeln,Tablas Fuertes,Lastrepugno,こぶしのプレート,주먹플레이트
-Toxic Plates,Plaques Toxik,Gifttafeln,Tablas Tóxicas,Lastrefiele,もうどくプレート,맹독플레이트
-Earth Plates,Plaques Terre,Erdtafeln,Tablas Terrax,Lastregeo,だいちのプレート,대지플레이트
-Sky Plates,Plaques Ciel,Wolkentafeln,Tablas Cielo,Lastrecielo,あおぞらプレート,푸른하늘플레이트
-Mind Plates,Plaques Esprit,Hirntafeln,Tablas Mentales,Lastremente,ふしぎのプレート,이상한플레이트
-Insect Plates,Plaques Insecte,Käfertafeln,Tablas Bicho,Lastrebaco,たまむしプレート,비단벌레플레이트
-Stone Plates,Plaques Roc,Steintafeln,Tablas Pétreas,Lastrepietra,がんせきプレート,암석플레이트
-Spooky Plates,Plaques Fantôme,Spuktafeln,Tablas Terror,Lastretetre,もののけプレート,원령플레이트
-Draco Plates,Plaques Draco,Dracotafeln,Tablas Draco,Lastredrakon,りゅうのプレート,용의플레이트
-Dread Plates,Plaques Ombre,Furchttafeln,Tablas Oscuras,Lastretimore,こわもてプレート,공포플레이트
-Iron Plates,Plaques Fer,Eisentafeln,Tablas Acero,Lastreferro,こうてつプレート,강철플레이트
-Odd Incenses,Encens Bizarres,Schrägrauch,Inciensos Raros,Bizzoaromi,あやしいおこう,괴상한향로
-Rock Incenses,Encens Roc,Steinrauch,Inciensos Roca,Roccioaromi,がんせきおこう,암석향로
-Full Incenses,Encens Pleins,Lahmrauch,Inciensos Lentos,Gonfioaromi,まんぷくおこう,만복향로
-Wave Incenses,Encens Vague,Wellenrauch,Inciensos Aqua,Ondaromi,さざなみのおこう,잔물결향로
-Rose Incenses,Encens Fleur,Rosenrauch,Inciensos Florales,Rosaromi,おはなのおこう,꽃향로
-Luck Incenses,Encens Veine,Glücksrauch,Inciensos Duplo,Fortunaromi,こううんのおこう,행운의향로
-Pure Incenses,Encens Purs,Scheuchrauch,Inciensos Puros,Puroaromi,きよめのおこう,순결의향로
-Protectors,Protecteurs,Schützer,Protectores,Coperture,プロテクター,프로텍터
-Electirizers,Électriseurs,Stromisierer,Electrizadores,Elettritori,エレキブースター,에레키부스터
-Magmarizers,Magmariseurs,Magmaisierer,Magmatizadores,Magmatori,マグマブースター,마그마부스터
-Dubious Discs,CD Douteux,Dubiosdiscs,Discos Extraños,Dubbiodischi,あやしいパッチ,괴상한패치
-Reaper Cloths,Tissus Fauche,Düsterumhänge,Telas Terribles,Terrorpanni,れいかいのぬの,영계의천
-Razor Claws,Griffes Rasoir,Scharfklauen,Garras Afiladas,Affilartigli,するどいツメ,예리한손톱
-Razor Fangs,Crocs Rasoir,Scharfzähne,Colmillos Agudos,Affilodenti,するどいキバ,예리한이빨
-TM01s,CT01,TM01,MT01,MT01,わざマシン０１,기술머신01
-TM02s,CT02,TM02,MT02,MT02,わざマシン０２,기술머신02
-TM03s,CT03,TM03,MT03,MT03,わざマシン０３,기술머신03
-TM04s,CT04,TM04,MT04,MT04,わざマシン０４,기술머신04
-TM05s,CT05,TM05,MT05,MT05,わざマシン０５,기술머신05
-TM06s,CT06,TM06,MT06,MT06,わざマシン０６,기술머신06
-TM07s,CT07,TM07,MT07,MT07,わざマシン０７,기술머신07
-TM08s,CT08,TM08,MT08,MT08,わざマシン０８,기술머신08
-TM09s,CT09,TM09,MT09,MT09,わざマシン０９,기술머신09
-TM10s,CT10,TM10,MT10,MT10,わざマシン１０,기술머신10
-TM11s,CT11,TM11,MT11,MT11,わざマシン１１,기술머신11
-TM12s,CT12,TM12,MT12,MT12,わざマシン１２,기술머신12
-TM13s,CT13,TM13,MT13,MT13,わざマシン１３,기술머신13
-TM14s,CT14,TM14,MT14,MT14,わざマシン１４,기술머신14
-TM15s,CT15,TM15,MT15,MT15,わざマシン１５,기술머신15
-TM16s,CT16,TM16,MT16,MT16,わざマシン１６,기술머신16
-TM17s,CT17,TM17,MT17,MT17,わざマシン１７,기술머신17
-TM18s,CT18,TM18,MT18,MT18,わざマシン１８,기술머신18
-TM19s,CT19,TM19,MT19,MT19,わざマシン１９,기술머신19
-TM20s,CT20,TM20,MT20,MT20,わざマシン２０,기술머신20
-TM21s,CT21,TM21,MT21,MT21,わざマシン２１,기술머신21
-TM22s,CT22,TM22,MT22,MT22,わざマシン２２,기술머신22
-TM23s,CT23,TM23,MT23,MT23,わざマシン２３,기술머신23
-TM24s,CT24,TM24,MT24,MT24,わざマシン２４,기술머신24
-TM25s,CT25,TM25,MT25,MT25,わざマシン２５,기술머신25
-TM26s,CT26,TM26,MT26,MT26,わざマシン２６,기술머신26
-TM27s,CT27,TM27,MT27,MT27,わざマシン２７,기술머신27
-TM28s,CT28,TM28,MT28,MT28,わざマシン２８,기술머신28
-TM29s,CT29,TM29,MT29,MT29,わざマシン２９,기술머신29
-TM30s,CT30,TM30,MT30,MT30,わざマシン３０,기술머신30
-TM31s,CT31,TM31,MT31,MT31,わざマシン３１,기술머신31
-TM32s,CT32,TM32,MT32,MT32,わざマシン３２,기술머신32
-TM33s,CT33,TM33,MT33,MT33,わざマシン３３,기술머신33
-TM34s,CT34,TM34,MT34,MT34,わざマシン３４,기술머신34
-TM35s,CT35,TM35,MT35,MT35,わざマシン３５,기술머신35
-TM36s,CT36,TM36,MT36,MT36,わざマシン３６,기술머신36
-TM37s,CT37,TM37,MT37,MT37,わざマシン３７,기술머신37
-TM38s,CT38,TM38,MT38,MT38,わざマシン３８,기술머신38
-TM39s,CT39,TM39,MT39,MT39,わざマシン３９,기술머신39
-TM40s,CT40,TM40,MT40,MT40,わざマシン４０,기술머신40
-TM41s,CT41,TM41,MT41,MT41,わざマシン４１,기술머신41
-TM42s,CT42,TM42,MT42,MT42,わざマシン４２,기술머신42
-TM43s,CT43,TM43,MT43,MT43,わざマシン４３,기술머신43
-TM44s,CT44,TM44,MT44,MT44,わざマシン４４,기술머신44
-TM45s,CT45,TM45,MT45,MT45,わざマシン４５,기술머신45
-TM46s,CT46,TM46,MT46,MT46,わざマシン４６,기술머신46
-TM47s,CT47,TM47,MT47,MT47,わざマシン４７,기술머신47
-TM48s,CT48,TM48,MT48,MT48,わざマシン４８,기술머신48
-TM49s,CT49,TM49,MT49,MT49,わざマシン４９,기술머신49
-TM50s,CT50,TM50,MT50,MT50,わざマシン５０,기술머신50
-TM51s,CT51,TM51,MT51,MT51,わざマシン５１,기술머신51
-TM52s,CT52,TM52,MT52,MT52,わざマシン５２,기술머신52
-TM53s,CT53,TM53,MT53,MT53,わざマシン５３,기술머신53
-TM54s,CT54,TM54,MT54,MT54,わざマシン５４,기술머신54
-TM55s,CT55,TM55,MT55,MT55,わざマシン５５,기술머신55
-TM56s,CT56,TM56,MT56,MT56,わざマシン５６,기술머신56
-TM57s,CT57,TM57,MT57,MT57,わざマシン５７,기술머신57
-TM58s,CT58,TM58,MT58,MT58,わざマシン５８,기술머신58
-TM59s,CT59,TM59,MT59,MT59,わざマシン５９,기술머신59
-TM60s,CT60,TM60,MT60,MT60,わざマシン６０,기술머신60
-TM61s,CT61,TM61,MT61,MT61,わざマシン６１,기술머신61
-TM62s,CT62,TM62,MT62,MT62,わざマシン６２,기술머신62
-TM63s,CT63,TM63,MT63,MT63,わざマシン６３,기술머신63
-TM64s,CT64,TM64,MT64,MT64,わざマシン６４,기술머신64
-TM65s,CT65,TM65,MT65,MT65,わざマシン６５,기술머신65
-TM66s,CT66,TM66,MT66,MT66,わざマシン６６,기술머신66
-TM67s,CT67,TM67,MT67,MT67,わざマシン６７,기술머신67
-TM68s,CT68,TM68,MT68,MT68,わざマシン６８,기술머신68
-TM69s,CT69,TM69,MT69,MT69,わざマシン６９,기술머신69
-TM70s,CT70,TM70,MT70,MT70,わざマシン７０,기술머신70
-TM71s,CT71,TM71,MT71,MT71,わざマシン７１,기술머신71
-TM72s,CT72,TM72,MT72,MT72,わざマシン７２,기술머신72
-TM73s,CT73,TM73,MT73,MT73,わざマシン７３,기술머신73
-TM74s,CT74,TM74,MT74,MT74,わざマシン７４,기술머신74
-TM75s,CT75,TM75,MT75,MT75,わざマシン７５,기술머신75
-TM76s,CT76,TM76,MT76,MT76,わざマシン７６,기술머신76
-TM77s,CT77,TM77,MT77,MT77,わざマシン７７,기술머신77
-TM78s,CT78,TM78,MT78,MT78,わざマシン７８,기술머신78
-TM79s,CT79,TM79,MT79,MT79,わざマシン７９,기술머신79
-TM80s,CT80,TM80,MT80,MT80,わざマシン８０,기술머신80
-TM81s,CT81,TM81,MT81,MT81,わざマシン８１,기술머신81
-TM82s,CT82,TM82,MT82,MT82,わざマシン８２,기술머신82
-TM83s,CT83,TM83,MT83,MT83,わざマシン８３,기술머신83
-TM84s,CT84,TM84,MT84,MT84,わざマシン８４,기술머신84
-TM85s,CT85,TM85,MT85,MT85,わざマシン８５,기술머신85
-TM86s,CT86,TM86,MT86,MT86,わざマシン８６,기술머신86
-TM87s,CT87,TM87,MT87,MT87,わざマシン８７,기술머신87
-TM88s,CT88,TM88,MT88,MT88,わざマシン８８,기술머신88
-TM89s,CT89,TM89,MT89,MT89,わざマシン８９,기술머신89
-TM90s,CT90,TM90,MT90,MT90,わざマシン９０,기술머신90
-TM91s,CT91,TM91,MT91,MT91,わざマシン９１,기술머신91
-TM92s,CT92,TM92,MT92,MT92,わざマシン９２,기술머신92
-HM01s,CS01,VM01,MO01,MN01,ひでんマシン０１,비전머신01
-HM02s,CS02,VM02,MO02,MN02,ひでんマシン０２,비전머신02
-HM03s,CS03,VM03,MO03,MN03,ひでんマシン０３,비전머신03
-HM04s,CS04,VM04,MO04,MN04,ひでんマシン０４,비전머신04
-HM05s,CS05,VM05,MO05,MN05,ひでんマシン０５,비전머신05
-HM06s,CS06,VM06,MO06,MN06,ひでんマシン０６,비전머신06
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-Explorer Kits,Explorakits,Forschersäcke,Kits Explorador,Esplorokit,たんけんセット,탐험세트
-Loot Sacks,Sacs Butin,Beutesäcke,Sacas Botín,Bottinosacche,たからぶくろ,보물주머니
-Rule Books,Livres Règles,Regelbücher,Reglamentos,Libri Regole,ルールブック,룰북
-Poké Radars,Poké Radars,Pokéradare,Pokéradares,Poké Radar,ポケトレ,포켓트레
-Point Cards,Cartes Points,Punktekarten,Tarjetas Puntos,Schede Punti,ポイントカード,포인트카드
-Journals,Journaux,Tagebücher,Diarios,Agende,ぼうけんノート,모험노트
-Seal Cases,Boîtes Sceaux,Stickerkoffer,Cajas Sellos,Portabolli,シールいれ,실상자
-Fashion Cases,Coffrets Mode,Modekoffer,Cajas Corazón,Scatole Chic,アクセサリーいれ,액세서리상자
-Seal Bags,Sacs Sceaux,Stickertüten,Bolsas Sellos,Bollosacche,シールぶくろ,실주머니
-Pal Pads,Registres Ami,Adressbücher,Blocs amigos,Blocchi Amici,ともだちてちょう,친구수첩
-Works Keys,Clés Centrale,K-Schlüssel,Llaves Central,Turbinchiavi,はつでんしょキー,발전소키
-Old Charms,Vieux Grigris,Talismane,Talismanes,Arcamuleti,こだいのおまもり,고대의부적
-Galactic Keys,Clés Galaxie,G-Schlüssel,Llaves Galaxia,Galachiavi,ギンガだんのカギ,갤럭시단의열쇠
-Red Chains,Chaînes Rouges,Rote Ketten,Cadenas Rojas,Rossocatene,あかいくさり,빨강쇠사슬
-Town Maps,Cartes,Karten,Mapas,Mappe Città,タウンマップ,타운맵
-Vs. Seekers,Cherche VS,Kampffahnder,Buscapeleas,Cercasfide,バトルサーチャー,배틀서처
-Coin Cases,Boîtes Jetons,Münzkörbe,Monederos,Salvadanai,コインケース,동전케이스
-Old Rods,Cannes,Angeln,Cañas Viejas,Ami Vecchi,ボロのつりざお,낡은낚싯대
-Good Rods,Super Cannes,Profiangeln,Cañas Buenas,Ami Buoni,いいつりざお,좋은낚싯대
-Super Rods,Méga Cannes,Superangeln,Supercañas,Super Ami,すごいつりざお,대단한낚싯대
-Sprayducks,Kwakarrosoirs,Entonkannen,Psydugaderas,Sprayduck,コダックじょうろ,고라파덕물뿌리개
-Poffin Cases,Boîtes Poffin,Knurspboxen,Pokocheras,Portapoffin,ポフィンケース,포핀케이스
-Bikes,Bicyclettes,Fahrräder,Bicis,Biciclette,じてんしゃ,자전거
-Suite Keys,Clés Chambre,B-Schlüssel,Llaves Suite,Chiavi Suite,ルームキー,룸키
-Oak’s Letters,Lettres Chen,Eichs Briefe,Cartas Prof. Oak,Lettere Oak,オーキドのてがみ,오박사의편지
-Lunar Wings,Lun’Ailes,Lunarfedern,Plumas Lunares,Alilunari,みかづきのはね,초승달날개
-Member Cards,Cartes Membre,Mitgliedskarten,Carnés Socio,Schede Soci,メンバーズカード,멤버스카드
-Azure Flutes,Flûtes Azur,Azurflöten,Flautas Azur,Flauti Cielo,てんかいのふえ,천계의피리
-S.S. Tickets,Passes Bateau,Bootstickets,Tickets Barco,Biglietti Nave,ふねのチケット,승선티켓
-Contest Passes,Passes Concours,Wettbewerbskarten,Pases Concurso,Tessere Gare,コンテストパス,콘테스트패스
-Magma Stones,Pierres Magma,Magmasteine,Piedras Magma,Magmapietre,かざんのおきいし,화산의돌
-Parcels,Colis,Pakete,Paquetes,Pacchi,おとどけもの,전해줄물건
-Coupon 1s,Bons 1,Kupons 1,Cupones 1,Coupon 1,ひきかえけん１,교환권1
-Coupon 2s,Bons 2,Kupons 2,Cupones 2,Coupon 2,ひきかえけん２,교환권2
-Coupon 3s,Bons 3,Kupons 3,Cupones 3,Coupon 3,ひきかえけん３,교환권3
-Storage Keys,Clés Stockage,Lagerschlüssel,Llaves Almacén,Depochiavi,そうこのカギ,창고열쇠
-Secret Potions,Potions Secrètes,Geheimtränke,Pociones Secretas,Pozioni Segrete,ひでんのくすり,비전신약
-Vs. Recorders,Magnétos VS,Kampfkameras,Cámaras Lucha,Registradati,バトルレコーダー,배틀레코더
-Gracideas,Gracidées,Gracidea,Gracídeas,Gracidee,グラシデアのはな,그라시데아꽃
-Secret Keys,Clés Secrètes,?-Öffner,Llaves Secretas,Chiavi Segrete,ひみつのカギ,비밀의열쇠
-Apricorn Boxes,Boîtes Noigrume,Aprikokoboxen,Cajas Bonguri,Ghicobox,ぼんぐりケース,규토리케이스
-Unown Reports,Carnets Zarbi,Icognitohefte,Blocs Unown,UnownBloc,アンノーンノート,안농노트
-Berry Pots,Plante-Baies,Pflanzsets,Plantabayas,Piantabacche,きのみプランター,나무열매플랜터
-Dowsing Machines,Cherch’Objets,Itemradare,Zahoríes,Ricerca Strum.,ダウジングマシン,다우징머신
-Blue Cards,Cartes Bleues,Blaue Karten,Tarjetas Azules,Carte Blu,ブルーカード,블루카드
-Slowpoke Tails,Queues Ramoloss,Flegmon-Ruten,Colas Slowpoke,Code Slowpoke,おいしいシッポ,맛있는꼬리
-Clear Bells,Glas Transparents,Klarglocken,Campanas Claras,Campane Chiare,とうめいなスズ,크리스탈방울
-Card Keys,Cartes Magnétiques,Türöffner,Llaves Magnéticas,Apriporta,カードキー,카드키
-Basement Keys,Clés Sous-Sol,Kelleröffner,Llaves Sótano,Chiavi sotterr.,ちかのかぎ,지하의열쇠
-Squirt Bottles,Carapuce à O,Schiggykannen,Regaderas,Annaffiatoi,ゼニガメじょうろ,꼬부기물뿌리개
-Red Scales,Écaillerouges,Rote Häute,Escamas Rojas,Squame Rosse,あかいウロコ,빨간비늘
-Lost Items,Objets perdus,Fundsachen,Objetos Perdidos,Strumenti persi,おとしもの,분실물
-Passes,Passes Train,Fahrscheine,Magnetopases,Superpass,リニアパス,리니어패스
-Machine Parts,Parties Machine,Spulen,Maquinarias,Pezzi macch.,きかいのぶひん,기계부품
-Silver Wings,Argent’Ailes,Silberflügel,Alas Plateadas,Alidargento,ぎんいろのはね,은빛날개
-Rainbow Wings,Arc-en-Ci’Ailes,Buntschwingen,Alas Arcoíris,Ali d’Iride,にじいろのはね,무지갯빛날개
-Mystery Eggs,Œufs Mystère,Rätsel-Eier,Huevos Misteriosos,Uovo Mistero,ふしぎなタマゴ,이상한알
-Red Apricorns,Noigrumes Rouges,Aprikokos Rot,Bonguris Rojos,Ghicocche Rosse,あかぼんぐり,빨간규토리
-Blue Apricorns,Noigrumes Bleus,Aprikokos Blu,Bonguris Azules,Ghicocche Blu,あおぼんぐり,파란규토리
-Yellow Apricorns,Noigrumes Jaunes,Aprikokos Glb,Bonguris Amarillos,Ghicocche Gialle,きぼんぐり,노랑규토리
-Green Apricorns,Noigrumes Verts,Aprikokos Grn,Bonguris Verdes,Ghicocche Verdi,みどぼんぐり,초록규토리
-Pink Apricorns,Noigrumes Roses,Aprikokos Pnk,Bonguris Rosas,Ghicocche Rosa,ももぼんぐり,담홍규토리
-White Apricorns,Noigrumes Blancs,Aprikokos Wss,Bonguris Blancos,Ghicocche Bianche,しろぼんぐり,하얀규토리
-Black Apricorns,Noigrumes Noirs,Aprikokos Swz,Bonguris Negros,Ghicocche Nere,くろぼんぐり,검은규토리
-Fast Balls,Speed Balls,Turbobälle,Rapid Balls,Rapid Ball,スピードボール,스피드볼
-Level Balls,Niveau Balls,Levelbälle,Nivel Balls,Level Ball,レベルボール,레벨볼
-Lure Balls,Appât Balls,Köderbälle,Cebo Balls,Esca Ball,ルアーボール,루어볼
-Heavy Balls,Masse Balls,Schwerbälle,Peso Balls,Peso Ball,ヘビーボール,헤비볼
-Love Balls,Love Balls,Sympabälle,Amor Balls,Love Ball,ラブラブボール,러브러브볼
-Friend Balls,Copain Balls,Freundesbälle,Amigo Balls,Friend Ball,フレンドボール,프렌드볼
-Moon Balls,Lune Balls,Mondbälle,Luna Balls,Luna Ball,ムーンボール,문볼
-Sport Balls,Compét’Balls,Turnierbälle,Competi Balls,Gara Ball,コンペボール,콤페볼
-Park Balls,Parc Balls,Parkbälle,Parque Balls,Parco Ball,パークボール,파크볼
-Photo Albums,Albums Photo,Fotoalben,Álbumes,Album,フォトアルバム,포토앨범
-GB Sounds,Lecteurs GB,GB-Player,Lectores GB,Lettori GB,ＧＢプレイヤー,GB플레이어
-Tidal Bells,Glas Tempête,Gischtglocken,Campanas Oleaje,Campane Onda,うみなりのスズ,해명의방울
-Rage Candy Bars,Bonbons Rage,Wutkekse,Caramelos Furia,Iramelle,いかりまんじゅう,분노의호두과자
-Data Card 01s,Cartes Mémo01,Datenkarten01,Tarjetas Datos 01,Schede Dati 01,データカード０１,데이터카드01
-Data Card 02s,Cartes Mémo02,Datenkarten02,Tarjetas Datos 02,Schede Dati 02,データカード０２,데이터카드02
-Data Card 03s,Cartes Mémo03,Datenkarten03,Tarjetas Datos 03,Schede Dati 03,データカード０３,데이터카드03
-Data Card 04s,Cartes Mémo04,Datenkarten04,Tarjetas Datos 04,Schede Dati 04,データカード０４,데이터카드04
-Data Card 05s,Cartes Mémo05,Datenkarten05,Tarjetas Datos 05,Schede Dati 05,データカード０５,데이터카드05
-Data Card 06s,Cartes Mémo06,Datenkarten06,Tarjetas Datos 06,Schede Dati 06,データカード０６,데이터카드06
-Data Card 07s,Cartes Mémo07,Datenkarten07,Tarjetas Datos 07,Schede Dati 07,データカード０７,데이터카드07
-Data Card 08s,Cartes Mémo08,Datenkarten08,Tarjetas Datos 08,Schede Dati 08,データカード０８,데이터카드08
-Data Card 09s,Cartes Mémo09,Datenkarten09,Tarjetas Datos 09,Schede Dati 09,データカード０９,데이터카드09
-Data Card 10s,Cartes Mémo10,Datenkarten10,Tarjetas Datos 10,Schede Dati 10,データカード１０,데이터카드10
-Data Card 11s,Cartes Mémo11,Datenkarten11,Tarjetas Datos 11,Schede Dati 11,データカード１１,데이터카드11
-Data Card 12s,Cartes Mémo12,Datenkarten12,Tarjetas Datos 12,Schede Dati 12,データカード１２,데이터카드12
-Data Card 13s,Cartes Mémo13,Datenkarten13,Tarjetas Datos 13,Schede Dati 13,データカード１３,데이터카드13
-Data Card 14s,Cartes Mémo14,Datenkarten14,Tarjetas Datos 14,Schede Dati 14,データカード１４,데이터카드14
-Data Card 15s,Cartes Mémo15,Datenkarten15,Tarjetas Datos 15,Schede Dati 15,データカード１５,데이터카드15
-Data Card 16s,Cartes Mémo16,Datenkarten16,Tarjetas Datos 16,Schede Dati 16,データカード１６,데이터카드16
-Data Card 17s,Cartes Mémo17,Datenkarten17,Tarjetas Datos 17,Schede Dati 17,データカード１７,데이터카드17
-Data Card 18s,Cartes Mémo18,Datenkarten18,Tarjetas Datos 18,Schede Dati 18,データカード１８,데이터카드18
-Data Card 19s,Cartes Mémo19,Datenkarten19,Tarjetas Datos 19,Schede Dati 19,データカード１９,데이터카드19
-Data Card 20s,Cartes Mémo20,Datenkarten20,Tarjetas Datos 20,Schede Dati 20,データカード２０,데이터카드20
-Data Card 21s,Cartes Mémo21,Datenkarten21,Tarjetas Datos 21,Schede Dati 21,データカード２１,데이터카드21
-Data Card 22s,Cartes Mémo22,Datenkarten22,Tarjetas Datos 22,Schede Dati 22,データカード２２,데이터카드22
-Data Card 23s,Cartes Mémo23,Datenkarten23,Tarjetas Datos 23,Schede Dati 23,データカード２３,데이터카드23
-Data Card 24s,Cartes Mémo24,Datenkarten24,Tarjetas Datos 24,Schede Dati 24,データカード２４,데이터카드24
-Data Card 25s,Cartes Mémo25,Datenkarten25,Tarjetas Datos 25,Schede Dati 25,データカード２５,데이터카드25
-Data Card 26s,Cartes Mémo26,Datenkarten26,Tarjetas Datos 26,Schede Dati 26,データカード２６,데이터카드26
-Data Card 27s,Cartes Mémo27,Datenkarten27,Tarjetas Datos 27,Schede Dati 27,データカード２７,데이터카드27
-Jade Orbs,Orbes Verts,Grüne Kugeln,Esferas Verdes,Sfere Verdi,もえぎいろのたま,연둣빛구슬
-Lock Capsules,Poké Écrins,Tresorkapseln,Cápsulas Candado,Capsule Scrigno,ロックカプセル,록캡슐
-Red Orbs,Gemmes Rouges,Rote Edelsteine,Prismas Rojos,Gemme rosse,べにいろのたま,주홍구슬
-Blue Orbs,Gemmes Bleues,Blaue Edelsteine,Prismas Azules,Gemme blu,あいいろのたま,쪽빛구슬
-Enigma Stones,Mystécristaux,Mytokristalle,Misticristales,Misticristal,なぞのすいしょう,수수께끼의수정
-Prism Scales,Bel’Écailles,Schönschuppen,Escamas Bellas,Squame Belle,きれいなウロコ,고운비늘
-Eviolites,Évolurocs,Evolithen,Minerales Evol,Evolcondense,しんかのきせき,진화의휘석
-Float Stones,Pierrallégées,Leichtsteine,Piedras Pómez,Pietrelievi,かるいし,가벼운돌
-Rocky Helmets,Casques Bruts,Beulenhelme,Cascos Dentados,Bitorzolelmi,ゴツゴツメット,울퉁불퉁멧
-Air Balloons,Ballons,Luftballons,Globos Helio,Palloncini,ふうせん,풍선
-Red Cards,Cartons Rouges,Rote Karten,Tarjetas Rojas,Cartelrossi,レッドカード,레드카드
-Ring Targets,Points de Mire,Zielscheiben,Blancos,Facilsagli,ねらいのまと,겨냥표적
-Binding Bands,Bandes Étreinte,Klammerbänder,Bandas Atadura,Legafasce,しめつけバンド,조임밴드
-Absorb Bulbs,Bulbes,Knollen,Tubérculos,Bulbi,きゅうこん,구근
-Cell Batteries,Piles,Akkus,Pilas,Ricaripile,じゅうでんち,충전지
-Eject Buttons,Boutons Fuite,Fluchtknöpfe,Botones Escape,Pulsantifuga,だっしゅつボタン,탈출버튼
-Fire Gems,Joyaux Feu,Feuerjuwelen,Gemas Fuego,Bijoufuoco,ほのおのジュエル,불꽃주얼
-Water Gems,Joyaux Eau,Wasserjuwelen,Gemas Agua,Bijouacqua,みずのジュエル,물주얼
-Electric Gems,Joyaux Électrik,Elektrojuwelen,Gemas Eléctricas,Bijouelettro,でんきのジュエル,전기주얼
-Grass Gems,Joyaux Plante,Pflanzenjuwelen,Gemas Planta,Bijouerba,くさのジュエル,풀주얼
-Ice Gems,Joyaux Glace,Eisjuwelen,Gemas Hielo,Bijoughiaccio,こおりのジュエル,얼음주얼
-Fighting Gems,Joyaux Combat,Kampfjuwelen,Gemas Lucha,Bijoulotta,かくとうジュエル,격투주얼
-Poison Gems,Joyaux Poison,Giftjuwelen,Gemas Veneno,Bijouveleno,どくのジュエル,독주얼
-Ground Gems,Joyaux Sol,Bodenjuwelen,Gemas Tierra,Bijouterra,じめんのジュエル,땅주얼
-Flying Gems,Joyaux Vol,Flugjuwelen,Gemas Voladoras,Bijouvolante,ひこうのジュエル,비행주얼
-Psychic Gems,Joyaux Psy,Psychojuwelen,Gemas Psíquicas,Bijoupsico,エスパージュエル,에스퍼주얼
-Bug Gems,Joyaux Insecte,Käferjuwelen,Gemas Bicho,Bijoucoleottero,むしのジュエル,벌레주얼
-Rock Gems,Joyaux Roche,Gesteinsjuwelen,Gemas Roca,Bijouroccia,いわのジュエル,바위주얼
-Ghost Gems,Joyaux Spectre,Geisterjuwelen,Gemas Fantasma,Bijouspettro,ゴーストジュエル,고스트주얼
-Dragon Gems,Joyaux Dragon,Drakojuwelen,Gemas Dragón,Bijoudrago,ドラゴンジュエル,드래곤주얼
-Dark Gems,Joyaux Ténèbres,Unlichtjuwelen,Gemas Siniestras,Bijoubuio,あくのジュエル,악주얼
-Steel Gems,Joyaux Acier,Stahljuwelen,Gemas Acero,Bijouacciaio,はがねのジュエル,강철주얼
-Normal Gems,Joyaux Normal,Normaljuwelen,Gemas Normales,Bijounormale,ノーマルジュエル,노말주얼
-Health Wings,Ailes Santé,Heilfedern,Plumas Vigor,Piumsalute,たいりょくのハネ,체력날개
-Muscle Wings,Ailes Force,Kraftfedern,Plumas Músculo,Piumpotenza,きんりょくのハネ,근력날개
-Resist Wings,Ailes Armure,Abwehrfedern,Plumas Aguante,Piumtutela,ていこうのハネ,저항력날개
-Genius Wings,Ailes Esprit,Geniefedern,Plumas Intelecto,Piumingegno,ちりょくのハネ,지력날개
-Clever Wings,Ailes Mental,Espritfedern,Plumas Mente,Piumintuito,せいしんのハネ,정신력날개
-Swift Wings,Ailes Sprint,Flinkfedern,Plumas Ímpetu,Piumreazione,しゅんぱつのハネ,순발력날개
-Pretty Wings,Jolies Ailes,Prachtfedern,Plumas Bellas,Piumebelle,きれいなハネ,고운날개
-Cover Fossils,Fossiles Plaques,Schildfossilien,Fósiles Tapa,Fossiltappo,ふたのカセキ,덮개화석
-Plume Fossils,Fossiles Plumes,Federfossilien,Fósiles Pluma,Fossilpiuma,はねのカセキ,날개화석
-Liberty Passes,Passes Liberté,Gartenpässe,Tarjetas Libertad,Liberticket,リバティチケット,리버티티켓
-Pass Orbs,Offrisphères,Transferorbs,Regalosferas,Passabilie,デルダマ,딜구슬
-Dream Balls,Rêve Balls,Traumbälle,Ensueño Balls,Dream Ball,ドリームボール,드림볼
-Poké Toys,Poké Plumets,Pokéwedel,Pokéseñuelos,Pokégingilli,ポケじゃらし,포켓풀
-Prop Cases,Boîtes Parure,Deko-Boxen,Neceseres,Portagadget,グッズケース,굿즈케이스
-Dragon Skulls,Crânes Dragons,Drakoschädel,Cráneos Dragón,Teschi,ドラゴンのホネ,드래곤의뼈
-Balm Mushrooms,Champis Suaves,Duftpilze,Setas Aroma,Profumfunghi,かおるキノコ,향기버섯
-Big Nuggets,Maxi Pépites,Riesennuggets,Maxipepitas,Granpepite,でかいきんのたま,큰금구슬
-Pearl Strings,Perles Triples,Triperlen,Sartas Perlas,Trittiperle,おだんごしんじゅ,경단진주
-Comet Shards,Morceaux Comète,Kometstücke,Fragmentos Cometa,Pezzi Cometa,すいせいのかけら,혜성조각
-Relic Coppers,Vieux Sous,Alte Heller,Reales Cobre,Soldantichi,こだいのどうか,고대의동화
-Relic Silvers,Vieux Écus,Alte Taler,Reales Plata,Ducatantichi,こだいのぎんか,고대의은화
-Relic Golds,Vieux Ducats,Alte Dukaten,Reales Oro,Doblonantichi,こだいのきんか,고대의금화
-Relic Vases,Vieux Vases,Alte Vasen,Ánforas,Vasantichi,こだいのツボ,고대의항아리
-Relic Bands,Vieux Bijoux,Alte Reife,Brazales,Bracciantichi,こだいのうでわ,고대의팔찌
-Relic Statues,Vieux Santons,Alte Statuen,Efigies Antiguas,Statuantiche,こだいのせきぞう,고대의석상
-Relic Crowns,Vieux Tortils,Alte Kronen,Coronas Antiguas,Coronantiche,こだいのおうかん,고대의왕관
-Casteliacones,Glaces Volute,Stratos-Eis,Porcehelados,Conistropoli,ヒウンアイス,구름아이스
-Dire Hit 2s,Muscles 2,Angriffplus2,Directo 2,Supercolpi 2,クリティカット２,크리티컬커터2
-X Speed 2s,Vitesses 2,X-Tempo2,Velocidad X 2,Velocità X-2,スピーダー２,스피드업2
-X Sp. Atk 2s,Atq. Spé. 2,X-Spezial2,Especial X 2,Att. Sp. X-2,ＳＰアップ２,스페셜업2
-X Sp. Def 2s,Déf. Spé. 2,X-Sp.-Vert.2,Defensa Especial X 2,Dif. Spec. X-2,ＳＰガード２,스페셜가드2
-X Defense 2s,Défenses 2,X-Abwehr2,Defensa X 2,Difese X-2,ディフェンダー２,디펜드업2
-X Attack 2s,Attaques 2,X-Angriff2,Ataque X 2,Attacchi X-2,プラスパワー２,플러스파워2
-X Accuracy 2s,Précisions 2,X-Treffer2,Precisión X 2,Precisioni X-2,ヨクアタール２,잘-맞히기2
-X Speed 3s,Vitesses 3,X-Tempo3,Velocidad X 3,Velocità X-3,スピーダー３,스피드업3
-X Sp. Atk 3s,Atq. Spé. 3,X-Spezial3,Especial X 3,Att. Sp. X-3,ＳＰアップ３,스페셜업3
-X Sp. Def 3s,Déf. Spé. 3,X-Sp.-Vert.3,Defensa Especial X 3,Dif. Spec. X-3,ＳＰガード３,스페셜가드3
-X Defense 3s,Défenses 3,X-Abwehr3,Defensa X 3,Difese X-3,ディフェンダー３,디펜드업3
-X Attack 3s,Attaques 3,X-Angriff3,Ataque X 3,Attacchi X-3,プラスパワー３,플러스파워3
-X Accuracy 3s,Précisions 3,X-Treffer3,Precisión X 3,Precisioni X-3,ヨクアタール３,잘-맞히기3
-X Speed 6s,Vitesses 6,X-Tempo6,Velocidad X 6,Velocità X-6,スピーダー６,스피드업6
-X Sp. Atk 6s,Atq. Spé. 6,X-Spezial6,Especial X 6,Att. Sp. X-6,ＳＰアップ６,스페셜업6
-X Sp. Def 6s,Déf. Spé. 6,X-Sp.-Vert.6,Defensa Especial X 6,Dif. Spec. X-6,ＳＰガード６,스페셜가드6
-X Defense 6s,Défenses 6,X-Abwehr6,Defensa X 6,Difese X-6,ディフェンダー６,디펜드업6
-X Attack 6s,Attaques 6,X-Angriff6,Ataque X 6,Attacchi X-6,プラスパワー６,플러스파워6
-X Accuracy 6s,Précisions 6,X-Treffer6,Precisión X 6,Precisioni X-6,ヨクアタール６,잘-맞히기6
-Ability Urges,Appels Talent,Fähigk.-Appelle,Habilitadores,Chiamabilità,スキルコール,스킬콜
-Item Drops,Jette Objets,Itemabwürfe,Tiraobjetos,Lascioggetto,アイテムドロップ,아이템드롭
-Item Urges,Appel Objets,Itemappelle,Activaobjetos,Chiamoggetto,アイテムコール,아이템콜
-Reset Urges,Réamorçages,Umkehrappelle,Quitaestados,Ripristini,フラットコール,플랫콜
-Dire Hit 3s,Muscles 3,Angriffplus3,Directo 3,Supercolpi 3,クリティカット３,크리티컬커터3
-Light Stones,Galets Blancs,Lichtsteine,Orbes Claros,Chiaroliti,ライトストーン,라이트스톤
-Dark Stones,Galets Noirs,Dunkelsteine,Orbes Oscuros,Scuroliti,ダークストーン,다크스톤
-TM93s,CT93,TM93,MT93,MT93,わざマシン９３,기술머신93
-TM94s,CT94,TM94,MT94,MT94,わざマシン９４,기술머신94
-TM95s,CT95,TM95,MT95,MT95,わざマシン９５,기술머신95
-Xtransceivers,Vokits,Viso-Caster,Videomisores,Interpoké,ライブキャスター,라이브캐스터
-???,???,???,(?),???,ゴッドストーン,???
-Gram 1s,Courriers 1,Briefpost 1,Envíos 1,Missive 1,はいたつぶつ１,배달물1
-Gram 2s,Courriers 2,Briefpost 2,Envíos 2,Missive 2,はいたつぶつ２,배달물2
-Gram 3s,Courriers 3,Briefpost 3,Envíos 3,Missive 3,はいたつぶつ３,배달물3
-Xtransceivers,Vokits,Viso-Caster,Videomisores,Interpoké,ライブキャスター,라이브캐스터
-Medal Boxes,Boîtes Médailles,Medaillenboxen,Cajas de Insignias,Box Premi,メダルボックス,메달박스
-DNA Splicers,Pointeaux ADN,DNS-Keile,Puntas ADN,Cunei DNA,いでんしのくさび,유전자쐐기
-DNA Splicers,Pointeaux ADN,DNS-Keile,Puntas ADN,Cunei DNA,いでんしのくさび,유전자쐐기
-Permits,Permis,Genehmigungen,Pases,Permessi,きょかしょう,허가증
-Oval Charms,Charmes Ovales,Ovalpins,Amuletos Ovales,Ovamuleti,まるいおまもり,둥근부적
-Shiny Charms,Charmes Chroma,Schillerpins,Amuletos Iris,Cromamuleti,ひかるおまもり,빛나는부적
-Plasma Cards,Cartes Plasma,Plasmakarten,Tarjetas Plasma,Carte Plasma,プラズマカード,플라스마카드
-Grubby Hankies,Mouchoirs Sales,Schnäuztücher,Pañuelos Sucios,Pezze Sporche,よごれたハンカチ,더러운손수건
-Colress Machines,Nikodules,Achromaten,Acromáquinas,Acrocongegni,アクロママシーン,아크로마머신
-Dropped Items,Objets Trouvés,Fundsachen,Objetos Perdidos,Oggetti persi,わすれもの,잊은물건
-Dropped Items,Objets Trouvés,Fundsachen,Objetos Perdidos,Oggetti persi,わすれもの,잊은물건
-Reveal Glasses,Miroirs Sacrés,Wahrspiegel,Espejos Veraces,Verispecchi,うつしかがみ,비추는거울
-Weakness Policies,Vulné-Assurances,Schwächenschutze,Seguros Debilidad,Vulneropolizze,じゃくてんほけん,약점보험
-Assault Vests,Vestes de Combat,Offensivwesten,Chalecos Asalto,Corpetti assalto,とつげきチョッキ,돌격조끼
-Holo Casters,Holokits,Holo-Logs,Holomisores,Holovox,ホロキャスター,홀로캐스터
-Prof’s Letters,Lettres du Prof,Briefe vom Prof,Cartas Profesor,Lettere del Prof,はかせのてがみ,박사의편지
-Roller Skates,Rollers,Rollerskates,Patines,Pattini,ローラースケート,롤러스케이트
-Pixie Plates,Plaques Pixie,Feentafeln,Tablas Duende,Lastrespiritello,せいれいプレート,정령플레이트
-Ability Capsules,Pilules Talent,Fähigk.-Kapseln,Cápsulas Habilidad,Capsule abilità,とくせいカプセル,특성캡슐
-Whipped Dreams,Chantibonbons,Sahnehäubchen,Dulces de Nata,Dolcispume,ホイップポップ,휘핑팝
-Sachets,Sachets Senteur,Duftbeutel,Saquitos Fragantes,Bustine aromi,においぶくろ,향기주머니
-Luminous Moss,Lichens Lumineux,Leuchtmoose,Musgos Brillantes,Muschiluce,ひかりごけ,빛이끼
-Snowballs,Boules de Neige,Schneebälle,Bolas de Nieve,Palle di neve,ゆきだま,눈덩이
-Safety Goggles,Lunettes Filtre,Schutzbrillen,Gafas Protectoras,Visierantisabbia,ぼうじんゴーグル,방진고글
-Poké Flutes,Pokéflûtes,Pokéflöten,Poké Flautas,Poké Flauti,ポケモンのふえ,포켓몬피리
-Rich Mulch,Fertibondances,Sprießmulche,Abonos Fértiles,Fertilflorido,たわわこやし,주렁주렁비료
-Surprise Mulch,Fertistantanés,Wundermulche,Abonos Sorpresa,Fertilsorpresa,びっくりこやし,깜놀비료
-Boost Mulch,Fertibérances,Wuchermulche,Abonos Fructíferos,Fertilcopioso,ぐんぐんこやし,부쩍부쩍비료
-Amaze Mulch,Fertiprodiges,Ultramulche,Abonos Insólitos,Fertilprodigio,とんでもこやし,기절초풍비료
-Gengarites,Ectoplasmites,Gengarnite,Gengaritas,Gengariti,ゲンガナイト,팬텀나이트
-Gardevoirites,Gardevoirites,Guardevoirnite,Gardevoiritas,Gardevoiriti,サーナイトナイト,가디안나이트
-Ampharosites,Pharampites,Ampharosnite,Ampharositas,Ampharositi,デンリュウナイト,전룡나이트
-Venusaurites,Florizarrites,Bisaflornite,Venusauritas,Venusauriti,フシギバナイト,이상해꽃나이트
-Charizardite Xs,Dracaufites X,Gluraknite X,Charizarditas X,Charizarditi X,リザードナイトＸ,리자몽나이트X
-Blastoisinites,Tortankites,Turtoknite,Blastoisitas,Blastoisiti,カメックスナイト,거북왕나이트
-Mewtwonite Xs,Mewtwoïtes X,Mewtunite X,Mewtwoitas X,Mewtwoiti X,ミュウツナイトＸ,뮤츠나이트X
-Mewtwonite Ys,Mewtwoïtes Y,Mewtunite Y,Mewtwoitas Y,Mewtwoiti Y,ミュウツナイトＹ,뮤츠나이트Y
-Blazikenites,Braségalites,Lohgocknite,Blazikenitas,Blazikeniti,バシャーモナイト,번치코나이트
-Medichamites,Charminites,Meditalisnite,Medichamitas,Medichamiti,チャーレムナイト,요가램나이트
-Houndoominites,Démolossites,Hundemonite,Houndoomitas,Houndoomiti,ヘルガナイト,헬가나이트
-Aggronites,Galekingites,Stollossnite,Aggronitas,Aggroniti,ボスゴドラナイト,보스로라나이트
-Banettites,Branettites,Banetteonite,Banettitas,Banettiti,ジュペッタナイト,다크펫나이트
-Tyranitarites,Tyranocivites,Despotarnite,Tyranitaritas,Tyranitariti,バンギラスナイト,마기라스나이트
-Scizorites,Cizayoxites,Scheroxnite,Scizoritas,Scizoriti,ハッサムナイト,핫삼나이트
-Pinsirites,Scarabruites,Pinsirnite,Pinsiritas,Pinsiriti,カイロスナイト,쁘사이저나이트
-Aerodactylites,Ptéraïtes,Aerodactylonite,Aerodactylitas,Aerodactyliti,プテラナイト,프테라나이트
-Lucarionites,Lucarites,Lucarionite,Lucaritas,Lucariti,ルカリオナイト,루카리오나이트
-Abomasites,Blizzarites,Rexblisarnite,Abomasnowitas,Abomasnowiti,ユキノオナイト,눈설왕나이트
-Kangaskhanites,Kangourexites,Kangamanite,Kangaskhanitas,Kangaskhaniti,ガルーラナイト,캥카나이트
-Gyaradosites,Léviatorites,Garadosnite,Gyaradositas,Gyaradositi,ギャラドスナイト,갸라도스나이트
-Absolites,Absolites,Absolnite,Absolitas,Absoliti,アブソルナイト,앱솔나이트
-Charizardite Ys,Dracaufites Y,Gluraknite Y,Charizarditas Y,Charizarditi Y,リザードナイトＹ,리자몽나이트Y
-Alakazites,Alakazamites,Simsalanite,Alakazamitas,Alakazamiti,フーディナイト,후디나이트
-Heracronites,Scarhinoïtes,Skarabornite,Heracrossitas,Heracrossiti,ヘラクロスナイト,헤라크로스나이트
-Mawilites,Mysdibulites,Flunkifernite,Mawilitas,Mawiliti,クチートナイト,입치트나이트
-Manectites,Élecsprintites,Voltensonite,Manectricitas,Manectriciti,ライボルトナイト,썬더볼트나이트
-Garchompites,Carchacrokites,Knakracknite,Garchompitas,Garchompiti,ガブリアスナイト,한카리아스나이트
-Latiasites,Latiasites,Latiasnite,Latiasitas,Latiasiti,ラティアスナイト,라티아스나이트
-Latiosites,Latiosites,Latiosnite,Latiositas,Latiositi,ラティオスナイト,라티오스나이트
-Roseli Berries,Baies Selro,Hibisbeeren,Bayas Hibis,Baccarcadè,ロゼルのみ,로셀열매
-Kee Berries,Baies Éka,Akibeeren,Bayas Biglia,Baccalighia,アッキのみ,악키열매
-Maranga Berries,Baies Rangma,Tarabeeren,Bayas Maranga,Baccapane,タラプのみ,타라프열매
-Sprinklotads,Nénurrosoirs,Loturzelkannen,Lotadgaderas,Irrigalotad,ハスボーじょうろ,연꽃몬물뿌리개
-TM96s,CT96,TM96,MT96,MT96,わざマシン９６,기술머신96
-TM97s,CT97,TM97,MT97,MT97,わざマシン９７,기술머신97
-TM98s,CT98,TM98,MT98,MT98,わざマシン９８,기술머신98
-TM99s,CT99,TM99,MT99,MT99,わざマシン９９,기술머신99
-TM100s,CT100,TM100,MT100,MT100,わざマシン１００,기술머신100
-Power Plant Passes,Passes Centrale,Kraftwerks-Pässe,Pases Central,Pass Centrale,はつでんしょパス,발전소패스
-Mega Rings,Méga-Anneaux,Mega-Ringe,Mega-Aros,Megacerchi,メガリング,메가링
-Intriguing Stones,Pierres Insolites,Kuriose Steine,Piedras Insólitas,Sassi suggestivi,すごそうないし,대단할듯한돌
-Common Stones,Pierres Ordinaires,Normale Steine,Piedras Comunes,Sassi qualsiasi,ありふれたいし,흔해빠진돌
-Discount Coupons,Bons Réduction,Rabattmarken,Vales Descuento,Buoni sconto,バーゲンチケット,바겐세일티켓
-Elevator Keys,Clés Ascenseur,Liftschlüssel,Llaves Ascensor,Chiavi ascensore,エレベータのキー,엘리베이터키
-TMV Passes,Passes TMV,TMV-Pässe,Abonos del TMV,Pass TMV,ＴＭＶパス,TMV패스
-Honors of Kalos,Insignes de Kalos,Kalos-Embleme,Emblemas Kalos,Emblemi di Kalos,カロスエンブレム,칼로스엠블럼
-Adventure Rules,ABC Aventure,Abenteuerfibeln,Guías de Máximas,Guide Avventura,たんけんこころえ,탐험수칙
-Strange Souvenirs,Bibelots Bizarres,Skurriloskulpturen,Estatuillas Raras,Strani ninnoli,ふしぎなおきもの,이상한장식품
-Lens Cases,Boîtes Lentilles,Linsenetuis,Portalentillas,Portalenti,レンズケース,렌즈케이스
-Makeup Bags,Trousses Beauté,Kosmetiketuis,Kits Maquillaje,Trousse,コスメポーチ,코스메틱파우치
-Travel Trunks,Malles Penderie,Kleiderkoffer,Maletas,Bauli per abiti,いしょうトランク,의상트렁크
-Lumiose Galettes,Galettes Illumis,Illumina-Galetten,Crêpes Luminalia,Pan di Lumi,ミアレガレット,미르갈레트
-Shalour Sables,Sablés Yantreizh,Yantara-Sablés,Galletas Yantra,Yantafrollini,シャラサブレ,사라사블레
-Jaw Fossils,Fossiles Mâchoires,Kieferfossilien,Fósiles Mandíbula,Fossilmascella,アゴのカセキ,턱화석
-Sail Fossils,Fossiles Nageoires,Flossenfossilien,Fósiles Aleta,Fossilpinna,ヒレのカセキ,지느러미화석
-Looker Tickets,Tickets Beladonis,LeBelle-Tickets,Boletos Handsome,Carte Bellocchio,ハンサムチケット,핸섬티켓
-Bikes,Bicyclettes,Fahrräder,Bicis,Biciclette,じてんしゃ,자전거
-Holo Casters,Holokits,Holo-Logs,Holomisores,Holovox,ホロキャスター,홀로캐스터
-Fairy Gems,Joyaux Fée,Feenjuwelen,Gemas Hada,Bijoufolletto,ようせいジュエル,페어리주얼
-Mega Charms,Méga-Charmes,Megaillons,Megacolgantes,Megaciondoli,メガチャーム,메가참
-Mega Gloves,Méga-Gants,Mega-Handschuhe,Megaguantes,Megaguanti,メガグローブ,메가글러브
-Mach Bikes,Vélos de Course,Eilräder,Bicis de Carreras,Bici da corsa,マッハじてんしゃ,마하자전거
-Acro Bikes,Vélos Cross,Kunsträder,Bicis Acrobáticas,Bici da cross,ダートじてんしゃ,더트자전거
-Wailmer Pails,Wailmerrosoirs,Wailmerkannen,Wailmegaderas,Vasi Wailmer,ホエルコじょうろ,고래왕자물뿌리개
-Devon Parts,Packs Devon,Devon-Waren,Piezas Devon,Merce Devon,デボンのにもつ,데봉화물
-Soot Sacks,Sacs à Suie,Aschetaschen,Sacos Hollín,Sacchi cenere,はいぶくろ,재주머니
-Basement Keys,Clés Sous-Sol,Kelleröffner,Llaves del Sótano,Chiavi sotterr.,ちかのカギ,지하열쇠
-Pokéblock Kits,Kits Pokébloc,Pokériegel-Sets,Kits de Pokécubos,Kit Pokémelle,ポロックキット,포켓몬스넥키트
-Letters,Lettres à Pierre,Briefe an Troy,Cartas a Máximo,Lettere,ダイゴへのてがみ,성호에게줄편지
-Eon Tickets,Passes Éon,Äon-Tickets,Tickets Eón,Biglietti Eone,むげんのチケット,무한티켓
-Scanners,Scanners,Scanner,Escáneres,Scanner,たんちき,탐지기
-Go-Goggles,Lunettes Sable,Wüstengläser,Gafas Aislantes,Occhialoni,ゴーゴーゴーグル,고고고글
-Meteorites,Météorites,Meteoriten,Meteoritos,Meteoriti,いんせき,운석
-Keys to Room 1,Clés Salle 1,R1-Schlüssel,Ll. Habitación 1,Chiavi stanza 1,１ごうしつのカギ,1호실열쇠
-Keys to Room 2,Clés Salle 2,R2-Schlüssel,Ll. Habitación 2,Chiavi stanza 2,２ごうしつのカギ,2호실열쇠
-Keys to Room 4,Clés Salle 4,R4-Schlüssel,Ll. Habitación 4,Chiavi stanza 4,４ごうしつのカギ,4호실열쇠
-Keys to Room 6,Clés Salle 6,R6-Schlüssel,Ll. Habitación 6,Chiavi stanza 6,６ごうしつのカギ,6호실열쇠
-Storage Keys,Clés Stockage,Lagerschlüssel,Llaves Almacén,Chiavi magazzino,そうこのカギ,창고열쇠
-Devon Scopes,Devon Scopes,Devon-Scopes,Detectores Devon,Devonscopi,デボンスコープ,데봉스코프
-S.S. Tickets,Passes Bateau,Bootstickets,Tickets Barco,Biglietti Nave,ふねのチケット,승선티켓
-HM07s,CS07,VM07,MO07,MN07,ひでんマシン０７,비전머신07
-Devon Scuba Gear,Plongeurs Devon,Devon-Atemgeräte,Bombonas Devon,Maschere Devon,デボンボンベ,데봉봄베
-Contest Costumes,Costumes Live,Live-Anzüge,Trajes de Gala,Costumi Live,ライブスーツ,라이브슈트
-Contest Costumes,Robes Live,Live-Kleider,Vestidos de Gala,Vestiti Live,ライブドレス,라이브드레스
-Magma Suits,Scaph. Magma,Magma-Anzüge,Trajes Magma,Tute Magma,マグマスーツ,마그마슈트
-Aqua Suits,Scaphandres Aqua,Aqua-Anzüge,Trajes Aqua,Tute Idro,アクアスーツ,아쿠아슈트
-Pair of Tickets,Tickets Duo,Zweiertickets,Entradas para dos,Biglietti doppi,ペアチケット,페어티켓
-Mega Bracelets,Méga-Bracelets,Mega-Armreife,Megapulseras,Megabracciali,メガバングル,메가뱅글
-Mega Pendants,Méga-Pendentifs,Mega-Anhänger,Megacollares,Megapendenti,メガペンダント,메가펜던트
-Mega Glasses,Méga-Lunettes,Mega-Brillen,Megagafas,Megaocchiali,メガメガネ,메가글라스
-Mega Anchors,Méga-Ancres,Mega-Anker,Megaanclas,Megaancore,メガイカリ,메가앵커
-Mega Stickpins,Méga-Pin’s,Mega-Anstecker,Megabroches,Megaspille,メガラペルピン,메가라펠핀
-Mega Tiaras,Méga-Tiares,Mega-Diademe,Megatiaras,Megadiademi,メガティアラ,메가티아러
-Mega Anklets,Méga-Grèves,Mega-Beinreife,Megatobilleras,Megagambali,メガアンクレット,메가앵클릿
-Meteorites,Météorites,Meteoriten,Meteoritos,Meteoriti,いんせき,운석
-Swampertites,Laggronites,Sumpexnite,Swampertitas,Swampertiti,ラグラージナイト,대짱이나이트
-Sceptilites,Jungkites,Gewaldronite,Sceptilitas,Sceptiliti,ジュカインナイト,나무킹나이트
-Sablenites,Ténéfixites,Zobirisnite,Sableynitas,Sableyiti,ヤミラミナイト,깜까미나이트
-Altarianites,Altarites,Altarianite,Altarianitas,Altariti,チルタリスナイト,파비코리나이트
-Galladites,Gallamites,Galagladinite,Galladitas,Galladiti,エルレイドナイト,엘레이드나이트
-Audinites,Nanméouïtes,Ohrdochnite,Audinitas,Audiniti,タブンネナイト,다부니나이트
-Metagrossites,Métalossites,Metagrossnite,Metagrossitas,Metagrossiti,メタグロスナイト,메타그로스나이트
-Sharpedonites,Sharpedites,Tohaidonite,Sharpedonitas,Sharpediti,サメハダナイト,샤크니아나이트
-Slowbronites,Flagadossites,Lahmusnite,Slowbronitas,Slowbroiti,ヤドランナイト,야도란나이트
-Steelixites,Steelixites,Stahlosnite,Steelixitas,Steelixiti,ハガネールナイト,강철톤나이트
-Pidgeotites,Roucarnagites,Taubossnite,Pidgeotitas,Pidgeotiti,ピジョットナイト,피죤투나이트
-Glalitites,Oniglalites,Firnontornite,Glalitas,Glaliti,オニゴーリナイト,얼음귀신나이트
-Diancites,Diancites,Diancienite,Diancitas,Dianciti,ディアンシナイト,디안시나이트
-Prison Bottles,Vases Scellés,Banngefäße,Vasijas Castigo,Vasi del vincolo,いましめのツボ,굴레의항아리
-Mega Cuffs,Méga-Manchettes,Mega-Armbänder,Megabrazaletes,Megapolsiere,メガブレス,메가블레스
-Cameruptites,Caméruptites,Cameruptnite,Cameruptitas,Cameruptiti,バクーダナイト,폭타나이트
-Lopunnites,Lockpinites,Schlapornite,Lopunnitas,Lopunniti,ミミロップナイト,이어롭나이트
-Salamencites,Drattakites,Brutalandanite,Salamencitas,Salamenciti,ボーマンダナイト,보만다나이트
-Beedrillites,Dardargnites,Bibornite,Beedrillitas,Beedrilliti,スピアナイト,독침붕나이트
-Meteorites,Météorites,Meteoriten,Meteoritos,Meteoriti,いんせき,운석
-Meteorites,Météorites,Meteoriten,Meteoritos,Meteoriti,いんせき,운석
-Key Stones,Gemmes Sésame,Schlüssel-Steine,Piedras Activadoras,Pietrechiave,キーストーン,키스톤
-Meteorite Shards,Éclats Météorite,Meteoritenstücke,Frag. Meteorito,Framm. meteorite,いんせきのかけら,운석조각
-Eon Flutes,Flûtes Éon,Äon-Flöten,Flautas Eón,Flauti Eone,むげんのふえ,무한의피리
-Normalium Zs,Normazélites,Normium Z,Normastales Z,Normium Z,ノーマルＺ,노말Z
-Firium Zs,Pyrozélites,Pyrium Z,Pirostales Z,Pirium Z,ホノオＺ,불꽃Z
-Waterium Zs,Aquazélites,Aquium Z,Hidrostales Z,Idrium Z,ミズＺ,물Z
-Electrium Zs,Voltazélites,Voltium Z,Electrostales Z,Electrium Z,デンキＺ,전기Z
-Grassium Zs,Florazélites,Botanium Z,Fitostales Z,Herbium Z,クサＺ,풀Z
-Icium Zs,Cryozélites,Glacium Z,Criostales Z,Glacium Z,コオリＺ,얼음Z
-Fightinium Zs,Combazélites,Battalium Z,Lizastales Z,Luctium Z,カクトウＺ,격투Z
-Poisonium Zs,Toxizélites,Toxium Z,Toxistales Z,Venenium Z,ドクＺ,독Z
-Groundium Zs,Terrazélites,Terrium Z,Geostales Z,Terrium Z,ジメンＺ,땅Z
-Flyinium Zs,Aérozélites,Aerium Z,Aerostales Z,Volantium Z,ヒコウＺ,비행Z
-Psychium Zs,Psychézélites,Psium Z,Psicostales Z,Psichium Z,エスパーＺ,에스퍼Z
-Buginium Zs,Insectozélites,Insectium Z,Insectostales Z,Insectium Z,ムシＺ,벌레Z
-Rockium Zs,Rocazélites,Petrium Z,Litostales Z,Petrium Z,イワＺ,바위Z
-Ghostium Zs,Spectrozélites,Phantomium Z,Espectrostales Z,Spectrium Z,ゴーストＺ,고스트Z
-Dragonium Zs,Dracozélites,Dracium Z,Dracostales Z,Draconium Z,ドラゴンＺ,드래곤Z
-Darkinium Zs,Ténébrozélites,Noctium Z,Nictostales Z,Obscurium Z,アクＺ,악Z
-Steelium Zs,Métallozélites,Metallium Z,Metalostales Z,Metallium Z,ハガネＺ,강철Z
-Fairium Zs,Nymphézélites,Sylphium Z,Feeristales Z,Follectium Z,フェアリーＺ,페어리Z
-Pikanium Zs,Pikazélites,Pikachium Z,Pikastales Z,Pikacium Z,ピカチュウＺ,피카츄Z
-Bottle Caps,Capsules d’Argent,Silberkronkorken,Chapas Plateadas,Tappi d’argento,ぎんのおうかん,은왕관
-Gold Bottle Caps,Capsules d’Or,Goldkronkorken,Chapas Doradas,Tappi d’oro,きんのおうかん,금왕관
-Z-Rings,Bracelets Z,Z-Ringe,Pulseras Z,Cerchi Z,Ｚリング,Z링
-Decidium Zs,Archézélites,Silvarronium Z,Dueyestales Z,Deciduenium Z,ジュナイパーＺ,모크나이퍼Z
-Incinium Zs,Félinozélites,Fuegronium Z,Incinostales Z,Incineronium Z,ガオガエンＺ,어흥염Z
-Primarium Zs,Oratozélites,Primarenium Z,Primastales Z,Primarinium Z,アシレーヌＺ,누리레느Z
-Tapunium Zs,Tokozélites,Kapium Z,Tapistales Z,Tapium Z,カプＺ,카푸Z
-Marshadium Zs,Marshadozélites,Marshadownium Z,Marshastales Z,Marshadium Z,マーシャドーＺ,마샤도Z
-Aloraichium Zs,Aloraïzélites,A-Raichunium Z,Alo-Raistales Z,Aloraicium Z,アロライＺ,알로라이Z
-Snorlium Zs,Ronflézélites,Relaxonium Z,Snorlastales Z,Snorlactium Z,カビゴンＺ,잠만보Z
-Eevium Zs,Évolizélites,Evolium Z,Eeveestales Z,Eevium Z,イーブイＺ,이브이Z
-Mewnium Zs,Mewzélites,Mewnium Z,Mewstales Z,Mewnium Z,ミュウＺ,뮤Z
-Normalium Zs,Normazélites,Normium Z,Normastales Z,Normium Z,ノーマルＺ,노말Z
-Firium Zs,Pyrozélites,Pyrium Z,Pirostales Z,Pirium Z,ホノオＺ,불꽃Z
-Waterium Zs,Aquazélites,Aquium Z,Hidrostales Z,Idrium Z,ミズＺ,물Z
-Electrium Zs,Voltazélites,Voltium Z,Electrostales Z,Electrium Z,デンキＺ,전기Z
-Grassium Zs,Florazélites,Botanium Z,Fitostales Z,Herbium Z,クサＺ,풀Z
-Icium Zs,Cryozélites,Glacium Z,Criostales Z,Glacium Z,コオリＺ,얼음Z
-Fightinium Zs,Combazélites,Battalium Z,Lizastales Z,Luctium Z,カクトウＺ,격투Z
-Poisonium Zs,Toxizélites,Toxium Z,Toxistales Z,Venenium Z,ドクＺ,독Z
-Groundium Zs,Terrazélites,Terrium Z,Geostales Z,Terrium Z,ジメンＺ,땅Z
-Flyinium Zs,Aérozélites,Aerium Z,Aerostales Z,Volantium Z,ヒコウＺ,비행Z
-Psychium Zs,Psychézélites,Psium Z,Psicostales Z,Psichium Z,エスパーＺ,에스퍼Z
-Buginium Zs,Insectozélites,Insectium Z,Insectostales Z,Insectium Z,ムシＺ,벌레Z
-Rockium Zs,Rocazélites,Petrium Z,Litostales Z,Petrium Z,イワＺ,바위Z
-Ghostium Zs,Spectrozélites,Phantomium Z,Espectrostales Z,Spectrium Z,ゴーストＺ,고스트Z
-Dragonium Zs,Dracozélites,Dracium Z,Dracostales Z,Draconium Z,ドラゴンＺ,드래곤Z
-Darkinium Zs,Ténébrozélites,Noctium Z,Nictostales Z,Obscurium Z,アクＺ,악Z
-Steelium Zs,Métallozélites,Metallium Z,Metalostales Z,Metallium Z,ハガネＺ,강철Z
-Fairium Zs,Nymphézélites,Sylphium Z,Feeristales Z,Follectium Z,フェアリーＺ,페어리Z
-Pikanium Zs,Pikazélites,Pikachium Z,Pikastales Z,Pikacium Z,ピカチュウＺ,피카츄Z
-Decidium Zs,Archézélites,Silvarronium Z,Dueyestales Z,Deciduenium Z,ジュナイパーＺ,모크나이퍼Z
-Incinium Zs,Félinozélites,Fuegronium Z,Incinostales Z,Incineronium Z,ガオガエンＺ,어흥염Z
-Primarium Zs,Oratozélites,Primarenium Z,Primastales Z,Primarinium Z,アシレーヌＺ,누리레느Z
-Tapunium Zs,Tokozélites,Kapium Z,Tapistales Z,Tapium Z,カプＺ,카푸Z
-Marshadium Zs,Marshadozélites,Marshadownium Z,Marshastales Z,Marshadium Z,マーシャドーＺ,마샤도Z
-Aloraichium Zs,Aloraïzélites,A-Raichunium Z,Alo-Raistales Z,Aloraicium Z,アロライＺ,알로라이Z
-Snorlium Zs,Ronflézélites,Relaxonium Z,Snorlastales Z,Snorlactium Z,カビゴンＺ,잠만보Z
-Eevium Zs,Évolizélites,Evolium Z,Eeveestales Z,Eevium Z,イーブイＺ,이브이Z
-Mewnium Zs,Mewzélites,Mewnium Z,Mewstales Z,Mewnium Z,ミュウＺ,뮤Z
-Pikashunium Zs,Pikachazélites,Ash-Pikachium Z,Ash-Pikastales Z,Ashpikacium Z,サトピカＺ,지우피카Z
-Pikashunium Zs,Pikachazélites,Ash-Pikachium Z,Ash-Pikastales Z,Ashpikacium Z,サトピカＺ,지우피카Z
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-Forage Bags,Sacs Ingrédients,Zutatenbeutel,Zurrones,Portaingredienti,ざいりょうぶくろ,재료주머니
-Fishing Rods,Cannes à Pêche,Angeln,Cañas,Ami,つりざお,낚싯대
-Professor’s Masks,Masques du Prof,Masken des Profs,Máscaras Profesor,Maschere Prof.,はかせのふくめん,박사의복면
-Festival Tickets,Festickets,Festival-Tickets,Festicupones,Festicket,フェスチケット,페스티켓
-Sparkling Stones,Gemmes Lumière,Glitzersteine,Piedras Brillantes,Pietre lucenti,かがやくいし,빛나는돌
-Adrenaline Orbs,Orbes Frousse,Zitterorbs,Nerviosferas,Fifasfere,ビビリだま,주눅구슬
-Zygarde Cubes,Boîtes Zygarde,Zygarde-Würfel,Arcas de Zygarde,Teche Zygarde,ジガルデキューブ,지가르데큐브
-???,???,???,(?),???,？？？,???
-Ice Stones,Pierres Glace,Eissteine,Piedras Hielo,Pietregelo,こおりのいし,얼음의돌
-Ride Pagers,Appel-Montures,PokéMobil-Funk,Buscamonturas,Chiamapassaggi,ライドギア,라이드기어
-Beast Balls,Ultra Balls,Ultrabälle,Ente Balls,UC Ball,ウルトラボール,울트라볼
-Big Malasadas,Malasadas Maxi,Maxi-Malasadas,Malasadas Maxi,Malasada maxi,おおきいマラサダ,큰 말라사다
-Red Nectars,Nectars Rouges,Rote Nektare,Néctares Rojos,Nettare rosso,くれないのミツ,다홍꿀
-Yellow Nectars,Nectars Jaunes,Gelbe Nektare,Néctares Amarillos,Nettare giallo,やまぶきのミツ,진노랑꿀
-Pink Nectars,Nectars Roses,Rosa Nektare,Néctares Rosas,Nettare rosa,うすもものミツ,연분홍꿀
-Purple Nectars,Nectars Mauves,Purpurne Nektare,Néctares Violetas,Nettare viola,むらさきのミツ,보라꿀
-Sun Flutes,Flûtes du Soleil,Sonnenflöten,Flautas Solares,Flauti solari,たいようのふえ,태양의피리
-Moon Flutes,Flûtes de la Lune,Mondflöten,Flautas Lunares,Flauti lunari,つきのふえ,달의피리
-???,???,???,(?),???,？？？,???
-Enigmatic Cards,Messages Mystère,Seltsame Karten,Notas Intrigantes,Lettere segrete,あやしいカード,괴상한카드
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-Terrain Extenders,Champ’Duits,Feldbeschichtungen,Cubresuelos,Fissacampo,グランドコート,그라운드코트
-Protective Pads,Pare-Effets,Schutzpolster,Paracontactos,Smorzaurti,ぼうごパット,방호패드
-Electric Seeds,Graines Électrik,Elektro-Samen,Semillas Electro,Elettrosemi,エレキシード,일렉트릭시드
-Psychic Seeds,Graines Psychiques,Psycho-Samen,Semillas Psique,Psicosemi,サイコシード,사이코시드
-Misty Seeds,Graines Brume,Nebel-Samen,Semillas Bruma,Nebbiasemi,ミストシード,미스트시드
-Grassy Seeds,Graines Herbe,Gras-Samen,Semillas Hierba,Erbasemi,グラスシード,그래스시드
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-???,???,???,(?),???,？？？,???
-Fighting Memories,ROM Combat,Kampf-Discs,Discos Lucha,ROM Lotta,ファイトメモリ,파이팅메모리
-Flying Memories,ROM Vol,Flug-Discs,Discos Volador,ROM Volante,フライングメモリ,플라잉메모리
-Poison Memories,ROM Poison,Gift-Discs,Discos Veneno,ROM Veleno,ポイズンメモリ,포이즌메모리
-Ground Memories,ROM Sol,Boden-Discs,Discos Tierra,ROM Terra,グラウンドメモリ,그라운드메모리
-Rock Memories,ROM Roche,Gesteins-Discs,Discos Roca,ROM Roccia,ロックメモリ,락메모리
-Bug Memories,ROM Insecte,Käfer-Discs,Discos Bicho,ROM Coleottero,バグメモリ,버그메모리
-Ghost Memories,ROM Spectre,Geister-Discs,Discos Fantasma,ROM Spettro,ゴーストメモリ,고스트메모리
-Steel Memories,ROM Acier,Stahl-Discs,Discos Acero,ROM Acciaio,スチールメモリ,스틸메모리
-Fire Memories,ROM Feu,Feuer-Discs,Discos Fuego,ROM Fuoco,ファイヤーメモリ,파이어메모리
-Water Memories,ROM Eau,Wasser-Discs,Discos Agua,ROM Acqua,ウオーターメモリ,워터메모리
-Grass Memories,ROM Plante,Pflanzen-Discs,Discos Planta,ROM Erba,グラスメモリ,그래스메모리
-Electric Memories,ROM Électrik,Elektro-Discs,Discos Eléctrico,ROM Elettro,エレクトロメモリ,일렉트릭메모리
-Psychic Memories,ROM Psy,Psycho-Discs,Discos Psíquico,ROM Psico,サイキックメモリ,사이킥메모리
-Ice Memories,ROM Glace,Eis-Discs,Discos Hielo,ROM Ghiaccio,アイスメモリ,아이스메모리
-Dragon Memories,ROM Dragon,Drachen-Discs,Discos Dragón,ROM Drago,ドラゴンメモリ,드래곤메모리
-Dark Memories,ROM Ténèbres,Unlicht-Discs,Discos Siniestro,ROM Buio,ダークメモリ,다크메모리
-Fairy Memories,ROM Fée,Feen-Discs,Discos Hada,ROM Folletto,フェアリーメモリ,페어리메모리
+en,fr,it,de,es,ko,kana
+None,???,Niente,Nichts,Ningún objeto,없음,なし
+Master Balls,Master Balls,Master Ball,Meisterbälle,Master Balls,마스터볼,マスターボール
+Ultra Balls,Hyper Balls,Ultra Ball,Hyperbälle,Ultra Balls,하이퍼볼,ハイパーボール
+Great Balls,Super Balls,Mega Ball,Superbälle,Super Balls,수퍼볼,スーパーボール
+Poké Balls,Poké Balls,Poké Ball,Pokébälle,Poké Balls,몬스터볼,モンスターボール
+Safari Balls,Safari Balls,Safari Ball,Safaribälle,Safari Balls,사파리볼,サファリボール
+Net Balls,Filet Balls,Rete Ball,Netzbälle,Malla Balls,넷트볼,ネットボール
+Dive Balls,Scuba Balls,Sub Ball,Tauchbälle,Buceo Balls,다이브볼,ダイブボール
+Nest Balls,Faiblo Balls,Minor Ball,Nestbälle,Nido Balls,네스트볼,ネストボール
+Repeat Balls,Bis Balls,Bis Ball,Wiederbälle,Acopio Balls,리피드볼,リピートボール
+Timer Balls,Chrono Balls,Timer Ball,Timerbälle,Turno Balls,타이마볼,タイマーボール
+Luxury Balls,Luxe Balls,Chic Ball,Luxusbälle,Lujo Balls,럭셔리볼,ゴージャスボール
+Premier Balls,Honor Balls,Premier Ball,Premierbälle,Honor Balls,프레미어볼,プレミアボール
+Dusk Balls,Sombre Balls,Scuro Ball,Finsterbälle,Ocaso Balls,다크볼,ダークボール
+Heal Balls,Soin Balls,Cura Ball,Heilbälle,Sana Balls,힐볼,ヒールボール
+Quick Balls,Rapide Balls,Velox Ball,Flottbälle,Veloz Balls,퀵볼,クイックボール
+Cherish Balls,Mémoire Balls,Pregio Ball,Jubelbälle,Gloria Balls,프레셔스볼,プレシャスボール
+Potions,Potions,Pozioni,Tränke,Pociones,상처약,キズぐすり
+Antidotes,Antidotes,Antidoti,Gegengifte,Antídotos,해독제,どくけし
+Burn Heals,Anti-Brûle,Antiscottatura,Feuerheiler,Antiquemar,화상치료제,やけどなおし
+Ice Heals,Antigels,Antigelo,Eisheiler,Antihielos,얼음상태치료제,こおりなおし
+Awakenings,Réveils,Sveglie,Aufwecker,Despertar,잠깨는약,ねむけざまし
+Paralyze Heals,Anti-Para,Antiparalisi,Para-Heiler,Antiparalizadores,마비치료제,まひなおし
+Full Restores,Guérisons,Ricariche totali,Top-Genesungen,Restaurar Todo,회복약,かいふくのくすり
+Max Potions,Potions Max,Pozioni Max,Top-Tränke,Pociones Máximas,풀회복약,まんたんのくすり
+Hyper Potions,Hyper Potions,Iperpozioni,Hypertränke,Hiperpociones,고급상처약,すごいキズぐすり
+Super Potions,Super Potions,Superpozioni,Supertränke,Superpociones,좋은상처약,いいキズぐすり
+Full Heals,Total Soins,Cure totali,Hyperheiler,Curas Totales,만병통치제,なんでもなおし
+Revives,Rappels,Revitalizzanti,Beleber,Revivir,기력의조각,げんきのかけら
+Max Revives,Rappels Max,Revitalizz. Max,Top-Beleber,Revivir Máximos,기력의덩어리,げんきのかたまり
+Fresh Waters,Eaux Fraîches,Acqua fresca,Tafelwässer,Aguas Frescas,맛있는물,おいしいみず
+Soda Pops,Sodas Cool,Gassose,Sprudel,Refrescos,미네랄사이다,サイコソーダ
+Lemonades,Limonades,Lemonsucchi,Limonaden,Limonadas,후르츠밀크,ミックスオレ
+Moomoo Milks,Laits Meumeu,Latte Mumu,Kuhmuh-Milch,Leches Mu-mu,튼튼밀크,モーモーミルク
+Energy Powders,Poudrénergies,Polvenergie,Energiestäube,Polvos Energía,힘의가루,ちからのこな
+Energy Roots,Racinénergies,Radicenergie,Kraftwurzeln,Raíces Energía,힘의뿌리,ちからのねっこ
+Heal Powders,Poudres Soin,Polvocure,Heilpuder,Polvos Curación,만능가루,ばんのうごな
+Revival Herbs,Herbes Rappel,Vitalerbe,Vitalkräuter,Hierbas Revivir,부활초,ふっかつそう
+Ethers,Huiles,Etere,Äther,Éteres,PP에이드,ピーピーエイド
+Max Ethers,Huiles Max,Etere Max,Top-Äther,Éteres Máximos,PP회복,ピーピーリカバー
+Elixirs,Élixirs,Elisir,Elixiere,Elixires,PP에이더,ピーピーエイダー
+Max Elixirs,Élixirs Max,Elisir Max,Top-Elixiere,Elixires Máximos,PP맥스,ピーピーマックス
+Lava Cookies,Lava Cookies,Lavottini,Lavakekse,Galletas Lava,용암전병,フエンせんべい
+Berry Juices,Jus de Baie,Succodibacca,Beerensäfte,Zumos de Baya,나무열매쥬스,きのみジュース
+Sacred Ashes,Cendres Sacrées,Ceneremagica,Zauberaschen,Cenizas Sagradas,성스러운분말,せいなるはい
+HP Ups,PV Plus,PS-Su,KP-Plus,Más PS,맥스업,マックスアップ
+Proteins,Protéines,Proteine,Proteine,Proteínas,타우린,タウリン
+Irons,Fers,Ferro,Eisen,Hierros,사포닌,ブロムヘキシン
+Carbos,Carbones,Carburante,Carbon,Carburantes,알칼로이드,インドメタシン
+Calciums,Calciums,Calcio,Kalzium,Calcios,리보플라빈,リゾチウム
+Rare Candies,Super Bonbons,Caramelle rare,Sonderbonbons,Caramelos Raros,이상한사탕,ふしぎなアメ
+PP Ups,PP Plus,PP-Su,AP-Plus,Más PP,포인트업,ポイントアップ
+Zincs,Zincs,Zinco,Zink,Zincs,키토산,キトサン
+PP Maxes,PP Max,PP-Max,AP-Tops,PP Máximos,포인트맥스,ポイントマックス
+Old Gateaux,Vieux Gâteaux,Dolci Gateau,Spezialitäten,Barritas Plus,숲의양갱,もりのヨウカン
+Guard Specs.,Garde-Stats,Superguardie,Megablocks,Protección X,이펙트가드,エフェクトガード
+Dire Hits,Muscles +,Supercolpi,Angriffplus,Crítico X,크리티컬커터,クリティカット
+X Attacks,Attaques +,Attacchi X,X-Angriff,Ataque X,플러스파워,プラスパワー
+X Defenses,Défenses +,Difese X,X-Verteidigung,Defensa X,디펜드업,ディフェンダー
+X Speeds,Vitesses +,Velocità X,X-Initiative,Velocidad X,스피드업,スピーダー
+X Accuracies,Précisions +,Precisioni X,X-Genauigkeit,Precisión X,잘-맞히기,ヨクアタール
+X Sp. Atks,Atq. Spé. +,Att. Speciali X,X-Sp.-Ang.,Ataque Especial X,스페셜업,スペシャルアップ
+X Sp. Defs,Déf. Spé. +,Dif. Speciali X,X-Sp.-Vert.,Defensa Especial X,스페셜가드,スペシャルガード
+Poké Dolls,Poké Poupées,Poké Bambole,Poképuppen,Poké Muñecos,삐삐인형,ピッピにんぎょう
+Fluffy Tails,Queues Skitty,Code Skitty,Eneco-Ruten,Colas Skitty,에나비꼬리,エネコのシッポ
+Blue Flutes,Flûtes Bleues,Flauti Blu,Blaue Flöten,Flautas Azules,파랑비드로,あおいビードロ
+Yellow Flutes,Flûtes Jaunes,Flauti Gialli,Gelbe Flöten,Flautas Amarillas,노랑비드로,きいろビードロ
+Red Flutes,Flûtes Rouges,Flauti Rossi,Rote Flöten,Flautas Rojas,빨강비드로,あかいビードロ
+Black Flutes,Flûtes Noires,Flauti Neri,Schwarze Flöten,Flautas Negras,검정비드로,くろいビードロ
+White Flutes,Flûtes Blanches,Flauti Bianchi,Weiße Flöten,Flautas Blancas,하양비드로,しろいビードロ
+Shoal Salts,Sels Tréfonds,Sale Ondoso,Küstensalze,Sales Cardumen,여울소금,あさせのしお
+Shoal Shells,CoquillesTréfonds,Gusciondosi,Küstenschalen,Conchas Cardumen,여울조개껍질,あさせのかいがら
+Red Shards,Tessons Rouges,Cocci Rossi,Purpurstücke,Partes Rojas,빨강조각,あかいかけら
+Blue Shards,Tessons Bleus,Cocci Blu,Indigostücke,Partes Azules,파랑조각,あおいかけら
+Yellow Shards,Tessons Jaunes,Cocci Gialli,Gelbstücke,Partes Amarillas,노랑조각,きいろいかけら
+Green Shards,Tessons Verts,Cocci Verdi,Grünstücke,Partes Verdes,초록조각,みどりのかけら
+Super Repels,Super Repousses,Superrepellenti,Superschutze,Superrepelentes,실버스프레이,シルバースプレー
+Max Repels,Repousses Max,Repellenti Max,Top-Schutze,Repelentes Máximos,골드스프레이,ゴールドスプレー
+Escape Ropes,Cordes Sortie,Funi di fuga,Fluchtseile,Cuerdas Huida,동굴탈출로프,あなぬけのヒモ
+Repels,Repousses,Repellenti,Schutze,Repelentes,벌레회피스프레이,むしよけスプレー
+Sun Stones,Pierres Soleil,Pietresolari,Sonnensteine,Piedras Solares,태양의돌,たいようのいし
+Moon Stones,Pierres Lune,Pietrelunari,Mondsteine,Piedras Lunares,달의돌,つきのいし
+Fire Stones,Pierres Feu,Pietrefocaie,Feuersteine,Piedras Fuego,불꽃의돌,ほのおのいし
+Thunder Stones,Pierres Foudre,Pietretuono,Donnersteine,Piedras Trueno,천둥의돌,かみなりのいし
+Water Stones,Pierres Eau,Pietreidriche,Wassersteine,Piedras Agua,물의돌,みずのいし
+Leaf Stones,Pierres Plante,Pietrefoglia,Blattsteine,Piedras Hoja,리프의돌,リーフのいし
+Tiny Mushrooms,Petits Champis,Minifunghi,Minipilze,Minisetas,작은버섯,ちいさなキノコ
+Big Mushrooms,Gros Champis,Grandi Funghi,Riesenpilze,Setas Grandes,큰버섯,おおきなキノコ
+Pearls,Perles,Perle,Perlen,Perlas,진주,しんじゅ
+Big Pearls,Grandes Perles,Grandi Perle,Riesenperlen,Perlas Grandes,큰진주,おおきなしんじゅ
+Stardusts,Poussières Étoiles,Polvostella,Sternenstäube,Polvos Estelares,별의모래,ほしのすな
+Star Pieces,Morceaux d’Étoiles,Pezzi Stella,Sternenstücke,Trozos Estrella,별의조각,ほしのかけら
+Nuggets,Pépites,Pepite,Nuggets,Pepitas,금구슬,きんのたま
+Heart Scales,Écailles Cœur,Squame Cuore,Herzschuppen,Escamas Corazón,하트비늘,ハートのウロコ
+Honey,Miels,Miele,Honige,Mieles,달콤한꿀,あまいミツ
+Growth Mulch,Fertipousses,Fertilrapido,Wachsmulche,Abonos Rápidos,무럭무럭비료,すくすくこやし
+Damp Mulch,Fertihumides,Fertilidro,Feuchtmulche,Abonos Lentos,축축이비료,じめじめこやし
+Stable Mulch,Fertistables,Fertilsaldo,Stabilmulche,Abonos Fijadores,오래오래비료,ながながこやし
+Gooey Mulch,Fertiglus,Fertilcolla,Neumulche,Abonos Brote,끈적끈적비료,ねばねばこやし
+Root Fossils,Fossiles Racines,Radifossili,Wurzelfossilien,Fósiles Raíz,뿌리화석,ねっこのカセキ
+Claw Fossils,Fossiles Griffes,Fossilunghia,Klauenfossilien,Fósiles Garra,발톱화석,ツメのカセキ
+Helix Fossils,Nautiles,Helixfossili,Helixfossilien,Fósiles Hélix,조개화석,かいのカセキ
+Dome Fossils,Fossiles Dômes,Domofossili,Domfossilien,Fósiles Domo,껍질화석,こうらのカセキ
+Old Ambers,Vieux Ambres,Ambre antiche,Altbernsteine,Ámbares Viejos,비밀의호박,ひみつのコハク
+Armor Fossils,Fossiles Armures,Fossilscudo,Panzerfossilien,Fósiles Coraza,방패의화석,たてのカセキ
+Skull Fossils,Fossiles Crânes,Fossilcranio,Kopffossilien,Fósiles Cráneo,두개의화석,ずがいのカセキ
+Rare Bones,Os Rares,Ossi Rari,Steinknochen,Huesos Raros,귀중한뼈,きちょうなホネ
+Shiny Stones,Pierres Éclat,Pietrebrillo,Leuchtsteine,Piedras Día,빛의돌,ひかりのいし
+Dusk Stones,Pierres Nuit,Neropietre,Finstersteine,Piedras Noche,어둠의돌,やみのいし
+Dawn Stones,Pierres Aube,Pietralbori,Funkelsteine,Piedras Alba,각성의돌,めざめいし
+Oval Stones,Pierres Ovales,Pietreovali,Ovale Steine,Piedras Ovales,동글동글돌,まんまるいし
+Odd Keystones,Clés de Voûte,Roccianime,Spiritkerne,Piedras Espíritu,쐐기돌,かなめいし
+Griseous Orbs,Orbes Platinés,Grigiosfere,Platinum-Orbs,Griseosferas,백금옥,はっきんだま
+Tea,Thés,Tè,Tees,Tés,차,おちゃ
+???,???,???,???,(?),???,？？？
+Autographs,Dédicaces de Bob,Autografi,Autogramme,Autógrafos,마티스의사인,マチスのサイン
+Douse Drives,Modules Aqua,Idromoduli,Aquamodule,HidroROM,아쿠아카세트,アクアカセット
+Shock Drives,Modules Choc,Voltmoduli,Blitzmodule,FulgoROM,번개카세트,イナズマカセット
+Burn Drives,Modules Pyro,Piromoduli,Flammenmodule,PiroROM,블레이즈카세트,ブレイズカセット
+Chill Drives,Modules Cryo,Gelomoduli,Gefriermodule,CrioROM,프리즈카세트,フリーズカセット
+???,???,???,???,(?),???,？？？
+Pokémon Box Links,Boîtes Pokémon,Box Pokémon,Pokémon-Boxen,Cajas de Pokémon,포켓몬 박스,ポケモンボックス
+Medicine Pockets,Trousses de Soins,Tasche rimedi,Medizintaschen,Botiquines,회복포켓,かいふくポケット
+TM Cases,Boîtes CT,Porta MT,TM-Boxen,Estuches de MT,기술머신케이스,わざマシンケース
+Candy Jars,Bonbonnières,Portacaramelle,Bonbongläser,Tarros de Caramelos,사탕보틀,アメボトル
+Power-Up Pockets,Poches à Renforts,Tasche potenziam.,Stärkungstaschen,Bolsillos Mejoras,강화포켓,きょうかポケット
+Clothing Trunks,Malles à Costumes,Valigie vestiti,Klamottenkoffer,Maletas,옷갈아입기트렁크,おきがえトランク
+Catching Pockets,Poches de Capture,Tasche cattura,Fangtaschen,Bolsillos Captura,포획포켓,ほかくポケット
+Battle Pockets,Poches de Combat,Tasche lotta,Kampftaschen,Bolsillos Combate,배틀포켓,バトルポケット
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Sweet Hearts,Chococœurs,Dolcicuori,Herzkonfekte,Corazones Dulces,하트스위트,ハートスイーツ
+Adamant Orbs,Orbes Adamants,Adamasfere,Adamant-Orbs,Diamansferas,금강옥,こんごうだま
+Lustrous Orbs,Orbes Perlés,Splendisfere,Weiß-Orbs,Lustresferas,백옥,しらたま
+Greet Mail,Lettres Salut,Messaggi Inizio,Grußbriefe,Cartas Iniciales,첫메일,はじめてメール
+Favored Mail,Lettres Fan,Messaggi TVB,Faiblebriefe,Cartas Favoritos,애호메일,だいすきメール
+RSVP Mail,Lettres Invit,Messaggi Invito,Einladebriefe,Cartas Invitar,권유메일,おさそいメール
+Thanks Mail,Lettres Merci,Messaggi Grazie,Dankesbriefe,Cartas Gracias,감사메일,かんしゃメール
+Inquiry Mail,Lettres Demande,Messaggi Chiedi,Fragebriefe,Cartas Pregunta,질문메일,しつもんメール
+Like Mail,Lettres Avis,Mess. Sugg.,Insiderbriefe,Cartas Gustos,추천메일,おすすめメール
+Reply Mail,Lettres Réponse,Mess. Risp.,Rückbriefe,Cartas Respuesta,답장메일,おかえしメール
+Bridge Mail S,Lettres Pont S,Mess. Frec.,Brückbriefe H,Cartas Puente S,브리지메일S,ブリッジメールＳ
+Bridge Mail D,Lettres Pont Y,Mess. Libec.,Brückbriefe M,Cartas Puente F,브리지메일M,ブリッジメールＨ
+Bridge Mail T,Lettres Pont F,Mess. Prop.,Brückbriefe Z,Cartas Puente A,브리지메일C,ブリッジメールＣ
+Bridge Mail V,Lettres Pont H,Mess. Vill.,Brückbriefe D,Cartas Puente V,브리지메일V,ブリッジメールＶ
+Bridge Mail M,Lettres Pont I,Mess. Merav.,Brückbriefe W,Cartas Puente P,브리지메일W,ブリッジメールＷ
+Cheri Berries,Baies Ceriz,Baccaliegia,Amrenabeeren,Bayas Zreza,버치열매,クラボのみ
+Chesto Berries,Baies Maron,Baccastagna,Maronbeeren,Bayas Atania,유루열매,カゴのみ
+Pecha Berries,Baies Pêcha,Baccapesca,Pirsifbeeren,Bayas Meloc,복슝열매,モモンのみ
+Rawst Berries,Baies Fraive,Baccafrago,Fragiabeeren,Bayas Safre,복분열매,チーゴのみ
+Aspear Berries,Baies Willia,Baccaperina,Wilbirbeeren,Bayas Perasi,배리열매,ナナシのみ
+Leppa Berries,Baies Mepo,Baccamela,Jonagobeeren,Bayas Zanama,과사열매,ヒメリのみ
+Oran Berries,Baies Oran,Baccarancia,Sinelbeeren,Bayas Aranja,오랭열매,オレンのみ
+Persim Berries,Baies Kika,Baccaki,Persimbeeren,Bayas Caquic,시몬열매,キーのみ
+Lum Berries,Baies Prine,Baccaprugna,Prunusbeeren,Bayas Ziuela,리샘열매,ラムのみ
+Sitrus Berries,Baies Sitrus,Baccacedro,Tsitrubeeren,Bayas Zidra,자뭉열매,オボンのみ
+Figy Berries,Baies Figuy,Baccafico,Giefebeeren,Bayas Higog,무화열매,フィラのみ
+Wiki Berries,Baies Wiki,Baccakiwi,Wikibeeren,Bayas Wiki,위키열매,ウイのみ
+Mago Berries,Baies Mago,Baccamango,Magobeeren,Bayas Ango,마고열매,マゴのみ
+Aguav Berries,Baies Gowav,Baccaguava,Gauvebeeren,Bayas Guaya,아바열매,バンジのみ
+Iapapa Berries,Baies Papaya,Baccapaia,Yapabeeren,Bayas Pabaya,파야열매,イアのみ
+Razz Berries,Baies Framby,Baccalampon,Himmihbeeren,Bayas Frambu,라즈열매,ズリのみ
+Bluk Berries,Baies Remu,Baccamora,Morbbeeren,Bayas Oram,블리열매,ブリーのみ
+Nanab Berries,Baies Nanab,Baccabana,Nanabbeeren,Bayas Latano,나나열매,ナナのみ
+Wepear Berries,Baies Repoi,Baccapera,Nirbebeeren,Bayas Peragu,서배열매,セシナのみ
+Pinap Berries,Baies Nanana,Baccananas,Sananabeeren,Bayas Pinia,파인열매,パイルのみ
+Pomeg Berries,Baies Grena,Baccagrana,Granabeeren,Bayas Grana,유석열매,ザロクのみ
+Kelpsy Berries,Baies Alga,Baccalga,Setangbeeren,Bayas Algama,시마열매,ネコブのみ
+Qualot Berries,Baies Qualot,Baccaloquat,Qualotbeeren,Bayas Ispero,파비열매,タポルのみ
+Hondew Berries,Baies Lonme,Baccamelon,Honmelbeeren,Bayas Meluce,로매열매,ロメのみ
+Grepa Berries,Baies Résin,Baccauva,Labrusbeeren,Bayas Uvav,또뽀열매,ウブのみ
+Tamato Berries,Baies Tamato,Baccamodoro,Tamotbeeren,Bayas Tamate,토망열매,マトマのみ
+Cornn Berries,Baies Siam,Baccavena,Saimbeeren,Bayas Mais,수숙열매,モコシのみ
+Magost Berries,Baies Mangou,Baccagostan,Magostbeeren,Bayas Aostan,고스티열매,ゴスのみ
+Rabuta Berries,Baies Rabuta,Baccambutan,Rabutabeeren,Bayas Rautan,라부탐열매,ラブタのみ
+Nomel Berries,Baies Tronci,Baccalemon,Tronzibeeren,Bayas Monli,노멜열매,ノメルのみ
+Spelon Berries,Baies Kiwan,Baccamelos,Kiwanbeeren,Bayas Wikano,메호키열매,ノワキのみ
+Pamtre Berries,Baies Palma,Baccapalma,Pallmbeeren,Bayas Plama,자야열매,シーヤのみ
+Watmel Berries,Baies Stekpa,Baccacomero,Wasmelbeeren,Bayas Sambia,슈박열매,カイスのみ
+Durin Berries,Baies Durin,Baccadurian,Durinbeeren,Bayas Rudion,두리열매,ドリのみ
+Belue Berries,Baies Myrte,Baccartillo,Myrtilbeeren,Bayas Andano,루베열매,ベリブのみ
+Occa Berries,Baies Chocco,Baccacao,Koakobeeren,Bayas Caoca,오카열매,オッカのみ
+Passho Berries,Baies Pocpoc,Baccapasflo,Foepasbeeren,Bayas Pasio,꼬시개열매,イトケのみ
+Wacan Berries,Baies Parma,Baccaparmen,Kerzalbeeren,Bayas Gualot,초나열매,ソクノのみ
+Rindo Berries,Baies Ratam,Baccarindo,Grindobeeren,Bayas Tamar,린드열매,リンドのみ
+Yache Berries,Baies Nanone,Baccamoya,Kiroyabeeren,Bayas Rimoya,플카열매,ヤチェのみ
+Chople Berries,Baies Pomroz,Baccarosmel,Rospelbeeren,Bayas Pomaro,로플열매,ヨプのみ
+Kebia Berries,Baies Kébia,Baccakebia,Grarzbeeren,Bayas Kebia,으름열매,ビアーのみ
+Shuca Berries,Baies Jouca,Baccanaca,Schukebeeren,Bayas Acardo,슈캐열매,シュカのみ
+Coba Berries,Baies Cobaba,Baccababa,Kobabeeren,Bayas Kouba,바코열매,バコウのみ
+Payapa Berries,Baies Yapap,Baccapayapa,Pyapabeeren,Bayas Payapa,야파열매,ウタンのみ
+Tanga Berries,Baies Panga,Baccaitan,Tanigabeeren,Bayas Yecana,리체열매,タンガのみ
+Charti Berries,Baies Charti,Baccaciofo,Chiaribeeren,Bayas Alcho,루미열매,ヨロギのみ
+Kasib Berries,Baies Sédra,Baccacitrus,Zitarzbeeren,Bayas Drasi,수불열매,カシブのみ
+Haban Berries,Baies Fraigo,Baccahaban,Terirobeeren,Bayas Anjiro,하반열매,ハバンのみ
+Colbur Berries,Baies Lampou,Baccaxan,Burleobeeren,Bayas Dillo,마코열매,ナモのみ
+Babiri Berries,Baies Babiri,Baccababiri,Babiribeeren,Bayas Baribá,바리비열매,リリバのみ
+Chilan Berries,Baies Zalis,Baccacinlan,Latchibeeren,Bayas Chilan,카리열매,ホズのみ
+Liechi Berries,Baies Lichii,Baccalici,Lydzibeeren,Bayas Lichi,치리열매,チイラのみ
+Ganlon Berries,Baies Lingan,Baccalongan,Linganbeeren,Bayas Gonlan,용아열매,リュガのみ
+Salac Berries,Baies Sailak,Baccasalak,Salkabeeren,Bayas Aslac,캄라열매,カムラのみ
+Petaya Berries,Baies Pitaye,Baccapitaya,Tahaybeeren,Bayas Yapati,야타비열매,ヤタピのみ
+Apicot Berries,Baies Abriko,Baccacocca,Apikobeeren,Bayas Aricoc,규살열매,ズアのみ
+Lansat Berries,Baies Lansat,Baccalangsa,Lansatbeeren,Bayas Zonlan,랑사열매,サンのみ
+Starf Berries,Baies Frista,Baccambola,Krambobeeren,Bayas Arabol,스타열매,スターのみ
+Enigma Berries,Baies Enigma,Baccaenigma,Enigmabeeren,Bayas Enigma,의문열매,ナゾのみ
+Micle Berries,Baies Micle,Baccaracolo,Wunfrubeeren,Bayas Lagro,미클열매,ミクルのみ
+Custap Berries,Baies Chérim,Baccacrela,Eipfelbeeren,Bayas Chiri,애슈열매,イバンのみ
+Jaboca Berries,Baies Jaboca,Baccajaba,Jabocabeeren,Bayas Jaboca,자보열매,ジャポのみ
+Rowap Berries,Baies Pommo,Baccaroam,Roselbeeren,Bayas Magua,애터열매,レンブのみ
+Bright Powders,Poudres Claires,Luminpolvere,Blendpuder,Polvos Brillo,반짝가루,ひかりのこな
+White Herbs,Herbes Blanches,Erbechiare,Schlohkräuter,Hierbas Blancas,하양허브,しろいハーブ
+Macho Braces,Bracelets Macho,Crescicappa,Machobänder,Brazales Firmes,교정깁스,きょうせいギプス
+Exp. Shares,Multi Exp,Condividi esp.,EP-Teiler,Repartir Experiencia,학습장치,がくしゅうそうち
+Quick Claws,Vives Griffes,Rapidartigli,Flinkklauen,Garras Rápidas,선제공격손톱,せんせいのツメ
+Soothe Bells,Grelots Zen,Calmanelle,Sanftglocken,Cascabeles Alivio,평온의방울,やすらぎのすず
+Mental Herbs,Herbes Mental,Mentalerbe,Mentalkräuter,Hierbas Mentales,멘탈허브,メンタルハーブ
+Choice Bands,Bandeaux Choix,Bendescelta,Wahlbänder,Cintas Elección,구애머리띠,こだわりハチマキ
+King’s Rocks,Roches Royales,Rocce di Re,King-Steine,Rocas del Rey,왕의징표석,おうじゃのしるし
+Silver Powders,Poudres Argentées,Argenpolvere,Silberstäube,Polvos Plata,은빛가루,ぎんのこな
+Amulet Coins,Pièces Rune,Monetamuleti,Münzamulette,Monedas Amuleto,부적금화,おまもりこばん
+Cleanse Tags,Runes Purifiantes,Velipuri,Schutzbänder,Amuletos,순결의부적,きよめのおふだ
+Soul Dews,Rosées Âme,Cuorugiade,Seelentau,Rocíos Bondad,마음의물방울,こころのしずく
+Deep Sea Teeth,Dents Océan,Denti Abissi,Abysszähne,Dientes Marinos,심해의이빨,しんかいのキバ
+Deep Sea Scales,Écailles Océan,Squameabissi,Abyssplatten,Escamas Marinas,심해의비늘,しんかいのウロコ
+Smoke Balls,Boules Fumée,Palle Fumo,Rauchbälle,Bolas de Humo,연막탄,けむりだま
+Everstones,Pierres Stase,Pietrestanti,Ewigsteine,Piedras Eternas,변함없는돌,かわらずのいし
+Focus Bands,Bandeaux,Bandane,Fokusbänder,Cintas Focus,기합의머리띠,きあいのハチマキ
+Lucky Eggs,Œufs Chance,Fortunuova,Glücks-Eier,Huevos Suerte,행복의알,しあわせタマゴ
+Scope Lenses,Lentilscopes,Mirini,Scope-Linsen,Periscopios,초점렌즈,ピントレンズ
+Metal Coats,Peaux Métal,Metalcoperte,Metallmäntel,Revest. Metálicos,금속코트,メタルコート
+Leftovers,Restes,Avanzi,Überreste,Restos,먹다남은음식,たべのこし
+Dragon Scales,Écailles Draco,Squame Drago,Drachenhäute,Escamas Dragón,용의비늘,りゅうのウロコ
+Light Balls,Balles Lumière,Elettropalle,Kugelblitze,Bolas Luminosas,전기구슬,でんきだま
+Soft Sand,Sables Doux,Sabbia Soffice,Pudersande,Arenas Finas,부드러운모래,やわらかいすな
+Hard Stones,Pierres Dures,Pietredure,Granitsteine,Piedras Duras,딱딱한돌,かたいいし
+Miracle Seeds,Graines Miracles,Miracolsemi,Wundersaaten,Semillas Milagro,기적의씨,きせきのタネ
+Black Glasses,Lunettes Noires,Occhialineri,Schattenbrillen,Gafas de Sol,검은안경,くろいメガネ
+Black Belts,Ceintures Noires,Cinturenere,Schwarzgurte,Cinturones Negros,검은띠,くろおび
+Magnets,Aimants,Calamite,Magnete,Imanes,자석,じしゃく
+Mystic Waters,Eaux Mystiques,Acqua Magica,Zauberwässer,Aguas Místicas,신비의물방울,しんぴのしずく
+Sharp Beaks,Becs Pointus,Beccaffilati,Spitze Schnäbel,Picos Afilados,예리한부리,するどいくちばし
+Poison Barbs,Pics Venin,Velenaculei,Giftstiche,Flechas Venenosas,독바늘,どくバリ
+Never-Melt Ices,Glaces Éternelles,Gelomai,Ewiges Eis,Antiderretir,녹지않는얼음,とけないこおり
+Spell Tags,Runes Sort,Spettrotarghe,Bannsticker,Hechizos,저주의부적,のろいのおふだ
+Twisted Spoons,Cuillères Tordues,Cucchiai Torti,Krummlöffel,Cucharas Torcidas,휘어진스푼,まがったスプーン
+Charcoals,Charbons,Carbonella,Holzkohlen,Carbones,목탄,もくたん
+Dragon Fangs,Crocs Dragon,Dentididrago,Drachenzähne,Colmillos Dragón,용의이빨,りゅうのキバ
+Silk Scarves,Mouchoirs Soie,Sciarpe Seta,Seidenschals,Pañuelos de Seda,실크스카프,シルクのスカーフ
+Upgrades,Améliorators,Upgrade,Up-Grades,Mejoras,업그레이드,アップグレード
+Shell Bells,Grelots Coque,Conchinelle,Muschelglocken,Cascabeles Concha,조개껍질방울,かいがらのすず
+Sea Incenses,Encens Mer,Marearomi,Seerauch,Inciensos Marinos,바닷물향로,うしおのおこう
+Lax Incenses,Encens Doux,Distraromi,Laxrauch,Inciensos Suaves,무사태평향로,のんきのおこう
+Lucky Punches,Poings Chance,Fortunpugni,Lucky Punchs,Puños Suerte,럭키펀치,ラッキーパンチ
+Metal Powders,Poudres Métal,Metalpolvere,Metallstäube,Polvos Metálicos,금속파우더,メタルパウダー
+Thick Clubs,Masses Os,Ossispessi,Kampfknochen,Huesos Gruesos,굵은뼈,ふといホネ
+Leeks,Poireaux,Gambi,Lauchstangen,Puerros,대파,ながねぎ
+Red Scarves,Foulards Rouges,Fasce Rosse,Rote Schals,Pañuelos Rojos,빨강밴드,あかいバンダナ
+Blue Scarves,Foulards Bleus,Fasce Blu,Blaue Schals,Pañuelos Azules,파랑밴드,あおいバンダナ
+Pink Scarves,Foulards Roses,Fasce Rosa,Rosa Schals,Pañuelos Rosas,분홍밴드,ピンクのバンダナ
+Green Scarves,Foulards Verts,Fasce Verdi,Grüne Schals,Pañuelos Verdes,초록밴드,みどりのバンダナ
+Yellow Scarves,Foulards Jaunes,Fasce Gialle,Gelbe Schals,Pañuelos Amarillos,노랑밴드,きいろのバンダナ
+Wide Lenses,Loupes,Grandilenti,Großlinsen,Lupas,광각렌즈,こうかくレンズ
+Muscle Bands,Bandeaux Muscle,Muscolbande,Muskelbänder,Cintas Fuertes,힘의머리띠,ちからのハチマキ
+Wise Glasses,Lunettes Sages,Saviocchiali,Schlaubrillen,Gafas Especiales,박식안경,ものしりメガネ
+Expert Belts,Ceintures Pro,Abilcinture,Expertengurte,Cintas Experto,달인의띠,たつじんのおび
+Light Clays,Lumargiles,Creta Luce,Lichtlehme,Refleluces,빛의점토,ひかりのねんど
+Life Orbs,Orbes Vie,Assorbisfere,Leben-Orbs,Vidasferas,생명의구슬,いのちのたま
+Power Herbs,Herbes Pouvoir,Vigorerbe,Energiekräuter,Hierbas Únicas,파워풀허브,パワフルハーブ
+Toxic Orbs,Orbes Toxiques,Tossicsfere,Toxik-Orbs,Toxisferas,맹독구슬,どくどくだま
+Flame Orbs,Orbes Flamme,Fiammosfere,Heiß-Orbs,Llamasferas,화염구슬,かえんだま
+Quick Powders,Poudres Vite,Velopolvere,Flottstäube,Polvos Veloces,스피드파우더,スピードパウダー
+Focus Sashes,Ceintures Force,Focalnastri,Fokusgurte,Bandas Focus,기합의띠,きあいのタスキ
+Zoom Lenses,Lentilles Zoom,Zoomlenti,Zoomlinsen,Telescopios,포커스렌즈,フォーカスレンズ
+Metronomes,Métronomes,Plessimetri,Metronome,Metrónomos,메트로놈,メトロノーム
+Iron Balls,Balles Fer,Ferropalle,Eisenkugeln,Bolas Férreas,검은철구,くろいてっきゅう
+Lagging Tails,Ralentiqueues,Rallentocode,Schwerschweife,Colas Plúmbeas,느림보꼬리,こうこうのしっぽ
+Destiny Knots,Nœuds Destin,Destincomune,Fatumknoten,Lazos Destino,빨간실,あかいいと
+Black Sludges,Boues Noires,Fangopece,Giftschleime,Lodos Negros,검은진흙,くろいヘドロ
+Icy Rocks,Roches Glace,Roccefredde,Eisbrocken,Rocas Heladas,차가운바위,つめたいいわ
+Smooth Rocks,Roches Lisses,Roccelisce,Glattbrocken,Rocas Suaves,보송보송바위,さらさらいわ
+Heat Rocks,Roches Chaudes,Roccecalde,Heißbrocken,Rocas Calor,뜨거운바위,あついいわ
+Damp Rocks,Roches Humides,Rocceumide,Nassbrocken,Rocas Lluvia,축축한바위,しめったいわ
+Grip Claws,Accro Griffes,Presartigli,Griffklauen,Garras Garfio,끈기갈고리손톱,ねばりのかぎづめ
+Choice Scarves,Mouchoirs Choix,Stolescelta,Wahlschals,Pañuelos Elección,구애스카프,こだわりスカーフ
+Sticky Barbs,Piquants,Vischiopunte,Klettdornen,Toxiestrellas,끈적끈적바늘,くっつきバリ
+Power Bracers,Poignets Pouvoir,Vigorcerchi,Machtreife,Brazales Recios,파워리스트,パワーリスト
+Power Belts,Ceintures Pouvoir,Vigorfasce,Machtgurte,Cintos Recios,파워벨트,パワーベルト
+Power Lenses,Lentilles Pouvoir,Vigorlenti,Machtlinsen,Lentes Recias,파워렌즈,パワーレンズ
+Power Bands,Bandeaux Pouvoir,Vigorbande,Machtbänder,Bandas Recias,파워밴드,パワーバンド
+Power Anklets,Chaînes Pouvoir,Vigorgliere,Machtketten,Franjas Recias,파워앵클릿,パワーアンクル
+Power Weights,Poids Pouvoir,Vigorpesi,Machtgewichte,Pesas Recias,파워웨이트,パワーウエイト
+Shed Shells,Carapaces Mue,Disfogusci,Wechselhüllen,Mudas Concha,아름다운허물,きれいなぬけがら
+Big Roots,Grosses Racines,Granradici,Großwurzeln,Raíces Grandes,큰뿌리,おおきなねっこ
+Choice Specs,Lunettes Choix,Lentiscelta,Wahlbrillen,Gafas Elección,구애안경,こだわりメガネ
+Flame Plates,Plaques Flamme,Lastrerogo,Feuertafeln,Tablas Llama,불구슬플레이트,ひのたまプレート
+Splash Plates,Plaques Hydro,Lastreidro,Wassertafeln,Tablas Linfa,물방울플레이트,しずくプレート
+Zap Plates,Plaques Volt,Lastresaetta,Blitztafeln,Tablas Trueno,우뢰플레이트,いかずちプレート
+Meadow Plates,Plaques Herbe,Lastreprato,Wiesentafeln,Tablas Pradal,초록플레이트,みどりのプレート
+Icicle Plates,Plaques Glace,Lastregelo,Frosttafeln,Tablas Heladas,고드름플레이트,つららのプレート
+Fist Plates,Plaques Poing,Lastrepugno,Fausttafeln,Tablas Fuertes,주먹플레이트,こぶしのプレート
+Toxic Plates,Plaques Toxicité,Lastrefiele,Gifttafeln,Tablas Tóxicas,맹독플레이트,もうどくプレート
+Earth Plates,Plaques Terre,Lastregeo,Erdtafeln,Tablas Terrax,대지플레이트,だいちのプレート
+Sky Plates,Plaques Ciel,Lastrecielo,Wolkentafeln,Tablas Cielo,푸른하늘플레이트,あおぞらプレート
+Mind Plates,Plaques Esprit,Lastremente,Hirntafeln,Tablas Mentales,이상한플레이트,ふしぎのプレート
+Insect Plates,Plaques Insecte,Lastrebaco,Käfertafeln,Tablas Bicho,비단벌레플레이트,たまむしプレート
+Stone Plates,Plaques Roc,Lastrepietra,Steintafeln,Tablas Pétreas,암석플레이트,がんせきプレート
+Spooky Plates,Plaques Fantôme,Lastretetre,Spuktafeln,Tablas Terror,원령플레이트,もののけプレート
+Draco Plates,Plaques Draco,Lastredrakon,Dracotafeln,Tablas Draco,용의플레이트,りゅうのプレート
+Dread Plates,Plaques Ombre,Lastretimore,Furchttafeln,Tablas Oscuras,공포플레이트,こわもてプレート
+Iron Plates,Plaques Fer,Lastreferro,Eisentafeln,Tablas Acero,강철플레이트,こうてつプレート
+Odd Incenses,Encens Bizarres,Bizzoaromi,Schrägrauch,Inciensos Raros,괴상한향로,あやしいおこう
+Rock Incenses,Encens Roc,Roccioaromi,Steinrauch,Inciensos Roca,암석향로,がんせきおこう
+Full Incenses,Encens Pleins,Gonfioaromi,Lahmrauch,Inciensos Lentos,만복향로,まんぷくおこう
+Wave Incenses,Encens Vague,Ondaromi,Wellenrauch,Inciensos Acua,잔물결향로,さざなみのおこう
+Rose Incenses,Encens Fleur,Rosaromi,Rosenrauch,Inciensos Florales,꽃향로,おはなのおこう
+Luck Incenses,Encens Veine,Fortunaromi,Glücksrauch,Inciensos Duplo,행운의향로,こううんのおこう
+Pure Incenses,Encens Purs,Puroaromi,Scheuchrauch,Inciensos Puros,순결의향로,きよめのおこう
+Protectors,Protecteurs,Coperture,Schützer,Protectores,프로텍터,プロテクター
+Electirizers,Électriseurs,Elettritori,Stromisierer,Electrizadores,에레키부스터,エレキブースター
+Magmarizers,Magmariseurs,Magmatori,Magmaisierer,Magmatizadores,마그마부스터,マグマブースター
+Dubious Discs,CD Douteux,Dubbiodischi,Dubiosdiscs,Discos Extraños,괴상한패치,あやしいパッチ
+Reaper Cloths,Tissus Fauche,Terrorpanni,Düsterumhänge,Telas Terribles,영계의천,れいかいのぬの
+Razor Claws,Griffes Rasoir,Affilartigli,Scharfklauen,Garras Afiladas,예리한손톱,するどいツメ
+Razor Fangs,Crocs Rasoir,Affilodenti,Scharfzähne,Colmillos Agudos,예리한이빨,するどいキバ
+TM01s,CT01,MT01,TM01,MT01,기술머신01,わざマシン０１
+TM02s,CT02,MT02,TM02,MT02,기술머신02,わざマシン０２
+TM03s,CT03,MT03,TM03,MT03,기술머신03,わざマシン０３
+TM04s,CT04,MT04,TM04,MT04,기술머신04,わざマシン０４
+TM05s,CT05,MT05,TM05,MT05,기술머신05,わざマシン０５
+TM06s,CT06,MT06,TM06,MT06,기술머신06,わざマシン０６
+TM07s,CT07,MT07,TM07,MT07,기술머신07,わざマシン０７
+TM08s,CT08,MT08,TM08,MT08,기술머신08,わざマシン０８
+TM09s,CT09,MT09,TM09,MT09,기술머신09,わざマシン０９
+TM10s,CT10,MT10,TM10,MT10,기술머신10,わざマシン１０
+TM11s,CT11,MT11,TM11,MT11,기술머신11,わざマシン１１
+TM12s,CT12,MT12,TM12,MT12,기술머신12,わざマシン１２
+TM13s,CT13,MT13,TM13,MT13,기술머신13,わざマシン１３
+TM14s,CT14,MT14,TM14,MT14,기술머신14,わざマシン１４
+TM15s,CT15,MT15,TM15,MT15,기술머신15,わざマシン１５
+TM16s,CT16,MT16,TM16,MT16,기술머신16,わざマシン１６
+TM17s,CT17,MT17,TM17,MT17,기술머신17,わざマシン１７
+TM18s,CT18,MT18,TM18,MT18,기술머신18,わざマシン１８
+TM19s,CT19,MT19,TM19,MT19,기술머신19,わざマシン１９
+TM20s,CT20,MT20,TM20,MT20,기술머신20,わざマシン２０
+TM21s,CT21,MT21,TM21,MT21,기술머신21,わざマシン２１
+TM22s,CT22,MT22,TM22,MT22,기술머신22,わざマシン２２
+TM23s,CT23,MT23,TM23,MT23,기술머신23,わざマシン２３
+TM24s,CT24,MT24,TM24,MT24,기술머신24,わざマシン２４
+TM25s,CT25,MT25,TM25,MT25,기술머신25,わざマシン２５
+TM26s,CT26,MT26,TM26,MT26,기술머신26,わざマシン２６
+TM27s,CT27,MT27,TM27,MT27,기술머신27,わざマシン２７
+TM28s,CT28,MT28,TM28,MT28,기술머신28,わざマシン２８
+TM29s,CT29,MT29,TM29,MT29,기술머신29,わざマシン２９
+TM30s,CT30,MT30,TM30,MT30,기술머신30,わざマシン３０
+TM31s,CT31,MT31,TM31,MT31,기술머신31,わざマシン３１
+TM32s,CT32,MT32,TM32,MT32,기술머신32,わざマシン３２
+TM33s,CT33,MT33,TM33,MT33,기술머신33,わざマシン３３
+TM34s,CT34,MT34,TM34,MT34,기술머신34,わざマシン３４
+TM35s,CT35,MT35,TM35,MT35,기술머신35,わざマシン３５
+TM36s,CT36,MT36,TM36,MT36,기술머신36,わざマシン３６
+TM37s,CT37,MT37,TM37,MT37,기술머신37,わざマシン３７
+TM38s,CT38,MT38,TM38,MT38,기술머신38,わざマシン３８
+TM39s,CT39,MT39,TM39,MT39,기술머신39,わざマシン３９
+TM40s,CT40,MT40,TM40,MT40,기술머신40,わざマシン４０
+TM41s,CT41,MT41,TM41,MT41,기술머신41,わざマシン４１
+TM42s,CT42,MT42,TM42,MT42,기술머신42,わざマシン４２
+TM43s,CT43,MT43,TM43,MT43,기술머신43,わざマシン４３
+TM44s,CT44,MT44,TM44,MT44,기술머신44,わざマシン４４
+TM45s,CT45,MT45,TM45,MT45,기술머신45,わざマシン４５
+TM46s,CT46,MT46,TM46,MT46,기술머신46,わざマシン４６
+TM47s,CT47,MT47,TM47,MT47,기술머신47,わざマシン４７
+TM48s,CT48,MT48,TM48,MT48,기술머신48,わざマシン４８
+TM49s,CT49,MT49,TM49,MT49,기술머신49,わざマシン４９
+TM50s,CT50,MT50,TM50,MT50,기술머신50,わざマシン５０
+TM51s,CT51,MT51,TM51,MT51,기술머신51,わざマシン５１
+TM52s,CT52,MT52,TM52,MT52,기술머신52,わざマシン５２
+TM53s,CT53,MT53,TM53,MT53,기술머신53,わざマシン５３
+TM54s,CT54,MT54,TM54,MT54,기술머신54,わざマシン５４
+TM55s,CT55,MT55,TM55,MT55,기술머신55,わざマシン５５
+TM56s,CT56,MT56,TM56,MT56,기술머신56,わざマシン５６
+TM57s,CT57,MT57,TM57,MT57,기술머신57,わざマシン５７
+TM58s,CT58,MT58,TM58,MT58,기술머신58,わざマシン５８
+TM59s,CT59,MT59,TM59,MT59,기술머신59,わざマシン５９
+TM60s,CT60,MT60,TM60,MT60,기술머신60,わざマシン６０
+TM61s,CT61,MT61,TM61,MT61,기술머신61,わざマシン６１
+TM62s,CT62,MT62,TM62,MT62,기술머신62,わざマシン６２
+TM63s,CT63,MT63,TM63,MT63,기술머신63,わざマシン６３
+TM64s,CT64,MT64,TM64,MT64,기술머신64,わざマシン６４
+TM65s,CT65,MT65,TM65,MT65,기술머신65,わざマシン６５
+TM66s,CT66,MT66,TM66,MT66,기술머신66,わざマシン６６
+TM67s,CT67,MT67,TM67,MT67,기술머신67,わざマシン６７
+TM68s,CT68,MT68,TM68,MT68,기술머신68,わざマシン６８
+TM69s,CT69,MT69,TM69,MT69,기술머신69,わざマシン６９
+TM70s,CT70,MT70,TM70,MT70,기술머신70,わざマシン７０
+TM71s,CT71,MT71,TM71,MT71,기술머신71,わざマシン７１
+TM72s,CT72,MT72,TM72,MT72,기술머신72,わざマシン７２
+TM73s,CT73,MT73,TM73,MT73,기술머신73,わざマシン７３
+TM74s,CT74,MT74,TM74,MT74,기술머신74,わざマシン７４
+TM75s,CT75,MT75,TM75,MT75,기술머신75,わざマシン７５
+TM76s,CT76,MT76,TM76,MT76,기술머신76,わざマシン７６
+TM77s,CT77,MT77,TM77,MT77,기술머신77,わざマシン７７
+TM78s,CT78,MT78,TM78,MT78,기술머신78,わざマシン７８
+TM79s,CT79,MT79,TM79,MT79,기술머신79,わざマシン７９
+TM80s,CT80,MT80,TM80,MT80,기술머신80,わざマシン８０
+TM81s,CT81,MT81,TM81,MT81,기술머신81,わざマシン８１
+TM82s,CT82,MT82,TM82,MT82,기술머신82,わざマシン８２
+TM83s,CT83,MT83,TM83,MT83,기술머신83,わざマシン８３
+TM84s,CT84,MT84,TM84,MT84,기술머신84,わざマシン８４
+TM85s,CT85,MT85,TM85,MT85,기술머신85,わざマシン８５
+TM86s,CT86,MT86,TM86,MT86,기술머신86,わざマシン８６
+TM87s,CT87,MT87,TM87,MT87,기술머신87,わざマシン８７
+TM88s,CT88,MT88,TM88,MT88,기술머신88,わざマシン８８
+TM89s,CT89,MT89,TM89,MT89,기술머신89,わざマシン８９
+TM90s,CT90,MT90,TM90,MT90,기술머신90,わざマシン９０
+TM91s,CT91,MT91,TM91,MT91,기술머신91,わざマシン９１
+TM92s,CT92,MT92,TM92,MT92,기술머신92,わざマシン９２
+HM01s,CS01,MN01,VM01,MO01,비전머신01,ひでんマシン０１
+HM02s,CS02,MN02,VM02,MO02,비전머신02,ひでんマシン０２
+HM03s,CS03,MN03,VM03,MO03,비전머신03,ひでんマシン０３
+HM04s,CS04,MN04,VM04,MO04,비전머신04,ひでんマシン０４
+HM05s,CS05,MN05,VM05,MO05,비전머신05,ひでんマシン０５
+HM06s,CS06,MN06,VM06,MO06,비전머신06,ひでんマシン０６
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Explorer Kits,Explorakits,Esplorokit,Erkundungs-Sets,Kits Explorador,탐험세트,たんけんセット
+Loot Sacks,Sacs Butin,Bottinosacche,Beutesäcke,Sacas Botín,보물주머니,たからぶくろ
+Rule Books,Livres Règles,Libri Regole,Regelbücher,Reglamentos,룰북,ルールブック
+Poké Radars,Poké Radars,Poké Radar,Pokéradare,Pokéradares,포켓트레,ポケトレ
+Point Cards,Cartes Points,Schede Punti,Punktekarten,Tarjetas Puntos,포인트카드,ポイントカード
+Journals,Journaux,Agende,Tagebücher,Diarios,모험노트,ぼうけんノート
+Seal Cases,Boîtes Sceaux,Portabolli,Stickerkoffer,Cajas Sellos,실상자,シールいれ
+Fashion Cases,Coffrets Mode,Scatole Chic,Modekoffer,Cajas Corazón,액세서리상자,アクセサリーいれ
+Seal Bags,Sacs Sceaux,Bollosacche,Stickertüten,Bolsas Sellos,실주머니,シールぶくろ
+Pal Pads,Registres Ami,Blocchi Amici,Adressbücher,Blocs amigos,친구수첩,ともだちてちょう
+Works Keys,Clés Centrale,Turbinchiavi,K-Schlüssel,Llaves Central,발전소키,はつでんしょキー
+Old Charms,Vieux Grigris,Arcamuleti,Talismane,Talismanes,고대의부적,こだいのおまもり
+Galactic Keys,Clés Galaxie,Galachiavi,G-Schlüssel,Llaves Galaxia,갤럭시단의열쇠,ギンガだんのカギ
+Red Chains,Chaînes Rouges,Rossocatene,Rote Ketten,Cadenas Rojas,빨강쇠사슬,あかいくさり
+Town Maps,Cartes,Mappe città,Karten,Mapas,타운맵,タウンマップ
+Vs. Seekers,Cherch’Combats,Cercasfide,Kampffahnder,Buscapeleas,배틀서처,バトルサーチャー
+Coin Cases,Boîtes Jetons,Salvadanai,Münzkörbe,Monederos,동전케이스,コインケース
+Old Rods,Cannes,Ami Vecchi,Angeln,Cañas Viejas,낡은낚싯대,ボロのつりざお
+Good Rods,Super Cannes,Ami Buoni,Profiangeln,Cañas Buenas,좋은낚싯대,いいつりざお
+Super Rods,Méga Cannes,Super Ami,Superangeln,Supercañas,대단한낚싯대,すごいつりざお
+Sprayducks,Kwakarrosoirs,Sprayduck,Entonkannen,Psydugaderas,고라파덕물뿌리개,コダックじょうろ
+Poffin Cases,Boîtes Poffin,Portapoffin,Knurspboxen,Pokocheras,포핀케이스,ポフィンケース
+Bikes,Bicyclettes,Biciclette,Fahrräder,Bicis,자전거,じてんしゃ
+Suite Keys,Clés Chambre,Chiavi Suite,B-Schlüssel,Llaves Suite,룸키,ルームキー
+Oak’s Letters,Lettres Chen,Lettere Oak,Eichs Briefe,Cartas del Prof. Oak,오박사의편지,オーキドのてがみ
+Lunar Wings,Lun’Ailes,Alilunari,Lunarfedern,Plumas Lunares,초승달날개,みかづきのはね
+Member Cards,Cartes Membre,Schede Soci,Mitgliedskarten,Carnés Socio,멤버스카드,メンバーズカード
+Azure Flutes,Flûtes Azur,Flauti Cielo,Azurflöten,Flautas Azur,천계의피리,てんかいのふえ
+S.S. Tickets,Passes Bateau,Biglietti nave,Bootstickets,Tickets Barco,승선티켓,ふねのチケット
+Contest Passes,Passes Concours,Tessere Gare,Wettbewerbskarten,Pases Concurso,콘테스트패스,コンテストパス
+Magma Stones,Pierres Magma,Magmapietre,Magmasteine,Piedras Magma,화산의돌,かざんのおきいし
+Parcels,Colis,Pacchi,Pakete,Paquetes,전해줄물건,おとどけもの
+Coupon 1s,Bons 1,Coupon 1,Kupons 1,Cupones 1,교환권1,ひきかえけん１
+Coupon 2s,Bons 2,Coupon 2,Kupons 2,Cupones 2,교환권2,ひきかえけん２
+Coupon 3s,Bons 3,Coupon 3,Kupons 3,Cupones 3,교환권3,ひきかえけん３
+Storage Keys,Clés Stockage,Depochiavi,Lagerschlüssel,Llaves Almacén,창고열쇠,そうこのカギ
+Secret Potions,Potions Secrètes,Pozioni Segrete,Geheimtränke,Pociones Secretas,비전신약,ひでんのくすり
+Vs. Recorders,Magnétos VS,Registradati,Kampfkameras,Cámaras Lucha,배틀레코더,バトルレコーダー
+Gracideas,Gracidées,Gracidee,Gracideas,Gracídeas,그라시데아꽃,グラシデアのはな
+Secret Keys,Clés Secrètes,Chiavi segrete,Geheimschlüssel,Llaves Secretas,비밀의열쇠,ひみつのカギ
+Apricorn Boxes,Boîtes Noigrume,Ghicobox,Aprikokoboxen,Cajas Bonguri,규토리케이스,ぼんぐりケース
+Unown Reports,Carnets Zarbi,UnownBloc,Icognitohefte,Blocs Unown,안농노트,アンノーンノート
+Berry Pots,Plante-Baies,Piantabacche,Pflanzsets,Plantabayas,나무열매플랜터,きのみプランター
+Dowsing Machines,Cherch’Objets,Ricerca strum.,Itemradare,Zahoríes,다우징머신,ダウジングマシン
+Blue Cards,Cartes Bleues,Carte Blu,Blaue Karten,Tarjetas Azules,블루카드,ブルーカード
+Slowpoke Tails,Queues Ramoloss,Code Slowpoke,Flegmon-Ruten,Colas Slowpoke,맛있는꼬리,おいしいシッポ
+Clear Bells,Glas Transparents,Campane Chiare,Klarglocken,Cascabeles Claros,크리스탈방울,とうめいなスズ
+Card Keys,Cartes Magnétiques,Apriporta,Schlüsselkarten,Llaves Magnéticas,카드키,カードキー
+Basement Keys,Clés Sous-Sol,Chiavi sotterr.,Kelleröffner,Llaves Sótano,지하의열쇠,ちかのかぎ
+Squirt Bottles,Carapuce à O,Annaffiatoi,Schiggykannen,Regaderas,꼬부기물뿌리개,ゼニガメじょうろ
+Red Scales,Écailles Rouges,Squame Rosse,Rote Häute,Escamas Rojas,빨간비늘,あかいウロコ
+Lost Items,Objets perdus,Strumenti persi,Fundsachen,Objetos Perdidos,분실물,おとしもの
+Passes,Passes Train,Superpass,Fahrscheine,Magnetopases,리니어패스,リニアパス
+Machine Parts,Parties Machine,Pezzi macch.,Spulen,Maquinarias,기계부품,きかいのぶひん
+Silver Wings,Argent’Ailes,Alidargento,Silberflügel,Alas Plateadas,은빛날개,ぎんいろのはね
+Rainbow Wings,Arc-en-Ci’Ailes,Ali d’Iride,Buntschwingen,Alas Arcoíris,무지갯빛날개,にじいろのはね
+Mystery Eggs,Œufs Mystère,Uova Mistero,Rätsel-Eier,Huevos Misteriosos,이상한알,ふしぎなタマゴ
+Red Apricorns,Noigrumes Rouges,Ghicocche Rosse,Aprikokos Rot,Bonguris Rojos,빨간규토리,あかぼんぐり
+Blue Apricorns,Noigrumes Bleus,Ghicocche Blu,Aprikokos Blau,Bonguris Azules,파란규토리,あおぼんぐり
+Yellow Apricorns,Noigrumes Jaunes,Ghicocche Gialle,Aprikokos Gelb,Bonguris Amarillos,노랑규토리,きぼんぐり
+Green Apricorns,Noigrumes Verts,Ghicocche Verdi,Aprikokos Grün,Bonguris Verdes,초록규토리,みどぼんぐり
+Pink Apricorns,Noigrumes Roses,Ghicocche Rosa,Aprikokos Pink,Bonguris Rosas,담홍규토리,ももぼんぐり
+White Apricorns,Noigrumes Blancs,Ghicocche Bianche,Aprikokos Weiß,Bonguris Blancos,하얀규토리,しろぼんぐり
+Black Apricorns,Noigrumes Noirs,Ghicocche Nere,Aprikokos Schwarz,Bonguris Negros,검은규토리,くろぼんぐり
+Fast Balls,Speed Balls,Rapid Ball,Turbobälle,Rapid Balls,스피드볼,スピードボール
+Level Balls,Niveau Balls,Level Ball,Levelbälle,Nivel Balls,레벨볼,レベルボール
+Lure Balls,Appât Balls,Esca Ball,Köderbälle,Cebo Balls,루어볼,ルアーボール
+Heavy Balls,Masse Balls,Peso Ball,Schwerbälle,Peso Balls,헤비볼,ヘビーボール
+Love Balls,Love Balls,Love Ball,Sympabälle,Amor Balls,러브러브볼,ラブラブボール
+Friend Balls,Copain Balls,Friend Ball,Freundesbälle,Amigo Balls,프렌드볼,フレンドボール
+Moon Balls,Lune Balls,Luna Ball,Mondbälle,Luna Balls,문볼,ムーンボール
+Sport Balls,Compét’Balls,Gara Ball,Turnierbälle,Competi Balls,콤페볼,コンペボール
+Park Balls,Parc Balls,Parco Ball,Parkbälle,Parque Balls,파크볼,パークボール
+Photo Albums,Albums Photo,Album,Fotoalben,Álbumes,포토앨범,フォトアルバム
+GB Sounds,Lecteurs GB,Lettori GB,GB-Player,Lectores GB,GB플레이어,ＧＢプレイヤー
+Tidal Bells,Glas Tempête,Campane Onda,Gischtglocken,Cascabeles Oleaje,해명의방울,うみなりのスズ
+Rage Candy Bars,Bonbons Rage,Iramelle,Wutkekse,Caramelos Furia,분노의호두과자,いかりまんじゅう
+Data Card 01s,Cartes Mémo01,Schede Dati 01,Datenkarten01,Tarjetas Datos 01,데이터카드01,データカード０１
+Data Card 02s,Cartes Mémo02,Schede Dati 02,Datenkarten02,Tarjetas Datos 02,데이터카드02,データカード０２
+Data Card 03s,Cartes Mémo03,Schede Dati 03,Datenkarten03,Tarjetas Datos 03,데이터카드03,データカード０３
+Data Card 04s,Cartes Mémo04,Schede Dati 04,Datenkarten04,Tarjetas Datos 04,데이터카드04,データカード０４
+Data Card 05s,Cartes Mémo05,Schede Dati 05,Datenkarten05,Tarjetas Datos 05,데이터카드05,データカード０５
+Data Card 06s,Cartes Mémo06,Schede Dati 06,Datenkarten06,Tarjetas Datos 06,데이터카드06,データカード０６
+Data Card 07s,Cartes Mémo07,Schede Dati 07,Datenkarten07,Tarjetas Datos 07,데이터카드07,データカード０７
+Data Card 08s,Cartes Mémo08,Schede Dati 08,Datenkarten08,Tarjetas Datos 08,데이터카드08,データカード０８
+Data Card 09s,Cartes Mémo09,Schede Dati 09,Datenkarten09,Tarjetas Datos 09,데이터카드09,データカード０９
+Data Card 10s,Cartes Mémo10,Schede Dati 10,Datenkarten10,Tarjetas Datos 10,데이터카드10,データカード１０
+Data Card 11s,Cartes Mémo11,Schede Dati 11,Datenkarten11,Tarjetas Datos 11,데이터카드11,データカード１１
+Data Card 12s,Cartes Mémo12,Schede Dati 12,Datenkarten12,Tarjetas Datos 12,데이터카드12,データカード１２
+Data Card 13s,Cartes Mémo13,Schede Dati 13,Datenkarten13,Tarjetas Datos 13,데이터카드13,データカード１３
+Data Card 14s,Cartes Mémo14,Schede Dati 14,Datenkarten14,Tarjetas Datos 14,데이터카드14,データカード１４
+Data Card 15s,Cartes Mémo15,Schede Dati 15,Datenkarten15,Tarjetas Datos 15,데이터카드15,データカード１５
+Data Card 16s,Cartes Mémo16,Schede Dati 16,Datenkarten16,Tarjetas Datos 16,데이터카드16,データカード１６
+Data Card 17s,Cartes Mémo17,Schede Dati 17,Datenkarten17,Tarjetas Datos 17,데이터카드17,データカード１７
+Data Card 18s,Cartes Mémo18,Schede Dati 18,Datenkarten18,Tarjetas Datos 18,데이터카드18,データカード１８
+Data Card 19s,Cartes Mémo19,Schede Dati 19,Datenkarten19,Tarjetas Datos 19,데이터카드19,データカード１９
+Data Card 20s,Cartes Mémo20,Schede Dati 20,Datenkarten20,Tarjetas Datos 20,데이터카드20,データカード２０
+Data Card 21s,Cartes Mémo21,Schede Dati 21,Datenkarten21,Tarjetas Datos 21,데이터카드21,データカード２１
+Data Card 22s,Cartes Mémo22,Schede Dati 22,Datenkarten22,Tarjetas Datos 22,데이터카드22,データカード２２
+Data Card 23s,Cartes Mémo23,Schede Dati 23,Datenkarten23,Tarjetas Datos 23,데이터카드23,データカード２３
+Data Card 24s,Cartes Mémo24,Schede Dati 24,Datenkarten24,Tarjetas Datos 24,데이터카드24,データカード２４
+Data Card 25s,Cartes Mémo25,Schede Dati 25,Datenkarten25,Tarjetas Datos 25,데이터카드25,データカード２５
+Data Card 26s,Cartes Mémo26,Schede Dati 26,Datenkarten26,Tarjetas Datos 26,데이터카드26,データカード２６
+Data Card 27s,Cartes Mémo27,Schede Dati 27,Datenkarten27,Tarjetas Datos 27,데이터카드27,データカード２７
+Jade Orbs,Orbes Verts,Sfere Verdi,Grüne Kugeln,Esferas Verdes,연둣빛구슬,もえぎいろのたま
+Lock Capsules,Poké Écrins,Capsule Scrigno,Tresorkapseln,Cápsulas Candado,록캡슐,ロックカプセル
+Red Orbs,Gemmes Rouges,Gemme rosse,Rote Edelsteine,Prismas Rojos,주홍구슬,べにいろのたま
+Blue Orbs,Gemmes Bleues,Gemme blu,Blaue Edelsteine,Prismas Azules,쪽빛구슬,あいいろのたま
+Enigma Stones,Mystécristaux,Misticristal,Mytokristalle,Misticristales,수수께끼의수정,なぞのすいしょう
+Prism Scales,Bel’Écailles,Squame Belle,Schönschuppen,Escamas Bellas,고운비늘,きれいなウロコ
+Eviolites,Évolurocs,Evolcondense,Evolithen,Minerales Evolutivos,진화의휘석,しんかのきせき
+Float Stones,Pierrallégées,Pietrelievi,Leichtsteine,Piedras Pómez,가벼운돌,かるいし
+Rocky Helmets,Casques Bruts,Bitorzolelmi,Beulenhelme,Cascos Dentados,울퉁불퉁멧,ゴツゴツメット
+Air Balloons,Ballons,Palloncini,Luftballons,Globos Helio,풍선,ふうせん
+Red Cards,Cartons Rouges,Cartelrossi,Rote Karten,Tarjetas Rojas,레드카드,レッドカード
+Ring Targets,Points de Mire,Facilsagli,Zielscheiben,Blancos,겨냥표적,ねらいのまと
+Binding Bands,Bandes Étreinte,Legafasce,Klammerbänder,Bandas Atadura,조임밴드,しめつけバンド
+Absorb Bulbs,Bulbes,Bulbi,Knollen,Tubérculos,구근,きゅうこん
+Cell Batteries,Piles,Ricaripile,Akkus,Pilas,충전지,じゅうでんち
+Eject Buttons,Boutons Fuite,Pulsantifuga,Fluchtknöpfe,Botones Escape,탈출버튼,だっしゅつボタン
+Fire Gems,Joyaux Feu,Bijoufuoco,Feuerjuwelen,Gemas Fuego,불꽃주얼,ほのおのジュエル
+Water Gems,Joyaux Eau,Bijouacqua,Wasserjuwelen,Gemas Agua,물주얼,みずのジュエル
+Electric Gems,Joyaux Électrik,Bijouelettro,Elektrojuwelen,Gemas Eléctricas,전기주얼,でんきのジュエル
+Grass Gems,Joyaux Plante,Bijouerba,Pflanzenjuwelen,Gemas Planta,풀주얼,くさのジュエル
+Ice Gems,Joyaux Glace,Bijoughiaccio,Eisjuwelen,Gemas Hielo,얼음주얼,こおりのジュエル
+Fighting Gems,Joyaux Combat,Bijoulotta,Kampfjuwelen,Gemas Lucha,격투주얼,かくとうジュエル
+Poison Gems,Joyaux Poison,Bijouveleno,Giftjuwelen,Gemas Veneno,독주얼,どくのジュエル
+Ground Gems,Joyaux Sol,Bijouterra,Bodenjuwelen,Gemas Tierra,땅주얼,じめんのジュエル
+Flying Gems,Joyaux Vol,Bijouvolante,Flugjuwelen,Gemas Voladoras,비행주얼,ひこうのジュエル
+Psychic Gems,Joyaux Psy,Bijoupsico,Psychojuwelen,Gemas Psíquicas,에스퍼주얼,エスパージュエル
+Bug Gems,Joyaux Insecte,Bijoucoleottero,Käferjuwelen,Gemas Bicho,벌레주얼,むしのジュエル
+Rock Gems,Joyaux Roche,Bijouroccia,Gesteinsjuwelen,Gemas Roca,바위주얼,いわのジュエル
+Ghost Gems,Joyaux Spectre,Bijouspettro,Geisterjuwelen,Gemas Fantasma,고스트주얼,ゴーストジュエル
+Dragon Gems,Joyaux Dragon,Bijoudrago,Drakojuwelen,Gemas Dragón,드래곤주얼,ドラゴンジュエル
+Dark Gems,Joyaux Ténèbres,Bijoubuio,Unlichtjuwelen,Gemas Siniestras,악주얼,あくのジュエル
+Steel Gems,Joyaux Acier,Bijouacciaio,Stahljuwelen,Gemas Acero,강철주얼,はがねのジュエル
+Normal Gems,Joyaux Normal,Bijounormale,Normaljuwelen,Gemas Normales,노말주얼,ノーマルジュエル
+Health Feathers,Plumes Santé,Piumsalute,Heilfedern,Plumas Vigor,체력날개,たいりょくのハネ
+Muscle Feathers,Plumes Force,Piumpotenza,Kraftfedern,Plumas Músculo,근력날개,きんりょくのハネ
+Resist Feathers,Plumes Armure,Piumtutela,Abwehrfedern,Plumas Aguante,저항력날개,ていこうのハネ
+Genius Feathers,Plumes Esprit,Piumingegno,Geniefedern,Plumas Intelecto,지력날개,ちりょくのハネ
+Clever Feathers,Plumes Mental,Piumintuito,Espritfedern,Plumas Mente,정신력날개,せいしんのハネ
+Swift Feathers,Plumes Sprint,Piumreazione,Flinkfedern,Plumas Ímpetu,순발력날개,しゅんぱつのハネ
+Pretty Feathers,Jolies Plumes,Piumebelle,Prachtfedern,Plumas Bellas,고운날개,きれいなハネ
+Cover Fossils,Fossiles Plaques,Fossiltappo,Schildfossilien,Fósiles Tapa,덮개화석,ふたのカセキ
+Plume Fossils,Fossiles Plumes,Fossilpiuma,Federfossilien,Fósiles Pluma,날개화석,はねのカセキ
+Liberty Passes,Passes Liberté,Liberticket,Gartenpässe,Tarjetas Libertad,리버티티켓,リバティチケット
+Pass Orbs,Offrisphères,Passabilie,Transferorbs,Regalosferas,딜구슬,デルダマ
+Dream Balls,Rêve Balls,Dream Ball,Traumbälle,Ensueño Balls,드림볼,ドリームボール
+Poké Toys,Poké Plumets,Pokégingilli,Pokéwedel,Pokéseñuelos,포켓풀,ポケじゃらし
+Prop Cases,Boîtes Parure,Portagadget,Deko-Boxen,Neceseres,굿즈케이스,グッズケース
+Dragon Skulls,Crânes Dragons,Teschi,Drakoschädel,Cráneos Dragón,드래곤의뼈,ドラゴンのホネ
+Balm Mushrooms,Champis Suaves,Profumfunghi,Duftpilze,Setas Aroma,향기버섯,かおるキノコ
+Big Nuggets,Maxi Pépites,Granpepite,Riesennuggets,Maxipepitas,큰금구슬,でかいきんのたま
+Pearl Strings,Perles Triples,Trittiperle,Triperlen,Sartas Perlas,경단진주,おだんごしんじゅ
+Comet Shards,Morceaux Comète,Pezzi Cometa,Kometstücke,Fragmentos Cometa,혜성조각,すいせいのかけら
+Relic Coppers,Vieux Sous,Soldantichi,Alte Heller,Reales Cobre,고대의동화,こだいのどうか
+Relic Silvers,Vieux Écus,Ducatantichi,Alte Taler,Reales Plata,고대의은화,こだいのぎんか
+Relic Golds,Vieux Ducats,Doblonantichi,Alte Dukaten,Reales Oro,고대의금화,こだいのきんか
+Relic Vases,Vieux Vases,Vasantichi,Alte Vasen,Ánforas,고대의항아리,こだいのツボ
+Relic Bands,Vieux Bijoux,Bracciantichi,Alte Reife,Brazales,고대의팔찌,こだいのうでわ
+Relic Statues,Vieux Santons,Statuantiche,Alte Statuen,Efigies Antiguas,고대의석상,こだいのせきぞう
+Relic Crowns,Vieux Tortils,Coronantiche,Alte Kronen,Coronas Antiguas,고대의왕관,こだいのおうかん
+Casteliacones,Glaces Volute,Conistropoli,Stratos-Eis,Porcehelados,구름아이스,ヒウンアイス
+Dire Hit 2s,Muscles 2,Supercolpi 2,Angriffplus2,Crítico X 2,크리티컬커터2,クリティカット２
+X Speed 2s,Vitesses 2,Velocità X-2,X-Initiative 2,Velocidad X 2,스피드업2,スピーダー２
+X Sp. Atk 2s,Atq. Spé. 2,Att. Sp. X-2,X-Sp.-Ang. 2,Ataque Especial X 2,스페셜업2,ＳＰアップ２
+X Sp. Def 2s,Déf. Spé. 2,Dif. Spec. X-2,X-Sp.-Vert. 2,Defensa Especial X 2,스페셜가드2,ＳＰガード２
+X Defense 2s,Défenses 2,Difese X-2,X-Verteidigung 2,Defensa X 2,디펜드업2,ディフェンダー２
+X Attack 2s,Attaques 2,Attacchi X-2,X-Angriff 2,Ataque X 2,플러스파워2,プラスパワー２
+X Accuracy 2s,Précisions 2,Precisioni X-2,X-Genauigkeit 2,Precisión X 2,잘-맞히기2,ヨクアタール２
+X Speed 3s,Vitesses 3,Velocità X-3,X-Initiative 3,Velocidad X 3,스피드업3,スピーダー３
+X Sp. Atk 3s,Atq. Spé. 3,Att. Sp. X-3,X-Sp.-Ang. 3,Ataque Especial X 3,스페셜업3,ＳＰアップ３
+X Sp. Def 3s,Déf. Spé. 3,Dif. Spec. X-3,X-Sp.-Vert. 3,Defensa Especial X 3,스페셜가드3,ＳＰガード３
+X Defense 3s,Défenses 3,Difese X-3,X-Verteidigung 3,Defensa X 3,디펜드업3,ディフェンダー３
+X Attack 3s,Attaques 3,Attacchi X-3,X-Angriff 3,Ataque X 3,플러스파워3,プラスパワー３
+X Accuracy 3s,Précisions 3,Precisioni X-3,X-Genauigkeit 3,Precisión X 3,잘-맞히기3,ヨクアタール３
+X Speed 6s,Vitesses 6,Velocità X-6,X-Initiative 6,Velocidad X 6,스피드업6,スピーダー６
+X Sp. Atk 6s,Atq. Spé. 6,Att. Sp. X-6,X-Sp.-Ang. 6,Ataque Especial X 6,스페셜업6,ＳＰアップ６
+X Sp. Def 6s,Déf. Spé. 6,Dif. Spec. X-6,X-Sp.-Vert. 6,Defensa Especial X 6,스페셜가드6,ＳＰガード６
+X Defense 6s,Défenses 6,Difese X-6,X-Verteidigung 6,Defensa X 6,디펜드업6,ディフェンダー６
+X Attack 6s,Attaques 6,Attacchi X-6,X-Angriff 6,Ataque X 6,플러스파워6,プラスパワー６
+X Accuracy 6s,Précisions 6,Precisioni X-6,X-Genauigkeit 6,Precisión X 6,잘-맞히기6,ヨクアタール６
+Ability Urges,Appels Talent,Chiamabilità,Fähigk.-Appelle,Habilitadores,스킬콜,スキルコール
+Item Drops,Jette Objets,Lascioggetto,Itemabwürfe,Tiraobjetos,아이템드롭,アイテムドロップ
+Item Urges,Appel Objets,Chiamoggetto,Itemappelle,Activaobjetos,아이템콜,アイテムコール
+Reset Urges,Réamorçages,Ripristini,Umkehrappelle,Quitaestados,플랫콜,フラットコール
+Dire Hit 3s,Muscles 3,Supercolpi 3,Angriffplus3,Crítico X 3,크리티컬커터3,クリティカット３
+Light Stones,Galets Blancs,Chiaroliti,Lichtsteine,Orbes Claros,라이트스톤,ライトストーン
+Dark Stones,Galets Noirs,Scuroliti,Dunkelsteine,Orbes Oscuros,다크스톤,ダークストーン
+TM93s,CT93,MT93,TM93,MT93,기술머신93,わざマシン９３
+TM94s,CT94,MT94,TM94,MT94,기술머신94,わざマシン９４
+TM95s,CT95,MT95,TM95,MT95,기술머신95,わざマシン９５
+Xtransceivers,Vokits,Interpoké,Viso-Caster,Videomisores,라이브캐스터,ライブキャスター
+???,???,???,???,(?),???,ゴッドストーン
+Gram 1s,Courriers 1,Missive 1,Briefpost 1,Envíos 1,배달물1,はいたつぶつ１
+Gram 2s,Courriers 2,Missive 2,Briefpost 2,Envíos 2,배달물2,はいたつぶつ２
+Gram 3s,Courriers 3,Missive 3,Briefpost 3,Envíos 3,배달물3,はいたつぶつ３
+Xtransceivers,Vokits,Interpoké,Viso-Caster,Videomisores,라이브캐스터,ライブキャスター
+Medal Boxes,Boîtes Médailles,Box Premi,Medaillenboxen,Cajas de Insignias,메달박스,メダルボックス
+DNA Splicers,Pointeaux ADN,Cunei DNA,DNS-Keile,Puntas ADN,유전자쐐기,いでんしのくさび
+DNA Splicers,Pointeaux ADN,Cunei DNA,DNS-Keile,Puntas ADN,유전자쐐기,いでんしのくさび
+Permits,Permis,Permessi,Genehmigungen,Pases,허가증,きょかしょう
+Oval Charms,Charmes Ovales,Ovamuleti,Ovalpins,Amuletos Ovales,둥근부적,まるいおまもり
+Shiny Charms,Charmes Chroma,Cromamuleti,Schillerpins,Amuletos Iris,빛나는부적,ひかるおまもり
+Plasma Cards,Cartes Plasma,Carte Plasma,Plasmakarten,Tarjetas Plasma,플라스마카드,プラズマカード
+Grubby Hankies,Mouchoirs Sales,Pezze Sporche,Schnäuztücher,Pañuelos Sucios,더러운손수건,よごれたハンカチ
+Colress Machines,Nikodules,Acrocongegni,Achromaten,Acromáquinas,아크로마머신,アクロママシーン
+Dropped Items,Objets Trouvés,Oggetti persi,Fundsachen,Objetos Perdidos,잊은물건,わすれもの
+Dropped Items,Objets Trouvés,Oggetti persi,Fundsachen,Objetos Perdidos,잊은물건,わすれもの
+Reveal Glasses,Miroirs Sacrés,Verispecchi,Wahrspiegel,Espejos Veraces,비추는거울,うつしかがみ
+Weakness Policies,Vulné-Assurances,Vulneropolizze,Schwächenschutze,Seguros Debilidad,약점보험,じゃくてんほけん
+Assault Vests,Vestes de Combat,Corpetti assalto,Offensivwesten,Chalecos Asalto,돌격조끼,とつげきチョッキ
+Holo Casters,Holokits,Holovox,Holo-Logs,Holomisores,홀로캐스터,ホロキャスター
+Prof’s Letters,Lettres du Prof,Lettere del Prof,Briefe vom Prof,Cartas Profesor,박사의편지,はかせのてがみ
+Roller Skates,Rollers,Pattini,Rollerskates,Patines,롤러스케이트,ローラースケート
+Pixie Plates,Plaques Pixie,Lastrespiritello,Feentafeln,Tablas Duende,정령플레이트,せいれいプレート
+Ability Capsules,Pilules Talent,Capsule abilità,Fähigk.-Kapseln,Cápsulas Habilidad,특성캡슐,とくせいカプセル
+Whipped Dreams,Chantibonbons,Dolcispume,Sahnehäubchen,Dulces de Nata,휘핑팝,ホイップポップ
+Sachets,Sachets Senteur,Bustine aromi,Duftbeutel,Saquitos Fragantes,향기주머니,においぶくろ
+Luminous Moss,Lichens Lumineux,Muschiluce,Leuchtmoose,Musgos Brillantes,빛이끼,ひかりごけ
+Snowballs,Boules de Neige,Palle di neve,Schneebälle,Bolas de Nieve,눈덩이,ゆきだま
+Safety Goggles,Lunettes Filtre,Visierantisabbia,Schutzbrillen,Gafas Protectoras,방진고글,ぼうじんゴーグル
+Poké Flutes,Poké Flûtes,Poké Flauti,Pokéflöten,Poké Flautas,포켓몬피리,ポケモンのふえ
+Rich Mulch,Fertibondances,Fertilflorido,Sprießmulche,Abonos Fértiles,주렁주렁비료,たわわこやし
+Surprise Mulch,Fertistantanés,Fertilsorpresa,Wundermulche,Abonos Sorpresa,깜놀비료,びっくりこやし
+Boost Mulch,Fertibérances,Fertilcopioso,Wuchermulche,Abonos Fructíferos,부쩍부쩍비료,ぐんぐんこやし
+Amaze Mulch,Fertiprodiges,Fertilprodigio,Ultramulche,Abonos Insólitos,기절초풍비료,とんでもこやし
+Gengarites,Ectoplasmites,Gengariti,Gengarnite,Gengaritas,팬텀나이트,ゲンガナイト
+Gardevoirites,Gardevoirites,Gardevoiriti,Guardevoirnite,Gardevoiritas,가디안나이트,サーナイトナイト
+Ampharosites,Pharampites,Ampharositi,Ampharosnite,Ampharositas,전룡나이트,デンリュウナイト
+Venusaurites,Florizarrites,Venusauriti,Bisaflornite,Venusauritas,이상해꽃나이트,フシギバナイト
+Charizardite Xs,Dracaufites X,Charizarditi X,Gluraknite X,Charizarditas X,리자몽나이트X,リザードナイトＸ
+Blastoisinites,Tortankites,Blastoisiti,Turtoknite,Blastoisitas,거북왕나이트,カメックスナイト
+Mewtwonite Xs,Mewtwoïtes X,Mewtwoiti X,Mewtunite X,Mewtwoitas X,뮤츠나이트X,ミュウツナイトＸ
+Mewtwonite Ys,Mewtwoïtes Y,Mewtwoiti Y,Mewtunite Y,Mewtwoitas Y,뮤츠나이트Y,ミュウツナイトＹ
+Blazikenites,Braségalites,Blazikeniti,Lohgocknite,Blazikenitas,번치코나이트,バシャーモナイト
+Medichamites,Charminites,Medichamiti,Meditalisnite,Medichamitas,요가램나이트,チャーレムナイト
+Houndoominites,Démolossites,Houndoomiti,Hundemonite,Houndoomitas,헬가나이트,ヘルガナイト
+Aggronites,Galekingites,Aggroniti,Stollossnite,Aggronitas,보스로라나이트,ボスゴドラナイト
+Banettites,Branettites,Banettiti,Banetteonite,Banettitas,다크펫나이트,ジュペッタナイト
+Tyranitarites,Tyranocivites,Tyranitariti,Despotarnite,Tyranitaritas,마기라스나이트,バンギラスナイト
+Scizorites,Cizayoxites,Scizoriti,Scheroxnite,Scizoritas,핫삼나이트,ハッサムナイト
+Pinsirites,Scarabruites,Pinsiriti,Pinsirnite,Pinsiritas,쁘사이저나이트,カイロスナイト
+Aerodactylites,Ptéraïtes,Aerodactyliti,Aerodactylonite,Aerodactylitas,프테라나이트,プテラナイト
+Lucarionites,Lucarites,Lucariti,Lucarionite,Lucaritas,루카리오나이트,ルカリオナイト
+Abomasites,Blizzarites,Abomasnowiti,Rexblisarnite,Abomasnowitas,눈설왕나이트,ユキノオナイト
+Kangaskhanites,Kangourexites,Kangaskhaniti,Kangamanite,Kangaskhanitas,캥카나이트,ガルーラナイト
+Gyaradosites,Léviatorites,Gyaradositi,Garadosnite,Gyaradositas,갸라도스나이트,ギャラドスナイト
+Absolites,Absolites,Absoliti,Absolnite,Absolitas,앱솔나이트,アブソルナイト
+Charizardite Ys,Dracaufites Y,Charizarditi Y,Gluraknite Y,Charizarditas Y,리자몽나이트Y,リザードナイトＹ
+Alakazites,Alakazamites,Alakazamiti,Simsalanite,Alakazamitas,후디나이트,フーディナイト
+Heracronites,Scarhinoïtes,Heracrossiti,Skarabornite,Heracrossitas,헤라크로스나이트,ヘラクロスナイト
+Mawilites,Mysdibulites,Mawiliti,Flunkifernite,Mawilitas,입치트나이트,クチートナイト
+Manectites,Élecsprintites,Manectriciti,Voltensonite,Manectricitas,썬더볼트나이트,ライボルトナイト
+Garchompites,Carchacrokites,Garchompiti,Knakracknite,Garchompitas,한카리아스나이트,ガブリアスナイト
+Latiasites,Latiasites,Latiasiti,Latiasnite,Latiasitas,라티아스나이트,ラティアスナイト
+Latiosites,Latiosites,Latiositi,Latiosnite,Latiositas,라티오스나이트,ラティオスナイト
+Roseli Berries,Baies Selro,Baccarcadè,Hibisbeeren,Bayas Hibis,로셀열매,ロゼルのみ
+Kee Berries,Baies Éka,Baccalighia,Akibeeren,Bayas Biglia,악키열매,アッキのみ
+Maranga Berries,Baies Rangma,Baccapane,Tarabeeren,Bayas Maranga,타라프열매,タラプのみ
+Sprinklotads,Nénurrosoirs,Irrigalotad,Loturzelkannen,Lotadgaderas,연꽃몬물뿌리개,ハスボーじょうろ
+TM96s,CT96,MT96,TM96,MT96,기술머신96,わざマシン９６
+TM97s,CT97,MT97,TM97,MT97,기술머신97,わざマシン９７
+TM98s,CT98,MT98,TM98,MT98,기술머신98,わざマシン９８
+TM99s,CT99,MT99,TM99,MT99,기술머신99,わざマシン９９
+TM100s,CT100,MT100,TM100,MT100,기술머신100,わざマシン１００
+Power Plant Passes,Passes Centrale,Pass Centrale,Kraftwerks-Pässe,Pases Central,발전소패스,はつでんしょパス
+Mega Rings,Méga-Anneaux,Megacerchi,Mega-Ringe,Mega-Aros,메가링,メガリング
+Intriguing Stones,Pierres Insolites,Sassi suggestivi,Kuriose Steine,Piedras Insólitas,대단할듯한돌,すごそうないし
+Common Stones,Pierres Ordinaires,Sassi qualsiasi,Normale Steine,Piedras Comunes,흔해빠진돌,ありふれたいし
+Discount Coupons,Bons Réduction,Buoni sconto,Rabattmarken,Vales Descuento,바겐세일티켓,バーゲンチケット
+Elevator Keys,Clés Ascenseur,Chiavi ascensore,Liftschlüssel,Llaves Ascensor,엘리베이터키,エレベータのキー
+TMV Passes,Passes TMV,Pass TMV,TMV-Pässe,Abonos del TMV,TMV패스,ＴＭＶパス
+Honors of Kalos,Insignes de Kalos,Emblemi di Kalos,Kalos-Embleme,Emblemas de Kalos,칼로스엠블럼,カロスエンブレム
+Adventure Guides,ABC Aventure,Guide Avventura,Abenteuerfibeln,Guías de Aventura,탐험수칙,たんけんこころえ
+Strange Souvenirs,Bibelots Bizarres,Strani ninnoli,Skurriloskulpturen,Estatuillas Raras,이상한장식품,ふしぎなおきもの
+Lens Cases,Boîtes Lentilles,Portalenti,Linsenetuis,Portalentillas,렌즈케이스,レンズケース
+Makeup Bags,Trousses Beauté,Trousse,Kosmetiketuis,Kits Maquillaje,코스메틱파우치,コスメポーチ
+Travel Trunks,Malles Penderie,Bauli per abiti,Kleiderkoffer,Maletas,의상트렁크,いしょうトランク
+Lumiose Galettes,Galettes Illumis,Pan di Lumi,Illumina-Galetten,Crêpes Luminalia,미르갈레트,ミアレガレット
+Shalour Sables,Sablés Yantreizh,Yantafrollini,Yantara-Sablés,Galletas Yantra,사라사블레,シャラサブレ
+Jaw Fossils,Fossiles Mâchoires,Fossilmascella,Kieferfossilien,Fósiles Mandíbula,턱화석,アゴのカセキ
+Sail Fossils,Fossiles Nageoires,Fossilpinna,Flossenfossilien,Fósiles Aleta,지느러미화석,ヒレのカセキ
+Looker Tickets,Tickets Beladonis,Carte Bellocchio,LeBelle-Tickets,Boletos Handsome,핸섬티켓,ハンサムチケット
+Bikes,Bicyclettes,Biciclette,Fahrräder,Bicis,자전거,じてんしゃ
+Holo Casters,Holokits,Holovox,Holo-Logs,Holomisores,홀로캐스터,ホロキャスター
+Fairy Gems,Joyaux Fée,Bijoufolletto,Feenjuwelen,Gemas Hada,페어리주얼,ようせいジュエル
+Mega Charms,Méga-Charmes,Megaciondoli,Megaillons,Megacolgantes,메가참,メガチャーム
+Mega Gloves,Méga-Gants,Megaguanti,Mega-Handschuhe,Megaguantes,메가글러브,メガグローブ
+Mach Bikes,Vélos de Course,Bici da corsa,Eilräder,Bicis de Carreras,마하자전거,マッハじてんしゃ
+Acro Bikes,Vélos Cross,Bici da cross,Kunsträder,Bicis Acrobáticas,더트자전거,ダートじてんしゃ
+Wailmer Pails,Wailmerrosoirs,Vasi Wailmer,Wailmerkannen,Wailmegaderas,고래왕자물뿌리개,ホエルコじょうろ
+Devon Parts,Packs Devon,Merce Devon,Devon-Waren,Piezas Devon,데봉화물,デボンのにもつ
+Soot Sacks,Sacs à Suie,Sacchi cenere,Aschetaschen,Sacos Hollín,재주머니,はいぶくろ
+Basement Keys,Clés Sous-Sol,Chiavi sotterr.,Kelleröffner,Llaves del Sótano,지하열쇠,ちかのカギ
+Pokéblock Kits,Kits Pokébloc,Kit Pokémelle,Pokériegel-Sets,Kits de Pokécubos,포켓몬스넥키트,ポロックキット
+Letters,Lettres à Pierre,Lettere,Briefe an Troy,Cartas a Máximo,성호에게줄편지,ダイゴへのてがみ
+Eon Tickets,Passes Éon,Biglietti Eone,Äon-Tickets,Tickets Eón,무한티켓,むげんのチケット
+Scanners,Scanners,Scanner,Scanner,Escáneres,탐지기,たんちき
+Go-Goggles,Lunettes Sable,Occhialoni,Wüstenbrillen,Gafas Aislantes,고고고글,ゴーゴーゴーグル
+Meteorites,Météorites,Meteoriti,Meteoriten,Meteoritos,운석,いんせき
+Keys to Room 1,Clés Salle 1,Chiavi stanza 1,R1-Schlüssel,Ll. Habitación 1,1호실열쇠,１ごうしつのカギ
+Keys to Room 2,Clés Salle 2,Chiavi stanza 2,R2-Schlüssel,Ll. Habitación 2,2호실열쇠,２ごうしつのカギ
+Keys to Room 4,Clés Salle 4,Chiavi stanza 4,R4-Schlüssel,Ll. Habitación 4,4호실열쇠,４ごうしつのカギ
+Keys to Room 6,Clés Salle 6,Chiavi stanza 6,R6-Schlüssel,Ll. Habitación 6,6호실열쇠,６ごうしつのカギ
+Storage Keys,Clés Stockage,Chiavi magazzino,Lagerschlüssel,Llaves Almacén,창고열쇠,そうこのカギ
+Devon Scopes,Devon Scopes,Devonscopi,Devon-Scopes,Detectores Devon,데봉스코프,デボンスコープ
+S.S. Tickets,Passes Bateau,Biglietti nave,Bootstickets,Tickets Barco,승선티켓,ふねのチケット
+HM07s,CS07,MN07,VM07,MO07,비전머신07,ひでんマシン０７
+Devon Scuba Gear,Plongeurs Devon,Maschere Devon,Devon-Atemgeräte,Bombonas Devon,데봉봄베,デボンボンベ
+Contest Costumes,Costumes Live,Costumi Live,Live-Anzüge,Trajes de Gala,라이브슈트,ライブスーツ
+Contest Costumes,Robes Live,Vestiti Live,Live-Kleider,Vestidos de Gala,라이브드레스,ライブドレス
+Magma Suits,Scaph. Magma,Tute Magma,Magma-Anzüge,Trajes Magma,마그마슈트,マグマスーツ
+Aqua Suits,Scaphandres Aqua,Tute Idro,Aqua-Anzüge,Trajes Aqua,아쿠아슈트,アクアスーツ
+Pair of Tickets,Tickets Duo,Biglietti doppi,Zweiertickets,Entradas para dos,페어티켓,ペアチケット
+Mega Bracelets,Méga-Bracelets,Megabracciali,Mega-Armreife,Megapulseras,메가뱅글,メガバングル
+Mega Pendants,Méga-Pendentifs,Megapendenti,Mega-Anhänger,Megacollares,메가펜던트,メガペンダント
+Mega Glasses,Méga-Lunettes,Megaocchiali,Mega-Brillen,Megagafas,메가글라스,メガメガネ
+Mega Anchors,Méga-Ancres,Megaancore,Mega-Anker,Megaanclas,메가앵커,メガイカリ
+Mega Stickpins,Méga-Pin’s,Megaspille,Mega-Anstecker,Megabroches,메가라펠핀,メガラペルピン
+Mega Tiaras,Méga-Tiares,Megadiademi,Mega-Diademe,Megatiaras,메가티아러,メガティアラ
+Mega Anklets,Méga-Grèves,Megagambali,Mega-Beinreife,Megatobilleras,메가앵클릿,メガアンクレット
+Meteorites,Météorites,Meteoriti,Meteoriten,Meteoritos,운석,いんせき
+Swampertites,Laggronites,Swampertiti,Sumpexnite,Swampertitas,대짱이나이트,ラグラージナイト
+Sceptilites,Jungkites,Sceptiliti,Gewaldronite,Sceptilitas,나무킹나이트,ジュカインナイト
+Sablenites,Ténéfixites,Sableyiti,Zobirisnite,Sableynitas,깜까미나이트,ヤミラミナイト
+Altarianites,Altarites,Altariti,Altarianite,Altarianitas,파비코리나이트,チルタリスナイト
+Galladites,Gallamites,Galladiti,Galagladinite,Galladitas,엘레이드나이트,エルレイドナイト
+Audinites,Nanméouïtes,Audiniti,Ohrdochnite,Audinitas,다부니나이트,タブンネナイト
+Metagrossites,Métalossites,Metagrossiti,Metagrossnite,Metagrossitas,메타그로스나이트,メタグロスナイト
+Sharpedonites,Sharpedites,Sharpediti,Tohaidonite,Sharpedonitas,샤크니아나이트,サメハダナイト
+Slowbronites,Flagadossites,Slowbroiti,Lahmusnite,Slowbronitas,야도란나이트,ヤドランナイト
+Steelixites,Steelixites,Steelixiti,Stahlosnite,Steelixitas,강철톤나이트,ハガネールナイト
+Pidgeotites,Roucarnagites,Pidgeotiti,Taubossnite,Pidgeotitas,피죤투나이트,ピジョットナイト
+Glalitites,Oniglalites,Glaliti,Firnontornite,Glalitas,얼음귀신나이트,オニゴーリナイト
+Diancites,Diancites,Dianciti,Diancienite,Diancitas,디안시나이트,ディアンシナイト
+Prison Bottles,Vases Scellés,Vasi del vincolo,Banngefäße,Vasijas Castigo,굴레의항아리,いましめのツボ
+Mega Cuffs,Méga-Manchettes,Megapolsiere,Mega-Armbänder,Megabrazaletes,메가블레스,メガブレス
+Cameruptites,Caméruptites,Cameruptiti,Cameruptnite,Cameruptitas,폭타나이트,バクーダナイト
+Lopunnites,Lockpinites,Lopunniti,Schlapornite,Lopunnitas,이어롭나이트,ミミロップナイト
+Salamencites,Drattakites,Salamenciti,Brutalandanite,Salamencitas,보만다나이트,ボーマンダナイト
+Beedrillites,Dardargnites,Beedrilliti,Bibornite,Beedrillitas,독침붕나이트,スピアナイト
+Meteorites,Météorites,Meteoriti,Meteoriten,Meteoritos,운석,いんせき
+Meteorites,Météorites,Meteoriti,Meteoriten,Meteoritos,운석,いんせき
+Key Stones,Gemmes Sésame,Pietrechiave,Schlüssel-Steine,Piedras Activadoras,키스톤,キーストーン
+Meteorite Shards,Éclats Météorite,Framm. meteorite,Meteoritenstücke,Fragmentos Meteorito,운석조각,いんせきのかけら
+Eon Flutes,Flûtes Éon,Flauti Eone,Äon-Flöten,Flautas Eón,무한의피리,むげんのふえ
+Normalium Zs,Normazélites,Normium Z,Normium Z,Normastales Z,노말Z,ノーマルＺ
+Firium Zs,Pyrozélites,Pirium Z,Pyrium Z,Pirostales Z,불꽃Z,ホノオＺ
+Waterium Zs,Aquazélites,Idrium Z,Aquium Z,Hidrostales Z,물Z,ミズＺ
+Electrium Zs,Voltazélites,Electrium Z,Voltium Z,Electrostales Z,전기Z,デンキＺ
+Grassium Zs,Florazélites,Herbium Z,Botanium Z,Fitostales Z,풀Z,クサＺ
+Icium Zs,Cryozélites,Glacium Z,Glacium Z,Criostales Z,얼음Z,コオリＺ
+Fightinium Zs,Combazélites,Luctium Z,Battalium Z,Lizastales Z,격투Z,カクトウＺ
+Poisonium Zs,Toxizélites,Venenium Z,Toxium Z,Toxistales Z,독Z,ドクＺ
+Groundium Zs,Terrazélites,Terrium Z,Terrium Z,Geostales Z,땅Z,ジメンＺ
+Flyinium Zs,Aérozélites,Volantium Z,Aerium Z,Aerostales Z,비행Z,ヒコウＺ
+Psychium Zs,Psychézélites,Psichium Z,Psium Z,Psicostales Z,에스퍼Z,エスパーＺ
+Buginium Zs,Insectozélites,Insectium Z,Insectium Z,Insectostales Z,벌레Z,ムシＺ
+Rockium Zs,Rocazélites,Petrium Z,Petrium Z,Litostales Z,바위Z,イワＺ
+Ghostium Zs,Spectrozélites,Spectrium Z,Phantomium Z,Espectrostales Z,고스트Z,ゴーストＺ
+Dragonium Zs,Dracozélites,Draconium Z,Dracium Z,Dracostales Z,드래곤Z,ドラゴンＺ
+Darkinium Zs,Ténébrozélites,Obscurium Z,Noctium Z,Nictostales Z,악Z,アクＺ
+Steelium Zs,Métallozélites,Metallium Z,Metallium Z,Metalostales Z,강철Z,ハガネＺ
+Fairium Zs,Nymphézélites,Follectium Z,Sylphium Z,Feeristales Z,페어리Z,フェアリーＺ
+Pikanium Zs,Pikazélites,Pikacium Z,Pikachium Z,Pikastales Z,피카츄Z,ピカチュウＺ
+Bottle Caps,Capsules d’Argent,Tappi d’argento,Silberkronkorken,Chapas Plateadas,은왕관,ぎんのおうかん
+Gold Bottle Caps,Capsules d’Or,Tappi d’oro,Goldkronkorken,Chapas Doradas,금왕관,きんのおうかん
+Z-Rings,Bracelets Z,Cerchi Z,Z-Ringe,Pulseras Z,Z링,Ｚリング
+Decidium Zs,Archézélites,Deciduenium Z,Silvarronium Z,Dueyestales Z,모크나이퍼Z,ジュナイパーＺ
+Incinium Zs,Félinozélites,Incineronium Z,Fuegronium Z,Incinostales Z,어흥염Z,ガオガエンＺ
+Primarium Zs,Oratozélites,Primarinium Z,Primarenium Z,Primastales Z,누리레느Z,アシレーヌＺ
+Tapunium Zs,Tokozélites,Tapium Z,Kapium Z,Tapistales Z,카푸Z,カプＺ
+Marshadium Zs,Marshadozélites,Marshadium Z,Marshadownium Z,Marshastales Z,마샤도Z,マーシャドーＺ
+Aloraichium Zs,Aloraïzélites,Aloraicium Z,A-Raichunium Z,Alo-Raistales Z,알로라이Z,アロライＺ
+Snorlium Zs,Ronflézélites,Snorlactium Z,Relaxonium Z,Snorlastales Z,잠만보Z,カビゴンＺ
+Eevium Zs,Évolizélites,Eevium Z,Evolium Z,Eeveestales Z,이브이Z,イーブイＺ
+Mewnium Zs,Mewzélites,Mewnium Z,Mewnium Z,Mewstales Z,뮤Z,ミュウＺ
+Normalium Zs,Normazélites,Normium Z,Normium Z,Normastales Z,노말Z,ノーマルＺ
+Firium Zs,Pyrozélites,Pirium Z,Pyrium Z,Pirostales Z,불꽃Z,ホノオＺ
+Waterium Zs,Aquazélites,Idrium Z,Aquium Z,Hidrostales Z,물Z,ミズＺ
+Electrium Zs,Voltazélites,Electrium Z,Voltium Z,Electrostales Z,전기Z,デンキＺ
+Grassium Zs,Florazélites,Herbium Z,Botanium Z,Fitostales Z,풀Z,クサＺ
+Icium Zs,Cryozélites,Glacium Z,Glacium Z,Criostales Z,얼음Z,コオリＺ
+Fightinium Zs,Combazélites,Luctium Z,Battalium Z,Lizastales Z,격투Z,カクトウＺ
+Poisonium Zs,Toxizélites,Venenium Z,Toxium Z,Toxistales Z,독Z,ドクＺ
+Groundium Zs,Terrazélites,Terrium Z,Terrium Z,Geostales Z,땅Z,ジメンＺ
+Flyinium Zs,Aérozélites,Volantium Z,Aerium Z,Aerostales Z,비행Z,ヒコウＺ
+Psychium Zs,Psychézélites,Psichium Z,Psium Z,Psicostales Z,에스퍼Z,エスパーＺ
+Buginium Zs,Insectozélites,Insectium Z,Insectium Z,Insectostales Z,벌레Z,ムシＺ
+Rockium Zs,Rocazélites,Petrium Z,Petrium Z,Litostales Z,바위Z,イワＺ
+Ghostium Zs,Spectrozélites,Spectrium Z,Phantomium Z,Espectrostales Z,고스트Z,ゴーストＺ
+Dragonium Zs,Dracozélites,Draconium Z,Dracium Z,Dracostales Z,드래곤Z,ドラゴンＺ
+Darkinium Zs,Ténébrozélites,Obscurium Z,Noctium Z,Nictostales Z,악Z,アクＺ
+Steelium Zs,Métallozélites,Metallium Z,Metallium Z,Metalostales Z,강철Z,ハガネＺ
+Fairium Zs,Nymphézélites,Follectium Z,Sylphium Z,Feeristales Z,페어리Z,フェアリーＺ
+Pikanium Zs,Pikazélites,Pikacium Z,Pikachium Z,Pikastales Z,피카츄Z,ピカチュウＺ
+Decidium Zs,Archézélites,Deciduenium Z,Silvarronium Z,Dueyestales Z,모크나이퍼Z,ジュナイパーＺ
+Incinium Zs,Félinozélites,Incineronium Z,Fuegronium Z,Incinostales Z,어흥염Z,ガオガエンＺ
+Primarium Zs,Oratozélites,Primarinium Z,Primarenium Z,Primastales Z,누리레느Z,アシレーヌＺ
+Tapunium Zs,Tokozélites,Tapium Z,Kapium Z,Tapistales Z,카푸Z,カプＺ
+Marshadium Zs,Marshadozélites,Marshadium Z,Marshadownium Z,Marshastales Z,마샤도Z,マーシャドーＺ
+Aloraichium Zs,Aloraïzélites,Aloraicium Z,A-Raichunium Z,Alo-Raistales Z,알로라이Z,アロライＺ
+Snorlium Zs,Ronflézélites,Snorlactium Z,Relaxonium Z,Snorlastales Z,잠만보Z,カビゴンＺ
+Eevium Zs,Évolizélites,Eevium Z,Evolium Z,Eeveestales Z,이브이Z,イーブイＺ
+Mewnium Zs,Mewzélites,Mewnium Z,Mewnium Z,Mewstales Z,뮤Z,ミュウＺ
+Pikashunium Zs,Pikachazélites,Ashpikacium Z,Ash-Pikachium Z,Ash-Pikastales Z,지우피카Z,サトピカＺ
+Pikashunium Zs,Pikachazélites,Ashpikacium Z,Ash-Pikachium Z,Ash-Pikastales Z,지우피카Z,サトピカＺ
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Forage Bags,Sacs Ingrédients,Portaingredienti,Zutatenbeutel,Zurrones,재료주머니,ざいりょうぶくろ
+Fishing Rods,Cannes à Pêche,Ami,Angeln,Cañas,낚싯대,つりざお
+Professor’s Masks,Masques du Prof,Maschere Prof.,Masken des Profs,Máscaras Profesor,박사의복면,はかせのふくめん
+Festival Tickets,Festickets,Festicket,Festival-Tickets,Festicupones,페스티켓,フェスチケット
+Sparkling Stones,Gemmes Lumière,Pietre lucenti,Glitzersteine,Piedras Brillantes,빛나는돌,かがやくいし
+Adrenaline Orbs,Orbes Frousse,Fifasfere,Zitterorbs,Nerviosferas,주눅구슬,ビビリだま
+Zygarde Cubes,Boîtes Zygarde,Teche Zygarde,Zygarde-Würfel,Arcas de Zygarde,지가르데큐브,ジガルデキューブ
+???,???,???,???,(?),???,？？？
+Ice Stones,Pierres Glace,Pietregelo,Eissteine,Piedras Hielo,얼음의돌,こおりのいし
+Ride Pagers,Appel-Montures,Chiamapassaggi,PokéMobil-Funk,Buscamonturas,라이드기어,ライドギア
+Beast Balls,Ultra Balls,UC Ball,Ultrabälle,Ente Balls,울트라볼,ウルトラボール
+Big Malasadas,Malasadas Maxi,Malasada maxi,Maxi-Malasadas,Malasadas Maxi,큰 말라사다,おおきいマラサダ
+Red Nectars,Nectars Rouges,Nettare rosso,Rote Nektare,Néctares Rojos,다홍꿀,くれないのミツ
+Yellow Nectars,Nectars Jaunes,Nettare giallo,Gelbe Nektare,Néctares Amarillos,진노랑꿀,やまぶきのミツ
+Pink Nectars,Nectars Roses,Nettare rosa,Rosa Nektare,Néctares Rosas,연분홍꿀,うすもものミツ
+Purple Nectars,Nectars Mauves,Nettare viola,Purpurne Nektare,Néctares Violetas,보라꿀,むらさきのミツ
+Sun Flutes,Flûtes du Soleil,Flauti solari,Sonnenflöten,Flautas Solares,태양의피리,たいようのふえ
+Moon Flutes,Flûtes de la Lune,Flauti lunari,Mondflöten,Flautas Lunares,달의피리,つきのふえ
+???,???,???,???,(?),???,？？？
+Enigmatic Cards,Messages Mystère,Lettere segrete,Seltsame Karten,Notas Intrigantes,괴상한카드,あやしいカード
+Silver Razz Berries,Baies Framby argentées,Baccalampon argentate,Silberne Himmihbeeren,Bayas Frambu Plateadas,은 라즈열매,ぎんのズリのみ
+Golden Razz Berries,Baies Framby dorées,Baccalampon dorate,Goldene Himmihbeeren,Bayas Frambu Doradas,황금 라즈열매,きんのズリのみ
+Silver Nanab Berries,Baies Nanab argentées,Baccabana argentate,Silberne Nanabbeeren,Bayas Latano Plateadas,은 나나열매,ぎんのナナのみ
+Golden Nanab Berries,Baies Nanab dorées,Baccabana dorate,Goldene Nanabbeeren,Bayas Latano Doradas,황금 나나열매,きんのナナのみ
+Silver Pinap Berries,Baies Nanana argentées,Baccananas argentate,Silberne Sananabeeren,Bayas Pinia Plateadas,은 파인열매,ぎんのパイルのみ
+Golden Pinap Berries,Baies Nanana dorées,Baccananas dorate,Goldene Sananabeeren,Bayas Pinia Doradas,황금 파인열매,きんのパイルのみ
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Secret Keys,Clés Secrètes,Chiavi segrete,Geheimschlüssel,Llaves Secretas,비밀의열쇠,ひみつのカギ
+S.S. Tickets,Passes Bateau,Biglietti nave,Bootstickets,Tickets del Barco,승선티켓,ふねのチケット
+Silph Scopes,Scopes Sylphe,Spettrosonde,Silph Scopes,Visores Silph,실프스코프,シルフスコープ
+Parcels,Colis,Pacchi,Pakete,Paquetes,전해줄물건,おとどけもの
+Card Keys,Cartes Magnétiques,Apriporta,Schlüsselkarten,Llaves Magnéticas,카드키,カードキー
+Gold Teeth,Dentiers en Or,Denti d’oro,Goldene Gebisse,Dentaduras de Oro,금틀니,きんのいれば
+Lift Keys,Clés Ascenseur,Chiavi ascensore,Aufzugsschlüssel,Llaves Ascensor,엘리베이터열쇠,エレベータのカギ
+Terrain Extenders,Champ’Duits,Fissacampo,Feldbeschichtungen,Cubresuelos,그라운드코트,グランドコート
+Protective Pads,Pare-Effets,Smorzaurti,Schutzpolster,Paracontactos,방호패드,ぼうごパット
+Electric Seeds,Graines Électrik,Elettrosemi,Elektro-Samen,Semillas Electro,일렉트릭시드,エレキシード
+Psychic Seeds,Graines Psychiques,Psicosemi,Psycho-Samen,Semillas Psique,사이코시드,サイコシード
+Misty Seeds,Graines Brume,Nebbiasemi,Nebel-Samen,Semillas Bruma,미스트시드,ミストシード
+Grassy Seeds,Graines Herbe,Erbasemi,Gras-Samen,Semillas Hierba,그래스시드,グラスシード
+Stretchy Springs,Ressorts Détendus,Molle elastiche,Spiralfedern,Muelles Estirados,늘어난용수철,のびたバネ
+Chalky Stones,Craies,Gessetti,Kreidesteine,Tizas,초크돌,チョークいし
+Marbles,Billes,Biglie,Glasmurmeln,Canicas,유리구슬,ビーだま
+Lone Earrings,Boucles d’Oreille,Orecchini,Ohrringe,Pendientes,한쪽귀고리,かたっぽピアス
+Beach Glass,Galets de Verre,Vetri marini,Strandscherben,Cristales Marinos,바닷가유리,うみべのガラス
+Gold Leaves,Feuilles Dorées,Fogliadoro,Goldblätter,Hojas de Oro,금빛잎사귀,きんのはっぱ
+Silver Leaves,Feuilles Argentées,Fogliargento,Silberblätter,Hojas de Plata,은빛잎사귀,ぎんのはっぱ
+Polished Mud Balls,Boulettes de Boue,Palline di fango,Glanzkugeln,Bolas de Arcilla,반짝반짝경단,ピカピカだんご
+Tropical Shells,Coquilles du Sud,Tropiconchiglie,Tropenmuscheln,Conchas Tropicales,트로피컬조개껍질,なんごくかいがら
+Leaf Letters,Lettres Végétales,Foglialettere,Blattbriefe,Hojas Escritas,나뭇잎편지,このはのおてがみ
+Leaf Letters,Lettres Végétales,Foglialettere,Blattbriefe,Hojas Escritas,나뭇잎편지,このはのおてがみ
+Small Bouquets,Petits Bouquets,Bouquet,Ministräuße,Ramos Pequeños,작은꽃다발,ちいさなはなたば
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Lures,Parfums,Profumi invito,Lockparfüme,Colonias,벌레유인코롱,むしよせコロン
+Super Lures,Super Parfums,Superprofumi,Super-Lockparfüme,Supercolonias,실버코롱,シルバーコロン
+Max Lures,Parfums Max,Profumi Max,Top-Lockparfüme,Colonias Máximas,골드코롱,ゴールドコロン
+Pewter Crunchies,Crok’Argenta,Plumbeosalatini,Marmoria-Kräcker,Rokikos,회색강정,ニビあられ
+Fighting Memories,ROM Combat,ROM Lotta,Kampf-Discs,Discos Lucha,파이팅메모리,ファイトメモリ
+Flying Memories,ROM Vol,ROM Volante,Flug-Discs,Discos Volador,플라잉메모리,フライングメモリ
+Poison Memories,ROM Poison,ROM Veleno,Gift-Discs,Discos Veneno,포이즌메모리,ポイズンメモリ
+Ground Memories,ROM Sol,ROM Terra,Boden-Discs,Discos Tierra,그라운드메모리,グラウンドメモリ
+Rock Memories,ROM Roche,ROM Roccia,Gesteins-Discs,Discos Roca,락메모리,ロックメモリ
+Bug Memories,ROM Insecte,ROM Coleottero,Käfer-Discs,Discos Bicho,버그메모리,バグメモリ
+Ghost Memories,ROM Spectre,ROM Spettro,Geister-Discs,Discos Fantasma,고스트메모리,ゴーストメモリ
+Steel Memories,ROM Acier,ROM Acciaio,Stahl-Discs,Discos Acero,스틸메모리,スチールメモリ
+Fire Memories,ROM Feu,ROM Fuoco,Feuer-Discs,Discos Fuego,파이어메모리,ファイヤーメモリ
+Water Memories,ROM Eau,ROM Acqua,Wasser-Discs,Discos Agua,워터메모리,ウオーターメモリ
+Grass Memories,ROM Plante,ROM Erba,Pflanzen-Discs,Discos Planta,그래스메모리,グラスメモリ
+Electric Memories,ROM Électrik,ROM Elettro,Elektro-Discs,Discos Eléctrico,일렉트릭메모리,エレクトロメモリ
+Psychic Memories,ROM Psy,ROM Psico,Psycho-Discs,Discos Psíquico,사이킥메모리,サイキックメモリ
+Ice Memories,ROM Glace,ROM Ghiaccio,Eis-Discs,Discos Hielo,아이스메모리,アイスメモリ
+Dragon Memories,ROM Dragon,ROM Drago,Drachen-Discs,Discos Dragón,드래곤메모리,ドラゴンメモリ
+Dark Memories,ROM Ténèbres,ROM Buio,Unlicht-Discs,Discos Siniestro,다크메모리,ダークメモリ
+Fairy Memories,ROM Fée,ROM Folletto,Feen-Discs,Discos Hada,페어리메모리,フェアリーメモリ
+Solganium Zs,Solgazélites,Solgaleium Z,Solgalium Z,Solgaleostales Z,솔가레오Z,ソルガレオＺ
+Lunalium Zs,Lunazélites,Lunalium Z,Lunalium Z,Lunalastales Z,루나아라Z,ルナアーラＺ
+Ultranecrozium Zs,Ultranécrozélites,Ultranecrozium Z,Ultranecronium Z,Ultranecrostales Z,울트라네크로Z,ウルトラネクロＺ
+Mimikium Zs,Mimiquizélites,Mimikyum Z,Mimigmium Z,Mimikyustales Z,따라큐Z,ミミッキュＺ
+Lycanium Zs,Lougarozélites,Lycanrochium Z,Wolwerockium Z,Lycanrostales Z,루가루암Z,ルガルガンＺ
+Kommonium Zs,Ékaïzélites,Kommonium Z,Grandirasium Z,Kommostales Z,짜랑고우거Z,ジャラランガＺ
+Solganium Zs,Solgazélites,Solgaleium Z,Solgalium Z,Solgaleostales Z,솔가레오Z,ソルガレオＺ
+Lunalium Zs,Lunazélites,Lunalium Z,Lunalium Z,Lunalastales Z,루나아라Z,ルナアーラＺ
+Ultranecrozium Zs,Ultranécrozélites,Ultranecrozium Z,Ultranecronium Z,Ultranecrostales Z,울트라네크로Z,ウルトラネクロＺ
+Mimikium Zs,Mimiquizélites,Mimikyum Z,Mimigmium Z,Mimikyustales Z,따라큐Z,ミミッキュＺ
+Lycanium Zs,Lougarozélites,Lycanrochium Z,Wolwerockium Z,Lycanrostales Z,루가루암Z,ルガルガンＺ
+Kommonium Zs,Ékaïzélites,Kommonium Z,Grandirasium Z,Kommostales Z,짜랑고우거Z,ジャラランガＺ
+Z-Power Rings,Super Bracelets Z,Supercerchi Z,Z-Kraftringe,Superpulseras Z,Z파워링,Ｚパワーリング
+Pink Petals,Pétales Roses,Petali rosa,Rosa Blätter,Pétalos Rosas,담홍꽃잎,ももいろはなびら
+Orange Petals,Pétales Orange,Petali arancioni,Orange Blätter,Pétalos Naranjas,주황꽃잎,だいだいはなびら
+Blue Petals,Pétales Bleus,Petali azzurri,Blaue Blätter,Pétalos Azules,파랑꽃잎,あおのはなびら
+Red Petals,Pétales Rouges,Petali rossi,Rote Blätter,Pétalos Rojos,빨강꽃잎,あかのはなびら
+Green Petals,Pétales Verts,Petali verdi,Grüne Blätter,Pétalos Verdes,초록꽃잎,みどりのはなびら
+Yellow Petals,Pétales Jaunes,Petali gialli,Gelbe Blätter,Pétalos Amarillos,노랑꽃잎,きいろのはなびら
+Purple Petals,Pétales Violets,Petali violetti,Violette Blätter,Pétalos Violetas,보라꽃잎,むらさきはなびら
+Rainbow Flowers,Fleurs 7 Couleurs,Fiori arcobaleno,Regenbogenblüten,Flores Irisadas,무지개꽃,にじいろのはな
+Surge Badges,Fulguro-Badges,Medaglie Tonanti,Gewitterorden,Medallas Fulgor,주황배지,だいだいバッジ
+N-Solarizers,Necrosols,Necrosolix,Necrosol,Necrosoles,네크로플러스솔,ネクロプラスソル
+N-Lunarizers,Necrolunas,Necrolunix,Necrolun,Necrolunas,네크로플러스루나,ネクロプラスルナ
+N-Solarizers,Necrosols,Necrosolix,Necrosol,Necrosoles,네크로플러스솔,ネクロプラスソル
+N-Lunarizers,Necrolunas,Necrolunix,Necrolun,Necrolunas,네크로플러스루나,ネクロプラスルナ
+Ilima Normalium Zs,Cristaux Z Althéo,Normium Z Liam,Elimas Normium Z,Cristales Z (Liam),일리마의 노말Z,イリマノーマルＺ
+Left Poké Balls,Poké Balls données,Poké Ball altrui,Nachlassbälle,Poké Balls Ajenas,남겨진 볼,のこされたボール
+Roto Hatches,Moti-Couveuses,Cova’n’roll,Brutbons,Cupones Eclosión,알부화캡슐토이,タマゴふかポン
+Roto Bargains,Moti-Promos,Sconto’n’roll,Schnäppchenbons,Cupones Rebaja,할인캡슐토이,やすうりポン
+Roto Prize Money,Moti-Magots,Soldi’n’roll,Preisgeldbons,Cupones Botín,용돈캡슐토이,おこづかいポン
+Roto Exp. Points,Moti-Exp,Esp’n’roll,EP-Bons,Cupones Exp,경험캡슐토이,けいけんポン
+Roto Friendships,Moti-Cœurs,Affetto’n’roll,Freundschaftsbons,Cupones Amistad,친밀도캡슐토이,なつきポン
+Roto Encounters,Moti-Appâts,Incontra’n’roll,Lockbons,Cupones Reclamo,발견캡슐토이,みっけポン
+Roto Stealths,Moti-Camouflages,Repelle’n’roll,Schutzbons,Cupones Sigilo,숨기캡슐토이,かくれポン
+Roto HP Restores,Moti-Récup’ PV,PS’n’roll,KP-Bons,Cupones PS,HP회복캡슐토이,ＨＰかいふくポン
+Roto PP Restores,Moti-Récup’ PP,PP’n’roll,AP-Bons,Cupones PP,PP회복캡슐토이,ＰＰかいふくポン
+Roto Boosts,Moti-Soutiens,Stat’n’roll,Statuswertebons,Cupones Refuerzo,응원캡슐토이,おうえんポン
+Roto Catches,Moti-Captures,Acchiappa’n’roll,Fangbons,Cupones Captura,잡기캡슐토이,つかまえポン
+Health Candies,Bonbons Santé S,Caramelle vitalità S,Energiebonbons,Caramelos Vigor,기력의사탕,げんきのアメ
+Mighty Candies,Bonbons Force S,Caramelle potenza S,Stärkebonbons,Caramelos Músculo,힘의사탕,ちからのアメ
+Tough Candies,Bonbons Armure S,Caramelle protezione S,Robustbonbons,Caramelos Aguante,수비의사탕,まもりのアメ
+Smart Candies,Bonbons Esprit S,Caramelle acume S,Gripsbonbons,Caramelos Intelecto,지식의사탕,ちしきのアメ
+Courage Candies,Bonbons Mental S,Caramelle intuito S,Mentalbonbons,Caramelos Mente,마음의사탕,こころのアメ
+Quick Candies,Bonbons Sprint S,Caramelle rapidità S,Flottbonbons,Caramelos Ímpetu,속도의사탕,はやさのアメ
+Health Candies L,Bonbons Santé M,Caramelle vitalità M,Energiebonbons+,Caramelos Vigor +,기력의사탕L,げんきのアメＬ
+Mighty Candies L,Bonbons Force M,Caramelle potenza M,Stärkebonbons+,Caramelos Músculo +,힘의사탕L,ちからのアメＬ
+Tough Candies L,Bonbons Armure M,Caramelle protezione M,Robustbonbons+,Caramelos Aguante +,수비의사탕L,まもりのアメＬ
+Smart Candies L,Bonbons Esprit M,Caramelle acume M,Gripsbonbons+,Caramelos Intelecto +,지식의사탕L,ちしきのアメＬ
+Courage Candies L,Bonbons Mental M,Caramelle intuito M,Mentalbonbons+,Caramelos Mente +,마음의사탕L,こころのアメＬ
+Quick Candies L,Bonbons Sprint M,Caramelle rapidità M,Flottbonbons+,Caramelos Ímpetu +,속도의사탕L,はやさのアメＬ
+Health Candies XL,Bonbons Santé L,Caramelle vitalità L,Energiebonbons++,Caramelos Vigor ++,기력의사탕XL,げんきのアメＸＬ
+Mighty Candies XL,Bonbons Force L,Caramelle potenza L,Stärkebonbons++,Caramelos Músculo ++,힘의사탕XL,ちからのアメＸＬ
+Tough Candies XL,Bonbons Armure L,Caramelle protezione L,Robustbonbons++,Caramelos Aguante ++,수비의사탕XL,まもりのアメＸＬ
+Smart Candies XL,Bonbons Esprit L,Caramelle acume L,Gripsbonbons++,Caramelos Intelecto ++,지식의사탕XL,ちしきのアメＸＬ
+Courage Candies XL,Bonbons Mental L,Caramelle intuito L,Mentalbonbons++,Caramelos Mente ++,마음의사탕XL,こころのアメＸＬ
+Quick Candies XL,Bonbons Sprint L,Caramelle rapidità L,Flottbonbons++,Caramelos Ímpetu ++,속도의사탕XL,はやさのアメＸＬ
+Bulbasaur Candies,Bonbons Bulbizarre,Caramelle Bulbasaur,Bisasam-Bonbons,Caramelos Bulbasaur,이상해씨의사탕,フシギダネのアメ
+Charmander Candies,Bonbons Salamèche,Caramelle Charmander,Glumanda-Bonbons,Caramelos Charmander,파이리의사탕,ヒトカゲのアメ
+Squirtle Candies,Bonbons Carapuce,Caramelle Squirtle,Schiggy-Bonbons,Caramelos Squirtle,꼬부기의사탕,ゼニガメのアメ
+Caterpie Candies,Bonbons Chenipan,Caramelle Caterpie,Raupy-Bonbons,Caramelos Caterpie,캐터피의사탕,キャタピーのアメ
+Weedle Candies,Bonbons Aspicot,Caramelle Weedle,Hornliu-Bonbons,Caramelos Weedle,뿔충이의사탕,ビードルのアメ
+Pidgey Candies,Bonbons Roucool,Caramelle Pidgey,Taubsi-Bonbons,Caramelos Pidgey,구구의사탕,ポッポのアメ
+Rattata Candies,Bonbons Rattata,Caramelle Rattata,Rattfratz-Bonbons,Caramelos Rattata,꼬렛의사탕,コラッタのアメ
+Spearow Candies,Bonbons Piafabec,Caramelle Spearow,Habitak-Bonbons,Caramelos Spearow,깨비참의사탕,オニスズメのアメ
+Ekans Candies,Bonbons Abo,Caramelle Ekans,Rettan-Bonbons,Caramelos Ekans,아보의사탕,アーボのアメ
+Pikachu Candies,Bonbons Pikachu,Caramelle Pikachu,Pikachu-Bonbons,Caramelos Pikachu,피카츄의사탕,ピカチュウのアメ
+Sandshrew Candies,Bonbons Sabelette,Caramelle Sandshrew,Sandan-Bonbons,Caramelos Sandshrew,모래두지의사탕,サンドのアメ
+Nidoran♀ Candies,Bonbons Nidoran♀,Caramelle Nidoran♀,Nidoran♀-Bonbons,Caramelos Nidoran♀,니드런♀의사탕,ニドラン♀のアメ
+Nidoran♂ Candies,Bonbons Nidoran♂,Caramelle Nidoran♂,Nidoran♂-Bonbons,Caramelos Nidoran♂,니드런♂의사탕,ニドラン♂のアメ
+Clefairy Candies,Bonbons Mélofée,Caramelle Clefairy,Piepi-Bonbons,Caramelos Clefairy,삐삐의사탕,ピッピのアメ
+Vulpix Candies,Bonbons Goupix,Caramelle Vulpix,Vulpix-Bonbons,Caramelos Vulpix,식스테일의사탕,ロコンのアメ
+Jigglypuff Candies,Bonbons Rondoudou,Caramelle Jigglypuff,Pummeluff-Bonbons,Caramelos Jigglypuff,푸린의사탕,プリンのアメ
+Zubat Candies,Bonbons Nosferapti,Caramelle Zubat,Zubat-Bonbons,Caramelos Zubat,주뱃의사탕,ズバットのアメ
+Oddish Candies,Bonbons Mystherbe,Caramelle Oddish,Myrapla-Bonbons,Caramelos Oddish,뚜벅쵸의사탕,ナゾノクサのアメ
+Paras Candies,Bonbons Paras,Caramelle Paras,Paras-Bonbons,Caramelos Paras,파라스의사탕,パラスのアメ
+Venonat Candies,Bonbons Mimitoss,Caramelle Venonat,Bluzuk-Bonbons,Caramelos Venonat,콘팡의사탕,コンパンのアメ
+Diglett Candies,Bonbons Taupiqueur,Caramelle Diglett,Digda-Bonbons,Caramelos Diglett,디그다의사탕,ディグダのアメ
+Meowth Candies,Bonbons Miaouss,Caramelle Meowth,Mauzi-Bonbons,Caramelos Meowth,나옹의사탕,ニャースのアメ
+Psyduck Candies,Bonbons Psykokwak,Caramelle Psyduck,Enton-Bonbons,Caramelos Psyduck,고라파덕의사탕,コダックのアメ
+Mankey Candies,Bonbons Férosinge,Caramelle Mankey,Menki-Bonbons,Caramelos Mankey,망키의사탕,マンキーのアメ
+Growlithe Candies,Bonbons Caninos,Caramelle Growlithe,Fukano-Bonbons,Caramelos Growlithe,가디의사탕,ガーディのアメ
+Poliwag Candies,Bonbons Ptitard,Caramelle Poliwag,Quapsel-Bonbons,Caramelos Poliwag,발챙이의사탕,ニョロモのアメ
+Abra Candies,Bonbons Abra,Caramelle Abra,Abra-Bonbons,Caramelos Abra,캐이시의사탕,ケーシィのアメ
+Machop Candies,Bonbons Machoc,Caramelle Machop,Machollo-Bonbons,Caramelos Machop,알통몬의사탕,ワンリキーのアメ
+Bellsprout Candies,Bonbons Chétiflor,Caramelle Bellsprout,Knofensa-Bonbons,Caramelos Bellsprout,모다피의사탕,マダツボミのアメ
+Tentacool Candies,Bonbons Tentacool,Caramelle Tentacool,Tentacha-Bonbons,Caramelos Tentacool,왕눈해의사탕,メノクラゲのアメ
+Geodude Candies,Bonbons Racaillou,Caramelle Geodude,Kleinstein-Bonbons,Caramelos Geodude,꼬마돌의사탕,イシツブテのアメ
+Ponyta Candies,Bonbons Ponyta,Caramelle Ponyta,Ponita-Bonbons,Caramelos Ponyta,포니타의사탕,ポニータのアメ
+Slowpoke Candies,Bonbons Ramoloss,Caramelle Slowpoke,Flegmon-Bonbons,Caramelos Slowpoke,야돈의사탕,ヤドンのアメ
+Magnemite Candies,Bonbons Magnéti,Caramelle Magnemite,Magnetilo-Bonbons,Caramelos Magnemite,코일의사탕,コイルのアメ
+Farfetch’d Candies,Bonbons Canarticho,Caramelle Farfetch’d,Porenta-Bonbons,Caramelos Farfetch’d,파오리의사탕,カモネギのアメ
+Doduo Candies,Bonbons Doduo,Caramelle Doduo,Dodu-Bonbons,Caramelos Doduo,두두의사탕,ドードーのアメ
+Seel Candies,Bonbons Otaria,Caramelle Seel,Jurob-Bonbons,Caramelos Seel,쥬쥬의사탕,パウワウのアメ
+Grimer Candies,Bonbons Tadmorv,Caramelle Grimer,Sleima-Bonbons,Caramelos Grimer,질퍽이의사탕,ベトベターのアメ
+Shellder Candies,Bonbons Kokiyas,Caramelle Shellder,Muschas-Bonbons,Caramelos Shellder,셀러의사탕,シェルダーのアメ
+Gastly Candies,Bonbons Fantominus,Caramelle Gastly,Nebulak-Bonbons,Caramelos Gastly,고오스의사탕,ゴースのアメ
+Onix Candies,Bonbons Onix,Caramelle Onix,Onix-Bonbons,Caramelos Onix,롱스톤의사탕,イワークのアメ
+Drowzee Candies,Bonbons Soporifik,Caramelle Drowzee,Traumato-Bonbons,Caramelos Drowzee,슬리프의사탕,スリープのアメ
+Krabby Candies,Bonbons Krabby,Caramelle Krabby,Krabby-Bonbons,Caramelos Krabby,크랩의사탕,クラブのアメ
+Voltorb Candies,Bonbons Voltorbe,Caramelle Voltorb,Voltobal-Bonbons,Caramelos Voltorb,찌리리공의사탕,ビリリダマのアメ
+Exeggcute Candies,Bonbons Noeunoeuf,Caramelle Exeggcute,Owei-Bonbons,Caramelos Exeggcute,아라리의사탕,タマタマのアメ
+Cubone Candies,Bonbons Osselait,Caramelle Cubone,Tragosso-Bonbons,Caramelos Cubone,탕구리의사탕,カラカラのアメ
+Hitmonlee Candies,Bonbons Kicklee,Caramelle Hitmonlee,Kicklee-Bonbons,Caramelos Hitmonlee,시라소몬의사탕,サワムラーのアメ
+Hitmonchan Candies,Bonbons Tygnon,Caramelle Hitmonchan,Nockchan-Bonbons,Caramelos Hitmonchan,홍수몬의사탕,エビワラーのアメ
+Lickitung Candies,Bonbons Excelangue,Caramelle Lickitung,Schlurp-Bonbons,Caramelos Lickitung,내루미의사탕,ベロリンガのアメ
+Koffing Candies,Bonbons Smogo,Caramelle Koffing,Smogon-Bonbons,Caramelos Koffing,또가스의사탕,ドガースのアメ
+Rhyhorn Candies,Bonbons Rhinocorne,Caramelle Rhyhorn,Rihorn-Bonbons,Caramelos Rhyhorn,뿔카노의사탕,サイホーンのアメ
+Chansey Candies,Bonbons Leveinard,Caramelle Chansey,Chaneira-Bonbons,Caramelos Chansey,럭키의사탕,ラッキーのアメ
+Tangela Candies,Bonbons Saquedeneu,Caramelle Tangela,Tangela-Bonbons,Caramelos Tangela,덩쿠리의사탕,モンジャラのアメ
+Kangaskhan Candies,Bonbons Kangourex,Caramelle Kangaskhan,Kangama-Bonbons,Caramelos Kangaskhan,캥카의사탕,ガルーラのアメ
+Horsea Candies,Bonbons Hypotrempe,Caramelle Horsea,Seeper-Bonbons,Caramelos Horsea,쏘드라의사탕,タッツーのアメ
+Goldeen Candies,Bonbons Poissirène,Caramelle Goldeen,Goldini-Bonbons,Caramelos Goldeen,콘치의사탕,トサキントのアメ
+Staryu Candies,Bonbons Stari,Caramelle Staryu,Sterndu-Bonbons,Caramelos Staryu,별가사리의사탕,ヒトデマンのアメ
+Mr. Mime Candies,Bonbons M. Mime,Caramelle Mr. Mime,Pantimos-Bonbons,Caramelos Mr. Mime,마임맨의사탕,バリヤードのアメ
+Scyther Candies,Bonbons Insécateur,Caramelle Scyther,Sichlor-Bonbons,Caramelos Scyther,스라크의사탕,ストライクのアメ
+Jynx Candies,Bonbons Lippoutou,Caramelle Jynx,Rossana-Bonbons,Caramelos Jynx,루주라의사탕,ルージュラのアメ
+Electabuzz Candies,Bonbons Élektek,Caramelle Electabuzz,Elektek-Bonbons,Caramelos Electabuzz,에레브의사탕,エレブーのアメ
+Pinsir Candies,Bonbons Scarabrute,Caramelle Pinsir,Pinsir-Bonbons,Caramelos Pinsir,쁘사이저의사탕,カイロスのアメ
+Tauros Candies,Bonbons Tauros,Caramelle Tauros,Tauros-Bonbons,Caramelos Tauros,켄타로스의사탕,ケンタロスのアメ
+Magikarp Candies,Bonbons Magicarpe,Caramelle Magikarp,Karpador-Bonbons,Caramelos Magikarp,잉어킹의사탕,コイキングのアメ
+Lapras Candies,Bonbons Lokhlass,Caramelle Lapras,Lapras-Bonbons,Caramelos Lapras,라프라스의사탕,ラプラスのアメ
+Ditto Candies,Bonbons Métamorph,Caramelle Ditto,Ditto-Bonbons,Caramelos Ditto,메타몽의사탕,メタモンのアメ
+Eevee Candies,Bonbons Évoli,Caramelle Eevee,Evoli-Bonbons,Caramelos Eevee,이브이의사탕,イーブイのアメ
+Porygon Candies,Bonbons Porygon,Caramelle Porygon,Porygon-Bonbons,Caramelos Porygon,폴리곤의사탕,ポリゴンのアメ
+Omanyte Candies,Bonbons Amonita,Caramelle Omanyte,Amonitas-Bonbons,Caramelos Omanyte,암나이트의사탕,オムナイトのアメ
+Kabuto Candies,Bonbons Kabuto,Caramelle Kabuto,Kabuto-Bonbons,Caramelos Kabuto,투구의사탕,カブトのアメ
+Aerodactyl Candies,Bonbons Ptéra,Caramelle Aerodactyl,Aerodactyl-Bonbons,Caramelos Aerodactyl,프테라의사탕,プテラのアメ
+Snorlax Candies,Bonbons Ronflex,Caramelle Snorlax,Relaxo-Bonbons,Caramelos Snorlax,잠만보의사탕,カビゴンのアメ
+Articuno Candies,Bonbons Artikodin,Caramelle Articuno,Arktos-Bonbons,Caramelos Articuno,프리져의사탕,フリーザーのアメ
+Zapdos Candies,Bonbons Électhor,Caramelle Zapdos,Zapdos-Bonbons,Caramelos Zapdos,썬더의사탕,サンダーのアメ
+Moltres Candies,Bonbons Sulfura,Caramelle Moltres,Lavados-Bonbons,Caramelos Moltres,파이어의사탕,ファイヤーのアメ
+Dratini Candies,Bonbons Minidraco,Caramelle Dratini,Dratini-Bonbons,Caramelos Dratini,미뇽의사탕,ミニリュウのアメ
+Mewtwo Candies,Bonbons Mewtwo,Caramelle Mewtwo,Mewtu-Bonbons,Caramelos Mewtwo,뮤츠의사탕,ミュウツーのアメ
+Mew Candies,Bonbons Mew,Caramelle Mew,Mew-Bonbons,Caramelos Mew,뮤의사탕,ミュウのアメ
+Meltan Candies,Bonbons Meltan,Caramelle Meltan,Meltan-Bonbons,Caramelos Meltan,멜탄의사탕,メルタンのアメ
+Magmar Candies,Bonbons Magmar,Caramelle Magmar,Magmar-Bonbons,Caramelos Magmar,마그마의사탕,ブーバーのアメ
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Endorsements,Recommandations,Referenze,Empfehlungsbriefe,Recomendaciones,추천장,すいせんじょう
+Pokémon Box Links,Boîtes Pokémon,Box Pokémon,Pokémon-Boxen,Cajas de Pokémon,포켓몬 박스,ポケモンボックス
+Wishing Stars,Étoiles Vœu,Desiostelle,Wunschsterne,Estrellas Deseo,소원의별,ねがいぼし
+Dynamax Bands,Poignets Dynamax,Polsini Dynamax,Dynamax-Bänder,Maximuñequeras,다이맥스 밴드,ダイマックスＢ
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Fishing Rods,Cannes à Pêche,Ami,Angeln,Cañas,낚싯대,つりざお
+Rotom Bikes,Moticyclettes,Bici Rotom,Rotom-Räder,Bicis Rotom,로토무자전거,ロトムじてんしゃ
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Sausages,Saucisses,Salsicce,Würstchen,Salchichas,탱글탱글부어스트,あらびきヴルスト
+Bob’s Food Tins,Conserves de Bob,Lattine Gustavo,Pauls Feinkost,Latas de Darren,밥의통조림,ボブのかんづめ
+Bach’s Food Tins,Conserves de Bach,Scatolette Bach,Bachs Feinkost,Latas de Bach,바크의통조림,バックのかんづめ
+Tins of Beans,Haricots,Lattine fagioli,Dosenbohnen,Latas de Habas,콩통조림,マメかん
+Bread,Pains de Mie,Pan carré,Toastbrote,Panes de Molde,식빵,しょくパン
+Pasta,Pâtes,Pasta,Spaghetti,Pastas,파스타,パスタ
+Mixed Mushrooms,Champignons,Funghi,Pilzmixe,Setas,버섯팩,キノコパック
+Smoke-Poke Tails,Queues Fumées,Code affumicate,Röstruten,Colas Ahumadas,꼬리훈제,しっぽのくんせい
+Large Leeks,Gros Poireaux,Grossi porri,Dicke Lauche,Puerros Gruesos,굵은대파,ふといながねぎ
+Fancy Apples,Pommes Juteuses,Mele prelibate,Luxusäpfel,Manzanas Selectas,특선사과,とくせんリンゴ
+Brittle Bones,Os à Moelle,Ossi sottili,Feine Knochen,Huesos Finos,가느다란뼈,かぼそいホネ
+Packs of Potatoes,Pommes de Terre,Patate,Kartoffeln,Patatas,포테이토팩,ポテトパック
+Pungent Roots,Tubercules,Erbe acquatiche,Uferkräuter,Hierbas Intensas,물가허브팩,みずべのハーブ
+Salad Mixes,Légumes,Verdure,Gemüse,Verduras,채소팩,やさいパック
+Fried Foods,Fritures,Fritto misto,Frittiertes,Frituras,모둠튀김,フライもりあわせ
+Boiled Eggs,Œufs Durs,Uova sode,Gekochte Eier,Huevos Duros,삶은알,ゆでタマゴ
+Camping Gears,Kits de Camping,Kit da campeggio,Camping-Sets,Kits de Acampada,캠프세트,キャンプセット
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Rusted Swords,Épées Rouillées,Spade rovinate,Rostige Schwerter,Espadas Oxidadas,녹슨검,くちたけん
+Rusted Shields,Boucliers Rouillés,Scudi rovinati,Rostige Schilde,Escudos Oxidados,녹슨방패,くちたたて
+Fossilized Birds,Fossiles Oiseau,Ornitofossili,Vogelfossilien,Ornitofósiles,화석새,カセキのトリ
+Fossilized Fish,Fossiles Poisson,Ittiofossili,Fischfossilien,Ictiofósiles,화석물고기,カセキのサカナ
+Fossilized Drakes,Fossiles Dragon,Dracofossili,Drachenfossilien,Dracofósiles,화석용,カセキのリュウ
+Fossilized Dinos,Fossiles Aileron,Plesiofossili,Paddelfossilien,Plesiofósiles,화석긴목,カセキのクビナガ
+Strawberry Sweets,Fraises en Sucre,Bonbonfragola,Zucker-Erdbeeren,Confites Fresa,딸기사탕공예,いちごアメざいく
+Love Sweets,Cœurs en Sucre,Bonboncuore,Zucker-Herzen,Confites Corazón,하트사탕공예,ハートアメざいく
+Berry Sweets,Baies en Sucre,Bonbonbosco,Zucker-Beeren,Confites Fruto,베리사탕공예,ベリーアメざいく
+Clover Sweets,Trèfles en Sucre,Bonbonfoglio,Zucker-Kleeblätter,Confites Trébol,네잎사탕공예,よつばアメざいく
+Flower Sweets,Fleurs en Sucre,Bonbonfiore,Zucker-Blumen,Confites Flor,꽃사탕공예,おはなアメざいく
+Star Sweets,Étoiles en Sucre,Bonbonstella,Zucker-Sterne,Confites Estrella,스타사탕공예,スターアメざいく
+Ribbon Sweets,Rubans en Sucre,Bonbonfiocco,Zucker-Schleifen,Confites Lazo,리본사탕공예,リボンアメざいく
+Sweet Apples,Pommes Sucrées,Dolcepomi,Süße Äpfel,Manzanas Dulces,달콤한사과,あまーいりんご
+Tart Apples,Pommes Acidulées,Aspropomi,Saure Äpfel,Manzanas Ácidas,새콤한사과,すっぱいりんご
+Throat Sprays,Sprays Gorge,Spray gola,Halssprays,Espráis Bucales,목스프레이,のどスプレー
+Eject Packs,Sacs Fuite,Zainifuga,Fluchttaschen,Mochilas Escape,탈출팩,だっしゅつパック
+Heavy-Duty Boots,Grosses Bottes,Scarponi robusti,Plateauschuhe,Botas Gruesas,통굽부츠,あつぞこブーツ
+Blunder Policies,Assurances Échec,Fiascopolizze,Fehlschlagschutze,Seguros Fallo,허탕보험,からぶりほけん
+Room Service,Chariots Distordus,Distorservizi,Bizarroservice,Servicios Raros,룸서비스,ルームサービス
+Utility Umbrellas,Parapluies Solides,Superombrelli,Allzweckschirme,Parasoles Multiuso,만능우산,ばんのうがさ
+Exp. Candies XS,Bonbons Exp. XS,Caram. Esp. XS,EP-Bonbons XS,Caramelos Exp. XS,경험사탕XS,けいけんアメＸＳ
+Exp. Candies S,Bonbons Exp. S,Caram. Esp. S,EP-Bonbons S,Caramelos Exp. S,경험사탕S,けいけんアメＳ
+Exp. Candies M,Bonbons Exp. M,Caram. Esp. M,EP-Bonbons M,Caramelos Exp. M,경험사탕M,けいけんアメＭ
+Exp. Candies L,Bonbons Exp. L,Caram. Esp. L,EP-Bonbons L,Caramelos Exp. L,경험사탕L,けいけんアメＬ
+Exp. Candies XL,Bonbons Exp. XL,Caram. Esp. XL,EP-Bonbons XL,Caramelos Exp. XL,경험사탕XL,けいけんアメＸＬ
+Dynamax Candies,Bonbons Dynamax,Caram. Dynamax,Dynamax-Bonbons,Caramelos Dinamax,다이맥스사탕,ダイマックスアメ
+TR00s,DT00,DT00,TP00,DT00,기술레코드00,わざレコード００
+TR01s,DT01,DT01,TP01,DT01,기술레코드01,わざレコード０１
+TR02s,DT02,DT02,TP02,DT02,기술레코드02,わざレコード０２
+TR03s,DT03,DT03,TP03,DT03,기술레코드03,わざレコード０３
+TR04s,DT04,DT04,TP04,DT04,기술레코드04,わざレコード０４
+TR05s,DT05,DT05,TP05,DT05,기술레코드05,わざレコード０５
+TR06s,DT06,DT06,TP06,DT06,기술레코드06,わざレコード０６
+TR07s,DT07,DT07,TP07,DT07,기술레코드07,わざレコード０７
+TR08s,DT08,DT08,TP08,DT08,기술레코드08,わざレコード０８
+TR09s,DT09,DT09,TP09,DT09,기술레코드09,わざレコード０９
+TR10s,DT10,DT10,TP10,DT10,기술레코드10,わざレコード１０
+TR11s,DT11,DT11,TP11,DT11,기술레코드11,わざレコード１１
+TR12s,DT12,DT12,TP12,DT12,기술레코드12,わざレコード１２
+TR13s,DT13,DT13,TP13,DT13,기술레코드13,わざレコード１３
+TR14s,DT14,DT14,TP14,DT14,기술레코드14,わざレコード１４
+TR15s,DT15,DT15,TP15,DT15,기술레코드15,わざレコード１５
+TR16s,DT16,DT16,TP16,DT16,기술레코드16,わざレコード１６
+TR17s,DT17,DT17,TP17,DT17,기술레코드17,わざレコード１７
+TR18s,DT18,DT18,TP18,DT18,기술레코드18,わざレコード１８
+TR19s,DT19,DT19,TP19,DT19,기술레코드19,わざレコード１９
+TR20s,DT20,DT20,TP20,DT20,기술레코드20,わざレコード２０
+TR21s,DT21,DT21,TP21,DT21,기술레코드21,わざレコード２１
+TR22s,DT22,DT22,TP22,DT22,기술레코드22,わざレコード２２
+TR23s,DT23,DT23,TP23,DT23,기술레코드23,わざレコード２３
+TR24s,DT24,DT24,TP24,DT24,기술레코드24,わざレコード２４
+TR25s,DT25,DT25,TP25,DT25,기술레코드25,わざレコード２５
+TR26s,DT26,DT26,TP26,DT26,기술레코드26,わざレコード２６
+TR27s,DT27,DT27,TP27,DT27,기술레코드27,わざレコード２７
+TR28s,DT28,DT28,TP28,DT28,기술레코드28,わざレコード２８
+TR29s,DT29,DT29,TP29,DT29,기술레코드29,わざレコード２９
+TR30s,DT30,DT30,TP30,DT30,기술레코드30,わざレコード３０
+TR31s,DT31,DT31,TP31,DT31,기술레코드31,わざレコード３１
+TR32s,DT32,DT32,TP32,DT32,기술레코드32,わざレコード３２
+TR33s,DT33,DT33,TP33,DT33,기술레코드33,わざレコード３３
+TR34s,DT34,DT34,TP34,DT34,기술레코드34,わざレコード３４
+TR35s,DT35,DT35,TP35,DT35,기술레코드35,わざレコード３５
+TR36s,DT36,DT36,TP36,DT36,기술레코드36,わざレコード３６
+TR37s,DT37,DT37,TP37,DT37,기술레코드37,わざレコード３７
+TR38s,DT38,DT38,TP38,DT38,기술레코드38,わざレコード３８
+TR39s,DT39,DT39,TP39,DT39,기술레코드39,わざレコード３９
+TR40s,DT40,DT40,TP40,DT40,기술레코드40,わざレコード４０
+TR41s,DT41,DT41,TP41,DT41,기술레코드41,わざレコード４１
+TR42s,DT42,DT42,TP42,DT42,기술레코드42,わざレコード４２
+TR43s,DT43,DT43,TP43,DT43,기술레코드43,わざレコード４３
+TR44s,DT44,DT44,TP44,DT44,기술레코드44,わざレコード４４
+TR45s,DT45,DT45,TP45,DT45,기술레코드45,わざレコード４５
+TR46s,DT46,DT46,TP46,DT46,기술레코드46,わざレコード４６
+TR47s,DT47,DT47,TP47,DT47,기술레코드47,わざレコード４７
+TR48s,DT48,DT48,TP48,DT48,기술레코드48,わざレコード４８
+TR49s,DT49,DT49,TP49,DT49,기술레코드49,わざレコード４９
+TR50s,DT50,DT50,TP50,DT50,기술레코드50,わざレコード５０
+TR51s,DT51,DT51,TP51,DT51,기술레코드51,わざレコード５１
+TR52s,DT52,DT52,TP52,DT52,기술레코드52,わざレコード５２
+TR53s,DT53,DT53,TP53,DT53,기술레코드53,わざレコード５３
+TR54s,DT54,DT54,TP54,DT54,기술레코드54,わざレコード５４
+TR55s,DT55,DT55,TP55,DT55,기술레코드55,わざレコード５５
+TR56s,DT56,DT56,TP56,DT56,기술레코드56,わざレコード５６
+TR57s,DT57,DT57,TP57,DT57,기술레코드57,わざレコード５７
+TR58s,DT58,DT58,TP58,DT58,기술레코드58,わざレコード５８
+TR59s,DT59,DT59,TP59,DT59,기술레코드59,わざレコード５９
+TR60s,DT60,DT60,TP60,DT60,기술레코드60,わざレコード６０
+TR61s,DT61,DT61,TP61,DT61,기술레코드61,わざレコード６１
+TR62s,DT62,DT62,TP62,DT62,기술레코드62,わざレコード６２
+TR63s,DT63,DT63,TP63,DT63,기술레코드63,わざレコード６３
+TR64s,DT64,DT64,TP64,DT64,기술레코드64,わざレコード６４
+TR65s,DT65,DT65,TP65,DT65,기술레코드65,わざレコード６５
+TR66s,DT66,DT66,TP66,DT66,기술레코드66,わざレコード６６
+TR67s,DT67,DT67,TP67,DT67,기술레코드67,わざレコード６７
+TR68s,DT68,DT68,TP68,DT68,기술레코드68,わざレコード６８
+TR69s,DT69,DT69,TP69,DT69,기술레코드69,わざレコード６９
+TR70s,DT70,DT70,TP70,DT70,기술레코드70,わざレコード７０
+TR71s,DT71,DT71,TP71,DT71,기술레코드71,わざレコード７１
+TR72s,DT72,DT72,TP72,DT72,기술레코드72,わざレコード７２
+TR73s,DT73,DT73,TP73,DT73,기술레코드73,わざレコード７３
+TR74s,DT74,DT74,TP74,DT74,기술레코드74,わざレコード７４
+TR75s,DT75,DT75,TP75,DT75,기술레코드75,わざレコード７５
+TR76s,DT76,DT76,TP76,DT76,기술레코드76,わざレコード７６
+TR77s,DT77,DT77,TP77,DT77,기술레코드77,わざレコード７７
+TR78s,DT78,DT78,TP78,DT78,기술레코드78,わざレコード７８
+TR79s,DT79,DT79,TP79,DT79,기술레코드79,わざレコード７９
+TR80s,DT80,DT80,TP80,DT80,기술레코드80,わざレコード８０
+TR81s,DT81,DT81,TP81,DT81,기술레코드81,わざレコード８１
+TR82s,DT82,DT82,TP82,DT82,기술레코드82,わざレコード８２
+TR83s,DT83,DT83,TP83,DT83,기술레코드83,わざレコード８３
+TR84s,DT84,DT84,TP84,DT84,기술레코드84,わざレコード８４
+TR85s,DT85,DT85,TP85,DT85,기술레코드85,わざレコード８５
+TR86s,DT86,DT86,TP86,DT86,기술레코드86,わざレコード８６
+TR87s,DT87,DT87,TP87,DT87,기술레코드87,わざレコード８７
+TR88s,DT88,DT88,TP88,DT88,기술레코드88,わざレコード８８
+TR89s,DT89,DT89,TP89,DT89,기술레코드89,わざレコード８９
+TR90s,DT90,DT90,TP90,DT90,기술레코드90,わざレコード９０
+TR91s,DT91,DT91,TP91,DT91,기술레코드91,わざレコード９１
+TR92s,DT92,DT92,TP92,DT92,기술레코드92,わざレコード９２
+TR93s,DT93,DT93,TP93,DT93,기술레코드93,わざレコード９３
+TR94s,DT94,DT94,TP94,DT94,기술레코드94,わざレコード９４
+TR95s,DT95,DT95,TP95,DT95,기술레코드95,わざレコード９５
+TR96s,DT96,DT96,TP96,DT96,기술레코드96,わざレコード９６
+TR97s,DT97,DT97,TP97,DT97,기술레코드97,わざレコード９７
+TR98s,DT98,DT98,TP98,DT98,기술레코드98,わざレコード９８
+TR99s,DT99,DT99,TP99,DT99,기술레코드99,わざレコード９９
+TM00s,CT00,MT00,TM00,MT00,기술머신00,わざマシン００
+Lonely Mints,Aromates Solos,Menta Schiva,Solo-Minzen,Mentas Hurañas,외로움민트,さみしがりミント
+Adamant Mints,Aromates Rigides,Menta Decisa,Hart-Minzen,Mentas Firmes,고집민트,いじっぱりミント
+Naughty Mints,Aromates Mauvais,Menta Birbona,Frech-Minzen,Mentas Pícaras,개구쟁이민트,やんちゃミント
+Brave Mints,Aromates Braves,Menta Audace,Mutig-Minzen,Mentas Audaces,용감민트,ゆうかんミント
+Bold Mints,Aromates Assurés,Menta Sicura,Kühn-Minzen,Mentas Osadas,대담민트,ずぶといミント
+Impish Mints,Aromates Malins,Menta Scaltra,Pfiffig-Minzen,Mentas Agitadas,장난꾸러기민트,わんぱくミント
+Lax Mints,Aromates Lâches,Menta Fiacca,Lasch-Minzen,Mentas Flojas,촐랑민트,のうてんきミント
+Relaxed Mints,Aromates Relax,Menta Placida,Locker-Minzen,Mentas Plácidas,무사태평민트,のんきミント
+Modest Mints,Aromates Modestes,Menta Modesta,Mäßig-Minzen,Mentas Modestas,조심민트,ひかえめミント
+Mild Mints,Aromates Doux,Menta Mite,Mild-Minzen,Mentas Afables,의젓민트,おっとりミント
+Rash Mints,Aromates Foufous,Menta Ardente,Hitzig-Minzen,Mentas Alocadas,덜렁민트,うっかりやミント
+Quiet Mints,Aromates Discrets,Menta Quieta,Ruhig-Minzen,Mentas Mansas,냉정민트,れいせいミント
+Calm Mints,Aromates Calmes,Menta Calma,Still-Minzen,Mentas Serenas,차분민트,おだやかミント
+Gentle Mints,Aromates Gentils,Menta Gentile,Zart-Minzen,Mentas Amables,얌전민트,おとなしいミント
+Careful Mints,Aromates Prudents,Menta Cauta,Sacht-Minzen,Mentas Cautas,신중민트,しんちょうミント
+Sassy Mints,Aromates Malpolis,Menta Vivace,Forsch-Minzen,Mentas Groseras,건방민트,なまいきミント
+Timid Mints,Aromates Timides,Menta Timida,Scheu-Minzen,Mentas Miedosas,겁쟁이민트,おくびょうミント
+Hasty Mints,Aromates Pressés,Menta Lesta,Hastig-Minzen,Mentas Activas,성급민트,せっかちミント
+Jolly Mints,Aromates Joviaux,Menta Allegra,Froh-Minzen,Mentas Alegres,명랑민트,ようきミント
+Naive Mints,Aromates Naïfs,Menta Ingenua,Naiv-Minzen,Mentas Ingenuas,천진난만민트,むじゃきミント
+Serious Mints,Aromates Sérieux,Menta Seria,Ernst-Minzen,Mentas Serias,성실민트,まじめミント
+Wishing Pieces,Morceaux Vœu,Desioblocchi,Wunschbrocken,Trozos Deseo,소원의덩어리,ねがいのかたまり
+Cracked Pots,Théières Fêlées,Teiere rotte,Rissige Kannen,Teteras Agrietadas,깨진포트,われたポット
+Chipped Pots,Théières Ébréchées,Teiere crepate,Löchrige Kannen,Teteras Rotas,이빠진포트,かけたポット
+Hi-tech Earbuds,Bouchons Audio,Supertappi,Top-Ohrenstöpsel,Supertapones,대단한귀마개,すごいみみせん
+Fruit Bunches,Fruits,Frutti,Früchte,Frutas Tropicales,송이팩,フサパック
+Moomoo Cheese,Fromages Meumeu,Formaggio Mumu,Kuhmuh-Käse,Quesos Mu-mu,튼튼치즈,モーモーチーズ
+Spice Mix,Épices,Spezie assortite,Gewürzmixe,Especias,스파이스세트,スパイスセット
+Fresh Cream,Crèmes Fraîches,Panna da cucina,Frische Sahne,Natas Frescas,신선한크림,しんせんクリーム
+Packaged Curry,Currys Instantanés,Curry precotto,Fertigcurrys,Curris de Bote,레토르트카레,レトルトカレー
+Coconut Milk,Laits de Coco,Latte di cocco,Kokosmilch,Leches de Coco,야자밀크,ヤシのミルク
+Instant Noodles,Nouilles,Noodle precotti,Fertignudeln,Fideos de Bote,레토르트면,レトルトめん
+Precooked Burgers,Steaks Hachés,Hamburger,Frikadellen,Hamburguesas,레토르트햄버그,レトルトバーグ
+Gigantamixes,Poudres Gigamax,Gigaspezia,Giga-Pulver,Especias Gigamax,거대파우더,キョダイパウダー
+Wishing Chips,Fragments Vœu,Desioframmenti,Wunschsplitter,Trocitos Deseo,소원의조각,ねがいのかけら
+Rotom Bikes,Moticyclettes,Bici Rotom,Rotom-Räder,Bicis Rotom,로토무자전거,ロトムじてんしゃ
+Catching Charms,Charmes Stabilité,Catturamuleti,Superfangpins,Amuletos Captura,흔들림없는부적,ゆれないおまもり
+???,???,???,???,(?),???,？？？
+Old Letters,Lettres Jaunies,Vecchie lettere,Vergilbte Briefe,Cartas Ajadas,낡은편지,ふるびたてがみ
+Band Autographs,Dédicaces,Autografi band,Band-Autogramme,Autógrafos Grupo,밴드의사인,バンドのサイン
+Sonia’s Books,Livres de Sonya,Libri di Sonia,Sanias Bücher,Libros de Sonia,소니아의책,ソニアのほん
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+???,???,???,???,(?),???,？？？
+Rotom Catalogs,Moti-Catalogues,Cataloghi Rotom,Rotom-Kataloge,Catálogos Rotom,로토무카탈로그,ロトムのカタログ
+★And458s,★And458,★And458,★And458,★And458,★And458,★And458
+★And15s,★And15,★And15,★And15,★And15,★And15,★And15
+★And337s,★And337,★And337,★And337,★And337,★And337,★And337
+★And603s,★And603,★And603,★And603,★And603,★And603,★And603
+★And390s,★And390,★And390,★And390,★And390,★And390,★And390
+★Sgr6879s,★Sgr6879,★Sgr6879,★Sgr6879,★Sgr6879,★Sgr6879,★Sgr6879
+★Sgr6859s,★Sgr6859,★Sgr6859,★Sgr6859,★Sgr6859,★Sgr6859,★Sgr6859
+★Sgr6913s,★Sgr6913,★Sgr6913,★Sgr6913,★Sgr6913,★Sgr6913,★Sgr6913
+★Sgr7348s,★Sgr7348,★Sgr7348,★Sgr7348,★Sgr7348,★Sgr7348,★Sgr7348
+★Sgr7121s,★Sgr7121,★Sgr7121,★Sgr7121,★Sgr7121,★Sgr7121,★Sgr7121
+★Sgr6746s,★Sgr6746,★Sgr6746,★Sgr6746,★Sgr6746,★Sgr6746,★Sgr6746
+★Sgr7194s,★Sgr7194,★Sgr7194,★Sgr7194,★Sgr7194,★Sgr7194,★Sgr7194
+★Sgr7337s,★Sgr7337,★Sgr7337,★Sgr7337,★Sgr7337,★Sgr7337,★Sgr7337
+★Sgr7343s,★Sgr7343,★Sgr7343,★Sgr7343,★Sgr7343,★Sgr7343,★Sgr7343
+★Sgr6812s,★Sgr6812,★Sgr6812,★Sgr6812,★Sgr6812,★Sgr6812,★Sgr6812
+★Sgr7116s,★Sgr7116,★Sgr7116,★Sgr7116,★Sgr7116,★Sgr7116,★Sgr7116
+★Sgr7264s,★Sgr7264,★Sgr7264,★Sgr7264,★Sgr7264,★Sgr7264,★Sgr7264
+★Sgr7597s,★Sgr7597,★Sgr7597,★Sgr7597,★Sgr7597,★Sgr7597,★Sgr7597
+★Del7882s,★Del7882,★Del7882,★Del7882,★Del7882,★Del7882,★Del7882
+★Del7906s,★Del7906,★Del7906,★Del7906,★Del7906,★Del7906,★Del7906
+★Del7852s,★Del7852,★Del7852,★Del7852,★Del7852,★Del7852,★Del7852
+★Psc596s,★Psc596,★Psc596,★Psc596,★Psc596,★Psc596,★Psc596
+★Psc361s,★Psc361,★Psc361,★Psc361,★Psc361,★Psc361,★Psc361
+★Psc510s,★Psc510,★Psc510,★Psc510,★Psc510,★Psc510,★Psc510
+★Psc437s,★Psc437,★Psc437,★Psc437,★Psc437,★Psc437,★Psc437
+★Psc8773s,★Psc8773,★Psc8773,★Psc8773,★Psc8773,★Psc8773,★Psc8773
+★Lep1865s,★Lep1865,★Lep1865,★Lep1865,★Lep1865,★Lep1865,★Lep1865
+★Lep1829s,★Lep1829,★Lep1829,★Lep1829,★Lep1829,★Lep1829,★Lep1829
+★Boo5340s,★Boo5340,★Boo5340,★Boo5340,★Boo5340,★Boo5340,★Boo5340
+★Boo5506s,★Boo5506,★Boo5506,★Boo5506,★Boo5506,★Boo5506,★Boo5506
+★Boo5435s,★Boo5435,★Boo5435,★Boo5435,★Boo5435,★Boo5435,★Boo5435
+★Boo5602s,★Boo5602,★Boo5602,★Boo5602,★Boo5602,★Boo5602,★Boo5602
+★Boo5733s,★Boo5733,★Boo5733,★Boo5733,★Boo5733,★Boo5733,★Boo5733
+★Boo5235s,★Boo5235,★Boo5235,★Boo5235,★Boo5235,★Boo5235,★Boo5235
+★Boo5351s,★Boo5351,★Boo5351,★Boo5351,★Boo5351,★Boo5351,★Boo5351
+★Hya3748s,★Hya3748,★Hya3748,★Hya3748,★Hya3748,★Hya3748,★Hya3748
+★Hya3903s,★Hya3903,★Hya3903,★Hya3903,★Hya3903,★Hya3903,★Hya3903
+★Hya3418s,★Hya3418,★Hya3418,★Hya3418,★Hya3418,★Hya3418,★Hya3418
+★Hya3482s,★Hya3482,★Hya3482,★Hya3482,★Hya3482,★Hya3482,★Hya3482
+★Hya3845s,★Hya3845,★Hya3845,★Hya3845,★Hya3845,★Hya3845,★Hya3845
+★Eri1084s,★Eri1084,★Eri1084,★Eri1084,★Eri1084,★Eri1084,★Eri1084
+★Eri472s,★Eri472,★Eri472,★Eri472,★Eri472,★Eri472,★Eri472
+★Eri1666s,★Eri1666,★Eri1666,★Eri1666,★Eri1666,★Eri1666,★Eri1666
+★Eri897s,★Eri897,★Eri897,★Eri897,★Eri897,★Eri897,★Eri897
+★Eri1231s,★Eri1231,★Eri1231,★Eri1231,★Eri1231,★Eri1231,★Eri1231
+★Eri874s,★Eri874,★Eri874,★Eri874,★Eri874,★Eri874,★Eri874
+★Eri1298s,★Eri1298,★Eri1298,★Eri1298,★Eri1298,★Eri1298,★Eri1298
+★Eri1325s,★Eri1325,★Eri1325,★Eri1325,★Eri1325,★Eri1325,★Eri1325
+★Eri984s,★Eri984,★Eri984,★Eri984,★Eri984,★Eri984,★Eri984
+★Eri1464s,★Eri1464,★Eri1464,★Eri1464,★Eri1464,★Eri1464,★Eri1464
+★Eri1393s,★Eri1393,★Eri1393,★Eri1393,★Eri1393,★Eri1393,★Eri1393
+★Eri850s,★Eri850,★Eri850,★Eri850,★Eri850,★Eri850,★Eri850
+★Tau1409s,★Tau1409,★Tau1409,★Tau1409,★Tau1409,★Tau1409,★Tau1409
+★Tau1457s,★Tau1457,★Tau1457,★Tau1457,★Tau1457,★Tau1457,★Tau1457
+★Tau1165s,★Tau1165,★Tau1165,★Tau1165,★Tau1165,★Tau1165,★Tau1165
+★Tau1791s,★Tau1791,★Tau1791,★Tau1791,★Tau1791,★Tau1791,★Tau1791
+★Tau1910s,★Tau1910,★Tau1910,★Tau1910,★Tau1910,★Tau1910,★Tau1910
+★Tau1346s,★Tau1346,★Tau1346,★Tau1346,★Tau1346,★Tau1346,★Tau1346
+★Tau1373s,★Tau1373,★Tau1373,★Tau1373,★Tau1373,★Tau1373,★Tau1373
+★Tau1412s,★Tau1412,★Tau1412,★Tau1412,★Tau1412,★Tau1412,★Tau1412
+★CMa2491s,★CMa2491,★CMa2491,★CMa2491,★CMa2491,★CMa2491,★CMa2491
+★CMa2693s,★CMa2693,★CMa2693,★CMa2693,★CMa2693,★CMa2693,★CMa2693
+★CMa2294s,★CMa2294,★CMa2294,★CMa2294,★CMa2294,★CMa2294,★CMa2294
+★CMa2827s,★CMa2827,★CMa2827,★CMa2827,★CMa2827,★CMa2827,★CMa2827
+★CMa2282s,★CMa2282,★CMa2282,★CMa2282,★CMa2282,★CMa2282,★CMa2282
+★CMa2618s,★CMa2618,★CMa2618,★CMa2618,★CMa2618,★CMa2618,★CMa2618
+★CMa2657s,★CMa2657,★CMa2657,★CMa2657,★CMa2657,★CMa2657,★CMa2657
+★CMa2646s,★CMa2646,★CMa2646,★CMa2646,★CMa2646,★CMa2646,★CMa2646
+★UMa4905s,★UMa4905,★UMa4905,★UMa4905,★UMa4905,★UMa4905,★UMa4905
+★UMa4301s,★UMa4301,★UMa4301,★UMa4301,★UMa4301,★UMa4301,★UMa4301
+★UMa5191s,★UMa5191,★UMa5191,★UMa5191,★UMa5191,★UMa5191,★UMa5191
+★UMa5054s,★UMa5054,★UMa5054,★UMa5054,★UMa5054,★UMa5054,★UMa5054
+★UMa4295s,★UMa4295,★UMa4295,★UMa4295,★UMa4295,★UMa4295,★UMa4295
+★UMa4660s,★UMa4660,★UMa4660,★UMa4660,★UMa4660,★UMa4660,★UMa4660
+★UMa4554s,★UMa4554,★UMa4554,★UMa4554,★UMa4554,★UMa4554,★UMa4554
+★UMa4069s,★UMa4069,★UMa4069,★UMa4069,★UMa4069,★UMa4069,★UMa4069
+★UMa3569s,★UMa3569,★UMa3569,★UMa3569,★UMa3569,★UMa3569,★UMa3569
+★UMa3323s,★UMa3323,★UMa3323,★UMa3323,★UMa3323,★UMa3323,★UMa3323
+★UMa4033s,★UMa4033,★UMa4033,★UMa4033,★UMa4033,★UMa4033,★UMa4033
+★UMa4377s,★UMa4377,★UMa4377,★UMa4377,★UMa4377,★UMa4377,★UMa4377
+★UMa4375s,★UMa4375,★UMa4375,★UMa4375,★UMa4375,★UMa4375,★UMa4375
+★UMa4518s,★UMa4518,★UMa4518,★UMa4518,★UMa4518,★UMa4518,★UMa4518
+★UMa3594s,★UMa3594,★UMa3594,★UMa3594,★UMa3594,★UMa3594,★UMa3594
+★Vir5056s,★Vir5056,★Vir5056,★Vir5056,★Vir5056,★Vir5056,★Vir5056
+★Vir4825s,★Vir4825,★Vir4825,★Vir4825,★Vir4825,★Vir4825,★Vir4825
+★Vir4932s,★Vir4932,★Vir4932,★Vir4932,★Vir4932,★Vir4932,★Vir4932
+★Vir4540s,★Vir4540,★Vir4540,★Vir4540,★Vir4540,★Vir4540,★Vir4540
+★Vir4689s,★Vir4689,★Vir4689,★Vir4689,★Vir4689,★Vir4689,★Vir4689
+★Vir5338s,★Vir5338,★Vir5338,★Vir5338,★Vir5338,★Vir5338,★Vir5338
+★Vir4910s,★Vir4910,★Vir4910,★Vir4910,★Vir4910,★Vir4910,★Vir4910
+★Vir5315s,★Vir5315,★Vir5315,★Vir5315,★Vir5315,★Vir5315,★Vir5315
+★Vir5359s,★Vir5359,★Vir5359,★Vir5359,★Vir5359,★Vir5359,★Vir5359
+★Vir5409s,★Vir5409,★Vir5409,★Vir5409,★Vir5409,★Vir5409,★Vir5409
+★Vir5107s,★Vir5107,★Vir5107,★Vir5107,★Vir5107,★Vir5107,★Vir5107
+★Ari617s,★Ari617,★Ari617,★Ari617,★Ari617,★Ari617,★Ari617
+★Ari553s,★Ari553,★Ari553,★Ari553,★Ari553,★Ari553,★Ari553
+★Ari546s,★Ari546,★Ari546,★Ari546,★Ari546,★Ari546,★Ari546
+★Ari951s,★Ari951,★Ari951,★Ari951,★Ari951,★Ari951,★Ari951
+★Ori1713s,★Ori1713,★Ori1713,★Ori1713,★Ori1713,★Ori1713,★Ori1713
+★Ori2061s,★Ori2061,★Ori2061,★Ori2061,★Ori2061,★Ori2061,★Ori2061
+★Ori1790s,★Ori1790,★Ori1790,★Ori1790,★Ori1790,★Ori1790,★Ori1790
+★Ori1903s,★Ori1903,★Ori1903,★Ori1903,★Ori1903,★Ori1903,★Ori1903
+★Ori1948s,★Ori1948,★Ori1948,★Ori1948,★Ori1948,★Ori1948,★Ori1948
+★Ori2004s,★Ori2004,★Ori2004,★Ori2004,★Ori2004,★Ori2004,★Ori2004
+★Ori1852s,★Ori1852,★Ori1852,★Ori1852,★Ori1852,★Ori1852,★Ori1852
+★Ori1879s,★Ori1879,★Ori1879,★Ori1879,★Ori1879,★Ori1879,★Ori1879
+★Ori1899s,★Ori1899,★Ori1899,★Ori1899,★Ori1899,★Ori1899,★Ori1899
+★Ori1543s,★Ori1543,★Ori1543,★Ori1543,★Ori1543,★Ori1543,★Ori1543
+★Cas21s,★Cas21,★Cas21,★Cas21,★Cas21,★Cas21,★Cas21
+★Cas168s,★Cas168,★Cas168,★Cas168,★Cas168,★Cas168,★Cas168
+★Cas403s,★Cas403,★Cas403,★Cas403,★Cas403,★Cas403,★Cas403
+★Cas153s,★Cas153,★Cas153,★Cas153,★Cas153,★Cas153,★Cas153
+★Cas542s,★Cas542,★Cas542,★Cas542,★Cas542,★Cas542,★Cas542
+★Cas219s,★Cas219,★Cas219,★Cas219,★Cas219,★Cas219,★Cas219
+★Cas265s,★Cas265,★Cas265,★Cas265,★Cas265,★Cas265,★Cas265
+★Cnc3572s,★Cnc3572,★Cnc3572,★Cnc3572,★Cnc3572,★Cnc3572,★Cnc3572
+★Cnc3208s,★Cnc3208,★Cnc3208,★Cnc3208,★Cnc3208,★Cnc3208,★Cnc3208
+★Cnc3461s,★Cnc3461,★Cnc3461,★Cnc3461,★Cnc3461,★Cnc3461,★Cnc3461
+★Cnc3449s,★Cnc3449,★Cnc3449,★Cnc3449,★Cnc3449,★Cnc3449,★Cnc3449
+★Cnc3429s,★Cnc3429,★Cnc3429,★Cnc3429,★Cnc3429,★Cnc3429,★Cnc3429
+★Cnc3627s,★Cnc3627,★Cnc3627,★Cnc3627,★Cnc3627,★Cnc3627,★Cnc3627
+★Cnc3268s,★Cnc3268,★Cnc3268,★Cnc3268,★Cnc3268,★Cnc3268,★Cnc3268
+★Cnc3249s,★Cnc3249,★Cnc3249,★Cnc3249,★Cnc3249,★Cnc3249,★Cnc3249
+★Com4968s,★Com4968,★Com4968,★Com4968,★Com4968,★Com4968,★Com4968
+★Crv4757s,★Crv4757,★Crv4757,★Crv4757,★Crv4757,★Crv4757,★Crv4757
+★Crv4623s,★Crv4623,★Crv4623,★Crv4623,★Crv4623,★Crv4623,★Crv4623
+★Crv4662s,★Crv4662,★Crv4662,★Crv4662,★Crv4662,★Crv4662,★Crv4662
+★Crv4786s,★Crv4786,★Crv4786,★Crv4786,★Crv4786,★Crv4786,★Crv4786
+★Aur1708s,★Aur1708,★Aur1708,★Aur1708,★Aur1708,★Aur1708,★Aur1708
+★Aur2088s,★Aur2088,★Aur2088,★Aur2088,★Aur2088,★Aur2088,★Aur2088
+★Aur1605s,★Aur1605,★Aur1605,★Aur1605,★Aur1605,★Aur1605,★Aur1605
+★Aur2095s,★Aur2095,★Aur2095,★Aur2095,★Aur2095,★Aur2095,★Aur2095
+★Aur1577s,★Aur1577,★Aur1577,★Aur1577,★Aur1577,★Aur1577,★Aur1577
+★Aur1641s,★Aur1641,★Aur1641,★Aur1641,★Aur1641,★Aur1641,★Aur1641
+★Aur1612s,★Aur1612,★Aur1612,★Aur1612,★Aur1612,★Aur1612,★Aur1612
+★Pav7790s,★Pav7790,★Pav7790,★Pav7790,★Pav7790,★Pav7790,★Pav7790
+★Cet911s,★Cet911,★Cet911,★Cet911,★Cet911,★Cet911,★Cet911
+★Cet681s,★Cet681,★Cet681,★Cet681,★Cet681,★Cet681,★Cet681
+★Cet188s,★Cet188,★Cet188,★Cet188,★Cet188,★Cet188,★Cet188
+★Cet539s,★Cet539,★Cet539,★Cet539,★Cet539,★Cet539,★Cet539
+★Cet804s,★Cet804,★Cet804,★Cet804,★Cet804,★Cet804,★Cet804
+★Cep8974s,★Cep8974,★Cep8974,★Cep8974,★Cep8974,★Cep8974,★Cep8974
+★Cep8162s,★Cep8162,★Cep8162,★Cep8162,★Cep8162,★Cep8162,★Cep8162
+★Cep8238s,★Cep8238,★Cep8238,★Cep8238,★Cep8238,★Cep8238,★Cep8238
+★Cep8417s,★Cep8417,★Cep8417,★Cep8417,★Cep8417,★Cep8417,★Cep8417
+★Cen5267s,★Cen5267,★Cen5267,★Cen5267,★Cen5267,★Cen5267,★Cen5267
+★Cen5288s,★Cen5288,★Cen5288,★Cen5288,★Cen5288,★Cen5288,★Cen5288
+★Cen551s,★Cen551,★Cen551,★Cen551,★Cen551,★Cen551,★Cen551
+★Cen5459s,★Cen5459,★Cen5459,★Cen5459,★Cen5459,★Cen5459,★Cen5459
+★Cen5460s,★Cen5460,★Cen5460,★Cen5460,★Cen5460,★Cen5460,★Cen5460
+★CMi2943s,★CMi2943,★CMi2943,★CMi2943,★CMi2943,★CMi2943,★CMi2943
+★CMi2845s,★CMi2845,★CMi2845,★CMi2845,★CMi2845,★CMi2845,★CMi2845
+★Equ8131s,★Equ8131,★Equ8131,★Equ8131,★Equ8131,★Equ8131,★Equ8131
+★Vul7405s,★Vul7405,★Vul7405,★Vul7405,★Vul7405,★Vul7405,★Vul7405
+★UMi424s,★UMi424,★UMi424,★UMi424,★UMi424,★UMi424,★UMi424
+★UMi5563s,★UMi5563,★UMi5563,★UMi5563,★UMi5563,★UMi5563,★UMi5563
+★UMi5735s,★UMi5735,★UMi5735,★UMi5735,★UMi5735,★UMi5735,★UMi5735
+★UMi6789s,★UMi6789,★UMi6789,★UMi6789,★UMi6789,★UMi6789,★UMi6789
+★Crt4287s,★Crt4287,★Crt4287,★Crt4287,★Crt4287,★Crt4287,★Crt4287
+★Lyr7001s,★Lyr7001,★Lyr7001,★Lyr7001,★Lyr7001,★Lyr7001,★Lyr7001
+★Lyr7178s,★Lyr7178,★Lyr7178,★Lyr7178,★Lyr7178,★Lyr7178,★Lyr7178
+★Lyr7106s,★Lyr7106,★Lyr7106,★Lyr7106,★Lyr7106,★Lyr7106,★Lyr7106
+★Lyr7298s,★Lyr7298,★Lyr7298,★Lyr7298,★Lyr7298,★Lyr7298,★Lyr7298
+★Ara6585s,★Ara6585,★Ara6585,★Ara6585,★Ara6585,★Ara6585,★Ara6585
+★Sco6134s,★Sco6134,★Sco6134,★Sco6134,★Sco6134,★Sco6134,★Sco6134
+★Sco6527s,★Sco6527,★Sco6527,★Sco6527,★Sco6527,★Sco6527,★Sco6527
+★Sco6553s,★Sco6553,★Sco6553,★Sco6553,★Sco6553,★Sco6553,★Sco6553
+★Sco5953s,★Sco5953,★Sco5953,★Sco5953,★Sco5953,★Sco5953,★Sco5953
+★Sco5984s,★Sco5984,★Sco5984,★Sco5984,★Sco5984,★Sco5984,★Sco5984
+★Sco6508s,★Sco6508,★Sco6508,★Sco6508,★Sco6508,★Sco6508,★Sco6508
+★Sco6084s,★Sco6084,★Sco6084,★Sco6084,★Sco6084,★Sco6084,★Sco6084
+★Sco5944s,★Sco5944,★Sco5944,★Sco5944,★Sco5944,★Sco5944,★Sco5944
+★Sco6630s,★Sco6630,★Sco6630,★Sco6630,★Sco6630,★Sco6630,★Sco6630
+★Sco6027s,★Sco6027,★Sco6027,★Sco6027,★Sco6027,★Sco6027,★Sco6027
+★Sco6247s,★Sco6247,★Sco6247,★Sco6247,★Sco6247,★Sco6247,★Sco6247
+★Sco6252s,★Sco6252,★Sco6252,★Sco6252,★Sco6252,★Sco6252,★Sco6252
+★Sco5928s,★Sco5928,★Sco5928,★Sco5928,★Sco5928,★Sco5928,★Sco5928
+★Sco6241s,★Sco6241,★Sco6241,★Sco6241,★Sco6241,★Sco6241,★Sco6241
+★Sco6165s,★Sco6165,★Sco6165,★Sco6165,★Sco6165,★Sco6165,★Sco6165
+★Tri544s,★Tri544,★Tri544,★Tri544,★Tri544,★Tri544,★Tri544
+★Leo3982s,★Leo3982,★Leo3982,★Leo3982,★Leo3982,★Leo3982,★Leo3982
+★Leo4534s,★Leo4534,★Leo4534,★Leo4534,★Leo4534,★Leo4534,★Leo4534
+★Leo4357s,★Leo4357,★Leo4357,★Leo4357,★Leo4357,★Leo4357,★Leo4357
+★Leo4057s,★Leo4057,★Leo4057,★Leo4057,★Leo4057,★Leo4057,★Leo4057
+★Leo4359s,★Leo4359,★Leo4359,★Leo4359,★Leo4359,★Leo4359,★Leo4359
+★Leo4031s,★Leo4031,★Leo4031,★Leo4031,★Leo4031,★Leo4031,★Leo4031
+★Leo3852s,★Leo3852,★Leo3852,★Leo3852,★Leo3852,★Leo3852,★Leo3852
+★Leo3905s,★Leo3905,★Leo3905,★Leo3905,★Leo3905,★Leo3905,★Leo3905
+★Leo3773s,★Leo3773,★Leo3773,★Leo3773,★Leo3773,★Leo3773,★Leo3773
+★Gru8425s,★Gru8425,★Gru8425,★Gru8425,★Gru8425,★Gru8425,★Gru8425
+★Gru8636s,★Gru8636,★Gru8636,★Gru8636,★Gru8636,★Gru8636,★Gru8636
+★Gru8353s,★Gru8353,★Gru8353,★Gru8353,★Gru8353,★Gru8353,★Gru8353
+★Lib5685s,★Lib5685,★Lib5685,★Lib5685,★Lib5685,★Lib5685,★Lib5685
+★Lib5531s,★Lib5531,★Lib5531,★Lib5531,★Lib5531,★Lib5531,★Lib5531
+★Lib5787s,★Lib5787,★Lib5787,★Lib5787,★Lib5787,★Lib5787,★Lib5787
+★Lib5603s,★Lib5603,★Lib5603,★Lib5603,★Lib5603,★Lib5603,★Lib5603
+★Pup3165s,★Pup3165,★Pup3165,★Pup3165,★Pup3165,★Pup3165,★Pup3165
+★Pup3185s,★Pup3185,★Pup3185,★Pup3185,★Pup3185,★Pup3185,★Pup3185
+★Pup3045s,★Pup3045,★Pup3045,★Pup3045,★Pup3045,★Pup3045,★Pup3045
+★Cyg7924s,★Cyg7924,★Cyg7924,★Cyg7924,★Cyg7924,★Cyg7924,★Cyg7924
+★Cyg7417s,★Cyg7417,★Cyg7417,★Cyg7417,★Cyg7417,★Cyg7417,★Cyg7417
+★Cyg7796s,★Cyg7796,★Cyg7796,★Cyg7796,★Cyg7796,★Cyg7796,★Cyg7796
+★Cyg8301s,★Cyg8301,★Cyg8301,★Cyg8301,★Cyg8301,★Cyg8301,★Cyg8301
+★Cyg7949s,★Cyg7949,★Cyg7949,★Cyg7949,★Cyg7949,★Cyg7949,★Cyg7949
+★Cyg7528s,★Cyg7528,★Cyg7528,★Cyg7528,★Cyg7528,★Cyg7528,★Cyg7528
+★Oct7228s,★Oct7228,★Oct7228,★Oct7228,★Oct7228,★Oct7228,★Oct7228
+★Col1956s,★Col1956,★Col1956,★Col1956,★Col1956,★Col1956,★Col1956
+★Col2040s,★Col2040,★Col2040,★Col2040,★Col2040,★Col2040,★Col2040
+★Col2177s,★Col2177,★Col2177,★Col2177,★Col2177,★Col2177,★Col2177
+★Gem2990s,★Gem2990,★Gem2990,★Gem2990,★Gem2990,★Gem2990,★Gem2990
+★Gem2891s,★Gem2891,★Gem2891,★Gem2891,★Gem2891,★Gem2891,★Gem2891
+★Gem2421s,★Gem2421,★Gem2421,★Gem2421,★Gem2421,★Gem2421,★Gem2421
+★Gem2473s,★Gem2473,★Gem2473,★Gem2473,★Gem2473,★Gem2473,★Gem2473
+★Gem2216s,★Gem2216,★Gem2216,★Gem2216,★Gem2216,★Gem2216,★Gem2216
+★Gem2777s,★Gem2777,★Gem2777,★Gem2777,★Gem2777,★Gem2777,★Gem2777
+★Gem2650s,★Gem2650,★Gem2650,★Gem2650,★Gem2650,★Gem2650,★Gem2650
+★Gem2286s,★Gem2286,★Gem2286,★Gem2286,★Gem2286,★Gem2286,★Gem2286
+★Gem2484s,★Gem2484,★Gem2484,★Gem2484,★Gem2484,★Gem2484,★Gem2484
+★Gem2930s,★Gem2930,★Gem2930,★Gem2930,★Gem2930,★Gem2930,★Gem2930
+★Peg8775s,★Peg8775,★Peg8775,★Peg8775,★Peg8775,★Peg8775,★Peg8775
+★Peg8781s,★Peg8781,★Peg8781,★Peg8781,★Peg8781,★Peg8781,★Peg8781
+★Peg39s,★Peg39,★Peg39,★Peg39,★Peg39,★Peg39,★Peg39
+★Peg8308s,★Peg8308,★Peg8308,★Peg8308,★Peg8308,★Peg8308,★Peg8308
+★Peg8650s,★Peg8650,★Peg8650,★Peg8650,★Peg8650,★Peg8650,★Peg8650
+★Peg8634s,★Peg8634,★Peg8634,★Peg8634,★Peg8634,★Peg8634,★Peg8634
+★Peg8684s,★Peg8684,★Peg8684,★Peg8684,★Peg8684,★Peg8684,★Peg8684
+★Peg8450s,★Peg8450,★Peg8450,★Peg8450,★Peg8450,★Peg8450,★Peg8450
+★Peg8880s,★Peg8880,★Peg8880,★Peg8880,★Peg8880,★Peg8880,★Peg8880
+★Peg8905s,★Peg8905,★Peg8905,★Peg8905,★Peg8905,★Peg8905,★Peg8905
+★Oph6556s,★Oph6556,★Oph6556,★Oph6556,★Oph6556,★Oph6556,★Oph6556
+★Oph6378s,★Oph6378,★Oph6378,★Oph6378,★Oph6378,★Oph6378,★Oph6378
+★Oph6603s,★Oph6603,★Oph6603,★Oph6603,★Oph6603,★Oph6603,★Oph6603
+★Oph6149s,★Oph6149,★Oph6149,★Oph6149,★Oph6149,★Oph6149,★Oph6149
+★Oph6056s,★Oph6056,★Oph6056,★Oph6056,★Oph6056,★Oph6056,★Oph6056
+★Oph6075s,★Oph6075,★Oph6075,★Oph6075,★Oph6075,★Oph6075,★Oph6075
+★Ser5854s,★Ser5854,★Ser5854,★Ser5854,★Ser5854,★Ser5854,★Ser5854
+★Ser7141s,★Ser7141,★Ser7141,★Ser7141,★Ser7141,★Ser7141,★Ser7141
+★Ser5879s,★Ser5879,★Ser5879,★Ser5879,★Ser5879,★Ser5879,★Ser5879
+★Her6406s,★Her6406,★Her6406,★Her6406,★Her6406,★Her6406,★Her6406
+★Her6148s,★Her6148,★Her6148,★Her6148,★Her6148,★Her6148,★Her6148
+★Her6410s,★Her6410,★Her6410,★Her6410,★Her6410,★Her6410,★Her6410
+★Her6526s,★Her6526,★Her6526,★Her6526,★Her6526,★Her6526,★Her6526
+★Her6117s,★Her6117,★Her6117,★Her6117,★Her6117,★Her6117,★Her6117
+★Her6008s,★Her6008,★Her6008,★Her6008,★Her6008,★Her6008,★Her6008
+★Per936s,★Per936,★Per936,★Per936,★Per936,★Per936,★Per936
+★Per1017s,★Per1017,★Per1017,★Per1017,★Per1017,★Per1017,★Per1017
+★Per1131s,★Per1131,★Per1131,★Per1131,★Per1131,★Per1131,★Per1131
+★Per1228s,★Per1228,★Per1228,★Per1228,★Per1228,★Per1228,★Per1228
+★Per834s,★Per834,★Per834,★Per834,★Per834,★Per834,★Per834
+★Per941s,★Per941,★Per941,★Per941,★Per941,★Per941,★Per941
+★Phe99s,★Phe99,★Phe99,★Phe99,★Phe99,★Phe99,★Phe99
+★Phe338s,★Phe338,★Phe338,★Phe338,★Phe338,★Phe338,★Phe338
+★Vel3634s,★Vel3634,★Vel3634,★Vel3634,★Vel3634,★Vel3634,★Vel3634
+★Vel3485s,★Vel3485,★Vel3485,★Vel3485,★Vel3485,★Vel3485,★Vel3485
+★Vel3734s,★Vel3734,★Vel3734,★Vel3734,★Vel3734,★Vel3734,★Vel3734
+★Aqr8232s,★Aqr8232,★Aqr8232,★Aqr8232,★Aqr8232,★Aqr8232,★Aqr8232
+★Aqr8414s,★Aqr8414,★Aqr8414,★Aqr8414,★Aqr8414,★Aqr8414,★Aqr8414
+★Aqr8709s,★Aqr8709,★Aqr8709,★Aqr8709,★Aqr8709,★Aqr8709,★Aqr8709
+★Aqr8518s,★Aqr8518,★Aqr8518,★Aqr8518,★Aqr8518,★Aqr8518,★Aqr8518
+★Aqr7950s,★Aqr7950,★Aqr7950,★Aqr7950,★Aqr7950,★Aqr7950,★Aqr7950
+★Aqr8499s,★Aqr8499,★Aqr8499,★Aqr8499,★Aqr8499,★Aqr8499,★Aqr8499
+★Aqr8610s,★Aqr8610,★Aqr8610,★Aqr8610,★Aqr8610,★Aqr8610,★Aqr8610
+★Aqr8264s,★Aqr8264,★Aqr8264,★Aqr8264,★Aqr8264,★Aqr8264,★Aqr8264
+★Cru4853s,★Cru4853,★Cru4853,★Cru4853,★Cru4853,★Cru4853,★Cru4853
+★Cru4730s,★Cru4730,★Cru4730,★Cru4730,★Cru4730,★Cru4730,★Cru4730
+★Cru4763s,★Cru4763,★Cru4763,★Cru4763,★Cru4763,★Cru4763,★Cru4763
+★Cru4700s,★Cru4700,★Cru4700,★Cru4700,★Cru4700,★Cru4700,★Cru4700
+★Cru4656s,★Cru4656,★Cru4656,★Cru4656,★Cru4656,★Cru4656,★Cru4656
+★PsA8728s,★PsA8728,★PsA8728,★PsA8728,★PsA8728,★PsA8728,★PsA8728
+★TrA6217s,★TrA6217,★TrA6217,★TrA6217,★TrA6217,★TrA6217,★TrA6217
+★Cap7776s,★Cap7776,★Cap7776,★Cap7776,★Cap7776,★Cap7776,★Cap7776
+★Cap7754s,★Cap7754,★Cap7754,★Cap7754,★Cap7754,★Cap7754,★Cap7754
+★Cap8278s,★Cap8278,★Cap8278,★Cap8278,★Cap8278,★Cap8278,★Cap8278
+★Cap8322s,★Cap8322,★Cap8322,★Cap8322,★Cap8322,★Cap8322,★Cap8322
+★Cap7773s,★Cap7773,★Cap7773,★Cap7773,★Cap7773,★Cap7773,★Cap7773
+★Sge7479s,★Sge7479,★Sge7479,★Sge7479,★Sge7479,★Sge7479,★Sge7479
+★Car2326s,★Car2326,★Car2326,★Car2326,★Car2326,★Car2326,★Car2326
+★Car3685s,★Car3685,★Car3685,★Car3685,★Car3685,★Car3685,★Car3685
+★Car3307s,★Car3307,★Car3307,★Car3307,★Car3307,★Car3307,★Car3307
+★Car3699s,★Car3699,★Car3699,★Car3699,★Car3699,★Car3699,★Car3699
+★Dra5744s,★Dra5744,★Dra5744,★Dra5744,★Dra5744,★Dra5744,★Dra5744
+★Dra5291s,★Dra5291,★Dra5291,★Dra5291,★Dra5291,★Dra5291,★Dra5291
+★Dra6705s,★Dra6705,★Dra6705,★Dra6705,★Dra6705,★Dra6705,★Dra6705
+★Dra6536s,★Dra6536,★Dra6536,★Dra6536,★Dra6536,★Dra6536,★Dra6536
+★Dra7310s,★Dra7310,★Dra7310,★Dra7310,★Dra7310,★Dra7310,★Dra7310
+★Dra6688s,★Dra6688,★Dra6688,★Dra6688,★Dra6688,★Dra6688,★Dra6688
+★Dra4434s,★Dra4434,★Dra4434,★Dra4434,★Dra4434,★Dra4434,★Dra4434
+★Dra6370s,★Dra6370,★Dra6370,★Dra6370,★Dra6370,★Dra6370,★Dra6370
+★Dra7462s,★Dra7462,★Dra7462,★Dra7462,★Dra7462,★Dra7462,★Dra7462
+★Dra6396s,★Dra6396,★Dra6396,★Dra6396,★Dra6396,★Dra6396,★Dra6396
+★Dra6132s,★Dra6132,★Dra6132,★Dra6132,★Dra6132,★Dra6132,★Dra6132
+★Dra6636s,★Dra6636,★Dra6636,★Dra6636,★Dra6636,★Dra6636,★Dra6636
+★CVn4915s,★CVn4915,★CVn4915,★CVn4915,★CVn4915,★CVn4915,★CVn4915
+★CVn4785s,★CVn4785,★CVn4785,★CVn4785,★CVn4785,★CVn4785,★CVn4785
+★CVn4846s,★CVn4846,★CVn4846,★CVn4846,★CVn4846,★CVn4846,★CVn4846
+★Aql7595s,★Aql7595,★Aql7595,★Aql7595,★Aql7595,★Aql7595,★Aql7595
+★Aql7557s,★Aql7557,★Aql7557,★Aql7557,★Aql7557,★Aql7557,★Aql7557
+★Aql7525s,★Aql7525,★Aql7525,★Aql7525,★Aql7525,★Aql7525,★Aql7525
+★Aql7602s,★Aql7602,★Aql7602,★Aql7602,★Aql7602,★Aql7602,★Aql7602
+★Aql7235s,★Aql7235,★Aql7235,★Aql7235,★Aql7235,★Aql7235,★Aql7235
+Max Honey,Maxi Miels,Mielemax,Dyna-Honige,Maxipanales,다이꿀,ダイミツ
+Max Mushrooms,Maxi Champis,Funghimax,Dyna-Pilze,Maxisetas,다이버섯,ダイキノコ
+Galarica Twigs,Branches Galanoa,Rami Galarnoce,Galarnuss-Zweige,Ramas de Galanuez,가라두구가지,ガラナツのえだ
+Galarica Cuffs,Bracelets Galanoa,Fasce Galarnoce,Galarnuss-Reife,Brazales Galanuez,가라두구팔찌,ガラナツブレス
+Style Cards,Cartes Élégance,Tessere chic,Style-Karten,Tarjetas Chic,멋쟁이카드,おしゃれカード
+Armor Passes,Pass Isolarmure,Pass Armatura,Rüstungspässe,Pases Armadura,갑옷패스,ヨロイパス
+Rotom Bikes,Moticyclettes,Bici Rotom,Rotom-Räder,Bicis Rotom,로토무자전거,ロトムじてんしゃ
+Rotom Bikes,Moticyclettes,Bici Rotom,Rotom-Räder,Bicis Rotom,로토무자전거,ロトムじてんしゃ
+Exp. Charms,Charmes Exp,Esperienzamuleti,EP-Pins,Amuletos Experiencia,경험부적,けいけんおまもり
+Armorite Ore,Armurium,Roccearmatura,Rüstungserze,Duralium,갑옷광석,ヨロイこうせき
+Mark Charms,Charmes Insigne,Emblemamuleti,Zeichenpins,Amuletos Emblema,증표의부적,あかしのおまもり
+Reins of Unity,Rênes de l’Unité,Briglie legame,Zügel des Bundes,Riendas Unión,유대의고삐,キズナのタヅナ
+Reins of Unity,Rênes de l’Unité,Briglie legame,Zügel des Bundes,Riendas Unión,유대의고삐,キズナのタヅナ
+Galarica Wreaths,Couronnes Galanoa,Corone Galarnoce,Galarnuss-Kränze,Coronas Galanuez,가라두구머리장식,ガラナツリース
+Legendary Clue 1s,Notes Légende 1,Leggende 1,Legenden-Notizen 1,Leyendas 1,전설의메모1,でんせつのメモ１
+Legendary Clue 2s,Notes Légende 2,Leggende 2,Legenden-Notizen 2,Leyendas 2,전설의메모2,でんせつのメモ２
+Legendary Clue 3s,Notes Légende 3,Leggende 3,Legenden-Notizen 3,Leyendas 3,전설의메모3,でんせつのメモ３
+Legendary Clue?s,Notes Légende (?),Leggende ?,Legenden-Notizen X,Leyendas (?),전설의메모?,でんせつのメモ？
+Crown Passes,Pass Couronneige,Pass Corona,Kronenpässe,Pases Corona,왕관패스,カンムリパス
+Wooden Crowns,Couronnes en Bois,Corone di legno,Holzkronen,Coronas Talladas,목각왕관,きぼりのかんむり
+Radiant Petals,Pétales Brillants,Petali lucenti,Kronblätter,Pétalos Fulgor,빛나는꽃잎,かがやくはなびら
+White Mane Hair,Crins Blancs,Crini bianchi,Helle Rosshaare,Crines Blancas,하얀갈기,しろいたてがみ
+Black Mane Hair,Crins Sombres,Crini neri,Dunkle Rosshaare,Crines Negras,검은갈기,くろいたてがみ
+Iceroot Carrots,Carottes Gelées,Carote algide,Polarkarotten,Zanahorias Níveas,차가운당근,つめたいにんじん
+Shaderoot Carrots,Carottes Sombres,Carote oscure,Phantomkarotten,Zanahorias Oscuras,검은당근,くろいにんじん
+Dynite Ore,Dynamaxium,Roccemax,Dyna-Erze,Maxinium,맥스광석,マックスこうせき
+Carrot Seeds,Graines Carotte,Semi di carota,Karottensamen,Semillas de Zanahoria,당근씨,にんじんのタネ
+Ability Patches,Patchs Talent,Cerotti abilità,Fähigk.-Pflaster,Parches Habilidad,특성패치,とくせいパッチ
+Reins of Unity,Rênes de l’Unité,Briglie legame,Zügel des Bundes,Riendas Unión,유대의고삐,キズナのタヅナ

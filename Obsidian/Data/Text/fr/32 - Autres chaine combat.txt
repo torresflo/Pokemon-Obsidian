@@ -1,0 +1,154 @@
+0 : ATTAQUE !
+1 : SAC
+2 : POKÉMON
+3 : FUITE
+4 : DÉPLACER
+5 : MÉGA ÉVOLUTION
+6 : MAJ.
+7 : min.
+8 : Autres
+9 : !!!
+10 : !!!
+11 : [~ 11]
+12 : PV
+13 : ATTAQUE
+14 : DÉFENSE
+15 : ATQ. SPÉ.
+16 : DÉF. SPÉ.
+17 : VITESSE
+18 : FINI !
+19 : ÉCHEC
+20 : CHALLENGE RÉUSSI !
+21 : C’EST PARTI !!!
+22 : [~ 22]
+23 : [~ 23]
+24 : [~ 24]
+25 : [~ 25]
+26 : [~ 26]
+27 : [~ 27]
+28 : JAP.
+29 : ANGL.
+30 : FRA.
+31 : ALL.
+32 : ITA.
+33 : CORÉ.
+34 : ESP.
+35 : POKÉDEX
+36 : [~ 36]
+37 : [~ 37]
+38 : [~ 38]
+39 : [~ 39]
+40 : [~ 40]
+41 : [~ 41]
+42 : [~ 42]
+43 : JAP.
+44 : ANGL.
+45 : FRA.
+46 : ALL.
+47 : ITA.
+48 : CORÉ.
+49 : ESP.
+50 : PARALYSIE
+51 : SOMMEIL
+52 : GEL
+53 : BRÛLURE
+54 : POISON
+55 : K.O.
+56 : POKÉRUS
+57 : NORMAL
+58 : COMBAT
+59 : VOL
+60 : POISON
+61 : SOL
+62 : ROCHE
+63 : INSECTE
+64 : SPECTRE
+65 : ACIER
+66 : FEU
+67 : EAU
+68 : PLANTE
+69 : ÉLECTRIK
+70 : PSY
+71 : GLACE
+72 : DRAGON
+73 : TÉNÈBRES
+74 : FÉE
+75 : RÉSULTATS
+76 : [~ 76]
+77 : JOUER
+78 : DÉCOR
+79 : CHANGER
+80 : VS
+81 : PERDU
+82 : GAGNÉ
+83 : ÉGALITÉ
+84 : Système de Perfectionnement Virtuel
+85 : Player Search System
+86 : POKÉ RÉCRÉ
+87 : PV
+88 : EXP
+89 : PV
+90 : N.
+91 : Fin
+92 : VS
+93 : Damien
+94 : Spectra
+95 : Glacia
+96 : Aragon
+97 : VS
+98 : Pierre
+99 : Maître de la Ligue
+100 : VS
+101 : Roxanne
+102 : Bastien
+103 : Voltère
+104 : Adriane
+105 : Norman
+106 : Alizée
+107 : Lévy & Tatia
+108 : Marc
+109 : Bienvenue au Panthéon !
+110 : Bravo !
+111 : Félicitations au nouveau Maître de la Ligue !
+112 : Félicitations au nouveau Maître de la Ligue !
+113 : APPUYEZ SUR START
+114 : Combat :
+115 : Commande :
+116 : Jury des Démonstrations : C’est parti !
+117 : Jury des Démonstrations : C’est fini…
+118 : Niveau Normal
+119 : Niveau Super
+120 : Niveau Hyper
+121 : Niveau Master
+122 : [~ 122]
+123 : [~ 123]
+124 : [~ 124]
+125 : [~ 125]
+126 : [~ 126]
+127 : Bravo !!!
+128 : Résultats
+129 : S.-froid
+130 : Beauté
+131 : Grâce
+132 : Intell.
+133 : Robust.
+134 : [~ 134]
+135 : [~ 135]
+136 : [~ 136]
+137 : [~ 137]
+138 : [~ 138]
+139 : Navi-Map
+140 : Navi-Fun
+141 : Navi-Show
+142 : Navi-Dex
+143 : Carte
+144 : Biotopes
+145 : Registre
+146 : Bases
+147 : Baies
+148 : Conseil 4
+149 : Concours Sang-froid
+150 : Concours Beauté
+151 : Concours Grâce
+152 : Concours Intelligence
+153 : Concours Robustesse

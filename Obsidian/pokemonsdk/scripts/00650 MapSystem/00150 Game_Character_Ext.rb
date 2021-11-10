@@ -18,6 +18,30 @@ class Game_Character
     return nil
   end
 
+  # Iterate through each front tiles including current tile
+  # @param nb_steps [Integer] number of step in front of the event to iterate
+  # @yieldparam x [Integer] x coordinate
+  # @yieldparam y [Integer] y coordinate
+  # @yieldparam d [Integer] direction
+  def each_front_tiles(nb_steps)
+    x = @x
+    y = @y
+    d = @direction
+    dx = d[2] * (2 * d[1] - 1)
+    dy = (1 - d[2]) * (2 * d[1] - 1)
+    if block_given?
+      0.upto(nb_steps) do
+        yield(x, y, d)
+        x += dx
+        y += dy
+      end
+    else
+      return Enumerator.new do |yielder|
+        0.upto(nb_steps) { |i| yielder << [x + i * dx, y + i * dy, d] }
+      end
+    end
+  end
+
   # Check a the #front_event has a specific name
   # @return [Boolean]
   # @author Nuri Yuri

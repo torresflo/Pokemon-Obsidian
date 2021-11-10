@@ -1,0 +1,827 @@
+0 : ―――――
+1 : Écras’Face
+2 : Poing Karaté
+3 : Torgnoles
+4 : Poing Comète
+5 : Ultimapoing
+6 : Jackpot
+7 : Poing Feu
+8 : Poing Glace
+9 : Poing Éclair
+10 : Griffe
+11 : Force Poigne
+12 : Guillotine
+13 : Coupe-Vent
+14 : Danse Lames
+15 : Coupe
+16 : Tornade
+17 : Cru-Ailes
+18 : Cyclone
+19 : Vol
+20 : Étreinte
+21 : Souplesse
+22 : Fouet Lianes
+23 : Écrasement
+24 : Double Pied
+25 : Ultimawashi
+26 : Pied Sauté
+27 : Mawashi Geri
+28 : Jet de Sable
+29 : Coup d’Boule
+30 : Koud’Korne
+31 : Furie
+32 : Empal’Korne
+33 : Charge
+34 : Plaquage
+35 : Ligotage
+36 : Bélier
+37 : Mania
+38 : Damoclès
+39 : Mimi-Queue
+40 : Dard-Venin
+41 : Double Dard
+42 : Dard-Nuée
+43 : Groz’Yeux
+44 : Morsure
+45 : Rugissement
+46 : Hurlement
+47 : Berceuse
+48 : Ultrason
+49 : Sonic Boom
+50 : Entrave
+51 : Acide
+52 : Flammèche
+53 : Lance-Flammes
+54 : Brume
+55 : Pistolet à O
+56 : Hydrocanon
+57 : Surf
+58 : Laser Glace
+59 : Blizzard
+60 : Rafale Psy
+61 : Bulles d’O
+62 : Onde Boréale
+63 : Ultralaser
+64 : Picpic
+65 : Bec Vrille
+66 : Sacrifice
+67 : Balayage
+68 : Riposte
+69 : Frappe Atlas
+70 : Force
+71 : Vole-Vie
+72 : Méga-Sangsue
+73 : Vampigraine
+74 : Croissance
+75 : Tranch’Herbe
+76 : Lance-Soleil
+77 : Poudre Toxik
+78 : Para-Spore
+79 : Poudre Dodo
+80 : Danse Fleurs
+81 : Sécrétion
+82 : Draco-Rage
+83 : Danse Flammes
+84 : Éclair
+85 : Tonnerre
+86 : Cage Éclair
+87 : Fatal-Foudre
+88 : Jet-Pierres
+89 : Séisme
+90 : Abîme
+91 : Tunnel
+92 : Toxik
+93 : Choc Mental
+94 : Psyko
+95 : Hypnose
+96 : Yoga
+97 : Hâte
+98 : Vive-Attaque
+99 : Frénésie
+100 : Téléport
+101 : Ombre Nocturne
+102 : Copie
+103 : Grincement
+104 : Reflet
+105 : Soin
+106 : Armure
+107 : Lilliput
+108 : Brouillard
+109 : Onde Folie
+110 : Repli
+111 : Boul’Armure
+112 : Bouclier
+113 : Mur Lumière
+114 : Buée Noire
+115 : Protection
+116 : Puissance
+117 : Patience
+118 : Métronome
+119 : Mimique
+120 : Destruction
+121 : Bombe Œuf
+122 : Léchouille
+123 : Purédpois
+124 : Détritus
+125 : Massd’Os
+126 : Déflagration
+127 : Cascade
+128 : Claquoir
+129 : Météores
+130 : Coud’Krâne
+131 : Picanon
+132 : Constriction
+133 : Amnésie
+134 : Télékinésie
+135 : E-Coque
+136 : Pied Voltige
+137 : Regard Médusant
+138 : Dévorêve
+139 : Gaz Toxik
+140 : Pilonnage
+141 : Vampirisme
+142 : Grobisou
+143 : Piqué
+144 : Morphing
+145 : Écume
+146 : Uppercut
+147 : Spore
+148 : Flash
+149 : Vague Psy
+150 : Trempette
+151 : Acidarmure
+152 : Pince-Masse
+153 : Explosion
+154 : Combo-Griffe
+155 : Osmerang
+156 : Repos
+157 : Éboulement
+158 : Croc de Mort
+159 : Affûtage
+160 : Conversion
+161 : Triplattaque
+162 : Croc Fatal
+163 : Tranche
+164 : Clonage
+165 : Lutte
+166 : Gribouille
+167 : Triple Pied
+168 : Larcin
+169 : Toile
+170 : Lire-Esprit
+171 : Cauchemar
+172 : Roue de Feu
+173 : Ronflement
+174 : Malédiction
+175 : Gigotage
+176 : Conversion 2
+177 : Aéroblast
+178 : Spore Coton
+179 : Contre
+180 : Dépit
+181 : Poudreuse
+182 : Abri
+183 : Mach Punch
+184 : Grimace
+185 : Feinte
+186 : Doux Baiser
+187 : Cognobidon
+188 : Bombe Beurk
+189 : Coud’Boue
+190 : Octazooka
+191 : Picots
+192 : Élecanon
+193 : Clairvoyance
+194 : Lien du Destin
+195 : Requiem
+196 : Vent Glace
+197 : Détection
+198 : Charge Os
+199 : Verrouillage
+200 : Colère
+201 : Tempête de Sable
+202 : Giga-Sangsue
+203 : Ténacité
+204 : Charme
+205 : Roulade
+206 : Faux-Chage
+207 : Vantardise
+208 : Lait à Boire
+209 : Étincelle
+210 : Taillade
+211 : Ailes d’Acier
+212 : Regard Noir
+213 : Attraction
+214 : Blabla Dodo
+215 : Glas de Soin
+216 : Retour
+217 : Cadeau
+218 : Frustration
+219 : Rune Protect
+220 : Balance
+221 : Feu Sacré
+222 : Ampleur
+223 : Dynamo-Poing
+224 : Mégacorne
+225 : Draco-Souffle
+226 : Relais
+227 : Encore
+228 : Poursuite
+229 : Tour Rapide
+230 : Doux Parfum
+231 : Queue de Fer
+232 : Griffe Acier
+233 : Corps Perdu
+234 : Aurore
+235 : Synthèse
+236 : Rayon Lune
+237 : Puissance Cachée
+238 : Coup Croix
+239 : Ouragan
+240 : Danse Pluie
+241 : Zénith
+242 : Mâchouille
+243 : Voile Miroir
+244 : Boost
+245 : Vitesse Extrême
+246 : Pouvoir Antique
+247 : Ball’Ombre
+248 : Prescience
+249 : Éclate-Roc
+250 : Siphon
+251 : Baston
+252 : Bluff
+253 : Brouhaha
+254 : Stockage
+255 : Relâche
+256 : Avale
+257 : Canicule
+258 : Grêle
+259 : Tourmente
+260 : Flatterie
+261 : Feu Follet
+262 : Souvenir
+263 : Façade
+264 : Mitra-Poing
+265 : Stimulant
+266 : Par Ici
+267 : Force Nature
+268 : Chargeur
+269 : Provoc
+270 : Coup d’Main
+271 : Tour de Magie
+272 : Imitation
+273 : Vœu
+274 : Assistance
+275 : Racines
+276 : Surpuissance
+277 : Reflet Magik
+278 : Recyclage
+279 : Vendetta
+280 : Casse-Brique
+281 : Bâillement
+282 : Sabotage
+283 : Effort
+284 : Éruption
+285 : Échange
+286 : Possessif
+287 : Régénération
+288 : Rancune
+289 : Saisie
+290 : Force Cachée
+291 : Plongée
+292 : Cogne
+293 : Camouflage
+294 : Lumi-Queue
+295 : Lumi-Éclat
+296 : Ball’Brume
+297 : Danse Plumes
+298 : Danse Folle
+299 : Pied Brûleur
+300 : Lance-Boue
+301 : Ball’Glace
+302 : Poing Dard
+303 : Paresse
+304 : Mégaphone
+305 : Crochet Venin
+306 : Éclate Griffe
+307 : Rafale Feu
+308 : Hydroblast
+309 : Poing Météore
+310 : Étonnement
+311 : Ball’Météo
+312 : Aromathérapie
+313 : Croco Larme
+314 : Tranch’Air
+315 : Surchauffe
+316 : Flair
+317 : Tomberoche
+318 : Vent Argenté
+319 : Strido-Son
+320 : Siffl’Herbe
+321 : Chatouille
+322 : Force Cosmique
+323 : Giclédo
+324 : Rayon Signal
+325 : Poing Ombre
+326 : Extrasenseur
+327 : Stratopercut
+328 : Tourbi-Sable
+329 : Glaciation
+330 : Ocroupi
+331 : Balle Graine
+332 : Aéropique
+333 : Stalactite
+334 : Mur de Fer
+335 : Barrage
+336 : Grondement
+337 : Draco-Griffe
+338 : Végé-Attaque
+339 : Gonflette
+340 : Rebond
+341 : Tir de Boue
+342 : Queue-Poison
+343 : Implore
+344 : Électacle
+345 : Feuille Magik
+346 : Tourniquet
+347 : Plénitude
+348 : Lame Feuille
+349 : Danse Draco
+350 : Boule Roc
+351 : Onde de Choc
+352 : Vibraqua
+353 : Vœu Destructeur
+354 : Psycho-Boost
+355 : Atterrissage
+356 : Gravité
+357 : Œil Miracle
+358 : Réveil Forcé
+359 : Marto-Poing
+360 : Gyroballe
+361 : Vœu Soin
+362 : Saumure
+363 : Don Naturel
+364 : Ruse
+365 : Picore
+366 : Vent Arrière
+367 : Acupression
+368 : Fulmifer
+369 : Demi-Tour
+370 : Close Combat
+371 : Représailles
+372 : Assurance
+373 : Embargo
+374 : Dégommage
+375 : Échange Psy
+376 : Atout
+377 : Anti-Soin
+378 : Essorage
+379 : Astuce Force
+380 : Suc Digestif
+381 : Air Veinard
+382 : Moi d’Abord
+383 : Photocopie
+384 : Permuforce
+385 : Permugarde
+386 : Punition
+387 : Dernier Recours
+388 : Soucigraine
+389 : Coup Bas
+390 : Pics Toxik
+391 : Permucœur
+392 : Anneau Hydro
+393 : Vol Magnétik
+394 : Boutefeu
+395 : Forte-Paume
+396 : Aurasphère
+397 : Poliroche
+398 : Direct Toxik
+399 : Vibrobscur
+400 : Tranche-Nuit
+401 : Hydro-Queue
+402 : Canon Graine
+403 : Lame d’Air
+404 : Plaie Croix
+405 : Bourdon
+406 : Draco-Choc
+407 : Draco-Charge
+408 : Rayon Gemme
+409 : Vampi-Poing
+410 : Onde Vide
+411 : Exploforce
+412 : Éco-Sphère
+413 : Rapace
+414 : Telluriforce
+415 : Passe-Passe
+416 : Giga Impact
+417 : Machination
+418 : Pisto-Poing
+419 : Avalanche
+420 : Éclats Glace
+421 : Griffe Ombre
+422 : Crocs Éclair
+423 : Crocs Givre
+424 : Crocs Feu
+425 : Ombre Portée
+426 : Boue-Bombe
+427 : Coupe Psycho
+428 : Psykoud’Boul
+429 : Miroi-Tir
+430 : Luminocanon
+431 : Escalade
+432 : Anti-Brume
+433 : Distorsion
+434 : Draco-Météore
+435 : Coup d’Jus
+436 : Ébullilave
+437 : Tempête Verte
+438 : Mégafouet
+439 : Roc-Boulet
+440 : Poison Croix
+441 : Détricanon
+442 : Tête de Fer
+443 : Bombe Aimant
+444 : Lame de Roc
+445 : Séduction
+446 : Piège de Roc
+447 : Nœud Herbe
+448 : Babil
+449 : Jugement
+450 : Piqûre
+451 : Rayon Chargé
+452 : Martobois
+453 : Aqua-Jet
+454 : Appel Attaque
+455 : Appel Défense
+456 : Appel Soins
+457 : Fracass’Tête
+458 : Coup Double
+459 : Hurle-Temps
+460 : Spatio-Rift
+461 : Danse Lune
+462 : Presse
+463 : Vortex Magma
+464 : Trou Noir
+465 : Fulmigraine
+466 : Vent Mauvais
+467 : Revenant
+468 : Aiguisage
+469 : Garde Large
+470 : Partage Garde
+471 : Partage Force
+472 : Zone Étrange
+473 : Choc Psy
+474 : Choc Venin
+475 : Allègement
+476 : Poudre Fureur
+477 : Lévikinésie
+478 : Zone Magique
+479 : Anti-Air
+480 : Yama Arashi
+481 : Rebondifeu
+482 : Cradovague
+483 : Papillodanse
+484 : Tacle Lourd
+485 : Synchropeine
+486 : Boule Élek
+487 : Détrempage
+488 : Nitrocharge
+489 : Enroulement
+490 : Balayette
+491 : Bombe Acide
+492 : Tricherie
+493 : Rayon Simple
+494 : Ten-Danse
+495 : Après Vous
+496 : Chant Canon
+497 : Écho
+498 : Attrition
+499 : Bain de Smog
+500 : Force Ajoutée
+501 : Prévention
+502 : Interversion
+503 : Ébullition
+504 : Exuviation
+505 : Vibra Soin
+506 : Châtiment
+507 : Chute Libre
+508 : Chgt Vitesse
+509 : Projection
+510 : Calcination
+511 : À la Queue
+512 : Acrobatie
+513 : Copie-Type
+514 : Vengeance
+515 : Tout ou Rien
+516 : Passe-Cadeau
+517 : Feu d’Enfer
+518 : Aire d’Eau
+519 : Aire de Feu
+520 : Aire d’Herbe
+521 : Change Éclair
+522 : Survinsecte
+523 : Piétisol
+524 : Souffle Glacé
+525 : Draco-Queue
+526 : Rengorgement
+527 : Toile Élek
+528 : Éclair Fou
+529 : Tunnelier
+530 : Double Baffe
+531 : Crève-Cœur
+532 : Encornebois
+533 : Lame Sainte
+534 : Coqui-Lame
+535 : Tacle Feu
+536 : Phytomixeur
+537 : Bulldoboule
+538 : Cotogarde
+539 : Explonuit
+540 : Frappe Psy
+541 : Plumo-Queue
+542 : Vent Violent
+543 : Peignée
+544 : Lancécrou
+545 : Incendie
+546 : Techno-Buster
+547 : Chant Antique
+548 : Lame Ointe
+549 : Ère Glaciaire
+550 : Charge Foudre
+551 : Flamme Bleue
+552 : Danse du Feu
+553 : Éclair Gelé
+554 : Feu Glacé
+555 : Aboiement
+556 : Chute Glace
+557 : Coup Victoire
+558 : Flamme Croix
+559 : Éclair Croix
+560 : Flying Press
+561 : Tatamigaeshi
+562 : Éructation
+563 : Fertilisation
+564 : Toile Gluante
+565 : Dard Mortel
+566 : Hantise
+567 : Halloween
+568 : Râle Mâle
+569 : Déluge Plasmique
+570 : Parabocharge
+571 : Maléfice Sylvain
+572 : Tempête Florale
+573 : Lyophilisation
+574 : Voix Enjôleuse
+575 : Dernier Mot
+576 : Renversement
+577 : Vampibaiser
+578 : Vigilance
+579 : Garde Florale
+580 : Champ Herbu
+581 : Champ Brumeux
+582 : Électrisation
+583 : Câlinerie
+584 : Vent Féérique
+585 : Pouvoir Lunaire
+586 : Bang Sonique
+587 : Verrou Enchanté
+588 : Bouclier Royal
+589 : Camaraderie
+590 : Confidence
+591 : Orage Adamantin
+592 : Jet de Vapeur
+593 : TrouDimensionnel
+594 : Sheauriken
+595 : Feu Ensorcelé
+596 : Pico-Défense
+597 : Brume Capiteuse
+598 : Ondes Étranges
+599 : Piège de Venin
+600 : Nuée de Poudre
+601 : Géo-Contrôle
+602 : Magné-Contrôle
+603 : Étrennes
+604 : Champ Électrifié
+605 : Éclat Magique
+606 : Célébration
+607 : Mains Jointes
+608 : Regard Touchant
+609 : Frotte-Frimousse
+610 : Retenue
+611 : Harcèlement
+612 : Poing Boost
+613 : Mort’Ailes
+614 : Myria-Flèches
+615 : Myria-Vagues
+616 : Force Chtonienne
+617 : Lumière du Néant
+618 : Onde Originelle
+619 : Lame Pangéenne
+620 : Draco-Ascension
+621 : Furie Dimension
+622 : Turbo-Charge Bulldozer
+623 : Turbo-Charge Bulldozer
+624 : Combo Hyper-Furie
+625 : Combo Hyper-Furie
+626 : Piqué Supersonique
+627 : Piqué Supersonique
+628 : Déluge Causti-Toxique
+629 : Déluge Causti-Toxique
+630 : Éruption Géo-Sismique
+631 : Éruption Géo-Sismique
+632 : Apocalypse Gigalithique
+633 : Apocalypse Gigalithique
+634 : Cocon Fatal
+635 : Cocon Fatal
+636 : Appel des Ombres Éternelles
+637 : Appel des Ombres Éternelles
+638 : Vrille Maximum
+639 : Vrille Maximum
+640 : Pyro-Explosion Cataclysmique
+641 : Pyro-Explosion Cataclysmique
+642 : Super Tourbillon Abyssal
+643 : Super Tourbillon Abyssal
+644 : Pétalexplosion Éblouissante
+645 : Pétalexplosion Éblouissante
+646 : Fulguro-Lance Gigavolt
+647 : Fulguro-Lance Gigavolt
+648 : Psycho-Pulvérisation EX
+649 : Psycho-Pulvérisation EX
+650 : Laser Cryogénique
+651 : Laser Cryogénique
+652 : Chaos Draconique
+653 : Chaos Draconique
+654 : Trou Noir des Ombres
+655 : Trou Noir des Ombres
+656 : Impact Choupinova
+657 : Impact Choupinova
+658 : Pikachute Foudroyante
+659 : Amass’Sable
+660 : Escarmouche
+661 : Blockhaus
+662 : Tisse Ombre
+663 : Dark Lariat
+664 : Aria de l’Écume
+665 : Marteau de Glace
+666 : Soin Floral
+667 : Cavalerie Lourde
+668 : Vole-Force
+669 : Lame Solaire
+670 : Feuillage
+671 : Projecteur
+672 : Fil Toxique
+673 : Affilage
+674 : Engrenage
+675 : Exécu-Son
+676 : Boule Pollen
+677 : Ancrage
+678 : Champ Psychique
+679 : Furie-Bond
+680 : Fouet de Feu
+681 : Arrogance
+682 : Flamme Ultime
+683 : Permuvitesse
+684 : Estocorne
+685 : Purification
+686 : Danse Éveil
+687 : Sanction Suprême
+688 : Botte Sucrette
+689 : Sommation
+690 : Bec-Canon
+691 : Vibrécaille
+692 : Draco-Marteau
+693 : Centrifugifle
+694 : Voile Aurore
+695 : Fureur des Plumes Spectrales
+696 : Dark Body Press
+697 : Symphonie des Ondines
+698 : Colère du Gardien d’Alola
+699 : Fauche-Âme des Sept Étoiles
+700 : Électro-Surf Survolté
+701 : Gare au Ronflex
+702 : Neuf pour Un
+703 : Supernova Originelle
+704 : Carapiège
+705 : Canon Floral
+706 : Psycho-Croc
+707 : Trépignement
+708 : Os Ombre
+709 : Vif Roc
+710 : Aqua-Brèche
+711 : Laser Prisme
+712 : Clepto-Mânes
+713 : Choc Météore
+714 : Rayon Spectral
+715 : Larme à l’Œil
+716 : Électrikipik
+717 : Ire de la Nature
+718 : Coup Varia-Type
+719 : Giga-Tonnerre
+720 : Caboche-Kaboum
+721 : Plasma Punch
+722 : Photo-Geyser
+723 : Apocalypsis Luminis
+724 : Hélio-Choc Dévastateur
+725 : Rayons Séléno-Explosifs
+726 : Patati-Patattrape
+727 : Hurlement des Roches-Lames
+728 : Dracacophonie Flamboyante
+729 : Pika-Sprint
+730 : Pika-Splash
+731 : Pika-Piqué
+732 : Pika-Fracas
+733 : Évo-Thalasso
+734 : Évo-Dynamo
+735 : Évo-Flambo
+736 : Évo-Psycho
+737 : Évo-Ténébro
+738 : Évo-Écolo
+739 : Évo-Congélo
+740 : Évo-Fabulo
+741 : Évo-Chardasso
+742 : Écrous d’Poing
+743 : Gardomax
+744 : Canon Dynamax
+745 : Tir de Précision
+746 : Croque Fort
+747 : Garde-à-Joues
+748 : Ultime Bastion
+749 : Goudronnage
+750 : Poudre Magique
+751 : Draco-Flèches
+752 : Thérémonie
+753 : Octoprise
+754 : Prise de Bec
+755 : Branchicrok
+756 : Change-Côté
+757 : Pyromax
+758 : Insectomax
+759 : Fulguromax
+760 : Normalomax
+761 : Pugilomax
+762 : Spectromax
+763 : Cryomax
+764 : Toxinomax
+765 : Hydromax
+766 : Aéromax
+767 : Enchantomax
+768 : Dracomax
+769 : Psychomax
+770 : Lithomax
+771 : Sismomax
+772 : Sinistromax
+773 : Phytomax
+774 : Métallomax
+775 : Dracacophonie
+776 : Big Splash
+777 : Nappage
+778 : Tambour Battant
+779 : Troquenard
+780 : Ballon Brûlant
+781 : Gladius Maximus
+782 : Aegis Maxima
+783 : Roue Libre
+784 : Abattage
+785 : Tapotige
+786 : Overdrive
+787 : Acide Malique
+788 : Force G
+789 : Choc Émotionnel
+790 : Vapeur Féérique
+791 : Fontaine de Vie
+792 : Blocage
+793 : Fourbette
+794 : Joute Astrale
+795 : Laser Infinimax
+796 : Métalaser
+797 : Vaste Pouvoir
+798 : Métalliroue
+799 : Rafale Écailles
+800 : Laser Météore
+801 : Kokiyarme
+802 : Explo-Brume
+803 : Gliss’Herbe
+804 : Monte-Tension
+805 : Champlification
+806 : Ravage Rampant
+807 : Feu Envieux
+808 : Cent Rancunes
+809 : Esprit Frappeur
+810 : Gaz Corrosif
+811 : Coaching
+812 : Eau Revoir
+813 : Triple Axel
+814 : Double Volée
+815 : Sable Ardent
+816 : Selve Salvatrice
+817 : Poing Obscur
+818 : Torrent de Coups
+819 : Voltageôle
+820 : Draco-Énergie
+821 : Regard Glaçant
+822 : Fureur Ardente
+823 : Coup Fulgurant
+824 : Lance de Glace
+825 : Éclat Spectral
+826 : Sort Sinistre

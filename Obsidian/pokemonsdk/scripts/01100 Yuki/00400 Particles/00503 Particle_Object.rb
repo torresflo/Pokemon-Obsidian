@@ -27,7 +27,7 @@ module Yuki
     #       add_z: Integer # The z offset relatively to the character
     #       oy_offset: Integer # The offset in oy
     #       opacity: Integer # The opacity of the particle
-    #       chara: Boolean # If the particle Bitmap is treaten like the Character bitmap
+    #       chara: Boolean # If the particle Texture is treaten like the Character bitmap
     #       rect: Array(Integer, Integer, Integer, Integer) # the parameter of the #set function of Rect (src_rect)
     # @param on_tp [Boolean] tells the particle to skip the :enter animation or not
     # @param params [Hash] additional params for the animation
@@ -155,8 +155,8 @@ module Yuki
     def update_sprite_position
       case @position_type
       when :center_pos, :grass_pos
-        @sprite.x = (((x * 128 - $game_map.display_x + 5) / 4 + 16) * @tile_zoom).floor
-        @sprite.y = ((y * 128 - $game_map.display_y + 5) / 4 + 32)
+        @sprite.x = (((x * 128 - $game_map.display_x + 3) / 4 + 16) * @tile_zoom).floor
+        @sprite.y = ((y * 128 - $game_map.display_y + 3) / 4 + 32)
         if @position_type == :center_pos || @sprite.y >= @character.screen_y
           @sprite.z = (screen_z + @add_z)
         else

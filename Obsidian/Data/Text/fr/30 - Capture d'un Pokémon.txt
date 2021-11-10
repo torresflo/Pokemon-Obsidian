@@ -1,0 +1,2 @@
+0 : Voulez-vous donner un surnom au [VAR PKNAME(0000)] capturé ?
+1 : [VAR PKNICK(0000)] transféré dans la [VAR BOX(0001)] !

@@ -84,7 +84,7 @@ module GameData
       end
 
       # Run the given block on each worldmap id
-      # @param &block
+      # @param block [Proc]
       def each_id(&block)
         @data.each_index(&block)
       end

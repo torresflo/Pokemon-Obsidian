@@ -8,16 +8,16 @@ module GamePlay
   #   - :hold : when opened to give an item to a Pokemon
   #   - :shop : when opened to sell item
   #   - :map : when an event request an item
-  class Bag < BaseCleanUpdate
+  class Bag < BaseCleanUpdate::FrameBalanced
     # List of pocket name
     POCKET_NAMES = [
       nil.to_s,
-      [:text_get, 15, 0], # Items
-      [:text_get, 12, 4], # Pokeball
-      [:text_get, 15, 2], # CT / CS
+      [:text_get, 15, 4], # Items
+      [:text_get, 15, 1], # Pokeball
+      [:text_get, 15, 5], # CT / CS
       [:text_get, 15, 3], # Berries
-      [:text_get, 15, 4], # Key Items
-      [:text_get, 15, 1], # Medicine
+      [:text_get, 15, 8], # Key Items
+      [:text_get, 15, 0], # Medicine
       [:ext_text, 9000, 150], # Letters
       [:ext_text, 9000, 151] # Favorites
     ]
@@ -34,6 +34,8 @@ module GamePlay
     FAVORITE_POCKET_ID = 8
     # @return [Integer] ID of the item selected
     attr_accessor :return_data
+    # @return [PFM::ItemDescriptor::Wrapper, nil] wrapper of the choosen item in battle
+    attr_accessor :battle_item_wrapper
     # Create a new Bag Scene
     # @param mode [Symbol] mode of the bag scene allowing to choose the pocket to show
     def initialize(mode = :menu)

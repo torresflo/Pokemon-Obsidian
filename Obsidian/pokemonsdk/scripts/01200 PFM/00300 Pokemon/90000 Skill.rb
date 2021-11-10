@@ -333,6 +333,7 @@ module PFM
     def type_insect?
       return type?(GameData::Types::BUG)
     end
+    alias type_bug? type_insect?
 
     # Is the skill type rock ?
     # @return [Boolean]
@@ -426,9 +427,7 @@ module PFM
     # Change the PP
     # @param v [Integer] the new pp value
     def pp=(v)
-      @pp = v
-      @pp = @ppmax if @pp > @ppmax
-      @pp = 0 if @pp < 0
+      @pp = v.clamp(0, @ppmax)
     end
 
     # Convert skill to string

@@ -1,6 +1,6 @@
 module GamePlay
   # Move reminder Scene
-  class Move_Reminder < BaseCleanUpdate
+  class Move_Reminder < BaseCleanUpdate::FrameBalanced
     # Front background image
     BACKGROUND = 'MR_UI'
     # Cursor filename

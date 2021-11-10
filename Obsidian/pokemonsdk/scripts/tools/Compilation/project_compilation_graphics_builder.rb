@@ -47,6 +47,9 @@ module ProjectCompilation
       Dir["#{path}/*.png"].each do |filename|
         @files[filename.downcase.sub(%r{^#{base_path}/}i, '').sub(/\.[^.]+$/, '')] = File.binread(filename)
       end
+      Dir["#{path}/*.gif"].each do |filename|
+        @files[filename.downcase.sub(%r{^#{base_path}/}i, '')] = File.binread(filename)
+      end
     end
 
     def self.start(origin_vd, target_vd, path, no_recursive)

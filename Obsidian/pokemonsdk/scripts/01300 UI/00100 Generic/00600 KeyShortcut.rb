@@ -2,7 +2,7 @@ module UI
   # Class that show the sprite of a key
   class KeyShortcut < Sprite
     # Create a new KeyShortcut sprite
-    # @param viewport [LiteRGSS::Viewport]
+    # @param viewport [Viewport]
     # @param key [Symbol, Integer] Input.trigger? argument (or Keyboard exact key if integer)
     # @param red [Boolean] pick the red texture instead of the blue texture
     def initialize(viewport, key, red = false)
@@ -51,7 +51,7 @@ module UI
     # @return [Integer] the index of the key in the Keys[key] array
     attr_reader :index
     # Create a new KeyBinding sprite
-    # @param viewport [LiteRGSS::Viewport]
+    # @param viewport [Viewport]
     # @param key [Symbol] Input.trigger? argument
     # @param index [Integer] Index of the key in the Keys constant
     def initialize(viewport, key, index)
@@ -81,9 +81,8 @@ module UI
     # @return [Symbol] the key the button describe
     attr_reader :key
     # Create a new KeyBinding sprite
-    # @param viewport [LiteRGSS::Viewport]
+    # @param viewport [Viewport]
     # @param key [Symbol] Input.trigger? argument
-    # @param index [Integer] Index of the key in the Keys constant
     def initialize(viewport, key)
       super(viewport)
       @key = key

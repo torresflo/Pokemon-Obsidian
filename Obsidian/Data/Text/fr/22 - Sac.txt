@@ -1,0 +1,185 @@
+0 : Utiliser
+1 : Jeter
+2 : Enregistrer
+3 : Donner
+4 : [~ 4]
+5 : Marcher
+6 : [~ 6]
+7 : Retour
+8 : [~ 8]
+9 : [~ 9]
+10 : [~ 10]
+11 : [~ 11]
+12 : [~ 12]
+13 : [~ 13]
+14 : Désenregistrer
+15 : [~ 15]
+16 : [~ 16]
+17 : /
+18 : -
+19 : [~ 19]
+20 : [~ 20]
+21 : [VAR COLOR(0002)]♂[VAR COLOR(0000)]
+22 : [VAR COLOR(0001)]♀[VAR COLOR(0000)]
+23 : L
+24 : [~ 24]
+25 : [~ 25]
+26 : [~ 26]
+27 : [~ 27]
+28 : [~ 28]
+29 : [~ 29]
+30 : [~ 30]
+31 : [~ 31]
+32 : x
+33 : [~ 33]
+34 : [~ 34]
+35 : Sélection : [VAR ITEM2(0000)]
+36 : [~ 36]
+37 : Vous ne pouvez pas jeter un objet rare !
+38 : Combien [VAR ITEMPLUR1][VAR 1408(0000)][VAR ITEM2(0000)] voulez-vous jeter ?
+39 : Vous jetez [VAR NUM3(0001)] [VAR ITEM2(0000)].
+40 : [~ 40]
+41 : Voulez-vous jeter [VAR NUM3(0001)] [VAR ITEM2(0000)] ?
+42 : [~ 42]
+43 : Si papa était là, il dirait : « Voyons [VAR GENDBR(00FF,0806)]fistonma fille, ce n’est pas le moment ! »
+44 : [~ 44]
+45 : [~ 45]
+46 : [VAR TRNAME(0000)] utilise [VAR 1400(0001)][VAR ITEM2(0001)] !
+47 : Le Repousse précédent est toujours actif !
+48 : [VAR TRNAME(0000)] utilise [VAR 1402(0001)][VAR ITEM2(0001)] ! [VAR GENDBR(0000,0402)]IlElle va rencontrer davantage de Pokémon sauvages !
+49 : [VAR TRNAME(0000)] utilise [VAR 1402(0001)][VAR ITEM2(0001)] ! [VAR GENDBR(0000,0402)]IlElle va rencontrer moins de Pokémon sauvages !
+50 : CT[VAR NUM3(0000)] [VAR MOVE(0001)]
+51 : CS[VAR NUM2(0000)] [VAR MOVE(0001)]
+52 : [~ 52]
+53 : [~ 53]
+54 : [~ 54]
+55 : [~ 55]
+56 : [~ 56]
+57 : PP
+58 : Puissance
+59 : Précision
+60 : Catégorie
+61 : [~ 61]
+62 : [~ 62]
+63 : Type
+64 : Vide
+65 : [~ 65]
+66 : [~ 66]
+67 : [~ 67]
+68 : Les objets sont maintenant classés par catégorie !
+69 : Les objets sont maintenant classés par nom !
+70 : Les objets sont maintenant classés par quantité décroissante !
+71 : Les objets sont maintenant classés par quantité croissante !
+72 : [~ 72]
+73 : [~ 73]
+74 : [~ 74]
+75 : [~ 75]
+76 : [~ 76]
+77 : [~ 77]
+78 : [~ 78]
+79 : Comment voulez-vous les classer ?
+80 : Par catégorie
+81 : Par nom
+82 : Qté décroissante
+83 : Qté croissante
+84 : Par numéro
+85 : [~ 85]
+86 : Les objets sont maintenant classés par numéro !
+87 : [~ 87]
+88 : À quel Pokémon voulez-vous donner l’objet ?
+89 : [VAR PKNICK(0001)] tient déjà [VAR 1402(0000)][VAR ITEM2(0000)] ! Voulez-vous échanger les deux objets ?
+90 : Vous lui donnez [VAR 1402(0000)][VAR ITEM2(0000)].
+91 : Vous avez repris [VAR 1400(0000)][VAR ITEM2(0000)] et vous lui donnez [VAR 1402(0001)][VAR ITEM2(0001)].
+92 : Sur quel Pokémon voulez-vous l’utiliser ?
+93 : À quel Pokémon voulez-vous l’enseigner ?
+94 : Impossible de donner [VAR 1400(0000)][VAR ITEM2(0000)].
+95 : [~ 95]
+96 : CT activée ![VAR BE05(0002)][VAR BE05(0000)]
+97 : CS activée ![VAR BE05(0002)][VAR BE05(0000)]
+98 : Elle contient [VAR MOVE(0000)]. Souhaitez-vous apprendre la capacité [VAR MOVE(0000)] à ce Pokémon ?
+99 : [VAR PKNICK(0000)] veut apprendre [VAR MOVE(0001)]. Mais un Pokémon ne peut pas connaître plus de quatre capacités à la fois. Voulez-vous remplacer une capacité par [VAR MOVE(0001)] ?
+100 : Quelle capacité voulez-vous lui faire oublier ?
+101 : 1[WAIT 20], 2[WAIT 20], [WAIT 20]… [WAIT 20]… Tadaa ![VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)] oublie [VAR MOVE(0001)]. Et… Il apprend [VAR MOVE(0002)] ![VAR BE05(0004)][VAR BE05(0001)]
+102 : Alors… Voulez-vous renoncer à apprendre [VAR MOVE(0001)] ?
+103 : [VAR PKNICK(0000)] n’a pas appris [VAR MOVE(0001)].
+104 : [VAR PKNICK(0000)] et [VAR MOVE(0001)] ne sont pas compatibles. Ce Pokémon ne peut pas apprendre cette capacité !
+105 : [VAR PKNICK(0000)] connaît déjà [VAR MOVE(0001)].
+106 : [VAR PKNICK(0000)] apprend [VAR MOVE(0001)] ![VAR BE05(0004)][VAR BE05(0001)]
+107 : [VAR MOVE(0000)]
+108 : Cela n’aura aucun effet.
+109 : [VAR PKNICK(0000)] récupère [VAR NUM3(0001)] PV.
+110 : [VAR PKNICK(0000)] n’est plus empoisonné.
+111 : [VAR PKNICK(0000)] n’est plus paralysé.
+112 : [VAR PKNICK(0000)] n’est plus brûlé.
+113 : [VAR PKNICK(0000)] est dégelé.
+114 : Les PP sont restaurés.
+115 : [VAR PKNICK(0000)] n’est plus K.O. !
+116 : [VAR PKNICK(0000)] retrouve la forme.
+117 : Les PP de la capacité [VAR MOVE(0000)] augmentent.
+118 : [VAR 1401(0001)][VAR EVSTAT(0001)] de base de [VAR PKNICK(0000)] augmente[VAR NUMBRNCH(0001,0200)]nt.
+119 : Il n’y a pas de Pokémon !
+120 : [VAR PKNICK(0000)] se réveille !
+121 : PV Max
+122 : Attaque
+123 : Défense
+124 : Atq. Spé.
+125 : Déf. Spé.
+126 : Vitesse
+127 : + [VAR NUM3(0000)]
+128 : [VAR PKNICK(0000)] monte au N. [VAR NUM3(0001)] ![VAR BE05(0005)][VAR BE05(0001)]
+129 : Attaque
+130 : Défense
+131 : Atq. Spé.
+132 : Déf. Spé.
+133 : Vitesse
+134 : PV
+135 : [VAR PKNICK(0000)] est devenu plus amical. [VAR 1401(0001)][VAR EVSTAT(0001)] de base baisse[VAR NUMBRNCH(0001,0200)]nt !
+136 : [VAR PKNICK(0000)] vous adore ! [VAR 1401(0001)][VAR EVSTAT(0001)] de base baisse[VAR NUMBRNCH(0001,0200)]nt !
+137 : [VAR PKNICK(0000)] est devenu plus amical. [VAR 1401(0001)][VAR EVSTAT(0001)] de base ne peu[VAR NUMBRNCH(0001,0300)]vent plus baisser !
+138 : Quelle capacité voulez-vous restaurer ?
+139 : De quelle capacité voulez-vous augmenter les PP ?
+140 : Possible !
+141 : [VAR COLOR(0001)]Impossible ![VAR COLOR(0000)]
+142 : [VAR COLOR(0002)]Déjà appris ![VAR COLOR(0000)]
+143 : Apte !
+144 : [VAR COLOR(0001)]Pas apte ![VAR COLOR(0000)]
+145 : Derniers objets utilisés
+146 : Objet tenu
+147 : Que faire avec [VAR 1400(0000)][VAR ITEM2(0000)] sur [VAR PKNICK(0001)] ?
+148 : Vous pouvez enregistrer jusqu’à 4 objets à utiliser avec le Menu Express !
+149 : Voulez-vous que le talent de [VAR PKNICK(0000)] devienne [VAR ABILITY(0001)] ?
+150 : Le talent de [VAR PKNICK(0000)] est devenu [VAR ABILITY(0001)] ![VAR BE05(0005)][VAR BE05(0001)]
+151 : Impossible de fusiorber avec ce Pokémon.
+152 : Impossible de fusiorber avec un Pokémon K.O.
+153 : Impossible de fusiorber avec un Œuf.
+154 : Impossible de les séparer car votre équipe est pleine.
+155 : Fusiorber avec quel Pokémon ?
+156 : Impossible à utiliser sur un Pokémon K.O.
+157 : [VAR PKNAME(0000)] a changé de forme !
+158 : [VAR NUM3(0000)]
+159 : [VAR NUM7(0000,E07F)] $
+160 : Le Multi Exp est activé.
+161 : Le Multi Exp est désactivé.
+162 : Vous n’avez pas de lentilles.
+163 : Couleur des lentilles : [VAR 019D(0000)].
+164 : Couleur des lentilles : [VAR 019D(0000)] et [VAR 019D(0001)].
+165 : Couleur des lentilles : [VAR 019D(0000)], [VAR 019D(0001)] et [VAR 019D(0002)].
+166 : Couleur des lentilles : [VAR 019D(0000)], [VAR 019D(0001)], [VAR 019D(0002)] et [VAR 019D(0003)].
+167 : Nombre de Tickets Beladonis : [VAR NUM2(0000)]
+168 : [~ 168]
+169 : Argent
+170 : Combien voulez-vous vendre [VAR ITEMPLUR1][VAR 1408(0000)][VAR ITEM2(0000)] ?
+171 : Je peux vous en donner [VAR NUM7(0000,E07F)] $. Ça vous va ?
+172 : Cette vente vous a rapporté [VAR NUM7(0001,E07F)] $.
+173 : Cette vente vous a rapporté [VAR NUM7(0001,E07F)] $.
+174 : Oh, non. Je ne peux pas acheter ça.
+175 : Activer
+176 : Désactiver
+177 : Ranger
+178 : Vous ne pouvez pas porter plus d’exemplaires de cet objet.
+179 : Capacités Combat
+180 : Capacités Concours
+181 : Démonstration
+182 : Blocage
+183 : [VAR TRNAME(0000)] utilise [VAR 1402(0001)][VAR ITEM2(0001)] ! [VAR GENDBR(0000,0402)]IlElle va rencontrer des Pokémon sauvages de niveau plus élevé !
+184 : [VAR TRNAME(0000)] utilise [VAR 1402(0001)][VAR ITEM2(0001)] ! [VAR GENDBR(0000,0402)]IlElle va rencontrer des Pokémon sauvages de niveau moins élevé !

@@ -65,14 +65,14 @@ module Yuki
       # @return [Integer] final y position
       def load_remaining_groups(y)
         x = 0
-        name_format = PFM::Pokemon::MALE_NAME
         $wild_battle.remaining_pokemons.each_with_index do |arr, zone|
           break if y >= @height
           arr.each_with_index do |group, tag|
             next unless group
             @stack.add_text(x, y, 320, 16, format(ZONE_TYPE_NAMES[zone], tag), color: 9)
             group.ids.each do |id|
-              @stack.push(x, y, format(name_format, id))
+              icon_filename = PFM::Pokemon.icon_filename(id, 0, false, false, false)
+              @stack.push(x, y, icon_filename)
               x += 32
               if x >= @width
                 y += 32
@@ -91,7 +91,6 @@ module Yuki
       # @param y [Integer] initial y position
       def load_fishing_groups(y)
         x = 0
-        name_format = PFM::Pokemon::MALE_NAME
         $wild_battle.fishing.each do |type, arr|
           break if y >= @height
           name = FISHING_NAMES[type]
@@ -99,7 +98,8 @@ module Yuki
             next unless group
             @stack.add_text(x, y, 320, 16, format(name, ZONE_TYPE_NAMES_NTAG[zone]), color: 9)
             group.ids.each do |id|
-              @stack.push(x, y, format(name_format, id))
+              icon_filename = PFM::Pokemon.icon_filename(id, 0, false, false, false)
+              @stack.push(x, y, icon_filename)
               x += 32
               if x >= @width
                 y += 32

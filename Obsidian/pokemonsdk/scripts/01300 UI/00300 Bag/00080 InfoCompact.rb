@@ -52,26 +52,26 @@ module UI
         add_sprite(1, 3, NO_INITIAL_IMAGE, type: ItemSprite).set_z(2)
       end
 
-      # @return [LiteRGSS::Sprite]
+      # @return [Sprite]
       def create_cross
         add_sprite(35, 7, 'bag/num_x').set_z(2)
       end
 
-      # @return [LiteRGSS::Text]
+      # @return [Text]
       def create_quantity_text
         text = add_text(41, 1, 0, 13, nil.to_s, color: 10)
         text.z = 2
         return text
       end
 
-      # @return [LiteRGSS::Text]
+      # @return [Text]
       def create_name_text
         text = add_text(36, 16, 0, 13, nil.to_s, color: 24)
         text.z = 2
         return text
       end
 
-      # @return [LiteRGSS::Text, nil]
+      # @return [Text, nil]
       def create_price_text
         return nil if mode != :shop
 

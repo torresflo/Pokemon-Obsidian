@@ -1,0 +1,199 @@
+en,fr,it,de,es,ko,kana
+[~ 0],[~ 0],[~ 0],[~ 0],[~ 0],[~ 0],[~ 0]
+[~ 1],[~ 1],[~ 1],[~ 1],[~ 1],[~ 1],[~ 1]
+[~ 2],[~ 2],[~ 2],[~ 2],[~ 2],[~ 2],[~ 2]
+[~ 3],[~ 3],[~ 3],[~ 3],[~ 3],[~ 3],[~ 3]
+[~ 4],[~ 4],[~ 4],[~ 4],[~ 4],[~ 4],[~ 4]
+[~ 5],[~ 5],[~ 5],[~ 5],[~ 5],[~ 5],[~ 5]
+[~ 6],[~ 6],[~ 6],[~ 6],[~ 6],[~ 6],[~ 6]
+[~ 7],[~ 7],[~ 7],[~ 7],[~ 7],[~ 7],[~ 7]
+[~ 8],[~ 8],[~ 8],[~ 8],[~ 8],[~ 8],[~ 8]
+[~ 9],[~ 9],[~ 9],[~ 9],[~ 9],[~ 9],[~ 9]
+[~ 10],[~ 10],[~ 10],[~ 10],[~ 10],[~ 10],[~ 10]
+[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11]
+[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12]
+[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)]
+[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14]
+[~ 15],[~ 15],[~ 15],[~ 15],[~ 15],[~ 15],[~ 15]
+[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16]
+[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17]
+[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18],[~ 18]
+[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19],[~ 19]
+ Habitat, Habitat, Habitat, Habitat, Hábitat,분포,ぶんぷ
+[~ 21],[~ 21],[~ 21],[~ 21],[~ 21],[~ 21],[~ 21]
+[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22],[~ 22]
+[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23]
+[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24]
+[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25]
+Height,Taille,Altezza,Größe,Altura,키,たかさ
+Weight,Poids,Peso,Gewicht,Peso,몸무게,おもさ
+?????,???,?????,???,(?),??????,？？？？？？
+"???'??""","???,? m","???,? m","???,? m","???,? m",???.?m,???.?m
+????.? lbs.,"???,? kg","???,? kg","???,? kg","???,? kg",???.?kg,???.?kg
+Type,Type,Tipo,Typ,Tipo,타입,タイプ
+[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32],[~ 32]
+ Rotate,Rotation,Ruota,Drehen, Girar,회전,かいてん
+[~ 34],[~ 34],[~ 34],[~ 34],[~ 34],[~ 34],[~ 34]
+[~ 35],[~ 35],[~ 35],[~ 35],[~ 35],[~ 35],[~ 35]
+Habitat Unknown,Zone inconnue,Habitat sconosciuto,Habitat unbekannt,Hábitat desconocido,서식지 불명,せいそくち　ふめい
+Can’t be found now,Absent,Ora non appare,Jetzt nicht anzutreffen,Ausente,없습니다,いません
+[VAR PKNAME(0000)]’s Habitat,"Habitat [VAR 1408(0000,0001)][VAR PKNAME(0000)]",Habitat di [VAR PKNAME(0000)],Habitat von [VAR PKNAME(0000)],Hábitat de [VAR PKNAME(0000)],[VAR PKNAME(0000)]의 분포,[VAR PKNAME(0000)]の　ぶんぷ
+[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39],[~ 39]
+[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40],[~ 40]
+[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41]
+[~ 42],[~ 42],[~ 42],[~ 42],[~ 42],[~ 42],[~ 42]
+[~ 43],[~ 43],[~ 43],[~ 43],[~ 43],[~ 43],[~ 43]
+[~ 44],[~ 44],[~ 44],[~ 44],[~ 44],[~ 44],[~ 44]
+[~ 45],[~ 45],[~ 45],[~ 45],[~ 45],[~ 45],[~ 45]
+[~ 46],[~ 46],[~ 46],[~ 46],[~ 46],[~ 46],[~ 46]
+[~ 47],[~ 47],[~ 47],[~ 47],[~ 47],[~ 47],[~ 47]
+[VAR PKNAME(0000)]’s data will be added to the Pokédex!,"Les données [VAR 1408(0000,0001)][VAR PKNAME(0000)] ont été ajoutées au Pokédex.",I dati di [VAR PKNAME(0000)] sono stati inseriti nel Pokédex.,Für [VAR PKNAME(0000)] wurde ein Eintrag im Pokédex angelegt.,Los datos de [VAR PKNAME(0000)] se han registrado en la Pokédex.,[VAR PKNAME(0000)]의 데이터가 새로 포켓몬 도감에 등록됩니다!,[VAR PKNAME(0000)]の　データが　あたらしく ポケモンずかんに　とうろく　されます！
+Check the details of the Pokémon you caught!,Voyons en détail le Pokémon que vous avez attrapé !,Diamo un’occhiata al Pokémon che hai appena catturato!,"Sehen wir uns mal an, was du gefangen hast!",¡A ver qué Pokémon has capturado!,어떤 포켓몬을 잡았는지 확인해보자!,どんな　ポケモンを　つかまえたのか みてみましょう！
+[~ 50],[~ 50],[~ 50],[~ 50],[~ 50],[~ 50],[~ 50]
+[~ 51],[~ 51],[~ 51],[~ 51],[~ 51],[~ 51],[~ 51]
+Would you like to give [VAR PKNICK(0000)] a nickname?,Voulez-vous donner un surnom à [VAR PKNICK(0000)] ?,Vuoi dare un soprannome a [VAR PKNICK(0000)]?,Möchtest du dem [VAR PKNICK(0000)] einen Spitznamen geben?,¿Quieres ponerle un mote a [VAR PKNICK(0000)]?,[VAR PKNICK(0000)]에게 닉네임을 붙이겠습니까?,[VAR PKNICK(0000)]に ニックネームを　つけますか？
+Yes,Oui,Sì,Ja,Sí,예,はい
+No,Non,No,Nein,No,아니요,いいえ
+[~ 55],[~ 55],[~ 55],[~ 55],[~ 55],[~ 55],[~ 55]
+Where do you want to send [VAR PKNICK(0000)] to?,"Que voulez-vous faire [VAR 1408(0000,0001)][VAR PKNICK(0000)] ?",Cosa vuoi fare con [VAR PKNICK(0000)]?,Wohin soll [VAR PKNICK(0000)] geschickt werden?,¿Qué quieres hacer con [VAR PKNICK(0000)]?,[VAR PKNICK(0000)][VAR 1900(0002)] 어디로 보내겠습니까?,[VAR PKNICK(0000)]を どちらに　おくりますか？
+Add to your party,L’inclure dans l’équipe,Aggiungi alla squadra,In mein Team,Añadirlo a mi equipo,지닌 포켓몬에 넣는다,てもちに　くわえる
+Send to a Box,L’envoyer dans une Boîte PC,Invia ai Box del PC,In eine PC-Box,Enviarlo a una Caja del PC,박스로 보낸다,ボックスへ　おくる
+[~ 59],[~ 59],[~ 59],[~ 59],[~ 59],[~ 59],[~ 59]
+Please select a Pokémon to swap from your party.,Choisissez le Pokémon de votre équipe qui lui cédera sa place.,Scegli il Pokémon della squadra che vuoi sostituire.,"Bitte wähle ein Pokémon aus deinem Team, das abgelegt werden soll.",Elige el Pokémon con el que quieres intercambiarlo.,지닌 포켓몬에서 교환할 포켓몬을 선택해 주십시오,てもちから　こうかんする　ポケモンを えらんで　ください
+"[VAR 1301(0000,0000)][VAR PKNICK(0000)] has been added to your party.",[VAR PKNICK(0000)] a rejoint votre équipe !,"[VAR 1501(0000,0000)][VAR PKNICK(0000)] è stato aggiunto alla squadra.","[VAR 1601(0000,0000)][VAR PKNICK(0000)] wurde in dein Team aufgenommen.","¡[VAR 1701(0000,0000)][VAR PKNICK(0000)] se ha unido al equipo!",[VAR PKNICK(0000)][VAR 1900(0002)] 지닌 포켓몬에 넣었습니다!,[VAR PKNICK(0000)]を てもちに　くわえました！
+"[VAR 1301(0000,0000)][VAR PKNICK(0000)] will be added to your party, and [VAR 1300(0001,0000)][VAR PKNICK(0001)] will be sent to a Box.",[VAR PKNICK(0000)] rejoint votre équipe et [VAR PKNICK(0001)] est envoyé vers une Boîte PC.,"[VAR 1501(0000,0000)][VAR PKNICK(0000)] verrà aggiunto alla squadra e [VAR 1500(0001,0000)][VAR PKNICK(0001)] verrà inviato ai Box del PC.",[VAR PKNICK(0000)] wird in dein Team aufgenommen und [VAR PKNICK(0001)] in eine PC-Box geschickt.,"[VAR 1701(0000,0000)][VAR PKNICK(0000)] se ha unido al equipo y [VAR 1700(0001,0000)][VAR PKNICK(0001)] se ha enviado a una caja.",[VAR PKNICK(0000)][VAR 1900(0002)] 지닌 포켓몬에 넣고 [VAR PKNICK(0001)][VAR 1900(0002)] 박스로 보냅니다,[VAR PKNICK(0000)]を　てもちに　くわえて [VAR PKNICK(0001)]を　ボックスへ　おくります
+"[VAR 1301(0000,0000)][VAR PKNICK(0000)] has been sent to a Box!",[VAR PKNICK(0000)] est envoyé vers une Boîte PC !,"[VAR 1501(0000,0000)][VAR PKNICK(0000)] verrà inviato ai Box del PC.",[VAR PKNICK(0000)] wird in eine PC-Box geschickt.,"[VAR 1701(0000,0000)][VAR PKNICK(0000)] se ha transferido a una Caja del PC.",[VAR PKNICK(0000)][VAR 1900(0002)] 박스에 전송하였습니다!,[VAR PKNICK(0000)]を ボックスへ　てんそうしました！
+[~ 64],[~ 64],[~ 64],[~ 64],[~ 64],[~ 64],[~ 64]
+"[VAR PKNICK(0000)] has [VAR 1302(0001,0000)][VAR 0109(0001)]. What would you like to do?","Que faire [VAR 1406(0001,0000)][VAR ITEM2(0001)] que tient [VAR PKNICK(0000)] ?","[VAR PKNICK(0000)] ha [VAR 1502(0001,0000)][VAR 0109(0001)]. Cosa vuoi fare con questo strumento?",[VAR PKNICK(0000)] trägt das Item [VAR 0109(0001)]. Was möchtest du tun?,"[VAR PKNICK(0000)] lleva [VAR 1702(0001,0000)][VAR 0109(0001)]. ¿Qué quieres hacer con este objeto?",[VAR PKNICK(0000)][VAR 1900(0003)] [VAR 0109(0001)][VAR 1900(0002)] 지니고 있습니다만 어떻게 하겠습니까?,[VAR PKNICK(0000)]が　[VAR 0109(0001)]を もっていますが　どうしますか？
+[~ 66],[~ 66],[~ 66],[~ 66],[~ 66],[~ 66],[~ 66]
+Place the item in your Bag,Ranger l’objet dans le Sac,Mettilo nella Borsa,Item im Beutel verstauen,Introducirlo en la Bolsa,가방으로 가져온다,バッグへ　あずける
+[~ 68],[~ 68],[~ 68],[~ 68],[~ 68],[~ 68],[~ 68]
+Send the Pokémon to a Box as is,L’envoyer vers une Boîte PC avec le Pokémon,Invialo ai Box del PC insieme al Pokémon,Pokémon mitsamt Item in PC-Box schicken,Enviarlo junto al Pokémon,그대로 박스로 보낸다,そのまま　ボックスへ　おくる
+"You placed [VAR 1300(0000,0000)][VAR ITEM2(0000)] in your Bag.","Vous avez rangé [VAR 1400(0000,0000)][VAR ITEM2(0000)] dans votre Sac.","Hai messo [VAR 1500(0000,0000)][VAR 0109(0000)] in Borsa.",[VAR 0109(0000)] im Beutel verstaut.,"Has guardado [VAR 1700(0000,0000)][VAR ITEM2(0000)].",[VAR 0109(0000)][VAR 1900(0002)] 가방에 넣었다!,[VAR 0109(0000)]を　バッグにいれた！
+Your Bag is full!,Votre Sac est plein.,Hai raggiunto il limite per questo strumento!,Du hast keinen Platz dafür!,No te caben más en la Bolsa.,가방이 가득 찼습니다!,バッグが　いっぱいです！
+[~ 72],[~ 72],[~ 72],[~ 72],[~ 72],[~ 72],[~ 72]
+[~ 73],[~ 73],[~ 73],[~ 73],[~ 73],[~ 73],[~ 73]
+The [VAR 0109(0000)] was removed.,"Vous avez pris [VAR 1400(0000,0000)][VAR ITEM2(0000)].","Hai preso [VAR 1502(0000,0000)][VAR 0109(0000)].",[VAR 0109(0000)] zurückgenommen.,"Le has quitado [VAR 1700(0000,0000)][VAR ITEM2(0000)].",[VAR 0109(0000)][VAR 1900(0002)] 가져왔습니다,[VAR 0109(0000)]を　はずしました
+See [VAR PKNICK(0000)]’s summary,"Consulter le résumé [VAR 1408(0000,0001)][VAR PKNICK(0000)]",Mostra le info di [VAR PKNICK(0000)],Bericht von [VAR PKNICK(0000)],Ver datos de [VAR PKNICK(0000)],[VAR PKNICK(0000)]의 능력치를 본다,[VAR PKNICK(0000)]の　つよさをみる
+Check summary of your party Pokémon,Consulter le résumé de l’équipe,Mostra le info della squadra,Team-Bericht,Ver datos del equipo,지닌 포켓몬의 능력치를 본다,てもちの　つよさをみる
+[~ 77],[~ 77],[~ 77],[~ 77],[~ 77],[~ 77],[~ 77]
+[~ 78],[~ 78],[~ 78],[~ 78],[~ 78],[~ 78],[~ 78]
+[~ 79],[~ 79],[~ 79],[~ 79],[~ 79],[~ 79],[~ 79]
+[~ 80],[~ 80],[~ 80],[~ 80],[~ 80],[~ 80],[~ 80]
+[~ 81],[~ 81],[~ 81],[~ 81],[~ 81],[~ 81],[~ 81]
+[~ 82],[~ 82],[~ 82],[~ 82],[~ 82],[~ 82],[~ 82]
+[~ 83],[~ 83],[~ 83],[~ 83],[~ 83],[~ 83],[~ 83]
+[~ 84],[~ 84],[~ 84],[~ 84],[~ 84],[~ 84],[~ 84]
+By Number,Numéro,Numero di Pokédex,Nummer,Número,번호순,ばんごうじゅん
+A→Z,Ordre alphabétique,Ordine alfabetico,Alphabetisch,A-Z,가나다순,ごじゅうおん
+Heaviest→Lightest,Poids décroissant,Peso decrescente,Schwer zuerst,Pesado → Ligero,무거운 순서,おもいじゅん
+Lightest→Heaviest,Poids croissant,Peso crescente,Leicht zuerst,Ligero → Pesado,가벼운 순서,かるいじゅん
+Tallest→Shortest,Taille décroissante,Altezza decrescente,Groß zuerst,Alto → Bajo,큰 순서,たかいじゅん
+Shortest→Tallest,Taille croissante,Altezza crescente,Klein zuerst,Bajo → Alto,작은 순서,ひくいじゅん
+By Number,Par numéro,Numero di Pokédex,Nummer,Por número,번호순,ばんごうじゅん
+A→Z,Par ordre alphabétique,Ordine alfabetico,Alphabetisch,Alfabéticamente,가나다순,ごじゅうおん
+Heaviest→Lightest,Par poids décroissant,Peso decrescente,Schwer zuerst,Pesado → Ligero,무거운 순서,おもいじゅん
+Lightest→Heaviest,Par poids croissant,Peso crescente,Leicht zuerst,Ligero → Pesado,가벼운 순서,かるいじゅん
+Tallest→Shortest,Par taille décroissante,Altezza decrescente,Groß zuerst,Alto → Bajo,큰 순서,たかいじゅん
+Shortest→Tallest,Par taille croissante,Altezza crescente,Klein zuerst,Bajo → Alto,작은 순서,ひくいじゅん
+Quit,Annuler,Indietro,Abbrechen,Salir,그만둔다,やめる
+[~ 98],[~ 98],[~ 98],[~ 98],[~ 98],[~ 98],[~ 98]
+[~ 99],[~ 99],[~ 99],[~ 99],[~ 99],[~ 99],[~ 99]
+[~ 100],[~ 100],[~ 100],[~ 100],[~ 100],[~ 100],[~ 100]
+[~ 101],[~ 101],[~ 101],[~ 101],[~ 101],[~ 101],[~ 101]
+[~ 102],[~ 102],[~ 102],[~ 102],[~ 102],[~ 102],[~ 102]
+[~ 103],[~ 103],[~ 103],[~ 103],[~ 103],[~ 103],[~ 103]
+[~ 104],[~ 104],[~ 104],[~ 104],[~ 104],[~ 104],[~ 104]
+[~ 105],[~ 105],[~ 105],[~ 105],[~ 105],[~ 105],[~ 105]
+[~ 106],[~ 106],[~ 106],[~ 106],[~ 106],[~ 106],[~ 106]
+[~ 107],[~ 107],[~ 107],[~ 107],[~ 107],[~ 107],[~ 107]
+[~ 108],[~ 108],[~ 108],[~ 108],[~ 108],[~ 108],[~ 108]
+[~ 109],[~ 109],[~ 109],[~ 109],[~ 109],[~ 109],[~ 109]
+[~ 110],[~ 110],[~ 110],[~ 110],[~ 110],[~ 110],[~ 110]
+[~ 111],[~ 111],[~ 111],[~ 111],[~ 111],[~ 111],[~ 111]
+[~ 112],[~ 112],[~ 112],[~ 112],[~ 112],[~ 112],[~ 112]
+[~ 113],[~ 113],[~ 113],[~ 113],[~ 113],[~ 113],[~ 113]
+[~ 114],[~ 114],[~ 114],[~ 114],[~ 114],[~ 114],[~ 114]
+[~ 115],[~ 115],[~ 115],[~ 115],[~ 115],[~ 115],[~ 115]
+ Confirm, Sélectionner, Ok, OK, Confirmar,결정,けってい
+[~ 117],[~ 117],[~ 117],[~ 117],[~ 117],[~ 117],[~ 117]
+[~ 118],[~ 118],[~ 118],[~ 118],[~ 118],[~ 118],[~ 118]
+[~ 119],[~ 119],[~ 119],[~ 119],[~ 119],[~ 119],[~ 119]
+[~ 120],[~ 120],[~ 120],[~ 120],[~ 120],[~ 120],[~ 120]
+[~ 121],[~ 121],[~ 121],[~ 121],[~ 121],[~ 121],[~ 121]
+[~ 122],[~ 122],[~ 122],[~ 122],[~ 122],[~ 122],[~ 122]
+"If you trade that Pokémon, you won’t be able to continue your adventure!","Si vous échangez ce Pokémon, vous ne pourrez plus continuer votre aventure !",Se scambi questo Pokémon non potrai proseguire la tua avventura!,"Wenn du dieses Pokémon tauschst, kannst du dein Abenteuer nicht fortsetzen!","¡Si intercambias ese Pokémon, no podrás continuar la aventura!",그 포켓몬을 교환하면 모험을 할 수 없게 됩니다!,その　ポケモンを　こうかんすると ぼうけん　できなくなります！
+[~ 124],[~ 124],[~ 124],[~ 124],[~ 124],[~ 124],[~ 124]
+[~ 125],[~ 125],[~ 125],[~ 125],[~ 125],[~ 125],[~ 125]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Seen,Vus :,Visti,Gesehen,Avistados,발견했다,みつけた
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Caught,Capturés :,Catturati,Gefangen,Capturados,잡았다,つかまえた
+No. [VAR NUM3(0000)],Nº [VAR NUM3(0000)],Nº [VAR NUM3(0000)],Nr. [VAR NUM3(0000)],N.º [VAR NUM3(0000)],No.[VAR NUM3(0000)],No.[VAR NUM3(0000)]
+[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)]
+ Back, Quitter, Indietro, Zurück, Atrás,돌아간다,もどる
+Pokédex,Pokédex,Pokédex,Pokédex,Pokédex,포켓몬 도감,ポケモンずかん
+Pokédex,Pokédex,Pokédex,Pokédex,Pokédex,포켓몬 도감,ポケモンずかん
+ Back, Retour, Indietro, Zurück, Atrás,돌아간다,もどる
+ Switch Languages, Changer de langue, Cambia lingua, Sprache wechseln, Cambiar de idioma,언어 전환,げんごきりかえ
+ Switch Sorting, Tri,Cambia ordine, Sortieren, Cambiar orden,정렬 전환,ソートきりかえ
+ Flying Taxi, Taxi volant, Volotaxi, Flugtaxi, Taxi volador,공중날기택시,そらとぶタクシー
+ Toggle Weather On/Off, Afficher/cacher la météo, Condizioni atmosferiche, Wetteranzeige, Mostrar/ocultar tiempo,날씨 전환,てんこうきりかえ
+ List, Revenir à la liste, Lista, Liste, Volver a la lista,리스트 화면,リストがめん
+Do you want to fly to this place?,Voulez-vous vous rendre à cet endroit ?,Vuoi volare qui?,Möchtest du an diesen Ort fliegen?,¿Quieres volar hasta allí?,이 장소로 날아가겠습니까?,このばしょに　とびますか？
+No. [VAR NUM3(0000)],Nº [VAR NUM3(0000)],Nº [VAR NUM3(0000)],Nr. [VAR NUM3(0000)],N.º [VAR NUM3(0000)],No.[VAR NUM3(0000)],No.[VAR NUM3(0000)]
+[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Number Battled,Combats,Affrontati,Bekämpft:,Enfrentamientos,싸운 횟수,たたかったかず
+○○ Form,Forme de “○○”,Forma di ○○,○○-Form,Forma de ○○,○○의 모습,“○○”のすがた
+○○ Form,Forme de “○○”,Forma di ○○,○○-Form,Forma de ○○,○○의 모습,“○○”のすがた
+[VAR 0104(0000)] Pokémon,Pokémon [VAR 0104(0000)],Pokémon [VAR 0104(0000)],[VAR 0104(0000)]-Pokémon,[VAR 0104(0000)],[VAR 0104(0000)]포켓몬,[VAR 0104(0000)]ポケモン
+ Motion/Cry, Animations et cris, Aspetto/Verso, Animation & Ruf, Animación/grito,움직임/울음소리,うごき＆なきごえ
+ Pause Motion, Mettre sur pause, Pausa, Anhalten, Detener,멈춘다,とめる
+ Switch Pokémon, Changer de Pokémon,Cambia Pokémon, Pokémon wechseln, Cambiar Pokémon,포켓몬 전환,ポケモンきりかえ
+ Switch Forms, Changer de forme,Cambia forma, Form wechseln, Cambiar forma,폼 전환,フォルムきりかえ
+ Animation On/Off, Avec/sans animation,Animazioni On/Off, Animation an/aus, Animación Sí/No,애니메이션 On/Off,アニメＯＮ／ＯＦＦ
+[~ 154],[~ 154],[~ 154],[~ 154],[~ 154],[~ 154],[~ 154]
+Great job on filling your Pokédex!,Félicitations ! Votre Pokédex a progressé !,Complimenti per aver catturato tutti i Pokémon consigliati!,Du hast alle empfohlenen Pokémon gefangen. Herzlichen Glückwunsch!,¡Enhorabuena por haber capturado a todos los Pokémon destacados!,지금 추천하는 포켓몬 컴플리트!,コンプリート　おめでとうございます！
+There are still a lot of Pokémon that you haven’t caught! Let’s catch more Pokémon!,Il vous reste encore des Pokémon à capturer ! Courage !,Sembra che tu abbia ancora parecchi Pokémon da catturare! Datti da fare!,"Es gibt einige Pokémon, die du noch nicht gefangen hast. Halt dich weiter ran!","Por lo visto, todavía hay algún Pokémon que no has atrapado. ¡A capturar se ha dicho!",아직 잡지 않은 포켓몬이 있는 모양입니다! 많이 많이 잡아주세요!,まだまだ　つかまえていない ポケモンが　いるようですよ！ どんどん　つかまえましょう！
+You’ve caught all nearby Pokémon!,Tous les Pokémon des environs ont été capturés !,Hai catturato tutti i Pokémon dei dintorni!,Du hast alle Pokémon in der näheren Umgebung gefangen!,¡Has atrapado a todos los Pokémon de la zona!,근처에 있는 포켓몬을 모두 잡았습니다!,ちかくの　ポケモンを みんな　つかまえた！
+"You caught all the Pokémon that you can register for the Pokédex! There are some Pokémon that have different appearances and colors, so try to catch them all! Congratulations!",Tous les Pokémon du Pokédex ont été capturés ! Félicitations ! Mais il reste encore des formes alternatives et des versions chromatiques à trouver ! Attrapez-les toutes !,Hai catturato tutti i Pokémon che si possono registrare nel Pokédex! Complimenti! Ora potresti provare a catturare anche le diverse forme e le varianti cromatiche!,"Du hast alle Pokémon gefangen, die im Pokédex registriert werden können! Herzlichen Glückwunsch zu dieser tollen Leistung! Es gibt auch Pokémon, die sich in ihrer Farbe oder Form von ihren Artgenossen unterscheiden. Versuche auch sie zu fangen!","¡Has atrapado a todos los Pokémon que puedes registrar en la Pokédex! Algunas especies presentan diversos colores y formas, ¡no dejes de hacerte con todas! ¡Muchas felicidades por tu proeza!",도감에 등록할 수 있는 포켓몬을 모두 잡았습니다! 포켓몬 중에는 색이나 모습이 다른 포켓몬도 있으므로 꼭 잡아보시기 바랍니다 진심으로 축하드립니다!,ずかんに　とうろくできる　ポケモンを すべて　つかまえました！ ポケモンの　なかには　いろや　すがたが ちがう　ポケモンも　いますので ぜひ　つかまえてみてください こころから　おめでとうございます！
+Yes,Oui,Sì,Ja,Sí,예,はい
+No,Non,No,Nein,No,아니요,いいえ
+Current Recommendations,Pokémon proches,Pokémon consigliati,Empfohlene Pokémon,Pokémon destacados,지금 추천하는 포켓몬,いまの　おすすめ
+Other Pokémon,Autres Pokémon,Altri Pokémon,Sonstige Pokémon,Otros Pokémon,다른 포켓몬,ほかのポケモン
+Let’s find Pokémon!,Cherchons des Pokémon !,Andiamo in cerca di Pokémon!,Lass uns Pokémon suchen!,¡Vamos a buscar Pokémon!,포켓몬을 찾아보자!,ポケモンを さがして　みよう！
+ See Details, Informations, Info, Details, Ver detalles,자세히 본다,くわしくみる
+ Sort, Trier, Ordina, Sortieren, Ordenar,순서바꾸기,ならびかえ
+ Switch, Changer,Cambia, Wechseln, Cambiar,전환,きりかえ
+ See Evaluation, Faire évaluer le Pokédex, Valutazione Pokédex, Pokédex-Bewertung, Evaluación de Pokédex,평가,ひょうか
+You can meet a lot of Pokémon by battling many Trainers!,Affrontez autant de Dresseurs que possible pour croiser davantage de Pokémon !,Lottando con tanti Allenatori puoi incontrare Pokémon che non conosci!,"Du kannst vielen Pokémon begegnen, indem du gegen jede Menge Trainer kämpfst.",Combatir contra muchos Entrenadores te permite cruzarte con Pokémon de todo tipo.,많은 트레이너와 승부를 하다 보면 많은 포켓몬을 만날 수 있습니다!,たくさんの　トレーナーと しょうぶ　することで　おおくの ポケモンと　であえます！
+Some Pokémon tend to run away or are on alert when you use the bike’s bell or whistle through your fingers. You may want to approach them while crouching.,"Si un Pokémon a tendance à s’enfuir, ou est effrayé par le bruit de la sonnette de votre vélo ou vos sifflements, approchez-vous de lui en vous accroupissant.",Se un Pokémon ha la tendenza a scappare puoi provare ad avvicinarti accovacciandoti. Questo metodo funziona anche con i Pokémon allertati dal campanello della bicicletta o dal tuo fischio!,"Bei Pokémon, die schnell weglaufen, kann es von Vorteil sein, sich anzuschleichen. Möchtest du dich einem Pokémon nähern, das durch die Fahrradklingel oder durch Pfeifen aufgeschreckt wurde, hilft anschleichen ebenfalls.",Quizá te convenga caminar en cuclillas para acercarte a los Pokémon más huidizos. Este método también puede serte de utilidad para aquellas especies que se alarman en cuanto oyen silbidos o el timbre de la bicicleta.,도망치는 포켓몬은 몸을 숙이고 접근하는 것이 좋습니다 자전거의 벨을 울리거나 휘파람을 불면 경계하는 포켓몬에게도 몸을 숙이고 몰래 접근하는 것이 좋습니다,にげる　ポケモンには　しゃがんで ちかづいたりすると　いいかもですね じてんしゃの　べルや　ゆびぶえで けいかいした　ポケモンに　しゃがんで こっそり　ちかづくのも　いいですね
+Trading Pokémon with other Trainers can also help you fill your Pokédex. Using Surprise Trade is highly recommended as well.,Les échanges et les Échanges Magiques sont un excellent moyen de remplir le Pokédex.,"Se vuoi completare il Pokédex, ti consiglio anche di scambiare Pokémon con altri Allenatori! E non dimenticarti dello scambio magico!","Du kannst auch Pokémon mit anderen Trainern tauschen, um den Pokédex zu vervollständigen. Der Zaubertausch ist in diesem Zusammenhang ebenfalls zu empfehlen!",¡Intercambiar Pokémon con otros Entrenadores puede ayudarte a completar la Pokédex! El intercambio mágico también es buena idea.,누군가와 포켓몬을 교환해서 도감을 채우는 것도 추천합니다! 매지컬 교환도 좋겠네요,だれかと　ポケモンを　こうかんして ずかんを　うめるのも　おすすめです！ マジカルこうかんも　いいですね
+Some Pokémon can be found by hatching Eggs.,Vous pouvez aussi trouver des Pokémon en faisant éclore des Œufs !,Alcuni Pokémon si possono trovare facendo schiudere le Uova!,"Manche Pokémon findest du, indem du Eier ausbrütest.",Algunos Pokémon se pueden encontrar haciendo eclosionar Huevos.,알을 부화시켜야 발견할 수 있는 포켓몬도 있습니다,タマゴを　かえすことで みつかる　ポケモンも　いますよ
+Do you fish? Quite a lot of Pokémon can be found only by fishing.,Avez-vous essayé de pêcher ? Certains Pokémon ne peuvent être capturés que de cette manière !,Come te la cavi con la pesca? Molti Pokémon si possono incontrare solo pescando!,Angelst du eigentlich? Viele Pokémon lassen sich nämlich nur so ausfindig machen.,¿Sabías que hay muchos Pokémon a los que solo podrás encontrar pescando?,낚시는 하고 있나요? 낚시로만 만날 수 있는 포켓몬도 꽤 많습니다,つりは　していますか？ つりでしか　であえない ポケモンも　けっこう　いますよ
+"Evolving Pokémon is necessary to find some Pokémon. There are many ways to evolve Pokémon, such as using an item.",Certaines espèces ne peuvent être obtenues qu’après en avoir fait évoluer une autre. Il existe différentes manières de faire évoluer un Pokémon. Un objet est parfois nécessaire.,Alcuni Pokémon si possono incontrare solo facendone evolvere altri. L’evoluzione avviene in vari modi. A volte devi usare uno strumento.,"An manche Pokémon gelangst du nur durch Entwicklung. Diese kann bei Pokémon auf unterschiedliche Weise ausgelöst werden, zum Beispiel durch den Einsatz bestimmter Items.","Hay Pokémon que solo se pueden encontrar haciéndolos evolucionar. Las evoluciones se pueden propiciar de diversas maneras, como por ejemplo usando un objeto.","진화를 시켜야만 발견할 수 있는 포켓몬도 있습니다 또, 도구를 사용해야만 진화하는 포켓몬 등 다양한 진화 방법이 있습니다",しんかを　させることでしか みつからない　ポケモンも　います また　どうぐを　つかうことで しんか　する　ポケモンなど いろんな　しんかが　あるようです
+You’re very close to completing your Galar Pokédex! Keep up the good work!,Vous avez presque réussi à remplir le Pokédex de Galar ! Encore un petit effort !,Forza! Ti manca poco per completare il Pokédex di Galar!,Es fehlt nicht mehr viel bis zur Vervollständigung des Galar-Pokédex. Nur weiter so!,Ya te queda poco para completar la Pokédex de Galar. ¡Sigue así!,가라르도감 완성까지 얼마 남지 않았습니다! 파이팅!,ガラルずかん　かんせいまで もうすこし　ですね！　ファイトです
+"Wow! You met all the Pokémon and completed your Galar Pokédex, [VAR TRNAME(0000)]! Congratulations! Well done!",Vous avez complété le Pokédex de Galar ! Félicitations !,"Incredibile! Hai completato il Pokédex di Galar! Complimenti, [VAR TRNAME(0000)]! Sei riuscit[VAR 1100(00FF,0101)]oa a incontrare tutti i Pokémon della regione!",Unglaublich! Du hast den Galar-Pokédex vervollständigt! Ich gratuliere dir von ganzem Herzen zu diesem Erfolg!,"¡Increíble! ¡Has completado la Pokédex de Galar! ¡Muchísimas felicidades por tu loable esfuerzo, [VAR TRNAME(0000)]!",이럴 수가! 가라르도감 완성!! 모든 포켓몬과 만난 [VAR TRNAME(0000)]님의 노고에 진심으로 박수를 보냅니다!,なんと！ ガラルずかん　かんせい！！ すべての　ポケモンと　であった [VAR TRNAME(0000)]さんの　がんばりに こころから　おめでとう　です！
+[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)],[VAR 0105(0000)]
+"Will you fly to [VAR 1300(0000,0000)][VAR 0105(0000)]?",Voulez-vous vous rendre [VAR 01D3(0000)] ?,Destinazione: [VAR 0105(0000)]. Confermi?,„[VAR 0105(0000)]“ heißt also dein Ziel?,"¿Quieres ir hasta [VAR 1700(0000,0000)][VAR 0105(0000)]?",[VAR 0105(0000)][VAR 1900(0005)]로 이동하겠습니까?,[VAR 0105(0000)]へ いどう　しますか？
+Yes,Oui,Sì,Ja,Sí,예,はい
+No,Non,No,Nein,No,아니요,いいえ
+You can’t call a Flying Taxi to where you are now.,Vous ne pouvez pas appeler de taxi volant ici.,Non si può usare qui.,Das lässt sich hier nicht einsetzen.,Aquí no puedes usar eso.,여기서는 쓸 수 없습니다,ここでは　つかえません
+You can’t fly there yet.,Vous ne pouvez pas appeler de taxi volant maintenant.,Non si può usare ora.,Das lässt sich jetzt nicht einsetzen.,Ahora no puedes usarlo.,지금은 쓸 수 없습니다,いまは　つかえません
+Pokédex,Pokédex,Pokédex,Pokédex,Pokédex,포켓몬 도감,ポケモンずかん
+Isle of Armor Pokédex,Pokédex d’Isolarmure,Pokédex Armatura,Rüstungs-Pokédex,Pokédex Armadura,갑옷섬도감,ヨロイじまずかん
+Crown Tundra Pokédex,Pokédex de Couronneige,Pokédex Corona,Kronen-Pokédex,Pokédex Corona,왕관설원도감,カンムリせつげんずかん
+Pokédex,Pokédex,Pokédex,Pokédex,Pokédex,포켓몬 도감,ポケモンずかん
+Isle of Armor Pokédex,Pokédex d’Isolarmure,Pokédex Armatura,Rüstungs-Pokédex,Pokédex Armadura,갑옷섬도감,ヨロイじまずかん
+Crown Tundra Pokédex,Pokédex de Couronneige,Pokédex Corona,Kronen-Pokédex,Pokédex Corona,왕관설원도감,カンムリせつげんずかん
+Walk every nook and cranny of the Isle of Armor and meet a lot of Pokémon!,Explorez d’abord chaque recoin d’Isolarmure pour rencontrer un tas de nouveaux Pokémon !,Per prima cosa esplora l’Isola dell’Armatura in lungo e in largo per incontrare vari Pokémon!,Erkunde jeden Winkel der Rüstungsinsel und begegne so vielen Pokémon wie möglich!,Explora de cabo a rabo la Isla de la Armadura y descubre un montón de Pokémon.,우선 갑옷섬 구석구석을 돌아다니면서 다양한 포켓몬과 만나봅시다!,まずは　ヨロイじまを すみずみまで　あるきまわって いろいろな　ポケモンと であいましょう！
+"If you whistle through your fingers, Pokémon around you might come near you.","Si vous sifflez, les Pokémon des alentours se précipiteront peut-être dans votre direction !","Se fischi con le dita, i Pokémon nei dintorni potrebbero avvicinarsi a te!","Durch Pfeifen kannst du Pokémon, die sich in deiner Umgebung befinden, zu dir locken!","Si silbas, te resultará más fácil llamar la atención de los Pokémon que estén cerca.",휘파람을 불면 주위에 있는 포켓몬이 다가올 때도 있습니다!,ゆびぶえを　ならすと まわりの　ポケモンが ちかづいてくることも　ありますよ！
+"Some people you meet on the Isle of Armor are happy to show you their Pokémon. Once you see a Pokémon, you can check its habitat in your Pokédex!",Certains Dresseurs d’Isolarmure se feront une joie de vous montrer leurs Pokémon. Vous pourrez ensuite consulter votre Pokédex pour savoir où capturer ces derniers.,Può capitare che gli abitanti dell’Isola dell’Armatura ti mostrino dei Pokémon! Basta vederli una sola volta per poter consultare informazioni sul loro habitat dal Pokédex!,"Manche Leute auf der Rüstungsinsel sind so freundlich, dir ihre Pokémon zu zeigen. Hast du ein Pokémon einmal gesehen, kannst du im Pokédex sein Habitat überprüfen!","En tu recorrido, encontrarás Entrenadores que querrán mostrarte sus Pokémon. Basta avistar un Pokémon para poder consultar su hábitat en la Pokédex.",포켓몬을 보여주는 사람이 갑옷섬에 있을 때가 있습니다! 한 번 포켓몬을 보면 도감에서 서식지를 확인할 수 있게 됩니다!,ポケモンを　みせてくれる　ひとが ヨロイじまに　いることが　あります！ いちど　ポケモンを　みれば ずかんで　せいそくちを しらべられるように　なりますよ！
+You’re very close to completing your Isle of Armor Pokédex! Keep up the good work!,Vous avez presque réussi à remplir le Pokédex d’Isolarmure ! Encore un petit effort !,Forza! Ti manca poco per completare il Pokédex dell’Isola dell’Armatura!,Es fehlt nicht mehr viel bis zur Vervollständigung des Rüstungs-Pokédex. Nur weiter so!,¡Ánimo! ¡Ya te falta poco para completar la Pokédex Armadura!,갑옷섬도감 완성까지 얼마 남지 않았습니다! 파이팅!,ヨロイじまずかん　かんせいまで もうすこし　ですね！　ファイトです
+"Wow! You met all the Pokémon and completed your Isle of Armor Pokédex, [VAR TRNAME(0000)]! Congratulations! Well done!",Vous avez complété le Pokédex d’Isolarmure ! Félicitations !,"Incredibile! Hai completato il Pokédex dell’Isola dell’Armatura! Complimenti, [VAR TRNAME(0000)]! Sei riuscit[VAR 1100(00FF,0101)]oa a incontrare tutti i Pokémon del territorio!",Unglaublich! Du hast den Rüstungs-Pokédex vervollständigt! Ich gratuliere dir von ganzem Herzen zu diesem Erfolg!,"¡Increíble! Has avistado y atrapado a todos los Pokémon de la zona, lo que significa que... ¡Has completado la Pokédex Armadura! ¡Enhorabuena, [VAR TRNAME(0000)]!",이럴 수가! 갑옷섬도감 완성!! 모든 포켓몬과 만난 [VAR TRNAME(0000)]님의 노고에 진심으로 박수를 보냅니다!,なんと！ ヨロイじまずかん　かんせい！！ すべての　ポケモンと　であった [VAR TRNAME(0000)]さんの　がんばりに こころから　おめでとう　です！
+Walk every nook and cranny of the Crown Tundra and meet a lot of Pokémon!,Explorez d’abord chaque recoin de Couronneige pour rencontrer un tas de nouveaux Pokémon !,Per prima cosa esplora la Landa Corona in lungo e in largo per incontrare vari Pokémon!,Erkunde jeden Winkel der Kronen-Schneelande und begegne so vielen Pokémon wie möglich!,Explora de cabo a rabo las Nieves de la Corona y descubre un montón de Pokémon.,우선 왕관설원 구석구석을 돌아다니면서 다양한 포켓몬과 만나봅시다!,まずは　カンムリせつげんを すみずみまで　あるきまわって いろいろな　ポケモンと であいましょう！
+"If you whistle through your fingers, Pokémon around you might come near you.","Si vous sifflez, les Pokémon des alentours se précipiteront peut-être dans votre direction !","Se fischi con le dita, i Pokémon nei dintorni potrebbero avvicinarsi a te!","Durch Pfeifen kannst du Pokémon, die sich in deiner Umgebung befinden, zu dir locken!","Si silbas, te resultará más fácil llamar la atención de los Pokémon que estén cerca.",휘파람을 불면 주위에 있는 포켓몬이 다가올 때도 있습니다!,ゆびぶえを　ならすと まわりの　ポケモンが ちかづいてくることも　ありますよ！
+"If you explore all that Dynamax Adventures have to offer, you might meet some more species of Pokémon for your Crown Tundra Pokédex!",Participez-vous aux expéditions Dynamax ? Vous y croiserez peut-être des Pokémon que vous pourrez enregistrer dans votre Pokédex de Couronneige !,"Se ti cimenti in un’Avventura Dynamax, potresti imbatterti in Pokémon da registrare nel Pokédex della Landa Corona!","Auf Dynamax-Abenteuern kannst du Pokémon begegnen, die du vielleicht noch nicht im Kronen-Pokédex registriert hast!",Participar en Aventuras Dinamax también es una buena forma de ir registrando Pokémon de cara a completar la Pokédex Corona.,다이맥스 어드벤처에서 탐험을 하면 왕관설원도감에 등록할 수 있는 포켓몬을 만날 수 있을지도 모릅니다!,ダイマックスアドベンチャーで たんけん　すれば カンムリせつげんずかんに　とうろくできる ポケモンに　であえるかも　しれませんよ！
+You’re very close to completing your Crown Tundra Pokédex! Keep up the good work!,Vous avez presque réussi à remplir le Pokédex de Couronneige ! Encore un petit effort !,Forza! Ti manca poco per completare il Pokédex della Landa Corona!,Es fehlt nicht mehr viel bis zur Vervollständigung des Kronen-Pokédex. Nur weiter so!,¡Ánimo! ¡Ya te falta poco para completar la Pokédex Corona!,왕관설원도감 완성까지 얼마 남지 않았습니다! 파이팅!,カンムリせつげんずかん　かんせいまで もうすこし　ですね！　ファイトです
+"Wow! You met all the Pokémon and completed your Crown Tundra Pokédex, [VAR TRNAME(0000)]! Congratulations! Well done!",Vous avez complété le Pokédex de Couronneige ! Félicitations !,"Incredibile! Hai completato il Pokédex della Landa Corona! Complimenti, [VAR TRNAME(0000)]! Sei riuscit[VAR 1100(00FF,0101)]oa a incontrare tutti i Pokémon del territorio!",Unglaublich! Du hast den Kronen-Pokédex vervollständigt! Ich gratuliere dir von ganzem Herzen zu diesem Erfolg!,"¡Increíble! Has avistado y atrapado a todos los Pokémon de la zona, lo que significa que... ¡Has completado la Pokédex Corona! ¡Enhorabuena, [VAR TRNAME(0000)]!",이럴 수가! 왕관설원도감 완성!! 모든 포켓몬과 만난 [VAR TRNAME(0000)]님의 노고에 진심으로 박수를 보냅니다!,なんと！ カンムリせつげんずかん　かんせい！！ すべての　ポケモンと　であった [VAR TRNAME(0000)]さんの　がんばりに こころから　おめでとう　です！

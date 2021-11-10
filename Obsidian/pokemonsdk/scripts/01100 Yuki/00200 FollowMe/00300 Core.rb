@@ -229,9 +229,11 @@ module Yuki
     end
 
     # Test if a character is a Follower of the player
-    def is_player_follower?(c)
-      return unless @followers
-      return @followers.include?(c)
+    # @param character [Game_Character]
+    def is_player_follower?(character)
+      return false unless @followers
+
+      return @followers.any? { |follower_sprite| follower_sprite.character == character }
     end
 
     # Set the Follower Manager in Battle mode. When getting out of battle every character will get its particle pushed.
@@ -280,4 +282,4 @@ Hooks.register(Spriteset_Map, :init_player_begin, 'Yuki::FollowMe') do
   Yuki::FollowMe.update
   Yuki::FollowMe.particle_push
 end
-Hooks.register(Spriteset_Map, :update, 'Yuki::FollowMe') { Yuki::FollowMe.update }
+Hooks.register(Spriteset_Map, :update_fps_balanced, 'Yuki::FollowMe') { Yuki::FollowMe.update }

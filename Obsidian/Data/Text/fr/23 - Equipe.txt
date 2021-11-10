@@ -1,0 +1,213 @@
+0 : OK
+1 : Retour
+2 : L
+3 : [VAR NUM3(0000)]
+4 : Résumé
+5 : Capacité
+6 : Soigner
+7 : Objet
+8 : Déplacer
+9 : Utiliser/Donner
+10 : [VAR COLOR(0002)]Grand Envol[VAR COLOR(0000)]
+11 : [VAR PKNICK(0000)]
+12 : [VAR NUM3(0000)]
+13 : [VAR NUM3(0000)]
+14 : /
+15 : [VAR COLOR(0002)]♂[VAR COLOR(0000)]
+16 : [VAR COLOR(0001)]♀[VAR COLOR(0000)]
+17 : Veuillez choisir un Pokémon.
+18 : Veuillez choisir un Pokémon.
+19 : Quel Pokémon voulez-vous déplacer ?
+20 : Quel objet voulez-vous déplacer ?
+21 : Avec qui doit-il changer de place ?
+22 : Où voulez-vous placer cet objet ?
+23 : Quel Pokémon va tenir l’objet ?
+24 : Sur quel Pokémon voulez-vous l’utiliser ?
+25 : Quel Pokémon va l’apprendre ?
+26 : Confirmer le choix du Pokémon.
+27 : Quel Pokémon voulez-vous déposer ?
+28 : Sur quel Pokémon voulez-vous l’utiliser ?
+29 : [~ 29]
+30 : [VAR PKNICK(0000)] sélectionné.
+31 : Quelle capacité voulez-vous que [VAR PKNICK(0000)] utilise ?
+32 : [~ 32]
+33 : [~ 33]
+34 : Quelle capacité voulez-vous restaurer ?
+35 : De quelle capacité voulez-vous augmenter les PP ?
+36 : Permet de choisir dans votre Sac un objet à utiliser ou à faire tenir à un Pokémon.
+37 : Permet de ranger dans le Sac l’objet tenu par le Pokémon.
+38 : Permet de déplacer l’objet tenu par un Pokémon.
+39 : [~ 39]
+40 : [~ 40]
+41 : [~ 41]
+42 : [~ 42]
+43 : [~ 43]
+44 : [~ 44]
+45 : [~ 45]
+46 : [~ 46]
+47 : [~ 47]
+48 : [~ 48]
+49 : [~ 49]
+50 : [~ 50]
+51 : [~ 51]
+52 : [~ 52]
+53 : [~ 53]
+54 : [~ 54]
+55 : [~ 55]
+56 : [~ 56]
+57 : [~ 57]
+58 : [~ 58]
+59 : [~ 59]
+60 : [VAR PKNICK(0000)] récupère [VAR NUM3(0001)] PV.
+61 : [~ 61]
+62 : [~ 62]
+63 : [~ 63]
+64 : [~ 64]
+65 : [~ 65]
+66 : [~ 66]
+67 : [~ 67]
+68 : [~ 68]
+69 : [~ 69]
+70 : [~ 70]
+71 : [~ 71]
+72 : Vous devez obtenir un autre Badge pour pouvoir l’utiliser.
+73 : [~ 73]
+74 : [~ 74]
+75 : [~ 75]
+76 : [~ 76]
+77 : [VAR PKNICK(0000)] ne tient rien.
+78 : [VAR PKNICK(0000)] vous a remis [VAR 1400(0001)][VAR ITEM2(0001)] !
+79 : Vous ne pouvez pas porter plus d’exemplaires de cet objet.
+80 : Il vous a donné [VAR 1400(0001)][VAR ITEM2(0001)] et a pris [VAR 1400(0002)][VAR ITEM2(0002)] !
+81 : [~ 81]
+82 : [~ 82]
+83 : [~ 83]
+84 : Voulez-vous annuler votre défi ?
+85 : Oui
+86 : Non
+87 : [~ 87]
+88 : [~ 88]
+89 : Oui
+90 : Non
+91 : [~ 91]
+92 : Oui
+93 : Non
+94 : Seuls deux Pokémon peuvent participer.
+95 : Vous surfez déjà.
+96 : Impossible ici.
+97 : Cela n’aura aucun effet.
+98 : Impossible à utiliser sur un Pokémon K.O.
+99 : Impossible de les séparer car votre équipe est pleine.
+100 : Impossible de fusiorber avec ce Pokémon.
+101 : Impossible de fusiorber avec un Pokémon K.O.
+102 : Impossible de fusiorber avec un Œuf.
+103 : Il faut deux Pokémon.
+104 : [~ 104]
+105 : [~ 105]
+106 : [~ 106]
+107 : [~ 107]
+108 : [~ 108]
+109 : Impossible de donner l’Orbe Platiné à Giratina !
+110 : Veuillez choisir un Pokémon.
+111 : Il faut deux Pokémon.
+112 : Il faut trois Pokémon.
+113 : Il faut quatre Pokémon.
+114 : Il faut cinq Pokémon.
+115 : Il faut six Pokémon.
+116 : Seul un Pokémon peut participer.
+117 : Seuls deux Pokémon peuvent participer.
+118 : Seuls trois Pokémon peuvent participer.
+119 : Seuls quatre Pokémon peuvent participer.
+120 : Seuls cinq Pokémon peuvent participer.
+121 : [~ 121]
+122 : [~ 122]
+123 : C’est inutilisable sur ce Pokémon.
+124 : [~ 124]
+125 : Oui
+126 : Non
+127 : [~ 127]
+128 : Oui
+129 : Non
+130 : Pas assez de PV…
+131 : [~ 131]
+132 : [~ 132]
+133 : [~ 133]
+134 : [~ 134]
+135 : [~ 135]
+136 : [~ 136]
+137 : Déposer
+138 : Retour
+139 : Échanger
+140 : Inscrire
+141 : Désinscrire
+142 : [VAR MOVE(0000)]
+143 : [VAR MOVE(0000)]
+144 : [VAR MOVE(0000)]
+145 : [VAR MOVE(0000)]
+146 : Donner
+147 : Prendre
+148 : [VAR MOVE(0000)]
+149 : [VAR MOVE(0000)]
+150 : [VAR MOVE(0000)]
+151 : [VAR MOVE(0000)]
+152 : Déplacer
+153 : Disponible
+154 : Interdit
+155 : [VAR COLOR(0002)]1[VAR COLOR(0000)]
+156 : [VAR COLOR(0002)]2[VAR COLOR(0000)]
+157 : [VAR COLOR(0002)]3[VAR COLOR(0000)]
+158 : [VAR COLOR(0002)]4[VAR COLOR(0000)]
+159 : [VAR COLOR(0002)]5[VAR COLOR(0000)]
+160 : [VAR COLOR(0002)]6[VAR COLOR(0000)]
+161 : Apte
+162 : Pas apte
+163 : Appris
+164 : [~ 164]
+165 : [~ 165]
+166 : [~ 166]
+167 : [~ 167]
+168 : Vous ne pouvez pas inscrire deux Pokémon identiques.
+169 : Les objets tenus par les Pokémon doivent être différents.
+170 : Le total des niveaux de tous les membres de l’équipe dépasse [VAR NUM3(0000)].
+171 : Il y a 3 Pokémon légendaires ou plus.
+172 : Vous n’avez pas choisi les Pokémon devant participer.
+173 : [~ 173]
+174 : [~ 174]
+175 : [~ 175]
+176 : [~ 176]
+177 : [~ 177]
+178 : [~ 178]
+179 : [~ 179]
+180 : [~ 180]
+181 : [~ 181]
+182 : [~ 182]
+183 : [~ 183]
+184 : [~ 184]
+185 : [~ 185]
+186 : [~ 186]
+187 : [~ 187]
+188 : [~ 188]
+189 : [~ 189]
+190 : [VAR PKNAME(0000)] a changé de forme !
+191 : Impossible de faire tenir [VAR 1400(0001)][VAR ITEM2(0001)] à [VAR PKNICK(0000)] !
+192 : [~ 192]
+193 : [~ 193]
+194 : [~ 194]
+195 : [~ 195]
+196 : [~ 196]
+197 : Temps restant
+198 : [VAR NUM2(0000)]:[VAR NUM2(0001)]
+199 : [VAR NUM2(0001)]
+200 : Communication en cours…
+201 : En attente…
+202 : Oui
+203 : Non
+204 : [~ 204]
+205 : Handicap
+206 : [VAR TRNAME(0000)]
+207 : [VAR NUM1(0000)]
+208 : [VAR NUM1(0000)]
+209 : Confirmer
+210 : Vous avez trop de Pokémon spéciaux.
+211 : Vous ne pouvez pas encore l’utiliser.
+212 : [VAR COLOR(0002)]Inscrire[VAR COLOR(0000)]

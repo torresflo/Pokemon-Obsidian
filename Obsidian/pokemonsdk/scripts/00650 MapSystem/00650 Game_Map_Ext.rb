@@ -9,13 +9,16 @@ class Game_Map
   # @return [Integer]
   # @author Nuri Yuri
   def system_tag(x, y)
+    return Yuki::MapLinker.system_tag(x, y) unless valid?(x, y)
+
     if @map_id != 0
-      tiles = self.data
+      tiles = data
       2.downto(0) do |i|
         tile_id = tiles[x, y, i]
         return 0 unless tile_id
+
         tag_id = @system_tags[tile_id]
-        return tag_id if tag_id and tag_id > 0
+        return tag_id if tag_id && tag_id > 0
       end
     end
     return 0
@@ -28,8 +31,10 @@ class Game_Map
   # @return [Boolean]
   # @author Nuri Yuri
   def system_tag_here?(x, y, tag)
+    return Yuki::MapLinker.system_tag_here?(x, y) unless valid?(x, y)
+
     if @map_id != 0
-      tiles = self.data
+      tiles = data
       2.downto(0) do |i|
         tile_id = tiles[x, y, i]
         next unless tile_id
@@ -42,13 +47,8 @@ class Game_Map
   # Loads the SystemTags of the map
   # @author Nuri Yuri
   def load_systemtags
+    $data_system_tags[@map.tileset_id] ||= Array.new($data_tilesets[@map.tileset_id].priorities.xsize, 0)
     @system_tags = $data_system_tags[@map.tileset_id]
-    unless @system_tags
-      print "Les tags du tileset #{@map.tileset_id} n'existent pas. 
-PSDK va entrer en configuration des SystemTags merci de les sauvegarder"
-      Yuki::SystemTagEditor.start
-      @system_tags = $data_system_tags[@map.tileset_id]
-    end
   end
 
   # Retrieve the id of a specific tile
@@ -115,6 +115,46 @@ PSDK va entrer en configuration des SystemTags merci de les sauvegarder"
     # 通行可
     return true
   end
+
+  # Return the current location type
+  # @return [Symbol]
+  def location_type(x, y)
+    zone = $env.current_zone_data
+    location = zone.global_location_type if zone.respond_to?(:global_location_type) # @todo add global_location_type to GameData::Zone
+    location ||= TERRAIN_TAGS_TABLE.select { |tag, _location| system_tag_here?(x, y, tag) }.values[0]
+    location ||= zone.default_location_type if zone.respond_to?(:default_location_type) # @todo add default_location_type to GameData::Zone
+    location ||= :__undef__
+    return location
+  end
+
+  # Convert terrain tag to location symbol
+  # @return [Hash<Integer, Symbol>]
+  TERRAIN_TAGS_TABLE = {
+    GameData::SystemTags::TGrass => :grass,
+    GameData::SystemTags::TTallGrass => :grass,
+    GameData::SystemTags::HeadButt => :grass,
+
+    GameData::SystemTags::TSnow => :snow,
+
+    GameData::SystemTags::TPond => :shallow_water,
+    GameData::SystemTags::TWetSand => :shallow_water,
+    GameData::SystemTags::SwampBorder => :shallow_water,
+    GameData::SystemTags::DeepSwamp => :shallow_water,
+
+    GameData::SystemTags::TSand => :desert,
+
+    GameData::SystemTags::TCave => :cave,
+    GameData::SystemTags::TMount => :cave,
+
+    GameData::SystemTags::TIce => :icy_cave,
+
+    GameData::SystemTags::TSea => :water,
+    GameData::SystemTags::WaterFall => :water,
+    GameData::SystemTags::RapidsL => :water,
+    GameData::SystemTags::RapidsD => :water,
+    GameData::SystemTags::RapidsU => :water,
+    GameData::SystemTags::RapidsR => :water
+  }
 
   # List of variable to remove in order to keep the map data safe
   IVAR_TO_REMOVE_FROM_SAVE_FILE = %i[@map @tileset_name @autotile_names @panorama_name @panorama_hue @fog_name @fog_hue @fog_opacity @fog_blend_type @fog_zoom @fog_sx @fog_sy @battleback_name @passages @priorities @terrain_tags @events @common_events @system_tags]
@@ -210,7 +250,10 @@ PSDK va entrer en configuration des SystemTags merci de les sauvegarder"
   # Method that load the event
   def load_events
     return unless @events_info
+
     $game_player.z = @events_info[:player]
+    return if PSDK_CONFIG.debug? && $game_system.magic_number != $data_system.magic_number
+
     @events_info.each do |id, info|
       next unless (event = @events[id])
       next unless event.original_map == @map_id
@@ -222,7 +265,9 @@ PSDK va entrer en configuration des SystemTags merci de les sauvegarder"
       event.clear_starting
       event.check_event_trigger_auto
     end
+  ensure
     $game_player.check_event_trigger_here([1, 2])
     @events_info = nil
+    $game_system.magic_number = $data_system.magic_number
   end
 end

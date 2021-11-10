@@ -80,7 +80,7 @@ class Game_Character
     @sliding_parameter = nil # Variable giving extra information for sliding
     @pattern_state = false # Indicateur de la direction du pattern
     @can_make_footprint = true
-    @reflection_enabled = true
+    @reflection_enabled = $game_player&.reflection_enabled 
   end
 
   # Set the move_frequency (and define the max_stop_count value)
@@ -135,6 +135,11 @@ class Game_Character
     moveto_system_tag_manage
   end
 
+  # Change the reflection of a Game_Character
+  def reflection_enabled=(bool)
+    @reflection_enabled = bool
+  end
+
   private
 
   # Array used to detect if a character is on a bridge tile
@@ -183,13 +188,13 @@ class Game_Character
   # Return the x position of the sprite on the screen
   # @return [Integer]
   def screen_x
-    return (@real_x - $game_map.display_x + 5) / 4 + 16 # +3 => +5
+    return (@real_x - $game_map.display_x + 3) / 4 + 16
   end
 
   # Return the y position of the sprite on the screen
   # @return [Integer]
   def screen_y
-    y = (@real_y - $game_map.display_y + 5) / 4 + 32 # +3 => +5
+    y = (@real_y - $game_map.display_y + 3) / 4 + 32
     y += @offset_screen_y if @offset_screen_y
     y += @slope_offset_y if @slope_offset_y
     if @jump_count >= @jump_peak
@@ -203,13 +208,13 @@ class Game_Character
   # Return the x position of the shadow of the character on the screen
   # @return [Integer]
   def shadow_screen_x
-    return (@real_x - $game_map.display_x + 5) / 4 + 16 # +3 => +5
+    return (@real_x - $game_map.display_x + 3) / 4 + 16
   end
 
   # Return the y position of the shadow of the character on the screen
   # @return [Integer]
   def shadow_screen_y
-    return (@real_y - $game_map.display_y + 5) / 4 + 34 + (@offset_shadow_screen_y || 0) + (@slope_offset_y || 0) # +3 => +5
+    return (@real_y - $game_map.display_y + 3) / 4 + 34 + (@offset_shadow_screen_y || 0) + (@slope_offset_y || 0) # +3 => +5
   end
 
   # Return the z superiority of the sprite of the character
@@ -218,7 +223,7 @@ class Game_Character
   def screen_z(_height = 0)
     return 999 if @always_on_top
     z = (@real_y - $game_map.display_y + 3) / 4 + 32 * @z
-    return z + $game_map.priorities[@tile_id] * 32 if @tile_id > 0
+    return z + $game_map.priorities[@tile_id].to_i * 32 if @tile_id > 0
     return z + 31
     # return z + ((height > 64) ? 31 : 0)
   end

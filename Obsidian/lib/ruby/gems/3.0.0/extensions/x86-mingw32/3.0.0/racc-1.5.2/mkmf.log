@@ -1,0 +1,39 @@
+have_func: checking for rb_ary_subseq()... -------------------- yes
+
+"i686-w64-mingw32-gcc -o conftest.exe -IC:/Ruby30/include/ruby-3.0.0/i386-mingw32 -IC:/Ruby30/include/ruby-3.0.0/ruby/backward -IC:/Ruby30/include/ruby-3.0.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby30/lib -L. -pipe -s -fstack-protector-strong     -lmsvcrt-ruby300  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+"i686-w64-mingw32-gcc -o conftest.exe -IC:/Ruby30/include/ruby-3.0.0/i386-mingw32 -IC:/Ruby30/include/ruby-3.0.0/ruby/backward -IC:/Ruby30/include/ruby-3.0.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby30/lib -L. -pipe -s -fstack-protector-strong     -lmsvcrt-ruby300  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_ary_subseq; return !p; }
+/* end */
+
+--------------------
+

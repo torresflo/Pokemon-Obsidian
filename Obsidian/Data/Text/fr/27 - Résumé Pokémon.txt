@@ -1,0 +1,65 @@
+0 : Nº Pokédex
+1 : [VAR NUM3(0000)]
+2 : Nom
+3 : Type
+4 : [VAR COLOR(0002)]♂[VAR COLOR(0000)]
+5 : [VAR COLOR(0001)]♀[VAR COLOR(0000)]
+6 : [~ 6]
+7 : -
+8 : D.O.
+9 : Nº ID
+10 : Points Exp.
+11 : [VAR NUM7(0000,E07F)]
+12 : Niveau suivant
+13 : 
+14 : [VAR NUM7(0000,E07F)]
+15 : PV
+16 : [VAR NUM3(0000)]
+17 : [VAR NUM3(0000)]
+18 : Attaque
+19 : [VAR NUM3(0000)]
+20 : Défense
+21 : [VAR NUM3(0000)]
+22 : Atq. Spé.
+23 : [VAR NUM3(0000)]
+24 : Déf. Spé.
+25 : [VAR NUM3(0000)]
+26 : Vitesse
+27 : [VAR NUM3(0000)]
+28 : [~ 28]
+29 : N.
+30 : [VAR NUM3(0000)]
+31 : [~ 31]
+32 : PP
+33 : /
+34 : [VAR NUM2(0000)]
+35 : [VAR NUM2(0000)]
+36 : Catégorie
+37 : Puissance
+38 : [VAR NUM3(0000)]
+39 : Précision
+40 : [VAR NUM3(0000)]
+41 : [~ 41]
+42 : [VAR NUM2(0000)]
+43 : 
+44 : [VAR PKNICK(0000)]
+45 : [VAR PKNAME(0000)]
+46 : [VAR ITEM2(0000)]
+47 : [VAR TRNAME(0000)]
+48 : [VAR NUM5(0000,0000)]
+49 : [VAR ABILITY(0000)]
+50 : [VAR MOVE(0000)]
+51 : ???
+52 : Permet de changer l’ordre des capacités.
+53 : Où voulez-vous placer la capacité ?
+54 : [~ 54]
+55 : [~ 55]
+56 : [~ 56]
+57 : [~ 57]
+58 : [~ 58]
+59 : [~ 59]
+60 : Effet
+61 : Démonstration
+62 : Blocage
+63 : Capacités
+64 : Rubans

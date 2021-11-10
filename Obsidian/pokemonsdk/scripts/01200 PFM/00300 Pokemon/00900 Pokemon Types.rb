@@ -145,7 +145,7 @@ module PFM
     # @param type [Integer] ID of the type in the database
     # @return [Boolean]
     def type?(type)
-      return (type1 == type || type2 == type || type3 == type)
+      return (type1 == type || type2 == type || (type3 == type && type != 0))
     end
   end
 end

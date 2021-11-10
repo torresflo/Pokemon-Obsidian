@@ -4,7 +4,6 @@ module PFM
   # The global object is stored in $pokemon_party
   # @author Nuri Yuri
   class Pokemon_Party
-    include GameData::PokemonParty
     # Constant containing all the proc to call when creating a new Pokemon_Party object (for battle)
     ON_INITIALIZE = {}
     # Constant containing all the proc to call when creating a new Pokemon_Party object (for the player)
@@ -267,6 +266,7 @@ module PFM
 
     def battle_starting_update
       return if cant_process_event_tasks?
+
       encounter_count = $game_player.encounter_count
       if !$game_system.encounter_disabled && ((@steps % encounter_count) == 0) && @wild_battle.available?
         $game_system.map_interpreter.launch_common_event(1) unless $game_system.map_interpreter.running?
@@ -281,11 +281,15 @@ module PFM
       psn_event = false
       @actors.each do |pokemon|
         next unless pokemon.poisoned? || pokemon.toxic?
+        next if pokemon.ability_db_symbol == :immunity
 
         $scene.delay_display_call(:display_poison_animation) unless psn_event
         psn_event = true
         pokemon.hp -= (pokemon.toxic? ? 2 : 1)
-        next unless pokemon.hp <= 1
+        if pokemon.hp <= 0 && $game_switches[::Yuki::Sw::OW_Poison]
+          $scene.delay_display_call(:display_poison_faint, pokemon)
+        end
+        next unless pokemon.hp <= 1 && !$game_switches[::Yuki::Sw::OW_Poison]
 
         pokemon.hp = 1
         pokemon.cure
@@ -293,6 +297,9 @@ module PFM
       end
       nuzlocke.clear_dead_pokemon if nuzlocke.enabled?
     end
+
+    # Abilities that increase the hatch speed
+    FASTER_HATCH_ABILITIES = %i[magma_armor flame_body steam_engine]
 
     # Update the remaining steps of all the Egg to hatch
     def hatch_check_update
@@ -313,10 +320,15 @@ module PFM
 
     # Update the loyalty process of the pokemon
     def loyalty_update
-      return unless (@steps - (@steps / 512) * 512) == 0
+      return unless (@steps - (@steps / 128) * 128) == 0 && rand(2) == 0
       return if cant_process_event_tasks?
 
-      @actors.each { |pokemon| pokemon.loyalty += 1 }
+      @actors.each do |pokemon|
+        value = pokemon.loyalty < 200 ? 2 : 1
+        value *= 2 if GameData::Item.db_symbol(pokemon.captured_with) == :luxury_ball
+        value *= 1.5 if pokemon.item_db_symbol == :soothe_bell
+        pokemon.loyalty += value.floor
+      end
     end
 
     # Tell if EventTasks can't process

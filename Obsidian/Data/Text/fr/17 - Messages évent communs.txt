@@ -1,0 +1,14 @@
+0 : C’est plein d’objets Pokémon colorés.
+1 : C’est rempli de livres et d’albums photo sur les Pokémon.
+2 : Il y a plein d’objets bien rangés là-dedans.
+3 : C’est plein d’objets utiles ! Ça donne envie de tout emporter.
+4 : C’est encombré par toutes sortes d’objets Pokémon.
+5 : Seraient-ce des livres pour Pokémon ?
+6 : La poubelle est vide.
+7 : Ce sont des albums de Pokémon.
+8 : Il y a toutes sortes de livres.
+9 : Des magazines Pokémon ! « Nos Amis Les Pokémon »… « Manuel Pokémon »… « Graine de Pokémon »…
+10 : Ce vase semble avoir de la valeur. Étrangement, il est vide.
+11 : C’est vide.
+12 : C’est encombré par toutes sortes d’objets Pokémon.
+13 : On dirait un plan de montage… C’est incompréhensible !

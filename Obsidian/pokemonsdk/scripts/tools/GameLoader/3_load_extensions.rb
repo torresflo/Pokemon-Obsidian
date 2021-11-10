@@ -1,6 +1,7 @@
 # Load the extensions
 begin
   $DEBUG = false
+  STDERR.reopen(IO::NULL) if File.exist?('Data/Scripts.dat') # This should remove SFML messages (most of the time they're success)
   ENV['__GL_THREADED_OPTIMIZATIONS'] = '0'
   require 'zlib'
   require 'socket'
@@ -10,14 +11,15 @@ begin
   require 'csv'
   require 'json'
   require 'yaml'
-  require 'rexml/document'
-  require PSDK_RUNNING_UNDER_WINDOWS ? './lib/LiteRGSS.so' : 'LiteRGSS'
+  game_deps = ENV['GAMEDEPS'] || '.'
+  # require 'rexml/document'
+  require PSDK_RUNNING_UNDER_WINDOWS ? "#{game_deps}/lib/LiteRGSS.so" : './LiteRGSS'
   # Attempt to load audio
   begin
-    require PSDK_RUNNING_UNDER_WINDOWS ? './lib/RubyFmod.so' : 'RubyFmod'
+    require PSDK_RUNNING_UNDER_WINDOWS ? "#{game_deps}/lib/RubyFmod.so" : './RubyFmod'
   rescue LoadError
     begin
-      require PSDK_RUNNING_UNDER_WINDOWS ? './lib/SFMLAudio.so' : 'SFMLAudio'
+      require PSDK_RUNNING_UNDER_WINDOWS ? "#{game_deps}/lib/SFMLAudio.so" : './SFMLAudio'
     rescue LoadError
       puts 'Could not load Audio'
     end
@@ -25,19 +27,6 @@ begin
 rescue LoadError
   display_game_exception('An error occured during extensions loading.')
 end
-
-# Class that describe a Color (compatibility with RGSS load data)
-class ::Color < LiteRGSS::Color
-  # Do nothing
-end
-
-# Class that describe a Tone (compatibility with RGSS load data)
-class ::Tone < LiteRGSS::Tone
-  # Do nothing
-end
-
-# Include all the liteRGSS classes to the current module
-include LiteRGSS
 
 # Store the RGSS Main entry function
 def rgss_main

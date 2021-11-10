@@ -13,6 +13,9 @@ module PFM
     # If the bag is locked (and react as being empty)
     # @return [Boolean]
     attr_accessor :locked
+    # Set the last battle item
+    # @return [Integer]
+    attr_accessor :last_battle_item_id
     # Number of shortcut
     SHORTCUT_AMOUNT = 4
     # Create a new Bag
@@ -23,6 +26,7 @@ module PFM
       @last_index = 0
       @shortcut = Array.new(SHORTCUT_AMOUNT, 0)
       @locked = false
+      @last_battle_item_id = 0
     end
 
     # If the bag contain a specific item
@@ -122,6 +126,12 @@ module PFM
       return @shortcut
     end
     alias get_shortcuts shortcuts
+
+    # Get the last battle item
+    # @return [GameData::Item]
+    def last_battle_item
+      GameData::Item[@last_battle_item_id || 0]
+    end
 
     private
 

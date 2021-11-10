@@ -1,0 +1,47 @@
+0 : [VAR PKNICK(0000)]
+1 : Objet
+2 : [VAR 0109(0000)]
+3 : [VAR PKNAME(0000)]
+4 : Nº [VAR NUM3(0000)]
+5 : [~ 5]
+6 : [~ 6]
+7 : [VAR NUM2(0000)]
+8 : [~ 8]
+9 : [VAR MOVE(0000)]
+10 : PP
+11 : /
+12 : PV
+13 : Attaque
+14 : Défense
+15 : Atq. Spé.
+16 : Déf. Spé.
+17 : Vitesse
+18 : Talent
+19 : [VAR ABILITY(0000)]
+20 : Puissance
+21 : Précision
+22 : -
+23 : Voulez-vous que le Pokémon se souvienne de [VAR MOVE(0000)] ?
+24 : Oui
+25 : Non
+26 : Voulez-vous renoncer à ce que [VAR PKNICK(0000)] se souvienne d’une capacité ?
+27 : [VAR PKNICK(0000)] s’est souvenu de la capacité [VAR MOVE(0001)] ![VAR BE05(0004)][VAR BE05(0006)]
+28 : Choisissez une capacité à lui faire oublier pour laisser place à [VAR MOVE(0000)].
+29 : 1[WAIT 20], 2[WAIT 20], ...[WAIT 20] ...[WAIT 20] Tadaaa ![VAR BE05(0003)][VAR BE05(0005)] [VAR PKNICK(0000)] a oublié [VAR MOVE(0002)]. Et... Il se souvient de la capacité [VAR MOVE(0001)] ![VAR BE05(0004)][VAR BE05(0006)]
+30 : [~ 30]
+31 : N. [VAR NUM3(0000)]
+32 : [VAR NUM3(0000)]
+33 : [VAR NUM3(0000)]/[VAR NUM3(0001)]
+34 : [VAR NUM2(0000)]/[VAR NUM2(0001)]
+35 :  Valider
+36 :  Retour
+37 : Voulez-vous qu’il oublie [VAR MOVE(0000)] ?
+38 : 1[WAIT 20], 2[WAIT 20], ...[WAIT 20] ...[WAIT 20] Tadaaa ![VAR BE05(0003)][VAR BE05(0005)] [VAR PKNICK(0000)] a oublié [VAR MOVE(0002)].
+39 : Voulez-vous qu’il apprenne [VAR MOVE(0000)] ?
+40 : 1[WAIT 20], 2[WAIT 20], ...[WAIT 20] ...[WAIT 20] Tadaaa ![VAR BE05(0003)][VAR BE05(0005)] [VAR PKNICK(0000)] a oublié [VAR MOVE(0002)]. Et... Il apprend [VAR MOVE(0001)] ![VAR BE05(0004)][VAR BE05(0006)]
+41 : Il apprend [VAR MOVE(0001)] ![VAR BE05(0004)][VAR BE05(0006)]
+42 : Choisissez une capacité à lui faire oublier pour laisser place à [VAR MOVE(0000)].
+43 : Voulez-vous renoncer à lui enseigner [VAR MOVE(0000)] ?
+44 : Votre Pokémon n’a pas appris [VAR MOVE(0000)].
+45 : Voulez-vous qu’il oublie [VAR MOVE(0000)] pour apprendre [VAR MOVE(0001)] ?
+46 : Catégorie

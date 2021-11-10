@@ -1,0 +1,352 @@
+en,fr,it,de,es,ko,kana
+YOUR MONEY,         Argent :,Soldi,Geld:,Dinero,용돈,おこづかい
+"$[VAR 0206(0000,002C)]","[VAR 0206(0000,202F)] $","[VAR 0206(0000,002E)] $","[VAR 0206(0000,002E)] $","[VAR 0206(0000,202F)] $","[VAR 0206(0000,0000)]원","[VAR 0206(0000,0000)]円"
+[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)]
+TR,Disques Techniques,Dischi Tecnici,TPs,DT,기술레코드,わざレコード
+[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)]
+[~ 5],[~ 5],[~ 5],[~ 5],[~ 5],[~ 5],[~ 5]
+Lv. [VAR NUM3(0000)],N. [VAR NUM3(0000)],L. [VAR NUM3(0000)],Lv. [VAR NUM3(0000)],Nv. [VAR NUM3(0000)],Lv.[VAR NUM3(0000)],Lv.[VAR NUM3(0000)]
+[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)]
+HP,PV,PS,KP,PS,HP,HP
+/,/,/,/,/,/,/
+"[VAR 0203(0000,0000)]","[VAR 0203(0000,202F)]","[VAR 0203(0000,002E)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]"
+"[VAR 0203(0000,0000)]","[VAR 0203(0000,202F)]","[VAR 0203(0000,002E)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]"
+Type,Type,Tipo,Typ:,Tipo,타입,タイプ
+Category,Catégorie,Categoria,Kategorie:,Clase,분류,ぶんるい
+Power,Puissance,Potenza,Stärke:,Potencia,위력,いりょく
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+Accuracy,Précision,Precisione,Genauigkeit:,Precisión,명중,めいちゅう
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+—,-,-,---,—,-,-
+PP,PP,PP,AP:,PP,PP,PP
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+TM[VAR NUM2(0000)],CT[VAR NUM2(0000)],MT[VAR NUM2(0000)],TM[VAR NUM2(0000)],MT[VAR NUM2(0000)],No.[VAR NUM2(0000)],No.[VAR NUM2(0000)]
+[VAR NUM2(0000)]/[VAR NUM2(0001)],[VAR NUM2(0000)]/[VAR NUM2(0001)],[VAR NUM2(0000)]/[VAR NUM2(0001)],[VAR NUM2(0000)]/[VAR NUM2(0001)],[VAR NUM2(0000)]/[VAR NUM2(0001)],[VAR NUM2(0000)]/[VAR NUM2(0001)],[VAR NUM2(0000)]/[VAR NUM2(0001)]
+[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23],[~ 23]
+[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24],[~ 24]
+[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25],[~ 25]
+[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)]
+NEW!,NOUVEAU !,!!!,NEU!,¡Nuevo!,NEW!,NEW!
+×,×,×,×,×,×,×
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+ Confirm, Sélectionner, Seleziona, Auswählen, Confirmar,결정,けってい
+ Back, Retour, Indietro, Zurück, Atrás,돌아간다,もどる
+ Favorite, Favoris, Preferiti, Favorit, Favoritos,즐겨찾기,おきにいり
+ Sort, Trier, Ordina, Sortieren, Organizar,순서바꾸기,ならびかえ
+Empty,Vide,Vuoto,Leer,Vacío,비어 있습니다,ありません
+Which Pokémon will you use it on?,Sur quel Pokémon voulez-vous utiliser cet objet ?,Su quale Pokémon vuoi usare lo strumento?,Auf welches Pokémon anwenden?,¿Con qué Pokémon quieres usar este objeto?,어느 포켓몬에게 사용하겠습니까?,どの　ポケモンに　つかいますか？
+[VAR MOVE(0001)] can’t be learned by [VAR PKNICK(0000)]! The two are incompatible!,[VAR PKNICK(0000)] et [VAR MOVE(0001)] ne sont pas compatibles. Ce Pokémon ne peut pas apprendre cette capacité !,La mossa [VAR MOVE(0001)] non è compatibile con [VAR PKNICK(0000)]. Non puoi insegnargliela.,[VAR PKNICK(0000)] kann [VAR MOVE(0001)] nicht erlernen. Die beiden sind nicht kompatibel.,[VAR PKNICK(0000)] y [VAR MOVE(0001)] son incompatibles. El Pokémon no puede aprender ese movimiento.,[VAR PKNICK(0000)][VAR 1900(0004)] [VAR MOVE(0001)][VAR 1900(0001)] 상성이 좋지 않았다! [VAR MOVE(0001)][VAR 1900(0001)] 배울 수 없다!,[VAR PKNICK(0000)]と　[VAR MOVE(0001)]は あいしょうが　わるかった！ [VAR MOVE(0001)]は おぼえられない！
+[VAR PKNICK(0000)] already knows the move [VAR MOVE(0001)].,[VAR PKNICK(0000)] connaît déjà [VAR MOVE(0001)] !,[VAR BD06(0000)][VAR PKNICK(0000)] conosce già [VAR MOVE(0001)]!,[VAR PKNICK(0000)] kennt [VAR MOVE(0001)] bereits.,[VAR PKNICK(0000)] ya conoce [VAR MOVE(0001)].,[VAR PKNICK(0000)][VAR 1900(0001)] 이미 [VAR MOVE(0001)][VAR 1900(0002)] 기억하고 있습니다,[VAR PKNICK(0000)]は　すでに [VAR MOVE(0001)]を　おぼえています
+You booted up the TM.,CT activée !,Hai attivato una Macchina Tecnica.,Die TM wurde aktiviert.,MT activada.,기술머신을 켰다!,わざマシンを　きどうした！
+[VAR PKNICK(0000)] learned [VAR MOVE(0001)]![VAR BE05(0004)][VAR BE05(0001)],[VAR PKNICK(0000)] apprend [VAR MOVE(0001)] ![VAR BE05(0004)][VAR BE05(0001)],[VAR BD06(0000)][VAR PKNICK(0000)] impara [VAR MOVE(0001)]![VAR BE05(0004)][VAR BE05(0001)],[VAR PKNICK(0000)] erlernt [VAR MOVE(0001)]![VAR BE05(0004)][VAR BE05(0001)],¡[VAR PKNICK(0000)] ha aprendido [VAR MOVE(0001)]![VAR BE05(0004)][VAR BE05(0001)],[VAR PKNICK(0000)][VAR 1900(0001)] [VAR MOVE(0001)][VAR 1900(0002)] 배웠다![VAR BE05(0004)][VAR BE05(0001)],[VAR PKNICK(0000)]は [VAR MOVE(0001)]を　おぼえた！[VAR BE05(0004)][VAR BE05(0001)]
+[VAR PKNICK(0000)] wants to learn the move [VAR MOVE(0001)]. Should an old move be forgotten and replaced with [VAR MOVE(0001)]?,[VAR PKNICK(0000)] veut apprendre [VAR MOVE(0001)]. Voulez-vous qu’il oublie une capacité pour apprendre [VAR MOVE(0001)] ?,[VAR BD06(0000)][VAR PKNICK(0000)] vorrebbe imparare [VAR MOVE(0001)]. Vuoi che dimentichi una mossa e al suo posto impari [VAR MOVE(0001)]?,"[VAR PKNICK(0000)] versucht, [VAR MOVE(0001)] zu erlernen. Soll eine bekannte Attacke durch [VAR MOVE(0001)] ersetzt werden?",[VAR PKNICK(0000)] quiere aprender [VAR MOVE(0001)]. ¿Quieres sustituir alguno de sus movimientos por [VAR MOVE(0001)]?,[VAR PKNICK(0000)][VAR 1900(0001)] 새로 [VAR MOVE(0001)][VAR 1900(0002)] 배우고 싶다... [VAR MOVE(0001)] 대신 다른 기술을 잊게 하겠습니까?,[VAR PKNICK(0000)]は　あたらしく [VAR MOVE(0001)]を　おぼえたい…… [VAR MOVE(0001)]の　かわりに ほかの　わざを　わすれさせますか？
+One...[WAIT 20]two...[WAIT 20]and...[WAIT 20][WAIT 20]ta-da![VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)] forgot [VAR MOVE(0001)]! And it learned [VAR MOVE(0002)] instead![VAR BE05(0004)][VAR BE05(0001)],"1[WAIT 20], 2[WAIT 20], [WAIT 20]... [WAIT 20]... Tadaaa ![VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)] a oublié [VAR MOVE(0001)]. Et... Il apprend [VAR MOVE(0002)] ![VAR BE05(0004)][VAR BE05(0001)]","Uno,[WAIT 20] due[WAIT 20] e[WAIT 20]...[WAIT 20] ta-daaaa![VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)] dimentica [VAR MOVE(0001)]! Al suo posto... [VAR PKNICK(0000)] impara [VAR MOVE(0002)]![VAR BE05(0004)][VAR BE05(0001)]","Eins,[WAIT 20] zwei[WAIT 20] und[WAIT 20]... schwupp![VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)] hat [VAR MOVE(0001)] vergessen und [VAR MOVE(0002)] erlernt![VAR BE05(0004)][VAR BE05(0001)]","1, [WAIT 20]2 y... [WAIT 20]¡puf![VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)] ha olvidado cómo utilizar [VAR MOVE(0001)] y... ¡Ha aprendido [VAR MOVE(0002)]![VAR BE05(0004)][VAR BE05(0001)]","1,[WAIT 20] 2[WAIT 20]...[WAIT 20]...[WAIT 20] 짠![VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)][VAR 1900(0001)] [VAR MOVE(0001)][VAR 1900(0002)] 깨끗이 잊었다! 그리고...! [VAR PKNICK(0000)][VAR 1900(0001)] 새로 [VAR MOVE(0002)][VAR 1900(0002)] 배웠다![VAR BE05(0004)][VAR BE05(0001)]",１[WAIT 20]　２の[WAIT 20]　…[WAIT 20]…[WAIT 20]　ポカン！[VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)]は　[VAR MOVE(0001)]の つかいかたを　きれいにわすれた！ そして……！ [VAR PKNICK(0000)]は　あたらしく [VAR MOVE(0002)]を　おぼえた！[VAR BE05(0004)][VAR BE05(0001)]
+[VAR PKNICK(0000)] did not learn [VAR MOVE(0001)].,[VAR PKNICK(0000)] n’a pas appris [VAR MOVE(0001)].,[VAR PKNICK(0000)] non ha imparato [VAR MOVE(0001)]!,[VAR PKNICK(0000)] hat [VAR MOVE(0001)] nicht erlernt.,[VAR PKNICK(0000)] no ha aprendido [VAR MOVE(0001)].,[VAR PKNICK(0000)][VAR 1900(0001)] [VAR MOVE(0001)][VAR 1900(0002)] 결국 배우지 않았다!,[VAR PKNICK(0000)]は　[VAR MOVE(0001)]を おぼえずに　おわった！
+Please choose a move that will be replaced with [VAR MOVE(0000)].,Choisissez une capacité à lui faire oublier pour laisser place à [VAR MOVE(0000)].,Scegli una mossa da sostituire con [VAR MOVE(0000)].,Welche Attacke soll durch [VAR MOVE(0000)] ersetzt werden?,Selecciona el movimiento que quieres sustituir por [VAR MOVE(0000)].,[VAR MOVE(0000)] 대신 잊게 할 기술을 선택해 주십시오!,[VAR MOVE(0000)]の　かわりに わすれる　わざを　えらんでください！
+You booted up the TR.,DT activé !,Hai attivato il DT.,Die TP wurde aktiviert.,DT activado.,기술레코드를 켰다,わざレコードを　きどうした
+A TR can be used only once.,Les DT sont à usage unique.,I DT possono essere usati una volta sola.,Jede TP kann nur ein Mal eingesetzt werden.,Los DT solo se pueden usar una vez.,기술레코드는 한 번만 사용할 수 있습니다,わざレコードは いちどしか　つかえません
+The TR [VAR MOVE(0000)] broke.,Le DT contenant [VAR MOVE(0000)] s’est brisé.,Il DT [VAR MOVE(0000)] si è rotto.,Die TP [VAR MOVE(0000)] wurde unbrauchbar.,El DT [VAR MOVE(0000)] se ha roto.,[VAR MOVE(0000)]의 기술레코드는 부서졌다,[VAR MOVE(0000)]の わざレコードは　こわれた
+The TR will break. Is that OK?,Le DT va se briser. Voulez-vous continuer malgré tout ?,Il DT si romperà. Vuoi continuare?,"Wenn du die TP einsetzt, wird sie danach unbrauchbar. Willst du wirklich fortfahren?",El DT se romperá. ¿Quieres continuar?,부서지게 됩니다만 괜찮겠습니까?,こわれてしまいますが よろしいでしょうか？
+Yes,Oui,Sì,Ja,Sí,예,はい
+No,Non,No,Nein,No,아니요,いいえ
+[VAR COLOR(0002)]Can learn[VAR COLOR(0000)],[VAR COLOR(0002)]Possible ![VAR COLOR(0000)],[VAR COLOR(0002)]Sì![VAR COLOR(0000)],[VAR COLOR(0002)]Erlernbar![VAR COLOR(0000)],[VAR COLOR(0002)]Sí puede[VAR COLOR(0000)],[VAR COLOR(0002)]배운다![VAR COLOR(0000)],[VAR COLOR(0002)]おぼえる！[VAR COLOR(0000)]
+[VAR COLOR(0001)]Cannot learn[VAR COLOR(0000)],[VAR COLOR(0001)]Impossible ![VAR COLOR(0000)],[VAR COLOR(0001)]No![VAR COLOR(0000)],[VAR COLOR(0001)]Nicht erlernbar![VAR COLOR(0000)],[VAR COLOR(0001)]No puede[VAR COLOR(0000)],[VAR COLOR(0001)]배우지 못함[VAR COLOR(0000)],[VAR COLOR(0001)]おぼえない[VAR COLOR(0000)]
+Knows this move,Déjà appris !,La conosce!,Bereits erlernt!,Ya lo conoce,알고 있다,おぼえている
+[VAR COLOR(0002)]Compatible[VAR COLOR(0000)],[VAR COLOR(0002)]Apte ![VAR COLOR(0000)],[VAR COLOR(0002)]Sì![VAR COLOR(0000)],[VAR COLOR(0002)]Anwendbar![VAR COLOR(0000)],[VAR COLOR(0002)]Apto[VAR COLOR(0000)],[VAR COLOR(0002)]쓸 수 있다[VAR COLOR(0000)],[VAR COLOR(0002)]つかえます[VAR COLOR(0000)]
+[VAR COLOR(0001)]Incompatible[VAR COLOR(0000)],[VAR COLOR(0001)]Pas apte ![VAR COLOR(0000)],[VAR COLOR(0001)]No![VAR COLOR(0000)],[VAR COLOR(0001)]Wirkungslos![VAR COLOR(0000)],[VAR COLOR(0001)]No apto[VAR COLOR(0000)],[VAR COLOR(0001)]쓸 수 없다[VAR COLOR(0000)],[VAR COLOR(0001)]つかえません[VAR COLOR(0000)]
+[~ 55],[~ 55],[~ 55],[~ 55],[~ 55],[~ 55],[~ 55]
+[~ 56],[~ 56],[~ 56],[~ 56],[~ 56],[~ 56],[~ 56]
+[~ 57],[~ 57],[~ 57],[~ 57],[~ 57],[~ 57],[~ 57]
+[~ 58],[~ 58],[~ 58],[~ 58],[~ 58],[~ 58],[~ 58]
+[~ 59],[~ 59],[~ 59],[~ 59],[~ 59],[~ 59],[~ 59]
+[~ 60],[~ 60],[~ 60],[~ 60],[~ 60],[~ 60],[~ 60]
+[~ 61],[~ 61],[~ 61],[~ 61],[~ 61],[~ 61],[~ 61]
+[~ 62],[~ 62],[~ 62],[~ 62],[~ 62],[~ 62],[~ 62]
+[~ 63],[~ 63],[~ 63],[~ 63],[~ 63],[~ 63],[~ 63]
+How many [VAR 1001][VAR ITEM2(0000)] would you like to sell?,"Combien [VAR 1001][VAR 1408(0000,0000)][VAR ITEM2(0000)] voulez-vous vendre ?","Quant[VAR 1102(0000,0101,0101)]oaie [VAR 0109(0000)] vuoi vendere?",Wie viele [VAR 1001][VAR 0110(0000)] möchtest du verkaufen?,"¿Cuánt[VAR 1100(0000,0101)]oas [VAR 1001][VAR ITEM2(0000)] quieres vender?",[VAR 0109(0000)][VAR 1900(0002)] 몇 개 파시겠습니까?,[VAR 0109(0000)]を　いくつ　うりますか？
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+×,×,×,×,×,×,×
+"$[VAR 0207(0000,002C)]","[VAR 0207(0000,202F)] $","[VAR 0207(0000,002E)] $","[VAR 0207(0000,002E)] $","[VAR 0207(0000,202F)] $","[VAR 0207(0000,0000)]원","[VAR 0207(0000,0000)]円"
+PURCHASE PRICE,Prix d’achat,Valore,Kaufpreis,Precio de venta,구입 가격,かいとり　かかく
+"I can pay you $[VAR 0207(0000,002C)]. Would that be OK?","Vous en obtiendrez [VAR 0207(0000,202F)] $. Voulez-vous continuer ?","Posso darti [VAR 0207(0000,002E)] $. Va bene?","Dafür gebe ich dir [VAR 0207(0000,002E)] $. Bist du damit einverstanden?","Puedo pagarte [VAR 0207(0000,202F)] $. ¿Te parece bien?","그 물건은 [VAR 0207(0000,0000)]원으로 쳐드리겠습니다 괜찮겠습니까?","それなら　[VAR 0207(0000,0000)]円で おひきとり　いたしましょう よろしいですか？"
+Yes,Oui,Sì,Ja,Sí,예,はい
+No,Non,No,Nein,No,아니요,いいえ
+—,---,---,---,—,---,---
+How many [VAR 1001][VAR ITEM2(0000)] would you like to sell?,"Combien [VAR 1001][VAR 1408(0000,0000)][VAR ITEM2(0000)] voulez-vous vendre ?","Quant[VAR 1001][VAR 1102(0000,0101,0101)]oaie [VAR 0109(0000)] vuoi vendere?",Wie viele [VAR 1001][VAR 0110(0000)] möchtest du verkaufen?,"¿Cuánt[VAR 1100(0000,0101)]oas [VAR 1001][VAR ITEM2(0000)] quieres vender?",[VAR 0109(0000)][VAR 1900(0002)] 몇 개 파시겠습니까?,[VAR 0109(0000)]を いくつ　うりますか？
+"Oh, no. I can’t buy [VAR 1001][VAR ITEM2(0000)].",Vous ne pouvez pas vendre cet objet.,[VAR 0109(0000)]? Peccato! Non posso comprare questo strumento.,"[VAR 1607(0000,0000)][VAR 0110(0000)]? Dieses Objekt kannst du nicht verkaufen.","Lo siento, no puedo comprar eso.",[VAR 0109(0000)][VAR 1900(0001)] 파실 수 없습니다,[VAR 0109(0000)]を かいとることは　できません
+"You turned over the [VAR ITEM2(0000)] and got $[VAR 0207(0001,002C)].","Cette vente vous a rapporté [VAR 0207(0001,202F)] $.","Consegni [VAR 1500(0000,0000)][VAR 0109(0000)] e ricevi [VAR 0207(0001,002E)] $.","Du hast [VAR 1606(0000,0000)][VAR 0110(0000)] für [VAR 0207(0001,002E)] $ verkauft.","Recibes [VAR 0207(0001,202F)] $ por la venta [VAR 1704(0000,0001)] [VAR ITEM2(0000)].","[VAR 0109(0000)][VAR 1900(0002)] 건네고 [VAR 0207(0001,0000)]원을 받았다","[VAR 0109(0000)]を　わたして [VAR 0207(0001,0000)]円を　うけとった"
+"You turned over the [VAR 1001][VAR ITEM2(0000)] and got $[VAR 0207(0001,002C)].","Cette vente vous a rapporté [VAR 0207(0001,202F)] $.","Consegni [VAR 1001][VAR 1500(0000,0000)][VAR 0109(0000)] e ricevi [VAR 0207(0001,002E)] $.","Du hast einige [VAR 0110(0000)] für [VAR 0207(0001,002E)] $ verkauft.","Recibes [VAR 0207(0001,202F)] $ por la venta [VAR 1704(0000,0001)] [VAR 1001][VAR ITEM2(0000)].","[VAR 0109(0000)][VAR 1900(0002)] 건네고 [VAR 0207(0001,0000)]원을 받았다","[VAR 0109(0000)]を　わたして [VAR 0207(0001,0000)]円を　うけとった"
+By type,Catégorie,Per categoria,Kategorie,Por clase,종류 순,しゅるいじゅん
+By name,Nom,Per nome,Alphabet,Alfabéticamente,이름 순,なまえじゅん
+Newest first,Nouveauté,Più recenti,Neue zuerst,Nuevos primero,NEW,NEW
+By number,Numéro,Per numero,Nummer,Por número,번호 순,ばんごうじゅん
+Favorites first,Favoris,Preferiti,Favoriten,Favoritos primero,즐겨찾기,おきにいり
+Quit,Annuler,Indietro,Abbrechen,Salir,취소,やめる
+How do you want to sort your items?,Selon quel critère voulez-vous les trier ?,Scegli come visualizzare gli strumenti.,Wonach möchtest du sortieren?,¿Cómo quieres ordenar tus objetos?,어떤 순서로 바꾸겠습니까?,どの　ならびに　かえますか？
+Items have been sorted by type!,Les objets sont maintenant triés par catégorie !,Strumenti riordinati per categoria!,"So, jetzt ist alles fein säuberlich nach Kategorien sortiert!",Los objetos se han ordenado por clase.,종류 순으로 지닌물건을 정리했습니다!,しゅるいじゅんに もちものを　せいり　しました！
+Items have been sorted by name!,Les objets sont maintenant triés par nom !,Strumenti riordinati per nome!,"So, jetzt ist alles fein säuberlich alphabetisch sortiert!",Los objetos se han ordenado alfabéticamente.,이름 순으로 지닌물건을 정리했습니다!,なまえじゅんに もちものを　せいり　しました！
+Items have been sorted by number!,Les CT sont maintenant triées par numéro !,Strumenti riordinati per numero!,"So, jetzt ist alles fein säuberlich nach Nummern sortiert!",Los objetos se han ordenado por número.,번호 순으로 지닌물건을 정리했습니다!,ばんごうじゅんに もちものを　せいり　しました！
+You sorted your items so favorites come first!,Vos objets favoris apparaissent maintenant en haut de la liste !,Strumenti riordinati mettendo i preferiti all’inizio!,"So, jetzt ist alles fein säuberlich nach Favoriten sortiert!",Los favoritos se han puesto al principio.,즐겨찾기한 순으로 지닌물건을 정리했습니다!,おきにいりの　もちものを せいり しました！
+You sorted your items so new items come first!,Les objets nouvellement obtenus apparaissent maintenant en haut de la liste !,Strumenti riordinati dai più recenti ai meno recenti!,"So, jetzt ist alles fein säuberlich danach sortiert, wann du es erhalten hast!","Los objetos se han ordenado según el orden de obtención, los más recientes primero. ",새로 입수한 순으로 지닌물건을 정리했습니다!,あたらしく　てにいれた もちものを　せいりしました！
+Use this item,Utiliser,Usa,Einsetzen,Usar,사용한다,つかう
+Give to a Pokémon,Donner,Dai,Geben,Dar,건네준다,もたせる
+[~ 91],[~ 91],[~ 91],[~ 91],[~ 91],[~ 91],[~ 91]
+[~ 92],[~ 92],[~ 92],[~ 92],[~ 92],[~ 92],[~ 92]
+[~ 93],[~ 93],[~ 93],[~ 93],[~ 93],[~ 93],[~ 93]
+Turn the Exp. Share on,Activer,Attiva,Anschalten,Activar,켠다,オン
+Turn the Exp. Share off,Désactiver,Disattiva,Ausschalten,Desactivar,끈다,オフ
+Cancel,Retour,Indietro,Zurück,Salir,취소,やめる
+What do you want to do with the [VAR 0109(0000)]?,Sélection : [VAR 0109(0000)],"Hai selezionato [VAR 1500(0000,0000)][VAR 0109(0000)]!",[VAR 0109(0000)] ausgewählt.,Has seleccionado: [VAR 0109(0000)].,[VAR 0109(0000)][VAR 1900(0002)] 어떻게 할까요?,[VAR 0109(0000)]を　どうしますか？
+"[VAR PKNICK(0000)]’s HP was restored by [VAR NUM3(0001)] point[VAR NUMBRNCH(0001,0100)]s.",[VAR PKNICK(0000)] récupère [VAR NUM3(0001)] PV.,[VAR PKNICK(0000)] ha recuperato [VAR NUM3(0001)] PS.,"Die KP von [VAR PKNICK(0000)] wurden um [VAR NUM3(0001)] Punkt[VAR NUMBRNCH(0001,0100)]e aufgefüllt!",[VAR PKNICK(0000)] ha recuperado [VAR NUM3(0001)] PS.,[VAR PKNICK(0000)]의 체력이 [VAR NUM3(0001)] 회복되었다!,[VAR PKNICK(0000)]の　たいりょくが [VAR NUM3(0001)]　かいふくした！
+[VAR PKNICK(0000)] recovered from fainting!,[VAR PKNICK(0000)] n’est plus K.O. !,[VAR PKNICK(0000)] torna in forze!,[VAR PKNICK(0000)] hat sich wieder erholt!,¡[VAR PKNICK(0000)] ya no está debilitado!,[VAR PKNICK(0000)][VAR 1900(0001)] 기력을 회복했다!,[VAR PKNICK(0000)]は げんきを　とりもどした！
+[VAR PKNICK(0000)] was cured of its poisoning!,[VAR PKNICK(0000)] n’est plus empoisonné.,[VAR PKNICK(0000)] guarisce dall’avvelenamento.,Die Vergiftung von [VAR PKNICK(0000)] wurde geheilt!,[VAR PKNICK(0000)] se ha curado del envenenamiento.,[VAR PKNICK(0000)]의 독은 말끔하게 해독됐다!,[VAR PKNICK(0000)]の　どくは きれい　さっぱり　なくなった！
+[VAR PKNICK(0000)] was cured of paralysis!,[VAR PKNICK(0000)] n’est plus paralysé.,[VAR PKNICK(0000)] guarisce dalla paralisi.,Die Paralyse von [VAR PKNICK(0000)] wurde aufgehoben!,[VAR PKNICK(0000)] se ha curado de la parálisis.,[VAR PKNICK(0000)]의 몸저림이 풀렸다!,[VAR PKNICK(0000)]の からだの　しびれが　とれた！
+[VAR PKNICK(0000)]’s burn was healed!,[VAR PKNICK(0000)] n’est plus brûlé.,[VAR PKNICK(0000)] guarisce dalla scottatura.,Die Verbrennungen von [VAR PKNICK(0000)] wurden geheilt!,[VAR PKNICK(0000)] ya no tiene quemaduras.,[VAR PKNICK(0000)]의 화상이 나았다!,[VAR PKNICK(0000)]の やけどが　なおった！
+[VAR PKNICK(0000)] was thawed out!,[VAR PKNICK(0000)] est dégelé.,[VAR PKNICK(0000)] guarisce dal congelamento.,[VAR PKNICK(0000)] wurde aufgetaut!,[VAR PKNICK(0000)] ya no está congelado.,[VAR PKNICK(0000)]의 얼었던 몸이 녹았다!,[VAR PKNICK(0000)]の からだの　こおりが　とけた！
+[VAR PKNICK(0000)] woke up!,[VAR PKNICK(0000)] se réveille !,[VAR PKNICK(0000)] si sveglia.,[VAR PKNICK(0000)] ist aufgewacht!,[VAR PKNICK(0000)] se ha despertado.,[VAR PKNICK(0000)][VAR 1900(0001)] 눈을 떴다!,[VAR PKNICK(0000)]は めを　さました！
+[VAR PKNICK(0000)] became healthy!,[VAR PKNICK(0000)] retrouve la forme.,[VAR PKNICK(0000)] è di nuovo in forma.,[VAR PKNICK(0000)] hat sich erholt!,[VAR PKNICK(0000)] ha recuperado su estado normal.,[VAR PKNICK(0000)][VAR 1900(0001)] 건강해졌다!,[VAR PKNICK(0000)]は けんこうに　なった！
+[VAR PKNICK(0000)]’s [VAR 010D(0001)] base points rose!,"[VAR 1401(0001,0000)][VAR 010D(0001)] de base [VAR 1408(0000,0001)][VAR PKNICK(0000)] augmente[VAR NUMBRNCH(0001,0200)]nt.",I punti base della statistica [VAR 010D(0001)] di [VAR PKNICK(0000)] sono aumentati!,Der [VAR 010D(0001)]-Basiswert von [VAR PKNICK(0000)] wurde angehoben!,"Los puntos de base [VAR 1704(0001,0000)][VAR 010D(0001)] de [VAR PKNICK(0000)] han aumentado.",[VAR PKNICK(0000)][VAR 1900(0001)] [VAR 010D(0001)]의 기초 포인트가 올라갔다!,[VAR PKNICK(0000)]は　[VAR 010D(0001)]の きそポイントが　あがった！
+"[VAR PKNICK(0000)] became more friendly. However, its [VAR 010D(0001)] base points fell!","[VAR PKNICK(0000)] est devenu plus amical. [VAR 1401(0001,0000)][VAR 010D(0001)] de base baisse[VAR NUMBRNCH(0001,0200)]nt !",[VAR PKNICK(0000)] ora è più affezionato. I punti base della statistica [VAR 010D(0001)] però sono diminuiti!,[VAR PKNICK(0000)] wird zahm. Der [VAR 010D(0001)]-Basiswert sinkt.,[VAR PKNICK(0000)] se ha vuelto más amable. ¡Pero tiene menos [VAR 010D(0001)] de base!,[VAR PKNICK(0000)][VAR 1900(0001)] 조금 친해졌다! [VAR 010D(0001)]의 기초 포인트가 떨어졌다!,[VAR PKNICK(0000)]は ちょっと　なついた！ [VAR 010D(0001)]の きそポイントが　さがった！
+"[VAR PKNICK(0000)] adores you! However, its [VAR 010D(0001)] base points fell!","[VAR PKNICK(0000)] vous adore ! [VAR 1401(0001,0000)][VAR 010D(0001)] de base baisse[VAR NUMBRNCH(0001,0200)]nt !",[VAR PKNICK(0000)] ti adora! I punti base della statistica [VAR 010D(0001)] però sono diminuiti!,[VAR PKNICK(0000)] vergöttert dich! Der [VAR 010D(0001)]-Basiswert sinkt.,"[VAR PKNICK(0000)] te adora. ¡Pero su[VAR NUMBRNCH(0001,0100)]s [VAR 010D(0001)] de base ha[VAR NUMBRNCH(0001,0100)]n disminuido!",[VAR PKNICK(0000)][VAR 1900(0001)] 최고로 친한 상태다! [VAR 010D(0001)]의 기초 포인트가 떨어졌다!,[VAR PKNICK(0000)]は さいこうに　なついている！ [VAR 010D(0001)]の きそポイントが　さがった！
+[VAR PKNICK(0000)] became more friendly. Its [VAR 010D(0001)] base points can’t go lower.,"[VAR PKNICK(0000)] est devenu plus amical. [VAR 1401(0001,0000)][VAR 010D(0001)] de base ne peu[VAR NUMBRNCH(0001,0300)]vent plus baisser !",[VAR PKNICK(0000)] ora è più affezionato. I punti base della statistica [VAR 010D(0001)] non possono più diminuire!,[VAR PKNICK(0000)] wird zahm. Der [VAR 010D(0001)]-Basiswert sinkt nicht mehr.,"[VAR PKNICK(0000)] se ha vuelto más amable. ¡Su[VAR NUMBRNCH(0001,0100)]s [VAR 010D(0001)] de base ya no puede[VAR NUMBRNCH(0001,0100)]n bajar más!",[VAR PKNICK(0000)][VAR 1900(0001)] 조금 친해졌다! [VAR 010D(0001)]의 기초 포인트는 더 떨어지지 않는다!,[VAR PKNICK(0000)]は ちょっと　なついた！ [VAR 010D(0001)]の きそポイントは　もうさがらない！
+"You used [VAR 1302(0001,0000)][VAR 0109(0001)].","Vous utilisez [VAR 1402(0001,0000)][VAR ITEM2(0001)] !","Hai usato [VAR 1500(0001,0000)][VAR 0109(0001)]!","Du setzt [VAR 1606(0001,0000)] [VAR 0110(0001)] ein.","¡Has usado [VAR 1702(0001,0000)][VAR 0109(0001)]!",[VAR TRNAME(0000)][VAR 1900(0001)] [VAR 0109(0001)][VAR 1900(0002)] 썼다!,[VAR TRNAME(0000)]は [VAR 0109(0001)]を　つかった！
+"You can’t use that now, because the last Repel you used is still in effect.",Le Repousse précédent est toujours actif !,È ancora attivo il repellente usato prima.,Das Schutz-Item wirkt noch!,El repelente sigue haciendo efecto. Todavía no puedes usar otro.,아직 전에 썼던 스프레이의 효과가 남아 있습니다!,まだ　まえに　つかった スプレーの　こうかが　のこってます！
+Your Pokémon is now holding the [VAR 0109(0000)]!,"Vous lui donnez [VAR 1402(0000,0000)][VAR ITEM2(0000)].","Hai dato [VAR 1500(0000,0000)][VAR 0109(0000)] al Pokémon!","Das Pokémon trägt nun [VAR 1606(0000,0000)] [VAR 0110(0000)].","Le has dado [VAR 1700(0000,0000)][VAR 0109(0000)] al Pokémon.",[VAR 0109(0000)][VAR 1900(0002)] 지니게 했다!,[VAR 0109(0000)]を　もたせた！
+You took the Pokémon’s [VAR 0109(0000)] and gave it the [VAR 0109(0001)].,"Vous avez repris [VAR 1400(0000,0000)][VAR ITEM2(0000)] et vous lui donnez [VAR 1402(0001,0000)][VAR ITEM2(0001)].","Gli hai tolto [VAR 1500(0000,0000)][VAR 0109(0000)] e gli hai dato [VAR 1500(0001,0000)][VAR 0109(0001)]!",[VAR 0110(0000)] zurückgenommen und [VAR 0110(0001)] zum Tragen gegeben.,"Has cogido [VAR 1700(0000,0000)][VAR 0109(0000)] que tenía y le has dado [VAR 1700(0001,0000)][VAR 0109(0001)].",[VAR 0109(0000)][VAR 1900(0002)] 가져오고 [VAR 0109(0001)][VAR 1900(0002)] 지니게 했다!,[VAR 0109(0000)]を　あずかって [VAR 0109(0001)]を　もたせた！
+The [VAR 0109(0000)] can’t be held.,"Vous ne pouvez pas faire tenir [VAR 1402(0000,0000)][VAR ITEM2(0000)] à un Pokémon.","Non puoi dare [VAR 1500(0000,0000)][VAR 0109(0000)] a un Pokémon!",Das Item [VAR 0109(0000)] kann keinem Pokémon zum Tragen gegeben werden.,"No puedes darle [VAR 1000][VAR 1700(0000,0000)][VAR 0109(0000)] a un Pokémon.",[VAR 0109(0000)][VAR 1900(0002)] 지니게 할 수 없습니다!,[VAR 0109(0000)]を もたせることは　できません！
+It won’t have any effect.,Cela n’aura aucun effet.,Non avrebbe alcun effetto!,Das würde keine Wirkung zeigen.,No tendría ningún efecto.,써도 효과가 없다,つかっても　こうかがないよ
+"You seem to hear the professor’s voice, echoing in your head... “[VAR 1003][VAR TRNAME(0000)], dear! This isn’t the time to use that.”","Si la Professeure était là, elle dirait : « Pas maintenant, [VAR TRNAME(0000)] ! »","Sembra quasi di sentire l’eco delle parole della Professoressa: “[VAR TRNAME(0000)]! C’è un luogo e un tempo per ogni cosa. Non è il momento, ora!”",Die Professorin sagt immer: „Dies ist weder die rechte Zeit noch der rechte Ort dafür!“,"Las palabras de la profesora te vienen a la memoria: ""¡Cada cosa en su momento!"".",박사의 말... [VAR TRNAME(0000)] 이런 것은 쓸 때가 따로 있단다,はかせの　ことば…… [VAR TRNAME(0000)]　こういった　ものには つかいどきが　ありますよ
+You have no Pokémon!,Vous n’avez pas de Pokémon !,Non hai nessun Pokémon.,Kein Pokémon vorhanden!,¡No hay ningún Pokémon!,포켓몬이 없다!,ポケモンが　いませんよ！
+Which Pokémon will you use it on?,Sur quel Pokémon voulez-vous utiliser cet objet ?,Su quale Pokémon vuoi usare lo strumento?,Auf welches Pokémon anwenden?,¿Con qué Pokémon quieres usar este objeto?,어느 포켓몬에게 사용하겠습니까?,どの　ポケモンに　つかいますか？
+Which Pokémon do you want to give this item to?,À quel Pokémon voulez-vous donner l’objet ?,A quale Pokémon vuoi dare lo strumento?,Welchem Pokémon zum Tragen geben?,¿A qué Pokémon quieres darle este objeto?,어느 포켓몬에게 지니게 하겠습니까?,どの　ポケモンに　もたせますか？
+Eggs can’t hold items.,Vous ne pouvez pas donner cela à un Œuf.,Non puoi dare uno strumento a un Uovo.,Eier können keine Items tragen!,A los Huevos no puedes darles objetos.,알에게는 지니게 할 수 없습니다,タマゴには　もたせられません
+PP was restored!,Les PP sont restaurés.,I PP sono stati ricaricati.,AP wurden aufgefüllt!,Se han restaurado los PP.,파워포인트를 회복했다!,パワーポイントが　かいふくした！
+Do you want to swap its [VAR 0109(0000)] for the [VAR 0109(0001)]?,"Voulez-vous échanger [VAR 1400(0001,0000)][VAR ITEM2(0001)] contre [VAR 1400(0000,0000)][VAR ITEM2(0000)] ?","Vuoi scambiare [VAR 1500(0000,0000)][VAR 0109(0000)] con [VAR 1502(0001,0000)][VAR 0109(0001)]?",[VAR 0110(0000)] und [VAR 0110(0001)] austauschen?,"¿Quieres cambiar [VAR 1700(0000,0000)][VAR 0109(0000)] por [VAR 1700(0001,0000)][VAR 0109(0001)]?",[VAR 0109(0000)][VAR 1900(0004)] [VAR 0109(0001)][VAR 1900(0002)] 교환하겠습니까?,[VAR 0109(0000)]と [VAR 0109(0001)]を　とりかえますか？
+Which move’s PP do you want to restore?,De quelle capacité voulez-vous restaurer les PP ?,Quale mossa vuoi ricaricare?,Welche Attacke soll aufgefüllt werden?,¿Qué movimiento quieres restaurar?,어느 기술을 회복할까?,どのわざを　かいふくする？
+Which move’s PP do you want to boost?,De quelle capacité voulez-vous augmenter les PP ?,Quale mossa vuoi potenziare?,AP welcher Attacke anheben?,¿De qué movimiento quieres aumentar los PP?,어느 기술을 늘릴까?,どのわざを　ふやす？
+[VAR MOVE(0000)]’s PP increased.,Les PP de la capacité [VAR MOVE(0000)] augmentent.,I PP di [VAR MOVE(0000)] aumentano!,AP von [VAR MOVE(0000)] wurden angehoben!,Los PP de [VAR MOVE(0000)] han aumentado.,[VAR MOVE(0000)]의 파워포인트가 늘었다!,[VAR MOVE(0000)]の パワーポイントが　ふえた！
+You can’t receive the item because your Bag is full.,Vous ne pouvez pas transporter plus d’exemplaires de cet objet.,Hai raggiunto il limite per questo strumento!,Du hast keinen Platz dafür!,No te caben más en la Bolsa.,가방이 가득 차서 도구를 받을 수 없습니다!,バッグが　いっぱいで どうぐを　うけとれません！
+Eggs can’t hold items.,Vous ne pouvez pas donner cela à un Œuf.,Non puoi dare uno strumento a un Uovo.,Eier können keine Items tragen!,A los Huevos no puedes darles objetos.,알에게는 지니게 할 수 없습니다,タマゴには　もたせられません
+PP was restored!,Les PP sont restaurés.,I PP sono stati ricaricati.,AP wurden aufgefüllt!,Se han restaurado los PP.,파워포인트를 회복했다!,パワーポイントが　かいふくした！
+[VAR BE05(0005)][VAR PKNICK(0000)] grew to Lv. [VAR NUM3(0001)]!,[VAR BE05(0005)][VAR PKNICK(0000)] monte au N. [VAR NUM3(0001)] !,[VAR BE05(0005)][VAR PKNICK(0000)] sale al livello [VAR NUM3(0001)]!,[VAR BE05(0005)][VAR PKNICK(0000)] erreicht Lv. [VAR NUM3(0001)]!,[VAR BE05(0005)]¡[VAR PKNICK(0000)] ha subido al Nv. [VAR NUM3(0001)]!,[VAR BE05(0005)][VAR PKNICK(0000)][VAR 1900(0001)] 레벨 [VAR NUM3(0001)][VAR 1900(0005)]로 올랐다!,[VAR BE05(0005)][VAR PKNICK(0000)]は レベル[VAR NUM3(0001)]　に　あがった！
+This can’t be used on a fainted Pokémon.,Vous ne pouvez pas utiliser cet objet sur un Pokémon K.O.,Non si può usare su un Pokémon esausto.,Das kann nicht auf ein kampfunfähiges Pokémon angewendet werden.,No se puede usar con un Pokémon debilitado.,기절한 포켓몬에게는 쓸 수 없습니다,ひんしの　ポケモンには つかえません
+You can’t separate the Pokémon now. There’s not enough room in your party.,Vous ne pouvez pas les séparer car votre équipe est pleine.,Non puoi effettuare la separazione perché la tua squadra è al completo.,"Du kannst das Pokémon nicht teilen, da dein Team voll ist.",No se puede realizar la separación porque tu equipo está completo.,지닌 포켓몬이 가득하므로 분리할 수 없습니다,てもちが　いっぱい　なので ぶんり　できません
+You can’t separate the Pokémon now. There’s not enough room in your party.,Vous ne pouvez pas les séparer car votre équipe est pleine.,Non puoi effettuare la separazione perché la tua squadra è al completo.,"Du kannst die Pokémon nicht trennen, da dein Team voll ist.",No se puede realizar la separación porque tu equipo está completo.,지닌 포켓몬이 가득하므로 분리할 수 없습니다,てもちが　いっぱい　なので ぶんり　できません
+The Exp. Share has been turned on.,Le Multi Exp est activé.,Condividi Esperienza attivato!,EP-Teiler wurde eingeschaltet.,Has activado el objeto Repartir Experiencia.,학습장치를 켰습니다,がくしゅうそうちを　オンに　しました
+The Exp. Share has been turned off.,Le Multi Exp est désactivé.,Condividi Esperienza disattivato!,EP-Teiler wurde ausgeschaltet.,Has desactivado el objeto Repartir Experiencia.,학습장치를 껐습니다,がくしゅうそうちを　オフに　しました
+The item can’t be used on [VAR PKNICK(0000)] because of [VAR MOVE(0001)]’s effects!,La capacité [VAR MOVE(0001)] empêche d’utiliser l’objet sur [VAR PKNICK(0000)] !,La mossa [VAR MOVE(0001)] impedisce di usare lo strumento su [VAR PKNICK(0000)]!,[VAR MOVE(0001)] verhindert den Einsatz des Items bei [VAR PKNICK(0000)]!,¡El efecto de [VAR MOVE(0001)] impide que puedas usar el objeto con [VAR PKNICK(0000)]!,[VAR MOVE(0001)]의 효과로 [VAR PKNICK(0000)]에게는 쓸 수 없습니다!,[VAR MOVE(0001)]の　こうかで [VAR PKNICK(0000)]には　つかえません！
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+PP,PP,PP,AP,PP,PP,PP
+[~ 138],[~ 138],[~ 138],[~ 138],[~ 138],[~ 138],[~ 138]
+[~ 139],[~ 139],[~ 139],[~ 139],[~ 139],[~ 139],[~ 139]
+[~ 140],[~ 140],[~ 140],[~ 140],[~ 140],[~ 140],[~ 140]
+Ride on your bike,Monter,Sali,Aufsteigen,Montar,탄다,のる
+Get off your bike,Descendre,Scendi,Absteigen,Bajar,내린다,おりる
+It can’t be fused with a Pokémon that has fainted.,Vous ne pouvez pas fusionner avec un Pokémon K.O.,Non puoi sottoporre un Pokémon esausto all’Endofusione.,Mit kampfunfähigen Pokémon ist eine Fusion nicht möglich.,No se puede fusionar con un Pokémon debilitado.,기절한 포켓몬과는 합체할 수 없습니다,ひんしの　ポケモンとは がったい　できません
+It can’t be united with a Pokémon that’s fainted.,Vous ne pouvez pas l’unir à un Pokémon K.O.,Non puoi unirlo a un Pokémon esausto.,Mit kampfunfähigen Pokémon ist eine Verbindung nicht möglich.,No se puede unir a un Pokémon debilitado.,기절한 포켓몬과는 합체할 수 없습니다,ひんしの　ポケモンとは がったい　できません
+It can’t be fused with that Pokémon.,Vous ne pouvez pas fusionner avec ce Pokémon.,Non puoi sottoporre questo Pokémon all’Endofusione.,Mit diesem Pokémon ist eine Fusion nicht möglich.,No se puede fusionar con este Pokémon.,그 포켓몬과는 합체할 수 없습니다,その　ポケモンとは がったい　できません
+It can’t be united with that Pokémon.,Vous ne pouvez pas l’unir à ce Pokémon.,Non puoi unirlo a questo Pokémon.,Mit diesem Pokémon ist eine Verbindung nicht möglich.,No se puede unir a este Pokémon.,그 포켓몬과는 합체할 수 없습니다,その　ポケモンとは がったい　できません
+It can’t be fused with an Egg.,Vous ne pouvez pas fusionner avec un Œuf.,Non puoi sottoporre un Uovo all’Endofusione.,Mit einem Ei ist eine Fusion nicht möglich.,No se puede fusionar con un Huevo.,알과는 합체할 수 없습니다,タマゴとは がったい　できません
+It can’t be united with an Egg.,Vous ne pouvez pas l’unir à un Œuf.,Non puoi unirlo a un Uovo.,Mit einem Ei ist eine Verbindung nicht möglich.,No se puede unir a un Huevo.,알과는 합체할 수 없습니다,タマゴとは がったい　できません
+You can’t separate the Pokémon now. There’s not enough room in your party.,Vous ne pouvez pas les séparer car votre équipe est pleine.,Non puoi effettuare la separazione perché la tua squadra è al completo.,"Du kannst das Pokémon nicht teilen, da dein Team voll ist.",No se puede realizar la separación porque tu equipo está completo.,지닌 포켓몬이 가득하므로 분리할 수 없습니다,てもちが　いっぱい　なので ぶんり　できません
+You can’t separate the Pokémon now. There’s not enough room in your party.,Vous ne pouvez pas les séparer car votre équipe est pleine.,Non puoi effettuare la separazione perché la tua squadra è al completo.,"Du kannst die Pokémon nicht trennen, da dein Team voll ist.",No se puede realizar la separación porque tu equipo está completo.,지닌 포켓몬이 가득하므로 분리할 수 없습니다,てもちが　いっぱい　なので ぶんり　できません
+[VAR PKNAME(0000)] transformed!,[VAR PKNAME(0000)] a changé de forme !,[VAR PKNAME(0000)] ha cambiato forma!,[VAR PKNAME(0000)] hat seine Form verändert!,¡[VAR PKNAME(0000)] ha cambiado de forma!,[VAR PKNAME(0000)][VAR 1900(0001)] 다른 모습으로 변화했다!,[VAR PKNAME(0000)]は べつの　すがたに　へんかした！
+Which Pokémon do you want to fuse this Pokémon with?,Avec quel Pokémon voulez-vous le fusionner ?,Quale Pokémon vuoi sottoporre all’Endofusione?,Mit welchem Pokémon fusionieren?,¿Con qué Pokémon quieres fusionarlo?,어느 포켓몬과 합체하겠습니까?,どの　ポケモンと がったい　しますか？
+Which Pokémon do you want to unite Calyrex with?,À quel Pokémon voulez-vous l’unir ?,A quale Pokémon vuoi unirlo?,Mit welchem Pokémon verbinden?,¿A qué Pokémon quieres unirlo?,어느 포켓몬과 합체하겠습니까?,どの　ポケモンと がったい　しますか？
+The Pokémon forgot [VAR MOVE(0000)]!,Il a oublié [VAR MOVE(0000)] !,Ha dimenticato [VAR MOVE(0000)]!,[VAR MOVE(0000)] wurde vergessen!,¡Ha olvidado [VAR MOVE(0000)]!,[VAR MOVE(0000)][VAR 1900(0002)] 잊었다!,[VAR MOVE(0000)]を　わすれた！
+[VAR PKNICK(0000)] forgot [VAR MOVE(0001)]...,[VAR PKNICK(0000)] a oublié [VAR MOVE(0001)]...,[VAR PKNICK(0000)] ha dimenticato [VAR MOVE(0001)]...,[VAR PKNICK(0000)] hat [VAR MOVE(0001)] vergessen...,[VAR PKNICK(0000)] ha olvidado [VAR MOVE(0001)]...,[VAR PKNICK(0000)][VAR 1900(0001)] [VAR MOVE(0001)][VAR 1900(0002)] 잊었다...,[VAR PKNICK(0000)]は [VAR MOVE(0001)]を　わすれた……
+You can’t use it on an Egg.,Vous ne pouvez pas l’utiliser sur un Œuf.,Non si può usare su un Uovo.,Das kann nicht auf ein Ei angewendet werden!,No se puede usar con un Huevo.,알에게는 쓸 수 없습니다,タマゴには　つかえません
+Do you want to change [VAR PKNICK(0000)]’s Ability?,"Voulez-vous changer le talent [VAR 1408(0000,0001)][VAR PKNICK(0000)] ?",Vuoi cambiare l’abilità di [VAR PKNICK(0000)]?,Möchtest du die Fähigkeit von [VAR PKNICK(0000)] ändern?,¿Quieres cambiar la habilidad de [VAR PKNICK(0000)]?,[VAR PKNICK(0000)]의 특성을 바꾸겠습니까?,[VAR PKNICK(0000)]の　とくせいを かえますか？
+[VAR BE05(0005)][VAR BE05(0001)][VAR PKNICK(0000)]’s Ability changed! Its Ability is now [VAR ABILITY(0001)]!,"Le talent [VAR 1408(0000,0001)][VAR PKNICK(0000)] est devenu [VAR ABILITY(0001)] ![VAR BE05(0005)][VAR BE05(0001)]",Hai sostituito l’abilità di [VAR PKNICK(0000)] con l’abilità [VAR ABILITY(0001)]![VAR BE05(0005)][VAR BE05(0001)],Die Fähigkeit von [VAR PKNICK(0000)] wurde zu [VAR ABILITY(0001)] geändert![VAR BE05(0005)][VAR BE05(0001)],Ahora la habilidad de [VAR PKNICK(0000)] es [VAR ABILITY(0001)].[VAR BE05(0005)][VAR BE05(0001)],[VAR PKNICK(0000)]의 특성이 [VAR ABILITY(0001)][VAR 1900(0005)]로 변화했다![VAR BE05(0005)][VAR BE05(0001)],[VAR PKNICK(0000)]の　とくせいが [VAR ABILITY(0001)]に　へんかした！[VAR BE05(0005)][VAR BE05(0001)]
+Attack,Attaque,Attacco,Ang.,Ataque,공격,こうげき
+Defense,Défense,Difesa,Vert.,Defensa,방어,ぼうぎょ
+Sp. Atk,Atq. Spé.,Att. Sp.,Sp.-Ang.,At. Esp.,특수공격,とくこう
+Sp. Def,Déf. Spé.,Dif. Sp.,Sp.-Vert.,Def. Esp.,특수방어,とくぼう
+Speed,Vitesse,Velocità,Init.,Velocidad,스피드,すばやさ
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
++[VAR NUM2(0000)],+ [VAR NUM2(0000)],+ [VAR NUM2(0000)],+ [VAR NUM2(0000)],+[VAR NUM2(0000)],+[VAR NUM2(0000)],+[VAR NUM2(0000)]
+HP,PV,PS,KP,PS,HP,HP
+It might affect [VAR PKNICK(0000)]’s stats. Are you sure you want to use it?,"Voulez-vous modifier les stats [VAR 1408(0000,0001)][VAR PKNICK(0000)] ?",Vuoi modificare le statistiche di [VAR PKNICK(0000)]?,Möchtest du die Statuswerte von [VAR PKNICK(0000)] ändern?,Este objeto podría alterar las características de [VAR PKNICK(0000)]. ¿Seguro que quieres usarlo?,[VAR PKNICK(0000)]의 능력을 변화시키겠습니까?,[VAR PKNICK(0000)]の　のうりょくを へんかさせますか？
+[VAR PKNICK(0001)]’s stats may have changed due to the effects of the [VAR 0109(0000)]![VAR BE05(0005)][VAR BE05(0001)],"Grâce [VAR 1404(0000,0000)][VAR ITEM2(0000)], les stats [VAR 1408(0001,0001)][VAR PKNICK(0001)] ont changé ![VAR BE05(0005)][VAR BE05(0001)]","Le statistiche di [VAR PKNICK(0001)] sono cambiate per effetto [VAR 1504(0000,0000)][VAR 0109(0000)]![VAR BE05(0005)][VAR BE05(0001)]","Durch [VAR 1604(0000,0000)][VAR 0109(0000)] haben sich die Statuswerte von [VAR PKNICK(0001)] verändert.[VAR BE05(0005)][VAR BE05(0001)]","¡Las características de [VAR PKNICK(0001)] han cambiado debido [VAR 1706(0000,0000)][VAR 0109(0000)]![VAR BE05(0005)][VAR BE05(0001)]",[VAR 0109(0000)]의 효과로 [VAR PKNICK(0001)]의 능력에 변화가 일어난 것 같다![VAR BE05(0005)][VAR BE05(0001)],[VAR 0109(0000)]の　こうかで [VAR PKNICK(0001)]の　のうりょくに へんかが　おきたようだ！[VAR BE05(0005)][VAR BE05(0001)]
+How many [VAR 1001][VAR ITEM2(0001)] do you want to use?,"Combien [VAR 1001][VAR 1408(0001,0000)][VAR ITEM2(0001)] voulez-vous utiliser ?","Quant[VAR NUMBRNCH(0001,0101)]ie[VAR 1001] [VAR ITEM2(0001)] vuoi usare?",Wie viele [VAR 1001][VAR 0109(0001)] möchtest du einsetzen?,"¿Cuánt[VAR 1100(0001,0101)]oas [VAR 1001][VAR ITEM2(0001)] quieres usar?",[VAR 0109(0001)][VAR 1900(0002)] 몇 개 사용하겠습니까?,[VAR 0109(0001)]を いくつ　つかいますか？
+Its Dynamax Level increased by [VAR NUM2(0000)]!,"Le niveau Dynamax augmente d[VAR NUMBRNCH(0000,0201)]’e [VAR NUM2(0000)] point[VAR NUMBRNCH(0000,0100)]s.",Il Livello Dynamax è aumentato di [VAR NUM2(0000)].,"Der Dynamax-Level wurde um [VAR NUM2(0000)] Stufe[VAR NUMBRNCH(0000,0100)]n angehoben!","El nivel Dinamax ha aumentado [VAR NUM2(0000)] punto[VAR NUMBRNCH(0000,0100)]s.",다이맥스 레벨이 [VAR NUM2(0000)] 올랐다!,ダイマックスレベルが [VAR NUM2(0000)]　あがった！
+How many [VAR 1001][VAR ITEM2(0001)] do you want to use?,"Combien [VAR 1001][VAR 1408(0001,0000)][VAR ITEM2(0001)] voulez-vous utiliser ?","Quant[VAR NUMBRNCH(0001,0101)]ie[VAR 1001] [VAR ITEM2(0001)] vuoi usare?",Wie viele [VAR 1001][VAR 0110(0001)] möchtest du einsetzen?,"¿Cuánt[VAR 1100(0001,0101)]oas [VAR 1001][VAR ITEM2(0001)] quieres usar?",[VAR 0109(0001)][VAR 1900(0002)] 몇 개 사용하겠습니까?,[VAR 0109(0001)]を いくつ　つかいますか？
+You can’t ride a bicycle from your Bag.,Vous ne pouvez pas utiliser votre vélo depuis votre Sac.,Non puoi salire in Bicicletta dalla schermata della Borsa.,Du kannst das Fahrrad nicht über deinen Beutel nutzen.,No puedes montar en la bici mientras ojeas la Bolsa.,가방에서는 자전거를 탈 수 없습니다,バッグからは じてんしゃには　のれません
+You can’t fish from your Bag.,Vous ne pouvez pas pêcher depuis votre Sac.,Non puoi pescare dalla schermata della Borsa.,Du kannst die Angel nicht über deinen Beutel nutzen.,No puedes pescar mientras ojeas la Bolsa.,가방에서는 낚시를 할 수 없습니다,バッグからは つりは　できません
+You can’t use your Pokémon Boxes from your Bag.,Vous ne pouvez pas utiliser la Boîte Pokémon depuis votre Sac.,Non puoi usare i Box Pokémon dalla schermata della Borsa.,Du kannst die Pokémon-Box nicht über deinen Beutel nutzen.,No puedes usar la Caja de Pokémon mientras ojeas la Bolsa.,가방에서는 포켓몬 박스를 쓸 수 없습니다!,バッグからは ポケモンボックスを　つかえません！
+Light bulb,Ampoule électrique,Lampadina,Glühbirne,Bombilla,전구,でんきゅう
+Microwave oven,Four à micro-ondes,Forno a microonde,Mikrowelle,Microondas,전자레인지,でんしレンジ
+Washing machine,Machine à laver,Lavatrice,Waschmaschine,Lavadora,세탁기,せんたくき
+Refrigerator,Réfrigérateur,Frigorifero,Kühlschrank,Nevera,냉장고,れいぞうこ
+Electric fan,Ventilateur,Ventilatore,Ventilator,Ventilador,선풍기,せんぷうき
+Lawn mower,Tondeuse,Falciatrice,Rasenmäher,Cortacésped,잔디깎이,しばかりき
+Which appliance would you like to order?,Quel appareil électrique souhaitez-vous commander ?,Quale articolo vuoi ordinare?,Welches Haushaltsgerät möchtest du bestellen?,¿Qué aparato quieres pedir?,어느 가전제품을 주문하겠습니까?,どの　かでんを ちゅうもんしますか？
+[VAR PKNAME(0000)] appeared in the Watchtower Lair in the Wild Area!,Un [VAR PKNAME(0000)] est apparu dans l’antre géant des Terres Sauvages !,"Nella dynatana delle Terre Selvagge è apparso [VAR 1502(0000,0000)][VAR PKNAME(0000)]!",[VAR PKNAME(0000)] ist im Wachturm-Nest in der Naturzone aufgetaucht!,¡Se ha avistado un [VAR PKNAME(0000)] en el nido Dinamax de la Atalaya!,와일드에리어의 다이맥스굴에 [VAR PKNAME(0000)][VAR 1900(0003)] 출현했다!,ワイルドエリアの　ダイすあなに [VAR PKNAME(0000)]が　しゅつげんした！
+A Pokémon has already appeared in the Watchtower Lair.,Il y a déjà un Pokémon dans l’antre géant.,È già apparso un Pokémon nella dynatana delle Terre Selvagge!,Es ist bereits ein Pokémon im Wachturm-Nest aufgetaucht.,Ya ha aparecido un Pokémon en el nido Dinamax de la Atalaya.,이미 다이맥스굴에 포켓몬이 출현했습니다,すでに　ダイすあなに ポケモンが　あらわれている
+Change form,Changer de forme,Cambia forma,Form ändern,Cambiar forma,모습을 바꾼다,すがたを　かえる
+Change Ability,Changer de talent,Cambia abilità,Fähigkeit ändern,Cambiar habilidad,특성을 바꾼다,とくせいを　かえる
+The selected items will be combined. Is that OK?,Voulez-vous vraiment fusionner ces objets ?,Vuoi combinare gli strumenti selezionati?,Möchtest du die ausgewählten Items kombinieren?,¿Quieres combinar los objetos seleccionados?,선택한 도구를 합성합니다 괜찮겠습니까?,えらんだ　どうぐを　ごうせいします よろしいですか？
+You only have one of this item. Are you sure you want to add it?,Vous n’avez qu’un seul exemplaire de cet objet. Voulez-vous vraiment le sélectionner ?,È l’unico strumento di questo tipo che hai. Vuoi continuare lo stesso?,Du besitzt nur ein Exemplar dieses Items. Möchtest du trotzdem fortfahren?,Solo tienes una unidad de este objeto. ¿Seguro que quieres continuar?,이 도구는 하나밖에 없습니다 괜찮겠습니까?,ひとつしか　ありませんが よろしいですか？
+Which Pokémon do you want to teach it to?,À quel Pokémon voulez-vous l’enseigner ?,A quale Pokémon vuoi insegnarla?,Welches Pokémon soll die Attacke erlernen?,¿Qué Pokémon quieres que lo aprenda?,어느 포켓몬에게 배우게 하겠습니까?,どの　ポケモンに おぼえさせますか？
+×,×,×,×,×,×,×
+[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 1001][VAR 1003][VAR ITEM2(0000)],[VAR 0109(0000)],[VAR 0109(0000)]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+[~ 192],[~ 192],[~ 192],[~ 192],[~ 192],[~ 192],[~ 192]
+[~ 193],[~ 193],[~ 193],[~ 193],[~ 193],[~ 193],[~ 193]
+[~ 194],[~ 194],[~ 194],[~ 194],[~ 194],[~ 194],[~ 194]
+[~ 195],[~ 195],[~ 195],[~ 195],[~ 195],[~ 195],[~ 195]
+[~ 196],[~ 196],[~ 196],[~ 196],[~ 196],[~ 196],[~ 196]
+[~ 197],[~ 197],[~ 197],[~ 197],[~ 197],[~ 197],[~ 197]
+[~ 198],[~ 198],[~ 198],[~ 198],[~ 198],[~ 198],[~ 198]
+[~ 199],[~ 199],[~ 199],[~ 199],[~ 199],[~ 199],[~ 199]
+[~ 200],[~ 200],[~ 200],[~ 200],[~ 200],[~ 200],[~ 200]
+[~ 201],[~ 201],[~ 201],[~ 201],[~ 201],[~ 201],[~ 201]
+[~ 202],[~ 202],[~ 202],[~ 202],[~ 202],[~ 202],[~ 202]
+[~ 203],[~ 203],[~ 203],[~ 203],[~ 203],[~ 203],[~ 203]
+[~ 204],[~ 204],[~ 204],[~ 204],[~ 204],[~ 204],[~ 204]
+[~ 205],[~ 205],[~ 205],[~ 205],[~ 205],[~ 205],[~ 205]
+[~ 206],[~ 206],[~ 206],[~ 206],[~ 206],[~ 206],[~ 206]
+[~ 207],[~ 207],[~ 207],[~ 207],[~ 207],[~ 207],[~ 207]
+[~ 208],[~ 208],[~ 208],[~ 208],[~ 208],[~ 208],[~ 208]
+[~ 209],[~ 209],[~ 209],[~ 209],[~ 209],[~ 209],[~ 209]
+[~ 210],[~ 210],[~ 210],[~ 210],[~ 210],[~ 210],[~ 210]
+[~ 211],[~ 211],[~ 211],[~ 211],[~ 211],[~ 211],[~ 211]
+[~ 212],[~ 212],[~ 212],[~ 212],[~ 212],[~ 212],[~ 212]
+[~ 213],[~ 213],[~ 213],[~ 213],[~ 213],[~ 213],[~ 213]
+[~ 214],[~ 214],[~ 214],[~ 214],[~ 214],[~ 214],[~ 214]
+[~ 215],[~ 215],[~ 215],[~ 215],[~ 215],[~ 215],[~ 215]
+[~ 216],[~ 216],[~ 216],[~ 216],[~ 216],[~ 216],[~ 216]
+[~ 217],[~ 217],[~ 217],[~ 217],[~ 217],[~ 217],[~ 217]
+[~ 218],[~ 218],[~ 218],[~ 218],[~ 218],[~ 218],[~ 218]
+[~ 219],[~ 219],[~ 219],[~ 219],[~ 219],[~ 219],[~ 219]
+[~ 220],[~ 220],[~ 220],[~ 220],[~ 220],[~ 220],[~ 220]
+[~ 221],[~ 221],[~ 221],[~ 221],[~ 221],[~ 221],[~ 221]
+[~ 222],[~ 222],[~ 222],[~ 222],[~ 222],[~ 222],[~ 222]
+[~ 223],[~ 223],[~ 223],[~ 223],[~ 223],[~ 223],[~ 223]
+[~ 224],[~ 224],[~ 224],[~ 224],[~ 224],[~ 224],[~ 224]
+[~ 225],[~ 225],[~ 225],[~ 225],[~ 225],[~ 225],[~ 225]
+[~ 226],[~ 226],[~ 226],[~ 226],[~ 226],[~ 226],[~ 226]
+[~ 227],[~ 227],[~ 227],[~ 227],[~ 227],[~ 227],[~ 227]
+[~ 228],[~ 228],[~ 228],[~ 228],[~ 228],[~ 228],[~ 228]
+[~ 229],[~ 229],[~ 229],[~ 229],[~ 229],[~ 229],[~ 229]
+[~ 230],[~ 230],[~ 230],[~ 230],[~ 230],[~ 230],[~ 230]
+[~ 231],[~ 231],[~ 231],[~ 231],[~ 231],[~ 231],[~ 231]
+[~ 232],[~ 232],[~ 232],[~ 232],[~ 232],[~ 232],[~ 232]
+[~ 233],[~ 233],[~ 233],[~ 233],[~ 233],[~ 233],[~ 233]
+[~ 234],[~ 234],[~ 234],[~ 234],[~ 234],[~ 234],[~ 234]
+[~ 235],[~ 235],[~ 235],[~ 235],[~ 235],[~ 235],[~ 235]
+[~ 236],[~ 236],[~ 236],[~ 236],[~ 236],[~ 236],[~ 236]
+[~ 237],[~ 237],[~ 237],[~ 237],[~ 237],[~ 237],[~ 237]
+[~ 238],[~ 238],[~ 238],[~ 238],[~ 238],[~ 238],[~ 238]
+[~ 239],[~ 239],[~ 239],[~ 239],[~ 239],[~ 239],[~ 239]
+[~ 240],[~ 240],[~ 240],[~ 240],[~ 240],[~ 240],[~ 240]
+[~ 241],[~ 241],[~ 241],[~ 241],[~ 241],[~ 241],[~ 241]
+[~ 242],[~ 242],[~ 242],[~ 242],[~ 242],[~ 242],[~ 242]
+[~ 243],[~ 243],[~ 243],[~ 243],[~ 243],[~ 243],[~ 243]
+[~ 244],[~ 244],[~ 244],[~ 244],[~ 244],[~ 244],[~ 244]
+[~ 245],[~ 245],[~ 245],[~ 245],[~ 245],[~ 245],[~ 245]
+[~ 246],[~ 246],[~ 246],[~ 246],[~ 246],[~ 246],[~ 246]
+[~ 247],[~ 247],[~ 247],[~ 247],[~ 247],[~ 247],[~ 247]
+[~ 248],[~ 248],[~ 248],[~ 248],[~ 248],[~ 248],[~ 248]
+[~ 249],[~ 249],[~ 249],[~ 249],[~ 249],[~ 249],[~ 249]
+[~ 250],[~ 250],[~ 250],[~ 250],[~ 250],[~ 250],[~ 250]
+[~ 251],[~ 251],[~ 251],[~ 251],[~ 251],[~ 251],[~ 251]
+[~ 252],[~ 252],[~ 252],[~ 252],[~ 252],[~ 252],[~ 252]
+[~ 253],[~ 253],[~ 253],[~ 253],[~ 253],[~ 253],[~ 253]
+[~ 254],[~ 254],[~ 254],[~ 254],[~ 254],[~ 254],[~ 254]
+[~ 255],[~ 255],[~ 255],[~ 255],[~ 255],[~ 255],[~ 255]
+[~ 256],[~ 256],[~ 256],[~ 256],[~ 256],[~ 256],[~ 256]
+[~ 257],[~ 257],[~ 257],[~ 257],[~ 257],[~ 257],[~ 257]
+[~ 258],[~ 258],[~ 258],[~ 258],[~ 258],[~ 258],[~ 258]
+[~ 259],[~ 259],[~ 259],[~ 259],[~ 259],[~ 259],[~ 259]
+[~ 260],[~ 260],[~ 260],[~ 260],[~ 260],[~ 260],[~ 260]
+[~ 261],[~ 261],[~ 261],[~ 261],[~ 261],[~ 261],[~ 261]
+[~ 262],[~ 262],[~ 262],[~ 262],[~ 262],[~ 262],[~ 262]
+[~ 263],[~ 263],[~ 263],[~ 263],[~ 263],[~ 263],[~ 263]
+[~ 264],[~ 264],[~ 264],[~ 264],[~ 264],[~ 264],[~ 264]
+[~ 265],[~ 265],[~ 265],[~ 265],[~ 265],[~ 265],[~ 265]
+[~ 266],[~ 266],[~ 266],[~ 266],[~ 266],[~ 266],[~ 266]
+[~ 267],[~ 267],[~ 267],[~ 267],[~ 267],[~ 267],[~ 267]
+[~ 268],[~ 268],[~ 268],[~ 268],[~ 268],[~ 268],[~ 268]
+[~ 269],[~ 269],[~ 269],[~ 269],[~ 269],[~ 269],[~ 269]
+[~ 270],[~ 270],[~ 270],[~ 270],[~ 270],[~ 270],[~ 270]
+[~ 271],[~ 271],[~ 271],[~ 271],[~ 271],[~ 271],[~ 271]
+[~ 272],[~ 272],[~ 272],[~ 272],[~ 272],[~ 272],[~ 272]
+[~ 273],[~ 273],[~ 273],[~ 273],[~ 273],[~ 273],[~ 273]
+[~ 274],[~ 274],[~ 274],[~ 274],[~ 274],[~ 274],[~ 274]
+[~ 275],[~ 275],[~ 275],[~ 275],[~ 275],[~ 275],[~ 275]
+[~ 276],[~ 276],[~ 276],[~ 276],[~ 276],[~ 276],[~ 276]
+[~ 277],[~ 277],[~ 277],[~ 277],[~ 277],[~ 277],[~ 277]
+[~ 278],[~ 278],[~ 278],[~ 278],[~ 278],[~ 278],[~ 278]
+[~ 279],[~ 279],[~ 279],[~ 279],[~ 279],[~ 279],[~ 279]
+[~ 280],[~ 280],[~ 280],[~ 280],[~ 280],[~ 280],[~ 280]
+[~ 281],[~ 281],[~ 281],[~ 281],[~ 281],[~ 281],[~ 281]
+[~ 282],[~ 282],[~ 282],[~ 282],[~ 282],[~ 282],[~ 282]
+[~ 283],[~ 283],[~ 283],[~ 283],[~ 283],[~ 283],[~ 283]
+[~ 284],[~ 284],[~ 284],[~ 284],[~ 284],[~ 284],[~ 284]
+[~ 285],[~ 285],[~ 285],[~ 285],[~ 285],[~ 285],[~ 285]
+[~ 286],[~ 286],[~ 286],[~ 286],[~ 286],[~ 286],[~ 286]
+[~ 287],[~ 287],[~ 287],[~ 287],[~ 287],[~ 287],[~ 287]
+[~ 288],[~ 288],[~ 288],[~ 288],[~ 288],[~ 288],[~ 288]
+[~ 289],[~ 289],[~ 289],[~ 289],[~ 289],[~ 289],[~ 289]
+[~ 290],[~ 290],[~ 290],[~ 290],[~ 290],[~ 290],[~ 290]
+[~ 291],[~ 291],[~ 291],[~ 291],[~ 291],[~ 291],[~ 291]
+[~ 292],[~ 292],[~ 292],[~ 292],[~ 292],[~ 292],[~ 292]
+[~ 293],[~ 293],[~ 293],[~ 293],[~ 293],[~ 293],[~ 293]
+[~ 294],[~ 294],[~ 294],[~ 294],[~ 294],[~ 294],[~ 294]
+[~ 295],[~ 295],[~ 295],[~ 295],[~ 295],[~ 295],[~ 295]
+[~ 296],[~ 296],[~ 296],[~ 296],[~ 296],[~ 296],[~ 296]
+[~ 297],[~ 297],[~ 297],[~ 297],[~ 297],[~ 297],[~ 297]
+[~ 298],[~ 298],[~ 298],[~ 298],[~ 298],[~ 298],[~ 298]
+[~ 299],[~ 299],[~ 299],[~ 299],[~ 299],[~ 299],[~ 299]
+[~ 300],[~ 300],[~ 300],[~ 300],[~ 300],[~ 300],[~ 300]
+[~ 301],[~ 301],[~ 301],[~ 301],[~ 301],[~ 301],[~ 301]
+[~ 302],[~ 302],[~ 302],[~ 302],[~ 302],[~ 302],[~ 302]
+[~ 303],[~ 303],[~ 303],[~ 303],[~ 303],[~ 303],[~ 303]
+[~ 304],[~ 304],[~ 304],[~ 304],[~ 304],[~ 304],[~ 304]
+[~ 305],[~ 305],[~ 305],[~ 305],[~ 305],[~ 305],[~ 305]
+[~ 306],[~ 306],[~ 306],[~ 306],[~ 306],[~ 306],[~ 306]
+[~ 307],[~ 307],[~ 307],[~ 307],[~ 307],[~ 307],[~ 307]
+[~ 308],[~ 308],[~ 308],[~ 308],[~ 308],[~ 308],[~ 308]
+[~ 309],[~ 309],[~ 309],[~ 309],[~ 309],[~ 309],[~ 309]
+[~ 310],[~ 310],[~ 310],[~ 310],[~ 310],[~ 310],[~ 310]
+[~ 311],[~ 311],[~ 311],[~ 311],[~ 311],[~ 311],[~ 311]
+[~ 312],[~ 312],[~ 312],[~ 312],[~ 312],[~ 312],[~ 312]
+[~ 313],[~ 313],[~ 313],[~ 313],[~ 313],[~ 313],[~ 313]
+[~ 314],[~ 314],[~ 314],[~ 314],[~ 314],[~ 314],[~ 314]
+[~ 315],[~ 315],[~ 315],[~ 315],[~ 315],[~ 315],[~ 315]
+[~ 316],[~ 316],[~ 316],[~ 316],[~ 316],[~ 316],[~ 316]
+[~ 317],[~ 317],[~ 317],[~ 317],[~ 317],[~ 317],[~ 317]
+[~ 318],[~ 318],[~ 318],[~ 318],[~ 318],[~ 318],[~ 318]
+[~ 319],[~ 319],[~ 319],[~ 319],[~ 319],[~ 319],[~ 319]
+[~ 320],[~ 320],[~ 320],[~ 320],[~ 320],[~ 320],[~ 320]
+[~ 321],[~ 321],[~ 321],[~ 321],[~ 321],[~ 321],[~ 321]
+[~ 322],[~ 322],[~ 322],[~ 322],[~ 322],[~ 322],[~ 322]
+[~ 323],[~ 323],[~ 323],[~ 323],[~ 323],[~ 323],[~ 323]
+[~ 324],[~ 324],[~ 324],[~ 324],[~ 324],[~ 324],[~ 324]
+[~ 325],[~ 325],[~ 325],[~ 325],[~ 325],[~ 325],[~ 325]
+[~ 326],[~ 326],[~ 326],[~ 326],[~ 326],[~ 326],[~ 326]
+[~ 327],[~ 327],[~ 327],[~ 327],[~ 327],[~ 327],[~ 327]
+[~ 328],[~ 328],[~ 328],[~ 328],[~ 328],[~ 328],[~ 328]
+[~ 329],[~ 329],[~ 329],[~ 329],[~ 329],[~ 329],[~ 329]
+[~ 330],[~ 330],[~ 330],[~ 330],[~ 330],[~ 330],[~ 330]
+[~ 331],[~ 331],[~ 331],[~ 331],[~ 331],[~ 331],[~ 331]
+[~ 332],[~ 332],[~ 332],[~ 332],[~ 332],[~ 332],[~ 332]
+[~ 333],[~ 333],[~ 333],[~ 333],[~ 333],[~ 333],[~ 333]
+[~ 334],[~ 334],[~ 334],[~ 334],[~ 334],[~ 334],[~ 334]
+[~ 335],[~ 335],[~ 335],[~ 335],[~ 335],[~ 335],[~ 335]
+[~ 336],[~ 336],[~ 336],[~ 336],[~ 336],[~ 336],[~ 336]
+[~ 337],[~ 337],[~ 337],[~ 337],[~ 337],[~ 337],[~ 337]
+[~ 338],[~ 338],[~ 338],[~ 338],[~ 338],[~ 338],[~ 338]
+[~ 339],[~ 339],[~ 339],[~ 339],[~ 339],[~ 339],[~ 339]
+[~ 340],[~ 340],[~ 340],[~ 340],[~ 340],[~ 340],[~ 340]
+[~ 341],[~ 341],[~ 341],[~ 341],[~ 341],[~ 341],[~ 341]
+[~ 342],[~ 342],[~ 342],[~ 342],[~ 342],[~ 342],[~ 342]
+[~ 343],[~ 343],[~ 343],[~ 343],[~ 343],[~ 343],[~ 343]
+[~ 344],[~ 344],[~ 344],[~ 344],[~ 344],[~ 344],[~ 344]
+[~ 345],[~ 345],[~ 345],[~ 345],[~ 345],[~ 345],[~ 345]
+[~ 346],[~ 346],[~ 346],[~ 346],[~ 346],[~ 346],[~ 346]
+[~ 347],[~ 347],[~ 347],[~ 347],[~ 347],[~ 347],[~ 347]
+[~ 348],[~ 348],[~ 348],[~ 348],[~ 348],[~ 348],[~ 348]
+[~ 349],[~ 349],[~ 349],[~ 349],[~ 349],[~ 349],[~ 349]
+[~ 350],[~ 350],[~ 350],[~ 350],[~ 350],[~ 350],[~ 350]

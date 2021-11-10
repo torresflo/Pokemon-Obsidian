@@ -1,0 +1,54 @@
+0 : Une Démonstration qui plaît énormément.
+1 : Une Démonstration très plaisante, mais le Pokémon sera aisément effrayé par la suite.
+2 : Plaît énormément, mais interdit d’effectuer la moindre Démonstration jusqu’à la fin.
+3 : Peut être utilisé plusieurs fois sans ennuyer le public.
+4 : Évite une fois d’être effrayé par un autre Pokémon.
+5 : Évite d’être effrayé par les autres Pokémon.
+6 : Effraie le Pokémon qui vient de faire sa Démonstration.
+7 : Effraie tous les Pokémon qui ont fait leur Démonstration.
+8 : Effraie beaucoup le Pokémon qui vient de faire sa Démonstration.
+9 : Effraie beaucoup tous les Pokémon qui ont fait leur Démonstration.
+10 : Détourne l’attention du public des autres Pokémon.
+11 : Effraie énormément le Pokémon qui a l’attention du public.
+12 : Bloque tous les autres Pokémon, mais perd un tour de Démonstration.
+13 : Effraie énormément les Pokémon qui ont fait une Démonstration du même type.
+14 : Rend nerveux tous les Pokémon qui font une Démonstration après celle-ci.
+15 : Diminue la confiance des Pokémon qui ont fait leur Démonstration.
+16 : Une Démonstration qui plaît beaucoup si on l’exécute en premier.
+17 : Une Démonstration qui plaît beaucoup si on l’exécute en dernier.
+18 : Une Démonstration aussi réussie que celles des Pokémon précédents.
+19 : Une Démonstration aussi réussie que celle du Pokémon précédent.
+20 : Une Démonstration d’autant plus réussie qu’elle est lancée tard.
+21 : Une Démonstration qui plaît plus ou moins selon le moment où elle est exécutée.
+22 : Une Démonstration qui plaît si elle est du même type que celle du Pokémon précédent.
+23 : Dépend de la façon dont la Démonstration du Pokémon précédent se passe.
+24 : Augmente la confiance du Pokémon et diminue sa nervosité.
+25 : Une Démonstration qui plaît énormément si le Pokémon est confiant.
+26 : Permet de faire la prochaine Démonstration plus tôt au tour suivant.
+27 : Permet de faire la prochaine Démonstration plus tard au tour suivant.
+28 : Mélange l’ordre de passage des Démonstrations du prochain tour.
+29 : Une Démonstration qui enthousiasme le public de tous les concours.
+30 : Effraie beaucoup tous les Pokémon qui ont eu du succès.
+31 : Une Démonstration qui plaît plus si le public est enthousiaste.
+32 : Rend le public moins enthousiaste pendant un certain temps après cette Démonstration.
+33 : Rend le public très enthousiaste si cette Démonstration est effectuée au départ.
+34 : Rend le public très enthousiaste si cette Démonstration est effectuée à la fin.
+35 : Si la Démonstration ne correspond pas au concours, le public perd tout enthousiasme.
+36 : [~ 36]
+37 : [~ 37]
+38 : [~ 38]
+39 : [~ 39]
+40 : [~ 40]
+41 : [~ 41]
+42 : [~ 42]
+43 : [~ 43]
+44 : [~ 44]
+45 : [~ 45]
+46 : [~ 46]
+47 : [~ 47]
+48 : [~ 48]
+49 : [~ 49]
+50 : [~ 50]
+51 : [~ 51]
+52 : [~ 52]
+53 : [~ 53]

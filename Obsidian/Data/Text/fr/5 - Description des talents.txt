@@ -1,0 +1,268 @@
+0 : -
+1 : Le Pokémon émet une odeur si nauséabonde qu’il peut effrayer sa cible.
+2 : Le Pokémon invoque la pluie quand il entre au combat.
+3 : La Vitesse du Pokémon augmente à chaque tour.
+4 : Le Pokémon est protégé des coups critiques par une solide carapace.
+5 : Le Pokémon encaisse toujours au moins une attaque s’il a tous ses PV. Il est également immunisé contre les capacités pouvant mettre K.O. en un coup.
+6 : Le Pokémon augmente l’humidité de l’air, ce qui empêche tous les Pokémon d’utiliser des capacités explosives telles que Destruction.
+7 : Le Pokémon s’est suffisamment échauffé, ce qui l’immunise contre la paralysie.
+8 : Augmente l’Esquive du Pokémon lors des tempêtes de sable.
+9 : Le Pokémon charge son corps en électricité statique, et tout contact avec lui peut paralyser.
+10 : Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et regagne des PV à la place.
+11 : Si le Pokémon est touché par une capacité Eau, il ne subit aucun dégât et regagne des PV à la place.
+12 : Le Pokémon est un grand benêt, ce qui l’immunise contre l’attraction ou la provocation.
+13 : Annule tous les effets liés à la météo.
+14 : Les yeux à facettes du Pokémon augmentent sa Précision.
+15 : Le Pokémon est incapable de dormir.
+16 : Lorsque le Pokémon est touché par une capacité, il prend le type de celle-ci.
+17 : Le Pokémon est naturellement immunisé contre toute forme de poison.
+18 : Lorsque le Pokémon est touché par une capacité de type Feu, il absorbe la chaleur pour renforcer ses propres capacités Feu.
+19 : Le Pokémon dispose d’un écran naturel qui le protège des effets additionnels des attaques ennemies.
+20 : Le Pokémon vit sa vie à son propre rythme, ce qui l’immunise contre la confusion.
+21 : Le Pokémon est solidement fixé au sol, ce qui le protège des capacités ou objets qui font changer de Pokémon.
+22 : Le Pokémon rugit lorsqu’il arrive au combat, ce qui intimide l’ennemi et baisse son Attaque.
+23 : Empêche les Pokémon ennemis de quitter le combat.
+24 : Blesse l’attaquant lorsque le Pokémon subit une attaque directe.
+25 : Une puissance mystérieuse protège le Pokémon contre toutes les capacités, sauf celles « super efficaces ».
+26 : Le Pokémon flotte, ce qui l’immunise contre les capacités de type Sol.
+27 : Peut paralyser, empoisonner ou endormir l’attaquant lorsque le Pokémon subit une attaque directe.
+28 : Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci.
+29 : Empêche les stats du Pokémon de baisser à cause d’une capacité ou d’un talent.
+30 : Le Pokémon soigne ses altérations de statut en quittant le combat.
+31 : Le Pokémon détourne sur lui les capacités de type Électrik et les neutralise, tout en montant son Attaque Spéciale.
+32 : Augmente les chances d’infliger des effets additionnels.
+33 : Augmente la Vitesse du Pokémon s’il pleut.
+34 : Augmente la Vitesse du Pokémon s’il y a du soleil.
+35 : Émet une lumière spécifique qui facilite les rencontres avec les Pokémon sauvages.
+36 : Lorsque le Pokémon entre au combat, il calque le talent d’un ennemi pour remplacer le sien.
+37 : Double l’Attaque du Pokémon.
+38 : Peut empoisonner l’attaquant lorsque le Pokémon subit une attaque directe.
+39 : Le Pokémon a un mental à toute épreuve qui empêche les capacités ennemies de lui faire peur.
+40 : Le magma qui recouvre le corps du Pokémon le protège contre le gel.
+41 : Le voile qui recouvre le Pokémon le protège des brûlures.
+42 : Attire les Pokémon Acier grâce à un champ magnétique, ce qui les empêche de fuir.
+43 : Protège le Pokémon de toutes les capacités sonores.
+44 : Le Pokémon récupère progressivement des PV lorsqu’il pleut.
+45 : Le Pokémon invoque une tempête de sable quand il entre au combat.
+46 : Met la pression à l’ennemi pour le forcer à dépenser plus de PP.
+47 : Le Pokémon est protégé par une épaisse couche de graisse qui diminue de moitié les dégâts qu’il subit des capacités de types Feu et Glace.
+48 : Le Pokémon se réveille deux fois plus rapidement que les autres.
+49 : Peut brûler l’attaquant lorsque le Pokémon subit une attaque directe.
+50 : Permet de fuir n’importe quel Pokémon sauvage.
+51 : Les yeux perçants du Pokémon empêchent sa Précision de baisser.
+52 : Le Pokémon est armé de lames tranchantes qui font sa fierté et empêchent son Attaque de baisser.
+53 : Permet parfois au Pokémon de ramasser les objets que ses ennemis ont utilisés. Il lui arrive aussi d’en trouver hors des combats.
+54 : Lorsque le Pokémon utilise une capacité, il passe le tour suivant à paresser.
+55 : Améliore l’Attaque du Pokémon, mais diminue la Précision.
+56 : Peut séduire l’attaquant lorsque le Pokémon subit une attaque directe.
+57 : L’Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Moins ou Plus.
+58 : L’Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Moins ou Plus.
+59 : Le Pokémon prend le type Eau, Feu ou Glace en fonction de la météo.
+60 : Les objets sont collés au corps gluant du Pokémon, ce qui empêche ses adversaires de les dérober.
+61 : Le Pokémon soigne parfois ses altérations de statut en muant.
+62 : Augmente l’Attaque du Pokémon s’il est affecté par une altération de statut.
+63 : Les écailles mystérieuses du Pokémon réagissent aux altérations de statut en augmentant sa Défense.
+64 : Le Pokémon suinte un liquide toxique nauséabond qui blesse tous ceux qui tentent de voler ses PV.
+65 : Augmente la puissance des capacités de type Plante du Pokémon quand il a perdu une certaine quantité de PV.
+66 : Augmente la puissance des capacités de type Feu du Pokémon quand il a perdu une certaine quantité de PV.
+67 : Augmente la puissance des capacités de type Eau du Pokémon quand il a perdu une certaine quantité de PV.
+68 : Augmente la puissance des capacités de type Insecte du Pokémon quand il a perdu une certaine quantité de PV.
+69 : Le Pokémon peut utiliser des capacités occasionnant un contrecoup sans perdre de PV.
+70 : Le soleil se met à briller quand le Pokémon entre au combat.
+71 : Empêche l’ennemi de s’enfuir.
+72 : Empêche le Pokémon de s’endormir.
+73 : Un écran de fumée empêche l’ennemi de baisser les stats du Pokémon.
+74 : Le Pokémon utilise sa maîtrise du yoga pour doubler la puissance de ses capacités physiques.
+75 : Le Pokémon est protégé des coups critiques par sa carapace.
+76 : Annule tous les effets de la météo.
+77 : Augmente l’Esquive du Pokémon s’il est confus.
+78 : Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et sa Vitesse augmente.
+79 : Le Pokémon déteste la concurrence et inflige plus de dégâts si l’ennemi est du même sexe. Par contre, il en inflige moins si l’ennemi est du sexe opposé.
+80 : Augmente la Vitesse du Pokémon quand il a peur.
+81 : Augmente l’Esquive du Pokémon durant les tempêtes de grêle.
+82 : Si le Pokémon tient une Baie à manger en cas de PV bas, il la mange dès qu’il a perdu la moitié de ses PV.
+83 : Si le Pokémon subit un coup critique, il entre dans une colère noire qui augmente son Attaque au maximum.
+84 : Augmente la Vitesse du Pokémon s’il perd ou utilise l’objet qu’il tenait au début du combat.
+85 : Diminue de moitié les dégâts infligés au Pokémon par les capacités de type Feu.
+86 : Les variations de stats sont deux fois plus importantes pour le Pokémon.
+87 : Le Pokémon perd des PV quand le soleil brille, mais il en regagne lorsqu’il pleut ou s’il est touché par une capacité Eau. Il subit aussi plus de dégâts de Feu.
+88 : Le Pokémon compare la Défense et la Défense Spéciale de l’adversaire et augmente son Attaque ou son Attaque Spéciale en conséquence.
+89 : Augmente la puissance des capacités coups de poing.
+90 : Quand le Pokémon est empoisonné, il regagne des PV au lieu d’en perdre.
+91 : Quand le Pokémon utilise une capacité du même type que lui, le bonus de puissance qu’elle reçoit est encore plus important que normalement.
+92 : Les capacités pouvant frapper plusieurs fois frappent toujours le nombre maximal de coups.
+93 : Soigne les altérations de statut du Pokémon quand il pleut.
+94 : Quand le soleil brille, l’Attaque Spéciale du Pokémon augmente mais il perd des PV à chaque tour.
+95 : Augmente la Vitesse du Pokémon en cas d’altération de statut.
+96 : Toutes les capacités du Pokémon deviennent de type Normal, quel que soit leur type original. Leur puissance augmente légèrement.
+97 : Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore plus que d’habitude.
+98 : Seules les attaques peuvent blesser le Pokémon.
+99 : Les capacités du Pokémon touchent l’ennemi à coup sûr, mais les capacités de l’ennemi le touchent aussi à coup sûr.
+100 : Le Pokémon utilise toujours sa capacité en dernier.
+101 : Augmente la puissance des capacités les plus faibles.
+102 : Protège le Pokémon contre les altérations de statut quand le soleil brille.
+103 : Le Pokémon ne peut utiliser aucun objet tenu.
+104 : Le Pokémon ignore les talents adverses qui auraient un effet sur ses capacités.
+105 : Le Pokémon est tellement chanceux qu’il inflige plus fréquemment des coups critiques.
+106 : Si le Pokémon est mis K.O. par une attaque directe, il inflige des dégâts à l’attaquant avant de s’évanouir.
+107 : Le Pokémon devine si l’adversaire connaît une capacité dangereuse pour lui.
+108 : Révèle l’une des capacités de l’ennemi quand le combat commence.
+109 : Quand il attaque, le Pokémon ignore les changements de stats de l’ennemi.
+110 : Permet à une capacité « pas très efficace » d’infliger des dégâts comme si elle était efficace normalement.
+111 : Réduit les dégâts subis lorsque le Pokémon est touché par une capacité super efficace.
+112 : Divise la Vitesse et l’Attaque du Pokémon par deux pendant les cinq premiers tours du combat.
+113 : Permet aux capacités de type Normal ou Combat du Pokémon de toucher les Pokémon de type Spectre.
+114 : Le Pokémon détourne sur lui les capacités de type Eau et les neutralise, tout en montant son Attaque Spéciale.
+115 : Régénère les PV du Pokémon lors des tempêtes de grêle.
+116 : Réduit les dégâts subis lorsque le Pokémon est touché par une capacité super efficace.
+117 : Déclenche une tempête de grêle quand le Pokémon entre au combat.
+118 : Le Pokémon peut parfois trouver du Miel après un combat.
+119 : Permet de connaître l’objet tenu par l’ennemi quand le combat commence.
+120 : Augmente la puissance des capacités occasionnant un contrecoup.
+121 : Modifie le type du Pokémon en fonction de la plaque ou du Cristal Z qu’il tient.
+122 : Augmente l’Attaque et la Défense Spéciale du Pokémon et de ses alliés lorsque le soleil brille.
+123 : Inflige des dégâts aux ennemis endormis.
+124 : Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.
+125 : Les capacités ayant un effet additionnel le perdent, mais leur puissance augmente.
+126 : Inverse les changements de stats : les augmentations de stats se transforment en baisses, et vice-versa.
+127 : Fait stresser l’ennemi, ce qui l’empêche de manger des Baies.
+128 : Augmente beaucoup l’Attaque du Pokémon quand ses stats baissent.
+129 : Le Pokémon devient défaitiste quand ses PV tombent à la moitié, et son Attaque et son Attaque Spéciale sont divisées par deux.
+130 : Quand le Pokémon est touché par une capacité, il inflige parfois Entrave sur celle-ci.
+131 : Soigne parfois une altération de statut d’un allié proche.
+132 : Diminue les dégâts subis par les alliés.
+133 : Quand le Pokémon est touché par une capacité physique, sa Défense baisse mais sa Vitesse augmente beaucoup.
+134 : Double le poids du Pokémon.
+135 : Divise par deux le poids du Pokémon.
+136 : Le Pokémon reçoit moins de dégâts quand ses PV sont au maximum.
+137 : Augmente la puissance des capacités physiques quand le Pokémon est empoisonné.
+138 : Augmente la puissance des capacités spéciales quand le Pokémon est brûlé.
+139 : Permet de réutiliser une même Baie plusieurs fois.
+140 : Le Pokémon anticipe et évite les attaques de ses alliés.
+141 : Augmente beaucoup une stat du Pokémon et en baisse une autre au hasard à chaque tour.
+142 : Protège des dégâts occasionnés par les tempêtes de sable ou la grêle, et neutralise les attaques à base de poudre.
+143 : Peut empoisonner l’ennemi par simple contact.
+144 : Restaure un peu de PV si le Pokémon est retiré du combat.
+145 : Empêche les capacités adverses de baisser la Défense.
+146 : Augmente la Vitesse lors des tempêtes de sable.
+147 : Le Pokémon résiste mieux aux capacités de statut.
+148 : Augmente la puissance des capacités du Pokémon s’il attaque en dernier.
+149 : Le Pokémon prend l’apparence du dernier membre de l’équipe pour tromper l’adversaire.
+150 : Le Pokémon prend l’apparence du Pokémon adverse.
+151 : Traverse les barrières et les clones de l’ennemi pour attaquer directement.
+152 : Remplace le talent de l’attaquant par « Momie » lorsque le Pokémon subit une attaque directe.
+153 : Quand le Pokémon met un ennemi K.O., sa confiance en lui ne connaît plus de limite et son Attaque augmente.
+154 : Réveille la noblesse du Pokémon lorsqu’il subit une capacité de type Ténèbres, ce qui augmente son Attaque.
+155 : Si le Pokémon est touché par une capacité de type Ténèbres, Spectre ou Insecte, sa phobie se révèle et sa Vitesse augmente.
+156 : Annule les effets des capacités de statut subies par le Pokémon et les retourne à l’envoyeur.
+157 : Annule les attaques de type Plante subies par le Pokémon et augmente son Attaque.
+158 : Rend les capacités de statut prioritaires.
+159 : Augmente la puissance des capacités de types Roche, Sol et Acier en cas de tempête de sable.
+160 : Inflige des dégâts à l’attaquant lorsque le Pokémon subit une attaque directe.
+161 : Quand le Pokémon perd la moitié de ses PV, il se transforme.
+162 : Augmente la Précision des Pokémon de l’équipe.
+163 : Le Pokémon ignore les talents adverses qui auraient un effet sur ses capacités.
+164 : Le Pokémon ignore les talents adverses qui auraient un effet sur ses capacités.
+165 : Protège l’équipe des effets limitant le libre arbitre.
+166 : Empêche les alliés de type Plante de subir des baisses de stats et des altérations de statut.
+167 : Restaure des PV lorsque le Pokémon consomme une Baie, quelle qu’elle soit.
+168 : Le Pokémon prend le type de la capacité qu’il utilise.
+169 : Divise par deux les dégâts des capacités physiques subies par le Pokémon.
+170 : Les capacités volent aussi l’objet tenu par la cible.
+171 : Protège de certaines capacités lançant des projectiles comme des bombes et des balles.
+172 : Augmente beaucoup l’Attaque Spéciale du Pokémon quand ses stats baissent.
+173 : Le Pokémon a une mâchoire robuste qui augmente la puissance de ses capacités à base de morsures.
+174 : Les capacités de type Normal deviennent de type Glace. Leur puissance augmente légèrement.
+175 : Les Pokémon de l’équipe ne peuvent pas s’endormir.
+176 : Le Pokémon prend la Forme Assaut lorsqu’il utilise une attaque, et la Forme Parade lorsqu’il utilise Bouclier Royal.
+177 : Quand les PV du Pokémon sont au maximum, ses capacités de type Vol sont prioritaires.
+178 : Augmente la puissance de certaines capacités de type aura.
+179 : Augmente la Défense du Pokémon si Champ Herbu est actif.
+180 : Quand les alliés utilisent l’objet qu’ils tiennent, le Pokémon leur donne l’objet qu’il tient en remplacement.
+181 : Augmente la puissance des attaques directes du Pokémon.
+182 : Les capacités de type Normal deviennent de type Fée. Leur puissance augmente légèrement.
+183 : Baisse la Vitesse de l’attaquant lorsque le Pokémon subit une attaque directe.
+184 : Les capacités de type Normal deviennent de type Vol. Leur puissance augmente légèrement.
+185 : Permet à la mère et à son petit d’attaquer tous les deux en même temps.
+186 : Augmente la puissance des attaques de type Ténèbres de tous les Pokémon.
+187 : Augmente la puissance des attaques de type Fée de tous les Pokémon.
+188 : Inverse l’effet des auras en baissant leur puissance.
+189 : Altère les conditions météo et rend inefficaces les attaques de type Feu.
+190 : Altère les conditions météo et rend inefficaces les attaques de type Eau.
+191 : Altère les conditions météo et annule les faiblesses du type Vol.
+192 : Augmente la Défense du Pokémon lorsqu’il subit une attaque.
+193 : Le Pokémon perd confiance quand ses PV tombent à la moitié et s’enfuit dans sa Poké Ball.
+194 : Le Pokémon évite les situations inutilement dangereuses. Quand ses PV tombent à la moitié, il se réfugie dans sa Poké Ball.
+195 : Augmente beaucoup la Défense du Pokémon quand il subit une capacité de type Eau.
+196 : Lorsque le Pokémon attaque un adversaire empoisonné, le coup sera forcément critique.
+197 : Lorsque le Pokémon perd la moitié de ses PV, son enveloppe se brise, mais son Attaque et son Attaque Spéciale augmentent.
+198 : Lorsque le Pokémon attaque une cible qui vient d’entrer sur le terrain en remplacement d’un autre Pokémon, les dégâts infligés sont doublés.
+199 : Réduit les dégâts des capacités de type Feu subies par le Pokémon. Il est également immunisé contre les brûlures.
+200 : Augmente la puissance des attaques de type Acier.
+201 : Augmente l’Attaque Spéciale du Pokémon lorsqu’il tombe à la moitié de ses PV à cause d’une attaque.
+202 : Augmente la Vitesse du Pokémon quand il grêle.
+203 : Le Pokémon est capable d’utiliser toutes ses capacités sans entrer en contact direct avec sa cible.
+204 : Toutes les attaques sonores du Pokémon prennent le type Eau.
+205 : Toutes les capacités qui soignent le Pokémon directement deviennent prioritaires.
+206 : Les capacités de type Normal deviennent de type Électrik. Leur puissance augmente légèrement.
+207 : La Vitesse du Pokémon est doublée sur un Champ Électrifié.
+208 : Le Pokémon se rassemble avec ses congénères quand ses PV sont élevés. Plus ses PV baissent, plus le banc s’amenuise.
+209 : Le déguisement qui recouvre le corps du Pokémon est capable de le protéger d’une attaque.
+210 : En battant un ennemi, ce Pokémon renforce ses liens avec son Dresseur. Il prend alors sa Forme Sacha et ses Sheauriken gagnent en puissance.
+211 : Lorsque le Pokémon perd la moitié de ses PV, ses Cellules se rassemblent pour l’encourager, ce qui lui permet de prendre sa Forme Parfaite.
+212 : Permet d’empoisonner les Pokémon de type Acier ou Poison.
+213 : Le Pokémon rêve en permanence et ne se réveille jamais. Il est capable d’attaquer normalement tout en dormant.
+214 : L’adversaire est impressionné par la majesté du Pokémon et ne peut pas le viser avec une attaque prioritaire.
+215 : Le Pokémon inflige à l’adversaire l’ayant mis K.O. des dégâts égaux au nombre de PV qu’il lui restait avant le coup de grâce.
+216 : Si n’importe quel Pokémon utilise une capacité dansante, ce Pokémon peut se mettre aussi à danser.
+217 : Augmente la puissance des capacités spéciales des alliés.
+218 : Divise par deux les dégâts des attaques directes subies par le Pokémon, mais double les dégâts des capacités de type Feu.
+219 : L’adversaire est abasourdi par le Pokémon et ne peut pas le viser avec une capacité prioritaire.
+220 : Augmente l’Attaque Spéciale du Pokémon lorsqu’un autre Pokémon est mis K.O.
+221 : Baisse la Vitesse de l’attaquant lorsque le Pokémon subit une attaque directe.
+222 : Le Pokémon reçoit le talent d’un allié mis K.O.
+223 : Le Pokémon acquiert le talent d’un allié mis K.O.
+224 : Augmente la stat la plus élevée du Pokémon s’il met K.O. un autre Pokémon pendant son tour.
+225 : Change le type du Pokémon en fonction de la ROM équipée.
+226 : Le Pokémon crée un Champ Électrifié au moment où il entre au combat.
+227 : Le Pokémon crée un Champ Psychique au moment où il entre au combat.
+228 : Le Pokémon crée un Champ Brumeux au moment où il entre au combat.
+229 : Le Pokémon crée un Champ Herbu au moment où il entre au combat.
+230 : Empêche les stats du Pokémon de baisser à cause d’une capacité ou d’un talent.
+231 : Le Pokémon reçoit moins de dégâts quand ses PV sont au maximum.
+232 : Réduit les dégâts subis lorsque le Pokémon est touché par une capacité super efficace.
+233 : Augmente encore plus les dégâts infligés par les attaques super efficaces.
+234 : Augmente l’Attaque du Pokémon quand il entre au combat.
+235 : Augmente la Défense du Pokémon quand il entre au combat.
+236 : Le Pokémon prend le type de la capacité qu’il utilise.
+237 : Si le Pokémon ne tient aucun objet, il ramassera la Poké Ball lors du premier lancer raté du combat.
+238 : Quand le Pokémon est touché par une attaque, il dissémine des aigrettes qui diminuent la Vitesse de tout le monde, sauf la sienne.
+239 : Permet d’ignorer l’effet des capacités ou des talents qui attirent les capacités.
+240 : Le Pokémon renvoie les effets réducteurs de stats qu’il reçoit.
+241 : Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie.
+242 : Permet d’ignorer l’effet des capacités ou des talents qui attirent les capacités.
+243 : Lorsque le Pokémon est touché par des capacités de type Eau ou Feu, sa Vitesse augmente énormément.
+244 : Augmente la puissance des capacités basées sur le son. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités.
+245 : Le Pokémon déclenche une tempête de sable quand il subit une attaque.
+246 : Le Pokémon est protégé par des écailles de glace. Les dégâts qu’il subit par des capacités spéciales sont divisés par deux.
+247 : Le Pokémon fait mûrir la Baie qu’il tient et double ainsi son effet.
+248 : Le glaçon sur sa tête encaisse les attaques physiques à la place du Pokémon, mais sa destruction modifie son apparence. Le glaçon se reforme quand il grêle.
+249 : Augmente la puissance des capacités des Pokémon qui se trouvent à proximité.
+250 : Le Pokémon adopte le même type que le terrain lorsqu’un champ est actif.
+251 : Quand le Pokémon entre au combat, les effets de Mur Lumière, Protection et Voile Aurore disparaissent pour les alliés comme pour les ennemis.
+252 : Augmente la puissance d’Attaque des capacités de type Acier des Pokémon alliés.
+253 : Lorsque le Pokémon est directement touché par une attaque, l’assaillant et lui tomberont K.O. dans trois tours, à moins qu’ils ne soient remplacés entre temps.
+254 : Lorsque le Pokémon est directement touché par une attaque, il échange son talent avec celui de l’assaillant.
+255 : Augmente l’Attaque, mais empêche d’utiliser toute autre capacité que celle utilisée en premier par le Pokémon.
+256 : Si un Pokémon avec Gaz Inhibiteur est sur le terrain, les effets des talents de tous les autres Pokémon sont annulés.
+257 : Protège le Pokémon et ses alliés contre toutes les altérations de statut liées à l’empoisonnement.
+258 : À la fin de chaque tour, le Pokémon alterne entre ses formes Mode Rassasié et Mode Affamé.
+259 : Permet parfois au Pokémon d’agir en premier.
+260 : Si le Pokémon utilise une attaque directe, celle-ci pourra passer outre les protections de la cible.
+261 : Quand il entre au combat, le Pokémon répand une substance qui annule les changements de stats de ses alliés.
+262 : Augmente la puissance des attaques de type Électrik.
+263 : Augmente la puissance des attaques de type Dragon.
+264 : Quand le Pokémon met un ennemi K.O., il émet un hennissement glaçant, ce qui augmente son Attaque.
+265 : Quand le Pokémon met un ennemi K.O., il émet un hennissement terrifiant qui augmente son Attaque Spéciale.
+266 : Les talents Tension de Sylveroy et Blanche Ruade de Blizzeval sont cumulés.
+267 : Les talents Tension de Sylveroy et Sombre Ruade de Spectreval sont cumulés.

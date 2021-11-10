@@ -34,14 +34,14 @@ module GameData
     # @return [Integer]
     attr_accessor :priority
     # If the move makes conctact.
-    # PokeAPI Prose: User touches the target.  This triggers some abilities (e.g., []{ability:static}) and
-    # items (e.g., []{item:sticky-barb}).
+    # PokeAPI Prose: User touches the target.  This triggers some abilities (e.g., static ability) and
+    # items (e.g., sticky-barb item).
     # @return [Boolean]
     attr_accessor :direct
     alias contact direct
     alias contact= direct=
     # If the move is a charging move
-    # PokeAPI Prose: This move has a charging turn that can be skipped with a []{item:power-herb}.
+    # PokeAPI Prose: This move has a charging turn that can be skipped with a power-herb item.
     # @return [Boolean]
     attr_accessor :charge
     # If the move requires recharging turn
@@ -49,29 +49,29 @@ module GameData
     # @return [Boolean]
     attr_accessor :recharge
     # If the move is affected by Detect or Protect
-    # PokeAPI Prose : This move will not work if the target has used []{move:detect} or []{move:protect} this turn.
+    # PokeAPI Prose : This move will not work if the target has used detect move or protect move this turn.
     # @return [Boolean]
     attr_accessor :blocable
     alias protect blocable
     alias protect= blocable=
     # If the move is affected by Snatch
-    # PokeAPI Prose : This move will be stolen if another Pokemon has used []{move:snatch} this turn.
+    # PokeAPI Prose : This move will be stolen if another Pokemon has used snatch move this turn.
     # @return [Boolean]
     attr_accessor :snatchable
     # If the move can be used by Mirror Move
-    # PokeAPI Prose : A Pokemon targeted by this move can use []{move:mirror-move} to copy it.
+    # PokeAPI Prose : A Pokemon targeted by this move can use mirror-move move to copy it.
     # @return [Boolean]
     attr_accessor :mirror_move
     # If the move is punch based
-    # PokeAPI Prose : This move has 1.2x its usual power when used by a Pokemon with []{ability:iron-fist}.
+    # PokeAPI Prose : This move has 1.2x its usual power when used by a Pokemon with iron-fist ability.
     # @return [Boolean]
     attr_accessor :punch
     # If the move is affected by Gravity
-    # PokeAPI Prose : This move cannot be used in high []{move:gravity}.
+    # PokeAPI Prose : This move cannot be used in high gravity move.
     # @return [Boolean]
     attr_accessor :gravity
     # If the move is affected by Magic Coat
-    # PokeAPI Prose : This move may be reflected back at the user with []{move:magic-coat} or []{ability:magic-bounce}.
+    # PokeAPI Prose : This move may be reflected back at the user with magic-coat move or magic-bounce ability.
     # @return [Boolean]
     attr_accessor :magic_coat_affected
     alias reflectable magic_coat_affected
@@ -81,7 +81,7 @@ module GameData
     # @return [Boolean]
     attr_accessor :unfreeze
     # If the move is a sound attack
-    # PokeAPI Prose : Pokemon with []{ability:soundproof} are immune to this move.
+    # PokeAPI Prose : Pokemon with soundproof ability are immune to this move.
     # @return [Boolean]
     attr_accessor :sound_attack
     # If the move can reach any target of the specied side/bank
@@ -89,31 +89,31 @@ module GameData
     # @return [Boolean]
     attr_accessor :distance
     # If the move can be blocked by Heal Block
-    # PokeAPI Prose : This move is blocked by []{move:heal-block}.
+    # PokeAPI Prose : This move is blocked by heal-block move.
     # @return [Boolean]
     attr_accessor :heal
     # If the move ignore the substitute
-    # PokeAPI Prose : This move ignores the target's []{move:substitute}.
+    # PokeAPI Prose : This move ignores the target's substitute move.
     # @return [Boolean]
     attr_accessor :authentic
     # If the move is a powder move
-    # PokeAPI Prose : Pokemon with []{ability:overcoat} and []{type:grass}-type Pokemon are immune to this move.
+    # PokeAPI Prose : Pokemon with overcoat ability and grass-type Pokemon are immune to this move.
     # @return [Boolean]
     attr_accessor :powder
     # If the move is bite based
-    # PokeAPI Prose : This move has 1.5x its usual power when used by a Pokemon with []{ability:strong-jaw}.
+    # PokeAPI Prose : This move has 1.5x its usual power when used by a Pokemon with strong-jaw ability.
     # @return [Boolean]
     attr_accessor :bite
     # If the move is pulse based
-    # PokeAPI Prose : This move has 1.5x its usual power when used by a Pokemon with []{ability:mega-launcher}.
+    # PokeAPI Prose : This move has 1.5x its usual power when used by a Pokemon with mega-launcher ability.
     # @return [Boolean]
     attr_accessor :pulse
     # If the move is a ballistics move
-    # PokeAPI Prose : This move is blocked by []{ability:bulletproof}.
+    # PokeAPI Prose : This move is blocked by bulletproof ability.
     # @return [Boolean]
     attr_accessor :ballistics
     # If the move has mental effect
-    # PokeAPI Prose : This move is blocked by []{ability:aroma-veil} and cured by []{item:mental-herb}.
+    # PokeAPI Prose : This move is blocked by aroma-veil ability and cured by mental-herb item.
     # @return [Boolean]
     attr_accessor :mental
     # If the move cannot be used in Fly Battles
@@ -121,7 +121,7 @@ module GameData
     # @return [Boolean]
     attr_accessor :non_sky_battle
     # If the move is a dancing move
-    # PokeAPI Prose : This move triggers []{ability:dancer}.
+    # PokeAPI Prose : This move triggers dancer ability.
     # @return [Boolean]
     attr_accessor :dance
     # If the move triggers King's Rock
@@ -159,7 +159,7 @@ module GameData
                         focus_punch: 1213 }
     # List of Punch moves
     Punching_Moves = %i[dynamic_punch mach_punch hammer_arm focus_punch bullet_punch
-                        power-up_punch comet_punch needle_arm fire_punch meteor_mash
+                        power_up_punch comet_punch needle_arm fire_punch meteor_mash
                         shadow_punch thunder_punch ice_punch sky_uppercut mega_punch
                         dizzy_punch drain_punch karate_chop]
 

@@ -244,9 +244,9 @@ class Interpreter_RMXP
     last_eval = Yuki::EXC.get_eval_script
     script = script.force_encoding('UTF-8')
     Yuki::EXC.set_eval_script(script)
-    Yuki::ErrorHandler.critical_section("Eval from script command (EVENT_ID = #{@event_id.to_i})\nScript:\n#{script}") do
-      eval(script)
-    end
-    Yuki::EXC.set_eval_script(last_eval)
+    eval(script)
+  rescue StandardError => e
+    Yuki::EXC.run(e)
+    $scene = nil # It's better to close the game in that case
   end
 end

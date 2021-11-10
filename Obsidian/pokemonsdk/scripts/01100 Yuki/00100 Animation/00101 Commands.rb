@@ -32,8 +32,8 @@ module Yuki
         # Update the sub animation if the current animation is actually done
         if private_done?
           unless @played_until_end
-            update_internal
             @played_until_end = true
+            update_internal
           end
           return unless @parallel_animations.all?(&:done?)
           return @sub_animation&.update
@@ -115,7 +115,7 @@ module Yuki
         @type = type
         @args = args
         @args.each_with_index { |arg, i| @args[i] = resolve(arg) }
-        @args[0] = 'Audio/' + @type.to_s.sub('_play', '') + '/' + @args.first
+        @args[0] &&= 'Audio/' + @type.to_s.sub('_play', '') + '/' + @args.first
       end
 
       private
@@ -239,6 +239,7 @@ module Yuki
       # @param begin_offset [Float] offset that prevents the animation from starting before now + begin_offset seconds
       def start(begin_offset = 0)
         super
+        @animation_commands.each { |cmd| cmd.start(begin_offset) }
         @last_command = nil
       end
 

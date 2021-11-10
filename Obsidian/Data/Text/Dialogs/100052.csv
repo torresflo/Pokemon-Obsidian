@@ -1,0 +1,201 @@
+en,fr,it,de,es,ko,kana
+[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)]
+[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)]
+Battle,Attaque,Lotta,Kampf,Luchar,싸운다,たたかう
+Bag,Sac,Borsa,Beutel,Bolsa,가방,バッグ
+Pokémon,Équipe,Pokémon,Pokémon,Pokémon,포켓몬,ポケモン
+Poké Ball,Poké Balls,Poké Ball,Pokébälle,Poké Ball,볼,ボール
+Run,Fuite,Fuga,Flucht,Huir,도망간다,にげる
+Lv.,N.,L.,Lv. ,Nv. ,Lv.,Lv.
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+???,???,???,???,(?),???,???
+"[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,202F)]/[VAR 0203(0001,202F)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]"
+♂,♂,♂,♂,♂,♂,♂
+♀,♀,♀,♀,♀,♀,♀
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+PP,PP,PP,AP,PP,PP,pp
+[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)],[VAR NUM2(0000)]
+"/[VAR 0203(0000,0000)]","/[VAR 0203(0000,202F)]","/[VAR 0203(0000,0000)]","/[VAR 0203(0000,0000)]","/[VAR 0203(0000,0000)]","/[VAR 0203(0000,0000)]","/[VAR 0203(0000,0000)]"
+Super effective,Super efficace,Superefficace,Sehr effektiv,Supereficaz,효과가 굉장함,こうかばつぐん
+Effective,Efficace,Effetto normale,Effektiv,Eficaz,효과 있음,こうかあり
+Not very effective,Pas très efficace,Poco efficace,Nicht sehr effektiv,Poco eficaz,효과가 별로,いまひとつ
+No effect,Aucun effet,Nessun effetto,Wirkungslos,Sin efecto,효과 없음,こうかなし
+Attack,Attaque,Attacco,Angriff,Ataque,공격,こうげき
+Defense,Défense,Difesa,Vert.,Defensa,방어,ぼうぎょ
+Sp. Atk,Atq. Spé.,Att. Sp.,Sp.-Ang.,At. Esp.,특수공격,とくこう
+Sp. Def,Déf. Spé.,Dif. Sp.,Sp.-Vert.,Def. Esp.,특수방어,とくぼう
+Speed,Vitesse,Velocità,Initiative,Velocidad,스피드,すばやさ
+Accuracy,Précision,Precisione,Genauigkeit,Precisión,명중,めいちゅう
+Evasiveness,Esquive,Elusione,Ausweichwert,Evasión,회피,かいひ
+[VAR 01B1(0000)],[VAR 01B1(0000)],[VAR 01B1(0000)],[VAR 01B1(0000)],[VAR 01B1(0000)],[VAR 01B1(0000)],[VAR 01B1(0000)]
+[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)]
+/,/,/,/,/,/,/
+[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)],[VAR NUM1(0000)]
++[VAR NUM1(0000)],+ [VAR NUM1(0000)],+[VAR NUM1(0000)],+ [VAR NUM1(0000)],+[VAR NUM1(0000)],+[VAR NUM1(0000)],+[VAR NUM1(0000)]
+ Back, Retour, Indietro, Zurück, Atrás,돌아간다,もどる
+Ability,Talent,Abilità,Fähigkeit,Habilidad,특성,とくせい
+[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)],[VAR ABILITY(0000)]
+Held Item,Objet,Strumento,Item,Objeto,지닌물건,もちもの
+[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)]
+"[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,202F)]/[VAR 0203(0001,202F)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]","[VAR 0203(0000,0000)]/[VAR 0203(0001,0000)]"
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+Second Name Dummy,Titre (Dummy),Secondo nome dummy,Zweitname (Platzhalter),(dummy),두 번째 이름 더미,ふたつな　ダミー
+[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41],[~ 41]
+[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)],[VAR PKNAME(0000)]
+[~ 43],[~ 43],[~ 43],[~ 43],[~ 43],[~ 43],[~ 43]
+[~ 44],[~ 44],[~ 44],[~ 44],[~ 44],[~ 44],[~ 44]
+[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)]
+[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)],[VAR NUM2(0000)]:[VAR NUM2(0001)]
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
++[VAR NUM3(0000)],+ [VAR NUM3(0000)],+[VAR NUM3(0000)],+ [VAR NUM3(0000)],+[VAR NUM3(0000)],+[VAR NUM3(0000)],+[VAR NUM3(0000)]
+HP,PV,PS,KP,PS,HP,HP
+Attack,Attaque,Attacco,Angriff,Ataque,공격,こうげき
+Defense,Défense,Difesa,Vert.,Defensa,방어,ぼうぎょ
+Sp. Atk,Atq. Spé.,Att. Sp.,Sp.-Ang.,At. Esp.,특수공격,とくこう
+Sp. Def,Déf. Spé.,Dif. Sp.,Sp.-Vert.,Def. Esp.,특수방어,とくぼう
+Speed,Vitesse,Velocità,Initiative,Velocidad,스피드,すばやさ
+Switch Pokémon,Changer de Pokémon,Cambia Pokémon,Pokémon wechseln,Cambiar Pokémon,포켓몬을 교체한다,ポケモンを　いれかえる
+Keep current Pokémon,Continuer sans changer,Continua a lottare,Weiterkämpfen,Seguir luchando,그대로 싸운다,そのまま　たたかう
+Use next Pokémon,Envoyer un autre Pokémon,Manda in campo un altro Pokémon,Nächstes Pokémon rufen,Sacar a otro Pokémon,다음 포켓몬을 쓴다,つぎの　ポケモンを　つかう
+Run,Fuir,Fuga,Flucht,Huir,도망간다,にげる
+Forget an old move,Oublier une capacité,Fai dimenticare,Ja,Sustituir un movimiento,잊게 한다!,わすれさせる！
+Keep old moves,Garder les anciennes capacités,Non far dimenticare,Nein,Conservar movimientos,잊게 하지 않는다,わすれさせない
+Yes,Oui,Sì,Ja,Sí,예,はい
+No,Non,No,Nein,No,아니요,いいえ
+Catch,L’attraper,Cattura,Fangen,Atrapar,잡는다,つかまえる
+Don’t Catch,Ne pas l’attraper,Non catturare,Nicht fangen,No atrapar,잡지 않는다,つかまえない
+Use,Utiliser,Usa,Einsetzen,Usar,사용한다,つかう
+Next,Suivant,Avanti,Weiter,Siguiente,다음으로,つぎへ
+[VAR PKNICK(0000)]’s [VAR ABILITY(0001)],"[VAR ABILITY(0001)] [VAR 1408(0000,0001)][VAR PKNICK(0000)]",[VAR ABILITY(0001)] di [VAR PKNICK(0000)]!,[VAR ABILITY(0001)] von [VAR PKNICK(0000)] wirkt!,[VAR ABILITY(0001)] de [VAR PKNICK(0000)],[VAR PKNICK(0000)]의 [VAR ABILITY(0001)],[VAR PKNICK(0000)]の [VAR ABILITY(0001)]
+[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)]
+Super effective,Super efficace,Superefficace,Sehr effektiv,Supereficaz,효과가 굉장함,こうかばつぐん
+Effective,Efficace,Effetto normale,Effektiv,Eficaz,효과 있음,こうかあり
+Not very effective,Pas très efficace,Poco efficace,Nicht sehr effektiv,Poco eficaz,효과가 별로,いまひとつ
+No effect,Aucun effet,Nessun effetto,Wirkungslos,Sin efecto,효과 없음,こうかなし
+[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)]
+[VAR 0109(0000)],[VAR 1000][VAR 0109(0000)],[VAR 0109(0000)],[VAR 1000][VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)]
+×[VAR NUM3(0000)],× [VAR NUM3(0000)],×[VAR NUM3(0000)],× [VAR NUM3(0000)],×[VAR NUM3(0000)],×[VAR NUM3(0000)],×[VAR NUM3(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)],[VAR 0112(0000)]
+[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)]
+×[VAR NUM3(0000)],× [VAR NUM3(0000)],×[VAR NUM3(0000)],× [VAR NUM3(0000)],×[VAR NUM3(0000)],×[VAR NUM3(0000)],×[VAR NUM3(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+Category,Catégorie,Categoria,Kategorie,Clase,분류,ぶんるい
+Accuracy,Précision,Precisione,Genauigkeit,Precisión,명중,めいちゅう
+Power,Puissance,Potenza,Stärke,Potencia,위력,いりょく
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]
+—,-,-,–,—,-,-
+Entering a command...,Saisie de la commande...,Inserimento comando...,Es wird auf eine Eingabe gewartet...,Eligiendo opción...,커맨드 입력 중...,コマンドにゅうりょくちゅう…
+"[VAR NUM1(0000)] more turn[VAR NUMBRNCH(0000,0100)]s",Tours restants : [VAR NUM1(0000)],Turni rimasti: [VAR NUM1(0000)],"Noch [VAR NUM1(0000)] Runde[VAR NUMBRNCH(0000,0100)]n","Queda[VAR NUMBRNCH(0000,0100)]n [VAR NUM1(0000)] turno[VAR NUMBRNCH(0000,0100)]s",앞으로 [VAR NUM1(0000)]턴,あと[VAR NUM1(0000)]ターン
+[~ 90],[~ 90],[~ 90],[~ 90],[~ 90],[~ 90],[~ 90]
+[~ 91],[~ 91],[~ 91],[~ 91],[~ 91],[~ 91],[~ 91]
+[~ 92],[~ 92],[~ 92],[~ 92],[~ 92],[~ 92],[~ 92]
+[~ 93],[~ 93],[~ 93],[~ 93],[~ 93],[~ 93],[~ 93]
+[~ 94],[~ 94],[~ 94],[~ 94],[~ 94],[~ 94],[~ 94]
+[~ 95],[~ 95],[~ 95],[~ 95],[~ 95],[~ 95],[~ 95]
+[~ 96],[~ 96],[~ 96],[~ 96],[~ 96],[~ 96],[~ 96]
+[~ 97],[~ 97],[~ 97],[~ 97],[~ 97],[~ 97],[~ 97]
+[~ 98],[~ 98],[~ 98],[~ 98],[~ 98],[~ 98],[~ 98]
+[~ 99],[~ 99],[~ 99],[~ 99],[~ 99],[~ 99],[~ 99]
+[~ 100],[~ 100],[~ 100],[~ 100],[~ 100],[~ 100],[~ 100]
+[~ 101],[~ 101],[~ 101],[~ 101],[~ 101],[~ 101],[~ 101]
+[~ 102],[~ 102],[~ 102],[~ 102],[~ 102],[~ 102],[~ 102]
+[~ 103],[~ 103],[~ 103],[~ 103],[~ 103],[~ 103],[~ 103]
+[~ 104],[~ 104],[~ 104],[~ 104],[~ 104],[~ 104],[~ 104]
+[~ 105],[~ 105],[~ 105],[~ 105],[~ 105],[~ 105],[~ 105]
+[~ 106],[~ 106],[~ 106],[~ 106],[~ 106],[~ 106],[~ 106]
+[~ 107],[~ 107],[~ 107],[~ 107],[~ 107],[~ 107],[~ 107]
+[~ 108],[~ 108],[~ 108],[~ 108],[~ 108],[~ 108],[~ 108]
+[~ 109],[~ 109],[~ 109],[~ 109],[~ 109],[~ 109],[~ 109]
+[~ 110],[~ 110],[~ 110],[~ 110],[~ 110],[~ 110],[~ 110]
+[~ 111],[~ 111],[~ 111],[~ 111],[~ 111],[~ 111],[~ 111]
+[~ 112],[~ 112],[~ 112],[~ 112],[~ 112],[~ 112],[~ 112]
+[~ 113],[~ 113],[~ 113],[~ 113],[~ 113],[~ 113],[~ 113]
+[~ 114],[~ 114],[~ 114],[~ 114],[~ 114],[~ 114],[~ 114]
+[~ 115],[~ 115],[~ 115],[~ 115],[~ 115],[~ 115],[~ 115]
+[~ 116],[~ 116],[~ 116],[~ 116],[~ 116],[~ 116],[~ 116]
+[~ 117],[~ 117],[~ 117],[~ 117],[~ 117],[~ 117],[~ 117]
+[~ 118],[~ 118],[~ 118],[~ 118],[~ 118],[~ 118],[~ 118]
+[~ 119],[~ 119],[~ 119],[~ 119],[~ 119],[~ 119],[~ 119]
+[~ 120],[~ 120],[~ 120],[~ 120],[~ 120],[~ 120],[~ 120]
+[~ 121],[~ 121],[~ 121],[~ 121],[~ 121],[~ 121],[~ 121]
+[~ 122],[~ 122],[~ 122],[~ 122],[~ 122],[~ 122],[~ 122]
+[~ 123],[~ 123],[~ 123],[~ 123],[~ 123],[~ 123],[~ 123]
+[~ 124],[~ 124],[~ 124],[~ 124],[~ 124],[~ 124],[~ 124]
+[~ 125],[~ 125],[~ 125],[~ 125],[~ 125],[~ 125],[~ 125]
+[~ 126],[~ 126],[~ 126],[~ 126],[~ 126],[~ 126],[~ 126]
+[~ 127],[~ 127],[~ 127],[~ 127],[~ 127],[~ 127],[~ 127]
+[~ 128],[~ 128],[~ 128],[~ 128],[~ 128],[~ 128],[~ 128]
+[~ 129],[~ 129],[~ 129],[~ 129],[~ 129],[~ 129],[~ 129]
+[~ 130],[~ 130],[~ 130],[~ 130],[~ 130],[~ 130],[~ 130]
+[~ 131],[~ 131],[~ 131],[~ 131],[~ 131],[~ 131],[~ 131]
+[~ 132],[~ 132],[~ 132],[~ 132],[~ 132],[~ 132],[~ 132]
+[~ 133],[~ 133],[~ 133],[~ 133],[~ 133],[~ 133],[~ 133]
+[~ 134],[~ 134],[~ 134],[~ 134],[~ 134],[~ 134],[~ 134]
+[~ 135],[~ 135],[~ 135],[~ 135],[~ 135],[~ 135],[~ 135]
+[~ 136],[~ 136],[~ 136],[~ 136],[~ 136],[~ 136],[~ 136]
+[~ 137],[~ 137],[~ 137],[~ 137],[~ 137],[~ 137],[~ 137]
+[~ 138],[~ 138],[~ 138],[~ 138],[~ 138],[~ 138],[~ 138]
+[~ 139],[~ 139],[~ 139],[~ 139],[~ 139],[~ 139],[~ 139]
+[~ 140],[~ 140],[~ 140],[~ 140],[~ 140],[~ 140],[~ 140]
+[~ 141],[~ 141],[~ 141],[~ 141],[~ 141],[~ 141],[~ 141]
+[~ 142],[~ 142],[~ 142],[~ 142],[~ 142],[~ 142],[~ 142]
+[~ 143],[~ 143],[~ 143],[~ 143],[~ 143],[~ 143],[~ 143]
+[~ 144],[~ 144],[~ 144],[~ 144],[~ 144],[~ 144],[~ 144]
+[~ 145],[~ 145],[~ 145],[~ 145],[~ 145],[~ 145],[~ 145]
+[~ 146],[~ 146],[~ 146],[~ 146],[~ 146],[~ 146],[~ 146]
+[~ 147],[~ 147],[~ 147],[~ 147],[~ 147],[~ 147],[~ 147]
+[~ 148],[~ 148],[~ 148],[~ 148],[~ 148],[~ 148],[~ 148]
+[~ 149],[~ 149],[~ 149],[~ 149],[~ 149],[~ 149],[~ 149]
+[~ 150],[~ 150],[~ 150],[~ 150],[~ 150],[~ 150],[~ 150]
+[~ 151],[~ 151],[~ 151],[~ 151],[~ 151],[~ 151],[~ 151]
+Communicating...,Communication en cours...,Comunicazione in corso...,Verbindung wird hergestellt... Bitte warte einen Moment.,"Conectando... Por favor, espera.",통신 대기 중...,つうしんたいきちゅう…
+[~ 153],[~ 153],[~ 153],[~ 153],[~ 153],[~ 153],[~ 153]
+[~ 154],[~ 154],[~ 154],[~ 154],[~ 154],[~ 154],[~ 154]
+[~ 155],[~ 155],[~ 155],[~ 155],[~ 155],[~ 155],[~ 155]
+[~ 156],[~ 156],[~ 156],[~ 156],[~ 156],[~ 156],[~ 156]
+[~ 157],[~ 157],[~ 157],[~ 157],[~ 157],[~ 157],[~ 157]
+[~ 158],[~ 158],[~ 158],[~ 158],[~ 158],[~ 158],[~ 158]
+[~ 159],[~ 159],[~ 159],[~ 159],[~ 159],[~ 159],[~ 159]
+[~ 160],[~ 160],[~ 160],[~ 160],[~ 160],[~ 160],[~ 160]
+[~ 161],[~ 161],[~ 161],[~ 161],[~ 161],[~ 161],[~ 161]
+[~ 162],[~ 162],[~ 162],[~ 162],[~ 162],[~ 162],[~ 162]
+[~ 163],[~ 163],[~ 163],[~ 163],[~ 163],[~ 163],[~ 163]
+[~ 164],[~ 164],[~ 164],[~ 164],[~ 164],[~ 164],[~ 164]
+[~ 165],[~ 165],[~ 165],[~ 165],[~ 165],[~ 165],[~ 165]
+[~ 166],[~ 166],[~ 166],[~ 166],[~ 166],[~ 166],[~ 166]
+[~ 167],[~ 167],[~ 167],[~ 167],[~ 167],[~ 167],[~ 167]
+[~ 168],[~ 168],[~ 168],[~ 168],[~ 168],[~ 168],[~ 168]
+[~ 169],[~ 169],[~ 169],[~ 169],[~ 169],[~ 169],[~ 169]
+[~ 170],[~ 170],[~ 170],[~ 170],[~ 170],[~ 170],[~ 170]
+[~ 171],[~ 171],[~ 171],[~ 171],[~ 171],[~ 171],[~ 171]
+[~ 172],[~ 172],[~ 172],[~ 172],[~ 172],[~ 172],[~ 172]
+[~ 173],[~ 173],[~ 173],[~ 173],[~ 173],[~ 173],[~ 173]
+[~ 174],[~ 174],[~ 174],[~ 174],[~ 174],[~ 174],[~ 174]
+[~ 175],[~ 175],[~ 175],[~ 175],[~ 175],[~ 175],[~ 175]
+[~ 176],[~ 176],[~ 176],[~ 176],[~ 176],[~ 176],[~ 176]
+[~ 177],[~ 177],[~ 177],[~ 177],[~ 177],[~ 177],[~ 177]
+[~ 178],[~ 178],[~ 178],[~ 178],[~ 178],[~ 178],[~ 178]
+[~ 179],[~ 179],[~ 179],[~ 179],[~ 179],[~ 179],[~ 179]
+[~ 180],[~ 180],[~ 180],[~ 180],[~ 180],[~ 180],[~ 180]
+[~ 181],[~ 181],[~ 181],[~ 181],[~ 181],[~ 181],[~ 181]
+[~ 182],[~ 182],[~ 182],[~ 182],[~ 182],[~ 182],[~ 182]
+[~ 183],[~ 183],[~ 183],[~ 183],[~ 183],[~ 183],[~ 183]
+[~ 184],[~ 184],[~ 184],[~ 184],[~ 184],[~ 184],[~ 184]
+[~ 185],[~ 185],[~ 185],[~ 185],[~ 185],[~ 185],[~ 185]
+[~ 186],[~ 186],[~ 186],[~ 186],[~ 186],[~ 186],[~ 186]
+[~ 187],[~ 187],[~ 187],[~ 187],[~ 187],[~ 187],[~ 187]
+[~ 188],[~ 188],[~ 188],[~ 188],[~ 188],[~ 188],[~ 188]
+[~ 189],[~ 189],[~ 189],[~ 189],[~ 189],[~ 189],[~ 189]
+[~ 190],[~ 190],[~ 190],[~ 190],[~ 190],[~ 190],[~ 190]
+[~ 191],[~ 191],[~ 191],[~ 191],[~ 191],[~ 191],[~ 191]
+[~ 192],[~ 192],[~ 192],[~ 192],[~ 192],[~ 192],[~ 192]
+[~ 193],[~ 193],[~ 193],[~ 193],[~ 193],[~ 193],[~ 193]
+You defeated [VAR PKNAME(0000)]!,Vous avez vaincu [VAR PKNAME(0000)] !,Hai sconfitto [VAR PKNAME(0000)]!,Du hast [VAR PKNAME(0000)] besiegt!,¡Has derrotado a [VAR PKNAME(0000)]!,[VAR PKNAME(0000)][VAR 1900(0002)] 쓰러뜨렸다!,[VAR PKNAME(0000)]を　たおした！
+You caught [VAR PKNAME(0000)]!,Vous avez capturé [VAR PKNAME(0000)] !,Hai catturato [VAR PKNAME(0000)]!,Du hast [VAR PKNAME(0000)] gefangen!,¡Has atrapado a [VAR PKNAME(0000)]!,[VAR PKNAME(0000)][VAR 1900(0002)] 잡았다!,[VAR PKNAME(0000)]を　つかまえた！
+[VAR 0109(0000)],[VAR 1000][VAR 0109(0000)],[VAR 0109(0000)],[VAR 1000][VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)]
+[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)],[VAR MOVE(0000)]
+×,×,×,×,×,×,×
+[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)]

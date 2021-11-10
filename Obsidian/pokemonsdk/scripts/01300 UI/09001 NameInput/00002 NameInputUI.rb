@@ -8,7 +8,7 @@ module UI
     # Create a new NameInputUI
     # @param viewport [Viewport]
     # @param max_size [Integer] maximum size of the name
-    # @parma chars [Array<String>] chars initialize there
+    # @param chars [Array<String>] chars initialize there
     # @param character [PFM::Pokemon, String, nil] the character to display
     # @param phrase [String] the phrase to display in order to justify the name input
     def initialize(viewport, max_size, chars, character, phrase)

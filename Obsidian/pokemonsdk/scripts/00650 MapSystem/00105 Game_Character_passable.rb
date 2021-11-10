@@ -15,7 +15,8 @@ class Game_Character
     new_y = y + (d == 2 ? 1 : d == 8 ? -1 : 0)
     z = @z
     game_map = $game_map
-    return false unless game_map.valid?(new_x, new_y)
+    return false unless game_map.valid?(new_x, new_y) || instance_of?(Game_Character)
+
     # Case where the event can pass through anything
     if @through
       return true unless @sliding
@@ -30,9 +31,7 @@ class Game_Character
 
     # Game Player check
     if $game_player.contact?(new_x, new_y, z)
-      unless $game_player.through
-        return false unless @character_name.empty?
-      end
+      return false unless $game_player.through || @character_name.empty?
     end
 
     return false unless follower_check?(new_x, new_y, z)
@@ -43,7 +42,7 @@ class Game_Character
   # Check the bridge related passabilities
   # @param x [Integer] current x position
   # @param y [Integer] current y position
-  # @param z [Integer] current direction
+  # @param d [Integer] current direction
   # @param new_x [Integer] new x position
   # @param new_y [Integer] new y position
   # @param z [Integer] current z position

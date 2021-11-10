@@ -1,0 +1,100 @@
+0 : Ruban Maître de Kalos
+1 : Ruban Maître
+2 : Ruban Maître de Sinnoh
+3 : Ruban Affection
+4 : Ruban Perfectionnement
+5 : Ruban Élite du Combat
+6 : Ruban Génie du Combat
+7 : Ruban Effort
+8 : Ruban Alerte
+9 : Ruban Choc
+10 : Ruban Déprime
+11 : Ruban Négligence
+12 : Ruban Détente
+13 : Ruban Sieste
+14 : Ruban Sourire
+15 : Ruban Sublime
+16 : Ruban Royal
+17 : Ruban Royal Sublime
+18 : Ruban Artiste
+19 : Ruban Empreinte
+20 : Ruban Record
+21 : Ruban Légende
+22 : Ruban Pays
+23 : Ruban National
+24 : Ruban Terre
+25 : Ruban Monde
+26 : Ruban Classique
+27 : Ruban Premier
+28 : Ruban Événement
+29 : Ruban Anniversaire
+30 : Ruban Spécial
+31 : Ruban Souvenir
+32 : Ruban Souhait
+33 : Ruban Vainqueur Championnat
+34 : Ruban Champion Régional
+35 : Ruban Champion National
+36 : Ruban Champion du Monde
+37 : Ruban Souvenir Concours
+38 : Ruban Souvenir Combat
+39 : Ruban Maître de Hoenn
+40 : Ruban Star des Concours
+41 : Ruban Maître Sang-froid
+42 : Ruban Maître Beauté
+43 : Ruban Maître Grâce
+44 : Ruban Maître Intelligence
+45 : Ruban Maître Robustesse
+46 : Ruban Maître d’Alola
+47 : Ruban Champion Royal
+48 : Ruban Élite de l’Arbre
+49 : Ruban Maître de l’Arbre
+50 : Ruban commémorant la victoire contre le Maître de Kalos et l’entrée au Panthéon.
+51 : Ruban reçu il y a longtemps pour une victoire contre la Ligue Pokémon d’une certaine région.
+52 : Ruban commémorant la victoire contre le Maître de Sinnoh et l’entrée au Panthéon.
+53 : Ruban à offrir à un Pokémon auquel on est très attaché.
+54 : Ruban pour récompenser un Pokémon ayant réussi un entraînement sans pitié.
+55 : Ruban pour récompenser un Pokémon ayant remporté de difficiles combats.
+56 : Ruban pour récompenser un Pokémon s’étant surpassé au cours des combats.
+57 : Ruban pour récompenser un dur labeur.
+58 : Ruban rappelant un événement vivifiant qui a créé de l’énergie vitale.
+59 : Ruban rappelant un événement palpitant qui a rendu la vie plus passionnante.
+60 : Ruban rappelant des moments de tristesse ayant ajouté un peu de piment à la vie.
+61 : Ruban rappelant une négligence qui a aidé à prendre des décisions vitales.
+62 : Ruban rappelant un événement rafraîchissant qui a ajouté du pep à la vie.
+63 : Ruban rappelant un événement ensommeillé qui a rendu la vie plus reposante.
+64 : Ruban rappelant que le sourire améliore la qualité de vie.
+65 : Ruban somptueux et excentrique.
+66 : Incroyable ruban royal qui a un petit air de noblesse.
+67 : Ruban somptueux et royal, qui représente le comble de la beauté.
+68 : Ruban pour les modèles de Hoenn exposés au musée.
+69 : Ruban récompensant un Pokémon pour la qualité exceptionnelle de son empreinte.
+70 : Ruban récompensant un record incroyable.
+71 : Ruban récompensant un record légendaire.
+72 : Ruban récompensant la victoire à la Ligue Pokémon.
+73 : Ruban pour avoir triomphé face à toutes les difficultés.
+74 : Ruban récompensant 100 victoires à la suite.
+75 : Ruban récompensant la victoire à la Ligue Pokémon.
+76 : Ruban qui montre l’amour porté à un Pokémon.
+77 : Ruban commémorant un jour spécial.
+78 : Ruban récompensant la participation à un Événement Pokémon.
+79 : Ruban commémorant un anniversaire.
+80 : Ruban spécial pour un jour très particulier.
+81 : Ruban commémorant un souvenir cher.
+82 : Ruban supposé exaucer les vœux.
+83 : Ruban récompensant la victoire à une Compétition.
+84 : Ruban récompensant la victoire au Championnat Régional.
+85 : Ruban récompensant la victoire au Championnat National.
+86 : Ruban récompensant la victoire aux Pokémon World Championships.
+87 : Ruban reçu il y a longtemps dans une lointaine région. Il rappelle le souvenir de magnifiques concours !
+88 : Ruban reçu il y a longtemps dans une lointaine région. Il rappelle le souvenir de féroces combats !
+89 : Ruban commémorant la victoire contre le Maître de Hoenn et l’entrée au Panthéon.
+90 : Ruban offert à un Pokémon ayant marqué les esprits dans tous les types de concours possibles.
+91 : Ruban commémorant une incroyable démonstration de Sang-froid durant un concours.
+92 : Ruban commémorant une incroyable démonstration de Beauté durant un concours.
+93 : Ruban commémorant une incroyable démonstration de Grâce durant un concours.
+94 : Ruban commémorant une incroyable démonstration d’Intelligence durant un concours.
+95 : Ruban commémorant une incroyable démonstration de Robustesse durant un concours.
+96 : Ruban commémorant l’accession au rang de Maître d’Alola et l’entrée au Panthéon.
+97 : Ruban offert à un Pokémon étant sorti grand vainqueur de la Bataille Royale.
+98 : Ruban commémorant la victoire contre les Dresseurs de légende à l’Arbre de Combat.
+99 : Ruban commémorant la victoire contre les Dresseurs de légende en Combat Super à l’Arbre de Combat.

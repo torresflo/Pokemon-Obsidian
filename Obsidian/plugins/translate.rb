@@ -1,4 +1,4 @@
-puts "Translating switches & variables to english..."
+puts "Translating switches, variables and common events to English..."
 
 sw_names = [
 nil,
@@ -37,8 +37,8 @@ nil,
 'BT Phase 3',
 'BT Phase 4',
 'BT Phase 5',
-'BT Defeat',
 'BT Victory',
+'BT Defeat',
 'BT Caught Pokemon',
 'BT Weather -> Map',
 'BT Hard exp',

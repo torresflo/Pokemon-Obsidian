@@ -16,7 +16,7 @@ module UI
     # @return [Boolean]
     attr_reader :selected
     # Create a new Team button
-    # @param viewport [LiteRGSS::Viewport] viewport where to show the button
+    # @param viewport [Viewport] viewport where to show the button
     # @param index [Integer] Index of the button in the team
     def initialize(viewport, index)
       @index = index

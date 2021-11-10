@@ -47,40 +47,30 @@ module PFM
     # Return the current atk
     # @return [Integer]
     def atk
-      n = battle_effect.atk
-      return (n * atk_modifier).to_i if n
       return (atk_basis * atk_modifier).floor
     end
 
     # Return the current dfe
     # @return [Integer]
     def dfe
-      n = battle_effect.dfe
-      return (n * dfe_modifier).to_i if n
       return (dfe_basis * dfe_modifier).floor
     end
 
     # Return the current spd
     # @return [Integer]
     def spd
-      n = battle_effect.spd
-      return (n * spd_modifier).to_i if n
       return (spd_basis * spd_modifier).floor
     end
 
     # Return the current ats
     # @return [Integer]
     def ats
-      n = battle_effect.ats
-      return (n * ats_modifier).to_i if n
       return (ats_basis * ats_modifier).floor
     end
 
     # Return the current dfs
     # @return [Integer]
     def dfs
-      n = battle_effect.dfs
-      return (n * dfs_modifier).to_i if n
       return (dfs_basis * dfs_modifier).floor
     end
 

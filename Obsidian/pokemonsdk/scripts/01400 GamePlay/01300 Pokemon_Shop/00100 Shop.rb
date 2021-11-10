@@ -1,20 +1,20 @@
 module GamePlay
   class Pokemon_Shop < Shop
     # Create a new Pokemon Shop
-    # @overload GamePlay::Pokemon_Shop.new(symbol_shop)
+    # @overload initialize(symbol_shop)
     #   @param symbol_shop [Symbol] the symbol of the pokemon shop to open
-    # @overload GamePlay::Pokemon_Shop.new(symbol_shop, prices)
+    # @overload initialize(symbol_shop, prices)
     #   @param symbol_shop [Symbol] the symbol of the pokemon shop to open
     #   @param prices [Hash] the hash containing the new price (value) of a pokemon id (key)
-    # @overload GamePlay::Pokemon_Shop.new(list_id_pokemon, prices, parameters)
+    # @overload initialize(list_id_pokemon, prices, parameters)
     #   @param list_id_pkm [Array] the array containing the id of the pokemon to sell
     #   @param prices [Array] the array containing the price of each pokemon
     # @example Opening an already defined shop with limited Pokemon
-    #   .new(:pkm_shop_celadon) # Will open the Shop with symbol :pkm_shop_celadon (the shop must be already defined beforehand)
+    #   GamePlay::Pokemon_Shop.new(:pkm_shop_celadon) # Will open the Shop with symbol :pkm_shop_celadon (the shop must be already defined beforehand)
     # @example Opening an already defined shop with limited pokemon but with temporarily overwritten price
-    #   .new(:pkm_shop_celadon, {17: 300, 25: 3000}) # Will open the Shop with symbol :pkm_shop_celadon while overwritting the price for pokemon with ID 17 or 25
+    #   GamePlay::Pokemon_Shop.new(:pkm_shop_celadon, {17: 300, 25: 3000}) # Will open the Shop with symbol :pkm_shop_celadon while overwritting the price for pokemon with ID 17 or 25
     # @example Opening a simple pokemon shop
-    #   .new([25, 52], [2500, 500], [50, { level: 15, form: 1 }]) # Will open a Shop selling Pikachu lvl 50 at 2500 P$ and Alolan Meowth lvl 15 at 500 P$
+    #   GamePlay::Pokemon_Shop.new([25, 52], [2500, 500], [50, { level: 15, form: 1 }]) # Will open a Shop selling Pikachu lvl 50 at 2500 P$ and Alolan Meowth lvl 15 at 500 P$
     def initialize(symbol_or_list, prices = {}, parameters = [], show_background: true)
       super(false)
       validate_param(:initialize, :symbol_or_list, symbol_or_list => [Symbol, Array])

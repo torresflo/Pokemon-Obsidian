@@ -3,7 +3,7 @@ module UI
     # UI part displaying the Pokémon informations in the Skill Learn scene
     class PokemonInfos < SpriteStack
       # List of Pokemon that shouldn't show the gender sprite
-      NO_GENDER = %i[nidoran♀ nidoran♂]
+      NO_GENDER = %i[nidoranf nidoranm]
       # Create sprite & some informations of the Pokémon
       # @param viewport [Viewport]
       def initialize(viewport)

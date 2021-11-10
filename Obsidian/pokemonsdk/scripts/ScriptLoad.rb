@@ -1,8 +1,8 @@
 module ScriptLoader
   # Path of the scripts of PSDK
-  VSCODE_SCRIPT_PATH = __FILE__.force_encoding(Encoding::UTF_8).tr('\\', '/').sub(%r{/[^/]+\.rb$}, '').sub(File.expand_path('.') + '/', '')
+  VSCODE_SCRIPT_PATH = __FILE__.force_encoding(Encoding::UTF_8).tr('\\', '/').sub(%r{/[^/]+\.rb$}, '') # .sub(File.expand_path('.') + '/', '')
   # Path of the scripts of the Project
-  PROJECT_SCRIPT_PATH = 'scripts'
+  PROJECT_SCRIPT_PATH = File.expand_path('scripts')
   # Path to the script index
   SCRIPT_INDEX_PATH = File.join(VSCODE_SCRIPT_PATH, 'script_index.txt')
   # Path to the deflate scripts
@@ -23,8 +23,10 @@ module ScriptLoader
         load_vscode_scripts(VSCODE_SCRIPT_PATH, file)
       end
     end
-    # Load RMXP Scripts
+    return if PARGV[:util].any?
+
     load_rmxp_scripts
+    load_plugins
     # Load Project Scripts
     load_vscode_scripts(PROJECT_SCRIPT_PATH) if index_filename == SCRIPT_INDEX_PATH
   end
@@ -45,14 +47,19 @@ module ScriptLoader
   def load_scripts(path, file = nil)
     Dir[File.join(path, '*.rb')].sort.each do |filename|
       next unless File.basename(filename) =~ /^[0-9]{5}[ _].*/
-      file&.puts(filename)
+
       require(filename)
-    end
-  rescue StandardError
-    if Object.const_defined?(:Yuki) && Yuki.const_defined?(:EXC)
-      Yuki::EXC.run($!)
-    else
-      raise
+      file&.puts(filename.sub(File.expand_path('.') + '/', ''))
+    rescue Exception
+      if Object.const_defined?(:Yuki) && Yuki.const_defined?(:EXC)
+        Yuki::EXC.run($!)
+        puts $!.message
+        puts $!.backtrace.join("\n")
+        print 'Retry ? [y/n]: '
+        retry if gets.chomp.downcase == 'y'
+      else
+        raise
+      end
     end
   end
 
@@ -113,7 +120,8 @@ module ScriptLoader
       # @type [String]
       name = script[1].force_encoding(Encoding::UTF_8)
       next if name.downcase.start_with?(ban1, ban2, ban3)
-      eval(Zlib::Inflate.inflate(script[2]).force_encoding(Encoding::UTF_8), $global_binding, name)
+
+      eval(Zlib::Inflate.inflate(script[2]).force_encoding(Encoding::UTF_8), TOPLEVEL_BINDING, name)
       GC.start
     end
   end
@@ -122,6 +130,14 @@ module ScriptLoader
   # @param relative_path [String] path from pokemonsdk/scripts/tools to access to the script
   def load_tool(relative_path)
     require "#{VSCODE_SCRIPT_PATH}/tools/#{relative_path}"
+  end
+
+  # Load the plugin manager & the plugin (install)
+  def load_plugins
+    ScriptLoader.load_tool('PluginManager')
+    PluginManager.start(:load)
+  rescue Exception
+    pcc "Plugins couldn't be loaded or installed..."
   end
 end
 
@@ -132,6 +148,3 @@ module Kernel
   end
 end
 alias pc puts
-
-# Binding allowing to load RMXP Scripts
-$global_binding = binding

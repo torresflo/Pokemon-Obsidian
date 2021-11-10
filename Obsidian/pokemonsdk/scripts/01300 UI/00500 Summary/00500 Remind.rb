@@ -102,16 +102,16 @@ module UI
         add_line(1, texts[15]) # HP
         @stat_name_texts << add_line(2, texts[18]) # Attack
         @stat_name_texts << add_line(3, texts[20]) # Defense
-        @stat_name_texts << add_line(1, texts[26], dx: 1) # Speed
-        @stat_name_texts << add_line(2, texts[22], dx: 1) # Attack Spe
-        @stat_name_texts << add_line(3, texts[24], dx: 1) # Defense Spe
+        @stat_name_texts << add_line(1, texts[22], dx: 1) # Attack Spe
+        @stat_name_texts << add_line(2, texts[24], dx: 1) # Defense Spe
+        @stat_name_texts << add_line(3, texts[26], dx: 1) # Speed
         # --- Data part ---
         add_line(1, :hp_text, 2, type: SymText, color: 1)
         add_line(2, :atk_basis, 2, type: SymText, color: 1)
         add_line(3, :dfe_basis, 2, type: SymText, color: 1)
-        add_line(1, :spd_basis, 2, type: SymText, color: 1, dx: 1)
-        add_line(2, :ats_basis, 2, type: SymText, color: 1, dx: 1)
-        add_line(3, :dfs_basis, 2, type: SymText, color: 1, dx: 1)
+        add_line(1, :ats_basis, 2, type: SymText, color: 1, dx: 1)
+        add_line(2, :dfs_basis, 2, type: SymText, color: 1, dx: 1)
+        add_line(3, :spd_basis, 2, type: SymText, color: 1, dx: 1)
       end
     end
 

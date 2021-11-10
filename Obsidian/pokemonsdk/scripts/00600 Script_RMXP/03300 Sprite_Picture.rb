@@ -86,9 +86,9 @@ class Sprite_Picture < ShaderedSprite
       return
     end
     # Test for gif loading
-    if File.exist?(gif_name = format('graphics/pictures/%<filename>s.gif', filename: @picture_name))
-      @gif_handle = Yuki::GifReader.new(gif_name)
-      self.bitmap = Bitmap.new(@gif_handle.width, @gif_handle.height)
+    if Yuki::GifReader.exist?(gif_filename = "#{@picture_name}.gif", :picture)
+      @gif_handle = Yuki::GifReader.new(RPG::Cache.picture(gif_filename), true)
+      self.bitmap = Texture.new(@gif_handle.width, @gif_handle.height)
     else
       set_bitmap(@picture_name, :picture)
     end

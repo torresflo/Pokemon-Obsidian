@@ -1,0 +1,22 @@
+0 : Continuer
+1 : Badges :
+2 : 
+3 : Pokédex :
+4 : 
+5 : Temps de jeu :
+6 : :
+7 : [VAR TRNAME(0000)]
+8 : [VAR LOCATION(0000)]
+9 : [VAR NUM1(0000)]
+10 : [VAR NUM3(0000)]
+11 : [VAR NUM3(0000)]
+12 : [VAR NUM2(0000)]
+13 : Poké Lien
+14 : Cadeau Mystère
+15 : Compétitions Live
+16 : [~ 16]
+17 : Le fichier de sauvegarde a été effacé.
+18 : Voulez-vous effacer toutes les données sauvegardées ?
+19 : Les données effacées ne pourront pas être récupérées. Voulez-vous continuer ?
+20 : Oui
+21 : Non

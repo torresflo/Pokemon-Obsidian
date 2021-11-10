@@ -11,6 +11,7 @@
 module PARGV
   @args = {}
   @unamed = []
+  GAME_OPTS = '.gameopts'
 
   module_function
 
@@ -38,6 +39,7 @@ module PARGV
   # Parse the arguments
   # @param argv [Array<String>] list of arguments
   def parse(argv = ARGV)
+    argv = p_autoload_special_argv(argv) if argv == ARGV
     p_reset_values
     p_parse(argv)
   end
@@ -61,6 +63,20 @@ module PARGV
   # @note Aliases are not supported as name!
   def default(name)
     @args[name]&.fetch(:default)
+  end
+
+  # Update the game opts
+  # @param opts [Array<String>] lines that should end up in the .gameopts file
+  def update_game_opts(*opts)
+    last_opts = File.exist?(GAME_OPTS) ? File.readlines(GAME_OPTS).map(&:chomp) : []
+
+    opts.each do |opt|
+      begin_part = "#{opt.split('=').first}="
+      last_opts.delete_if { |last_opt| last_opt.start_with?(begin_part) }
+    end
+
+    new_opts = last_opts + opts
+    File.write(GAME_OPTS, new_opts.join("\n"))
   end
 
   # Return the value of an argument
@@ -163,6 +179,16 @@ module PARGV
         arg_data[:value] = value
       end
     end
+
+    # Autoload the special argv from .gameopts
+    # @param argv [Array<String>]
+    # @return [Array<String>]
+    def p_autoload_special_argv(argv)
+      return argv unless File.exist?(GAME_OPTS)
+
+      opts = File.readlines(GAME_OPTS).map(&:chomp).reverse
+      return argv.dup.concat(opts).uniq { |v| v.split('=').first }
+    end
   end
 end
 
@@ -172,6 +198,7 @@ PARGV.define_arg(:smooth)
 PARGV.define_arg(:"no-vsync", flag: true, default: nil)
 PARGV.define_arg(:fullscreen)
 PARGV.define_arg(:"ignore-gpu-issue", flag: true, default: nil)
+PARGV.define_arg(:lang, flag: false, default: nil)
 PARGV.define_arg(:help, aliases: [:h]) do
   print "\e[46m\e[30m"
   puts 'PSDK Help'.center(80, '=')
@@ -181,7 +208,8 @@ PARGV.define_arg(:help, aliases: [:h]) do
     "  default value : #{PARGV.default(:help)}",
     '--smooth : Tell if the texture are smoothed by GPU',
     '--fullscreen : Tell if the game launch in fullscreen',
-    '--no-vsync : Tell if the game should run without vsync'
+    '--no-vsync : Tell if the game should run without vsync',
+    '--lang=value : Define the game language'
   )
   unless File.exist?('Data/Scripts.dat')
     puts(

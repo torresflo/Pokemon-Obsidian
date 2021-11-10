@@ -1,6 +1,16 @@
 en,fr,it,de,es,ko,kana
-ITEMS,Objets,Strumenti,Items,Objetos,도구,どうぐ
-MEDICINE,PV/PP,Rimedi,Medizin,Botiquín,회복,かいふく
-TMs & HMs,CT & CS,MT e MN,TM & VM,MT/MO,기술머신,わざマシン
-BERRIES,Baies,Bacche,Beeren,Bayas,나무열매,きのみ
-KEY ITEMS,Objets rares,Strumenti Base,Basis-Items,Objetos Clave,중요한 물건,たいせつなもの
+Medicine,Soins,Rimedi,Medizintasche,Botiquín,회복,かいふく
+Poké Balls,Poké Balls,Poké Ball,Pokéball-Tasche,Poké Balls,볼,ボール
+Battle Items,Objets de combat,Strumenti lotta,Kampftasche,Objetos de combate,배틀,せんとう
+Berries,Baies,Bacche,Beerentasche,Bayas,나무열매,きのみ
+Other Items,Objets,Strumenti,Trainingstasche,Objetos varios,도구,どうぐ
+TMs,CT,MT,TM-Tasche,MT,기술머신,わざマシン
+Treasures,Trésors,Tesori,Schatztasche,Tesoros,보물,おたから
+Ingredients,Ingrédients,Ingredienti,Zutatentasche,Ingredientes,식재료,しょくざい
+Key Items,Objets rares,Strumenti base,Basis-Item-Tasche,Objetos clave,중요한 물건,たいせつなもの
+[~ 9],[~ 9],[~ 9],[~ 9],[~ 9],[~ 9],[~ 9]
+[~ 10],[~ 10],[~ 10],[~ 10],[~ 10],[~ 10],[~ 10]
+[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11]
+[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12]
+[~ 13],[~ 13],[~ 13],[~ 13],[~ 13],[~ 13],[~ 13]
+[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14]

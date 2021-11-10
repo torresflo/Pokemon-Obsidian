@@ -1,6 +1,7 @@
 module GameData
   # Specific data of a Pokeball item
   # @author Nuri Yuri
+  # @deprecated This class is deprecated in .25, please stop using it!
   class BallData < Base
     # Image name of the ball in Graphics/ball/
     # @return [String]

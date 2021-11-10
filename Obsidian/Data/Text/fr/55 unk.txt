@@ -1,0 +1,304 @@
+0 : [~ 0]
+1 : Plus de place pour un Pokémon ! Souhaitez-vous tout de même recevoir un Cadeau Mystère ?
+2 : Attention ! Si la batterie de votre console s’épuise ou que la connexion s’interrompt pendant la réception d’un cadeau via un code ou un mot de passe, il est possible que ce cadeau ne puisse plus être réceptionné par la suite via ce code ou ce mot de passe. Veuillez donc vérifier le niveau de charge de votre console ainsi que l’état de votre connexion.
+3 : Attention ! Si la batterie de votre console s’épuise ou que la connexion s’interrompt pendant la réception d’un cadeau, il est possible que ce cadeau ne puisse plus être réceptionné par la suite. Veuillez donc vérifier le niveau de charge de votre Nintendo Switch et de votre Poké Ball Plus, ainsi que l’état de votre connexion.
+4 : Attention ! Vous avez saisi un code ou un mot de passe incorrect plusieurs fois de suite. Vous ne pourrez pas retenter pendant un certain temps. Veuillez réessayer ultérieurement.
+5 : Attention ! Vous ne pouvez plus recevoir de cadeau avec votre Poké Ball Plus car vous avez saisi un code ou un mot de passe incorrect plusieurs fois de suite. Veuillez réessayer ultérieurement.
+6 : Vérification en cours... Ne pas éteindre la console.
+7 : Connexion en cours... Ne pas éteindre la console.
+8 : Voulez-vous saisir à nouveau le code ou mot de passe ?
+9 : Recherche de cadeau en cours...
+10 : La réception du cadeau a échoué.
+11 : Aucun cadeau n’a été trouvé.
+12 : Déconnexion en cours... Veuillez patienter.
+13 : Veuillez sélectionner le cadeau à recevoir.
+14 : Voulez-vous annuler la réception ?
+15 : Vous avez déjà reçu ce cadeau. Réception impossible.
+16 : Espace insuffisant pour un autre Pokémon. Veuillez faire de la place dans votre équipe ou vos Boîtes PC, puis réessayez.
+17 : Réception du cadeau en cours... Ne pas éteindre la console.
+18 : Vous avez reçu un cadeau, mais vous ne pouvez pas l’obtenir dans ce jeu.
+19 : Vous allez maintenant vous connecter à Internet. Votre partie va être sauvegardée. Voulez-vous continuer ?
+20 : Connexion en cours... Veuillez patienter.
+21 : Vous êtes maintenant connecté à Internet.
+22 : Sauvegarde en cours... Veuillez patienter.
+23 : Votre nouvel ami a trouvé sa place dans vos Boîtes. Allez le voir !
+24 : Votre nouvel ami a trouvé sa place parmi les Pokémon de votre équipe. Allez le voir !
+25 : Connexion en cours... Ne pas éteindre la console.
+26 : Connexion en cours... Veuillez patienter.
+27 : [~ 27]
+28 : [~ 28]
+29 : Veuillez ne pas déconnecter la Poké Ball Plus.
+30 : [~ 30]
+31 : Voulez-vous vous déconnecter d’Internet ?
+32 : Déconnexion en cours... Veuillez patienter.
+33 : Une erreur est survenue pendant la réception du Bulletin des Terres Sauvages.
+34 : Il n’y a aucun Bulletin des Terres Sauvages pour le moment.
+35 : Vous avez reçu le dernier Bulletin des Terres Sauvages. Allez jeter un œil aux antres de Pokémon ! Dernière mise à jour : le [VAR NUM2(0002)]/[VAR NUM2(0001)]/20[VAR NUM2(0000)] à [VAR NUM2(0003)]:[VAR NUM2(0004)] (UTC).
+36 : Attention : Vous ne pouvez recevoir ce cadeau qu’une seule fois par jour.
+37 : Vous ne pouvez recevoir ce cadeau qu’une seule fois par jour. Vous avez déjà atteint ce maximum aujourd’hui, donc vous ne pouvez pas le recevoir de nouveau. Veuillez réessayer demain.
+38 : Vous ne pouvez recevoir que 10 cadeaux quotidiens au total. Vous avez déjà atteint ce maximum aujourd’hui, donc vous ne pouvez pas en recevoir davantage. Veuillez réessayer demain.
+39 : Connexion à Internet activée.
+40 : Le code ou mot de passe est erroné. Attention : Vous avez saisi un code ou un mot de passe erroné plusieurs fois d’affilée. La saisie a été temporairement verrouillée. Veuillez réessayer ultérieurement.
+41 : Le code ou mot de passe est erroné. Attention : Vous avez saisi un code ou un mot de passe erroné plusieurs fois d’affilée. La saisie a été temporairement verrouillée. Veuillez réessayer ultérieurement.
+42 : Communication sans fil locale activée.
+43 : Le code ou mot de passe est erroné. Veuillez le vérifier. Attention : Si vous saisissez un code ou un mot de passe erroné plusieurs fois d’affilée, l’option sera verrouillée temporairement et vous devrez patienter avant de pouvoir réessayer.
+44 : Le code ou mot de passe est erroné. Veuillez le vérifier. Attention : Si vous avez saisi un code ou un mot de passe erroné plusieurs fois d’affilée, l’option sera verrouillée temporairement et vous devrez patienter avant de pouvoir réessayer.
+45 : Ce code a déjà été utilisé dans une autre sauvegarde.
+46 : Cette Poké Ball Plus est actuellement utilisée dans une autre sauvegarde. Veuillez réessayer ultérieurement.
+47 : Vous ne pouvez pas encore recevoir le cadeau associé à ce code ou mot de passe.
+48 : Vous ne pouvez pas encore recevoir Mew.
+49 : Vous ne pouvez pas recevoir le cadeau, car le code ou mot de passe est expiré.
+50 : Vous avez dépassé la date limite pour recevoir Mew.
+51 : Impossible de recevoir le cadeau associé à ce code ou mot de passe dans ce jeu.
+52 : Impossible de recevoir le cadeau associé à ce code ou mot de passe dans ce jeu.
+53 : Erreur de renouvellement du code ou mot de passe. Vous ne pouvez pas recevoir le cadeau associé à ce code ou mot de passe.
+54 : La réception de Mew a échoué. Veuillez réessayer.
+55 : Vous avez déjà obtenu le cadeau correspondant à ce code ou mot de passe.
+56 : Vous avez déjà reçu Mew.
+57 : Ce code a déjà été utilisé. Un code ayant été utilisé une fois ne peut pas être réutilisé dans une autre sauvegarde.
+58 : Mew ne se trouve plus dans cette Poké Ball Plus.
+59 : Vous ne pourrez plus vous connecter pendant un certain temps, car vous avez saisi un code ou mot de passe erroné à plusieurs reprises. Veuillez réessayer ultérieurement.
+60 : Vous ne pourrez plus vous connecter pendant un certain temps, car vous avez saisi un code ou mot de passe erroné à plusieurs reprises. Veuillez réessayer ultérieurement.
+61 : Oui
+62 : Non
+63 : Via Internet
+64 : Via un code ou mot de passe
+65 : Voir vos Cadeaux Mystère
+66 :  Annuler
+67 :  Retour
+68 : [~ 68]
+69 : Via communication sans fil locale
+70 :  Voir l’explication
+71 :  Confirmer
+72 : Recevoir un Cadeau Mystère
+73 : Recevoir le Bulletin des Terres Sauvages
+74 : Promener un Pokémon avec la Poké Ball Plus
+75 : Recevoir les récompenses du Stade de Combat
+76 : [VAR NUM1(0000)]
+77 : [VAR 012E(0000)]
+78 : [VAR NUM2(0000)]
+79 : Vous avez reçu un [VAR PKNAME(0005)] !
+80 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)]
+81 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)]
+82 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)]
+83 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)] [VAR ITEM2(0009)] × [VAR NUM3(000A)]
+84 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)] [VAR ITEM2(0009)] × [VAR NUM3(000A)] [VAR ITEM2(000B)] × [VAR NUM3(000C)]
+85 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)] [VAR ITEM2(0009)] × [VAR NUM3(000A)] [VAR ITEM2(000B)] × [VAR NUM3(000C)] [VAR ITEM2(000D)] × [VAR NUM3(000E)]
+86 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)] [VAR ITEM2(0009)] × [VAR NUM3(000A)] [VAR ITEM2(000B)] × [VAR NUM3(000C)] [VAR ITEM2(000D)] × [VAR NUM3(000E)] [VAR ITEM2(000F)] × [VAR NUM3(0010)]
+87 : [VAR NUM2(0002)]/[VAR NUM2(0001)]/20[VAR NUM2(0000)], [VAR NUM2(0003)]:[VAR NUM2(0004)]
+88 : [VAR NUM3(0000)] %
+89 : /
+90 : [VAR NUM2(0002)]/[VAR NUM2(0001)]/20[VAR NUM2(0000)], [VAR NUM2(0003)]:[VAR NUM2(0004)] (UTC+[VAR NUM2(0005)]:[VAR NUM2(0006)])
+91 : [VAR NUM2(0002)]/[VAR NUM2(0001)]/20[VAR NUM2(0000)], [VAR NUM2(0003)]:[VAR NUM2(0004)] (UTC-[VAR NUM2(0005)]:[VAR NUM2(0006)])
+92 : [VAR NUM2(0002)]/[VAR NUM2(0001)]/20[VAR NUM2(0000)], [VAR NUM2(0003)]:[VAR NUM2(0004)] (UTC±[VAR NUM2(0005)])
+93 : [VAR NUM2(0002)]/[VAR NUM2(0001)]/20[VAR NUM2(0000)], [VAR NUM2(0003)]:[VAR NUM2(0004)] (UTC+[VAR NUM2(0005)])
+94 : [VAR NUM2(0002)]/[VAR NUM2(0001)]/20[VAR NUM2(0000)], [VAR NUM2(0003)]:[VAR NUM2(0004)] (UTC-[VAR NUM2(0005)])
+95 : [~ 95]
+96 : [VAR 012E(0000)]
+97 : Vous avez reçu un [VAR PKNAME(0005)] !
+98 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)]
+99 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)]
+100 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)]
+101 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)] [VAR ITEM2(0009)] × [VAR NUM3(000A)]
+102 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)] [VAR ITEM2(0009)] × [VAR NUM3(000A)] [VAR ITEM2(000B)] × [VAR NUM3(000C)]
+103 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)] [VAR ITEM2(0009)] × [VAR NUM3(000A)] [VAR ITEM2(000B)] × [VAR NUM3(000C)] [VAR ITEM2(000D)] × [VAR NUM3(000E)]
+104 : Vous avez reçu : [VAR ITEM2(0005)] × [VAR NUM3(0006)] [VAR ITEM2(0007)] × [VAR NUM3(0008)] [VAR ITEM2(0009)] × [VAR NUM3(000A)] [VAR ITEM2(000B)] × [VAR NUM3(000C)] [VAR ITEM2(000D)] × [VAR NUM3(000E)] [VAR ITEM2(000F)] × [VAR NUM3(0010)]
+105 : [VAR 012E(0000)]
+106 : Vous avez reçu : [VAR 01C1(0005)]
+107 : Vous avez reçu : [VAR 01C1(0005)] [VAR 01C1(0006)]
+108 : Vous avez reçu : [VAR 01C1(0005)] [VAR 01C1(0006)] [VAR 01C1(0007)]
+109 : Vous avez reçu : [VAR 01C1(0005)] [VAR 01C1(0006)] [VAR 01C1(0007)] [VAR 01C1(0008)]
+110 : Vous avez reçu : [VAR 01C1(0005)] [VAR 01C1(0006)] [VAR 01C1(0007)] [VAR 01C1(0008)] [VAR 01C1(0009)]
+111 : Vous avez reçu : [VAR 01C1(0005)] [VAR 01C1(0006)] [VAR 01C1(0007)] [VAR 01C1(0008)] [VAR 01C1(0009)] [VAR 01C1(000A)]
+112 : Vous avez reçu [VAR 0204(0005,202F)] PCo !
+113 : Vous avez reçu [VAR 0206(0005,202F)] $ !
+114 : Vous avez reçu un Œuf de Pokémon !
+115 : Le Pokémon en promenade dans votre Poké Ball Plus ne peut pas être rappelé pour une des raisons suivantes : - il a été confié à une Garderie - il est parti en mission de Poké Service - il participe à une compétition. Veuillez récupérer le Pokémon ou attendre son retour avant de réessayer.
+116 : Appuyez sur un des boutons de la Poké Ball Plus.
+117 : Connexion en cours... Ne pas éteindre la console.
+118 : Placez un Pokémon dans votre Poké Ball Plus pour vous promener avec lui ! Plus vous marcherez et jouerez avec votre Pokémon, plus vous obtiendrez de merveilleuses récompenses !
+119 : Votre Poké Ball Plus contient un Pokémon ! Voulez-vous le recevoir en cadeau ?
+120 : [~ 120]
+121 : Mise à jour en cours... Ne pas éteindre la console.
+122 : Sortez vous promener avec [VAR PKNICK(0000)] ! [VAR COLOR(0006)]Appuyez longuement sur le stick de la Poké Ball[VAR COLOR(0000)] [VAR COLOR(0006)]Plus [VAR COLOR(0000)]pour jouer avec [VAR PKNICK(0000)]. Pour le ramener dans le jeu, sélectionnez « Promener un Pokémon avec la Poké Ball Plus » de nouveau.
+123 : Appuyez sur n’importe quel bouton de la Poké Ball Plus, puis attendez qu’elle soit connectée à votre jeu.
+124 : [VAR PKNICK(0000)] est de sortie. Voulez-vous qu’il retourne dans le jeu ?
+125 : Choisissez le Pokémon avec lequel vous souhaitez vous promener.
+126 : Cette Poké Ball Plus contient le bilan de promenade d’un autre joueur. Si vous emmenez un Pokémon en promenade dans cette Poké Ball Plus, ces données seront écrasées. Voulez-vous continuer ?
+127 : [~ 127]
+128 : [VAR NUMBRNCH(00FD,0B05)]VotreL’un de vos Pokémon est de sortie. Voulez-vous qu’il retourne dans le jeu ?
+129 : Annuler la promenade ?
+130 : Connexion en cours...
+131 : Vous vous êtes amusé[VAR 1100(00FF,0100)]e comme jamais avec [VAR PKNICK(0000)] !
+132 : Vous vous êtes beaucoup amusé[VAR 1100(00FF,0100)]e avec [VAR PKNICK(0000)] !
+133 : Vous vous êtes bien amusé[VAR 1100(00FF,0100)]e avec [VAR PKNICK(0000)] !
+134 : Vous vous êtes promené[VAR 1100(00FF,0100)]e avec [VAR PKNICK(0000)] !
+135 : Vous avez reçu une récompense pour votre promenade !
+136 : Vous avez reçu une récompense pour votre promenade !
+137 : Vous ne pourrez pas utiliser la Poké Ball Plus si vous ne terminez pas la mise à jour. Voulez-vous vraiment annuler la mise à jour ?
+138 : [~ 138]
+139 : [~ 139]
+140 : [~ 140]
+141 : Le Pokémon que vous avez sélectionné est déjà parti en promenade dans une autre Poké Ball Plus. Si vous continuez, les données de promenade contenues dans l’autre Poké Ball Plus ne seront pas importées dans votre jeu. Voulez-vous continuer malgré tout ?
+142 : [~ 142]
+143 : [~ 143]
+144 : [~ 144]
+145 : [~ 145]
+146 : [~ 146]
+147 : [~ 147]
+148 : [~ 148]
+149 : [~ 149]
+150 : Sauvegarde en cours... Ne pas éteindre la console.
+151 : Vous avez reçu : [VAR ITEM2(0000)] × [VAR NUM3(0001)]
+152 : Vous avez reçu : [VAR ITEM2(0000)] × [VAR NUM3(0001)]
+153 : Vous avez reçu : [VAR ITEM2(0000)] × [VAR NUM3(0001)] [VAR ITEM2(0002)] × [VAR NUM3(0003)]
+154 : Vous avez reçu : [VAR ITEM2(0000)] × [VAR NUM3(0001)] [VAR ITEM2(0002)] × [VAR NUM3(0003)] [VAR ITEM2(0004)] × [VAR NUM3(0005)]
+155 : Vous avez reçu : [VAR ITEM2(0000)] × [VAR NUM3(0001)] [VAR ITEM2(0002)] × [VAR NUM3(0003)] [VAR ITEM2(0004)] × [VAR NUM3(0005)] [VAR ITEM2(0006)] × [VAR NUM3(0007)]
+156 : Vous avez reçu : [VAR ITEM2(0000)] × [VAR NUM3(0001)] [VAR ITEM2(0002)] × [VAR NUM3(0003)] [VAR ITEM2(0004)] × [VAR NUM3(0005)] [VAR ITEM2(0006)] × [VAR NUM3(0007)] [VAR ITEM2(0008)] × [VAR NUM3(0009)]
+157 : Vous avez reçu : [VAR ITEM2(0000)] × [VAR NUM3(0001)] [VAR ITEM2(0002)] × [VAR NUM3(0003)] [VAR ITEM2(0004)] × [VAR NUM3(0005)] [VAR ITEM2(0006)] × [VAR NUM3(0007)] [VAR ITEM2(0008)] × [VAR NUM3(0009)] [VAR ITEM2(000A)] × [VAR NUM3(000B)]
+158 : Vous avez reçu : [VAR ITEM2(0000)] × [VAR NUM3(0001)] [VAR ITEM2(0002)] × [VAR NUM3(0003)] [VAR ITEM2(0004)] × [VAR NUM3(0005)] [VAR ITEM2(0006)] × [VAR NUM3(0007)] [VAR ITEM2(0008)] × [VAR NUM3(0009)] [VAR ITEM2(000A)] × [VAR NUM3(000B)] [VAR ITEM2(000C)] × [VAR NUM3(000D)]
+159 : [~ 159]
+160 : [~ 160]
+161 : Bilan de promenade [VAR 012E(0000)] : [VAR 0208(0001,202F)] [VAR 012E(0002)] : [VAR 0208(0003,202F)] [VAR 012E(0004)] : [VAR 0208(0005,202F)] [VAR 012E(0006)] : [VAR 0208(0007,202F)] [VAR 012E(0008)] : [VAR 0208(0009,202F)] [VAR 012E(000A)] : [VAR 0208(000B,202F)] [VAR 012E(000C)] : [VAR 0208(000D,202F)] [VAR 012E(000E)] : [VAR 0208(000F,202F)]
+162 : [VAR PKNICK(0000)] est entré dans votre Poké Ball Plus !
+163 : Annuler
+164 : [~ 164]
+165 : ・ Nombre de pas
+166 : ・ Moments partagés
+167 : ・ Bons moments partagés
+168 : ・ Super moments partagés
+169 : ・ Appels du Pokémon
+170 : ・ Réponses aux appels du Pokémon
+171 : ・ Efforts dans Pokémon GO
+172 : ・ Succès dans Pokémon GO
+173 : [~ 173]
+174 : [~ 174]
+175 : [~ 175]
+176 : [~ 176]
+177 : [~ 177]
+178 : [~ 178]
+179 : [~ 179]
+180 : Oui
+181 : Non
+182 : [~ 182]
+183 : [~ 183]
+184 :  Annuler
+185 : [~ 185]
+186 : [~ 186]
+187 : [~ 187]
+188 : [~ 188]
+189 : [~ 189]
+190 : [~ 190]
+191 : [~ 191]
+192 : [~ 192]
+193 : [~ 193]
+194 : [~ 194]
+195 : [~ 195]
+196 : [~ 196]
+197 : [~ 197]
+198 : [~ 198]
+199 : [~ 199]
+200 : [~ 200]
+201 : [~ 201]
+202 : [~ 202]
+203 : [~ 203]
+204 : [~ 204]
+205 : [~ 205]
+206 : [~ 206]
+207 : [~ 207]
+208 : [~ 208]
+209 : [~ 209]
+210 : [~ 210]
+211 : [~ 211]
+212 : [~ 212]
+213 : [~ 213]
+214 : [~ 214]
+215 : [~ 215]
+216 : [~ 216]
+217 : [~ 217]
+218 : [~ 218]
+219 : [~ 219]
+220 : [~ 220]
+221 : [~ 221]
+222 : [~ 222]
+223 : [~ 223]
+224 : [~ 224]
+225 : [~ 225]
+226 : [~ 226]
+227 : [~ 227]
+228 : [~ 228]
+229 : [~ 229]
+230 : [~ 230]
+231 : [~ 231]
+232 : [~ 232]
+233 : [~ 233]
+234 : [~ 234]
+235 : [~ 235]
+236 : [~ 236]
+237 : [~ 237]
+238 : [~ 238]
+239 : [~ 239]
+240 : [~ 240]
+241 : [~ 241]
+242 : [~ 242]
+243 : [~ 243]
+244 : [~ 244]
+245 : [~ 245]
+246 : [~ 246]
+247 : [~ 247]
+248 : [~ 248]
+249 : [~ 249]
+250 : [~ 250]
+251 : [~ 251]
+252 : [~ 252]
+253 : [~ 253]
+254 : [~ 254]
+255 : [~ 255]
+256 : [~ 256]
+257 : [~ 257]
+258 : [~ 258]
+259 : [~ 259]
+260 : [~ 260]
+261 : [~ 261]
+262 : [~ 262]
+263 : [~ 263]
+264 : [~ 264]
+265 : [~ 265]
+266 : [~ 266]
+267 : [~ 267]
+268 : [~ 268]
+269 : [~ 269]
+270 : [~ 270]
+271 : [~ 271]
+272 : [~ 272]
+273 : [~ 273]
+274 : [~ 274]
+275 : [~ 275]
+276 : [~ 276]
+277 : [~ 277]
+278 : [~ 278]
+279 : [~ 279]
+280 : [~ 280]
+281 : [~ 281]
+282 : [~ 282]
+283 : [~ 283]
+284 : [~ 284]
+285 : [~ 285]
+286 : [~ 286]
+287 : [~ 287]
+288 : [~ 288]
+289 : [~ 289]
+290 : [~ 290]
+291 : [~ 291]
+292 : [~ 292]
+293 : [~ 293]
+294 : [~ 294]
+295 : [~ 295]
+296 : [~ 296]
+297 : [~ 297]
+298 : [~ 298]
+299 : [~ 299]
+300 : [~ 300]
+301 : [~ 301]
+302 : [~ 302]
+303 : [~ 303]

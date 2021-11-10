@@ -63,18 +63,18 @@ class Game_Player
   # @param d [Integer] the direction where to check
   def check_common_event_trigger_there(new_x, new_y, z, d)
     sys_tag = system_tag
+    front_sys_tag = $game_map.system_tag(new_x, new_y)
     # Dive
     if terrain_tag == 6 && DIVE_TILE.include?(sys_tag)
       $game_temp.common_event_id = Game_CommonEvent::DIVE
     # Headbutt
-    elsif $game_map.system_tag(new_x, new_y) == HeadButt
+    elsif front_sys_tag == HeadButt
       $game_temp.common_event_id = Game_CommonEvent::HEADBUTT
     # Surf
-    elsif $game_map.passable?(x, y, d, nil) && 
-        $game_map.passable?(new_x = @x + (d == 6 ? 1 : d == 4 ? -1 : 0), new_y = @y + (d == 2 ? 1 : d == 8 ? -1 : 0), 10 - d, self) && 
-        z <= 1
-      sys_tag = $game_map.system_tag(new_x, new_y)
-      $game_temp.common_event_id = Game_CommonEvent::SURF_ENTER if !@surfing && SurfTag.include?(sys_tag)
+    elsif !@surfing && SurfTag.include?(front_sys_tag) && z <= 1 && $game_map.passable?(x, y, d, nil)
+      if $game_map.passable?(new_x, new_y, 10 - d, self) || Yuki::MapLinker.passable?(new_x, new_y, 10 - d, nil)
+        $game_temp.common_event_id = Game_CommonEvent::SURF_ENTER
+      end
     end
   end
 

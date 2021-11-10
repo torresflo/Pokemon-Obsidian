@@ -11,7 +11,7 @@ module Yuki
       end
 
       # Overwrite the windowskin setter
-      # @param v [LiteRGSS::Bitmap] ignored
+      # @param v [Texture] ignored
       def windowskin=(v)
         super(RPG::Cache.interface('team/select_button'))
       end

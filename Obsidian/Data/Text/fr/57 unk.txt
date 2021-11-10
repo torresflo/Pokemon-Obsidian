@@ -1,0 +1,198 @@
+0 : [~ 0]
+1 : [~ 1]
+2 : [~ 2]
+3 : [~ 3]
+4 : [~ 4]
+5 : [~ 5]
+6 : [~ 6]
+7 : [~ 7]
+8 : [~ 8]
+9 : [~ 9]
+10 : [~ 10]
+11 : [~ 11]
+12 : [~ 12]
+13 : [VAR PKNAME(0000)]
+14 : [~ 14]
+15 : [~ 15]
+16 : [~ 16]
+17 : [~ 17]
+18 : [~ 18]
+19 : [~ 19]
+20 :  Habitat
+21 : [~ 21]
+22 : [~ 22]
+23 : [~ 23]
+24 : [~ 24]
+25 : [~ 25]
+26 : Taille
+27 : Poids
+28 : ???
+29 : ???,? m
+30 : ???,? kg
+31 : Type
+32 : [~ 32]
+33 : Rotation
+34 : [~ 34]
+35 : [~ 35]
+36 : Zone inconnue
+37 : Absent
+38 : Habitat [VAR 1408(0000,0001)][VAR PKNAME(0000)]
+39 : [~ 39]
+40 : [~ 40]
+41 : [~ 41]
+42 : [~ 42]
+43 : [~ 43]
+44 : [~ 44]
+45 : [~ 45]
+46 : [~ 46]
+47 : [~ 47]
+48 : Les données [VAR 1408(0000,0001)][VAR PKNAME(0000)] ont été ajoutées au Pokédex.
+49 : Voyons en détail le Pokémon que vous avez attrapé !
+50 : [~ 50]
+51 : [~ 51]
+52 : Voulez-vous donner un surnom à [VAR PKNICK(0000)] ?
+53 : Oui
+54 : Non
+55 : [~ 55]
+56 : Que voulez-vous faire [VAR 1408(0000,0001)][VAR PKNICK(0000)] ?
+57 : L’inclure dans l’équipe
+58 : L’envoyer dans une Boîte PC
+59 : [~ 59]
+60 : Choisissez le Pokémon de votre équipe qui lui cédera sa place.
+61 : [VAR PKNICK(0000)] a rejoint votre équipe !
+62 : [VAR PKNICK(0000)] rejoint votre équipe et [VAR PKNICK(0001)] est envoyé vers une Boîte PC.
+63 : [VAR PKNICK(0000)] est envoyé vers une Boîte PC !
+64 : [~ 64]
+65 : Que faire [VAR 1406(0001,0000)][VAR ITEM2(0001)] que tient [VAR PKNICK(0000)] ?
+66 : [~ 66]
+67 : Ranger l’objet dans le Sac
+68 : [~ 68]
+69 : L’envoyer vers une Boîte PC avec le Pokémon
+70 : Vous avez rangé [VAR 1400(0000,0000)][VAR ITEM2(0000)] dans votre Sac.
+71 : Votre Sac est plein.
+72 : [~ 72]
+73 : [~ 73]
+74 : Vous avez pris [VAR 1400(0000,0000)][VAR ITEM2(0000)].
+75 : Consulter le résumé [VAR 1408(0000,0001)][VAR PKNICK(0000)]
+76 : Consulter le résumé de l’équipe
+77 : [~ 77]
+78 : [~ 78]
+79 : [~ 79]
+80 : [~ 80]
+81 : [~ 81]
+82 : [~ 82]
+83 : [~ 83]
+84 : [~ 84]
+85 : Numéro
+86 : Ordre alphabétique
+87 : Poids décroissant
+88 : Poids croissant
+89 : Taille décroissante
+90 : Taille croissante
+91 : Par numéro
+92 : Par ordre alphabétique
+93 : Par poids décroissant
+94 : Par poids croissant
+95 : Par taille décroissante
+96 : Par taille croissante
+97 : Annuler
+98 : [~ 98]
+99 : [~ 99]
+100 : [~ 100]
+101 : [~ 101]
+102 : [~ 102]
+103 : [~ 103]
+104 : [~ 104]
+105 : [~ 105]
+106 : [~ 106]
+107 : [~ 107]
+108 : [~ 108]
+109 : [~ 109]
+110 : [~ 110]
+111 : [~ 111]
+112 : [~ 112]
+113 : [~ 113]
+114 : [~ 114]
+115 : [~ 115]
+116 :  Sélectionner
+117 : [~ 117]
+118 : [~ 118]
+119 : [~ 119]
+120 : [~ 120]
+121 : [~ 121]
+122 : [~ 122]
+123 : Si vous échangez ce Pokémon, vous ne pourrez plus continuer votre aventure !
+124 : [~ 124]
+125 : [~ 125]
+126 : [VAR NUM3(0000)]
+127 : Vus :
+128 : [VAR NUM3(0000)]
+129 : Capturés :
+130 : Nº [VAR NUM3(0000)]
+131 : [VAR 0105(0000)]
+132 :  Quitter
+133 : Pokédex
+134 : Pokédex
+135 :  Retour
+136 :  Changer de langue
+137 :  Tri
+138 :  Taxi volant
+139 :  Afficher/cacher la météo
+140 :  Revenir à la liste
+141 : Voulez-vous vous rendre à cet endroit ?
+142 : Nº [VAR NUM3(0000)]
+143 : [VAR PKNAME(0000)]
+144 : [VAR NUM3(0000)]
+145 : Combats
+146 : Forme de “○○”
+147 : Forme de “○○”
+148 : Pokémon [VAR 0104(0000)]
+149 :  Animations et cris
+150 :  Mettre sur pause
+151 :  Changer de Pokémon
+152 :  Changer de forme
+153 :  Avec/sans animation
+154 : [~ 154]
+155 : Félicitations ! Votre Pokédex a progressé !
+156 : Il vous reste encore des Pokémon à capturer ! Courage !
+157 : Tous les Pokémon des environs ont été capturés !
+158 : Tous les Pokémon du Pokédex ont été capturés ! Félicitations ! Mais il reste encore des formes alternatives et des versions chromatiques à trouver ! Attrapez-les toutes !
+159 : Oui
+160 : Non
+161 : Pokémon proches
+162 : Autres Pokémon
+163 : Cherchons des Pokémon !
+164 :  Informations
+165 :  Trier
+166 :  Changer
+167 :  Faire évaluer le Pokédex
+168 : Affrontez autant de Dresseurs que possible pour croiser davantage de Pokémon !
+169 : Si un Pokémon a tendance à s’enfuir, ou est effrayé par le bruit de la sonnette de votre vélo ou vos sifflements, approchez-vous de lui en vous accroupissant.
+170 : Les échanges et les Échanges Magiques sont un excellent moyen de remplir le Pokédex.
+171 : Vous pouvez aussi trouver des Pokémon en faisant éclore des Œufs !
+172 : Avez-vous essayé de pêcher ? Certains Pokémon ne peuvent être capturés que de cette manière !
+173 : Certaines espèces ne peuvent être obtenues qu’après en avoir fait évoluer une autre. Il existe différentes manières de faire évoluer un Pokémon. Un objet est parfois nécessaire.
+174 : Vous avez presque réussi à remplir le Pokédex de Galar ! Encore un petit effort !
+175 : Vous avez complété le Pokédex de Galar ! Félicitations !
+176 : [VAR 0105(0000)]
+177 : Voulez-vous vous rendre [VAR 01D3(0000)] ?
+178 : Oui
+179 : Non
+180 : Vous ne pouvez pas appeler de taxi volant ici.
+181 : Vous ne pouvez pas appeler de taxi volant maintenant.
+182 : Pokédex
+183 : Pokédex d’Isolarmure
+184 : Pokédex de Couronneige
+185 : Pokédex
+186 : Pokédex d’Isolarmure
+187 : Pokédex de Couronneige
+188 : Explorez d’abord chaque recoin d’Isolarmure pour rencontrer un tas de nouveaux Pokémon !
+189 : Si vous sifflez, les Pokémon des alentours se précipiteront peut-être dans votre direction !
+190 : Certains Dresseurs d’Isolarmure se feront une joie de vous montrer leurs Pokémon. Vous pourrez ensuite consulter votre Pokédex pour savoir où capturer ces derniers.
+191 : Vous avez presque réussi à remplir le Pokédex d’Isolarmure ! Encore un petit effort !
+192 : Vous avez complété le Pokédex d’Isolarmure ! Félicitations !
+193 : Explorez d’abord chaque recoin de Couronneige pour rencontrer un tas de nouveaux Pokémon !
+194 : Si vous sifflez, les Pokémon des alentours se précipiteront peut-être dans votre direction !
+195 : Participez-vous aux expéditions Dynamax ? Vous y croiserez peut-être des Pokémon que vous pourrez enregistrer dans votre Pokédex de Couronneige !
+196 : Vous avez presque réussi à remplir le Pokédex de Couronneige ! Encore un petit effort !
+197 : Vous avez complété le Pokédex de Couronneige ! Félicitations !

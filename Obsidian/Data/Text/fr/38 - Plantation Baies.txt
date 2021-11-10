@@ -1,0 +1,16 @@
+0 : Le sol est meuble.
+1 : Plantez donc une Baie !
+2 : Vous plantez une [VAR ITEM2(0001)] !
+3 : Ici, vous avez planté une [VAR ITEM2(0001)].
+4 : Une pousse d’arbuste à Baies [VAR BERRY(0007)] sort du sol !
+5 : Le tronc de l’arbuste à Baies [VAR BERRY(0007)] s’épaissit !
+6 : L’arbuste à Baies [VAR BERRY(0007)] est en fleurs !
+7 : La terre est gorgée d’eau. Inutile d’arroser.
+8 : La terre est desséchée. Voulez-vous arroser ?
+9 : Grâce à ce bon arrosage, le sol est plus fertile !
+10 : L’arbuste à [VAR ITEMPLUR1][VAR ITEM2(0001)] a donné [VAR NUM2(0003)] Baie[VAR NUMBRNCH(0003,0100)]s !
+11 : [VAR NUM2(0003)] Baie[VAR NUMBRNCH(0003,0100)]s récoltée[VAR NUMBRNCH(0003,0100)]s sur l’arbuste à [VAR ITEMPLUR1][VAR ITEM2(0001)] !
+12 : Vous n’avez plus de place pour cet objet… Récolte annulée.
+13 : La récolte de l’arbuste à [VAR ITEMPLUR1][VAR ITEM2(0001)] est terminée ! Le sol est à nouveau meuble.
+14 : La terre est desséchée.
+15 : L’arbuste à Baies [VAR BERRY(0007)] est tout desséché… Oh ! On aperçoit une pousse vivace poindre sous les feuilles mortes !

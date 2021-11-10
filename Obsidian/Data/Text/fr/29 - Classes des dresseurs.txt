@@ -1,0 +1,280 @@
+0 : Dresseur
+1 : Dresseur
+2 : Gamin
+3 : Fillette
+4 : Champion
+5 : Dresseur Aérien
+6 : Dresseur Aérien
+7 : Serveuse
+8 : Topduo
+9 : Topdresseur
+10 : Topdresseur
+11 : Petite
+12 : Petit
+13 : Mystimaniac
+14 : Mademoiselle
+15 : Canon
+16 : Richard
+17 : Nageur
+18 : Team Flare
+19 : Team Flare
+20 : Team Flare
+21 : Team Flare
+22 : Team Flare
+23 : Karatéka
+24 : Touriste
+25 : Garçon de Café
+26 : Famille d’Artistes
+27 : Peintre
+28 : Peintre
+29 : Scientifique
+30 : Scientifique
+31 : Kinésiste
+32 : Ouvrier
+33 : Ouvrier
+34 : Majordome
+35 : Conseil 4
+36 : Conseil 4
+37 : Conseil 4
+38 : Conseil 4
+39 : Champion
+40 : Champion
+41 : Champion
+42 : Champion
+43 : Champion
+44 : Champion
+45 : Champion
+46 : Cerveau et Muscles
+47 : Vaurien
+48 : Écolière
+49 : Écolier
+50 : Pokéfan
+51 : Pokéfan
+52 : Couple de Pokéfans
+53 : Maître
+54 : Pêcheur
+55 : Dresseur
+56 : Dresseur
+57 : Dresseur
+58 : Topdresseur
+59 : Topdresseur
+60 : Jardinier
+61 : Randonneur
+62 : Vaurienne
+63 : Combattante
+64 : Châtelaine Combat
+65 : Châtelaine Combat
+66 : Châtelaine Combat
+67 : Châtelaine Combat
+68 : Touriste
+69 : Touriste
+70 : Nageuse
+71 : Sœurs Étranges
+72 : Jumelles
+73 : Fille en Kimono
+74 : Fille en Kimono
+75 : Fille en Kimono
+76 : Fille en Kimono
+77 : Team Flare
+78 : Team Flare
+79 : Team Flare
+80 : Team Aqua
+81 : Boss Team Flare
+82 : Vénérable
+83 : Vénérable
+84 : Dresseur Prometteur
+85 : Dresseur Prometteur
+86 : Éleveuse
+87 : Éleveur
+88 : Pokémon Ranger
+89 : Pokémon Ranger
+90 : Propriétaire
+91 : Mondaine
+92 : Couple de Nageurs
+93 : Gentilhomme
+94 : Gouvernante
+95 : Fillette de Conte
+96 : Montagnard
+97 : Jeunes Tourtereaux
+98 : Cuisinier
+99 : Duo de Rangers
+100 : Roller Skateuse
+101 : Roller Skateur
+102 : Dresseur
+103 : Dresseur
+104 : Dresseur
+105 : Professeur Pokémon
+106 : Mauvaises Graines
+107 : Team Flare
+108 : Team Flare
+109 : Dresseur
+110 : Dresseur
+111 : Chauffeur
+112 : Chauffeur
+113 : Chauffeur
+114 : Gang des Allumés
+115 : Gang des Allumés
+116 : Jeune Femme Louche
+117 : Femme Louche
+118 : Enfant Louche
+119 : Dresseur
+120 : Dresseur
+121 : Dresseur
+122 : Team Flare
+123 : Team Flare
+124 : Boss Team Flare
+125 : Héritière
+126 : Championne
+127 : Dresseur
+128 : Dresseur
+129 : Gamin
+130 : Scout
+131 : Fillette
+132 : Aromathérapeute
+133 : Jumelles
+134 : Pêcheur
+135 : Élève
+136 : Élève
+137 : Team Aqua
+138 : Nageur
+139 : Nageuse
+140 : Guitariste
+141 : Marin
+142 : Fille à la Bouée
+143 : Triathlète
+144 : [~ 144]
+145 : Collectionneur
+146 : Karatéka
+147 : Combattante
+148 : Topdresseur
+149 : Topdresseur
+150 : Mademoiselle
+151 : Richard
+152 : Éleveur
+153 : Éleveuse
+154 : Canon
+155 : Famille Stratège
+156 : Montagnard
+157 : Fan de Camping
+158 : Fan de Pique-Nique
+159 : Saltimbanque
+160 : Pokémaniac
+161 : Expert
+162 : [~ 162]
+163 : Ornithologue
+164 : Entomomaniac
+165 : Pokémon Ranger
+166 : Pokémon Ranger
+167 : Ninja Amateur
+168 : Dracologue
+169 : Kinésiste
+170 : Kinésiste
+171 : Triathlète
+172 : [~ 172]
+173 : Journalistes
+174 : Leader Team Aqua
+175 : Admin Team Aqua
+176 : Garçon à la Bouée
+177 : Mystimaniac
+178 : Leader Team Magma
+179 : Team Magma
+180 : Admin Team Magma
+181 : Team Aqua
+182 : Admin Team Magma
+183 : Team Magma
+184 : Sœur Parasol
+185 : Gentleman
+186 : Admin Team Aqua
+187 : Admin Team Magma
+188 : Jeune Couple
+189 : Experte
+190 : Triathlète
+191 : [~ 191]
+192 : Dresseur
+193 : Frère et Sœur
+194 : Conseil 4
+195 : Conseil 4
+196 : Conseil 4
+197 : Conseil 4
+198 : Maître
+199 : Pokéfan
+200 : Championne
+201 : Champion
+202 : Champion
+203 : Championne
+204 : Champion
+205 : Championne
+206 : Champions
+207 : Champion
+208 : Ruinemaniac
+209 : Famille Stratège
+210 : Senior et Junior
+211 : Vieux Couple
+212 : Famille Stratège
+213 : Famille Stratège
+214 : Pokéfan
+215 : Team Aqua
+216 : Team Magma
+217 : Patron
+218 : Miss Combat Rotatif
+219 : Dresseur
+220 : Fillette de Conte
+221 : Gardienne du Savoir
+222 : Randonneur
+223 : Cerveau et Muscles
+224 : Plongeur
+225 : Pêcheuse de Perles
+226 : Sœurs Étranges
+227 : Terreur
+228 : Terreur
+229 : Topdresseur
+230 : Topdresseur
+231 : Topduo
+232 : Dresseur
+233 : Dresseur
+234 : Dresseur
+235 : Roi de la Cafét’
+236 : Maître Base Secrète
+237 : Base Secrète
+238 : Base Secrète
+239 : Base Secrète
+240 : Base Secrète
+241 : Base Secrète
+242 : Base Secrète
+243 : Base Secrète
+244 : Base Secrète
+245 : Base Secrète
+246 : Base Secrète
+247 : Base Secrète
+248 : Base Secrète
+249 : Base Secrète
+250 : Base Secrète
+251 : Base Secrète
+252 : Base Secrète
+253 : Base Secrète
+254 : Base Secrète
+255 : Base Secrète
+256 : Base Secrète
+257 : Base Secrète
+258 : Base Secrète
+259 : Base Secrète
+260 : Base Secrète
+261 : Base Secrète
+262 : Base Secrète
+263 : Base Secrète
+264 : Base Secrète
+265 : Base Secrète
+266 : Base Secrète
+267 : Dresseur
+268 : Peuple Atalan
+269 : Base Secrète
+270 : Dresseur
+271 : Dresseur
+272 : Dresseur
+273 : Conseil 4
+274 : Conseil 4
+275 : Conseil 4
+276 : Conseil 4
+277 : Maître
+278 : Dresseur
+279 : Dresseur

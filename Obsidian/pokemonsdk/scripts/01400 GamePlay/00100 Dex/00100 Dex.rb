@@ -1,6 +1,6 @@
 module GamePlay
   # Class that shows the Pokedex
-  class Dex < BaseCleanUpdate
+  class Dex < BaseCleanUpdate::FrameBalanced
     # Text format for the name
     NAME_FORMAT = '%03d - %s'
     # Array of actions to do according to the pressed button

@@ -1,0 +1,280 @@
+0 : J'ai gagné !
+1 : [~ 1]
+2 : [~ 2]
+3 : Ahah, ton méga tortank n'était pas terrible!
+4 : [~ 4]
+5 : [~ 5]
+6 : [~ 6]
+7 : [~ 7]
+8 : [~ 8]
+9 : [~ 9]
+10 : [~ 10]
+11 : [~ 11]
+12 : [~ 12]
+13 : [~ 13]
+14 : [~ 14]
+15 : [~ 15]
+16 : [~ 16]
+17 : [~ 17]
+18 : [~ 18]
+19 : [~ 19]
+20 : [~ 20]
+21 : [~ 21]
+22 : [~ 22]
+23 : [~ 23]
+24 : [~ 24]
+25 : [~ 25]
+26 : [~ 26]
+27 : [~ 27]
+28 : [~ 28]
+29 : [~ 29]
+30 : [~ 30]
+31 : [~ 31]
+32 : [~ 32]
+33 : [~ 33]
+34 : [~ 34]
+35 : [~ 35]
+36 : [~ 36]
+37 : [~ 37]
+38 : [~ 38]
+39 : [~ 39]
+40 : [~ 40]
+41 : [~ 41]
+42 : [~ 42]
+43 : NewText
+44 : NewText
+45 : NewText
+46 : NewText
+47 : NewText
+48 : NewText
+49 : NewText
+50 : NewText
+51 : NewText
+52 : NewText
+53 : NewText
+54 : NewText
+55 : NewText
+56 : NewText
+57 : NewText
+58 : NewText
+59 : NewText
+60 : NewText
+61 : NewText
+62 : NewText
+63 : NewText
+64 : NewText
+65 : NewText
+66 : NewText
+67 : NewText
+68 : NewText
+69 : NewText
+70 : NewText
+71 : NewText
+72 : NewText
+73 : NewText
+74 : NewText
+75 : NewText
+76 : NewText
+77 : NewText
+78 : NewText
+79 : NewText
+80 : NewText
+81 : NewText
+82 : NewText
+83 : NewText
+84 : NewText
+85 : NewText
+86 : NewText
+87 : NewText
+88 : NewText
+89 : NewText
+90 : NewText
+91 : NewText
+92 : NewText
+93 : NewText
+94 : NewText
+95 : NewText
+96 : NewText
+97 : NewText
+98 : NewText
+99 : NewText
+100 : NewText
+101 : NewText
+102 : NewText
+103 : NewText
+104 : NewText
+105 : NewText
+106 : NewText
+107 : NewText
+108 : NewText
+109 : NewText
+110 : NewText
+111 : NewText
+112 : NewText
+113 : NewText
+114 : NewText
+115 : NewText
+116 : NewText
+117 : NewText
+118 : NewText
+119 : NewText
+120 : NewText
+121 : NewText
+122 : NewText
+123 : NewText
+124 : NewText
+125 : NewText
+126 : NewText
+127 : NewText
+128 : NewText
+129 : NewText
+130 : Ahah, victoire !
+131 : NewText
+132 : NewText
+133 : NewText
+134 : NewText
+135 : NewText
+136 : NewText
+137 : NewText
+138 : NewText
+139 : NewText
+140 : NewText
+141 : NewText
+142 : NewText
+143 : NewText
+144 : NewText
+145 : NewText
+146 : NewText
+147 : NewText
+148 : NewText
+149 : NewText
+150 : NewText
+151 : NewText
+152 : NewText
+153 : NewText
+154 : NewText
+155 : NewText
+156 : NewText
+157 : NewText
+158 : NewText
+159 : NewText
+160 : NewText
+161 : NewText
+162 : NewText
+163 : NewText
+164 : NewText
+165 : NewText
+166 : NewText
+167 : NewText
+168 : NewText
+169 : NewText
+170 : NewText
+171 : NewText
+172 : NewText
+173 : NewText
+174 : NewText
+175 : NewText
+176 : NewText
+177 : NewText
+178 : NewText
+179 : NewText
+180 : NewText
+181 : NewText
+182 : NewText
+183 : NewText
+184 : NewText
+185 : NewText
+186 : NewText
+187 : NewText
+188 : NewText
+189 : NewText
+190 : NewText
+191 : NewText
+192 : NewText
+193 : NewText
+194 : NewText
+195 : NewText
+196 : NewText
+197 : NewText
+198 : NewText
+199 : NewText
+200 : NewText
+201 : NewText
+202 : NewText
+203 : NewText
+204 : NewText
+205 : NewText
+206 : NewText
+207 : NewText
+208 : NewText
+209 : NewText
+210 : NewText
+211 : NewText
+212 : NewText
+213 : NewText
+214 : NewText
+215 : NewText
+216 : NewText
+217 : NewText
+218 : NewText
+219 : NewText
+220 : NewText
+221 : NewText
+222 : NewText
+223 : NewText
+224 : NewText
+225 : NewText
+226 : NewText
+227 : NewText
+228 : NewText
+229 : NewText
+230 : NewText
+231 : NewText
+232 : NewText
+233 : NewText
+234 : NewText
+235 : NewText
+236 : NewText
+237 : NewText
+238 : NewText
+239 : NewText
+240 : NewText
+241 : NewText
+242 : NewText
+243 : NewText
+244 : NewText
+245 : NewText
+246 : NewText
+247 : NewText
+248 : NewText
+249 : NewText
+250 : NewText
+251 : NewText
+252 : NewText
+253 : NewText
+254 : NewText
+255 : NewText
+256 : NewText
+257 : NewText
+258 : NewText
+259 : NewText
+260 : NewText
+261 : NewText
+262 : NewText
+263 : NewText
+264 : NewText
+265 : NewText
+266 : NewText
+267 : NewText
+268 : NewText
+269 : NewText
+270 : NewText
+271 : NewText
+272 : NewText
+273 : NewText
+274 : NewText
+275 : NewText
+276 : NewText
+277 : NewText
+278 : NewText
+279 : NewText

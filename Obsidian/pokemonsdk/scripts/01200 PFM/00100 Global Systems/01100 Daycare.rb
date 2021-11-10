@@ -35,6 +35,7 @@ module PFM
     def store(id, pokemon)
       @daycares[id] ||= { pokemon: [], level: [], layable: 0, rate: 0, egg: nil }
       return false if full?(id)
+
       daycare = @daycares[id]
       daycare[:level][daycare[:pokemon].size] = pokemon.level
       daycare[:pokemon] << pokemon
@@ -69,6 +70,7 @@ module PFM
     # @return [PFM::Pokemon, nil]
     def retrieve_pokemon(id, index)
       return nil unless (daycare = @daycares[id]) && (pokemon = daycare.dig(:pokemon, index))
+
       daycare[:pokemon][index] = nil
       daycare[:level][index] = nil
       daycare[:pokemon].compact!
@@ -179,7 +181,7 @@ module PFM
         return daycare[:layable] = GameData::Pokemon.get_id(variable_baby.sample)
       end
       # @type [IncenseInfo]
-      if (insence_info = INCENSE_BABY[female_sym]) && male.item_db_symbol == insence_info.incense
+      if (insence_info = INCENSE_BABY[female_sym]) && (male.item_db_symbol == insence_info.incense || female.item_db_symbol == insence_info.incense)
         return daycare[:layable] = GameData::Pokemon.get_id(insence_info.baby)
       end
       return false
@@ -189,11 +191,12 @@ module PFM
     # @param pokemon [PFM::Pokemon] the pokemon to give one exp point
     def exp_pokemon(pokemon)
       return if pokemon.level >= $pokemon_party.level_max_limit
+
       pokemon.exp += 1
       if pokemon.exp >= pokemon.exp_lvl
         pokemon.level_up_stat_refresh
         pokemon.check_skill_and_learn(true)
-        pc "==== Pension Infos ====\nLevelUp : #{pokemon.given_name}\n"
+        log_debug "==== Pension Infos ====\nLevelUp : #{pokemon.given_name}\n"
       end
     end
 
@@ -201,6 +204,7 @@ module PFM
     # @param daycare [Hash] the daycare informations Hash
     def try_to_lay(daycare)
       return if daycare[:egg]
+
       daycare[:egg] = true if rand(100) < daycare[:rate]
       log_debug "==== Pension Infos ====\nLay attempt : #{!daycare[:egg] ? 'Failure' : 'Success'}\n"
     end
@@ -218,10 +222,7 @@ module PFM
       end
 
       inherit_form(pokemon, female, male)
-
-      pokemon.nature = male.nature_id if male.item_db_symbol == :everstone
-      pokemon.nature = female.nature_id if female.item_db_symbol == :everstone
-
+      inherit_nature(pokemon, female, male)
       inherit_ability(pokemon, female)
       inherit_moves(pokemon, male, female)
       inherit_iv(pokemon, male, female)
@@ -263,15 +264,31 @@ module PFM
     # @return [Integer]
     def perform_simple_rate_calculation(male, female)
       return 0 if male.gender != 0 && male.gender == female.gender
+      return 0 if male.db_symbol == :ditto && female.db_symbol == :ditto
+
       # @type [GameData::Pokemon]
       male_data, female_data = get_pokemon_data(male, female)
       if male_data.breed_groupes.include?(NOT_BREEDING_GROUP) || female_data.breed_groupes.include?(NOT_BREEDING_GROUP)
         return 0
       end
       common_in_group = (female_data.breed_groupes - (female_data.breed_groupes - male_data.breed_groupes)).uniq
+      return 0 unless check_group_compatibility(common_in_group, male_data, female_data)
+
       common_ot = male.trainer_id == female.trainer_id
       oval_charm = $bag.contain_item?(:oval_charm)
       return EGG_RATE.dig(common_in_group.any?.to_i, common_ot.to_i, oval_charm.to_i) || 0
+    end
+
+    # Return if the parents breed groupes are compatible
+    # @param common_in_group [Array]
+    # @param male_data [GameData::Pokemon]
+    # @param female_data [GameData::Pokemon]
+    # @return [Boolean]
+    def check_group_compatibility(common_in_group, male_data, female_data)
+      return true if male_data.breed_groupes.include?(DITTO_GROUP) || female_data.breed_groupes.include?(DITTO_GROUP)
+      return false if common_in_group.empty?
+
+      return true
     end
 
     # Make the pokemon inherit its form
@@ -286,6 +303,19 @@ module PFM
       pokemon.form = female.form
     end
 
+    # Make the pokemon inherit its nature
+    # @param pokemon [PFM::Pokemon]
+    # @param female [PFM::Pokemon]
+    # @param male [PFM::Pokemon]
+    def inherit_nature(pokemon, female, male)
+      if male.item_db_symbol == :everstone && female.item_db_symbol == :everstone
+        pokemon.nature = rand(100) < 50 ? male.nature_id : female.nature_id
+      else
+        pokemon.nature = male.nature_id if male.item_db_symbol == :everstone
+        pokemon.nature = female.nature_id if female.item_db_symbol == :everstone
+      end
+    end
+
     # Make the Pokemon inherit the female ability
     # If the ability is the hidden one, it'll have 60% chance, otherwise 80% chance
     # @param pokemon [PFM::Pokemon]
@@ -294,7 +324,10 @@ module PFM
       ability = female.ability
       chances = female.get_data.abilities.index(ability) == 2 ? 60 : 80
       if rand(100) < chances
-        pokemon.ability = ability
+        index = pokemon.get_data.abilities.index(ability)
+        return unless index # ability does not exist in the baby
+
+        pokemon.ability = pokemon.get_data.abilities[index]
         pokemon.ability_index = nil
         pokemon.update_ability
       end
@@ -326,15 +359,29 @@ module PFM
         next unless female.skill_learnt?(skill_id)
         learn_skill(pokemon, skill_id)
       end
+      # Try to teach Volt Tackle
+      learn_volt_tackle(pokemon, male, female)
     end
 
     # Teach a skill to the Pokemon
     # @param pokemon [PFM::Pokemon]
-    # @param skill_id [Integer] ID of the skill in the database
+    # @param skill_id [Integer, Symbol] ID of the skill in the database
     def learn_skill(pokemon, skill_id)
-      return if pokemon.learn_skill(skill_id).nil? # Skill learn with succes or already learnt
+      return unless pokemon.learn_skill(skill_id).nil? # Skill learn with success or already learnt
+
       pokemon.skills_set.shift
       pokemon.learn_skill(skill_id)
+    end
+
+    # Try to teach Volt Tackle to Pichu
+    # @param pokemon [PFM::Pokemon]
+    # @param male [PFM::Pokemon]
+    # @param female [PFM::Pokemon]
+    def learn_volt_tackle(pokemon, male, female)
+      return unless pokemon.db_symbol == :pichu
+      return unless male.item_db_symbol == :light_ball || female.item_db_symbol == :light_ball
+
+      learn_skill(pokemon, :volt_tackle)
     end
 
     # Inherit the IV

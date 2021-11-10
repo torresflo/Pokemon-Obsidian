@@ -1,0 +1,351 @@
+0 :          Argent :
+1 : [VAR 0206(0000,202F)] $
+2 : [VAR 0112(0000)]
+3 : Disques Techniques
+4 : [VAR 0109(0000)]
+5 : [~ 5]
+6 : N. [VAR NUM3(0000)]
+7 : [VAR PKNICK(0000)]
+8 : PV
+9 : /
+10 : [VAR 0203(0000,202F)]
+11 : [VAR 0203(0000,202F)]
+12 : Type
+13 : Catégorie
+14 : Puissance
+15 : [VAR NUM3(0000)]
+16 : Précision
+17 : [VAR NUM3(0000)]
+18 : -
+19 : PP
+20 : [VAR NUM2(0000)]
+21 : CT[VAR NUM2(0000)]
+22 : [VAR NUM2(0000)]/[VAR NUM2(0001)]
+23 : [~ 23]
+24 : [~ 24]
+25 : [~ 25]
+26 : [VAR 0109(0000)]
+27 : NOUVEAU !
+28 : ×
+29 : [VAR NUM3(0000)]
+30 :  Sélectionner
+31 :  Retour
+32 :  Favoris
+33 :  Trier
+34 : Vide
+35 : Sur quel Pokémon voulez-vous utiliser cet objet ?
+36 : [VAR PKNICK(0000)] et [VAR MOVE(0001)] ne sont pas compatibles. Ce Pokémon ne peut pas apprendre cette capacité !
+37 : [VAR PKNICK(0000)] connaît déjà [VAR MOVE(0001)] !
+38 : CT activée !
+39 : [VAR PKNICK(0000)] apprend [VAR MOVE(0001)] ![VAR BE05(0004)][VAR BE05(0001)]
+40 : [VAR PKNICK(0000)] veut apprendre [VAR MOVE(0001)]. Voulez-vous qu’il oublie une capacité pour apprendre [VAR MOVE(0001)] ?
+41 : 1[WAIT 20], 2[WAIT 20], [WAIT 20]... [WAIT 20]... Tadaaa ![VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)] a oublié [VAR MOVE(0001)]. Et... Il apprend [VAR MOVE(0002)] ![VAR BE05(0004)][VAR BE05(0001)]
+42 : [VAR PKNICK(0000)] n’a pas appris [VAR MOVE(0001)].
+43 : Choisissez une capacité à lui faire oublier pour laisser place à [VAR MOVE(0000)].
+44 : DT activé !
+45 : Les DT sont à usage unique.
+46 : Le DT contenant [VAR MOVE(0000)] s’est brisé.
+47 : Le DT va se briser. Voulez-vous continuer malgré tout ?
+48 : Oui
+49 : Non
+50 : [VAR COLOR(0002)]Possible ![VAR COLOR(0000)]
+51 : [VAR COLOR(0001)]Impossible ![VAR COLOR(0000)]
+52 : Déjà appris !
+53 : [VAR COLOR(0002)]Apte ![VAR COLOR(0000)]
+54 : [VAR COLOR(0001)]Pas apte ![VAR COLOR(0000)]
+55 : [~ 55]
+56 : [~ 56]
+57 : [~ 57]
+58 : [~ 58]
+59 : [~ 59]
+60 : [~ 60]
+61 : [~ 61]
+62 : [~ 62]
+63 : [~ 63]
+64 : Combien [VAR 1001][VAR 1408(0000,0000)][VAR ITEM2(0000)] voulez-vous vendre ?
+65 : [VAR NUM3(0000)]
+66 : ×
+67 : [VAR 0207(0000,202F)] $
+68 : Prix d’achat
+69 : Vous en obtiendrez [VAR 0207(0000,202F)] $. Voulez-vous continuer ?
+70 : Oui
+71 : Non
+72 : ---
+73 : Combien [VAR 1001][VAR 1408(0000,0000)][VAR ITEM2(0000)] voulez-vous vendre ?
+74 : Vous ne pouvez pas vendre cet objet.
+75 : Cette vente vous a rapporté [VAR 0207(0001,202F)] $.
+76 : Cette vente vous a rapporté [VAR 0207(0001,202F)] $.
+77 : Catégorie
+78 : Nom
+79 : Nouveauté
+80 : Numéro
+81 : Favoris
+82 : Annuler
+83 : Selon quel critère voulez-vous les trier ?
+84 : Les objets sont maintenant triés par catégorie !
+85 : Les objets sont maintenant triés par nom !
+86 : Les CT sont maintenant triées par numéro !
+87 : Vos objets favoris apparaissent maintenant en haut de la liste !
+88 : Les objets nouvellement obtenus apparaissent maintenant en haut de la liste !
+89 : Utiliser
+90 : Donner
+91 : [~ 91]
+92 : [~ 92]
+93 : [~ 93]
+94 : Activer
+95 : Désactiver
+96 : Retour
+97 : Sélection : [VAR 0109(0000)]
+98 : [VAR PKNICK(0000)] récupère [VAR NUM3(0001)] PV.
+99 : [VAR PKNICK(0000)] n’est plus K.O. !
+100 : [VAR PKNICK(0000)] n’est plus empoisonné.
+101 : [VAR PKNICK(0000)] n’est plus paralysé.
+102 : [VAR PKNICK(0000)] n’est plus brûlé.
+103 : [VAR PKNICK(0000)] est dégelé.
+104 : [VAR PKNICK(0000)] se réveille !
+105 : [VAR PKNICK(0000)] retrouve la forme.
+106 : [VAR 1401(0001,0000)][VAR 010D(0001)] de base [VAR 1408(0000,0001)][VAR PKNICK(0000)] augmente[VAR NUMBRNCH(0001,0200)]nt.
+107 : [VAR PKNICK(0000)] est devenu plus amical. [VAR 1401(0001,0000)][VAR 010D(0001)] de base baisse[VAR NUMBRNCH(0001,0200)]nt !
+108 : [VAR PKNICK(0000)] vous adore ! [VAR 1401(0001,0000)][VAR 010D(0001)] de base baisse[VAR NUMBRNCH(0001,0200)]nt !
+109 : [VAR PKNICK(0000)] est devenu plus amical. [VAR 1401(0001,0000)][VAR 010D(0001)] de base ne peu[VAR NUMBRNCH(0001,0300)]vent plus baisser !
+110 : Vous utilisez [VAR 1402(0001,0000)][VAR ITEM2(0001)] !
+111 : Le Repousse précédent est toujours actif !
+112 : Vous lui donnez [VAR 1402(0000,0000)][VAR ITEM2(0000)].
+113 : Vous avez repris [VAR 1400(0000,0000)][VAR ITEM2(0000)] et vous lui donnez [VAR 1402(0001,0000)][VAR ITEM2(0001)].
+114 : Vous ne pouvez pas faire tenir [VAR 1402(0000,0000)][VAR ITEM2(0000)] à un Pokémon.
+115 : Cela n’aura aucun effet.
+116 : Si la Professeure était là, elle dirait : « Pas maintenant, [VAR TRNAME(0000)] ! »
+117 : Vous n’avez pas de Pokémon !
+118 : Sur quel Pokémon voulez-vous utiliser cet objet ?
+119 : À quel Pokémon voulez-vous donner l’objet ?
+120 : Vous ne pouvez pas donner cela à un Œuf.
+121 : Les PP sont restaurés.
+122 : Voulez-vous échanger [VAR 1400(0001,0000)][VAR ITEM2(0001)] contre [VAR 1400(0000,0000)][VAR ITEM2(0000)] ?
+123 : De quelle capacité voulez-vous restaurer les PP ?
+124 : De quelle capacité voulez-vous augmenter les PP ?
+125 : Les PP de la capacité [VAR MOVE(0000)] augmentent.
+126 : Vous ne pouvez pas transporter plus d’exemplaires de cet objet.
+127 : Vous ne pouvez pas donner cela à un Œuf.
+128 : Les PP sont restaurés.
+129 : [VAR BE05(0005)][VAR PKNICK(0000)] monte au N. [VAR NUM3(0001)] !
+130 : Vous ne pouvez pas utiliser cet objet sur un Pokémon K.O.
+131 : Vous ne pouvez pas les séparer car votre équipe est pleine.
+132 : Vous ne pouvez pas les séparer car votre équipe est pleine.
+133 : Le Multi Exp est activé.
+134 : Le Multi Exp est désactivé.
+135 : La capacité [VAR MOVE(0001)] empêche d’utiliser l’objet sur [VAR PKNICK(0000)] !
+136 : [VAR MOVE(0000)]
+137 : PP
+138 : [~ 138]
+139 : [~ 139]
+140 : [~ 140]
+141 : Monter
+142 : Descendre
+143 : Vous ne pouvez pas fusionner avec un Pokémon K.O.
+144 : Vous ne pouvez pas l’unir à un Pokémon K.O.
+145 : Vous ne pouvez pas fusionner avec ce Pokémon.
+146 : Vous ne pouvez pas l’unir à ce Pokémon.
+147 : Vous ne pouvez pas fusionner avec un Œuf.
+148 : Vous ne pouvez pas l’unir à un Œuf.
+149 : Vous ne pouvez pas les séparer car votre équipe est pleine.
+150 : Vous ne pouvez pas les séparer car votre équipe est pleine.
+151 : [VAR PKNAME(0000)] a changé de forme !
+152 : Avec quel Pokémon voulez-vous le fusionner ?
+153 : À quel Pokémon voulez-vous l’unir ?
+154 : Il a oublié [VAR MOVE(0000)] !
+155 : [VAR PKNICK(0000)] a oublié [VAR MOVE(0001)]...
+156 : Vous ne pouvez pas l’utiliser sur un Œuf.
+157 : Voulez-vous changer le talent [VAR 1408(0000,0001)][VAR PKNICK(0000)] ?
+158 : Le talent [VAR 1408(0000,0001)][VAR PKNICK(0000)] est devenu [VAR ABILITY(0001)] ![VAR BE05(0005)][VAR BE05(0001)]
+159 : Attaque
+160 : Défense
+161 : Atq. Spé.
+162 : Déf. Spé.
+163 : Vitesse
+164 : [VAR NUM3(0000)]
+165 : + [VAR NUM2(0000)]
+166 : PV
+167 : Voulez-vous modifier les stats [VAR 1408(0000,0001)][VAR PKNICK(0000)] ?
+168 : Grâce [VAR 1404(0000,0000)][VAR ITEM2(0000)], les stats [VAR 1408(0001,0001)][VAR PKNICK(0001)] ont changé ![VAR BE05(0005)][VAR BE05(0001)]
+169 : Combien [VAR 1001][VAR 1408(0001,0000)][VAR ITEM2(0001)] voulez-vous utiliser ?
+170 : Le niveau Dynamax augmente d[VAR NUMBRNCH(0000,0201)]’e [VAR NUM2(0000)] point[VAR NUMBRNCH(0000,0100)]s.
+171 : Combien [VAR 1001][VAR 1408(0001,0000)][VAR ITEM2(0001)] voulez-vous utiliser ?
+172 : Vous ne pouvez pas utiliser votre vélo depuis votre Sac.
+173 : Vous ne pouvez pas pêcher depuis votre Sac.
+174 : Vous ne pouvez pas utiliser la Boîte Pokémon depuis votre Sac.
+175 : Ampoule électrique
+176 : Four à micro-ondes
+177 : Machine à laver
+178 : Réfrigérateur
+179 : Ventilateur
+180 : Tondeuse
+181 : Quel appareil électrique souhaitez-vous commander ?
+182 : Un [VAR PKNAME(0000)] est apparu dans l’antre géant des Terres Sauvages !
+183 : Il y a déjà un Pokémon dans l’antre géant.
+184 : Changer de forme
+185 : Changer de talent
+186 : Voulez-vous vraiment fusionner ces objets ?
+187 : Vous n’avez qu’un seul exemplaire de cet objet. Voulez-vous vraiment le sélectionner ?
+188 : À quel Pokémon voulez-vous l’enseigner ?
+189 : ×
+190 : [VAR 0109(0000)]
+191 : [VAR NUM3(0000)]
+192 : [~ 192]
+193 : [~ 193]
+194 : [~ 194]
+195 : [~ 195]
+196 : [~ 196]
+197 : [~ 197]
+198 : [~ 198]
+199 : [~ 199]
+200 : [~ 200]
+201 : [~ 201]
+202 : [~ 202]
+203 : [~ 203]
+204 : [~ 204]
+205 : [~ 205]
+206 : [~ 206]
+207 : [~ 207]
+208 : [~ 208]
+209 : [~ 209]
+210 : [~ 210]
+211 : [~ 211]
+212 : [~ 212]
+213 : [~ 213]
+214 : [~ 214]
+215 : [~ 215]
+216 : [~ 216]
+217 : [~ 217]
+218 : [~ 218]
+219 : [~ 219]
+220 : [~ 220]
+221 : [~ 221]
+222 : [~ 222]
+223 : [~ 223]
+224 : [~ 224]
+225 : [~ 225]
+226 : [~ 226]
+227 : [~ 227]
+228 : [~ 228]
+229 : [~ 229]
+230 : [~ 230]
+231 : [~ 231]
+232 : [~ 232]
+233 : [~ 233]
+234 : [~ 234]
+235 : [~ 235]
+236 : [~ 236]
+237 : [~ 237]
+238 : [~ 238]
+239 : [~ 239]
+240 : [~ 240]
+241 : [~ 241]
+242 : [~ 242]
+243 : [~ 243]
+244 : [~ 244]
+245 : [~ 245]
+246 : [~ 246]
+247 : [~ 247]
+248 : [~ 248]
+249 : [~ 249]
+250 : [~ 250]
+251 : [~ 251]
+252 : [~ 252]
+253 : [~ 253]
+254 : [~ 254]
+255 : [~ 255]
+256 : [~ 256]
+257 : [~ 257]
+258 : [~ 258]
+259 : [~ 259]
+260 : [~ 260]
+261 : [~ 261]
+262 : [~ 262]
+263 : [~ 263]
+264 : [~ 264]
+265 : [~ 265]
+266 : [~ 266]
+267 : [~ 267]
+268 : [~ 268]
+269 : [~ 269]
+270 : [~ 270]
+271 : [~ 271]
+272 : [~ 272]
+273 : [~ 273]
+274 : [~ 274]
+275 : [~ 275]
+276 : [~ 276]
+277 : [~ 277]
+278 : [~ 278]
+279 : [~ 279]
+280 : [~ 280]
+281 : [~ 281]
+282 : [~ 282]
+283 : [~ 283]
+284 : [~ 284]
+285 : [~ 285]
+286 : [~ 286]
+287 : [~ 287]
+288 : [~ 288]
+289 : [~ 289]
+290 : [~ 290]
+291 : [~ 291]
+292 : [~ 292]
+293 : [~ 293]
+294 : [~ 294]
+295 : [~ 295]
+296 : [~ 296]
+297 : [~ 297]
+298 : [~ 298]
+299 : [~ 299]
+300 : [~ 300]
+301 : [~ 301]
+302 : [~ 302]
+303 : [~ 303]
+304 : [~ 304]
+305 : [~ 305]
+306 : [~ 306]
+307 : [~ 307]
+308 : [~ 308]
+309 : [~ 309]
+310 : [~ 310]
+311 : [~ 311]
+312 : [~ 312]
+313 : [~ 313]
+314 : [~ 314]
+315 : [~ 315]
+316 : [~ 316]
+317 : [~ 317]
+318 : [~ 318]
+319 : [~ 319]
+320 : [~ 320]
+321 : [~ 321]
+322 : [~ 322]
+323 : [~ 323]
+324 : [~ 324]
+325 : [~ 325]
+326 : [~ 326]
+327 : [~ 327]
+328 : [~ 328]
+329 : [~ 329]
+330 : [~ 330]
+331 : [~ 331]
+332 : [~ 332]
+333 : [~ 333]
+334 : [~ 334]
+335 : [~ 335]
+336 : [~ 336]
+337 : [~ 337]
+338 : [~ 338]
+339 : [~ 339]
+340 : [~ 340]
+341 : [~ 341]
+342 : [~ 342]
+343 : [~ 343]
+344 : [~ 344]
+345 : [~ 345]
+346 : [~ 346]
+347 : [~ 347]
+348 : [~ 348]
+349 : [~ 349]
+350 : [~ 350]

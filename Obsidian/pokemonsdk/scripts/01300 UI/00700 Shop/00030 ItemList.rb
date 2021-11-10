@@ -214,12 +214,12 @@ module UI
         end
 
         # Set the item icon
-        # @param icon [Interget] the item id for the icon
-        def icon_data=(data)
+        # @param icon [Integer] the item id for the icon
+        def icon_data=(icon)
           if self.visible == false
             @item_icon.set_bitmap(nil)
           else
-            @item_icon.data = data
+            @item_icon.data = icon
           end
         end
 

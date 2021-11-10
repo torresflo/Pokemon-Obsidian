@@ -30,6 +30,8 @@ module Yuki
       texts.each { |sub_text| x = adjust_text_lines(x, max_width, sub_text, instructions) }
       @markers = markers
       @instructions = instructions
+      @x_offsets = compute_x_offsets(instructions, max_width)
+      instructions_fix_new_line
     end
 
     # Adjust the line of text by adding instructions to the stack
@@ -64,16 +66,44 @@ module Yuki
         return x if text.empty?
         return (arr << :new_line; x) if text == S_n
 
-        text.split(S_n).each_with_index do |line, i|
+        texts = text.split(S_n)
+        if texts.size == 1 && text[-1] == S_n
+          adjust_text_lines(x, max_width, texts[0], arr, true)
+          return (arr << :new_line; x = 0)
+        end
+
+        texts.each_with_index do |line, i|
           (arr << :new_line; x = 0) if i > 0
           x = adjust_text_lines(x, max_width, line, arr, true)
         end
       end
       return x
     end
+    
+    # Compute x offsets for text alignment
+    # @param instructions [Array]
+    # @param max_width [Integer]
+    # @return [Array<Integer>]
+    def compute_x_offsets(instructions, max_width)
+      return [] if @align == :left
+      instructions = instructions.flatten
+      # @type [Array<String>]
+      lines = instructions.reduce(['']) do |prev, curr|
+        curr.is_a?(String) ? prev.last << curr : prev << '' 
+        next prev
+      end
+      lines.pop if lines.last.empty?
+      widths = lines.map { |line| @text_sample.text_width(line) }
+      if @align == :center
+        return widths.map { |width| (max_width - width) / 2 }
+      elsif @align == :right
+        return widths.map { |width| max_width - width }
+      end
+      return widths.map { 0 }
+    end
 
     # Progress in the text display
-    # @param text [LiteRGSS::Text] the text element
+    # @param text [Text] the text element
     # @param str [String] the text shown
     # @param counter [Integer] the counter
     # @return [Integer] the new counter, if counter == -1, the user requested to skip the progress thing
@@ -84,6 +114,10 @@ module Yuki
       until text.nchar_draw >= str.size
         break if stop_message_process?
 
+        if Graphics::FPSBalancer.global.skipping?
+          Graphics.update
+          redo
+        end
         text.nchar_draw += 1
         counter += 1
         if Input.trigger?(:A) || (Mouse.trigger?(:left) && simple_mouse_in?) || panel_skip? # Skip request
@@ -103,6 +137,10 @@ module Yuki
       default_line_height.times do
         return if stop_message_process?
 
+        if Graphics::FPSBalancer.global.skipping?
+          Graphics.update
+          redo
+        end
         self.oy += 1
         @city_sprite&.y += 1
         message_update_processing
@@ -121,13 +159,13 @@ module Yuki
     end
 
     # Set the text style
-    # @param text [LiteRGSS::Text]
+    # @param text [Text]
     # @param style [Integer] 1 = bold, 2 = italic, 3 = bold & italic
     def set_text_style(text, style)
       text.bold = true if (style & 1) != 0
       text.italic = true if (style & 2) != 0
       if bigger_text?
-        @text.size = Font::FONT_SIZE
+        @text.size = Fonts.get_default_size(1) # Font::FONT_SIZE
         @text.y += 4
       end
     end
@@ -161,6 +199,7 @@ module Yuki
       return unless $game_temp.message_text
 
       @drawing_message = true
+      @align = :left
       set_origin(0, 0)
       @can_skip_message = false
       text = replace_message_codes($game_temp.message_text)
@@ -180,14 +219,19 @@ module Yuki
     def refresh_internal(lineheight)
       skip = false
       counter = 0
+      @x += @x_offsets.shift || 0
       @instructions.each_with_index do |instr_arr, i|
         marker = @markers[i]
         call_marker_action(marker) if marker
         instr_arr.each do |instr|
           break if stop_message_process?
 
+          if Graphics::FPSBalancer.global.skipping?
+            Graphics.update
+            redo
+          end
           if instr == :new_line
-            @x = origin_x
+            @x = origin_x + (@x_offsets.shift || 0)
             @y += lineheight
             if @y >= lineheight * line_number
               wait_user_input
@@ -202,6 +246,8 @@ module Yuki
           skip = (counter == -1 || Input.trigger?(:A) || panel_skip?)
         end
       end
+      marker = @markers[@instructions.size]
+      call_marker_action(marker) if marker
       @text = nil
     end
 
@@ -216,14 +262,19 @@ module Yuki
     end
 
     # Call a marker action
-    # @param maker [Array]
+    # @param marker [Array]
     def call_marker_action(marker)
       sym = :"execute_marker_#{marker.first}"
       send(sym, marker)
     end
 
+    # Delete the last new_line if no text after
+    def instructions_fix_new_line
+      @instructions.last&.pop if @instructions.last&.last == :new_line
+    end
+
     # Change the color
-    # @param maker [Array]
+    # @param marker [Array]
     def execute_marker_1(marker)
       @color = translate_color(marker.last % GameData::Colors::COLOR_COUNT)
       marker_fix_x
@@ -231,25 +282,25 @@ module Yuki
 
     # Try to fix the x error introduced with markers
     def marker_fix_x
-      @x += 1 if @text && @text.text.getbyte(-1) != 32
+      @x += 1 if @text && @text.text.getbyte(-1) != 32 && @x != 0
     end
 
     # Wait
-    # @param maker [Array]
+    # @param marker [Array]
     def execute_marker_2(marker)
       marker.last.times { message_update_processing }
       marker_fix_x
     end
 
     # Style
-    # @param maker [Array]
+    # @param marker [Array]
     def execute_marker_3(marker)
       @style = marker.last
       marker_fix_x
     end
 
     # Bigger text
-    # @param _maker [Array]
+    # @param _marker [Array]
     def execute_marker_4(_marker)
       @style ^= 0x04
     end

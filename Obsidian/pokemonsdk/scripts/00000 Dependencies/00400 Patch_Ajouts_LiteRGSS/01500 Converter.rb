@@ -44,13 +44,12 @@ module Converter
   # @param filename [String]
   # @example Converter.convert_autotile("Graphics/autotiles/eauca.png")
   def convert_autotile(filename)
-    autotiles = [Bitmap.new(filename)]
+    autotiles = [Image.new(filename)]
     bmp_arr = Array.new(48) { |i| generate_autotile_bmp(i + 48, autotiles) }
-    bmp = Bitmap.new(48 * 32, bmp_arr.first.height)
+    bmp = Image.new(48 * 32, bmp_arr.first.height)
     bmp_arr.each_with_index do |sub_bmp, i|
       bmp.blt(32 * i, 0, sub_bmp, sub_bmp.rect)
     end
-    bmp.update
     bmp.to_png_file(new_filename = filename.gsub('.png', '_._tiled.png'))
     bmp.dispose
     bmp_arr.each(&:dispose)
@@ -77,16 +76,17 @@ module Converter
   SRC = Rect.new(0, 0, 16, 16)
   # Generate one tile of an autotile
   # @param id [Integer] id of the tile
-  # @param autotiles [Array<Bitmap>] autotiles bitmaps
-  # @return [Bitmap] the calculated bitmap
+  # @param autotiles [Array<Texture>] autotiles bitmaps
+  # @return [Texture] the calculated bitmap
   def generate_autotile_bmp(id, autotiles)
     autotile = autotiles[id / 48 - 1]
-    return Bitmap.new(32, 32) if !autotile or autotile.width < 96
+    return Image.new(32, 32) if !autotile or autotile.width < 96
+
     src = SRC
     id %= 48
     tiles = Autotiles[id >> 3][id & 7]
     frames = autotile.width / 96
-    bmp = Bitmap.new(32, frames * 32)
+    bmp = Image.new(32, frames * 32)
     frames.times do |x|
       anim = x * 96
       4.times do |i|
@@ -95,7 +95,6 @@ module Converter
         bmp.blt(i % 2 * 16, i / 2 * 16 + x * 32, autotile, src)
       end
     end
-    bmp.update
     return bmp
   end
 end

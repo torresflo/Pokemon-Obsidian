@@ -61,6 +61,7 @@ module UI
         @cursor.visible = true
         if @cursor.select_box
           @cursor.inbox = true
+          @cursor.index = @cursor.index
         else
           @cursor.index += @cursor.inbox ? 6 : 2
         end

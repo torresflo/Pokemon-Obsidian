@@ -1,1 +1,1 @@
-start game.exe --util=project_compilation
+game --util=project_compilation

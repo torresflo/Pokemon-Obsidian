@@ -1,0 +1,42 @@
+0 : Quel est votre nom ?
+1 : Votre nom est [VAR 0189(0000)]. Voulez-vous le valider ?
+2 : Vous ne pouvez pas utiliser ce nom.
+3 : Vous ne pouvez pas utiliser le mot « [VAR 012E(0000)] ».
+4 : Veuillez saisir un nom.
+5 : Quel surnom donner à [VAR PKNAME(0000)] ?
+6 : Quel surnom donner [VAR 1404(0000,0001)][VAR PKNAME(0000)] mâle ?
+7 : Quel surnom donner [VAR 1404(0000,0001)][VAR PKNAME(0000)] femelle ?
+8 : [VAR PKNAME(0000)]
+9 : Son surnom sera [VAR PKNAME(0000)]. Voulez-vous le valider ?
+10 : Quel nom voulez-vous donner à la Boîte ?
+11 : [VAR 01C0(0000)]
+12 : Quel nom voulez-vous donner à l’Équipe Combat ?
+13 : [VAR 01BF(0000)]
+14 : Son nom sera [VAR 01BF(0000)]. Voulez-vous le valider ?
+15 : Veuillez saisir le code ou le mot de passe.
+16 : Le code que vous avez saisi n’existe pas.
+17 : Veuillez saisir un mot de passe.
+18 : Veuillez saisir votre numéro de dossard.
+19 : Votre numéro de dossard sera [VAR 01C4(0000)]. Voulez-vous le valider ?
+20 : Vous ne pouvez pas utiliser ce numéro.
+21 : Quel est votre mois de naissance ?
+22 : Quel est votre jour de naissance ?
+23 : Par exemple, si vous êtes né le 2 janvier, veuillez saisir 02 et 01.
+24 : Votre date de naissance est le [VAR 01C6(0001)]/[VAR 01C5(0000)]. Voulez-vous la valider ?
+25 : Veuillez saisir une date valide.
+26 : Vous pouvez saisir un mot de passe à huit chiffres.
+27 : Veuillez saisir un mot de passe à huit chiffres.
+28 : Veuillez saisir un ID Compétition.
+29 : Veuillez saisir un numéro de groupe de combat.
+30 : Veuillez saisir l’ID de l’équipe que vous souhaitez emprunter.
+31 : Veuillez saisir un code carte.
+32 : Veuillez saisir un nom pour la compétition.
+33 : Veuillez saisir un sous-titre pour la compétition.
+34 : L’ajout d’un sous-titre est facultatif.
+35 : Vous pouvez saisir cinq chiffres maximum.
+36 : [~ 36]
+37 : Veuillez saisir un chiffre entre 1 et 12.
+38 : Veuillez saisir un chiffre entre 1 et 31.
+39 : Veuillez saisir un chiffre entre 1 et 30.
+40 : Veuillez saisir un chiffre entre 1 et 29.
+41 : Les données saisies sont invalides.

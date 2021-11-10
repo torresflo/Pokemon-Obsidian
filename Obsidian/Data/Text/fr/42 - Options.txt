@@ -1,0 +1,54 @@
+0 : OPTIONS
+1 : OK
+2 : Retour
+3 : Vitesse du texte
+4 : Lente
+5 : Normale
+6 : Rapide
+7 : Permet de choisir parmi trois vitesses de défilement du texte.
+8 : Animations de combat
+9 : Avec
+10 : Sans
+11 : Permet d’afficher ou de sauter les animations de combat.
+12 : Style de combat
+13 : Choix
+14 : Défini
+15 : Permet de se voir proposer un changement de Pokémon quand le Pokémon adverse est mis K.O.
+16 : [~ 16]
+17 : [~ 17]
+18 : [~ 18]
+19 : [~ 19]
+20 : [~ 20]
+21 : Caractères
+22 : Hiragana
+23 : Kanji
+24 : Changer de système de caractères.
+25 : Fond combat
+26 : Par défaut
+27 : [~ 27]
+28 : [~ 28]
+29 : [~ 29]
+30 : [~ 30]
+31 : [~ 31]
+32 : [~ 32]
+33 : [~ 33]
+34 : [~ 34]
+35 : [~ 35]
+36 : [~ 36]
+37 : [~ 37]
+38 : [~ 38]
+39 : [~ 39]
+40 : [~ 40]
+41 : Permet de changer le fond de l’écran tactile lors des combats.
+42 : Commandes
+43 : Par défaut
+44 : Bouton L = Bouton A
+45 : Boutons L/R inactifs
+46 : Permet de désactiver le bouton L ou lui donner la fonction du bouton A, en désactivant le bouton R dans les deux cas.
+47 : Sauvegarde forcée
+48 : Active
+49 : Inactive
+50 : Permet de choisir si vous devez sauvegarder ou pas avant d’utiliser le PSS pour effectuer un combat ou autre.
+51 : Voulez-vous appliquer les changements ?
+52 : Oui
+53 : Non

@@ -1,6 +1,7 @@
 module GameData
   # Miscellaneous Item Data structure
   # @author Nuri Yuri
+  # @deprecated This class is deprecated in .25, please stop using it!
   class ItemMisc < Base
     # ID of the common event to call when using this item
     # @return [Integer]

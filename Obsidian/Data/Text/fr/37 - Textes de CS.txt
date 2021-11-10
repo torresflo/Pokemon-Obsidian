@@ -1,0 +1,33 @@
+0 : Ce rocher est fissuré. Une capacité Pokémon pourrait sûrement le pulvériser. Voulez-vous utiliser Éclate-Roc ?
+1 : Ce rocher est fissuré. Une capacité Pokémon pourrait sûrement le pulvériser.
+2 : Cet arbuste bloque le passage. Une capacité Pokémon pourrait sûrement le débroussailler. Voulez-vous utiliser Coupe ?
+3 : Cet arbuste bloque le passage. Une capacité Pokémon pourrait sûrement le débroussailler.
+4 : C’est un gros rocher. Une capacité Pokémon pourrait sûrement le déplacer. Voulez-vous utiliser Force ?
+5 : C’est un gros rocher. Une capacité Pokémon pourrait sûrement le déplacer.
+6 : Force permet de déplacer le rocher.
+7 : [VAR PKNICK(0000)] utilise Force !
+8 : Ce mur est fissuré. Une capacité Pokémon pourrait sûrement l’abattre. Voulez-vous utiliser Éclate-Roc ?
+9 : Ce mur est fissuré. Une capacité Pokémon pourrait sûrement l’abattre.
+10 : [VAR PKNICK(0000)] utilise Tunnel !
+11 : [VAR PKNICK(0000)] utilise Téléport !
+12 : L’eau est d’un bleu profond… Voulez-vous utiliser Surf ?
+13 : [VAR PKNICK(0000)] utilise Surf !
+14 : C’est une grande chute d’eau. Voulez-vous utiliser Cascade ?
+15 : [VAR PKNICK(0000)] utilise Cascade !
+16 : Un mur d’eau s’abat dans un vacarme assourdissant.
+17 : [VAR PKNICK(0000)] utilise Flash !
+18 : L’eau est d’un bleu profond…
+19 : Un mur d’eau s’abat dans un vacarme assourdissant.
+20 : C’est un endroit intrigant… Une capacité Pokémon réagira peut-être avec ce lieu. Voulez-vous utiliser Force Cachée ?
+21 : C’est un endroit intrigant… Une capacité Pokémon réagira peut-être avec ce lieu.
+22 : Vous trouvez une petite caverne !
+23 : Vous trouvez un passage étroit !
+24 : Vous trouvez une liane !
+25 : Voulez-vous établir votre Base Secrète ici ?
+26 : Vous ne pouvez construire qu’une seule Base Secrète ! Voulez-vous la déménager ici ? Localisation actuelle de votre base : [VAR LOCATION(0000)].
+27 : L’eau est très profonde, par ici ! Un Pokémon pourrait peut-être y plonger.
+28 : L’eau est très profonde, par ici ! Voulez-vous utiliser Plongée ?
+29 : [VAR PKNICK(0000)] utilise Plongée !
+30 : Il est possible de remonter à la surface ici. Voulez-vous monter en utilisant Plongée ?
+31 : Le plafond est trop bas. Impossible d’utiliser Plongée pour remonter.
+32 : C’est fermé à clé !

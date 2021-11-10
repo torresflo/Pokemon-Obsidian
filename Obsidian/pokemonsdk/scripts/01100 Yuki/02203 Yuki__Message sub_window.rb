@@ -7,11 +7,11 @@ module Yuki
       if $game_temp.choice_max > 0
         @choice_window = ChoiceWindow.generate_for_message(self)
       elsif $game_temp.num_input_digits_max > 0
-        @input_number_window = ::GamePlay::InputNumber.new($game_temp.num_input_digits_max)
-        if $game_system.message_position != 0
-          @input_number_window.y = y - @input_number_window.height - 2
-        else
+        @input_number_window = UI::InputNumber.new(viewport, $game_temp.num_input_digits_max)
+        if $game_system.message_position == 0
           @input_number_window.y = y + height + 2
+        else
+          @input_number_window.y = y - @input_number_window.height - 2
         end
         @input_number_window.z = z + 1
         @input_number_window.update

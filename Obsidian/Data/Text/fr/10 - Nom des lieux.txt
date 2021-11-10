@@ -1,0 +1,355 @@
+0 : －－－－－－－－－－
+1 : Interieur
+2 : Bourg-Palette
+3 : Route 1
+4 : Jadielle
+5 : Route 2
+6 : Forêt de Jade
+7 : Argenta
+8 : Route 22
+9 : Sentier Croquis
+10 : Quarellis
+11 : 
+12 : Route 2
+13 : Chemin Progrès
+14 : Forêt de Neuvartault
+15 : 
+16 : Route 3
+17 : Chemin Ouvert
+18 : Neuvartault
+19 : 
+20 : Route 4
+21 : Route Fleurie
+22 : Illumis
+23 : 
+24 : Tour Prismatique
+25 : 
+26 : Labos Lysandre
+27 : 
+28 : Route 5
+29 : Chemin du Versant
+30 : Fort-Vanitas
+31 : 
+32 : Fort de Vanitas
+33 : 
+34 : Route 6
+35 : Allée du Palais
+36 : Palais Chaydeuvre
+37 : 
+38 : Route 7
+39 : Chemin des Berges
+40 : Relifac-le-Haut
+41 : 
+42 : Route 8
+43 : Falaise Muraille
+44 : Roche-sur-Gliffe
+45 : 
+46 : Route 9
+47 : Piste Piquante
+48 : Château de Combat
+49 : 
+50 : Route 10
+51 : Route Menhir
+52 : Cromlac’h
+53 : 
+54 : Route 11
+55 : Chemin Miroir
+56 : Grotte Miroitante
+57 : 
+58 : Yantreizh
+59 : 
+60 : Tour Maîtrise
+61 : 
+62 : Route 12
+63 : Chemin Fourrage
+64 : Port Tempères
+65 : 
+66 : Route 13
+67 : Steppe d’Illumis
+68 : Route 14
+69 : Laie Romant-ss-Bois
+70 : Romant-sous-Bois
+71 : 
+72 : Usine de Poké Balls
+73 : 
+74 : Route 15
+75 : Chemin Brun
+76 : La Frescale
+77 : 
+78 : Route 16
+79 : Chemin Tristesse
+80 : [~ 80]
+81 : [~ 81]
+82 : Caverne Gelée
+83 : 
+84 : Route 17
+85 : Route Mammochon
+86 : Flusselles
+87 : 
+88 : Route 18
+89 : Chemin des Gorges
+90 : Mozheim
+91 : 
+92 : Route 19
+93 : Chemin du Val
+94 : Auffrac-les-Congères
+95 : 
+96 : Route 20
+97 : Bois du Dédale
+98 : Village Pokémon
+99 : 
+100 : Route 21
+101 : Chemin Final
+102 : Route 22
+103 : Chemin Détour
+104 : Route Victoire
+105 : 
+106 : Ligue Pokémon
+107 : 
+108 : Batisques
+109 : 
+110 : Maison de Combat
+111 : 
+112 : Baie Azur
+113 : 
+114 : Porte de La Frescale
+115 : 
+116 : Porte de Mozheim
+117 : 
+118 : Porte de R. s/Gliffe
+119 : 
+120 : Porte d’Illumis
+121 : 
+122 : Porte de Yantreizh
+123 : 
+124 : Porte de P. Tempères
+125 : 
+126 : Porte de Romant
+127 : 
+128 : Porte de Flusselles
+129 : 
+130 : Porte d’Auffrac
+131 : 
+132 : Grotte Étincelante
+133 : 
+134 : Cave Connecterre
+135 : Antre Nosferapti
+136 : Centrale de Kalos
+137 : 
+138 : Repaire Team Flare
+139 : 
+140 : Grotte Coda
+141 : 
+142 : Hôtel Désolation
+143 : 
+144 : Chambre Néant
+145 : 
+146 : Antre Néréen
+147 : 
+148 : Safari des Amis
+149 : 
+150 : Chambre du Brasier
+151 : 
+152 : Chambre du Barrage
+153 : 
+154 : Chambre de l’Alliage
+155 : 
+156 : Chambre de la Guivre
+157 : 
+158 : Chambre de l’Éclat
+159 : 
+160 : Porte de la Ligue
+161 : 
+162 : Gare d’Illumis
+163 : 
+164 : Gare de Batisques
+165 : 
+166 : Aquarium R. s/Gliffe
+167 : 
+168 : Grotte Inconnue
+169 : 
+170 : Bourg-en-Vol
+171 : 
+172 : Rosyères
+173 : 
+174 : Myokara
+175 : 
+176 : Vermilava
+177 : 
+178 : Autéquia
+179 : 
+180 : Vergazon
+181 : 
+182 : Pacifiville
+183 : 
+184 : Clémenti-Ville
+185 : 
+186 : Poivressel
+187 : 
+188 : Lavandia
+189 : 
+190 : Mérouville
+191 : 
+192 : Cimetronelle
+193 : 
+194 : Nénucrique
+195 : 
+196 : Algatia
+197 : 
+198 : Atalanopolis
+199 : 
+200 : Éternara
+201 : 
+202 : Ligue Pokémon
+203 : 
+204 : Route 101
+205 : 
+206 : Route 102
+207 : 
+208 : Route 103
+209 : 
+210 : Route 104
+211 : 
+212 : Chenal 105
+213 : 
+214 : Chenal 106
+215 : 
+216 : Chenal 107
+217 : 
+218 : Chenal 108
+219 : 
+220 : Chenal 109
+221 : 
+222 : Route 110
+223 : 
+224 : Route 111
+225 : 
+226 : Route 112
+227 : 
+228 : Route 113
+229 : 
+230 : Route 114
+231 : 
+232 : Route 115
+233 : 
+234 : Route 116
+235 : 
+236 : Route 117
+237 : 
+238 : Route 118
+239 : 
+240 : Route 119
+241 : 
+242 : Route 120
+243 : 
+244 : Route 121
+245 : 
+246 : Chenal 122
+247 : 
+248 : Route 123
+249 : 
+250 : Chenal 124
+251 : 
+252 : Chenal 125
+253 : 
+254 : Chenal 126
+255 : 
+256 : Chenal 127
+257 : 
+258 : Chenal 128
+259 : 
+260 : Chenal 129
+261 : 
+262 : Chenal 130
+263 : 
+264 : Chenal 131
+265 : 
+266 : Chenal 132
+267 : 
+268 : Chenal 133
+269 : 
+270 : Chenal 134
+271 : 
+272 : Site Météore
+273 : 
+274 : Tunnel Mérazon
+275 : 
+276 : ???
+277 : 
+278 : Ruines Désert
+279 : 
+280 : Grotte Granite
+281 : 
+282 : Bois Clémenti
+283 : 
+284 : Mont Chimnée
+285 : 
+286 : Sentier Sinuroc
+287 : 
+288 : Chemin Ardent
+289 : 
+290 : Mont Mémoria
+291 : 
+292 : Planque Aqua
+293 : 
+294 : Caverne Fondmer
+295 : 
+296 : Grotte Origine
+297 : 
+298 : Route Victoire
+299 : 
+300 : Grotte Tréfonds
+301 : 
+302 : New Lavandia
+303 : 
+304 : Lavandia Sea
+305 : 
+306 : Grotte de l’Îlot
+307 : 
+308 : Tombeau Antique
+309 : 
+310 : Sanctuaire
+311 : 
+312 : Grotte Zénith
+313 : 
+314 : Planque Magma
+315 : 
+316 : Pilier Céleste
+317 : 
+318 : Atoll de Combat
+319 : 
+320 : Île du Sud
+321 : 
+322 : Le Marina
+323 : 
+324 : Parc Safari
+325 : 
+326 : Forêt Mirage
+327 : 
+328 : Grotte Mirage
+329 : 
+330 : Île Mirage
+331 : 
+332 : Mont Mirage
+333 : 
+334 : Forêt Impénétrable
+335 : 
+336 : Plaine Sans Nom
+337 : 
+338 : Grotte Oubliée
+339 : 
+340 : Grotte Évanescente
+341 : 
+342 : Gouffre Informe
+343 : 
+344 : Île de l’Arc
+345 : 
+346 : Îlot Secret
+347 : 
+348 : Grand Ciel
+349 : 
+350 : Plage Secrète
+351 : 
+352 : Champ Fleuri Secret
+353 : 
+354 : Base Secrète

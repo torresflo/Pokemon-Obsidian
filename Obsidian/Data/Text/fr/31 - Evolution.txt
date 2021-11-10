@@ -1,0 +1,9 @@
+0 : Quoi ? [VAR PKNICK(0000)] évolue !
+1 : Hein ? [VAR PKNICK(0000)] n’évolue plus !
+2 : Félicitations ! [VAR PKNICK(0000)] évolue en [VAR PKNAME(0001)] !
+3 : [VAR PKNICK(0000)] apprend [VAR MOVE(0001)] ![VAR BE05(0004)][VAR BE05(0001)]
+4 : 1[WAIT 20], 2[WAIT 20], [WAIT 20]... [WAIT 20]... Tadaaa ![VAR BE05(0003)][VAR BE05(0000)] [VAR PKNICK(0000)] a oublié [VAR MOVE(0001)]. Et... Il apprend [VAR MOVE(0002)] ![VAR BE05(0004)][VAR BE05(0001)]
+5 : [VAR PKNICK(0000)] n’a pas appris [VAR MOVE(0001)].
+6 : [VAR PKNICK(0000)] veut apprendre [VAR MOVE(0001)]. Voulez-vous qu’il oublie une capacité pour apprendre [VAR MOVE(0001)] ?
+7 : Oublier une capacité
+8 : Garder les anciennes capacités

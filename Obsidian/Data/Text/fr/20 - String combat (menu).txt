@@ -1,0 +1,85 @@
+0 : PP
+1 : N. 
+2 : Niveau suivant
+3 : PV
+4 : Attaque
+5 : Défense
+6 : Atq. Spé.
+7 : Déf. Spé.
+8 : Vitesse
+9 : [VAR COLOR(0002)]♂[VAR COLOR(0000)]
+10 : [VAR COLOR(0001)]♀[VAR COLOR(0000)]
+11 : [~ 11]
+12 : Résumé
+13 : Capacités
+14 : Catégorie
+15 : Puissance
+16 : Précision
+17 : Statut
+18 : Physique
+19 : Spéciale
+20 : Démonstration
+21 : Blocage
+22 : Veuillez choisir un Pokémon.
+23 : L’utiliser sur quel Pokémon ?
+24 : Combattre avec quel Pokémon ?
+25 : Changer
+26 : Au combat
+27 : Ne peut pas se battre
+28 : Partenaire
+29 : Soigner
+30 : Résumé
+31 : Capacités
+32 : [VAR PKNICK(0001)] est déjà au combat !
+33 : [VAR PKNICK(0001)] n’a plus l’énergie pour combattre !
+34 : Un Œuf ne se bat pas, voyons !
+35 : Impossible d’échanger un Pokémon de votre partenaire avec l’un des vôtres !
+36 : [VAR PKNICK(0001)] ne peut pas être échangé !
+37 : Soins PV/PP
+38 : Soins statut
+39 : Restaurer les PP de quelle capacité ?
+40 : [~ 40]
+41 : [~ 41]
+42 : Soins PV/PP
+43 : Soins statut
+44 : [~ 44]
+45 : Balls
+46 : Objets combat
+47 : Dernier objet utilisé
+48 : Utiliser
+49 : [~ 49]
+50 : Impossible de viser quand il y a plus d’un Pokémon !
+51 : Il n’y a plus de place dans le PC !
+52 : Impossible de viser si aucun Pokémon n’est visible !
+53 : Il faut se concentrer pour bien lancer !
+54 : La capacité [VAR MOVE(0001)] empêche d’utiliser l’objet sur [VAR PKNICK(0000)] !
+55 : Oui
+56 : Non
+57 : Envoyer un autre Pokémon
+58 : Fuite
+59 : Oublier une capacité
+60 : Garder les anciennes capacités
+61 : Changer de Pokémon
+62 : Continuer sans changer
+63 : Où envoyer ce Pokémon ?
+64 : Restaurer quelle capacité ?
+65 : Ça n’aura aucun effet !
+66 : C’est une capacité très importante ! Le Pokémon ne peut pas l’oublier !
+67 : Arrêter
+68 : [~ 68]
+69 : [~ 69]
+70 : [~ 70]
+71 : [~ 71]
+72 : [VAR NUM3(0000)]
+73 : × 
+74 : /
+75 : /
+76 : L
+77 : Droite
+78 : Gauche
+79 : Centre
+80 : [VAR NUM5(0000,E07F)]
+81 : -
+82 : En attente…
+83 : [VAR PKNICK(0001)] a déjà été sélectionné.
+84 : Si papa était là, il dirait : « Voyons, [VAR GENDBR(00FF,0806)]fistonma fille, ce n’est pas le moment ! »

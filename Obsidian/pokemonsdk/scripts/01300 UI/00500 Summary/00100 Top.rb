@@ -2,7 +2,7 @@ module UI
   # UI part displaying the generic information of the Pokemon in the Summary
   class Summary_Top < SpriteStack
     # List of Pokemon that shouldn't show the gender sprite
-    NO_GENDER = %i[nidoran♀ nidoran♂]
+    NO_GENDER = %i[nidoranf nidoranm]
     # Create a new Memo UI for the summary
     # @param viewport [Viewport]
     def initialize(viewport)
@@ -58,12 +58,12 @@ module UI
       push(72 + 6, 74 + 16, nil, type: RealHoldSprite)
     end
 
-    # @return [LiteRGSS::Sprite]
+    # @return [Sprite]
     def create_ball
-      push(107, 11, nil, ox: 16, oy: 16)
+      push(97, 16, nil, ox: 16, oy: 16)
     end
 
-    # @return [LiteRGSS::Sprite]
+    # @return [Sprite]
     def create_star
       push(91, 107, 'shiny')
     end

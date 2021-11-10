@@ -20,3 +20,9 @@ Index,en,fr,es
 17,"So, you've decided its nickname will be [VAR PKNICK(0000)] ?","Donc, c'est décidé, son surnom sera [VAR PKNICK(0000)] ?","Entonces, ¿has decidido que su mote será [VAR PKNICK(0000)]?"
 18,[VAR PKNICK(0000)] was sent to [VAR BOXNAME].,[VAR PKNICK(0000)] a été transféré dans [VAR BOXNAME].,[VAR PKNICK(0000)] fue enviado a [VAR BOXNAME].
 19,There is something hidden in this direction!,,¡Hay algo escondido en esta dirección!
+20,You can't catch anymore pokemon here,Vous ne pouvez plus capturer de Pokémon ici.,You can't catch anymore pokemon here
+21,Your Pokémon gained Exp. Points!,Votre équipe gagne des Points d'Expérience !,Your Pokémon gained Exp. Points!
+22,Effective,Efficace,Eficaz
+23,Super effective,Super efficace,Supereficaz
+24,No effect,Sans effet,Sin efecto
+25,Not very effective,Peu efficace,No muy eficaz

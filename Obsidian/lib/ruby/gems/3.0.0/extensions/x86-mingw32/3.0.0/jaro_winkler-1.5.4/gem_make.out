@@ -1,0 +1,19 @@
+current directory: C:/Ruby25/Ruby30/lib/ruby/gems/3.0.0/gems/jaro_winkler-1.5.4/ext/jaro_winkler
+C:/Ruby25/Ruby30/bin/ruby.exe -I C:/Ruby25/Ruby30/lib/ruby/3.0.0 -r ./siteconf20210221-1292-vh7sml.rb extconf.rb
+creating Makefile
+
+current directory: C:/Ruby25/Ruby30/lib/ruby/gems/3.0.0/gems/jaro_winkler-1.5.4/ext/jaro_winkler
+make "DESTDIR=" clean
+
+current directory: C:/Ruby25/Ruby30/lib/ruby/gems/3.0.0/gems/jaro_winkler-1.5.4/ext/jaro_winkler
+make "DESTDIR="
+generating jaro_winkler_ext-i386-mingw32.def
+compiling adj_matrix.c
+compiling codepoints.c
+compiling jaro.c
+compiling jaro_winkler.c
+linking shared-object jaro_winkler/jaro_winkler_ext.so
+
+current directory: C:/Ruby25/Ruby30/lib/ruby/gems/3.0.0/gems/jaro_winkler-1.5.4/ext/jaro_winkler
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 jaro_winkler_ext.so ./.gem.20210221-1292-idtbju/jaro_winkler

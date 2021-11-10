@@ -1,0 +1,30 @@
+en,fr,it,de,es,ko,kana
+[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)]
+[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)],[VAR TRNAME(0000)]
+[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)],[VAR 01C4(0000)]
+Pokédex,Pokédex,Pokédex,Pokédex:,Pokédex:,도감,ずかん
+Registered on,"Enregistré[VAR 1100(00FF,0100)]e le",Data registrazione,Registriert am:,Registrado:,등록일,とうろくび
+Adventure began on,Début de l’aventure,Inizio avventura,Spielbeginn:,Inicio de tu viaje:,모험 시작,ぼうけんかいし
+[VAR NUM3(0000)] Pokémon,[VAR NUM3(0000)],[VAR NUM3(0000)],[VAR NUM3(0000)] Pokémon,[VAR NUM3(0000)],[VAR NUM3(0000)]마리,[VAR NUM3(0000)]ひき
+[VAR NUM3(0000)]:[VAR NUM2(0001)],[VAR NUM3(0000)]:[VAR NUM2(0001)],[VAR NUM3(0000)]:[VAR NUM2(0001)],[VAR NUM3(0000)]:[VAR NUM2(0001)],[VAR NUM3(0000)]:[VAR NUM2(0001)],[VAR NUM3(0000)]:[VAR NUM2(0001)],[VAR NUM3(0000)]:[VAR NUM2(0001)]
+"[VAR NUM2(0001)]/[VAR NUM2(0002)]/[VAR 0203(0000,0000)]","[VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR 0203(0000,0000)]","[VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR 0203(0000,0000)]","[VAR NUM2(0002)].[VAR NUM2(0001)].[VAR 0203(0000,0000)]","[VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]/[VAR NUM2(0001)]/[VAR NUM2(0002)]","[VAR 0203(0000,0000)]/[VAR NUM2(0001)]/[VAR NUM2(0002)]"
+ID No.,Nº ID,ID,ID-Nr.:,N.º ID:,IDNo.,IDNo.
+"[VAR 0205(0000,0000)]","[VAR 0205(0000,0000)]","[VAR 0205(0000,0000)]","[VAR 0205(0000,0000)]","[VAR 0205(0000,0000)]","[VAR 0205(0000,0000)]","[VAR 0205(0000,0000)]"
+[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11],[~ 11]
+[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12],[~ 12]
+[~ 13],[~ 13],[~ 13],[~ 13],[~ 13],[~ 13],[~ 13]
+[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14],[~ 14]
+[~ 15],[~ 15],[~ 15],[~ 15],[~ 15],[~ 15],[~ 15]
+[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16],[~ 16]
+[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17],[~ 17]
+Curry Dex,Currydex :,Currydex:,Currydex:,CurriDex:,카레도감,カレーずかん
+"[VAR NUM3(0000)] kind[VAR NUMBRNCH(0000,0100)]s of curry","[VAR NUM3(0000)] type[VAR NUMBRNCH(0000,0100)]s de currys","[VAR NUM3(0000)] tip[VAR NUMBRNCH(0000,0101)]oi di curry","[VAR NUM3(0000)] Rezept[VAR NUMBRNCH(0000,0100)]e",[VAR NUM3(0000)],[VAR NUM3(0000)]종류,[VAR NUM3(0000)]しゅるい
+Rally Best Score,Meilleur score au Moti-Rallye :,Record al Rotorally:,Rallye-Rekord:,Récord en la Rotocrono:,랠리 하이스코어,ラリーハイスコア
+"[VAR 0204(0000,002C)] point[VAR NUMBRNCH(0000,0100)]s","[VAR 0204(0000,202F)] point[VAR NUMBRNCH(0000,0100)]s","[VAR 0204(0000,0000)] punt[VAR NUMBRNCH(0000,0101)]oi","[VAR 0204(0000,0000)] Punkt[VAR NUMBRNCH(0000,0100)]e","[VAR 0204(0000,202F)] punto[VAR NUMBRNCH(0000,0100)]s","[VAR 0204(0000,0000)]점","[VAR 0204(0000,0000)]てん"
+Pokémon Caught,Nombre total de captures :,Pokémon catturati:,Pokémon gefangen:,Pokémon atrapados:,합계 포획 수,ごうけいほかくすう
+"[VAR 0204(0000,0000)]","[VAR 0204(0000,202F)]","[VAR 0204(0000,002E)]","[VAR 0204(0000,202F)]","[VAR 0204(0000,0000)]","[VAR 0204(0000,0000)]마리","[VAR 0204(0000,0000)]ひき"
+Shiny Pokémon Found,Pokémon chromatiques vus :,Pokémon cromatici visti:,Schillernde Pokémon gesehen:,Pokémon variocolor avistados:,발견한 색이 다른 포켓몬,みつけたいろちがい
+"[VAR 0204(0000,0000)]","[VAR 0204(0000,202F)] espèce[VAR NUMBRNCH(0000,0100)]s","[VAR 0204(0000,002E)] specie","[VAR 0204(0000,202F)] Art[VAR NUMBRNCH(0000,0200)]en","[VAR 0204(0000,0000)]","[VAR 0204(0000,0000)]종류","[VAR 0204(0000,0000)]しゅるい"
+[~ 26],[~ 26],[~ 26],[~ 26],[~ 26],[~ 26],[~ 26]
+First Partner Pokémon,Premier Pokémon,Pokémon iniziale,Erstes Partner-Pokémon:,Primer compañero:,첫 파트너,さいしょのパートナー
+[~ 28],[~ 28],[~ 28],[~ 28],[~ 28],[~ 28],[~ 28]

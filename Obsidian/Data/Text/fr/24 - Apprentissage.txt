@@ -1,0 +1,88 @@
+0 : Quelle capacité voulez-vous apprendre à [VAR PKNICK(0000)] ?
+1 : [~ 1]
+2 : [~ 2]
+3 : [VAR PKNICK(0000)] apprend [VAR MOVE(0001)] !
+4 : [VAR PKNICK(0000)] veut apprendre [VAR MOVE(0001)]. Mais un Pokémon ne peut pas connaître plus de quatre capacités à la fois. Voulez-vous remplacer une capacité par [VAR MOVE(0001)] ?
+5 : 1[WAIT 20], 2[WAIT 20], [WAIT 20]… [WAIT 20]… Tadaa ![VAR BE05(0003)][VAR BE05(0005)] [VAR PKNICK(0000)] oublie [VAR MOVE(0001)]. Et…
+6 : [~ 6]
+7 : Alors… Voulez-vous renoncer à apprendre [VAR MOVE(0001)] ?
+8 : [VAR PKNICK(0000)] n’a pas appris [VAR MOVE(0001)].
+9 : [~ 9]
+10 : [~ 10]
+11 : [~ 11]
+12 : [~ 12]
+13 : [~ 13]
+14 : [~ 14]
+15 : [~ 15]
+16 : [~ 16]
+17 : [~ 17]
+18 : [~ 18]
+19 : [~ 19]
+20 : [~ 20]
+21 : [~ 21]
+22 : [~ 22]
+23 : [~ 23]
+24 : [~ 24]
+25 : [~ 25]
+26 : [~ 26]
+27 : PP
+28 : [VAR NUM2(0000)]
+29 : [VAR NUM2(0000)]
+30 : /
+31 : [~ 31]
+32 : [~ 32]
+33 : [~ 33]
+34 : [~ 34]
+35 : [~ 35]
+36 : Oublier !
+37 : C’est une capacité précieuse ! Vous ne pouvez pas l’oublier ainsi !
+38 : [~ 38]
+39 : Nº Pokédex
+40 : [VAR NUM3(0000)]
+41 : Nom
+42 : Type
+43 : Catégorie
+44 : Précision
+45 : [VAR NUM3(0000)]
+46 : Puissance
+47 : [VAR NUM3(0000)]
+48 : PV
+49 : [VAR NUM3(0000)]
+50 : [VAR NUM3(0000)]
+51 : Attaque
+52 : [VAR NUM3(0000)]
+53 : Défense
+54 : [VAR NUM3(0000)]
+55 : Atq. Spé.
+56 : [VAR NUM3(0000)]
+57 : Déf. Spé.
+58 : [VAR NUM3(0000)]
+59 : Vitesse
+60 : [VAR NUM3(0000)]
+61 : [~ 61]
+62 : [VAR COLOR(0002)]♂[VAR COLOR(0000)]
+63 : [VAR COLOR(0001)]♀[VAR COLOR(0000)]
+64 : ?
+65 : [~ 65]
+66 : [~ 66]
+67 : [~ 67]
+68 : [~ 68]
+69 : [~ 69]
+70 : [VAR NUM3(0000)]
+71 : ???
+72 : [~ 72]
+73 : [~ 73]
+74 : [~ 74]
+75 : -
+76 : -
+77 : N.
+78 : [~ 78]
+79 : [~ 79]
+80 : [~ 80]
+81 : [~ 81]
+82 : [~ 82]
+83 : Effet
+84 : Démonstration
+85 : Blocage
+86 : Capacités Concours
+87 : Capacités Combat

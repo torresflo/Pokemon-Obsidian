@@ -1,24 +1,24 @@
 module GamePlay
-  class Shop < BaseCleanUpdate
+  class Shop < BaseCleanUpdate::FrameBalanced
     # Create a new Item Shop
-    # @overload GamePlay::.new(symbol_shop)
+    # @overload initialize(symbol_shop)
     #   @param symbol_shop [Symbol] the symbol of the shop to open
-    # @overload .new(symbol_shop, price_overwritten)
+    # @overload initialize(symbol_shop, price_overwritten)
     #   @param symbol_shop [Symbol] the symbol of the shop to open
     #   @param price_overwrite [Hash] the hash containing the new price (value) of an item id (key)
-    # @overload .new(list_id_object)
+    # @overload initialize(list_id_object)
     #   @param list_id_object [Array] the array containing the id of the items to sell
-    # @overload .new(list_id_object, price_overwrite)
+    # @overload initialize(list_id_object, price_overwrite)
     #   @param list_id_object [Array] the array containing the id of the items to sell
     #   @param price_overwrite [Hash] the hash containing the new price (value) of an id (key)
     # @example Opening an already defined shop with limited items
-    #   .new(:shop_pewter_city) # Will open the Shop with symbol :shop_pewter_city (the shop must be already defined beforehand)
+    #   GamePlay::Shop.new(:shop_pewter_city) # Will open the Shop with symbol :shop_pewter_city (the shop must be already defined beforehand)
     # @example Opening an already defined shop with limited items but with temporarily overwritten price
-    #   .new(:shop_pewter_city, {17: 300, 25: 3000}) # Will open the Shop with symbol :shop_pewter_city while overwritting the price for items with ID 17 or 25
+    #   GamePlay::Shop.new(:shop_pewter_city, {17: 300, 25: 3000}) # Will open the Shop with symbol :shop_pewter_city while overwritting the price for items with ID 17 or 25
     # @example Opening a simple unlimited shop with items, using their original prices
-    #   .new([1, 2, 3, 4]) # Will open a Shop selling Master balls, Ultra Balls, Great Balls and Poké Balls at their original price
+    #   GamePlay::Shop.new([1, 2, 3, 4]) # Will open a Shop selling Master balls, Ultra Balls, Great Balls and Poké Balls at their original price
     # @example Opening a simple unlimited shop with items while overwritting temporarily the original price
-    #   .new([4, 17], {4: 100, 17: 125}) # Will open a Shop selling Poké Balls at 100 Pokédollars and Potions at 125 Pokédollars
+    #   GamePlay::Shop.new([4, 17], {4: 100, 17: 125}) # Will open a Shop selling Poké Balls at 100 Pokédollars and Potions at 125 Pokédollars
     def initialize(symbol_or_list, price_overwrite = {}, show_background: true)
       super()
       return if symbol_or_list == false

@@ -2,7 +2,7 @@ module GamePlay
   # Main menu UI
   #
   # Rewritten thanks to Jaizu demand
-  class Menu < BaseCleanUpdate
+  class Menu < BaseCleanUpdate::FrameBalanced
     attr_accessor :call_skill_process
     # List of action according to the "image_index" to call
     ACTION_LIST = %i[open_dex open_party open_bag open_tcard open_option open_save open_quit]

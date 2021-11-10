@@ -1,5 +1,5 @@
 en,fr,it,de,es,ko,kana
-—,"",-,-,-,-,―
+—,-,-,-,—,-,―
 Stench,Puanteur,Tanfo,Duftnote,Hedor,악취,あくしゅう
 Drizzle,Crachin,Piovischio,Niesel,Llovizna,잔비,あめふらし
 Speed Boost,Turbo,Acceleratore,Temposchub,Impulso,가속,かそく
@@ -9,13 +9,13 @@ Damp,Moiteur,Umidità,Feuchtigkeit,Humedad,습기,しめりけ
 Limber,Échauffement,Scioltezza,Flexibilität,Flexibilidad,유연,じゅうなん
 Sand Veil,Voile Sable,Sabbiavelo,Sandschleier,Velo Arena,모래숨기,すながくれ
 Static,Statik,Statico,Statik,Elec. Estática,정전기,せいでんき
-Volt Absorb,Absorb Volt,Assorbivolt,Voltabsorber,Absorbe Elec,축전,ちくでん
-Water Absorb,Absorb Eau,Assorbacqua,H2O-Absorber,Absorbe Agua,저수,ちょすい
+Volt Absorb,Absorbe-Volt,Assorbivolt,Voltabsorber,Absorbe Elec,축전,ちくでん
+Water Absorb,Absorbe-Eau,Assorbacqua,H2O-Absorber,Absorbe Agua,저수,ちょすい
 Oblivious,Benêt,Indifferenza,Dösigkeit,Despiste,둔감,どんかん
 Cloud Nine,Ciel Gris,Antimeteo,Wolke Sieben,Aclimatación,날씨부정,ノーてんき
 Compound Eyes,Œil Composé,Insettocchi,Facettenauge,Ojo Compuesto,복안,ふくがん
 Insomnia,Insomnia,Insonnia,Insomnia,Insomnio,불면,ふみん
-Color Change,Déguisement,Cambiacolore,Farbwechsel,Cambio Color,변색,へんしょく
+Color Change,Homochromie,Cambiacolore,Farbwechsel,Cambio Color,변색,へんしょく
 Immunity,Vaccin,Immunità,Immunität,Inmunidad,면역,めんえき
 Flash Fire,Torche,Fuocardore,Feuerfänger,Absorbe Fuego,타오르는불꽃,もらいび
 Shield Dust,Écran Poudre,Polvoscudo,Puderabwehr,Polvo Escudo,인분,りんぷん
@@ -35,7 +35,7 @@ Serene Grace,Sérénité,Leggiadro,Edelmut,Dicha,하늘의은총,てんのめぐ
 Swift Swim,Glissade,Nuotovelox,Wassertempo,Nado Rápido,쓱쓱,すいすい
 Chlorophyll,Chlorophylle,Clorofilla,Chlorophyll,Clorofila,엽록소,ようりょくそ
 Illuminate,Lumiattirance,Risplendi,Erleuchtung,Iluminación,발광,はっこう
-Trace,Calque,Traccia,Fährte,Rastro,트레이스,トレース
+Trace,Calque,Traccia,Erfassen,Rastro,트레이스,トレース
 Huge Power,Coloforce,Macroforza,Kraftkoloss,Potencia,천하장사,ちからもち
 Poison Point,Point Poison,Velenopunto,Giftdorn,Punto Tóxico,독가시,どくのトゲ
 Inner Focus,Attention,Forza Interiore,Konzentrator,Foco Interno,정신력,せいしんりょく
@@ -57,9 +57,9 @@ Truant,Absentéisme,Pigrone,Schnarchnase,Ausente,게으름,なまけ
 Hustle,Agitation,Tuttafretta,Übereifer,Entusiasmo,의욕,はりきり
 Cute Charm,Joli Sourire,Incantevole,Charmebolzen,Gran Encanto,헤롱헤롱바디,メロメロボディ
 Plus,Plus,Più,Plus,Más,플러스,プラス
-Minus,Minus,Meno,Minus,Menos,마이너스,マイナス
+Minus,Moins,Meno,Minus,Menos,마이너스,マイナス
 Forecast,Météo,Previsioni,Prognose,Predicción,기분파,てんきや
-Sticky Hold,Glue,Antifurto,Wertehalter,Viscosidad,점착,ねんちゃく
+Sticky Hold,Glu,Antifurto,Klebekörper,Viscosidad,점착,ねんちゃく
 Shed Skin,Mue,Muta,Expidermis,Mudar,탈피,だっぴ
 Guts,Cran,Dentistretti,Adrenalin,Agallas,근성,こんじょう
 Marvel Scale,Écaille Spéciale,Pelledura,Notschutz,Escama Especial,이상한비늘,ふしぎなうろこ
@@ -105,7 +105,7 @@ Leaf Guard,Feuille Garde,Fogliamanto,Floraschild,Defensa Hoja,리프가드,リ�
 Klutz,Maladresse,Impaccio,Tollpatsch,Zoquete,서투름,ぶきよう
 Mold Breaker,Brise Moule,Rompiforma,Überbrückung,Rompemoldes,틀깨기,かたやぶり
 Super Luck,Chanceux,Supersorte,Glückspilz,Afortunado,대운,きょううん
-Aftermath,Boom Final,Scoppio,Finalschlag,Resquicio,유폭,ゆうばく
+Aftermath,Boom Final,Scoppio,Finalschlag,Detonación,유폭,ゆうばく
 Anticipation,Anticipation,Presagio,Vorahnung,Anticipación,위험예지,きけんよち
 Forewarn,Prédiction,Premonizione,Vorwarnung,Alerta,예지몽,よちむ
 Unaware,Inconscient,Imprudenza,Unkenntnis,Ignorante,천진,てんねん
@@ -131,17 +131,17 @@ Defiant,Acharné,Agonismo,Siegeswille,Competitivo,오기,まけんき
 Defeatist,Défaitiste,Sconforto,Schwächling,Flaqueza,무기력,よわき
 Cursed Body,Corps Maudit,Corpofunesto,Tastfluch,Cuerpo Maldito,저주받은바디,のろわれボディ
 Healer,Cœur Soin,Curacuore,Heilherz,Alma Cura,치유의마음,いやしのこころ
-Friend Guard,Garde Amie,Amicoscudo,Freundeshut,Compiescolta,프렌드가드,フレンドガード
+Friend Guard,Garde-Ami,Amicoscudo,Freundeshut,Compiescolta,프렌드가드,フレンドガード
 Weak Armor,Armurouillée,Sottilguscio,Bruchrüstung,Armadura Frágil,깨어진갑옷,くだけるよろい
 Heavy Metal,Heavy Metal,Metalpesante,Schwermetall,Metal Pesado,헤비메탈,ヘヴィメタル
 Light Metal,Light Metal,Metalleggero,Leichtmetall,Metal Liviano,라이트메탈,ライトメタル
-Multiscale,Multiécaille,Multisquame,Multischuppe,Compensación,멀티스케일,マルチスケイル
+Multiscale,Multiécaille,Multisquame,Multischuppe,Multiescamas,멀티스케일,マルチスケイル
 Toxic Boost,Rage Poison,Velenimpeto,Giftwahn,Ímpetu Tóxico,독폭주,どくぼうそう
 Flare Boost,Rage Brûlure,Bruciaimpeto,Hitzewahn,Ímpetu Ardiente,열폭주,ねつぼうそう
 Harvest,Récolte,Coglibacche,Reiche Ernte,Cosecha,수확,しゅうかく
 Telepathy,Télépathe,Telepatia,Telepathie,Telepatía,텔레파시,テレパシー
 Moody,Lunatique,Altalena,Gefühlswippe,Veleta,변덕쟁이,ムラっけ
-Overcoat,Envelocape,Copricapo,Wetterfest,Funda,방진,ぼうじん
+Overcoat,Envelocape,Copricapo,Partikelschutz,Funda,방진,ぼうじん
 Poison Touch,Toxitouche,Velentocco,Giftgriff,Toque Tóxico,독수,どくしゅ
 Regenerator,Régé-Force,Rigenergia,Belebekraft,Regeneración,재생력,さいせいりょく
 Big Pecks,Cœur de Coq,Pettinfuori,Brustbieter,Sacapecho,부풀린가슴,はとむね
@@ -162,7 +162,7 @@ Sand Force,Force Sable,Silicoforza,Sandgewalt,Poder Arena,모래의힘,すなの
 Iron Barbs,Épine de Fer,Spineferrate,Eisenstachel,Punta Acero,철가시,てつのトゲ
 Zen Mode,Mode Transe,Stato Zen,Trance-Modus,Modo Daruma,달마모드,ダルマモード
 Victory Star,Victorieux,Vittorstella,Triumphstern,Tinovictoria,승리의별,しょうりのほし
-Turboblaze,TurboBrasier,Piroturbina,Turbobrand,Turbollama,터보블레이즈,ターボブレイズ
+Turboblaze,Turbo Brasier,Piroturbina,Turbobrand,Turbollama,터보블레이즈,ターボブレイズ
 Teravolt,Téra-Voltage,Teravolt,Teravolt,Terravoltaje,테라볼티지,テラボルテージ
 Aroma Veil,Aroma-Voile,Aromavelo,Dufthülle,Velo Aroma,아로마베일,アロマベール
 Flower Veil,Flora-Voile,Fiorvelo,Blütenhülle,Velo Flor,플라워베일,フラワーベール
@@ -232,3 +232,38 @@ Grassy Surge,Créa-Herbe,Erbogenesi,Gras-Erzeuger,Herbogénesis,그래스메이�
 Full Metal Body,Métallo-Garde,Metalprotezione,Metallprotektor,Guardia Metálica,메탈프로텍트,メタルプロテクト
 Shadow Shield,Spectro-Bouclier,Spettroguardia,Phantomschutz,Guardia Espectro,스펙터가드,ファントムガード
 Prism Armor,Prisme-Armure,Scudoprisma,Prismarüstung,Armadura Prisma,프리즘아머,プリズムアーマー
+Neuroforce,Cérébro-Force,Cerebroforza,Zerebralmacht,Fuerza Cerebral,브레인포스,ブレインフォース
+Intrepid Sword,Lame Indomptable,Spada Indomita,Kühnes Schwert,Espada Indómita,불요의검,ふとうのけん
+Dauntless Shield,Égide Inflexible,Scudo Saldo,Wackerer Schild,Escudo Recio,불굴의방패,ふくつのたて
+Libero,Libéro,Libero,Libero,Líbero,리베로,リベロ
+Ball Fetch,Ramasse Ball,Raccattapalle,Apport,Recogebolas,볼줍기,たまひろい
+Cotton Down,Effilochage,Lanugine,Wollflaum,Pelusa,솜털,わたげ
+Propeller Tail,Propulseur,Elicopinna,Schraubflosse,Hélice Caudal,스크루지느러미,スクリューおびれ
+Mirror Armor,Armure Miroir,Blindospecchio,Spiegelrüstung,Coraza Reflejo,미러아머,ミラーアーマー
+Gulp Missile,Dégobage,Inghiottimissile,Würggeschoss,Tragamisil,그대로꿀꺽미사일,うのミサイル
+Stalwart,Nerfs d’Acier,Volontà di Ferro,Stahlrückgrat,Acérrimo,굳건한신념,すじがねいり
+Steam Engine,Turbine,Vapormacchina,Dampfantrieb,Combustible,증기기관,じょうききかん
+Punk Rock,Punk Rock,Punk Rock,Punk Rock,Punk Rock,펑크록,パンクロック
+Sand Spit,Expul’Sable,Sputasabbia,Sandspeier,Expulsarena,모래뿜기,すなはき
+Ice Scales,Écailles Glacées,Geloscaglie,Eisflügelstaub,Escama de Hielo,얼음인분,こおりのりんぷん
+Ripen,Mûrissement,Maturazione,Heranreifen,Maduración,숙성,じゅくせい
+Ice Face,Tête de Gel,Gelofaccia,Tiefkühlkopf,Cara de Hielo,아이스페이스,アイスフェイス
+Power Spot,Cercle d’Énergie,Fonte Energetica,Kraftquelle,Fuente Energía,파워스폿,パワースポット
+Mimicry,Mimétisme,Mimetismo,Mimese,Mimetismo,의태,ぎたい
+Screen Cleaner,Brise-Barrière,Annullabarriere,Hemmungslos,Antibarrera,배리어프리,バリアフリー
+Steely Spirit,Boost Acier,Spiritoferreo,Stählerner Wille,Alma Acerada,강철정신,はがねのせいしん
+Perish Body,Corps Condamné,Ultimotocco,Unheilskörper,Cuerpo Mortal,멸망의바디,ほろびのボディ
+Wandering Spirit,Âme Vagabonde,Anima Errante,Rastlose Seele,Alma Errante,떠도는영혼,さまようたましい
+Gorilla Tactics,Entêtement,Vigorilla,Affenfokus,Monotema,무아지경,ごりむちゅう
+Neutralizing Gas,Gaz Inhibiteur,Gas Reagente,Reaktionsgas,Gas Reactivo,화학변화가스,かがくへんかガス
+Pastel Veil,Voile Pastel,Pastelvelo,Pastellhülle,Velo Pastel,파스텔베일,パステルベール
+Hunger Switch,Déclic Fringale,Pancialterna,Heißhunger,Mutapetito,꼬르륵스위치,はらぺこスイッチ
+Quick Draw,Tir Vif,Colpolesto,Schnellschuss,Mano Rápida,퀵드로,クイックドロウ
+Unseen Fist,Poing Invisible,Pugni Invisibili,Verborgene Faust,Puño Invisible,보이지않는주먹,ふかしのこぶし
+Curious Medicine,Breuvage Suspect,Stranofarmaco,Kuriose Arznei,Medicina Extraña,기묘한약,きみょうなくすり
+Transistor,Transistor,Transistor,Transistor,Transistor,트랜지스터,トランジスタ
+Dragon’s Maw,Dent de Dragon,Dragomascelle,Drachenkiefer,Mandíbula Dragón,용의턱,りゅうのあぎと
+Chilling Neigh,Blanche Ruade,Nitrito Bianco,Helles Wiehern,Relincho Blanco,백의울음,しろのいななき
+Grim Neigh,Sombre Ruade,Nitrito Nero,Dunkles Wiehern,Relincho Negro,흑의울음,くろのいななき
+As One,Osmose Équine,Sintonia Equina,Reitgespann,Unidad Ecuestre,혼연일체,じんばいったい
+As One,Osmose Équine,Sintonia Equina,Reitgespann,Unidad Ecuestre,혼연일체,じんばいったい

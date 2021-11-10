@@ -3,13 +3,13 @@ module UI
     # Class responsive of handling the selection
     class SelectionHandler
       # Set the current storage object
-      # @param storage [PFM::Storage]
+      # @return [PFM::Storage]
       attr_writer :storage
       # Set the current cursor handler
-      # @param cursor [CursorHandler]
+      # @return [CursorHandler]
       attr_writer :cursor
       # Set the current party
-      # @param party [Array<PFM::Pokemon>]
+      # @return [Array<PFM::Pokemon>]
       attr_writer :party
       # Create a new selection handler
       # @param mode_handler [ModeHandler] object responsive of handling the mode
@@ -70,7 +70,8 @@ module UI
 
         process = proc do |box, i|
           pokemon = get_pokemon.call(index)
-          set_pokemon.call(index, box[i])
+          pokemon_stored = set_pokemon.call(index, box[i])
+          reset_form(pokemon_stored)
           index = (index + 1) % size
           box[i] = pokemon
         end
@@ -140,7 +141,7 @@ module UI
       end
 
       # Define the party selection display
-      # @parma party_display [#update_selection(arr)]
+      # @param party_display [#update_selection(arr)]
       def party_selection_display=(party_display)
         @party_display = party_display
       end
@@ -252,6 +253,13 @@ module UI
         @party_selection.each do |i|
           yield(@party, i)
         end
+      end
+
+      # Reset the form of the Pokemon
+      # @param pokemon [PFM::Pokemon] the pokemon stored
+      def reset_form(pokemon)
+        list = %i[shaymin]
+        pokemon.form_calibrate(:none) if list.include?(pokemon.db_symbol)
       end
     end
   end

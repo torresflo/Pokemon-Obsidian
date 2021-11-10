@@ -1,0 +1,15 @@
+0 : Soins
+1 : Poké Balls
+2 : Objets de combat
+3 : Baies
+4 : Objets
+5 : CT
+6 : Trésors
+7 : Ingrédients
+8 : Objets rares
+9 : [~ 9]
+10 : [~ 10]
+11 : [~ 11]
+12 : [~ 12]
+13 : [~ 13]
+14 : [~ 14]

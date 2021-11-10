@@ -1,0 +1,24 @@
+0 : Badges :
+1 : 
+2 : [VAR NUM1(0000)]
+3 : Pokédex :
+4 : 
+5 : [VAR NUM3(0000)]
+6 : Temps de jeu :
+7 : [VAR NUM3(0000)]
+8 : [VAR NUM2(0000)]
+9 : Dernière sauvegarde 
+10 : :
+11 : [VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR NUM4(0000,0000)]
+12 : [VAR NUM2(0000)]
+13 : [VAR NUM2(0000)]
+14 : [VAR LOCATION(0000)]
+15 : Voulez-vous sauvegarder la partie ?
+16 : Sauvegarde en cours… Ne pas éteindre la console.
+17 : [VAR TRNAME(0000)] a sauvegardé la partie.
+18 : Une autre partie est déjà sauvegardée. Sauvegarde impossible. Veuillez vous référer au mode d’emploi pour plus d’informations.
+19 : Échec de la sauvegarde.
+20 : Synchronisation en cours… Ne pas éteindre la console.
+21 : Le serveur est surchargé. Interruption de la synchronisation…
+22 : [~ 22]
+23 : Les données nécessaires à la connexion Internet ont été obtenues. Voulez-vous sauvegarder la partie ?

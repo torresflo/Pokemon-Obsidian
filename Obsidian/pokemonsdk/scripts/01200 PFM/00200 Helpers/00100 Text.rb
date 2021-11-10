@@ -40,9 +40,9 @@ module PFM
     # Kaphotics decoded var clean regexp
     KAPHOTICS_Clean = /\[VAR [^\]]+\]/ # /\[VAR .[A-Z\,\(\)a-z0-9]+\]/
     # Nummeric branch regexp catcher
-    NUMBRNCH_Reg = /\[VAR NUMBRNCH\(....,....\)\][^ ]+/
+    NUMBRNCH_Reg = /\[VAR NUMBRNCH\(....,....\)\][^\[]+/
     # Gender branch regexp catcher
-    GENDBR_Reg = /\[VAR GENDBR\(....,....\)\][^ ]+/
+    GENDBR_Reg = /\[VAR GENDBR\(....,....\)\][^\[]+/
     # Bell detector
     BELL_Reg = /\[VAR BE05\(([0-9]+)\)\]/ # TODO!
     # Empty string (remove stuff)
@@ -111,8 +111,37 @@ module PFM
     # @param pokemon [PFM::PokemonBattler]
     # @return [Boolean]
     def enemy_pokemon?(pokemon)
-      return (pokemon.is_a?(PFM::PokemonBattler) && pokemon.bank != 0) ||
-             (pokemon.is_a?(PFM::Pokemon) && (pokemon.position == nil or pokemon.position < 0))
+      return false unless pokemon
+      return pokemon.bank != 0 if pokemon.is_a?(PFM::PokemonBattler)
+
+      return pokemon.position.nil? || pokemon.position < 0
+    end
+
+    # Parse a text from the text database with 2 pokemon & specific information
+    # @param file_id [Integer] ID of the text file
+    # @param text_id [Integer] ID of the text in the file
+    # @param pokemon1 [PFM::Pokemon] pokemon we're talking about
+    # @param pokemon2 [PFM::Pokemon] pokemon who originated the "problem" (eg. bind)
+    # @param additionnal_var [nil, Hash{String => String}] additional remplacements in the text
+    # @return [String] the text parsed and ready to be displayed
+    def parse_with_2pokemon(file_id, text_id, pokemon1, pokemon2, additionnal_var)
+      if enemy_pokemon?(pokemon1)
+        text_id += $game_temp.trainer_battle ? 5 : 3
+        text_id += 1 if enemy_pokemon?(pokemon2)
+      elsif enemy_pokemon?(pokemon2)
+        text_id += ($game_temp.trainer_battle ? 2 : 1)
+      end
+      # Get text
+      text = GameData::Text.get(file_id, text_id).clone
+      # Parse all the variables
+      additionnal_var&.each { |expr, value| text.gsub!(expr, value || '<nil>') }
+      @variables.each { |expr, value| text.gsub!(expr, value) }
+      # Set the Pokemon nickname
+      text.gsub!(PKNICK[0], pokemon1.given_name)
+      text.gsub!(PKNICK[1], pokemon2.given_name)
+      # Parse the branches & clean the text
+      parse_rest_of_thing(text)
+      return text
     end
 
     # Parse a text from the text database with specific informations and two Pokemon
@@ -224,7 +253,7 @@ module PFM
     end
 
     # The \\ temporary replacement
-    S_000 = ::Window_Message::S_000
+    S_000 = "\x00"
     # Parse a string for a message
     # @param text [String] the message
     # @return [String] the parsed message

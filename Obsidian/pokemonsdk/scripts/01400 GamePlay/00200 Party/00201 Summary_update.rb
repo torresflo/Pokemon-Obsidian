@@ -40,10 +40,11 @@ module GamePlay
     # Perform the validation of the update_inputs_skills
     def update_inputs_skills_validation
       return unless (skill = @pokemon.skills_set[@uis[2].index])
+
       if @extend_data
-        if @extend_data[:on_skill_choice].call(skill)
-          @extend_data[:on_skill_use]&.call(@pokemon, skill)
-          @extend_data[:skill_selected] = @skill_selected = @uis[2].index
+        if @extend_data.on_skill_choice(skill, self)
+          @extend_data.on_skill_use(@pokemon, skill, self)
+          @extend_data.bind(find_parent(Battle::Scene), @pokemon, skill)
           @running = false
         else # You cannot use that on this skill
           display_message(parse_text(22, 108))

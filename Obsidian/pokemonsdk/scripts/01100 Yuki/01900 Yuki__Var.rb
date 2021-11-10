@@ -66,9 +66,16 @@ module Yuki
     # Map Transition type (1 = Circular, 2 = Directed)
     MapTransitionID = 32
 
+    # Level of the AI
+    AI_LEVEL = 34
+    # ID (in the database) of the second trainer of the duo battle
+    Second_Trainer_ID = 35
+    # ID (in the database) of the allied trainer of the duo battle
+    Allied_Trainer_ID = 36
+
     # Coin case amount of coin
     CoinCase = 41
-    
+
     # Index of the Pokemon that use its skill in the Party_Menu
     Party_Menu_Sel = 43
     # ID of the map where the player return (Teleport, defeat)

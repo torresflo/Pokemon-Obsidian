@@ -17,6 +17,8 @@ module GameData
     TOXIC = 8
     # K.O. state
     DEATH = KO = 9
+    # FLINCH STATE
+    FLINCH = 7
 
     module_function
 

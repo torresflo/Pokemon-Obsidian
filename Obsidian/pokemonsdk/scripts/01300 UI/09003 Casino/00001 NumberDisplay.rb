@@ -19,7 +19,7 @@ module UI
       # @param viewport [Viewport]
       # @param x [Integer]
       # @param y [Integer]
-      # @param max_number [Integer] maximum number of numbers to display
+      # @param max_numbers [Integer] maximum number of numbers to display
       def initialize(viewport, x, y, max_numbers)
         super(viewport, x, y)
         width = number_width

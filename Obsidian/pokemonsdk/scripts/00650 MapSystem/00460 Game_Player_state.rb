@@ -33,8 +33,8 @@ class Game_Player
   # @param state [Symbol] the name of the state to fetch the move parameter
   def update_move_parameter(state)
     @move_speed, @move_frequency = STATE_MOVEMENT_INFO[state]
-    # Make sure event gets the same speed as the player
-    @follower.move_speed = @move_speed if @follower.is_a?(Game_Event)
+    # Make sure event gets the same speed as the player even if there is pokemons between them
+    next_event_follower&.move_speed = @move_speed
   end
 
   # Enter in walking state (supports the swamp state)

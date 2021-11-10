@@ -1,0 +1,288 @@
+0 : ●●
+1 : Un [VAR PKNAME(0000)] sauvage apparaît !
+2 : Oh ! Un [VAR PKNAME(0000)] sauvage vous bondit dessus !
+3 : Un [VAR PKNAME(0000)] sauvage apparaît !
+4 : Un [VAR PKNAME(0000)] sauvage apparaît !
+5 : Oh ! Votre monture a failli écraser un [VAR PKNAME(0000)]… Il vous attaque !
+6 : [VAR PKNAME(0000)] apparaît !
+7 : Oh ! Une horde de Pokémon sauvages apparaît !
+8 : [VAR 019E(0000)] veu[VAR NUMBRNCH(0000,0300)]lent se battre !
+9 : [VAR TRNAME(0000)] veut se battre !
+10 : [VAR 019E(0000)] et [VAR 019E(0002)] veulent se battre !
+11 : [VAR TRNAME(0000)] et [VAR TRNAME(0001)] veulent se battre !
+12 : [VAR PKNICK(0000)] ! Go !
+13 : [VAR PKNICK(0000)] et [VAR PKNICK(0001)] ! Go !
+14 : [VAR PKNICK(0000)], [VAR PKNICK(0001)] et [VAR PKNICK(0002)] ! Go !
+15 : [VAR 019E(0000)] envoie[VAR NUMBRNCH(0000,0200)]nt un [VAR PKNICK(0002)] !
+16 : [VAR 019E(0000)] envoie[VAR NUMBRNCH(0000,0200)]nt un [VAR PKNICK(0002)] et un [VAR PKNICK(0003)] !
+17 : [VAR 019E(0000)] envoie[VAR NUMBRNCH(0000,0200)]nt un [VAR PKNICK(0002)], un [VAR PKNICK(0003)] et un [VAR PKNICK(0004)] !
+18 : [VAR TRNAME(0000)] envoie [VAR PKNICK(0001)] !
+19 : [VAR TRNAME(0000)] envoie [VAR PKNICK(0001)] et [VAR PKNICK(0002)] !
+20 : [VAR TRNAME(0000)] envoie [VAR PKNICK(0001)], [VAR PKNICK(0002)] et [VAR PKNICK(0003)] !
+21 : [VAR 019E(0000)] envoie[VAR NUMBRNCH(0000,0200)]nt un [VAR PKNICK(0002)]. Voulez-vous changer de Pokémon ?
+22 : [VAR PKNICK(0000)] ! Fonce !
+23 : En avant, [VAR PKNICK(0000)] !
+24 : Un dernier petit effort ! Tiens bon, [VAR PKNICK(0000)] !
+25 : L’ennemi est faible ! C’est le moment, [VAR PKNICK(0000)] !
+26 : [VAR PKNICK(0000)], on change ! Reviens !
+27 : Reviens, [VAR PKNICK(0000)] !
+28 : [VAR PKNICK(0000)], ça suffit ! Reviens !
+29 : OK, [VAR PKNICK(0000)] ! Reviens !
+30 : Bien, [VAR PKNICK(0000)] ! Reviens !
+31 : [VAR 019E(0000)] retire[VAR NUMBRNCH(0000,0200)]nt le [VAR PKNICK(0002)] !
+32 : [VAR TRNAME(0000)] retire [VAR PKNICK(0001)] !
+33 : Touché [VAR NUM1(0000)] fois !
+34 : [VAR TRNAME(0000)] utilise[VAR NUMBRNCH(0000,0200)]nt [VAR 1402(0001)][VAR ITEM2(0001)] !
+35 : [VAR TRNAME(0000)] utilise[VAR NUMBRNCH(0000,0200)]nt [VAR 1402(0001)][VAR ITEM2(0001)] !
+36 : [VAR 019E(0000)] utilise[VAR NUMBRNCH(0000,0200)]nt [VAR 1402(0002)][VAR ITEM2(0002)] !
+37 : [VAR TRNAME(0000)] a tiré [VAR 1400(0002)][VAR ITEM2(0002)] sur [VAR PKNICK(0001)] !
+38 : Vous ne pouvez pas utiliser le Shooter-Miracle pour le moment !
+39 : [VAR TRNAME(0000)] envoie son Pokémon à gauche !
+40 : [VAR TRNAME(0000)] envoie son Pokémon à gauche !
+41 : [VAR TRNAME(0000)] envoie son Pokémon à droite !
+42 : [VAR TRNAME(0000)] envoie son Pokémon à droite !
+43 : [VAR 010C(0000)] a gagné [VAR NUM7(0001,E07F)] Points Exp. !
+44 : [VAR 010C(0000)] a gagné un total de [VAR NUM7(0001,E07F)] Points Exp. !
+45 : Le reste de votre équipe a gagné des Points Exp. grâce au Multi Exp !
+46 : Vous avez battu [VAR 019E(0000)] !
+47 : [VAR 019E(0000)] et [VAR 019E(0002)] ont perdu !
+48 : [VAR 019E(0000)] [VAR NUMBRNCH(0000,0301)]aont gagné !
+49 : Égalité avec [VAR 019E(0000)] !
+50 : [VAR TRNAME(0000)] a perdu !
+51 : [VAR TRNAME(0000)] et [VAR TRNAME(0001)] ont perdu !
+52 : [VAR TRNAME(0000)] a gagné !
+53 : [VAR TRNAME(0000)] et [VAR TRNAME(0001)] ont gagné !
+54 : Égalité avec [VAR TRNAME(0000)] !
+55 : Égalité avec [VAR TRNAME(0000)] et [VAR TRNAME(0001)] !
+56 : [VAR TRNAME(0000)] n’a plus de Pokémon en forme !
+57 : Dans la panique, [VAR TRNAME(0000)] fait tomber [VAR NUM5(0001,E07F)] $ !
+58 : [VAR TRNAME(0000)] donne [VAR NUM5(0001,E07F)] $ au vainqueur.
+59 : … … [VAR TRNAME(0000)] est hors jeu !
+60 : [VAR TRNAME(0000)] remporte [VAR NUM6(0001,E07F)] $ !
+61 : [VAR TRNAME(0000)] obtient [VAR NUM5(0001,E07F)] $ !
+62 : [VAR 010C(0000)] monte au N. [VAR NUM3(0001)] !
+63 : Oh, non ! Le Pokémon s’est libéré !
+64 : Raaah ! Ça y était presque !
+65 : Aaaaah ! Presque !
+66 : Mince ! Ça y était presque !
+67 : Et hop ! [VAR PKNAME(0000)] attrapé !
+68 : Les données du [VAR PKNAME(0000)] sont ajoutées au Pokédex.
+69 : Le Dresseur détourne la Ball ! Ça ne se fait pas de voler les Pokémon !
+70 : Mais ça n’a aucun effet !
+71 : Que doit faire [VAR 010C(0000)] ?
+72 : Que doit faire [VAR TRNAME(0000)] ?
+73 : [VAR 010C(0000)] regarde [VAR TRNAME(0001)] pour savoir quoi faire.
+74 : Mais cela échoue !
+75 : Vous prenez la fuite !
+76 : Vous n’avez pas réussi à fuir.
+77 : Fuite impossible !
+78 : Le [VAR PKNICK(0000)] sauvage prend la fuite !
+79 : On ne s’enfuit pas d’un combat de Dresseurs !
+80 : Voulez-vous abandonner et quitter le combat ?
+81 : C’est super efficace !
+82 : Ce n’est pas très efficace…
+83 : Il se blesse dans sa confusion.
+84 : [VAR BD00(0007,0000,0000)]Coup critique[VAR BD01] !
+85 : Mais il n’y a plus de PP pour cette capacité !
+86 : [VAR TRNAME(0000)] vient au secours de [VAR PKNICK(0001)] et restaure ses PV !
+87 : Les rayons du soleil brillent !
+88 : Il commence à pleuvoir !
+89 : Une tempête de sable se prépare !
+90 : Il commence à grêler !
+91 : Le brouillard devient épais…
+92 : Les rayons du soleil s’affaiblissent !
+93 : La pluie s’est arrêtée !
+94 : La tempête de sable se calme !
+95 : La grêle s’est arrêtée !
+96 : Le brouillard s’est dissipé !
+97 : Les effets de la météo se dissipent !
+98 : La tempête de sable fait rage.
+99 : Il y a un déluge de grêle.
+100 : K.O. en un coup !
+101 : [VAR 1401(0000)][VAR ITEM2(0000)] affaibli[VAR NUMBRNCH(0000,0400)]ssent l’effet de la capacité [VAR MOVE(0001)] !
+102 : [VAR 1401(0000)][VAR ITEM2(0000)] empêche[VAR NUMBRNCH(0000,0200)]nt d’utiliser toute capacité autre que [VAR MOVE(0001)] !
+103 : [VAR 1401(0000)][VAR ITEM2(0000)] empêche[VAR NUMBRNCH(0000,0200)]nt d’utiliser toute attaque de statut !
+104 : [VAR 010C(0000)] ne peut utiliser que la capacité [VAR MOVE(0001)] !
+105 : Les changements de stats ont tous été annulés !
+106 : Mais rien ne se passe !
+107 : [VAR ABILITY(0001)] de [VAR PKNICK(0000)]
+108 : Ampleur 4 !
+109 : Ampleur 5 !
+110 : Ampleur 6 !
+111 : Ampleur 7 !
+112 : Ampleur 8 !
+113 : Ampleur 9 !
+114 : Ampleur 10 !
+115 : Un grelot sonne !
+116 : Une odeur apaisante flotte dans l’air !
+117 : Les adversaires partagent leurs PV !
+118 : La puissance des capacités de type Feu est diminuée !
+119 : L’effet de Tourniquet se dissipe !
+120 : La puissance des capacités de type Électrik est diminuée !
+121 : L’effet de Lance-Boue se dissipe !
+122 : Les dimensions faussées reviennent à la normale !
+123 : La Gravité est intensifiée !
+124 : La Gravité est revenue à la normale !
+125 : Les Pokémon au combat seront K.O. dans 3 tours !
+126 : Métronome lance [VAR MOVE(0000)] !
+127 : Force-Nature provoque [VAR MOVE(0000)].
+128 : Une pluie de pièces !
+129 : Trop faible pour créer un clone !
+130 : Protection augmente la Défense de l’équipe !
+131 : Protection augmente la Défense de l’équipe ennemie !
+132 : Protection n’a plus d’effet sur l’équipe !
+133 : Protection n’a plus d’effet sur l’équipe ennemie !
+134 : Mur Lumière augmente la Défense Spéciale de l’équipe !
+135 : Mur Lumière augmente la Défense Spéciale de l’équipe ennemie !
+136 : Mur Lumière n’a plus d’effet sur l’équipe !
+137 : Mur Lumière n’a plus d’effet sur l’équipe ennemie !
+138 : Votre équipe est recouverte par un voile mystérieux !
+139 : L’équipe ennemie est recouverte par un voile mystérieux !
+140 : Votre équipe n’est plus protégée par le voile mystérieux !
+141 : L’équipe ennemie n’est plus protégée par le voile !
+142 : Votre équipe s’entoure de Brume !
+143 : L’équipe ennemie s’entoure de Brume !
+144 : La Brume autour de l’équipe s’est dissipée !
+145 : La Brume autour de l’équipe ennemie s’est dissipée !
+146 : Un Vent Arrière souffle sur votre équipe !
+147 : Un Vent Arrière souffle sur l’équipe ennemie !
+148 : Le Vent Arrière soufflant sur votre équipe s’arrête !
+149 : Le Vent Arrière soufflant sur l’équipe ennemie s’arrête !
+150 : L’Air Veinard immunise votre équipe contre les coups critiques !
+151 : L’Air Veinard immunise l’équipe ennemie contre les coups critiques !
+152 : L’Air Veinard de votre équipe prend fin !
+153 : L’Air Veinard de l’équipe ennemie prend fin !
+154 : Des Picots s’éparpillent autour de votre équipe !
+155 : Des Picots s’éparpillent autour de l’équipe ennemie !
+156 : Il n’y a plus de Picots autour de votre équipe !
+157 : Il n’y a plus de Picots autour de l’équipe ennemie !
+158 : Des pics toxiques se répandent autour de votre équipe !
+159 : Des pics toxiques se répandent autour de l’équipe ennemie !
+160 : Il n’y a plus de pics toxiques autour de votre équipe !
+161 : Il n’y a plus de pics toxiques autour de l’équipe ennemie !
+162 : Des pierres pointues lévitent autour de votre équipe !
+163 : Des pierres pointues lévitent autour de l’équipe ennemie !
+164 : Les pierres pointues autour de votre équipe ont disparu !
+165 : Les pierres pointues autour de l’équipe ennemie ont disparu !
+166 : Votre équipe est protégée par la Garde Large !
+167 : L’équipe ennemie est protégée par la Garde Large !
+168 : Votre équipe est protégée par la capacité Prévention !
+169 : L’équipe ennemie est protégée par la capacité Prévention !
+170 : Un arc-en-ciel apparaît au-dessus de votre équipe !
+171 : Un arc-en-ciel apparaît au-dessus de l’équipe ennemie !
+172 : L’arc-en-ciel au-dessus de votre équipe a disparu !
+173 : L’arc-en-ciel au-dessus de l’équipe ennemie a disparu !
+174 : Votre équipe est cernée par une mer de feu !
+175 : L’équipe ennemie est cernée par une mer de feu !
+176 : La mer de feu autour de votre équipe a disparu !
+177 : La mer de feu autour de l’équipe ennemie a disparu !
+178 : Votre équipe est cernée par un marécage !
+179 : L’équipe ennemie est cernée par un marécage !
+180 : Le marécage autour de votre équipe a disparu !
+181 : Le marécage autour de l’équipe ennemie a disparu !
+182 : Votre équipe est tendue et ne peut plus manger de Baies !
+183 : L’équipe ennemie est tendue et ne peut plus manger de Baies !
+184 : La Défense et la Défense Spéciale sont interverties !
+185 : La Défense et la Défense Spéciale sont revenues à la normale !
+186 : L’effet des objets tenus est neutralisé !
+187 : L’effet des objets tenus est rétabli !
+188 : [VAR 1401(0000)][VAR ITEM2(0000)] renforce[VAR NUMBRNCH(0000,0200)]nt la capacité [VAR MOVE(0001)] !
+189 : La limite de temps est dépassée ! Fin du combat !
+190 : Le combat est trop long. Fin de la retransmission !
+191 : Mode Transe !
+192 : Mode Normal !
+193 : Les deux capacités se sont combinées !
+194 : [VAR 010C(0000)] n’obéit pas !
+195 : [VAR 010C(0000)] paresse !
+196 : [VAR 010C(0000)] tourne le dos !
+197 : [VAR 010C(0000)] fait semblant de ne rien remarquer !
+198 : [VAR 010C(0000)] ignore les ordres !
+199 : [VAR 010C(0000)] fait la sieste !
+200 : [VAR 010C(0000)] ignore les ordres et dort toujours !
+201 : Réinitialisation !
+202 : Mais cet objet n’est pas utilisable sur cette cible !
+203 : [VAR 010C(0000)] est en Chute Libre ! Cette action est impossible !
+204 : Le combat se termine par un forfait.
+205 : Un beau gazon pousse sur le terrain !
+206 : Le gazon disparaît…
+207 : Le terrain se couvre de brume !
+208 : La brume qui recouvrait le terrain se dissipe…
+209 : De l’électricité parcourt le terrain !
+210 : L’électricité parcourant le terrain s’est dissipée…
+211 : Votre équipe est protégée par la capacité Vigilance !
+212 : L’équipe ennemie est protégée par la capacité Vigilance !
+213 : La capacité [VAR MOVE(0000)] a été bloquée par un tatami !
+214 : Le terrain est couvert d’une Toile Gluante du côté de votre équipe !
+215 : Le terrain est couvert d’une Toile Gluante du côté de l’équipe ennemie !
+216 : La Toile Gluante du côté de votre équipe a disparu !
+217 : La Toile Gluante du côté de l’équipe ennemie a disparu !
+218 : Impossible d’utiliser cette capacité sans avoir mangé de Baie !
+219 : [VAR TRNAME(0000)] ramasse [VAR 1402(0001)][VAR ITEM2(0001)] !
+220 : [VAR 010C(0000)] ne veut pas décevoir [VAR TRNAME(0001)] et endure le choc !
+221 : [VAR 010C(0000)] ne veut pas que [VAR TRNAME(0001)] s’inquiète pour lui et ouvre les yeux !
+222 : [VAR 010C(0000)] ne veut pas que [VAR TRNAME(0001)] s’inquiète pour lui et guérit du poison !
+223 : [VAR 010C(0000)] ne veut pas que [VAR TRNAME(0001)] s’inquiète pour lui et guérit de sa brûlure !
+224 : [VAR 010C(0000)] ne veut pas que [VAR TRNAME(0001)] s’inquiète pour lui et guérit de sa paralysie !
+225 : [VAR 010C(0000)] ne veut pas que [VAR TRNAME(0001)] s’inquiète pour lui et se libère du gel tant bien que mal !
+226 : [VAR 010C(0000)] entend les encouragements de [VAR TRNAME(0001)] et évite l’attaque !
+227 : [VAR 010C(0000)] entend les encouragements de [VAR TRNAME(0001)] et inflige un [VAR BD00(0007,0000,0000)]coup critique[VAR BD01] !
+228 : [VAR 010C(0000)] se tourne vers [VAR TRNAME(0001)] et lui fait signe qu’il est prêt à donner le meilleur de lui-même !
+229 : [VAR 010C(0000)] se tourne vers [VAR TRNAME(0001)] et lui fait signe qu’il lui fait pleinement confiance !
+230 : [VAR 010C(0000)] a pleinement confiance dans la stratégie de [VAR TRNAME(0001)] !
+231 : [VAR 010C(0000)] et [VAR TRNAME(0001)] sont parfaitement synchrones !
+232 : [VAR 010C(0000)] regarde le Sac de [VAR TRNAME(0001)] d’un air intrigué…
+233 : [VAR 010C(0000)] est bien décidé à en découdre !
+234 : [VAR 010C(0000)] a envie de s’amuser avec [VAR TRNAME(0001)], mais le combat passe avant !
+235 : [VAR 010C(0000)] renifle l’adversaire avec intérêt…
+236 : [VAR 010C(0000)] est rassuré en sentant l’odeur de [VAR TRNAME(0001)] près de lui.
+237 : [VAR 010C(0000)] examine les alentours avec curiosité…
+238 : [VAR 010C(0000)] se souvient de sa rencontre avec [VAR TRNAME(0001)]…
+239 : [VAR 010C(0000)] est un peu tendu…
+240 : [VAR 010C(0000)] a l’air dans la lune.
+241 : [VAR 010C(0000)] n’a pas l’air très sûr de lui…
+242 : [VAR 010C(0000)] a l’air décidé !
+243 : [VAR 010C(0000)] a l’air impatient…
+244 : Vas-y, [VAR 010C(0000)] ! J’ai confiance en toi !
+245 : [VAR 010C(0000)], on change ! Je suis fi[VAR GENDBR(00FF,0302)]erère de toi !
+246 : Bravo !
+247 : [VAR 010C(0000)] n’est pas en bonne posture. Il a l’air désespéré…
+248 : [VAR 010C(0000)] est très reconnaissant !
+249 : Il semble appeler son Dresseur dans son sommeil…
+250 : [VAR 018D(0000)] a partagé une [VAR OPOWER(0001)].
+251 : [VAR NUM1(0000)] Pokémon [VAR NUMBRNCH(0000,0E0B)]a été battuont été battus d’un coup !
+252 : Passage en Forme Assaut !
+253 : Passage en Forme Parade !
+254 : [VAR PKNICK(0000)] a révélé [VAR 1402(0001)][VAR ITEM2(0001)] !
+255 : L’ambiance est euphorique !
+256 : Impossible d’utiliser cette capacité en Combat Aérien !
+257 : Un déluge de plasma s’abat sur le terrain !
+258 : Il sera impossible de fuir au tour suivant !
+259 : La Nuée de Poudre entre en réaction avec [VAR MOVE(0000)] et explose !
+260 : Métronome de ([VAR NUM1(0000)]) [VAR NUM3(0001)] : [VAR MOVE(0002)]
+261 : Oh ! Un [VAR PKNAME(0000)] sauvage surgit des fourrés !
+262 : Oh ! Un [VAR PKNAME(0000)] sauvage surgit du sol !
+263 : Oh ! Un [VAR PKNAME(0000)] sauvage fond sur vous !
+264 : Oh ! Un [VAR PKNAME(0000)] sauvage tombe du plafond !
+265 : Oh ! Un [VAR PKNAME(0000)] sauvage surgit de la poubelle !
+266 : L’[VAR OPOWER(0001)] utilisée par [VAR 018D(0000)] est active !
+267 : Félicitations, [VAR TRNAME(0000)] !
+268 : Professeur Seko : Ne… Ne m’abandonne paaaas !!!
+269 : Une pluie battante s’abat soudainement !
+270 : La pluie battante s’est arrêtée…
+271 : Les rayons du soleil s’intensifient !
+272 : Les rayons du soleil s’affaiblissent…
+273 : Un courant aérien mystérieux enveloppe les Pokémon de type Vol !
+274 : Le courant aérien mystérieux s’est dissipé…
+275 : La pluie battante empêche toute attaque de type Feu !
+276 : Le soleil brille si intensément que toute attaque de type Eau s’évapore !
+277 : Impossible de dissiper une telle pluie !
+278 : Le soleil brille si intensément que rien ne peut l’obscurcir !
+279 : Le courant aérien mystérieux affaiblit l’attaque !
+280 : Impossible de ramener l’atmosphère à la normale !
+281 : Mais [VAR PKNICK(0000)] en est incapable sous cette forme !
+282 : Mais [VAR PKNICK(0000)] en est incapable !
+283 : Les Sbires de la [VAR 010E(0000)] envoient une horde de Medhyèna !
+284 : Les Sbires de la [VAR 010E(0000)] envoient une horde de Grahyèna !
+285 : [VAR 019E(0000)] veulent se battre !
+286 : Vous avez battu [VAR 019E(0000)] !
+287 : [~ 287]

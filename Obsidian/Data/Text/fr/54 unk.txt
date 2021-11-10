@@ -1,0 +1,42 @@
+0 : Que voulez-vous faire [VAR 1408(0000,0001)][VAR PKNICK(0000)] ?
+1 : Où voulez-vous déplacer ce Pokémon ?
+2 : Veuillez choisir un Pokémon.
+3 : [VAR PKNICK(0000)] vous a remis [VAR 1400(0001,0000)][VAR ITEM2(0001)] !
+4 : [VAR PKNICK(0000)] ne tient rien.
+5 : Vous ne pouvez pas transporter plus d’exemplaires de cet objet.
+6 : [VAR PKNAME(0000)] a changé de forme !
+7 : Quel objet voulez-vous déplacer ?
+8 : Où doit-il aller ?
+9 : Avec quels Pokémon voulez-vous combattre ?
+10 : Vous ne pouvez pas donner d’objet à un Œuf !
+11 : Vous avez donné l’objet au Pokémon.
+12 : Boîtes PC
+13 : N. [VAR NUM3(0000)]
+14 : [VAR PKNICK(0000)]
+15 : PV
+16 : /
+17 : [VAR 0203(0000,202F)]
+18 : [VAR 0203(0000,202F)]
+19 : Résumé
+20 : Soigner
+21 : Objet
+22 : Retour
+23 : Déplacer
+24 : [VAR 0109(0000)]
+25 : Apte
+26 : Pas apte
+27 : Déjà appris
+28 : Ouvrir le Sac
+29 : Remettre dans le Sac
+30 : Donner un objet
+31 : Retour
+32 :  Sélectionner
+33 :  Retour
+34 :  Déplacer un Pokémon
+35 :  Déplacer un objet
+36 : Retour
+37 : Boîte PC
+38 : Permet de choisir dans votre Sac un objet à utiliser ou à faire tenir à un Pokémon.
+39 : Permet de ranger dans le Sac l’objet tenu par le Pokémon.
+40 : Permet de déplacer l’objet tenu par un Pokémon.
+41 : Retour à l’écran précédent.

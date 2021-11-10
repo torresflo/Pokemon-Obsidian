@@ -84,7 +84,7 @@ module PFM
       code_initialize
       self.shiny = force_shiny if force_shiny
       self.shiny = !no_shiny if no_shiny
-      @level = level.clamp(1, max_level)
+      @level = level.clamp(1, Float::INFINITY)
       @step_remaining = 0
       @ribbons = []
       @skill_learnt = []
@@ -95,9 +95,7 @@ module PFM
       @status = 0
       @status_count = 0
       @battle_stage = Array.new(7, 0)
-      @last_skill = 0
       @position = 0
-      @battle_effect = nil
       @battle_turns = 0
       @mega_evolved = false
     end
@@ -121,7 +119,7 @@ module PFM
     # Method that initialize the data related to caching
     # @param opts [Hash] Hash describing optional value you want to assign to the Pokemon
     def catch_data_initialize(opts)
-      @captured_with = GameData::Item[opts[:captured_with] || :"poké_ball"].id
+      @captured_with = GameData::Item[opts[:captured_with] || :poke_ball].id
       @captured_at = (opts[:captured_at] || Time.now).to_i
       @captured_level = opts[:captured_level] || @level
       @egg_in = opts[:egg_in]
@@ -176,14 +174,14 @@ module PFM
     # Method that initialize the IV data
     # @param opts [Hash] Hash describing optional value you want to assign to the Pokemon
     def iv_data_initialize(opts)
-      iv_base = (Shiny_IV && shiny? ? 15 : 0)
-      iv_rand = (Shiny_IV && shiny? ? 17 : 32)
-      @iv_hp = opts.dig(:stats, GameData::EV::HP) || (Random::IV_HP.rand(iv_rand) + iv_base)
-      @iv_atk = opts.dig(:stats, GameData::EV::ATK) || (Random::IV_ATK.rand(iv_rand) + iv_base)
-      @iv_dfe = opts.dig(:stats, GameData::EV::DFE) || (Random::IV_DFE.rand(iv_rand) + iv_base)
-      @iv_spd = opts.dig(:stats, GameData::EV::SPD) || (Random::IV_SPD.rand(iv_rand) + iv_base)
-      @iv_ats = opts.dig(:stats, GameData::EV::ATS) || (Random::IV_ATS.rand(iv_rand) + iv_base)
-      @iv_dfs = opts.dig(:stats, GameData::EV::DFS) || (Random::IV_DFS.rand(iv_rand) + iv_base)
+      iv_base = (Shiny_IV && shiny? ? 16 : 0)
+      iv_rand = (Shiny_IV && shiny? ? 16 : 32)
+      @iv_hp = (opts.dig(:stats, GameData::EV::HP) || (Random::IV_HP.rand(iv_rand) + iv_base)).clamp(0, 31)
+      @iv_atk = (opts.dig(:stats, GameData::EV::ATK) || (Random::IV_ATK.rand(iv_rand) + iv_base)).clamp(0, 31)
+      @iv_dfe = (opts.dig(:stats, GameData::EV::DFE) || (Random::IV_DFE.rand(iv_rand) + iv_base)).clamp(0, 31)
+      @iv_spd = (opts.dig(:stats, GameData::EV::SPD) || (Random::IV_SPD.rand(iv_rand) + iv_base)).clamp(0, 31)
+      @iv_ats = (opts.dig(:stats, GameData::EV::ATS) || (Random::IV_ATS.rand(iv_rand) + iv_base)).clamp(0, 31)
+      @iv_dfs = (opts.dig(:stats, GameData::EV::DFS) || (Random::IV_DFS.rand(iv_rand) + iv_base)).clamp(0, 31)
     end
 
     # Method that initialize the moveset
@@ -227,7 +225,6 @@ module PFM
         @ability = ability[@ability_index = ABILITY_CHANCES.find_index { |value| value > ability_chance }].to_i
       end
       @ability = GameData::Abilities.find_using_symbol(@ability) unless @ability.is_a?(Integer)
-      @ability_current = @ability
       @ability_used = false
     end
   end

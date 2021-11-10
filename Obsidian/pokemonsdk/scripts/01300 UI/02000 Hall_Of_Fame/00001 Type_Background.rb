@@ -3,10 +3,10 @@ module UI
     # The class that define the type background displayed during phase 1
     class Type_Background < SpriteStack
       # The non-translucent backgrounds
-      # @return [Array<LiteRGSS::Sprite>]
+      # @return [Array<Sprite>]
       attr_accessor :type_foregrounds
       # The translucent backgrounds
-      # @return [Array<LiteRGSS::Sprite>]
+      # @return [Array<Sprite>]
       attr_accessor :type_backgrounds
       # Initialize the SpriteStack
       # @param viewport [Viewport]

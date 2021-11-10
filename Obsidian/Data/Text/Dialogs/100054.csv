@@ -1,0 +1,43 @@
+en,fr,it,de,es,ko,kana
+What do you want to do with [VAR PKNICK(0000)]?,"Que voulez-vous faire [VAR 1408(0000,0001)][VAR PKNICK(0000)] ?","Cosa vuoi fare con [VAR 1500(0000,0000)][VAR PKNICK(0000)]?",[VAR PKNICK(0000)] wurde ausgewählt. Was nun?,"[VAR 1701(0000,0000)][VAR PKNICK(0000)] ha sido seleccionado.",[VAR PKNICK(0000)][VAR 1900(0002)] 어떻게 할까?,[VAR PKNICK(0000)]を　どうする？
+Which Pokémon do you want to swap with?,Où voulez-vous déplacer ce Pokémon ?,Dove vuoi spostare questo Pokémon?,Mit welchem Pokémon austauschen?,¿Por qué Pokémon quieres cambiarlo?,어느 포켓몬과 교체할까?,どのポケモンと　いれかえる？
+Choose a Pokémon.,Veuillez choisir un Pokémon.,Scegli un Pokémon.,Wähle ein Pokémon.,Elige un Pokémon.,포켓몬을 선택해 주십시오,ポケモンを　えらんでください
+You received the [VAR ITEM2(0001)] from [VAR PKNICK(0000)].,"[VAR PKNICK(0000)] vous a remis [VAR 1400(0001,0000)][VAR ITEM2(0001)] !","Hai preso [VAR 1500(0001,0000)][VAR 0109(0001)] di [VAR PKNICK(0000)]!",[VAR ITEM2(0001)] von [VAR PKNICK(0000)] erhalten.,"¡Has recibido [VAR 1700(0001,0000)][VAR 0109(0001)] de [VAR PKNICK(0000)]!",[VAR PKNICK(0000)][VAR 1900(0005)]로부터 [VAR 0109(0001)][VAR 1900(0002)] 가져왔습니다!,[VAR PKNICK(0000)]から [VAR 0109(0001)]を　あずかりました！
+[VAR PKNICK(0000)] isn’t holding anything.,[VAR PKNICK(0000)] ne tient rien.,[VAR PKNICK(0000)] non ha nessuno strumento!,[VAR PKNICK(0000)] trägt kein Item bei sich.,[VAR PKNICK(0000)] no lleva ningún objeto.,[VAR PKNICK(0000)][VAR 1900(0001)] 도구를 아무것도 지니고 있지 않습니다!,[VAR PKNICK(0000)]は　どうぐを なにも　もっていません！
+You can’t receive the item because your Bag is full.,Vous ne pouvez pas transporter plus d’exemplaires de cet objet.,Hai raggiunto il limite per questo strumento!,Du hast keinen Platz dafür!,No te caben más en la Bolsa.,가방이 가득 차서 도구를 받을 수 없습니다!,バッグが　いっぱいで どうぐを　うけとれません！
+[VAR PKNAME(0000)] changed form!,[VAR PKNAME(0000)] a changé de forme !,[VAR PKNAME(0000)] ha cambiato forma!,[VAR PKNAME(0000)] hat seine Form verändert!,[VAR PKNAME(0000)] ha cambiado de forma.,[VAR PKNAME(0000)][VAR 1900(0001)] 다른 모습으로 변화했다,[VAR PKNAME(0000)]は べつの　すがたに　へんかした
+Which item do you want to move?,Quel objet voulez-vous déplacer ?,Quale strumento vuoi spostare?,Welches Item möchtest du bewegen?,¿Qué objeto quieres mover?,어느 지닌물건을 이동할까?,どの　もちものを　いどうする？
+Where do you want to move it to?,Où doit-il aller ?,Dove vuoi spostarlo?,An welche Stelle möchtest du es setzen?,¿Adónde quieres moverlo?,어디와 교체할까?,どこと　いれかえる？
+Which Pokémon will you battle with?,Avec quels Pokémon voulez-vous combattre ?,Chi vuoi mandare in campo?,Mit welchem Pokémon möchtest du kämpfen?,¿Con qué Pokémon quieres combatir?,어느 포켓몬으로 싸우겠습니까?,どの　ポケモンで　たたかう？
+You can’t select an Egg.,Vous ne pouvez pas donner d’objet à un Œuf !,Non puoi scegliere un Uovo.,Ein Ei kann nicht ausgewählt werden.,No puedes seleccionar un Huevo.,알은 선택할 수 없습니다,タマゴは　えらべません
+You gave the item to the Pokémon.,Vous avez donné l’objet au Pokémon.,Hai dato lo strumento al Pokémon.,Du hast das Item dem Pokémon gegeben.,Le has entregado el objeto al Pokémon.,지닌물건을 건넸습니다,もちものを　わたしました
+To Boxes,Boîtes PC,Box del PC,PC-Boxen,Ver cajas,박스로,ボックスへ
+Lv. [VAR NUM3(0000)],N. [VAR NUM3(0000)],L. [VAR NUM3(0000)],Lv. [VAR NUM3(0000)],Nv. [VAR NUM3(0000)],Lv.[VAR NUM3(0000)],Lv.[VAR NUM3(0000)]
+[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)],[VAR PKNICK(0000)]
+HP,PV,PS,KP,PS,HP,HP
+/,/,/,/,/,/,/
+"[VAR 0203(0000,0000)]","[VAR 0203(0000,202F)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]"
+"[VAR 0203(0000,0000)]","[VAR 0203(0000,202F)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]","[VAR 0203(0000,0000)]"
+Check summary,Résumé,Info,Bericht,Datos,능력치를 본다,つよさをみる
+Restore,Soigner,Rimedi,Heilen,Curar,회복한다,かいふくする
+Held item,Objet,Strumenti,Item,Objeto,지닌물건,もちもの
+Back,Retour,Esci,Abbrechen,Salir,그만둔다,やめる
+Swap Pokémon,Déplacer,Sposta Pokémon,Pokémon bewegen,Mover,포켓몬을 교체한다,ポケモンをいれかえる
+[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)],[VAR 0109(0000)]
+Can learn this move!,Apte,Può impararla!,Erlernbar!,Apto,배울 수 있다!,おぼえられる！
+Can’t learn move,Pas apte,Non può impararla!,Nicht erlernbar!,No apto,배울 수 없다,おぼえられない
+Already learned!,Déjà appris,La conosce già.,Bereits erlernt!,Aprendido,이미 알고 있다,おぼえている
+Open your Bag,Ouvrir le Sac,Apri la Borsa,Aus dem Beutel holen,Abrir la Bolsa,가방을 연다,バッグをひらく
+Put it back to your Bag,Remettre dans le Sac,Rimetti nella Borsa,In den Beutel stecken,Devolver a la Bolsa,가방에 넣는다,バッグへもどす
+Give an item,Donner un objet,Sposta,Weitergeben,Pasar objeto,지닌물건을 건넨다,もちものをわたす
+Back,Retour,Indietro,Abbrechen,Salir,그만둔다,やめる
+ Confirm, Sélectionner, Ok, Auswählen, Confirmar,결정,けってい
+ Back, Retour, Indietro, Zurück, Atrás,돌아간다,もどる
+ Swap Pokémon, Déplacer un Pokémon, Sposta Pokémon, Pokémon bewegen, Mover,포켓몬 교체,ポケモンいれかえ
+ Swap Held Items, Déplacer un objet, Sposta strumenti, Item bewegen, Objetos,지닌물건 교체,もちものいれかえ
+ Back,Retour,Esci, Zurück,Salir,그만둔다,やめる
+Box,Boîte PC,Box, PC-Boxen,Caja,박스,ボックス
+You can choose an item in the Bag and use it or give it to a Pokémon.,Permet de choisir dans votre Sac un objet à utiliser ou à faire tenir à un Pokémon.,Scegli uno strumento dalla Borsa per usarlo o darlo a un Pokémon.,Wähle ein Item aus dem Beutel aus und benutze es oder gib es einem Pokémon zum Tragen.,Puedes elegir un objeto de la Bolsa para usarlo o para dárselo al Pokémon.,가방에서 도구를 선택하여 사용하거나 지니게 할 수 있습니다,バッグから　どうぐを　えらんで つかったり　もたせたり　できます
+You can take an item that a Pokémon is holding and put it back in the Bag.,Permet de ranger dans le Sac l’objet tenu par le Pokémon.,Metti lo strumento del Pokémon nella Borsa.,"Lege ein Item, das von einem Pokémon getragen wird, in den Beutel zurück.",Puedes quitarle el objeto que lleva y guardarlo en la Bolsa.,포켓몬이 지니고 있는 도구를 가방에 다시 넣습니다,ポケモンが　もっている　どうぐを バッグに　もどします
+You can move an item that a Pokémon is holding.,Permet de déplacer l’objet tenu par un Pokémon.,Sposta lo strumento del Pokémon.,"Gib ein Item, das von einem Pokémon getragen wird, einem anderen Pokémon zum Tragen.",Puedes darle el objeto que lleva a otro Pokémon.,포켓몬이 지니고 있는 도구를 이동시킬 수 있습니다,ポケモンが　もっている　どうぐを いどうすることが　できます
+This will take you back to the previous screen.,Retour à l’écran précédent.,Torna alla schermata precedente.,Kehre zur vorherigen Auswahl zurück.,Regresa a la pantalla anterior.,이전 화면으로 돌아갑니다,まえの　がめんに　もどります

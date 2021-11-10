@@ -1,0 +1,1866 @@
+0 : !
+1 : !
+2 : !
+3 : [VAR PKNAME(0000)] utilise Écras’Face !
+4 : Le [VAR PKNAME(0000)] sauvage utilise Écras’Face !
+5 : Le [VAR PKNAME(0000)] ennemi utilise Écras’Face !
+6 : [VAR PKNAME(0000)] utilise Poing-Karaté !
+7 : Le [VAR PKNAME(0000)] sauvage utilise Poing-Karaté !
+8 : Le [VAR PKNAME(0000)] ennemi utilise Poing-Karaté !
+9 : [VAR PKNAME(0000)] utilise Torgnoles !
+10 : Le [VAR PKNAME(0000)] sauvage utilise Torgnoles !
+11 : Le [VAR PKNAME(0000)] ennemi utilise Torgnoles !
+12 : [VAR PKNAME(0000)] utilise Poing Comète !
+13 : Le [VAR PKNAME(0000)] sauvage utilise Poing Comète !
+14 : Le [VAR PKNAME(0000)] ennemi utilise Poing Comète !
+15 : [VAR PKNAME(0000)] utilise Ultimapoing !
+16 : Le [VAR PKNAME(0000)] sauvage utilise Ultimapoing !
+17 : Le [VAR PKNAME(0000)] ennemi utilise Ultimapoing !
+18 : [VAR PKNAME(0000)] utilise Jackpot !
+19 : Le [VAR PKNAME(0000)] sauvage utilise Jackpot !
+20 : Le [VAR PKNAME(0000)] ennemi utilise Jackpot !
+21 : [VAR PKNAME(0000)] utilise Poing de Feu !
+22 : Le [VAR PKNAME(0000)] sauvage utilise Poing de Feu !
+23 : Le [VAR PKNAME(0000)] ennemi utilise Poing de Feu !
+24 : [VAR PKNAME(0000)] utilise Poing-Glace !
+25 : Le [VAR PKNAME(0000)] sauvage utilise Poing-Glace !
+26 : Le [VAR PKNAME(0000)] ennemi utilise Poing-Glace !
+27 : [VAR PKNAME(0000)] utilise Poing-Éclair !
+28 : Le [VAR PKNAME(0000)] sauvage utilise Poing-Éclair !
+29 : Le [VAR PKNAME(0000)] ennemi utilise Poing-Éclair !
+30 : [VAR PKNAME(0000)] utilise Griffe !
+31 : Le [VAR PKNAME(0000)] sauvage utilise Griffe !
+32 : Le [VAR PKNAME(0000)] ennemi utilise Griffe !
+33 : [VAR PKNAME(0000)] utilise Force Poigne !
+34 : Le [VAR PKNAME(0000)] sauvage utilise Force Poigne !
+35 : Le [VAR PKNAME(0000)] ennemi utilise Force Poigne !
+36 : [VAR PKNAME(0000)] utilise Guillotine !
+37 : Le [VAR PKNAME(0000)] sauvage utilise Guillotine !
+38 : Le [VAR PKNAME(0000)] ennemi utilise Guillotine !
+39 : [VAR PKNAME(0000)] utilise Coupe-Vent !
+40 : Le [VAR PKNAME(0000)] sauvage utilise Coupe-Vent !
+41 : Le [VAR PKNAME(0000)] ennemi utilise Coupe-Vent !
+42 : [VAR PKNAME(0000)] utilise Danse-Lames !
+43 : Le [VAR PKNAME(0000)] sauvage utilise Danse-Lames !
+44 : Le [VAR PKNAME(0000)] ennemi utilise Danse-Lames !
+45 : [VAR PKNAME(0000)] utilise Coupe !
+46 : Le [VAR PKNAME(0000)] sauvage utilise Coupe !
+47 : Le [VAR PKNAME(0000)] ennemi utilise Coupe !
+48 : [VAR PKNAME(0000)] utilise Tornade !
+49 : Le [VAR PKNAME(0000)] sauvage utilise Tornade !
+50 : Le [VAR PKNAME(0000)] ennemi utilise Tornade !
+51 : [VAR PKNAME(0000)] utilise Cru-Aile !
+52 : Le [VAR PKNAME(0000)] sauvage utilise Cru-Aile !
+53 : Le [VAR PKNAME(0000)] ennemi utilise Cru-Aile !
+54 : [VAR PKNAME(0000)] utilise Cyclone !
+55 : Le [VAR PKNAME(0000)] sauvage utilise Cyclone !
+56 : Le [VAR PKNAME(0000)] ennemi utilise Cyclone !
+57 : [VAR PKNAME(0000)] utilise Vol !
+58 : Le [VAR PKNAME(0000)] sauvage utilise Vol !
+59 : Le [VAR PKNAME(0000)] ennemi utilise Vol !
+60 : [VAR PKNAME(0000)] utilise Étreinte !
+61 : Le [VAR PKNAME(0000)] sauvage utilise Étreinte !
+62 : Le [VAR PKNAME(0000)] ennemi utilise Étreinte !
+63 : [VAR PKNAME(0000)] utilise Souplesse !
+64 : Le [VAR PKNAME(0000)] sauvage utilise Souplesse !
+65 : Le [VAR PKNAME(0000)] ennemi utilise Souplesse !
+66 : [VAR PKNAME(0000)] utilise Fouet Lianes !
+67 : Le [VAR PKNAME(0000)] sauvage utilise Fouet Lianes !
+68 : Le [VAR PKNAME(0000)] ennemi utilise Fouet Lianes !
+69 : [VAR PKNAME(0000)] utilise Écrasement !
+70 : Le [VAR PKNAME(0000)] sauvage utilise Écrasement !
+71 : Le [VAR PKNAME(0000)] ennemi utilise Écrasement !
+72 : [VAR PKNAME(0000)] utilise Double Pied !
+73 : Le [VAR PKNAME(0000)] sauvage utilise Double Pied !
+74 : Le [VAR PKNAME(0000)] ennemi utilise Double Pied !
+75 : [VAR PKNAME(0000)] utilise Ultimawashi !
+76 : Le [VAR PKNAME(0000)] sauvage utilise Ultimawashi !
+77 : Le [VAR PKNAME(0000)] ennemi utilise Ultimawashi !
+78 : [VAR PKNAME(0000)] utilise Pied Sauté !
+79 : Le [VAR PKNAME(0000)] sauvage utilise Pied Sauté !
+80 : Le [VAR PKNAME(0000)] ennemi utilise Pied Sauté !
+81 : [VAR PKNAME(0000)] utilise Mawashi Geri !
+82 : Le [VAR PKNAME(0000)] sauvage utilise Mawashi Geri !
+83 : Le [VAR PKNAME(0000)] ennemi utilise Mawashi Geri !
+84 : [VAR PKNAME(0000)] utilise Jet de Sable !
+85 : Le [VAR PKNAME(0000)] sauvage utilise Jet de Sable !
+86 : Le [VAR PKNAME(0000)] ennemi utilise Jet de Sable !
+87 : [VAR PKNAME(0000)] utilise Coup d’Boule !
+88 : Le [VAR PKNAME(0000)] sauvage utilise Coup d’Boule !
+89 : Le [VAR PKNAME(0000)] ennemi utilise Coup d’Boule !
+90 : [VAR PKNAME(0000)] utilise Koud’Korne !
+91 : Le [VAR PKNAME(0000)] sauvage utilise Koud’Korne !
+92 : Le [VAR PKNAME(0000)] ennemi utilise Koud’Korne !
+93 : [VAR PKNAME(0000)] utilise Furie !
+94 : Le [VAR PKNAME(0000)] sauvage utilise Furie !
+95 : Le [VAR PKNAME(0000)] ennemi utilise Furie !
+96 : [VAR PKNAME(0000)] utilise Empal’Korne !
+97 : Le [VAR PKNAME(0000)] sauvage utilise Empal’Korne !
+98 : Le [VAR PKNAME(0000)] ennemi utilise Empal’Korne !
+99 : [VAR PKNAME(0000)] utilise Charge !
+100 : Le [VAR PKNAME(0000)] sauvage utilise Charge !
+101 : Le [VAR PKNAME(0000)] ennemi utilise Charge !
+102 : [VAR PKNAME(0000)] utilise Plaquage !
+103 : Le [VAR PKNAME(0000)] sauvage utilise Plaquage !
+104 : Le [VAR PKNAME(0000)] ennemi utilise Plaquage !
+105 : [VAR PKNAME(0000)] utilise Ligotage !
+106 : Le [VAR PKNAME(0000)] sauvage utilise Ligotage !
+107 : Le [VAR PKNAME(0000)] ennemi utilise Ligotage !
+108 : [VAR PKNAME(0000)] utilise Bélier !
+109 : Le [VAR PKNAME(0000)] sauvage utilise Bélier !
+110 : Le [VAR PKNAME(0000)] ennemi utilise Bélier !
+111 : [VAR PKNAME(0000)] utilise Mania !
+112 : Le [VAR PKNAME(0000)] sauvage utilise Mania !
+113 : Le [VAR PKNAME(0000)] ennemi utilise Mania !
+114 : [VAR PKNAME(0000)] utilise Damoclès !
+115 : Le [VAR PKNAME(0000)] sauvage utilise Damoclès !
+116 : Le [VAR PKNAME(0000)] ennemi utilise Damoclès !
+117 : [VAR PKNAME(0000)] utilise Mimi-Queue !
+118 : Le [VAR PKNAME(0000)] sauvage utilise Mimi-Queue !
+119 : Le [VAR PKNAME(0000)] ennemi utilise Mimi-Queue !
+120 : [VAR PKNAME(0000)] utilise Dard-Venin !
+121 : Le [VAR PKNAME(0000)] sauvage utilise Dard-Venin !
+122 : Le [VAR PKNAME(0000)] ennemi utilise Dard-Venin !
+123 : [VAR PKNAME(0000)] utilise Double-Dard !
+124 : Le [VAR PKNAME(0000)] sauvage utilise Double-Dard !
+125 : Le [VAR PKNAME(0000)] ennemi utilise Double-Dard !
+126 : [VAR PKNAME(0000)] utilise Dard-Nuée !
+127 : Le [VAR PKNAME(0000)] sauvage utilise Dard-Nuée !
+128 : Le [VAR PKNAME(0000)] ennemi utilise Dard-Nuée !
+129 : [VAR PKNAME(0000)] utilise Groz’Yeux !
+130 : Le [VAR PKNAME(0000)] sauvage utilise Groz’Yeux !
+131 : Le [VAR PKNAME(0000)] ennemi utilise Groz’Yeux !
+132 : [VAR PKNAME(0000)] utilise Morsure !
+133 : Le [VAR PKNAME(0000)] sauvage utilise Morsure !
+134 : Le [VAR PKNAME(0000)] ennemi utilise Morsure !
+135 : [VAR PKNAME(0000)] utilise Rugissement !
+136 : Le [VAR PKNAME(0000)] sauvage utilise Rugissement !
+137 : Le [VAR PKNAME(0000)] ennemi utilise Rugissement !
+138 : [VAR PKNAME(0000)] utilise Hurlement !
+139 : Le [VAR PKNAME(0000)] sauvage utilise Hurlement !
+140 : Le [VAR PKNAME(0000)] ennemi utilise Hurlement !
+141 : [VAR PKNAME(0000)] utilise Berceuse !
+142 : Le [VAR PKNAME(0000)] sauvage utilise Berceuse !
+143 : Le [VAR PKNAME(0000)] ennemi utilise Berceuse !
+144 : [VAR PKNAME(0000)] utilise Ultrason !
+145 : Le [VAR PKNAME(0000)] sauvage utilise Ultrason !
+146 : Le [VAR PKNAME(0000)] ennemi utilise Ultrason !
+147 : [VAR PKNAME(0000)] utilise Sonicboom !
+148 : Le [VAR PKNAME(0000)] sauvage utilise Sonicboom !
+149 : Le [VAR PKNAME(0000)] ennemi utilise Sonicboom !
+150 : [VAR PKNAME(0000)] utilise Entrave !
+151 : Le [VAR PKNAME(0000)] sauvage utilise Entrave !
+152 : Le [VAR PKNAME(0000)] ennemi utilise Entrave !
+153 : [VAR PKNAME(0000)] utilise Acide !
+154 : Le [VAR PKNAME(0000)] sauvage utilise Acide !
+155 : Le [VAR PKNAME(0000)] ennemi utilise Acide !
+156 : [VAR PKNAME(0000)] utilise Flammèche !
+157 : Le [VAR PKNAME(0000)] sauvage utilise Flammèche !
+158 : Le [VAR PKNAME(0000)] ennemi utilise Flammèche !
+159 : [VAR PKNAME(0000)] utilise Lance-Flammes !
+160 : Le [VAR PKNAME(0000)] sauvage utilise Lance-Flammes !
+161 : Le [VAR PKNAME(0000)] ennemi utilise Lance-Flammes !
+162 : [VAR PKNAME(0000)] utilise Brume !
+163 : Le [VAR PKNAME(0000)] sauvage utilise Brume !
+164 : Le [VAR PKNAME(0000)] ennemi utilise Brume !
+165 : [VAR PKNAME(0000)] utilise Pistolet à O !
+166 : Le [VAR PKNAME(0000)] sauvage utilise Pistolet à O !
+167 : Le [VAR PKNAME(0000)] ennemi utilise Pistolet à O !
+168 : [VAR PKNAME(0000)] utilise Hydrocanon !
+169 : Le [VAR PKNAME(0000)] sauvage utilise Hydrocanon !
+170 : Le [VAR PKNAME(0000)] ennemi utilise Hydrocanon !
+171 : [VAR PKNAME(0000)] utilise Surf !
+172 : Le [VAR PKNAME(0000)] sauvage utilise Surf !
+173 : Le [VAR PKNAME(0000)] ennemi utilise Surf !
+174 : [VAR PKNAME(0000)] utilise Laser Glace !
+175 : Le [VAR PKNAME(0000)] sauvage utilise Laser Glace !
+176 : Le [VAR PKNAME(0000)] ennemi utilise Laser Glace !
+177 : [VAR PKNAME(0000)] utilise Blizzard !
+178 : Le [VAR PKNAME(0000)] sauvage utilise Blizzard !
+179 : Le [VAR PKNAME(0000)] ennemi utilise Blizzard !
+180 : [VAR PKNAME(0000)] utilise Rafale Psy !
+181 : Le [VAR PKNAME(0000)] sauvage utilise Rafale Psy !
+182 : Le [VAR PKNAME(0000)] ennemi utilise Rafale Psy !
+183 : [VAR PKNAME(0000)] utilise Bulles d’O !
+184 : Le [VAR PKNAME(0000)] sauvage utilise Bulles d’O !
+185 : Le [VAR PKNAME(0000)] ennemi utilise Bulles d’O !
+186 : [VAR PKNAME(0000)] utilise Onde Boréale !
+187 : Le [VAR PKNAME(0000)] sauvage utilise Onde Boréale !
+188 : Le [VAR PKNAME(0000)] ennemi utilise Onde Boréale !
+189 : [VAR PKNAME(0000)] utilise Ultralaser !
+190 : Le [VAR PKNAME(0000)] sauvage utilise Ultralaser !
+191 : Le [VAR PKNAME(0000)] ennemi utilise Ultralaser !
+192 : [VAR PKNAME(0000)] utilise Picpic !
+193 : Le [VAR PKNAME(0000)] sauvage utilise Picpic !
+194 : Le [VAR PKNAME(0000)] ennemi utilise Picpic !
+195 : [VAR PKNAME(0000)] utilise Bec Vrille !
+196 : Le [VAR PKNAME(0000)] sauvage utilise Bec Vrille !
+197 : Le [VAR PKNAME(0000)] ennemi utilise Bec Vrille !
+198 : [VAR PKNAME(0000)] utilise Sacrifice !
+199 : Le [VAR PKNAME(0000)] sauvage utilise Sacrifice !
+200 : Le [VAR PKNAME(0000)] ennemi utilise Sacrifice !
+201 : [VAR PKNAME(0000)] utilise Balayage !
+202 : Le [VAR PKNAME(0000)] sauvage utilise Balayage !
+203 : Le [VAR PKNAME(0000)] ennemi utilise Balayage !
+204 : [VAR PKNAME(0000)] utilise Riposte !
+205 : Le [VAR PKNAME(0000)] sauvage utilise Riposte !
+206 : Le [VAR PKNAME(0000)] ennemi utilise Riposte !
+207 : [VAR PKNAME(0000)] utilise Frappe Atlas !
+208 : Le [VAR PKNAME(0000)] sauvage utilise Frappe Atlas !
+209 : Le [VAR PKNAME(0000)] ennemi utilise Frappe Atlas !
+210 : [VAR PKNAME(0000)] utilise Force !
+211 : Le [VAR PKNAME(0000)] sauvage utilise Force !
+212 : Le [VAR PKNAME(0000)] ennemi utilise Force !
+213 : [VAR PKNAME(0000)] utilise Vol-Vie !
+214 : Le [VAR PKNAME(0000)] sauvage utilise Vol-Vie !
+215 : Le [VAR PKNAME(0000)] ennemi utilise Vol-Vie !
+216 : [VAR PKNAME(0000)] utilise Méga-Sangsue !
+217 : Le [VAR PKNAME(0000)] sauvage utilise Méga-Sangsue !
+218 : Le [VAR PKNAME(0000)] ennemi utilise Méga-Sangsue !
+219 : [VAR PKNAME(0000)] utilise Vampigraine !
+220 : Le [VAR PKNAME(0000)] sauvage utilise Vampigraine !
+221 : Le [VAR PKNAME(0000)] ennemi utilise Vampigraine !
+222 : [VAR PKNAME(0000)] utilise Croissance !
+223 : Le [VAR PKNAME(0000)] sauvage utilise Croissance !
+224 : Le [VAR PKNAME(0000)] ennemi utilise Croissance !
+225 : [VAR PKNAME(0000)] utilise Tranch’Herbe !
+226 : Le [VAR PKNAME(0000)] sauvage utilise Tranch’Herbe !
+227 : Le [VAR PKNAME(0000)] ennemi utilise Tranch’Herbe !
+228 : [VAR PKNAME(0000)] utilise Lance-Soleil !
+229 : Le [VAR PKNAME(0000)] sauvage utilise Lance-Soleil !
+230 : Le [VAR PKNAME(0000)] ennemi utilise Lance-Soleil !
+231 : [VAR PKNAME(0000)] utilise Poudre Toxik !
+232 : Le [VAR PKNAME(0000)] sauvage utilise Poudre Toxik !
+233 : Le [VAR PKNAME(0000)] ennemi utilise Poudre Toxik !
+234 : [VAR PKNAME(0000)] utilise Para-Spore !
+235 : Le [VAR PKNAME(0000)] sauvage utilise Para-Spore !
+236 : Le [VAR PKNAME(0000)] ennemi utilise Para-Spore !
+237 : [VAR PKNAME(0000)] utilise Poudre Dodo !
+238 : Le [VAR PKNAME(0000)] sauvage utilise Poudre Dodo !
+239 : Le [VAR PKNAME(0000)] ennemi utilise Poudre Dodo !
+240 : [VAR PKNAME(0000)] utilise Danse-Fleur !
+241 : Le [VAR PKNAME(0000)] sauvage utilise Danse-Fleur !
+242 : Le [VAR PKNAME(0000)] ennemi utilise Danse-Fleur !
+243 : [VAR PKNAME(0000)] utilise Sécrétion !
+244 : Le [VAR PKNAME(0000)] sauvage utilise Sécrétion !
+245 : Le [VAR PKNAME(0000)] ennemi utilise Sécrétion !
+246 : [VAR PKNAME(0000)] utilise Draco-Rage !
+247 : Le [VAR PKNAME(0000)] sauvage utilise Draco-Rage !
+248 : Le [VAR PKNAME(0000)] ennemi utilise Draco-Rage !
+249 : [VAR PKNAME(0000)] utilise Danse Flamme !
+250 : Le [VAR PKNAME(0000)] sauvage utilise Danse Flamme !
+251 : Le [VAR PKNAME(0000)] ennemi utilise Danse Flamme !
+252 : [VAR PKNAME(0000)] utilise Éclair !
+253 : Le [VAR PKNAME(0000)] sauvage utilise Éclair !
+254 : Le [VAR PKNAME(0000)] ennemi utilise Éclair !
+255 : [VAR PKNAME(0000)] utilise Tonnerre !
+256 : Le [VAR PKNAME(0000)] sauvage utilise Tonnerre !
+257 : Le [VAR PKNAME(0000)] ennemi utilise Tonnerre !
+258 : [VAR PKNAME(0000)] utilise Cage-Éclair !
+259 : Le [VAR PKNAME(0000)] sauvage utilise Cage-Éclair !
+260 : Le [VAR PKNAME(0000)] ennemi utilise Cage-Éclair !
+261 : [VAR PKNAME(0000)] utilise Fatal-Foudre !
+262 : Le [VAR PKNAME(0000)] sauvage utilise Fatal-Foudre !
+263 : Le [VAR PKNAME(0000)] ennemi utilise Fatal-Foudre !
+264 : [VAR PKNAME(0000)] utilise Jet-Pierres !
+265 : Le [VAR PKNAME(0000)] sauvage utilise Jet-Pierres !
+266 : Le [VAR PKNAME(0000)] ennemi utilise Jet-Pierres !
+267 : [VAR PKNAME(0000)] utilise Séisme !
+268 : Le [VAR PKNAME(0000)] sauvage utilise Séisme !
+269 : Le [VAR PKNAME(0000)] ennemi utilise Séisme !
+270 : [VAR PKNAME(0000)] utilise Abîme !
+271 : Le [VAR PKNAME(0000)] sauvage utilise Abîme !
+272 : Le [VAR PKNAME(0000)] ennemi utilise Abîme !
+273 : [VAR PKNAME(0000)] utilise Tunnel !
+274 : Le [VAR PKNAME(0000)] sauvage utilise Tunnel !
+275 : Le [VAR PKNAME(0000)] ennemi utilise Tunnel !
+276 : [VAR PKNAME(0000)] utilise Toxik !
+277 : Le [VAR PKNAME(0000)] sauvage utilise Toxik !
+278 : Le [VAR PKNAME(0000)] ennemi utilise Toxik !
+279 : [VAR PKNAME(0000)] utilise Choc Mental !
+280 : Le [VAR PKNAME(0000)] sauvage utilise Choc Mental !
+281 : Le [VAR PKNAME(0000)] ennemi utilise Choc Mental !
+282 : [VAR PKNAME(0000)] utilise Psyko !
+283 : Le [VAR PKNAME(0000)] sauvage utilise Psyko !
+284 : Le [VAR PKNAME(0000)] ennemi utilise Psyko !
+285 : [VAR PKNAME(0000)] utilise Hypnose !
+286 : Le [VAR PKNAME(0000)] sauvage utilise Hypnose !
+287 : Le [VAR PKNAME(0000)] ennemi utilise Hypnose !
+288 : [VAR PKNAME(0000)] utilise Yoga !
+289 : Le [VAR PKNAME(0000)] sauvage utilise Yoga !
+290 : Le [VAR PKNAME(0000)] ennemi utilise Yoga !
+291 : [VAR PKNAME(0000)] utilise Hâte !
+292 : Le [VAR PKNAME(0000)] sauvage utilise Hâte !
+293 : Le [VAR PKNAME(0000)] ennemi utilise Hâte !
+294 : [VAR PKNAME(0000)] utilise Vive-Attaque !
+295 : Le [VAR PKNAME(0000)] sauvage utilise Vive-Attaque !
+296 : Le [VAR PKNAME(0000)] ennemi utilise Vive-Attaque !
+297 : [VAR PKNAME(0000)] utilise Frénésie !
+298 : Le [VAR PKNAME(0000)] sauvage utilise Frénésie !
+299 : Le [VAR PKNAME(0000)] ennemi utilise Frénésie !
+300 : [VAR PKNAME(0000)] utilise Téléport !
+301 : Le [VAR PKNAME(0000)] sauvage utilise Téléport !
+302 : Le [VAR PKNAME(0000)] ennemi utilise Téléport !
+303 : [VAR PKNAME(0000)] utilise Ombre Nocturne !
+304 : Le [VAR PKNAME(0000)] sauvage utilise Ombre Nocturne !
+305 : Le [VAR PKNAME(0000)] ennemi utilise Ombre Nocturne !
+306 : [VAR PKNAME(0000)] utilise Copie !
+307 : Le [VAR PKNAME(0000)] sauvage utilise Copie !
+308 : Le [VAR PKNAME(0000)] ennemi utilise Copie !
+309 : [VAR PKNAME(0000)] utilise Grincement !
+310 : Le [VAR PKNAME(0000)] sauvage utilise Grincement !
+311 : Le [VAR PKNAME(0000)] ennemi utilise Grincement !
+312 : [VAR PKNAME(0000)] utilise Reflet !
+313 : Le [VAR PKNAME(0000)] sauvage utilise Reflet !
+314 : Le [VAR PKNAME(0000)] ennemi utilise Reflet !
+315 : [VAR PKNAME(0000)] utilise Soin !
+316 : Le [VAR PKNAME(0000)] sauvage utilise Soin !
+317 : Le [VAR PKNAME(0000)] ennemi utilise Soin !
+318 : [VAR PKNAME(0000)] utilise Armure !
+319 : Le [VAR PKNAME(0000)] sauvage utilise Armure !
+320 : Le [VAR PKNAME(0000)] ennemi utilise Armure !
+321 : [VAR PKNAME(0000)] utilise Lilliput !
+322 : Le [VAR PKNAME(0000)] sauvage utilise Lilliput !
+323 : Le [VAR PKNAME(0000)] ennemi utilise Lilliput !
+324 : [VAR PKNAME(0000)] utilise Brouillard !
+325 : Le [VAR PKNAME(0000)] sauvage utilise Brouillard !
+326 : Le [VAR PKNAME(0000)] ennemi utilise Brouillard !
+327 : [VAR PKNAME(0000)] utilise Onde Folie !
+328 : Le [VAR PKNAME(0000)] sauvage utilise Onde Folie !
+329 : Le [VAR PKNAME(0000)] ennemi utilise Onde Folie !
+330 : [VAR PKNAME(0000)] utilise Repli !
+331 : Le [VAR PKNAME(0000)] sauvage utilise Repli !
+332 : Le [VAR PKNAME(0000)] ennemi utilise Repli !
+333 : [VAR PKNAME(0000)] utilise Boul’Armure !
+334 : Le [VAR PKNAME(0000)] sauvage utilise Boul’Armure !
+335 : Le [VAR PKNAME(0000)] ennemi utilise Boul’Armure !
+336 : [VAR PKNAME(0000)] utilise Bouclier !
+337 : Le [VAR PKNAME(0000)] sauvage utilise Bouclier !
+338 : Le [VAR PKNAME(0000)] ennemi utilise Bouclier !
+339 : [VAR PKNAME(0000)] utilise Mur Lumière !
+340 : Le [VAR PKNAME(0000)] sauvage utilise Mur Lumière !
+341 : Le [VAR PKNAME(0000)] ennemi utilise Mur Lumière !
+342 : [VAR PKNAME(0000)] utilise Buée Noire !
+343 : Le [VAR PKNAME(0000)] sauvage utilise Buée Noire !
+344 : Le [VAR PKNAME(0000)] ennemi utilise Buée Noire !
+345 : [VAR PKNAME(0000)] utilise Protection !
+346 : Le [VAR PKNAME(0000)] sauvage utilise Protection !
+347 : Le [VAR PKNAME(0000)] ennemi utilise Protection !
+348 : [VAR PKNAME(0000)] utilise Puissance !
+349 : Le [VAR PKNAME(0000)] sauvage utilise Puissance !
+350 : Le [VAR PKNAME(0000)] ennemi utilise Puissance !
+351 : [VAR PKNAME(0000)] utilise Patience !
+352 : Le [VAR PKNAME(0000)] sauvage utilise Patience !
+353 : Le [VAR PKNAME(0000)] ennemi utilise Patience !
+354 : [VAR PKNAME(0000)] utilise Métronome !
+355 : Le [VAR PKNAME(0000)] sauvage utilise Métronome !
+356 : Le [VAR PKNAME(0000)] ennemi utilise Métronome !
+357 : [VAR PKNAME(0000)] utilise Mimique !
+358 : Le [VAR PKNAME(0000)] sauvage utilise Mimique !
+359 : Le [VAR PKNAME(0000)] ennemi utilise Mimique !
+360 : [VAR PKNAME(0000)] utilise Destruction !
+361 : Le [VAR PKNAME(0000)] sauvage utilise Destruction !
+362 : Le [VAR PKNAME(0000)] ennemi utilise Destruction !
+363 : [VAR PKNAME(0000)] utilise Bomb’Œuf !
+364 : Le [VAR PKNAME(0000)] sauvage utilise Bomb’Œuf !
+365 : Le [VAR PKNAME(0000)] ennemi utilise Bomb’Œuf !
+366 : [VAR PKNAME(0000)] utilise Léchouille !
+367 : Le [VAR PKNAME(0000)] sauvage utilise Léchouille !
+368 : Le [VAR PKNAME(0000)] ennemi utilise Léchouille !
+369 : [VAR PKNAME(0000)] utilise Purédpois !
+370 : Le [VAR PKNAME(0000)] sauvage utilise Purédpois !
+371 : Le [VAR PKNAME(0000)] ennemi utilise Purédpois !
+372 : [VAR PKNAME(0000)] utilise Détritus !
+373 : Le [VAR PKNAME(0000)] sauvage utilise Détritus !
+374 : Le [VAR PKNAME(0000)] ennemi utilise Détritus !
+375 : [VAR PKNAME(0000)] utilise Massd’Os !
+376 : Le [VAR PKNAME(0000)] sauvage utilise Massd’Os !
+377 : Le [VAR PKNAME(0000)] ennemi utilise Massd’Os !
+378 : [VAR PKNAME(0000)] utilise Déflagration !
+379 : Le [VAR PKNAME(0000)] sauvage utilise Déflagration !
+380 : Le [VAR PKNAME(0000)] ennemi utilise Déflagration !
+381 : [VAR PKNAME(0000)] utilise Cascade !
+382 : Le [VAR PKNAME(0000)] sauvage utilise Cascade !
+383 : Le [VAR PKNAME(0000)] ennemi utilise Cascade !
+384 : [VAR PKNAME(0000)] utilise Claquoir !
+385 : Le [VAR PKNAME(0000)] sauvage utilise Claquoir !
+386 : Le [VAR PKNAME(0000)] ennemi utilise Claquoir !
+387 : [VAR PKNAME(0000)] utilise Météores !
+388 : Le [VAR PKNAME(0000)] sauvage utilise Météores !
+389 : Le [VAR PKNAME(0000)] ennemi utilise Météores !
+390 : [VAR PKNAME(0000)] utilise Coud’Krâne !
+391 : Le [VAR PKNAME(0000)] sauvage utilise Coud’Krâne !
+392 : Le [VAR PKNAME(0000)] ennemi utilise Coud’Krâne !
+393 : [VAR PKNAME(0000)] utilise Picanon !
+394 : Le [VAR PKNAME(0000)] sauvage utilise Picanon !
+395 : Le [VAR PKNAME(0000)] ennemi utilise Picanon !
+396 : [VAR PKNAME(0000)] utilise Constriction !
+397 : Le [VAR PKNAME(0000)] sauvage utilise Constriction !
+398 : Le [VAR PKNAME(0000)] ennemi utilise Constriction !
+399 : [VAR PKNAME(0000)] utilise Amnésie !
+400 : Le [VAR PKNAME(0000)] sauvage utilise Amnésie !
+401 : Le [VAR PKNAME(0000)] ennemi utilise Amnésie !
+402 : [VAR PKNAME(0000)] utilise Télékinésie !
+403 : Le [VAR PKNAME(0000)] sauvage utilise Télékinésie !
+404 : Le [VAR PKNAME(0000)] ennemi utilise Télékinésie !
+405 : [VAR PKNAME(0000)] utilise E-Coque !
+406 : Le [VAR PKNAME(0000)] sauvage utilise E-Coque !
+407 : Le [VAR PKNAME(0000)] ennemi utilise E-Coque !
+408 : [VAR PKNAME(0000)] utilise Pied Voltige !
+409 : Le [VAR PKNAME(0000)] sauvage utilise Pied Voltige !
+410 : Le [VAR PKNAME(0000)] ennemi utilise Pied Voltige !
+411 : [VAR PKNAME(0000)] utilise Regard Médusant !
+412 : Le [VAR PKNAME(0000)] sauvage utilise Regard Médusant !
+413 : Le [VAR PKNAME(0000)] ennemi utilise Regard Médusant !
+414 : [VAR PKNAME(0000)] utilise Dévorêve !
+415 : Le [VAR PKNAME(0000)] sauvage utilise Dévorêve !
+416 : Le [VAR PKNAME(0000)] ennemi utilise Dévorêve !
+417 : [VAR PKNAME(0000)] utilise Gaz Toxik !
+418 : Le [VAR PKNAME(0000)] sauvage utilise Gaz Toxik !
+419 : Le [VAR PKNAME(0000)] ennemi utilise Gaz Toxik !
+420 : [VAR PKNAME(0000)] utilise Pilonnage !
+421 : Le [VAR PKNAME(0000)] sauvage utilise Pilonnage !
+422 : Le [VAR PKNAME(0000)] ennemi utilise Pilonnage !
+423 : [VAR PKNAME(0000)] utilise Vampirisme !
+424 : Le [VAR PKNAME(0000)] sauvage utilise Vampirisme !
+425 : Le [VAR PKNAME(0000)] ennemi utilise Vampirisme !
+426 : [VAR PKNAME(0000)] utilise Grobisou !
+427 : Le [VAR PKNAME(0000)] sauvage utilise Grobisou !
+428 : Le [VAR PKNAME(0000)] ennemi utilise Grobisou !
+429 : [VAR PKNAME(0000)] utilise Piqué !
+430 : Le [VAR PKNAME(0000)] sauvage utilise Piqué !
+431 : Le [VAR PKNAME(0000)] ennemi utilise Piqué !
+432 : [VAR PKNAME(0000)] utilise Morphing !
+433 : Le [VAR PKNAME(0000)] sauvage utilise Morphing !
+434 : Le [VAR PKNAME(0000)] ennemi utilise Morphing !
+435 : [VAR PKNAME(0000)] utilise Écume !
+436 : Le [VAR PKNAME(0000)] sauvage utilise Écume !
+437 : Le [VAR PKNAME(0000)] ennemi utilise Écume !
+438 : [VAR PKNAME(0000)] utilise Uppercut !
+439 : Le [VAR PKNAME(0000)] sauvage utilise Uppercut !
+440 : Le [VAR PKNAME(0000)] ennemi utilise Uppercut !
+441 : [VAR PKNAME(0000)] utilise Spore !
+442 : Le [VAR PKNAME(0000)] sauvage utilise Spore !
+443 : Le [VAR PKNAME(0000)] ennemi utilise Spore !
+444 : [VAR PKNAME(0000)] utilise Flash !
+445 : Le [VAR PKNAME(0000)] sauvage utilise Flash !
+446 : Le [VAR PKNAME(0000)] ennemi utilise Flash !
+447 : [VAR PKNAME(0000)] utilise Vague Psy !
+448 : Le [VAR PKNAME(0000)] sauvage utilise Vague Psy !
+449 : Le [VAR PKNAME(0000)] ennemi utilise Vague Psy !
+450 : [VAR PKNAME(0000)] utilise Trempette !
+451 : Le [VAR PKNAME(0000)] sauvage utilise Trempette !
+452 : Le [VAR PKNAME(0000)] ennemi utilise Trempette !
+453 : [VAR PKNAME(0000)] utilise Acidarmure !
+454 : Le [VAR PKNAME(0000)] sauvage utilise Acidarmure !
+455 : Le [VAR PKNAME(0000)] ennemi utilise Acidarmure !
+456 : [VAR PKNAME(0000)] utilise Pince-Masse !
+457 : Le [VAR PKNAME(0000)] sauvage utilise Pince-Masse !
+458 : Le [VAR PKNAME(0000)] ennemi utilise Pince-Masse !
+459 : [VAR PKNAME(0000)] utilise Explosion !
+460 : Le [VAR PKNAME(0000)] sauvage utilise Explosion !
+461 : Le [VAR PKNAME(0000)] ennemi utilise Explosion !
+462 : [VAR PKNAME(0000)] utilise Combo-Griffe !
+463 : Le [VAR PKNAME(0000)] sauvage utilise Combo-Griffe !
+464 : Le [VAR PKNAME(0000)] ennemi utilise Combo-Griffe !
+465 : [VAR PKNAME(0000)] utilise Osmerang !
+466 : Le [VAR PKNAME(0000)] sauvage utilise Osmerang !
+467 : Le [VAR PKNAME(0000)] ennemi utilise Osmerang !
+468 : [VAR PKNAME(0000)] utilise Repos !
+469 : Le [VAR PKNAME(0000)] sauvage utilise Repos !
+470 : Le [VAR PKNAME(0000)] ennemi utilise Repos !
+471 : [VAR PKNAME(0000)] utilise Éboulement !
+472 : Le [VAR PKNAME(0000)] sauvage utilise Éboulement !
+473 : Le [VAR PKNAME(0000)] ennemi utilise Éboulement !
+474 : [VAR PKNAME(0000)] utilise Croc de Mort !
+475 : Le [VAR PKNAME(0000)] sauvage utilise Croc de Mort !
+476 : Le [VAR PKNAME(0000)] ennemi utilise Croc de Mort !
+477 : [VAR PKNAME(0000)] utilise Affûtage !
+478 : Le [VAR PKNAME(0000)] sauvage utilise Affûtage !
+479 : Le [VAR PKNAME(0000)] ennemi utilise Affûtage !
+480 : [VAR PKNAME(0000)] utilise Conversion !
+481 : Le [VAR PKNAME(0000)] sauvage utilise Conversion !
+482 : Le [VAR PKNAME(0000)] ennemi utilise Conversion !
+483 : [VAR PKNAME(0000)] utilise Triplattaque !
+484 : Le [VAR PKNAME(0000)] sauvage utilise Triplattaque !
+485 : Le [VAR PKNAME(0000)] ennemi utilise Triplattaque !
+486 : [VAR PKNAME(0000)] utilise Croc Fatal !
+487 : Le [VAR PKNAME(0000)] sauvage utilise Croc Fatal !
+488 : Le [VAR PKNAME(0000)] ennemi utilise Croc Fatal !
+489 : [VAR PKNAME(0000)] utilise Tranche !
+490 : Le [VAR PKNAME(0000)] sauvage utilise Tranche !
+491 : Le [VAR PKNAME(0000)] ennemi utilise Tranche !
+492 : [VAR PKNAME(0000)] utilise Clonage !
+493 : Le [VAR PKNAME(0000)] sauvage utilise Clonage !
+494 : Le [VAR PKNAME(0000)] ennemi utilise Clonage !
+495 : [VAR PKNAME(0000)] utilise Lutte !
+496 : Le [VAR PKNAME(0000)] sauvage utilise Lutte !
+497 : Le [VAR PKNAME(0000)] ennemi utilise Lutte !
+498 : [VAR PKNAME(0000)] utilise Gribouille !
+499 : Le [VAR PKNAME(0000)] sauvage utilise Gribouille !
+500 : Le [VAR PKNAME(0000)] ennemi utilise Gribouille !
+501 : [VAR PKNAME(0000)] utilise Triple Pied !
+502 : Le [VAR PKNAME(0000)] sauvage utilise Triple Pied !
+503 : Le [VAR PKNAME(0000)] ennemi utilise Triple Pied !
+504 : [VAR PKNAME(0000)] utilise Larcin !
+505 : Le [VAR PKNAME(0000)] sauvage utilise Larcin !
+506 : Le [VAR PKNAME(0000)] ennemi utilise Larcin !
+507 : [VAR PKNAME(0000)] utilise Toile !
+508 : Le [VAR PKNAME(0000)] sauvage utilise Toile !
+509 : Le [VAR PKNAME(0000)] ennemi utilise Toile !
+510 : [VAR PKNAME(0000)] utilise Lire-Esprit !
+511 : Le [VAR PKNAME(0000)] sauvage utilise Lire-Esprit !
+512 : Le [VAR PKNAME(0000)] ennemi utilise Lire-Esprit !
+513 : [VAR PKNAME(0000)] utilise Cauchemar !
+514 : Le [VAR PKNAME(0000)] sauvage utilise Cauchemar !
+515 : Le [VAR PKNAME(0000)] ennemi utilise Cauchemar !
+516 : [VAR PKNAME(0000)] utilise Roue de Feu !
+517 : Le [VAR PKNAME(0000)] sauvage utilise Roue de Feu !
+518 : Le [VAR PKNAME(0000)] ennemi utilise Roue de Feu !
+519 : [VAR PKNAME(0000)] utilise Ronflement !
+520 : Le [VAR PKNAME(0000)] sauvage utilise Ronflement !
+521 : Le [VAR PKNAME(0000)] ennemi utilise Ronflement !
+522 : [VAR PKNAME(0000)] utilise Malédiction !
+523 : Le [VAR PKNAME(0000)] sauvage utilise Malédiction !
+524 : Le [VAR PKNAME(0000)] ennemi utilise Malédiction !
+525 : [VAR PKNAME(0000)] utilise Fléau !
+526 : Le [VAR PKNAME(0000)] sauvage utilise Fléau !
+527 : Le [VAR PKNAME(0000)] ennemi utilise Fléau !
+528 : [VAR PKNAME(0000)] utilise Conversion 2 !
+529 : Le [VAR PKNAME(0000)] sauvage utilise Conversion 2 !
+530 : Le [VAR PKNAME(0000)] ennemi utilise Conversion 2 !
+531 : [VAR PKNAME(0000)] utilise Aéroblast !
+532 : Le [VAR PKNAME(0000)] sauvage utilise Aéroblast !
+533 : Le [VAR PKNAME(0000)] ennemi utilise Aéroblast !
+534 : [VAR PKNAME(0000)] utilise Spore Coton !
+535 : Le [VAR PKNAME(0000)] sauvage utilise Spore Coton !
+536 : Le [VAR PKNAME(0000)] ennemi utilise Spore Coton !
+537 : [VAR PKNAME(0000)] utilise Contre !
+538 : Le [VAR PKNAME(0000)] sauvage utilise Contre !
+539 : Le [VAR PKNAME(0000)] ennemi utilise Contre !
+540 : [VAR PKNAME(0000)] utilise Dépit !
+541 : Le [VAR PKNAME(0000)] sauvage utilise Dépit !
+542 : Le [VAR PKNAME(0000)] ennemi utilise Dépit !
+543 : [VAR PKNAME(0000)] utilise Poudreuse !
+544 : Le [VAR PKNAME(0000)] sauvage utilise Poudreuse !
+545 : Le [VAR PKNAME(0000)] ennemi utilise Poudreuse !
+546 : [VAR PKNAME(0000)] utilise Abri !
+547 : Le [VAR PKNAME(0000)] sauvage utilise Abri !
+548 : Le [VAR PKNAME(0000)] ennemi utilise Abri !
+549 : [VAR PKNAME(0000)] utilise Mach Punch !
+550 : Le [VAR PKNAME(0000)] sauvage utilise Mach Punch !
+551 : Le [VAR PKNAME(0000)] ennemi utilise Mach Punch !
+552 : [VAR PKNAME(0000)] utilise Grimace !
+553 : Le [VAR PKNAME(0000)] sauvage utilise Grimace !
+554 : Le [VAR PKNAME(0000)] ennemi utilise Grimace !
+555 : [VAR PKNAME(0000)] utilise Feinte !
+556 : Le [VAR PKNAME(0000)] sauvage utilise Feinte !
+557 : Le [VAR PKNAME(0000)] ennemi utilise Feinte !
+558 : [VAR PKNAME(0000)] utilise Doux Baiser !
+559 : Le [VAR PKNAME(0000)] sauvage utilise Doux Baiser !
+560 : Le [VAR PKNAME(0000)] ennemi utilise Doux Baiser !
+561 : [VAR PKNAME(0000)] utilise Cognobidon !
+562 : Le [VAR PKNAME(0000)] sauvage utilise Cognobidon !
+563 : Le [VAR PKNAME(0000)] ennemi utilise Cognobidon !
+564 : [VAR PKNAME(0000)] utilise Bomb-Beurk !
+565 : Le [VAR PKNAME(0000)] sauvage utilise Bomb-Beurk !
+566 : Le [VAR PKNAME(0000)] ennemi utilise Bomb-Beurk !
+567 : [VAR PKNAME(0000)] utilise Coud’Boue !
+568 : Le [VAR PKNAME(0000)] sauvage utilise Coud’Boue !
+569 : Le [VAR PKNAME(0000)] ennemi utilise Coud’Boue !
+570 : [VAR PKNAME(0000)] utilise Octazooka !
+571 : Le [VAR PKNAME(0000)] sauvage utilise Octazooka !
+572 : Le [VAR PKNAME(0000)] ennemi utilise Octazooka !
+573 : [VAR PKNAME(0000)] utilise Picots !
+574 : Le [VAR PKNAME(0000)] sauvage utilise Picots !
+575 : Le [VAR PKNAME(0000)] ennemi utilise Picots !
+576 : [VAR PKNAME(0000)] utilise Élecanon !
+577 : Le [VAR PKNAME(0000)] sauvage utilise Élecanon !
+578 : Le [VAR PKNAME(0000)] ennemi utilise Élecanon !
+579 : [VAR PKNAME(0000)] utilise Clairvoyance !
+580 : Le [VAR PKNAME(0000)] sauvage utilise Clairvoyance !
+581 : Le [VAR PKNAME(0000)] ennemi utilise Clairvoyance !
+582 : [VAR PKNAME(0000)] utilise Prélèvem. Destin !
+583 : Le [VAR PKNAME(0000)] sauvage utilise Prélèvem. Destin !
+584 : Le [VAR PKNAME(0000)] ennemi utilise Prélèvem. Destin !
+585 : [VAR PKNAME(0000)] utilise Requiem !
+586 : Le [VAR PKNAME(0000)] sauvage utilise Requiem !
+587 : Le [VAR PKNAME(0000)] ennemi utilise Requiem !
+588 : [VAR PKNAME(0000)] utilise Vent Glace !
+589 : Le [VAR PKNAME(0000)] sauvage utilise Vent Glace !
+590 : Le [VAR PKNAME(0000)] ennemi utilise Vent Glace !
+591 : [VAR PKNAME(0000)] utilise Détection !
+592 : Le [VAR PKNAME(0000)] sauvage utilise Détection !
+593 : Le [VAR PKNAME(0000)] ennemi utilise Détection !
+594 : [VAR PKNAME(0000)] utilise Charge-Os !
+595 : Le [VAR PKNAME(0000)] sauvage utilise Charge-Os !
+596 : Le [VAR PKNAME(0000)] ennemi utilise Charge-Os !
+597 : [VAR PKNAME(0000)] utilise Verrouillage !
+598 : Le [VAR PKNAME(0000)] sauvage utilise Verrouillage !
+599 : Le [VAR PKNAME(0000)] ennemi utilise Verrouillage !
+600 : [VAR PKNAME(0000)] utilise Colère !
+601 : Le [VAR PKNAME(0000)] sauvage utilise Colère !
+602 : Le [VAR PKNAME(0000)] ennemi utilise Colère !
+603 : [VAR PKNAME(0000)] utilise Tempête de Sable !
+604 : Le [VAR PKNAME(0000)] sauvage utilise Tempête de Sable !
+605 : Le [VAR PKNAME(0000)] ennemi utilise Tempête de Sable !
+606 : [VAR PKNAME(0000)] utilise Giga-Sangsue !
+607 : Le [VAR PKNAME(0000)] sauvage utilise Giga-Sangsue !
+608 : Le [VAR PKNAME(0000)] ennemi utilise Giga-Sangsue !
+609 : [VAR PKNAME(0000)] utilise Ténacité !
+610 : Le [VAR PKNAME(0000)] sauvage utilise Ténacité !
+611 : Le [VAR PKNAME(0000)] ennemi utilise Ténacité !
+612 : [VAR PKNAME(0000)] utilise Charme !
+613 : Le [VAR PKNAME(0000)] sauvage utilise Charme !
+614 : Le [VAR PKNAME(0000)] ennemi utilise Charme !
+615 : [VAR PKNAME(0000)] utilise Roulade !
+616 : Le [VAR PKNAME(0000)] sauvage utilise Roulade !
+617 : Le [VAR PKNAME(0000)] ennemi utilise Roulade !
+618 : [VAR PKNAME(0000)] utilise Faux-Chage !
+619 : Le [VAR PKNAME(0000)] sauvage utilise Faux-Chage !
+620 : Le [VAR PKNAME(0000)] ennemi utilise Faux-Chage !
+621 : [VAR PKNAME(0000)] utilise Vantardise !
+622 : Le [VAR PKNAME(0000)] sauvage utilise Vantardise !
+623 : Le [VAR PKNAME(0000)] ennemi utilise Vantardise !
+624 : [VAR PKNAME(0000)] utilise Lait à Boire !
+625 : Le [VAR PKNAME(0000)] sauvage utilise Lait à Boire !
+626 : Le [VAR PKNAME(0000)] ennemi utilise Lait à Boire !
+627 : [VAR PKNAME(0000)] utilise Étincelle !
+628 : Le [VAR PKNAME(0000)] sauvage utilise Étincelle !
+629 : Le [VAR PKNAME(0000)] ennemi utilise Étincelle !
+630 : [VAR PKNAME(0000)] utilise Taillade !
+631 : Le [VAR PKNAME(0000)] sauvage utilise Taillade !
+632 : Le [VAR PKNAME(0000)] ennemi utilise Taillade !
+633 : [VAR PKNAME(0000)] utilise Aile d’Acier !
+634 : Le [VAR PKNAME(0000)] sauvage utilise Aile d’Acier !
+635 : Le [VAR PKNAME(0000)] ennemi utilise Aile d’Acier !
+636 : [VAR PKNAME(0000)] utilise Regard Noir !
+637 : Le [VAR PKNAME(0000)] sauvage utilise Regard Noir !
+638 : Le [VAR PKNAME(0000)] ennemi utilise Regard Noir !
+639 : [VAR PKNAME(0000)] utilise Attraction !
+640 : Le [VAR PKNAME(0000)] sauvage utilise Attraction !
+641 : Le [VAR PKNAME(0000)] ennemi utilise Attraction !
+642 : [VAR PKNAME(0000)] utilise Blabla Dodo !
+643 : Le [VAR PKNAME(0000)] sauvage utilise Blabla Dodo !
+644 : Le [VAR PKNAME(0000)] ennemi utilise Blabla Dodo !
+645 : [VAR PKNAME(0000)] utilise Glas de Soin !
+646 : Le [VAR PKNAME(0000)] sauvage utilise Glas de Soin !
+647 : Le [VAR PKNAME(0000)] ennemi utilise Glas de Soin !
+648 : [VAR PKNAME(0000)] utilise Retour !
+649 : Le [VAR PKNAME(0000)] sauvage utilise Retour !
+650 : Le [VAR PKNAME(0000)] ennemi utilise Retour !
+651 : [VAR PKNAME(0000)] utilise Cadeau !
+652 : Le [VAR PKNAME(0000)] sauvage utilise Cadeau !
+653 : Le [VAR PKNAME(0000)] ennemi utilise Cadeau !
+654 : [VAR PKNAME(0000)] utilise Frustration !
+655 : Le [VAR PKNAME(0000)] sauvage utilise Frustration !
+656 : Le [VAR PKNAME(0000)] ennemi utilise Frustration !
+657 : [VAR PKNAME(0000)] utilise Rune Protect !
+658 : Le [VAR PKNAME(0000)] sauvage utilise Rune Protect !
+659 : Le [VAR PKNAME(0000)] ennemi utilise Rune Protect !
+660 : [VAR PKNAME(0000)] utilise Balance !
+661 : Le [VAR PKNAME(0000)] sauvage utilise Balance !
+662 : Le [VAR PKNAME(0000)] ennemi utilise Balance !
+663 : [VAR PKNAME(0000)] utilise Feu Sacré !
+664 : Le [VAR PKNAME(0000)] sauvage utilise Feu Sacré !
+665 : Le [VAR PKNAME(0000)] ennemi utilise Feu Sacré !
+666 : [VAR PKNAME(0000)] utilise Ampleur !
+667 : Le [VAR PKNAME(0000)] sauvage utilise Ampleur !
+668 : Le [VAR PKNAME(0000)] ennemi utilise Ampleur !
+669 : [VAR PKNAME(0000)] utilise Dynamopoing !
+670 : Le [VAR PKNAME(0000)] sauvage utilise Dynamopoing !
+671 : Le [VAR PKNAME(0000)] ennemi utilise Dynamopoing !
+672 : [VAR PKNAME(0000)] utilise Mégacorne !
+673 : Le [VAR PKNAME(0000)] sauvage utilise Mégacorne !
+674 : Le [VAR PKNAME(0000)] ennemi utilise Mégacorne !
+675 : [VAR PKNAME(0000)] utilise Dracosouffle !
+676 : Le [VAR PKNAME(0000)] sauvage utilise Dracosouffle !
+677 : Le [VAR PKNAME(0000)] ennemi utilise Dracosouffle !
+678 : [VAR PKNAME(0000)] utilise Relais !
+679 : Le [VAR PKNAME(0000)] sauvage utilise Relais !
+680 : Le [VAR PKNAME(0000)] ennemi utilise Relais !
+681 : [VAR PKNAME(0000)] utilise Encore !
+682 : Le [VAR PKNAME(0000)] sauvage utilise Encore !
+683 : Le [VAR PKNAME(0000)] ennemi utilise Encore !
+684 : [VAR PKNAME(0000)] utilise Poursuite !
+685 : Le [VAR PKNAME(0000)] sauvage utilise Poursuite !
+686 : Le [VAR PKNAME(0000)] ennemi utilise Poursuite !
+687 : [VAR PKNAME(0000)] utilise Tour Rapide !
+688 : Le [VAR PKNAME(0000)] sauvage utilise Tour Rapide !
+689 : Le [VAR PKNAME(0000)] ennemi utilise Tour Rapide !
+690 : [VAR PKNAME(0000)] utilise Doux Parfum !
+691 : Le [VAR PKNAME(0000)] sauvage utilise Doux Parfum !
+692 : Le [VAR PKNAME(0000)] ennemi utilise Doux Parfum !
+693 : [VAR PKNAME(0000)] utilise Queue de Fer !
+694 : Le [VAR PKNAME(0000)] sauvage utilise Queue de Fer !
+695 : Le [VAR PKNAME(0000)] ennemi utilise Queue de Fer !
+696 : [VAR PKNAME(0000)] utilise Griffe Acier !
+697 : Le [VAR PKNAME(0000)] sauvage utilise Griffe Acier !
+698 : Le [VAR PKNAME(0000)] ennemi utilise Griffe Acier !
+699 : [VAR PKNAME(0000)] utilise Corps Perdu !
+700 : Le [VAR PKNAME(0000)] sauvage utilise Corps Perdu !
+701 : Le [VAR PKNAME(0000)] ennemi utilise Corps Perdu !
+702 : [VAR PKNAME(0000)] utilise Aurore !
+703 : Le [VAR PKNAME(0000)] sauvage utilise Aurore !
+704 : Le [VAR PKNAME(0000)] ennemi utilise Aurore !
+705 : [VAR PKNAME(0000)] utilise Synthèse !
+706 : Le [VAR PKNAME(0000)] sauvage utilise Synthèse !
+707 : Le [VAR PKNAME(0000)] ennemi utilise Synthèse !
+708 : [VAR PKNAME(0000)] utilise Rayon Lune !
+709 : Le [VAR PKNAME(0000)] sauvage utilise Rayon Lune !
+710 : Le [VAR PKNAME(0000)] ennemi utilise Rayon Lune !
+711 : [VAR PKNAME(0000)] utilise Puissance Cachée !
+712 : Le [VAR PKNAME(0000)] sauvage utilise Puissance Cachée !
+713 : Le [VAR PKNAME(0000)] ennemi utilise Puissance Cachée !
+714 : [VAR PKNAME(0000)] utilise Coup-Croix !
+715 : Le [VAR PKNAME(0000)] sauvage utilise Coup-Croix !
+716 : Le [VAR PKNAME(0000)] ennemi utilise Coup-Croix !
+717 : [VAR PKNAME(0000)] utilise Ouragan !
+718 : Le [VAR PKNAME(0000)] sauvage utilise Ouragan !
+719 : Le [VAR PKNAME(0000)] ennemi utilise Ouragan !
+720 : [VAR PKNAME(0000)] utilise Danse Pluie !
+721 : Le [VAR PKNAME(0000)] sauvage utilise Danse Pluie !
+722 : Le [VAR PKNAME(0000)] ennemi utilise Danse Pluie !
+723 : [VAR PKNAME(0000)] utilise Zénith !
+724 : Le [VAR PKNAME(0000)] sauvage utilise Zénith !
+725 : Le [VAR PKNAME(0000)] ennemi utilise Zénith !
+726 : [VAR PKNAME(0000)] utilise Mâchouille !
+727 : Le [VAR PKNAME(0000)] sauvage utilise Mâchouille !
+728 : Le [VAR PKNAME(0000)] ennemi utilise Mâchouille !
+729 : [VAR PKNAME(0000)] utilise Voile Miroir !
+730 : Le [VAR PKNAME(0000)] sauvage utilise Voile Miroir !
+731 : Le [VAR PKNAME(0000)] ennemi utilise Voile Miroir !
+732 : [VAR PKNAME(0000)] utilise Boost !
+733 : Le [VAR PKNAME(0000)] sauvage utilise Boost !
+734 : Le [VAR PKNAME(0000)] ennemi utilise Boost !
+735 : [VAR PKNAME(0000)] utilise Vitesse Extrême !
+736 : Le [VAR PKNAME(0000)] sauvage utilise Vitesse Extrême !
+737 : Le [VAR PKNAME(0000)] ennemi utilise Vitesse Extrême !
+738 : [VAR PKNAME(0000)] utilise Pouvoir Antique !
+739 : Le [VAR PKNAME(0000)] sauvage utilise Pouvoir Antique !
+740 : Le [VAR PKNAME(0000)] ennemi utilise Pouvoir Antique !
+741 : [VAR PKNAME(0000)] utilise Ball’Ombre !
+742 : Le [VAR PKNAME(0000)] sauvage utilise Ball’Ombre !
+743 : Le [VAR PKNAME(0000)] ennemi utilise Ball’Ombre !
+744 : [VAR PKNAME(0000)] utilise Prescience !
+745 : Le [VAR PKNAME(0000)] sauvage utilise Prescience !
+746 : Le [VAR PKNAME(0000)] ennemi utilise Prescience !
+747 : [VAR PKNAME(0000)] utilise Éclate-Roc !
+748 : Le [VAR PKNAME(0000)] sauvage utilise Éclate-Roc !
+749 : Le [VAR PKNAME(0000)] ennemi utilise Éclate-Roc !
+750 : [VAR PKNAME(0000)] utilise Siphon !
+751 : Le [VAR PKNAME(0000)] sauvage utilise Siphon !
+752 : Le [VAR PKNAME(0000)] ennemi utilise Siphon !
+753 : [VAR PKNAME(0000)] utilise Baston !
+754 : Le [VAR PKNAME(0000)] sauvage utilise Baston !
+755 : Le [VAR PKNAME(0000)] ennemi utilise Baston !
+756 : [VAR PKNAME(0000)] utilise Bluff !
+757 : Le [VAR PKNAME(0000)] sauvage utilise Bluff !
+758 : Le [VAR PKNAME(0000)] ennemi utilise Bluff !
+759 : [VAR PKNAME(0000)] utilise Brouhaha !
+760 : Le [VAR PKNAME(0000)] sauvage utilise Brouhaha !
+761 : Le [VAR PKNAME(0000)] ennemi utilise Brouhaha !
+762 : [VAR PKNAME(0000)] utilise Stockage !
+763 : Le [VAR PKNAME(0000)] sauvage utilise Stockage !
+764 : Le [VAR PKNAME(0000)] ennemi utilise Stockage !
+765 : [VAR PKNAME(0000)] utilise Relâche !
+766 : Le [VAR PKNAME(0000)] sauvage utilise Relâche !
+767 : Le [VAR PKNAME(0000)] ennemi utilise Relâche !
+768 : [VAR PKNAME(0000)] utilise Avale !
+769 : Le [VAR PKNAME(0000)] sauvage utilise Avale !
+770 : Le [VAR PKNAME(0000)] ennemi utilise Avale !
+771 : [VAR PKNAME(0000)] utilise Canicule !
+772 : Le [VAR PKNAME(0000)] sauvage utilise Canicule !
+773 : Le [VAR PKNAME(0000)] ennemi utilise Canicule !
+774 : [VAR PKNAME(0000)] utilise Grêle !
+775 : Le [VAR PKNAME(0000)] sauvage utilise Grêle !
+776 : Le [VAR PKNAME(0000)] ennemi utilise Grêle !
+777 : [VAR PKNAME(0000)] utilise Tourmente !
+778 : Le [VAR PKNAME(0000)] sauvage utilise Tourmente !
+779 : Le [VAR PKNAME(0000)] ennemi utilise Tourmente !
+780 : [VAR PKNAME(0000)] utilise Flatterie !
+781 : Le [VAR PKNAME(0000)] sauvage utilise Flatterie !
+782 : Le [VAR PKNAME(0000)] ennemi utilise Flatterie !
+783 : [VAR PKNAME(0000)] utilise Feu Follet !
+784 : Le [VAR PKNAME(0000)] sauvage utilise Feu Follet !
+785 : Le [VAR PKNAME(0000)] ennemi utilise Feu Follet !
+786 : [VAR PKNAME(0000)] utilise Souvenir !
+787 : Le [VAR PKNAME(0000)] sauvage utilise Souvenir !
+788 : Le [VAR PKNAME(0000)] ennemi utilise Souvenir !
+789 : [VAR PKNAME(0000)] utilise Façade !
+790 : Le [VAR PKNAME(0000)] sauvage utilise Façade !
+791 : Le [VAR PKNAME(0000)] ennemi utilise Façade !
+792 : [VAR PKNAME(0000)] utilise Mitra-Poing !
+793 : Le [VAR PKNAME(0000)] sauvage utilise Mitra-Poing !
+794 : Le [VAR PKNAME(0000)] ennemi utilise Mitra-Poing !
+795 : [VAR PKNAME(0000)] utilise Stimulant !
+796 : Le [VAR PKNAME(0000)] sauvage utilise Stimulant !
+797 : Le [VAR PKNAME(0000)] ennemi utilise Stimulant !
+798 : [VAR PKNAME(0000)] utilise Par Ici !
+799 : Le [VAR PKNAME(0000)] sauvage utilise Par Ici !
+800 : Le [VAR PKNAME(0000)] ennemi utilise Par Ici !
+801 : [VAR PKNAME(0000)] utilise Force-Nature !
+802 : Le [VAR PKNAME(0000)] sauvage utilise Force-Nature !
+803 : Le [VAR PKNAME(0000)] ennemi utilise Force-Nature !
+804 : [VAR PKNAME(0000)] utilise Chargeur !
+805 : Le [VAR PKNAME(0000)] sauvage utilise Chargeur !
+806 : Le [VAR PKNAME(0000)] ennemi utilise Chargeur !
+807 : [VAR PKNAME(0000)] utilise Provoc !
+808 : Le [VAR PKNAME(0000)] sauvage utilise Provoc !
+809 : Le [VAR PKNAME(0000)] ennemi utilise Provoc !
+810 : [VAR PKNAME(0000)] utilise Coup d’Main !
+811 : Le [VAR PKNAME(0000)] sauvage utilise Coup d’Main !
+812 : Le [VAR PKNAME(0000)] ennemi utilise Coup d’Main !
+813 : [VAR PKNAME(0000)] utilise Tourmagik !
+814 : Le [VAR PKNAME(0000)] sauvage utilise Tourmagik !
+815 : Le [VAR PKNAME(0000)] ennemi utilise Tourmagik !
+816 : [VAR PKNAME(0000)] utilise Imitation !
+817 : Le [VAR PKNAME(0000)] sauvage utilise Imitation !
+818 : Le [VAR PKNAME(0000)] ennemi utilise Imitation !
+819 : [VAR PKNAME(0000)] fait un Vœu !
+820 : Le [VAR PKNAME(0000)] sauvage fait un Vœu !
+821 : Le [VAR PKNAME(0000)] ennemi fait un Vœu !
+822 : [VAR PKNAME(0000)] utilise Assistance !
+823 : Le [VAR PKNAME(0000)] sauvage utilise Assistance !
+824 : Le [VAR PKNAME(0000)] ennemi utilise Assistance !
+825 : [VAR PKNAME(0000)] utilise Racines !
+826 : Le [VAR PKNAME(0000)] sauvage utilise Racines !
+827 : Le [VAR PKNAME(0000)] ennemi utilise Racines !
+828 : [VAR PKNAME(0000)] utilise Surpuissance !
+829 : Le [VAR PKNAME(0000)] sauvage utilise Surpuissance !
+830 : Le [VAR PKNAME(0000)] ennemi utilise Surpuissance !
+831 : [VAR PKNAME(0000)] utilise Reflet Magik !
+832 : Le [VAR PKNAME(0000)] sauvage utilise Reflet Magik !
+833 : Le [VAR PKNAME(0000)] ennemi utilise Reflet Magik !
+834 : [VAR PKNAME(0000)] utilise Recyclage !
+835 : Le [VAR PKNAME(0000)] sauvage utilise Recyclage !
+836 : Le [VAR PKNAME(0000)] ennemi utilise Recyclage !
+837 : [VAR PKNAME(0000)] utilise Vendetta !
+838 : Le [VAR PKNAME(0000)] sauvage utilise Vendetta !
+839 : Le [VAR PKNAME(0000)] ennemi utilise Vendetta !
+840 : [VAR PKNAME(0000)] utilise Casse-Brique !
+841 : Le [VAR PKNAME(0000)] sauvage utilise Casse-Brique !
+842 : Le [VAR PKNAME(0000)] ennemi utilise Casse-Brique !
+843 : [VAR PKNAME(0000)] utilise Bâillement !
+844 : Le [VAR PKNAME(0000)] sauvage utilise Bâillement !
+845 : Le [VAR PKNAME(0000)] ennemi utilise Bâillement !
+846 : [VAR PKNAME(0000)] utilise Sabotage !
+847 : Le [VAR PKNAME(0000)] sauvage utilise Sabotage !
+848 : Le [VAR PKNAME(0000)] ennemi utilise Sabotage !
+849 : [VAR PKNAME(0000)] utilise Effort !
+850 : Le [VAR PKNAME(0000)] sauvage utilise Effort !
+851 : Le [VAR PKNAME(0000)] ennemi utilise Effort !
+852 : [VAR PKNAME(0000)] utilise Éruption !
+853 : Le [VAR PKNAME(0000)] sauvage utilise Éruption !
+854 : Le [VAR PKNAME(0000)] ennemi utilise Éruption !
+855 : [VAR PKNAME(0000)] utilise Échange !
+856 : Le [VAR PKNAME(0000)] sauvage utilise Échange !
+857 : Le [VAR PKNAME(0000)] ennemi utilise Échange !
+858 : [VAR PKNAME(0000)] utilise Possessif !
+859 : Le [VAR PKNAME(0000)] sauvage utilise Possessif !
+860 : Le [VAR PKNAME(0000)] ennemi utilise Possessif !
+861 : [VAR PKNAME(0000)] utilise Régénération !
+862 : Le [VAR PKNAME(0000)] sauvage utilise Régénération !
+863 : Le [VAR PKNAME(0000)] ennemi utilise Régénération !
+864 : [VAR PKNAME(0000)] utilise Rancune !
+865 : Le [VAR PKNAME(0000)] sauvage utilise Rancune !
+866 : Le [VAR PKNAME(0000)] ennemi utilise Rancune !
+867 : [VAR PKNAME(0000)] utilise Saisie !
+868 : Le [VAR PKNAME(0000)] sauvage utilise Saisie !
+869 : Le [VAR PKNAME(0000)] ennemi utilise Saisie !
+870 : [VAR PKNAME(0000)] utilise Force Cachée !
+871 : Le [VAR PKNAME(0000)] sauvage utilise Force Cachée !
+872 : Le [VAR PKNAME(0000)] ennemi utilise Force Cachée !
+873 : [VAR PKNAME(0000)] utilise Plongée !
+874 : Le [VAR PKNAME(0000)] sauvage utilise Plongée !
+875 : Le [VAR PKNAME(0000)] ennemi utilise Plongée !
+876 : [VAR PKNAME(0000)] utilise Cogne !
+877 : Le [VAR PKNAME(0000)] sauvage utilise Cogne !
+878 : Le [VAR PKNAME(0000)] ennemi utilise Cogne !
+879 : [VAR PKNAME(0000)] utilise Camouflage !
+880 : Le [VAR PKNAME(0000)] sauvage utilise Camouflage !
+881 : Le [VAR PKNAME(0000)] ennemi utilise Camouflage !
+882 : [VAR PKNAME(0000)] utilise Lumiqueue !
+883 : Le [VAR PKNAME(0000)] sauvage utilise Lumiqueue !
+884 : Le [VAR PKNAME(0000)] ennemi utilise Lumiqueue !
+885 : [VAR PKNAME(0000)] utilise Lumi-Éclat !
+886 : Le [VAR PKNAME(0000)] sauvage utilise Lumi-Éclat !
+887 : Le [VAR PKNAME(0000)] ennemi utilise Lumi-Éclat !
+888 : [VAR PKNAME(0000)] utilise Ball’Brume !
+889 : Le [VAR PKNAME(0000)] sauvage utilise Ball’Brume !
+890 : Le [VAR PKNAME(0000)] ennemi utilise Ball’Brume !
+891 : [VAR PKNAME(0000)] utilise Danse-Plume !
+892 : Le [VAR PKNAME(0000)] sauvage utilise Danse-Plume !
+893 : Le [VAR PKNAME(0000)] ennemi utilise Danse-Plume !
+894 : [VAR PKNAME(0000)] utilise Danse-Folle !
+895 : Le [VAR PKNAME(0000)] sauvage utilise Danse-Folle !
+896 : Le [VAR PKNAME(0000)] ennemi utilise Danse-Folle !
+897 : [VAR PKNAME(0000)] utilise Pied Brûleur !
+898 : Le [VAR PKNAME(0000)] sauvage utilise Pied Brûleur !
+899 : Le [VAR PKNAME(0000)] ennemi utilise Pied Brûleur !
+900 : [VAR PKNAME(0000)] utilise Lance-Boue !
+901 : Le [VAR PKNAME(0000)] sauvage utilise Lance-Boue !
+902 : Le [VAR PKNAME(0000)] ennemi utilise Lance-Boue !
+903 : [VAR PKNAME(0000)] utilise Ball’Glace !
+904 : Le [VAR PKNAME(0000)] sauvage utilise Ball’Glace !
+905 : Le [VAR PKNAME(0000)] ennemi utilise Ball’Glace !
+906 : [VAR PKNAME(0000)] utilise Poing Dard !
+907 : Le [VAR PKNAME(0000)] sauvage utilise Poing Dard !
+908 : Le [VAR PKNAME(0000)] ennemi utilise Poing Dard !
+909 : [VAR PKNAME(0000)] utilise Paresse !
+910 : Le [VAR PKNAME(0000)] sauvage utilise Paresse !
+911 : Le [VAR PKNAME(0000)] ennemi utilise Paresse !
+912 : [VAR PKNAME(0000)] utilise Mégaphone !
+913 : Le [VAR PKNAME(0000)] sauvage utilise Mégaphone !
+914 : Le [VAR PKNAME(0000)] ennemi utilise Mégaphone !
+915 : [VAR PKNAME(0000)] utilise Crochet Venin !
+916 : Le [VAR PKNAME(0000)] sauvage utilise Crochet Venin !
+917 : Le [VAR PKNAME(0000)] ennemi utilise Crochet Venin !
+918 : [VAR PKNAME(0000)] utilise Éclate Griffe !
+919 : Le [VAR PKNAME(0000)] sauvage utilise Éclate Griffe !
+920 : Le [VAR PKNAME(0000)] ennemi utilise Éclate Griffe !
+921 : [VAR PKNAME(0000)] utilise Rafale Feu !
+922 : Le [VAR PKNAME(0000)] sauvage utilise Rafale Feu !
+923 : Le [VAR PKNAME(0000)] ennemi utilise Rafale Feu !
+924 : [VAR PKNAME(0000)] utilise Hydroblast !
+925 : Le [VAR PKNAME(0000)] sauvage utilise Hydroblast !
+926 : Le [VAR PKNAME(0000)] ennemi utilise Hydroblast !
+927 : [VAR PKNAME(0000)] utilise Poing Météor !
+928 : Le [VAR PKNAME(0000)] sauvage utilise Poing Météor !
+929 : Le [VAR PKNAME(0000)] ennemi utilise Poing Météor !
+930 : [VAR PKNAME(0000)] utilise Étonnement !
+931 : Le [VAR PKNAME(0000)] sauvage utilise Étonnement !
+932 : Le [VAR PKNAME(0000)] ennemi utilise Étonnement !
+933 : [VAR PKNAME(0000)] utilise Ball’Météo !
+934 : Le [VAR PKNAME(0000)] sauvage utilise Ball’Météo !
+935 : Le [VAR PKNAME(0000)] ennemi utilise Ball’Météo !
+936 : [VAR PKNAME(0000)] utilise Aromathérapie !
+937 : Le [VAR PKNAME(0000)] sauvage utilise Aromathérapie !
+938 : Le [VAR PKNAME(0000)] ennemi utilise Aromathérapie !
+939 : [VAR PKNAME(0000)] utilise Croco Larme !
+940 : Le [VAR PKNAME(0000)] sauvage utilise Croco Larme !
+941 : Le [VAR PKNAME(0000)] ennemi utilise Croco Larme !
+942 : [VAR PKNAME(0000)] utilise Tranch’Air !
+943 : Le [VAR PKNAME(0000)] sauvage utilise Tranch’Air !
+944 : Le [VAR PKNAME(0000)] ennemi utilise Tranch’Air !
+945 : [VAR PKNAME(0000)] utilise Surchauffe !
+946 : Le [VAR PKNAME(0000)] sauvage utilise Surchauffe !
+947 : Le [VAR PKNAME(0000)] ennemi utilise Surchauffe !
+948 : [VAR PKNAME(0000)] utilise Flair !
+949 : Le [VAR PKNAME(0000)] sauvage utilise Flair !
+950 : Le [VAR PKNAME(0000)] ennemi utilise Flair !
+951 : [VAR PKNAME(0000)] utilise Tomberoche !
+952 : Le [VAR PKNAME(0000)] sauvage utilise Tomberoche !
+953 : Le [VAR PKNAME(0000)] ennemi utilise Tomberoche !
+954 : [VAR PKNAME(0000)] utilise Vent Argenté !
+955 : Le [VAR PKNAME(0000)] sauvage utilise Vent Argenté !
+956 : Le [VAR PKNAME(0000)] ennemi utilise Vent Argenté !
+957 : [VAR PKNAME(0000)] utilise Strido-Son !
+958 : Le [VAR PKNAME(0000)] sauvage utilise Strido-Son !
+959 : Le [VAR PKNAME(0000)] ennemi utilise Strido-Son !
+960 : [VAR PKNAME(0000)] utilise Siffl’Herbe !
+961 : Le [VAR PKNAME(0000)] sauvage utilise Siffl’Herbe !
+962 : Le [VAR PKNAME(0000)] ennemi utilise Siffl’Herbe !
+963 : [VAR PKNAME(0000)] utilise Chatouille !
+964 : Le [VAR PKNAME(0000)] sauvage utilise Chatouille !
+965 : Le [VAR PKNAME(0000)] ennemi utilise Chatouille !
+966 : [VAR PKNAME(0000)] utilise Force Cosmik !
+967 : Le [VAR PKNAME(0000)] sauvage utilise Force Cosmik !
+968 : Le [VAR PKNAME(0000)] ennemi utilise Force Cosmik !
+969 : [VAR PKNAME(0000)] utilise Giclédo !
+970 : Le [VAR PKNAME(0000)] sauvage utilise Giclédo !
+971 : Le [VAR PKNAME(0000)] ennemi utilise Giclédo !
+972 : [VAR PKNAME(0000)] utilise Rayon Signal !
+973 : Le [VAR PKNAME(0000)] sauvage utilise Rayon Signal !
+974 : Le [VAR PKNAME(0000)] ennemi utilise Rayon Signal !
+975 : [VAR PKNAME(0000)] utilise Poing Ombre !
+976 : Le [VAR PKNAME(0000)] sauvage utilise Poing Ombre !
+977 : Le [VAR PKNAME(0000)] ennemi utilise Poing Ombre !
+978 : [VAR PKNAME(0000)] utilise Extrasenseur !
+979 : Le [VAR PKNAME(0000)] sauvage utilise Extrasenseur !
+980 : Le [VAR PKNAME(0000)] ennemi utilise Extrasenseur !
+981 : [VAR PKNAME(0000)] utilise Stratopercut !
+982 : Le [VAR PKNAME(0000)] sauvage utilise Stratopercut !
+983 : Le [VAR PKNAME(0000)] ennemi utilise Stratopercut !
+984 : [VAR PKNAME(0000)] utilise Tourbi-Sable !
+985 : Le [VAR PKNAME(0000)] sauvage utilise Tourbi-Sable !
+986 : Le [VAR PKNAME(0000)] ennemi utilise Tourbi-Sable !
+987 : [VAR PKNAME(0000)] utilise Glaciation !
+988 : Le [VAR PKNAME(0000)] sauvage utilise Glaciation !
+989 : Le [VAR PKNAME(0000)] ennemi utilise Glaciation !
+990 : [VAR PKNAME(0000)] utilise Ocroupi !
+991 : Le [VAR PKNAME(0000)] sauvage utilise Ocroupi !
+992 : Le [VAR PKNAME(0000)] ennemi utilise Ocroupi !
+993 : [VAR PKNAME(0000)] utilise Balle Graine !
+994 : Le [VAR PKNAME(0000)] sauvage utilise Balle Graine !
+995 : Le [VAR PKNAME(0000)] ennemi utilise Balle Graine !
+996 : [VAR PKNAME(0000)] utilise Aéropique !
+997 : Le [VAR PKNAME(0000)] sauvage utilise Aéropique !
+998 : Le [VAR PKNAME(0000)] ennemi utilise Aéropique !
+999 : [VAR PKNAME(0000)] utilise Stalagtite !
+1000 : Le [VAR PKNAME(0000)] sauvage utilise Stalagtite !
+1001 : Le [VAR PKNAME(0000)] ennemi utilise Stalagtite !
+1002 : [VAR PKNAME(0000)] utilise Mur de Fer !
+1003 : Le [VAR PKNAME(0000)] sauvage utilise Mur de Fer !
+1004 : Le [VAR PKNAME(0000)] ennemi utilise Mur de Fer !
+1005 : [VAR PKNAME(0000)] utilise Barrage !
+1006 : Le [VAR PKNAME(0000)] sauvage utilise Barrage !
+1007 : Le [VAR PKNAME(0000)] ennemi utilise Barrage !
+1008 : [VAR PKNAME(0000)] utilise Grondement !
+1009 : Le [VAR PKNAME(0000)] sauvage utilise Grondement !
+1010 : Le [VAR PKNAME(0000)] ennemi utilise Grondement !
+1011 : [VAR PKNAME(0000)] utilise Dracogriffe !
+1012 : Le [VAR PKNAME(0000)] sauvage utilise Dracogriffe !
+1013 : Le [VAR PKNAME(0000)] ennemi utilise Dracogriffe !
+1014 : [VAR PKNAME(0000)] utilise Végé-Attak !
+1015 : Le [VAR PKNAME(0000)] sauvage utilise Végé-Attak !
+1016 : Le [VAR PKNAME(0000)] ennemi utilise Végé-Attak !
+1017 : [VAR PKNAME(0000)] utilise Gonflette !
+1018 : Le [VAR PKNAME(0000)] sauvage utilise Gonflette !
+1019 : Le [VAR PKNAME(0000)] ennemi utilise Gonflette !
+1020 : [VAR PKNAME(0000)] utilise Rebond !
+1021 : Le [VAR PKNAME(0000)] sauvage utilise Rebond !
+1022 : Le [VAR PKNAME(0000)] ennemi utilise Rebond !
+1023 : [VAR PKNAME(0000)] utilise Tir de Boue !
+1024 : Le [VAR PKNAME(0000)] sauvage utilise Tir de Boue !
+1025 : Le [VAR PKNAME(0000)] ennemi utilise Tir de Boue !
+1026 : [VAR PKNAME(0000)] utilise Queue-Poison !
+1027 : Le [VAR PKNAME(0000)] sauvage utilise Queue-Poison !
+1028 : Le [VAR PKNAME(0000)] ennemi utilise Queue-Poison !
+1029 : [VAR PKNAME(0000)] utilise Implore !
+1030 : Le [VAR PKNAME(0000)] sauvage utilise Implore !
+1031 : Le [VAR PKNAME(0000)] ennemi utilise Implore !
+1032 : [VAR PKNAME(0000)] utilise Électacle !
+1033 : Le [VAR PKNAME(0000)] sauvage utilise Électacle !
+1034 : Le [VAR PKNAME(0000)] ennemi utilise Électacle !
+1035 : [VAR PKNAME(0000)] utilise Feuille Magik !
+1036 : Le [VAR PKNAME(0000)] sauvage utilise Feuille Magik !
+1037 : Le [VAR PKNAME(0000)] ennemi utilise Feuille Magik !
+1038 : [VAR PKNAME(0000)] utilise Tourniquet !
+1039 : Le [VAR PKNAME(0000)] sauvage utilise Tourniquet !
+1040 : Le [VAR PKNAME(0000)] ennemi utilise Tourniquet !
+1041 : [VAR PKNAME(0000)] utilise Plénitude !
+1042 : Le [VAR PKNAME(0000)] sauvage utilise Plénitude !
+1043 : Le [VAR PKNAME(0000)] ennemi utilise Plénitude !
+1044 : [VAR PKNAME(0000)] utilise Lame-Feuille !
+1045 : Le [VAR PKNAME(0000)] sauvage utilise Lame-Feuille !
+1046 : Le [VAR PKNAME(0000)] ennemi utilise Lame-Feuille !
+1047 : [VAR PKNAME(0000)] utilise Danse Draco !
+1048 : Le [VAR PKNAME(0000)] sauvage utilise Danse Draco !
+1049 : Le [VAR PKNAME(0000)] ennemi utilise Danse Draco !
+1050 : [VAR PKNAME(0000)] utilise Boule Roc !
+1051 : Le [VAR PKNAME(0000)] sauvage utilise Boule Roc !
+1052 : Le [VAR PKNAME(0000)] ennemi utilise Boule Roc !
+1053 : [VAR PKNAME(0000)] utilise Onde de Choc !
+1054 : Le [VAR PKNAME(0000)] sauvage utilise Onde de Choc !
+1055 : Le [VAR PKNAME(0000)] ennemi utilise Onde de Choc !
+1056 : [VAR PKNAME(0000)] utilise Vibraqua !
+1057 : Le [VAR PKNAME(0000)] sauvage utilise Vibraqua !
+1058 : Le [VAR PKNAME(0000)] ennemi utilise Vibraqua !
+1059 : [VAR PKNAME(0000)] utilise Carnareket !
+1060 : Le [VAR PKNAME(0000)] sauvage utilise Carnareket !
+1061 : Le [VAR PKNAME(0000)] ennemi utilise Carnareket !
+1062 : [VAR PKNAME(0000)] utilise Psycho Boost !
+1063 : Le [VAR PKNAME(0000)] sauvage utilise Psycho Boost !
+1064 : Le [VAR PKNAME(0000)] ennemi utilise Psycho Boost !
+1065 : [VAR PKNAME(0000)] utilise Atterrissage !
+1066 : Le [VAR PKNAME(0000)] sauvage utilise Atterrissage !
+1067 : Le [VAR PKNAME(0000)] ennemi utilise Atterrissage !
+1068 : [VAR PKNAME(0000)] utilise Gravité !
+1069 : Le [VAR PKNAME(0000)] sauvage utilise Gravité !
+1070 : Le [VAR PKNAME(0000)] ennemi utilise Gravité !
+1071 : [VAR PKNAME(0000)] utilise Œil Miracle !
+1072 : Le [VAR PKNAME(0000)] sauvage utilise Œil Miracle !
+1073 : Le [VAR PKNAME(0000)] ennemi utilise Œil Miracle !
+1074 : [VAR PKNAME(0000)] utilise Réveil Forcé !
+1075 : Le [VAR PKNAME(0000)] sauvage utilise Réveil Forcé !
+1076 : Le [VAR PKNAME(0000)] ennemi utilise Réveil Forcé !
+1077 : [VAR PKNAME(0000)] utilise Marto-Poing !
+1078 : Le [VAR PKNAME(0000)] sauvage utilise Marto-Poing !
+1079 : Le [VAR PKNAME(0000)] ennemi utilise Marto-Poing !
+1080 : [VAR PKNAME(0000)] utilise Gyroballe !
+1081 : Le [VAR PKNAME(0000)] sauvage utilise Gyroballe !
+1082 : Le [VAR PKNAME(0000)] ennemi utilise Gyroballe !
+1083 : [VAR PKNAME(0000)] utilise Vœu Soin !
+1084 : Le [VAR PKNAME(0000)] sauvage utilise Vœu Soin !
+1085 : Le [VAR PKNAME(0000)] ennemi utilise Vœu Soin !
+1086 : [VAR PKNAME(0000)] utilise Saumure !
+1087 : Le [VAR PKNAME(0000)] sauvage utilise Saumure !
+1088 : Le [VAR PKNAME(0000)] ennemi utilise Saumure !
+1089 : [VAR PKNAME(0000)] utilise Don Naturel !
+1090 : Le [VAR PKNAME(0000)] sauvage utilise Don Naturel !
+1091 : Le [VAR PKNAME(0000)] ennemi utilise Don Naturel !
+1092 : [VAR PKNAME(0000)] utilise Ruse !
+1093 : Le [VAR PKNAME(0000)] sauvage utilise Ruse !
+1094 : Le [VAR PKNAME(0000)] ennemi utilise Ruse !
+1095 : [VAR PKNAME(0000)] utilise Picore !
+1096 : Le [VAR PKNAME(0000)] sauvage utilise Picore !
+1097 : Le [VAR PKNAME(0000)] ennemi utilise Picore !
+1098 : [VAR PKNAME(0000)] utilise Vent Arrière !
+1099 : Le [VAR PKNAME(0000)] sauvage utilise Vent Arrière !
+1100 : Le [VAR PKNAME(0000)] ennemi utilise Vent Arrière !
+1101 : [VAR PKNAME(0000)] utilise Acupression !
+1102 : Le [VAR PKNAME(0000)] sauvage utilise Acupression !
+1103 : Le [VAR PKNAME(0000)] ennemi utilise Acupression !
+1104 : [VAR PKNAME(0000)] utilise Fulmifer !
+1105 : Le [VAR PKNAME(0000)] sauvage utilise Fulmifer !
+1106 : Le [VAR PKNAME(0000)] ennemi utilise Fulmifer !
+1107 : [VAR PKNAME(0000)] utilise Demi-Tour !
+1108 : Le [VAR PKNAME(0000)] sauvage utilise Demi-Tour !
+1109 : Le [VAR PKNAME(0000)] ennemi utilise Demi-Tour !
+1110 : [VAR PKNAME(0000)] utilise Close Combat !
+1111 : Le [VAR PKNAME(0000)] sauvage utilise Close Combat !
+1112 : Le [VAR PKNAME(0000)] ennemi utilise Close Combat !
+1113 : [VAR PKNAME(0000)] utilise Représailles !
+1114 : Le [VAR PKNAME(0000)] sauvage utilise Représailles !
+1115 : Le [VAR PKNAME(0000)] ennemi utilise Représailles !
+1116 : [VAR PKNAME(0000)] utilise Assurance !
+1117 : Le [VAR PKNAME(0000)] sauvage utilise Assurance !
+1118 : Le [VAR PKNAME(0000)] ennemi utilise Assurance !
+1119 : [VAR PKNAME(0000)] utilise Embargo !
+1120 : Le [VAR PKNAME(0000)] sauvage utilise Embargo !
+1121 : Le [VAR PKNAME(0000)] ennemi utilise Embargo !
+1122 : [VAR PKNAME(0000)] utilise Dégommage !
+1123 : Le [VAR PKNAME(0000)] sauvage utilise Dégommage !
+1124 : Le [VAR PKNAME(0000)] ennemi utilise Dégommage !
+1125 : [VAR PKNAME(0000)] utilise Échange Psy !
+1126 : Le [VAR PKNAME(0000)] sauvage utilise Échange Psy !
+1127 : Le [VAR PKNAME(0000)] ennemi utilise Échange Psy !
+1128 : [VAR PKNAME(0000)] utilise Atout !
+1129 : Le [VAR PKNAME(0000)] sauvage utilise Atout !
+1130 : Le [VAR PKNAME(0000)] ennemi utilise Atout !
+1131 : [VAR PKNAME(0000)] utilise Anti-Soin !
+1132 : Le [VAR PKNAME(0000)] sauvage utilise Anti-Soin !
+1133 : Le [VAR PKNAME(0000)] ennemi utilise Anti-Soin !
+1134 : [VAR PKNAME(0000)] utilise Essorage !
+1135 : Le [VAR PKNAME(0000)] sauvage utilise Essorage !
+1136 : Le [VAR PKNAME(0000)] ennemi utilise Essorage !
+1137 : [VAR PKNAME(0000)] utilise Astuce Force !
+1138 : Le [VAR PKNAME(0000)] sauvage utilise Astuce Force !
+1139 : Le [VAR PKNAME(0000)] ennemi utilise Astuce Force !
+1140 : [VAR PKNAME(0000)] utilise Suc Digestif !
+1141 : Le [VAR PKNAME(0000)] sauvage utilise Suc Digestif !
+1142 : Le [VAR PKNAME(0000)] ennemi utilise Suc Digestif !
+1143 : [VAR PKNAME(0000)] utilise Air Veinard !
+1144 : Le [VAR PKNAME(0000)] sauvage utilise Air Veinard !
+1145 : Le [VAR PKNAME(0000)] ennemi utilise Air Veinard !
+1146 : [VAR PKNAME(0000)] utilise Moi d’Abord !
+1147 : Le [VAR PKNAME(0000)] sauvage utilise Moi d’Abord !
+1148 : Le [VAR PKNAME(0000)] ennemi utilise Moi d’Abord !
+1149 : [VAR PKNAME(0000)] utilise Photocopie !
+1150 : Le [VAR PKNAME(0000)] sauvage utilise Photocopie !
+1151 : Le [VAR PKNAME(0000)] ennemi utilise Photocopie !
+1152 : [VAR PKNAME(0000)] utilise Permuforce !
+1153 : Le [VAR PKNAME(0000)] sauvage utilise Permuforce !
+1154 : Le [VAR PKNAME(0000)] ennemi utilise Permuforce !
+1155 : [VAR PKNAME(0000)] utilise Permugarde !
+1156 : Le [VAR PKNAME(0000)] sauvage utilise Permugarde !
+1157 : Le [VAR PKNAME(0000)] ennemi utilise Permugarde !
+1158 : [VAR PKNAME(0000)] utilise Punition !
+1159 : Le [VAR PKNAME(0000)] sauvage utilise Punition !
+1160 : Le [VAR PKNAME(0000)] ennemi utilise Punition !
+1161 : [VAR PKNAME(0000)] utilise Dernier Recours !
+1162 : Le [VAR PKNAME(0000)] sauvage utilise Dernier Recours !
+1163 : Le [VAR PKNAME(0000)] ennemi utilise Dernier Recours !
+1164 : [VAR PKNAME(0000)] utilise Soucigraine !
+1165 : Le [VAR PKNAME(0000)] sauvage utilise Soucigraine !
+1166 : Le [VAR PKNAME(0000)] ennemi utilise Soucigraine !
+1167 : [VAR PKNAME(0000)] utilise Coup Bas !
+1168 : Le [VAR PKNAME(0000)] sauvage utilise Coup Bas !
+1169 : Le [VAR PKNAME(0000)] ennemi utilise Coup Bas !
+1170 : [VAR PKNAME(0000)] utilise Pics Toxik !
+1171 : Le [VAR PKNAME(0000)] sauvage utilise Pics Toxik !
+1172 : Le [VAR PKNAME(0000)] ennemi utilise Pics Toxik !
+1173 : [VAR PKNAME(0000)] utilise Permucœur !
+1174 : Le [VAR PKNAME(0000)] sauvage utilise Permucœur !
+1175 : Le [VAR PKNAME(0000)] ennemi utilise Permucœur !
+1176 : [VAR PKNAME(0000)] utilise Anneau Hydro !
+1177 : Le [VAR PKNAME(0000)] sauvage utilise Anneau Hydro !
+1178 : Le [VAR PKNAME(0000)] ennemi utilise Anneau Hydro !
+1179 : [VAR PKNAME(0000)] utilise Vol Magnétik !
+1180 : Le [VAR PKNAME(0000)] sauvage utilise Vol Magnétik !
+1181 : Le [VAR PKNAME(0000)] ennemi utilise Vol Magnétik !
+1182 : [VAR PKNAME(0000)] utilise Boutefeu !
+1183 : Le [VAR PKNAME(0000)] sauvage utilise Boutefeu !
+1184 : Le [VAR PKNAME(0000)] ennemi utilise Boutefeu !
+1185 : [VAR PKNAME(0000)] utilise Forte-Paume !
+1186 : Le [VAR PKNAME(0000)] sauvage utilise Forte-Paume !
+1187 : Le [VAR PKNAME(0000)] ennemi utilise Forte-Paume !
+1188 : [VAR PKNAME(0000)] utilise Aurasphère !
+1189 : Le [VAR PKNAME(0000)] sauvage utilise Aurasphère !
+1190 : Le [VAR PKNAME(0000)] ennemi utilise Aurasphère !
+1191 : [VAR PKNAME(0000)] utilise Poliroche !
+1192 : Le [VAR PKNAME(0000)] sauvage utilise Poliroche !
+1193 : Le [VAR PKNAME(0000)] ennemi utilise Poliroche !
+1194 : [VAR PKNAME(0000)] utilise Direct Toxik !
+1195 : Le [VAR PKNAME(0000)] sauvage utilise Direct Toxik !
+1196 : Le [VAR PKNAME(0000)] ennemi utilise Direct Toxik !
+1197 : [VAR PKNAME(0000)] utilise Vibrobscur !
+1198 : Le [VAR PKNAME(0000)] sauvage utilise Vibrobscur !
+1199 : Le [VAR PKNAME(0000)] ennemi utilise Vibrobscur !
+1200 : [VAR PKNAME(0000)] utilise Tranche-Nuit !
+1201 : Le [VAR PKNAME(0000)] sauvage utilise Tranche-Nuit !
+1202 : Le [VAR PKNAME(0000)] ennemi utilise Tranche-Nuit !
+1203 : [VAR PKNAME(0000)] utilise Hydroqueue !
+1204 : Le [VAR PKNAME(0000)] sauvage utilise Hydroqueue !
+1205 : Le [VAR PKNAME(0000)] ennemi utilise Hydroqueue !
+1206 : [VAR PKNAME(0000)] utilise Canon Graine !
+1207 : Le [VAR PKNAME(0000)] sauvage utilise Canon Graine !
+1208 : Le [VAR PKNAME(0000)] ennemi utilise Canon Graine !
+1209 : [VAR PKNAME(0000)] utilise Lame d’Air !
+1210 : Le [VAR PKNAME(0000)] sauvage utilise Lame d’Air !
+1211 : Le [VAR PKNAME(0000)] ennemi utilise Lame d’Air !
+1212 : [VAR PKNAME(0000)] utilise Plaie-Croix !
+1213 : Le [VAR PKNAME(0000)] sauvage utilise Plaie-Croix !
+1214 : Le [VAR PKNAME(0000)] ennemi utilise Plaie-Croix !
+1215 : [VAR PKNAME(0000)] utilise Bourdon !
+1216 : Le [VAR PKNAME(0000)] sauvage utilise Bourdon !
+1217 : Le [VAR PKNAME(0000)] ennemi utilise Bourdon !
+1218 : [VAR PKNAME(0000)] utilise Dracochoc !
+1219 : Le [VAR PKNAME(0000)] sauvage utilise Dracochoc !
+1220 : Le [VAR PKNAME(0000)] ennemi utilise Dracochoc !
+1221 : [VAR PKNAME(0000)] utilise Dracocharge !
+1222 : Le [VAR PKNAME(0000)] sauvage utilise Dracocharge !
+1223 : Le [VAR PKNAME(0000)] ennemi utilise Dracocharge !
+1224 : [VAR PKNAME(0000)] utilise Rayon Gemme !
+1225 : Le [VAR PKNAME(0000)] sauvage utilise Rayon Gemme !
+1226 : Le [VAR PKNAME(0000)] ennemi utilise Rayon Gemme !
+1227 : [VAR PKNAME(0000)] utilise Vampipoing !
+1228 : Le [VAR PKNAME(0000)] sauvage utilise Vampipoing !
+1229 : Le [VAR PKNAME(0000)] ennemi utilise Vampipoing !
+1230 : [VAR PKNAME(0000)] utilise Onde Vide !
+1231 : Le [VAR PKNAME(0000)] sauvage utilise Onde Vide !
+1232 : Le [VAR PKNAME(0000)] ennemi utilise Onde Vide !
+1233 : [VAR PKNAME(0000)] utilise Exploforce !
+1234 : Le [VAR PKNAME(0000)] sauvage utilise Exploforce !
+1235 : Le [VAR PKNAME(0000)] ennemi utilise Exploforce !
+1236 : [VAR PKNAME(0000)] utilise Éco-Sphère !
+1237 : Le [VAR PKNAME(0000)] sauvage utilise Éco-Sphère !
+1238 : Le [VAR PKNAME(0000)] ennemi utilise Éco-Sphère !
+1239 : [VAR PKNAME(0000)] utilise Rapace !
+1240 : Le [VAR PKNAME(0000)] sauvage utilise Rapace !
+1241 : Le [VAR PKNAME(0000)] ennemi utilise Rapace !
+1242 : [VAR PKNAME(0000)] utilise Telluriforce !
+1243 : Le [VAR PKNAME(0000)] sauvage utilise Telluriforce !
+1244 : Le [VAR PKNAME(0000)] ennemi utilise Telluriforce !
+1245 : [VAR PKNAME(0000)] utilise Passe-Passe !
+1246 : Le [VAR PKNAME(0000)] sauvage utilise Passe-Passe !
+1247 : Le [VAR PKNAME(0000)] ennemi utilise Passe-Passe !
+1248 : [VAR PKNAME(0000)] utilise Giga Impact !
+1249 : Le [VAR PKNAME(0000)] sauvage utilise Giga Impact !
+1250 : Le [VAR PKNAME(0000)] ennemi utilise Giga Impact !
+1251 : [VAR PKNAME(0000)] utilise Machination !
+1252 : Le [VAR PKNAME(0000)] sauvage utilise Machination !
+1253 : Le [VAR PKNAME(0000)] ennemi utilise Machination !
+1254 : [VAR PKNAME(0000)] utilise Pisto-Poing !
+1255 : Le [VAR PKNAME(0000)] sauvage utilise Pisto-Poing !
+1256 : Le [VAR PKNAME(0000)] ennemi utilise Pisto-Poing !
+1257 : [VAR PKNAME(0000)] utilise Avalanche !
+1258 : Le [VAR PKNAME(0000)] sauvage utilise Avalanche !
+1259 : Le [VAR PKNAME(0000)] ennemi utilise Avalanche !
+1260 : [VAR PKNAME(0000)] utilise Éclats Glace !
+1261 : Le [VAR PKNAME(0000)] sauvage utilise Éclats Glace !
+1262 : Le [VAR PKNAME(0000)] ennemi utilise Éclats Glace !
+1263 : [VAR PKNAME(0000)] utilise Griffe Ombre !
+1264 : Le [VAR PKNAME(0000)] sauvage utilise Griffe Ombre !
+1265 : Le [VAR PKNAME(0000)] ennemi utilise Griffe Ombre !
+1266 : [VAR PKNAME(0000)] utilise Crocs Éclair !
+1267 : Le [VAR PKNAME(0000)] sauvage utilise Crocs Éclair !
+1268 : Le [VAR PKNAME(0000)] ennemi utilise Crocs Éclair !
+1269 : [VAR PKNAME(0000)] utilise Crocs Givre !
+1270 : Le [VAR PKNAME(0000)] sauvage utilise Crocs Givre !
+1271 : Le [VAR PKNAME(0000)] ennemi utilise Crocs Givre !
+1272 : [VAR PKNAME(0000)] utilise Crocs Feu !
+1273 : Le [VAR PKNAME(0000)] sauvage utilise Crocs Feu !
+1274 : Le [VAR PKNAME(0000)] ennemi utilise Crocs Feu !
+1275 : [VAR PKNAME(0000)] utilise Ombre Portée !
+1276 : Le [VAR PKNAME(0000)] sauvage utilise Ombre Portée !
+1277 : Le [VAR PKNAME(0000)] ennemi utilise Ombre Portée !
+1278 : [VAR PKNAME(0000)] utilise Boue-Bombe !
+1279 : Le [VAR PKNAME(0000)] sauvage utilise Boue-Bombe !
+1280 : Le [VAR PKNAME(0000)] ennemi utilise Boue-Bombe !
+1281 : [VAR PKNAME(0000)] utilise Coupe Psycho !
+1282 : Le [VAR PKNAME(0000)] sauvage utilise Coupe Psycho !
+1283 : Le [VAR PKNAME(0000)] ennemi utilise Coupe Psycho !
+1284 : [VAR PKNAME(0000)] utilise Psykoud’Boul !
+1285 : Le [VAR PKNAME(0000)] sauvage utilise Psykoud’Boul !
+1286 : Le [VAR PKNAME(0000)] ennemi utilise Psykoud’Boul !
+1287 : [VAR PKNAME(0000)] utilise Miroi-Tir !
+1288 : Le [VAR PKNAME(0000)] sauvage utilise Miroi-Tir !
+1289 : Le [VAR PKNAME(0000)] ennemi utilise Miroi-Tir !
+1290 : [VAR PKNAME(0000)] utilise Luminocanon !
+1291 : Le [VAR PKNAME(0000)] sauvage utilise Luminocanon !
+1292 : Le [VAR PKNAME(0000)] ennemi utilise Luminocanon !
+1293 : [VAR PKNAME(0000)] utilise Escalade !
+1294 : Le [VAR PKNAME(0000)] sauvage utilise Escalade !
+1295 : Le [VAR PKNAME(0000)] ennemi utilise Escalade !
+1296 : [VAR PKNAME(0000)] utilise Anti-Brume !
+1297 : Le [VAR PKNAME(0000)] sauvage utilise Anti-Brume !
+1298 : Le [VAR PKNAME(0000)] ennemi utilise Anti-Brume !
+1299 : [VAR PKNAME(0000)] utilise Distorsion !
+1300 : Le [VAR PKNAME(0000)] sauvage utilise Distorsion !
+1301 : Le [VAR PKNAME(0000)] ennemi utilise Distorsion !
+1302 : [VAR PKNAME(0000)] utilise Draco Météor !
+1303 : Le [VAR PKNAME(0000)] sauvage utilise Draco Météor !
+1304 : Le [VAR PKNAME(0000)] ennemi utilise Draco Météor !
+1305 : [VAR PKNAME(0000)] utilise Coup d’Jus !
+1306 : Le [VAR PKNAME(0000)] sauvage utilise Coup d’Jus !
+1307 : Le [VAR PKNAME(0000)] ennemi utilise Coup d’Jus !
+1308 : [VAR PKNAME(0000)] utilise Ébullilave !
+1309 : Le [VAR PKNAME(0000)] sauvage utilise Ébullilave !
+1310 : Le [VAR PKNAME(0000)] ennemi utilise Ébullilave !
+1311 : [VAR PKNAME(0000)] utilise Tempête Verte !
+1312 : Le [VAR PKNAME(0000)] sauvage utilise Tempête Verte !
+1313 : Le [VAR PKNAME(0000)] ennemi utilise Tempête Verte !
+1314 : [VAR PKNAME(0000)] utilise Mégafouet !
+1315 : Le [VAR PKNAME(0000)] sauvage utilise Mégafouet !
+1316 : Le [VAR PKNAME(0000)] ennemi utilise Mégafouet !
+1317 : [VAR PKNAME(0000)] utilise Roc-Boulet !
+1318 : Le [VAR PKNAME(0000)] sauvage utilise Roc-Boulet !
+1319 : Le [VAR PKNAME(0000)] ennemi utilise Roc-Boulet !
+1320 : [VAR PKNAME(0000)] utilise Poison-Croix !
+1321 : Le [VAR PKNAME(0000)] sauvage utilise Poison-Croix !
+1322 : Le [VAR PKNAME(0000)] ennemi utilise Poison-Croix !
+1323 : [VAR PKNAME(0000)] utilise Détricanon !
+1324 : Le [VAR PKNAME(0000)] sauvage utilise Détricanon !
+1325 : Le [VAR PKNAME(0000)] ennemi utilise Détricanon !
+1326 : [VAR PKNAME(0000)] utilise Tête de Fer !
+1327 : Le [VAR PKNAME(0000)] sauvage utilise Tête de Fer !
+1328 : Le [VAR PKNAME(0000)] ennemi utilise Tête de Fer !
+1329 : [VAR PKNAME(0000)] utilise Bombaimant !
+1330 : Le [VAR PKNAME(0000)] sauvage utilise Bombaimant !
+1331 : Le [VAR PKNAME(0000)] ennemi utilise Bombaimant !
+1332 : [VAR PKNAME(0000)] utilise Lame de Roc !
+1333 : Le [VAR PKNAME(0000)] sauvage utilise Lame de Roc !
+1334 : Le [VAR PKNAME(0000)] ennemi utilise Lame de Roc !
+1335 : [VAR PKNAME(0000)] utilise Séduction !
+1336 : Le [VAR PKNAME(0000)] sauvage utilise Séduction !
+1337 : Le [VAR PKNAME(0000)] ennemi utilise Séduction !
+1338 : [VAR PKNAME(0000)] utilise Piège de Roc !
+1339 : Le [VAR PKNAME(0000)] sauvage utilise Piège de Roc !
+1340 : Le [VAR PKNAME(0000)] ennemi utilise Piège de Roc !
+1341 : [VAR PKNAME(0000)] utilise Nœud Herbe !
+1342 : Le [VAR PKNAME(0000)] sauvage utilise Nœud Herbe !
+1343 : Le [VAR PKNAME(0000)] ennemi utilise Nœud Herbe !
+1344 : [VAR PKNAME(0000)] utilise Babil !
+1345 : Le [VAR PKNAME(0000)] sauvage utilise Babil !
+1346 : Le [VAR PKNAME(0000)] ennemi utilise Babil !
+1347 : [VAR PKNAME(0000)] utilise Jugement !
+1348 : Le [VAR PKNAME(0000)] sauvage utilise Jugement !
+1349 : Le [VAR PKNAME(0000)] ennemi utilise Jugement !
+1350 : [VAR PKNAME(0000)] utilise Piqûre !
+1351 : Le [VAR PKNAME(0000)] sauvage utilise Piqûre !
+1352 : Le [VAR PKNAME(0000)] ennemi utilise Piqûre !
+1353 : [VAR PKNAME(0000)] utilise Rayon Chargé !
+1354 : Le [VAR PKNAME(0000)] sauvage utilise Rayon Chargé !
+1355 : Le [VAR PKNAME(0000)] ennemi utilise Rayon Chargé !
+1356 : [VAR PKNAME(0000)] utilise Martobois !
+1357 : Le [VAR PKNAME(0000)] sauvage utilise Martobois !
+1358 : Le [VAR PKNAME(0000)] ennemi utilise Martobois !
+1359 : [VAR PKNAME(0000)] utilise Aqua-Jet !
+1360 : Le [VAR PKNAME(0000)] sauvage utilise Aqua-Jet !
+1361 : Le [VAR PKNAME(0000)] ennemi utilise Aqua-Jet !
+1362 : [VAR PKNAME(0000)] utilise Appel Attak !
+1363 : Le [VAR PKNAME(0000)] sauvage utilise Appel Attak !
+1364 : Le [VAR PKNAME(0000)] ennemi utilise Appel Attak !
+1365 : [VAR PKNAME(0000)] utilise Appel Défense !
+1366 : Le [VAR PKNAME(0000)] sauvage utilise Appel Défense !
+1367 : Le [VAR PKNAME(0000)] ennemi utilise Appel Défense !
+1368 : [VAR PKNAME(0000)] utilise Appel Soins !
+1369 : Le [VAR PKNAME(0000)] sauvage utilise Appel Soins !
+1370 : Le [VAR PKNAME(0000)] ennemi utilise Appel Soins !
+1371 : [VAR PKNAME(0000)] utilise Fracass’Tête !
+1372 : Le [VAR PKNAME(0000)] sauvage utilise Fracass’Tête !
+1373 : Le [VAR PKNAME(0000)] ennemi utilise Fracass’Tête !
+1374 : [VAR PKNAME(0000)] utilise Coup Double !
+1375 : Le [VAR PKNAME(0000)] sauvage utilise Coup Double !
+1376 : Le [VAR PKNAME(0000)] ennemi utilise Coup Double !
+1377 : [VAR PKNAME(0000)] utilise Hurle-Temps !
+1378 : Le [VAR PKNAME(0000)] sauvage utilise Hurle-Temps !
+1379 : Le [VAR PKNAME(0000)] ennemi utilise Hurle-Temps !
+1380 : [VAR PKNAME(0000)] utilise Spatio-Rift !
+1381 : Le [VAR PKNAME(0000)] sauvage utilise Spatio-Rift !
+1382 : Le [VAR PKNAME(0000)] ennemi utilise Spatio-Rift !
+1383 : [VAR PKNAME(0000)] utilise Danse-Lune !
+1384 : Le [VAR PKNAME(0000)] sauvage utilise Danse-Lune !
+1385 : Le [VAR PKNAME(0000)] ennemi utilise Danse-Lune !
+1386 : [VAR PKNAME(0000)] utilise Presse !
+1387 : Le [VAR PKNAME(0000)] sauvage utilise Presse !
+1388 : Le [VAR PKNAME(0000)] ennemi utilise Presse !
+1389 : [VAR PKNAME(0000)] utilise Vortex Magma !
+1390 : Le [VAR PKNAME(0000)] sauvage utilise Vortex Magma !
+1391 : Le [VAR PKNAME(0000)] ennemi utilise Vortex Magma !
+1392 : [VAR PKNAME(0000)] utilise Trou Noir !
+1393 : Le [VAR PKNAME(0000)] sauvage utilise Trou Noir !
+1394 : Le [VAR PKNAME(0000)] ennemi utilise Trou Noir !
+1395 : [VAR PKNAME(0000)] utilise Fulmigraine !
+1396 : Le [VAR PKNAME(0000)] sauvage utilise Fulmigraine !
+1397 : Le [VAR PKNAME(0000)] ennemi utilise Fulmigraine !
+1398 : [VAR PKNAME(0000)] utilise Vent Mauvais !
+1399 : Le [VAR PKNAME(0000)] sauvage utilise Vent Mauvais !
+1400 : Le [VAR PKNAME(0000)] ennemi utilise Vent Mauvais !
+1401 : [VAR PKNAME(0000)] utilise Revenant !
+1402 : Le [VAR PKNAME(0000)] sauvage utilise Revenant !
+1403 : Le [VAR PKNAME(0000)] ennemi utilise Revenant !
+1404 : [VAR PKNAME(0000)] utilise Aiguisage !
+1405 : Le [VAR PKNAME(0000)] sauvage utilise Aiguisage !
+1406 : Le [VAR PKNAME(0000)] ennemi utilise Aiguisage !
+1407 : [VAR PKNAME(0000)] utilise Garde Large !
+1408 : Le [VAR PKNAME(0000)] sauvage utilise Garde Large !
+1409 : Le [VAR PKNAME(0000)] ennemi utilise Garde Large !
+1410 : [VAR PKNAME(0000)] utilise Partage Garde !
+1411 : Le [VAR PKNAME(0000)] sauvage utilise Partage Garde !
+1412 : Le [VAR PKNAME(0000)] ennemi utilise Partage Garde !
+1413 : [VAR PKNAME(0000)] utilise Partage Force !
+1414 : Le [VAR PKNAME(0000)] sauvage utilise Partage Force !
+1415 : Le [VAR PKNAME(0000)] ennemi utilise Partage Force !
+1416 : [VAR PKNAME(0000)] utilise Zone Étrange !
+1417 : Le [VAR PKNAME(0000)] sauvage utilise Zone Étrange !
+1418 : Le [VAR PKNAME(0000)] ennemi utilise Zone Étrange !
+1419 : [VAR PKNAME(0000)] utilise Choc Psy !
+1420 : Le [VAR PKNAME(0000)] sauvage utilise Choc Psy !
+1421 : Le [VAR PKNAME(0000)] ennemi utilise Choc Psy !
+1422 : [VAR PKNAME(0000)] utilise Choc Venin !
+1423 : Le [VAR PKNAME(0000)] sauvage utilise Choc Venin !
+1424 : Le [VAR PKNAME(0000)] ennemi utilise Choc Venin !
+1425 : [VAR PKNAME(0000)] utilise Allègement !
+1426 : Le [VAR PKNAME(0000)] sauvage utilise Allègement !
+1427 : Le [VAR PKNAME(0000)] ennemi utilise Allègement !
+1428 : [VAR PKNAME(0000)] utilise Poudre Fureur !
+1429 : Le [VAR PKNAME(0000)] sauvage utilise Poudre Fureur !
+1430 : Le [VAR PKNAME(0000)] ennemi utilise Poudre Fureur !
+1431 : [VAR PKNAME(0000)] utilise Lévikinésie !
+1432 : Le [VAR PKNAME(0000)] sauvage utilise Lévikinésie !
+1433 : Le [VAR PKNAME(0000)] ennemi utilise Lévikinésie !
+1434 : [VAR PKNAME(0000)] utilise Zone Magique !
+1435 : Le [VAR PKNAME(0000)] sauvage utilise Zone Magique !
+1436 : Le [VAR PKNAME(0000)] ennemi utilise Zone Magique !
+1437 : [VAR PKNAME(0000)] utilise Anti-Air !
+1438 : Le [VAR PKNAME(0000)] sauvage utilise Anti-Air !
+1439 : Le [VAR PKNAME(0000)] ennemi utilise Anti-Air !
+1440 : [VAR PKNAME(0000)] utilise Yama Arashi !
+1441 : Le [VAR PKNAME(0000)] sauvage utilise Yama Arashi !
+1442 : Le [VAR PKNAME(0000)] ennemi utilise Yama Arashi !
+1443 : [VAR PKNAME(0000)] utilise Rebondifeu !
+1444 : Le [VAR PKNAME(0000)] sauvage utilise Rebondifeu !
+1445 : Le [VAR PKNAME(0000)] ennemi utilise Rebondifeu !
+1446 : [VAR PKNAME(0000)] utilise Cradovague !
+1447 : Le [VAR PKNAME(0000)] sauvage utilise Cradovague !
+1448 : Le [VAR PKNAME(0000)] ennemi utilise Cradovague !
+1449 : [VAR PKNAME(0000)] utilise Papillodanse !
+1450 : Le [VAR PKNAME(0000)] sauvage utilise Papillodanse !
+1451 : Le [VAR PKNAME(0000)] ennemi utilise Papillodanse !
+1452 : [VAR PKNAME(0000)] utilise Tacle Lourd !
+1453 : Le [VAR PKNAME(0000)] sauvage utilise Tacle Lourd !
+1454 : Le [VAR PKNAME(0000)] ennemi utilise Tacle Lourd !
+1455 : [VAR PKNAME(0000)] utilise Synchropeine !
+1456 : Le [VAR PKNAME(0000)] sauvage utilise Synchropeine !
+1457 : Le [VAR PKNAME(0000)] ennemi utilise Synchropeine !
+1458 : [VAR PKNAME(0000)] utilise Boule Élek !
+1459 : Le [VAR PKNAME(0000)] sauvage utilise Boule Élek !
+1460 : Le [VAR PKNAME(0000)] ennemi utilise Boule Élek !
+1461 : [VAR PKNAME(0000)] utilise Détrempage !
+1462 : Le [VAR PKNAME(0000)] sauvage utilise Détrempage !
+1463 : Le [VAR PKNAME(0000)] ennemi utilise Détrempage !
+1464 : [VAR PKNAME(0000)] utilise Nitrocharge !
+1465 : Le [VAR PKNAME(0000)] sauvage utilise Nitrocharge !
+1466 : Le [VAR PKNAME(0000)] ennemi utilise Nitrocharge !
+1467 : [VAR PKNAME(0000)] utilise Enroulement !
+1468 : Le [VAR PKNAME(0000)] sauvage utilise Enroulement !
+1469 : Le [VAR PKNAME(0000)] ennemi utilise Enroulement !
+1470 : [VAR PKNAME(0000)] utilise Balayette !
+1471 : Le [VAR PKNAME(0000)] sauvage utilise Balayette !
+1472 : Le [VAR PKNAME(0000)] ennemi utilise Balayette !
+1473 : [VAR PKNAME(0000)] utilise Bombe Acide !
+1474 : Le [VAR PKNAME(0000)] sauvage utilise Bombe Acide !
+1475 : Le [VAR PKNAME(0000)] ennemi utilise Bombe Acide !
+1476 : [VAR PKNAME(0000)] utilise Tricherie !
+1477 : Le [VAR PKNAME(0000)] sauvage utilise Tricherie !
+1478 : Le [VAR PKNAME(0000)] ennemi utilise Tricherie !
+1479 : [VAR PKNAME(0000)] utilise Rayon Simple !
+1480 : Le [VAR PKNAME(0000)] sauvage utilise Rayon Simple !
+1481 : Le [VAR PKNAME(0000)] ennemi utilise Rayon Simple !
+1482 : [VAR PKNAME(0000)] utilise Ten-danse !
+1483 : Le [VAR PKNAME(0000)] sauvage utilise Ten-danse !
+1484 : Le [VAR PKNAME(0000)] ennemi utilise Ten-danse !
+1485 : [VAR PKNAME(0000)] utilise Après Vous !
+1486 : Le [VAR PKNAME(0000)] sauvage utilise Après Vous !
+1487 : Le [VAR PKNAME(0000)] ennemi utilise Après Vous !
+1488 : [VAR PKNAME(0000)] utilise Chant Canon !
+1489 : Le [VAR PKNAME(0000)] sauvage utilise Chant Canon !
+1490 : Le [VAR PKNAME(0000)] ennemi utilise Chant Canon !
+1491 : [VAR PKNAME(0000)] utilise Écho !
+1492 : Le [VAR PKNAME(0000)] sauvage utilise Écho !
+1493 : Le [VAR PKNAME(0000)] ennemi utilise Écho !
+1494 : [VAR PKNAME(0000)] utilise Attrition !
+1495 : Le [VAR PKNAME(0000)] sauvage utilise Attrition !
+1496 : Le [VAR PKNAME(0000)] ennemi utilise Attrition !
+1497 : [VAR PKNAME(0000)] utilise Bain de Smog !
+1498 : Le [VAR PKNAME(0000)] sauvage utilise Bain de Smog !
+1499 : Le [VAR PKNAME(0000)] ennemi utilise Bain de Smog !
+1500 : [VAR PKNAME(0000)] utilise Force Ajoutée !
+1501 : Le [VAR PKNAME(0000)] sauvage utilise Force Ajoutée !
+1502 : Le [VAR PKNAME(0000)] ennemi utilise Force Ajoutée !
+1503 : [VAR PKNAME(0000)] utilise Prévention !
+1504 : Le [VAR PKNAME(0000)] sauvage utilise Prévention !
+1505 : Le [VAR PKNAME(0000)] ennemi utilise Prévention !
+1506 : [VAR PKNAME(0000)] utilise Interversion !
+1507 : Le [VAR PKNAME(0000)] sauvage utilise Interversion !
+1508 : Le [VAR PKNAME(0000)] ennemi utilise Interversion !
+1509 : [VAR PKNAME(0000)] utilise Ébullition !
+1510 : Le [VAR PKNAME(0000)] sauvage utilise Ébullition !
+1511 : Le [VAR PKNAME(0000)] ennemi utilise Ébullition !
+1512 : [VAR PKNAME(0000)] utilise Exuviation !
+1513 : Le [VAR PKNAME(0000)] sauvage utilise Exuviation !
+1514 : Le [VAR PKNAME(0000)] ennemi utilise Exuviation !
+1515 : [VAR PKNAME(0000)] utilise Vibra Soin !
+1516 : Le [VAR PKNAME(0000)] sauvage utilise Vibra Soin !
+1517 : Le [VAR PKNAME(0000)] ennemi utilise Vibra Soin !
+1518 : [VAR PKNAME(0000)] utilise Châtiment !
+1519 : Le [VAR PKNAME(0000)] sauvage utilise Châtiment !
+1520 : Le [VAR PKNAME(0000)] ennemi utilise Châtiment !
+1521 : [VAR PKNAME(0000)] utilise Chute Libre !
+1522 : Le [VAR PKNAME(0000)] sauvage utilise Chute Libre !
+1523 : Le [VAR PKNAME(0000)] ennemi utilise Chute Libre !
+1524 : [VAR PKNAME(0000)] utilise Chgt Vitesse !
+1525 : Le [VAR PKNAME(0000)] sauvage utilise Chgt Vitesse !
+1526 : Le [VAR PKNAME(0000)] ennemi utilise Chgt Vitesse !
+1527 : [VAR PKNAME(0000)] utilise Projection !
+1528 : Le [VAR PKNAME(0000)] sauvage utilise Projection !
+1529 : Le [VAR PKNAME(0000)] ennemi utilise Projection !
+1530 : [VAR PKNAME(0000)] utilise Calcination !
+1531 : Le [VAR PKNAME(0000)] sauvage utilise Calcination !
+1532 : Le [VAR PKNAME(0000)] ennemi utilise Calcination !
+1533 : [VAR PKNAME(0000)] utilise À la Queue !
+1534 : Le [VAR PKNAME(0000)] sauvage utilise À la Queue !
+1535 : Le [VAR PKNAME(0000)] ennemi utilise À la Queue !
+1536 : [VAR PKNAME(0000)] utilise Acrobatie !
+1537 : Le [VAR PKNAME(0000)] sauvage utilise Acrobatie !
+1538 : Le [VAR PKNAME(0000)] ennemi utilise Acrobatie !
+1539 : [VAR PKNAME(0000)] utilise Copie Type !
+1540 : Le [VAR PKNAME(0000)] sauvage utilise Copie Type !
+1541 : Le [VAR PKNAME(0000)] ennemi utilise Copie Type !
+1542 : [VAR PKNAME(0000)] utilise Vengeance !
+1543 : Le [VAR PKNAME(0000)] sauvage utilise Vengeance !
+1544 : Le [VAR PKNAME(0000)] ennemi utilise Vengeance !
+1545 : [VAR PKNAME(0000)] utilise Tout ou Rien !
+1546 : Le [VAR PKNAME(0000)] sauvage utilise Tout ou Rien !
+1547 : Le [VAR PKNAME(0000)] ennemi utilise Tout ou Rien !
+1548 : [VAR PKNAME(0000)] utilise Passe-Cadeau !
+1549 : Le [VAR PKNAME(0000)] sauvage utilise Passe-Cadeau !
+1550 : Le [VAR PKNAME(0000)] ennemi utilise Passe-Cadeau !
+1551 : [VAR PKNAME(0000)] utilise Feu d’Enfer !
+1552 : Le [VAR PKNAME(0000)] sauvage utilise Feu d’Enfer !
+1553 : Le [VAR PKNAME(0000)] ennemi utilise Feu d’Enfer !
+1554 : [VAR PKNAME(0000)] utilise Aire d’Eau !
+1555 : Le [VAR PKNAME(0000)] sauvage utilise Aire d’Eau !
+1556 : Le [VAR PKNAME(0000)] ennemi utilise Aire d’Eau !
+1557 : [VAR PKNAME(0000)] utilise Aire de Feu !
+1558 : Le [VAR PKNAME(0000)] sauvage utilise Aire de Feu !
+1559 : Le [VAR PKNAME(0000)] ennemi utilise Aire de Feu !
+1560 : [VAR PKNAME(0000)] utilise Aire d’Herbe !
+1561 : Le [VAR PKNAME(0000)] sauvage utilise Aire d’Herbe !
+1562 : Le [VAR PKNAME(0000)] ennemi utilise Aire d’Herbe !
+1563 : [VAR PKNAME(0000)] utilise Change Éclair !
+1564 : Le [VAR PKNAME(0000)] sauvage utilise Change Éclair !
+1565 : Le [VAR PKNAME(0000)] ennemi utilise Change Éclair !
+1566 : [VAR PKNAME(0000)] utilise Survinsecte !
+1567 : Le [VAR PKNAME(0000)] sauvage utilise Survinsecte !
+1568 : Le [VAR PKNAME(0000)] ennemi utilise Survinsecte !
+1569 : [VAR PKNAME(0000)] utilise Piétisol !
+1570 : Le [VAR PKNAME(0000)] sauvage utilise Piétisol !
+1571 : Le [VAR PKNAME(0000)] ennemi utilise Piétisol !
+1572 : [VAR PKNAME(0000)] utilise Souffle Glacé !
+1573 : Le [VAR PKNAME(0000)] sauvage utilise Souffle Glacé !
+1574 : Le [VAR PKNAME(0000)] ennemi utilise Souffle Glacé !
+1575 : [VAR PKNAME(0000)] utilise Draco-Queue !
+1576 : Le [VAR PKNAME(0000)] sauvage utilise Draco-Queue !
+1577 : Le [VAR PKNAME(0000)] ennemi utilise Draco-Queue !
+1578 : [VAR PKNAME(0000)] utilise Rengorgement !
+1579 : Le [VAR PKNAME(0000)] sauvage utilise Rengorgement !
+1580 : Le [VAR PKNAME(0000)] ennemi utilise Rengorgement !
+1581 : [VAR PKNAME(0000)] utilise Toile Élek !
+1582 : Le [VAR PKNAME(0000)] sauvage utilise Toile Élek !
+1583 : Le [VAR PKNAME(0000)] ennemi utilise Toile Élek !
+1584 : [VAR PKNAME(0000)] utilise Éclair Fou !
+1585 : Le [VAR PKNAME(0000)] sauvage utilise Éclair Fou !
+1586 : Le [VAR PKNAME(0000)] ennemi utilise Éclair Fou !
+1587 : [VAR PKNAME(0000)] utilise Tunnelier !
+1588 : Le [VAR PKNAME(0000)] sauvage utilise Tunnelier !
+1589 : Le [VAR PKNAME(0000)] ennemi utilise Tunnelier !
+1590 : [VAR PKNAME(0000)] utilise Double Baffe !
+1591 : Le [VAR PKNAME(0000)] sauvage utilise Double Baffe !
+1592 : Le [VAR PKNAME(0000)] ennemi utilise Double Baffe !
+1593 : [VAR PKNAME(0000)] utilise Crève-Cœur !
+1594 : Le [VAR PKNAME(0000)] sauvage utilise Crève-Cœur !
+1595 : Le [VAR PKNAME(0000)] ennemi utilise Crève-Cœur !
+1596 : [VAR PKNAME(0000)] utilise Encornebois !
+1597 : Le [VAR PKNAME(0000)] sauvage utilise Encornebois !
+1598 : Le [VAR PKNAME(0000)] ennemi utilise Encornebois !
+1599 : [VAR PKNAME(0000)] utilise Lame Sainte !
+1600 : Le [VAR PKNAME(0000)] sauvage utilise Lame Sainte !
+1601 : Le [VAR PKNAME(0000)] ennemi utilise Lame Sainte !
+1602 : [VAR PKNAME(0000)] utilise Coquilame !
+1603 : Le [VAR PKNAME(0000)] sauvage utilise Coquilame !
+1604 : Le [VAR PKNAME(0000)] ennemi utilise Coquilame !
+1605 : [VAR PKNAME(0000)] utilise Tacle Feu !
+1606 : Le [VAR PKNAME(0000)] sauvage utilise Tacle Feu !
+1607 : Le [VAR PKNAME(0000)] ennemi utilise Tacle Feu !
+1608 : [VAR PKNAME(0000)] utilise Phytomixeur !
+1609 : Le [VAR PKNAME(0000)] sauvage utilise Phytomixeur !
+1610 : Le [VAR PKNAME(0000)] ennemi utilise Phytomixeur !
+1611 : [VAR PKNAME(0000)] utilise Bulldoboule !
+1612 : Le [VAR PKNAME(0000)] sauvage utilise Bulldoboule !
+1613 : Le [VAR PKNAME(0000)] ennemi utilise Bulldoboule !
+1614 : [VAR PKNAME(0000)] utilise Cotogarde !
+1615 : Le [VAR PKNAME(0000)] sauvage utilise Cotogarde !
+1616 : Le [VAR PKNAME(0000)] ennemi utilise Cotogarde !
+1617 : [VAR PKNAME(0000)] utilise Explonuit !
+1618 : Le [VAR PKNAME(0000)] sauvage utilise Explonuit !
+1619 : Le [VAR PKNAME(0000)] ennemi utilise Explonuit !
+1620 : [VAR PKNAME(0000)] utilise Frappe Psy !
+1621 : Le [VAR PKNAME(0000)] sauvage utilise Frappe Psy !
+1622 : Le [VAR PKNAME(0000)] ennemi utilise Frappe Psy !
+1623 : [VAR PKNAME(0000)] utilise Plumo-Queue !
+1624 : Le [VAR PKNAME(0000)] sauvage utilise Plumo-Queue !
+1625 : Le [VAR PKNAME(0000)] ennemi utilise Plumo-Queue !
+1626 : [VAR PKNAME(0000)] utilise Vent Violent !
+1627 : Le [VAR PKNAME(0000)] sauvage utilise Vent Violent !
+1628 : Le [VAR PKNAME(0000)] ennemi utilise Vent Violent !
+1629 : [VAR PKNAME(0000)] utilise Peignée !
+1630 : Le [VAR PKNAME(0000)] sauvage utilise Peignée !
+1631 : Le [VAR PKNAME(0000)] ennemi utilise Peignée !
+1632 : [VAR PKNAME(0000)] utilise Lancécrou !
+1633 : Le [VAR PKNAME(0000)] sauvage utilise Lancécrou !
+1634 : Le [VAR PKNAME(0000)] ennemi utilise Lancécrou !
+1635 : [VAR PKNAME(0000)] utilise Incendie !
+1636 : Le [VAR PKNAME(0000)] sauvage utilise Incendie !
+1637 : Le [VAR PKNAME(0000)] ennemi utilise Incendie !
+1638 : [VAR PKNAME(0000)] utilise TechnoBuster !
+1639 : Le [VAR PKNAME(0000)] sauvage utilise TechnoBuster !
+1640 : Le [VAR PKNAME(0000)] ennemi utilise TechnoBuster !
+1641 : [VAR PKNAME(0000)] utilise Chant Antique !
+1642 : Le [VAR PKNAME(0000)] sauvage utilise Chant Antique !
+1643 : Le [VAR PKNAME(0000)] ennemi utilise Chant Antique !
+1644 : [VAR PKNAME(0000)] utilise Lame Ointe !
+1645 : Le [VAR PKNAME(0000)] sauvage utilise Lame Ointe !
+1646 : Le [VAR PKNAME(0000)] ennemi utilise Lame Ointe !
+1647 : [VAR PKNAME(0000)] utilise Ère Glaciaire !
+1648 : Le [VAR PKNAME(0000)] sauvage utilise Ère Glaciaire !
+1649 : Le [VAR PKNAME(0000)] ennemi utilise Ère Glaciaire !
+1650 : [VAR PKNAME(0000)] utilise Charge Foudre !
+1651 : Le [VAR PKNAME(0000)] sauvage utilise Charge Foudre !
+1652 : Le [VAR PKNAME(0000)] ennemi utilise Charge Foudre !
+1653 : [VAR PKNAME(0000)] utilise Flamme Bleue !
+1654 : Le [VAR PKNAME(0000)] sauvage utilise Flamme Bleue !
+1655 : Le [VAR PKNAME(0000)] ennemi utilise Flamme Bleue !
+1656 : [VAR PKNAME(0000)] utilise Danse du Feu !
+1657 : Le [VAR PKNAME(0000)] sauvage utilise Danse du Feu !
+1658 : Le [VAR PKNAME(0000)] ennemi utilise Danse du Feu !
+1659 : [VAR PKNAME(0000)] utilise Éclair Gelé !
+1660 : Le [VAR PKNAME(0000)] sauvage utilise Éclair Gelé !
+1661 : Le [VAR PKNAME(0000)] ennemi utilise Éclair Gelé !
+1662 : [VAR PKNAME(0000)] utilise Feu Glacé !
+1663 : Le [VAR PKNAME(0000)] sauvage utilise Feu Glacé !
+1664 : Le [VAR PKNAME(0000)] ennemi utilise Feu Glacé !
+1665 : [VAR PKNAME(0000)] utilise Aboiement !
+1666 : Le [VAR PKNAME(0000)] sauvage utilise Aboiement !
+1667 : Le [VAR PKNAME(0000)] ennemi utilise Aboiement !
+1668 : [VAR PKNAME(0000)] utilise Chute Glace !
+1669 : Le [VAR PKNAME(0000)] sauvage utilise Chute Glace !
+1670 : Le [VAR PKNAME(0000)] ennemi utilise Chute Glace !
+1671 : [VAR PKNAME(0000)] utilise Coup Victoire !
+1672 : Le [VAR PKNAME(0000)] sauvage utilise Coup Victoire !
+1673 : Le [VAR PKNAME(0000)] ennemi utilise Coup Victoire !
+1674 : [VAR PKNAME(0000)] utilise Flamme Croix !
+1675 : Le [VAR PKNAME(0000)] sauvage utilise Flamme Croix !
+1676 : Le [VAR PKNAME(0000)] ennemi utilise Flamme Croix !
+1677 : [VAR PKNAME(0000)] utilise Éclair Croix !
+1678 : Le [VAR PKNAME(0000)] sauvage utilise Éclair Croix !
+1679 : Le [VAR PKNAME(0000)] ennemi utilise Éclair Croix !
+1680 : [VAR PKNAME(0000)] utilise Flying Press !
+1681 : Le [VAR PKNAME(0000)] sauvage utilise Flying Press !
+1682 : Le [VAR PKNAME(0000)] ennemi utilise Flying Press !
+1683 : [VAR PKNAME(0000)] utilise Tatamigaeshi !
+1684 : Le [VAR PKNAME(0000)] sauvage utilise Tatamigaeshi !
+1685 : Le [VAR PKNAME(0000)] ennemi utilise Tatamigaeshi !
+1686 : [VAR PKNAME(0000)] utilise Éructation !
+1687 : Le [VAR PKNAME(0000)] sauvage utilise Éructation !
+1688 : Le [VAR PKNAME(0000)] ennemi utilise Éructation !
+1689 : [VAR PKNAME(0000)] utilise Fertilisation !
+1690 : Le [VAR PKNAME(0000)] sauvage utilise Fertilisation !
+1691 : Le [VAR PKNAME(0000)] ennemi utilise Fertilisation !
+1692 : [VAR PKNAME(0000)] utilise Toile Gluante !
+1693 : Le [VAR PKNAME(0000)] sauvage utilise Toile Gluante !
+1694 : Le [VAR PKNAME(0000)] ennemi utilise Toile Gluante !
+1695 : [VAR PKNAME(0000)] utilise Dard Mortel !
+1696 : Le [VAR PKNAME(0000)] sauvage utilise Dard Mortel !
+1697 : Le [VAR PKNAME(0000)] ennemi utilise Dard Mortel !
+1698 : [VAR PKNAME(0000)] utilise Hantise !
+1699 : Le [VAR PKNAME(0000)] sauvage utilise Hantise !
+1700 : Le [VAR PKNAME(0000)] ennemi utilise Hantise !
+1701 : [VAR PKNAME(0000)] utilise Halloween !
+1702 : Le [VAR PKNAME(0000)] sauvage utilise Halloween !
+1703 : Le [VAR PKNAME(0000)] ennemi utilise Halloween !
+1704 : [VAR PKNAME(0000)] utilise Râle Mâle !
+1705 : Le [VAR PKNAME(0000)] sauvage utilise Râle Mâle !
+1706 : Le [VAR PKNAME(0000)] ennemi utilise Râle Mâle !
+1707 : [VAR PKNAME(0000)] utilise DélugePlasmique !
+1708 : Le [VAR PKNAME(0000)] sauvage utilise DélugePlasmique !
+1709 : Le [VAR PKNAME(0000)] ennemi utilise DélugePlasmique !
+1710 : [VAR PKNAME(0000)] utilise Parabocharge !
+1711 : Le [VAR PKNAME(0000)] sauvage utilise Parabocharge !
+1712 : Le [VAR PKNAME(0000)] ennemi utilise Parabocharge !
+1713 : [VAR PKNAME(0000)] utilise Maléfice Sylvain !
+1714 : Le [VAR PKNAME(0000)] sauvage utilise Maléfice Sylvain !
+1715 : Le [VAR PKNAME(0000)] ennemi utilise Maléfice Sylvain !
+1716 : [VAR PKNAME(0000)] utilise Tempête Florale !
+1717 : Le [VAR PKNAME(0000)] sauvage utilise Tempête Florale !
+1718 : Le [VAR PKNAME(0000)] ennemi utilise Tempête Florale !
+1719 : [VAR PKNAME(0000)] utilise Lyophilisation !
+1720 : Le [VAR PKNAME(0000)] sauvage utilise Lyophilisation !
+1721 : Le [VAR PKNAME(0000)] ennemi utilise Lyophilisation !
+1722 : [VAR PKNAME(0000)] utilise Voix Enjôleuse !
+1723 : Le [VAR PKNAME(0000)] sauvage utilise Voix Enjôleuse !
+1724 : Le [VAR PKNAME(0000)] ennemi utilise Voix Enjôleuse !
+1725 : [VAR PKNAME(0000)] utilise Dernier Mot !
+1726 : Le [VAR PKNAME(0000)] sauvage utilise Dernier Mot !
+1727 : Le [VAR PKNAME(0000)] ennemi utilise Dernier Mot !
+1728 : [VAR PKNAME(0000)] utilise Renversement !
+1729 : Le [VAR PKNAME(0000)] sauvage utilise Renversement !
+1730 : Le [VAR PKNAME(0000)] ennemi utilise Renversement !
+1731 : [VAR PKNAME(0000)] utilise Vampibaiser !
+1732 : Le [VAR PKNAME(0000)] sauvage utilise Vampibaiser !
+1733 : Le [VAR PKNAME(0000)] ennemi utilise Vampibaiser !
+1734 : [VAR PKNAME(0000)] utilise Vigilance !
+1735 : Le [VAR PKNAME(0000)] sauvage utilise Vigilance !
+1736 : Le [VAR PKNAME(0000)] ennemi utilise Vigilance !
+1737 : [VAR PKNAME(0000)] utilise Garde Florale !
+1738 : Le [VAR PKNAME(0000)] sauvage utilise Garde Florale !
+1739 : Le [VAR PKNAME(0000)] ennemi utilise Garde Florale !
+1740 : [VAR PKNAME(0000)] utilise Champ Herbu !
+1741 : Le [VAR PKNAME(0000)] sauvage utilise Champ Herbu !
+1742 : Le [VAR PKNAME(0000)] ennemi utilise Champ Herbu !
+1743 : [VAR PKNAME(0000)] utilise Champ Brumeux !
+1744 : Le [VAR PKNAME(0000)] sauvage utilise Champ Brumeux !
+1745 : Le [VAR PKNAME(0000)] ennemi utilise Champ Brumeux !
+1746 : [VAR PKNAME(0000)] utilise Électrisation !
+1747 : Le [VAR PKNAME(0000)] sauvage utilise Électrisation !
+1748 : Le [VAR PKNAME(0000)] ennemi utilise Électrisation !
+1749 : [VAR PKNAME(0000)] utilise Câlinerie !
+1750 : Le [VAR PKNAME(0000)] sauvage utilise Câlinerie !
+1751 : Le [VAR PKNAME(0000)] ennemi utilise Câlinerie !
+1752 : [VAR PKNAME(0000)] utilise Vent Féérique !
+1753 : Le [VAR PKNAME(0000)] sauvage utilise Vent Féérique !
+1754 : Le [VAR PKNAME(0000)] ennemi utilise Vent Féérique !
+1755 : [VAR PKNAME(0000)] utilise Pouvoir Lunaire !
+1756 : Le [VAR PKNAME(0000)] sauvage utilise Pouvoir Lunaire !
+1757 : Le [VAR PKNAME(0000)] ennemi utilise Pouvoir Lunaire !
+1758 : [VAR PKNAME(0000)] utilise Bang Sonique !
+1759 : Le [VAR PKNAME(0000)] sauvage utilise Bang Sonique !
+1760 : Le [VAR PKNAME(0000)] ennemi utilise Bang Sonique !
+1761 : [VAR PKNAME(0000)] utilise Verrou Enchanté !
+1762 : Le [VAR PKNAME(0000)] sauvage utilise Verrou Enchanté !
+1763 : Le [VAR PKNAME(0000)] ennemi utilise Verrou Enchanté !
+1764 : [VAR PKNAME(0000)] utilise Bouclier Royal !
+1765 : Le [VAR PKNAME(0000)] sauvage utilise Bouclier Royal !
+1766 : Le [VAR PKNAME(0000)] ennemi utilise Bouclier Royal !
+1767 : [VAR PKNAME(0000)] utilise Camaraderie !
+1768 : Le [VAR PKNAME(0000)] sauvage utilise Camaraderie !
+1769 : Le [VAR PKNAME(0000)] ennemi utilise Camaraderie !
+1770 : [VAR PKNAME(0000)] utilise Confidence !
+1771 : Le [VAR PKNAME(0000)] sauvage utilise Confidence !
+1772 : Le [VAR PKNAME(0000)] ennemi utilise Confidence !
+1773 : [VAR PKNAME(0000)] utilise Orage Adamantin !
+1774 : Le [VAR PKNAME(0000)] sauvage utilise Orage Adamantin !
+1775 : Le [VAR PKNAME(0000)] ennemi utilise Orage Adamantin !
+1776 : [VAR PKNAME(0000)] utilise Jet de Vapeur !
+1777 : Le [VAR PKNAME(0000)] sauvage utilise Jet de Vapeur !
+1778 : Le [VAR PKNAME(0000)] ennemi utilise Jet de Vapeur !
+1779 : [VAR PKNAME(0000)] utilise TrouDimensionnel !
+1780 : Le [VAR PKNAME(0000)] sauvage utilise TrouDimensionnel !
+1781 : Le [VAR PKNAME(0000)] ennemi utilise TrouDimensionnel !
+1782 : [VAR PKNAME(0000)] utilise Sheauriken !
+1783 : Le [VAR PKNAME(0000)] sauvage utilise Sheauriken !
+1784 : Le [VAR PKNAME(0000)] ennemi utilise Sheauriken !
+1785 : [VAR PKNAME(0000)] utilise Feu Ensorcelé !
+1786 : Le [VAR PKNAME(0000)] sauvage utilise Feu Ensorcelé !
+1787 : Le [VAR PKNAME(0000)] ennemi utilise Feu Ensorcelé !
+1788 : [VAR PKNAME(0000)] utilise Pico-Défense !
+1789 : Le [VAR PKNAME(0000)] sauvage utilise Pico-Défense !
+1790 : Le [VAR PKNAME(0000)] ennemi utilise Pico-Défense !
+1791 : [VAR PKNAME(0000)] utilise Brume Capiteuse !
+1792 : Le [VAR PKNAME(0000)] sauvage utilise Brume Capiteuse !
+1793 : Le [VAR PKNAME(0000)] ennemi utilise Brume Capiteuse !
+1794 : [VAR PKNAME(0000)] utilise Ondes Étranges !
+1795 : Le [VAR PKNAME(0000)] sauvage utilise Ondes Étranges !
+1796 : Le [VAR PKNAME(0000)] ennemi utilise Ondes Étranges !
+1797 : [VAR PKNAME(0000)] utilise Piège de Venin !
+1798 : Le [VAR PKNAME(0000)] sauvage utilise Piège de Venin !
+1799 : Le [VAR PKNAME(0000)] ennemi utilise Piège de Venin !
+1800 : [VAR PKNAME(0000)] utilise Nuée de Poudre !
+1801 : Le [VAR PKNAME(0000)] sauvage utilise Nuée de Poudre !
+1802 : Le [VAR PKNAME(0000)] ennemi utilise Nuée de Poudre !
+1803 : [VAR PKNAME(0000)] utilise Géo-Contrôle !
+1804 : Le [VAR PKNAME(0000)] sauvage utilise Géo-Contrôle !
+1805 : Le [VAR PKNAME(0000)] ennemi utilise Géo-Contrôle !
+1806 : [VAR PKNAME(0000)] utilise Magné-Contrôle !
+1807 : Le [VAR PKNAME(0000)] sauvage utilise Magné-Contrôle !
+1808 : Le [VAR PKNAME(0000)] ennemi utilise Magné-Contrôle !
+1809 : [VAR PKNAME(0000)] utilise Étrennes !
+1810 : Le [VAR PKNAME(0000)] sauvage utilise Étrennes !
+1811 : Le [VAR PKNAME(0000)] ennemi utilise Étrennes !
+1812 : [VAR PKNAME(0000)] utilise Champ Électrifié !
+1813 : Le [VAR PKNAME(0000)] sauvage utilise Champ Électrifié !
+1814 : Le [VAR PKNAME(0000)] ennemi utilise Champ Électrifié !
+1815 : [VAR PKNAME(0000)] utilise Éclat Magique !
+1816 : Le [VAR PKNAME(0000)] sauvage utilise Éclat Magique !
+1817 : Le [VAR PKNAME(0000)] ennemi utilise Éclat Magique !
+1818 : [VAR PKNAME(0000)] utilise Célébration !
+1819 : Le [VAR PKNAME(0000)] sauvage utilise Célébration !
+1820 : Le [VAR PKNAME(0000)] ennemi utilise Célébration !
+1821 : [VAR PKNAME(0000)] utilise Mains Jointes !
+1822 : Le [VAR PKNAME(0000)] sauvage utilise Mains Jointes !
+1823 : Le [VAR PKNAME(0000)] ennemi utilise Mains Jointes !
+1824 : [VAR PKNAME(0000)] utilise Regard Touchant !
+1825 : Le [VAR PKNAME(0000)] sauvage utilise Regard Touchant !
+1826 : Le [VAR PKNAME(0000)] ennemi utilise Regard Touchant !
+1827 : [VAR PKNAME(0000)] utilise Frotte-Frimousse !
+1828 : Le [VAR PKNAME(0000)] sauvage utilise Frotte-Frimousse !
+1829 : Le [VAR PKNAME(0000)] ennemi utilise Frotte-Frimousse !
+1830 : [VAR PKNAME(0000)] utilise Retenue !
+1831 : Le [VAR PKNAME(0000)] sauvage utilise Retenue !
+1832 : Le [VAR PKNAME(0000)] ennemi utilise Retenue !
+1833 : [VAR PKNAME(0000)] utilise Harcèlement !
+1834 : Le [VAR PKNAME(0000)] sauvage utilise Harcèlement !
+1835 : Le [VAR PKNAME(0000)] ennemi utilise Harcèlement !
+1836 : [VAR PKNAME(0000)] utilise Poing Boost !
+1837 : Le [VAR PKNAME(0000)] sauvage utilise Poing Boost !
+1838 : Le [VAR PKNAME(0000)] ennemi utilise Poing Boost !
+1839 : [VAR PKNAME(0000)] utilise Mort-Ailes !
+1840 : Le [VAR PKNAME(0000)] sauvage utilise Mort-Ailes !
+1841 : Le [VAR PKNAME(0000)] ennemi utilise Mort-Ailes !
+1842 : [VAR PKNAME(0000)] utilise Myria-Flèches !
+1843 : Le [VAR PKNAME(0000)] sauvage utilise Myria-Flèches !
+1844 : Le [VAR PKNAME(0000)] ennemi utilise Myria-Flèches !
+1845 : [VAR PKNAME(0000)] utilise Myria-Vagues !
+1846 : Le [VAR PKNAME(0000)] sauvage utilise Myria-Vagues !
+1847 : Le [VAR PKNAME(0000)] ennemi utilise Myria-Vagues !
+1848 : [VAR PKNAME(0000)] utilise Force Chtonienne !
+1849 : Le [VAR PKNAME(0000)] sauvage utilise Force Chtonienne !
+1850 : Le [VAR PKNAME(0000)] ennemi utilise Force Chtonienne !
+1851 : [VAR PKNAME(0000)] utilise Lumière du Néant !
+1852 : Le [VAR PKNAME(0000)] sauvage utilise Lumière du Néant !
+1853 : Le [VAR PKNAME(0000)] ennemi utilise Lumière du Néant !
+1854 : [VAR PKNAME(0000)] utilise Onde Originelle !
+1855 : Le [VAR PKNAME(0000)] sauvage utilise Onde Originelle !
+1856 : Le [VAR PKNAME(0000)] ennemi utilise Onde Originelle !
+1857 : [VAR PKNAME(0000)] utilise Lame Pangéenne !
+1858 : Le [VAR PKNAME(0000)] sauvage utilise Lame Pangéenne !
+1859 : Le [VAR PKNAME(0000)] ennemi utilise Lame Pangéenne !
+1860 : [VAR PKNAME(0000)] utilise Draco Ascension !
+1861 : Le [VAR PKNAME(0000)] sauvage utilise Draco Ascension !
+1862 : Le [VAR PKNAME(0000)] ennemi utilise Draco Ascension !
+1863 : [VAR PKNAME(0000)] utilise Furie Dimension !
+1864 : Le [VAR PKNAME(0000)] sauvage utilise Furie Dimension !
+1865 : Le [VAR PKNAME(0000)] ennemi utilise Furie Dimension !

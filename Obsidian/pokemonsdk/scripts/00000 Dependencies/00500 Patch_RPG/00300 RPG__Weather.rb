@@ -30,7 +30,7 @@ module RPG
     # @return [Numeric]
     attr_reader :oy
     # Create the Weather object
-    # @param viewport [LiteRGSS::Viewport]
+    # @param viewport [Viewport]
     # @note : type 0 = None, 1 = Rain, 2 = Sun/Zenith, 3 = Darud Sandstorm, 4 = Hail, 5 = Foggy
     def initialize(viewport = nil)
       @type = 0
@@ -104,7 +104,7 @@ module RPG
     private
 
     # Initialize the sprites
-    # @param viewport [LiteRGSS::Viewport]
+    # @param viewport [Viewport]
     def init_sprites(viewport)
       @sprites = Array.new(MAX_SPRITE) do
         sprite = Sprite.new(viewport)
@@ -136,7 +136,7 @@ module RPG
       return if @snow_bitmap && !@snow_bitmap.disposed?
       color1 = Color.new(255, 255, 255, 255)
       color2 = Color.new(255, 255, 255, 128)
-      @snow_bitmap = Bitmap.new(6, 6)
+      @snow_bitmap = Texture.new(6, 6)
       @snow_bitmap.fill_rect(0, 1, 6, 4, color2)
       @snow_bitmap.fill_rect(1, 0, 4, 6, color2)
       @snow_bitmap.fill_rect(1, 2, 4, 2, color1)
@@ -219,7 +219,7 @@ module RPG
     end
 
     # Reset the sprite when type= is called (and it's managed)
-    # @param bitmap [Bitmap]
+    # @param bitmap [Texture]
     def set_type_reset_sprite(bitmap)
       @sprites.each_with_index do |sprite, i|
         next unless sprite

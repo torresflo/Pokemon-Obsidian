@@ -32,7 +32,7 @@ module UI
           @withcolorbacks[index].set_bitmap(@battlefronts[index].bitmap)
           set_origin_withcolorbacks
           r, g, b, a = COLORS[pkm.type1]
-          @withcolorbacks[index].set_color(LiteRGSS::Color.new(r, g, b, a))
+          @withcolorbacks[index].set_color(Color.new(r, g, b, a))
         end
       end
 

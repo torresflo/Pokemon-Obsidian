@@ -1,3 +1,10 @@
+#!/usr/bin/env ruby
+#--
+# Copyright 2006 by Chad Fowler, Rich Kilmer, Jim Weirich and others.
+# All rights reserved.
+# See LICENSE.txt for permissions.
+#++
+
 require 'rubygems'
 require 'rubygems/gem_runner'
 require 'rubygems/exceptions'
@@ -15,3 +22,4 @@ begin
 rescue Gem::SystemExitException => e
   exit e.exit_code
 end
+

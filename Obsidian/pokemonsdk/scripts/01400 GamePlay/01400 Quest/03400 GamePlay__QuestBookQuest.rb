@@ -71,7 +71,7 @@ module GamePlay
     end
 
     # Show an earning
-    # @param text [LiteRGSS::Text] a text object
+    # @param text [Text] a text object
     # @param earning [Hash] earning data
     def show_earning(text, earning)
       if earning[:money]

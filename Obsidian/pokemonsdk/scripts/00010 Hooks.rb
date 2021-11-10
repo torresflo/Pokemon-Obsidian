@@ -23,6 +23,10 @@ module Hooks
   class ForceReturn < StandardError
     # Data that should be returned
     attr_accessor :data
+    # Reason that has forced the return
+    attr_accessor :reason
+    # Name of the hook that forced the return
+    attr_accessor :hook_name
     # Constant value for hooks functionality
     CONST = new('Return forced')
   end
@@ -47,7 +51,9 @@ module Hooks
   # @raise [ForceReturn]
   def exec_hooks(klass, name, method_binding)
     hooks = klass.instance_variable_get(:@__hooks)&.[](name)
+    ForceReturn::CONST.hook_name = name
     hooks&.each do |hook|
+      ForceReturn::CONST.reason = hook.reason
       instance_exec(method_binding, &hook)
     end
   end

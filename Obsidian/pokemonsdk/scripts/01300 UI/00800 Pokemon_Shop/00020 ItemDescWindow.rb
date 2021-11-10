@@ -27,8 +27,8 @@ module UI
 
       # Update the level text for the Pokemon
       # @param text [String] the string of the Pokemon's level
-      def text=(str)
-        @item_desc_text.text = parse_text(27, 29) + " #{str}"
+      def text=(text)
+        @item_desc_text.text = parse_text(27, 29) + " #{text}"
       end
 
       # Update the species text for the Pokemon

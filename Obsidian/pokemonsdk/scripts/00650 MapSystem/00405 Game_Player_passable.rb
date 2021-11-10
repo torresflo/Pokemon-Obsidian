@@ -5,14 +5,12 @@ class Game_Player
   # @param d [Integer] direction : 2, 4, 6, 8, 0. 0 = current position
   # @return [Boolean] if the front/current tile is passable
   def passable?(x, y, d)
-    if debug? && Input::Keyboard.press?(Input::Keyboard::LControl) # or Yuki::SystemTag.running?
-      # 通行可
-      return false if x == 0 and d == 4
-      return false if y == 0 and d == 8
-      return false if d == 6 and (x+1) == $game_map.width
-      return false if d == 2 and (y+1) == $game_map.height
-      return true
-    end
+    return true if debug? && Input::Keyboard.press?(Input::Keyboard::LControl) # or Yuki::SystemTag.running?
+
+    new_x = x + (d == 6 ? 1 : d == 4 ? -1 : 0)
+    new_y = y + (d == 2 ? 1 : d == 8 ? -1 : 0)
+    return maplinker_passable?(new_x, new_y) unless $game_map.valid?(new_x, new_y)
+
     result = super
     #> Check passable avec acro bike
     result = acro_passable_check(d, result)
@@ -97,5 +95,17 @@ class Game_Player
       return false unless event.character_name.empty?
     end
     return true
+  end
+
+  private
+
+  # is the tile in front of the player passable for maplinker uses
+  # @param new_x [Integer] new x position on the Map
+  # @param new_y [Integer] new y position on the Map
+  # @return [Boolean] if the front/current tile is passable
+  def maplinker_passable?(new_x, new_y)
+    return false unless Yuki::MapLinker.passable?(new_x, new_y, @direction)
+
+    return event_passable_check?(new_x, new_y, z, $game_map)
   end
 end

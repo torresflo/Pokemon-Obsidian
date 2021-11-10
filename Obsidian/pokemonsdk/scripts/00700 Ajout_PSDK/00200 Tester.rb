@@ -75,7 +75,7 @@ class Tester
   end
   # Manage the exception
   def manage_exception
-    raise if $!.class == LiteRGSS::Graphics::ClosedWindowError
+    raise if $!.class == LiteRGSS::DisplayWindow::ClosedWindowError
     puts Yuki::EXC.build_error_log($!)
     cc 0x01
     puts "Test locked, type reload and restart to unlock"

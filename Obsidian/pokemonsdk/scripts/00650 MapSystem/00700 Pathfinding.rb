@@ -437,6 +437,8 @@ module Pathfinding
     def stucked?
       # Get the data
       route = @character.path
+      return true unless route.is_a?(Array)
+
       route_index = @character.move_route_index
       x = @character.x
       y = @character.y

@@ -30,17 +30,13 @@ module Yuki
 
     # Reset the game screen in order to make the debugger (set the window size to 1280x720 and the scale to 1)
     def reset_screen
-      ::Config.instance_eval do
-        remove_const :FullScreen
-        const_set :FullScreen, false
-        remove_const :ScreenScale
-        const_set :ScreenScale, 1
-      end
-      Graphics.resize_screen(1280, 720)
-      # Little trick to reset the Viewport view to the new Window size
-      Graphics.instance_eval do
-        @__elementtable.each { |element| element.rect.width = element.rect.width if element.is_a?(Viewport) }
-      end
+      settings = Graphics.window.settings
+      settings[1] = 1280
+      settings[2] = 720
+      settings[3] = 1
+      Graphics.window.settings = settings
+      Graphics.reset_mouse_viewport
+      PSDK_CONFIG.instance_variable_set(:@window_scale, 1)
     end
 
     # Self definition

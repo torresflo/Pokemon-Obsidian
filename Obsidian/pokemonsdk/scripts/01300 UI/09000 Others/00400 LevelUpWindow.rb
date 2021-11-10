@@ -2,7 +2,7 @@ module UI
   # Window responsive of displaying the Level Up information when a Pokemon levels up
   class LevelUpWindow < UI::Window
     # Create a new Level Up Window
-    # @param viewport [LiteRGSS::Viewport] viewport in which the Pokemon is shown
+    # @param viewport [Viewport] viewport in which the Pokemon is shown
     # @param pokemon [PFM::Pokemon] Pokemon that is currently leveling up
     # @param list0 [Array] old basis stats
     # @param list1 [Array] new basis stats

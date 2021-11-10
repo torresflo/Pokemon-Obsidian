@@ -1,0 +1,1291 @@
+0 : 
+1 : Bulbizarre passe son temps à faire la sieste sous le soleil. Il y a une graine sur son dos. Il absorbe les rayons du soleil pour faire doucement pousser la graine.
+2 : Un bourgeon a poussé sur le dos de ce Pokémon. Pour en supporter le poids, Herbizarre a dû se muscler les pattes. Lorsqu’il commence à se prélasser au soleil, ça signifie que son bourgeon va éclore, donnant naissance à une fleur.
+3 : Une belle fleur se trouve sur le dos de Florizarre. Elle prend une couleur vive lorsqu’elle est bien nourrie et bien ensoleillée. Le parfum de cette fleur peut apaiser les gens.
+4 : La flamme qui brûle au bout de sa queue indique l’humeur de ce Pokémon. Elle vacille lorsque Salamèche est content. En revanche, lorsqu’il s’énerve, la flamme prend de l’importance et brûle plus ardemment.
+5 : Reptincel lacère ses ennemis sans pitié grâce à ses griffes acérées. S’il rencontre un ennemi puissant, il devient agressif et la flamme au bout de sa queue s’embrase et prend une couleur bleu clair.
+6 : Dracaufeu parcourt les cieux pour trouver des adversaires à sa mesure. Il crache de puissantes flammes capables de faire fondre n’importe quoi. Mais il ne dirige jamais son souffle destructeur vers un ennemi plus faible.
+7 : La carapace de Carapuce ne sert pas qu’à le protéger. La forme ronde de sa carapace et ses rainures lui permettent d’améliorer son hydrodynamisme. Ce Pokémon nage extrêmement vite.
+8 : Carabaffe a une large queue recouverte d’une épaisse fourrure. Elle devient de plus en plus foncée avec l’âge. Les éraflures sur la carapace de ce Pokémon témoignent de son expérience au combat.
+9 : Tortank dispose de canons à eau émergeant de sa carapace. Ils sont très précis et peuvent envoyer des balles d’eau capables de faire mouche sur une cible située à plus de 50 m.
+10 : Chenipan a un appétit d’ogre. Il peut engloutir des feuilles plus grosses que lui. Les antennes de ce Pokémon dégagent une odeur particulièrement entêtante.
+11 : La carapace protégeant ce Pokémon est dure comme du métal. Chrysacier ne bouge pas beaucoup. Il reste immobile pour préparer les organes à l’intérieur de sa carapace en vue d’une évolution future.
+12 : Papilusion est très doué pour repérer le délicieux nectar qu’il butine dans les fleurs. Il peut détecter, extraire et transporter le nectar de fleurs situées à plus de 10 km de son nid.
+13 : L’odorat d’Aspicot est extrêmement développé. Il lui suffit de renifler ses feuilles préférées avec son gros appendice nasal pour les reconnaître entre mille.
+14 : Coconfort est la plupart du temps immobile et reste accroché à un arbre. Cependant, intérieurement, il est très actif, car il se prépare pour sa prochaine évolution. En touchant sa carapace, on peut sentir sa chaleur.
+15 : Dardargnan est extrêmement possessif. Il vaut mieux ne pas toucher son nid si on veut éviter d’avoir des ennuis. Lorsqu’ils sont en colère, ces Pokémon attaquent en masse.
+16 : Roucool a un excellent sens de l’orientation. Il est capable de retrouver son nid sans jamais se tromper, même s’il est très loin de chez lui et dans un environnement qu’il ne connaît pas.
+17 : Roucoups utilise une vaste surface pour son territoire. Ce Pokémon surveille régulièrement son espace aérien. Si quelqu’un pénètre sur son territoire, il corrige l’ennemi sans pitié d’un coup de ses terribles serres.
+18 : Ce Pokémon est doté d’un plumage magnifique et luisant. Bien des Dresseurs sont captivés par la beauté fatale de sa huppe et décident de choisir Roucarnage comme leur Pokémon favori.
+19 : Rattata est extrêmement prudent. Même lorsqu’il est endormi, il fait pivoter ses oreilles pour écouter autour de lui. En ce qui concerne son habitat, il n’est vraiment pas difficile. Il peut faire son nid n’importe où.
+20 : Les crocs robustes de Rattatac poussent constamment. Pour éviter qu’ils raclent le sol, il se fait les dents sur des cailloux ou des troncs d’arbre. Il lui arrive même de ronger les murs des maisons.
+21 : Piafabec crie tellement fort qu’il peut être entendu à 1 km de distance. Ces Pokémon se préviennent d’un danger en entonnant une mélopée très aiguë, qu’ils se renvoient les uns les autres, comme un écho.
+22 : On reconnaît un Rapasdepic à son long cou et à son bec allongé. Ces attributs lui permettent d’attraper facilement ses proies dans la terre ou dans l’eau. Il bouge son bec long et fin avec une grande agilité.
+23 : Abo s’enroule en spirale pour dormir. Sa tête reste relevée de telle sorte que cette position lui permette de réagir rapidement si une menace survenait.
+24 : Ce Pokémon doté d’une force extraordinaire peut étrangler ses proies avec son corps. Il peut même écraser des tonneaux métalliques. Une fois sous l’étreinte d’Arbok, il est impossible de lui échapper.
+25 : Ce Pokémon dispose de petites poches dans les joues pour stocker de l’électricité. Elles semblent se charger pendant que Pikachu dort. Il libère parfois un peu d’électricité lorsqu’il n’est pas encore bien réveillé.
+26 : Ce Pokémon libère un faible champ électrique tout autour de son corps, ce qui le rend légèrement lumineux dans le noir. Raichu plante sa queue dans le sol pour évacuer de l’électricité.
+27 : Sabelette a une peau très sèche et extrêmement dure. Ce Pokémon peut s’enrouler sur lui-même pour repousser les attaques. La nuit, il s’enterre dans le sable du désert pour dormir.
+28 : Sablaireau peut enrouler son corps pour prendre la forme d’une balle hérissée de pointes. Ce Pokémon essaie de faire peur à son ennemi en le frappant avec ses pointes. Puis, il se rue sur lui avec ses griffes acérées.
+29 : Nidoran♀ est couvert de pointes qui sécrètent un poison puissant. On pense que ce petit Pokémon a développé ces pointes pour se défendre. Lorsqu’il est en colère, une horrible toxine sort de sa corne.
+30 : Lorsqu’un Nidorina est avec ses amis ou sa famille, il replie ses pointes pour ne pas blesser ses proches. Ce Pokémon devient vite nerveux lorsqu’il est séparé de son groupe.
+31 : Le corps de Nidoqueen est protégé par des écailles extrêmement dures. Il aime envoyer ses ennemis voler en leur fonçant dessus. Ce Pokémon utilise toute sa puissance lorsqu’il protège ses petits.
+32 : Nidoran♂ a développé des muscles pour bouger ses oreilles. Ainsi, il peut les orienter à sa guise. Ce Pokémon peut entendre le plus discret des bruits.
+33 : Nidorino dispose d’une corne plus dure que du diamant. S’il sent une présence hostile, toutes les pointes de son dos se hérissent d’un coup, puis il défie son ennemi.
+34 : L’épaisse queue de Nidoking est d’une puissance incroyable. En un seul coup, il peut renverser une tour métallique. Lorsque ce Pokémon se déchaîne, plus rien ne peut l’arrêter.
+35 : Les nuits de pleine lune, des groupes de ces Pokémon sortent jouer. Lorsque l’aube commence à poindre, les Mélofée fatigués rentrent dans leur retraite montagneuse et vont dormir, blottis les uns contre les autres.
+36 : Les Mélodelfe se déplacent en sautant doucement, comme s’ils volaient. Leur démarche légère leur permet même de marcher sur l’eau. On raconte qu’ils se promènent sur les lacs, les soirs où la lune est claire.
+37 : À l’intérieur du corps de Goupix se trouve une flamme qui ne s’éteint jamais. Pendant la journée, lorsque la température augmente, ce Pokémon crache des flammes pour éviter que son corps ne devienne trop chaud.
+38 : La légende raconte que Feunard est apparu lorsque neuf sorciers aux pouvoirs sacrés décidèrent de fusionner. Ce Pokémon est très intelligent. Il comprend la langue des hommes.
+39 : Lorsque ce Pokémon chante, il ne s’arrête pas pour respirer. Quand il se bat contre un adversaire qu’il ne peut pas facilement endormir, Rondoudou reste donc sans respirer, mettant sa vie en danger.
+40 : Le corps de Grodoudou est très élastique. S’il inspire profondément, ce Pokémon peut se gonfler à volonté. Une fois gonflé, Grodoudou peut rebondir comme un ballon.
+41 : Nosferapti évite la lumière du soleil, car ça le rend malade. Pendant la journée, il reste dans les cavernes ou à l’ombre des vieilles maisons, où il dort, la tête à l’envers.
+42 : Nosferalto mord sa proie grâce à ses quatre crocs pour boire son sang. Il ne sort que lorsque la nuit est noire et sans lune, pour voleter en quête de gens et de Pokémon à mordre.
+43 : Mystherbe cherche un sol fertile et riche en nutriments, pour s’y planter. Pendant la journée, quand il est planté, les pieds de ce Pokémon changent de forme et deviennent similaires à des racines.
+44 : Ortide bave un miel qui sent horriblement mauvais. Apparemment, il adore cette odeur nauséabonde. Il en renifle les fumées toxiques et se met à baver du miel de plus belle.
+45 : Rafflesia dispose des plus grands pétales du monde. Il s’en sert pour attirer ses proies avant de les endormir avec ses spores toxiques. Ce Pokémon n’a plus alors qu’à attraper sa proie et à la manger.
+46 : Paras accueille des champignons parasites appelés tochukaso qui poussent sur son dos. Ils grandissent grâce aux nutriments trouvés sur le dos de ce Pokémon Insecte. Ils peuvent rallonger l’espérance de vie.
+47 : On sait que les Parasect vivent en groupe dans les grands arbres et se nourrissent des nutriments contenus dans le tronc et les racines. Lorsqu’un arbre infesté meurt, ils se précipitent vers le prochain.
+48 : On raconte que Mimitoss a évolué avec une fourrure de poils fins et drus qui protège son corps tout entier. Il est doté de grands yeux capables de repérer ses proies, même minuscules.
+49 : Aéromite est un Pokémon nocturne, il ne sort donc que la nuit. Ses proies préférées sont les petits insectes qui se rassemblent autour des réverbères, attirés par la lumière.
+50 : Les Taupiqueur sont élevés dans la plupart des fermes. En effet, lorsque ce Pokémon creuse quelque part, le sol est comme labouré, prêt à recevoir les semences. On peut alors y planter de délicieux légumes.
+51 : Les Triopikeur sont en fait des triplés qui ont émergé du même corps. C’est pourquoi chaque triplé pense exactement comme les deux autres. Ils creusent inlassablement, dans une coopération parfaite.
+52 : Miaouss peut rentrer ses griffes dans ses pattes pour rôder gracieusement sans laisser de traces. Étrangement, ce Pokémon raffole des pièces d’or qui brillent à la lumière.
+53 : Persian a six grosses vibrisses qui lui donnent un air costaud et lui permettent de sentir les mouvements de l’air pour savoir ce qui se trouve à proximité. Il devient docile lorsqu’on l’attrape par les moustaches.
+54 : Lorsqu’il utilise son mystérieux pouvoir, Psykokwak ne s’en souvient pas. Apparemment, il ne peut pas garder ce genre d’événement en mémoire, car il pratique ce pouvoir dans un état proche du sommeil profond.
+55 : Akwakwak est le Pokémon qui nage le plus vite. Il nage sans se fatiguer, même lorsque la mer est agitée. Il sauve parfois des gens coincés dans les navires bloqués en haute mer.
+56 : Lorsque Férosinge commence à trembler et que sa respiration devient haletante, cela signifie qu’il est en colère. En outre, la moutarde lui monte au nez tellement vite qu’il est presque impossible d’échapper à sa colère.
+57 : Lorsque Colossinge devient furieux, sa circulation sanguine s’accélère. Du coup, ses muscles sont encore plus puissants. En revanche, il devient bien moins intelligent.
+58 : Caninos a un odorat très développé. Ce Pokémon n’oublie jamais un parfum, quel qu’il soit. Il utilise son puissant sens olfactif pour deviner les émotions des autres créatures vivantes.
+59 : Arcanin est célèbre pour son extraordinaire vitesse. On le dit capable de parcourir plus de 10 000 km en 24 h. Le feu qui fait rage à l’intérieur du corps de ce Pokémon est la source de son pouvoir.
+60 : Ptitard a une peau très fine. On peut même voir les entrailles en spirale de ce Pokémon à travers sa peau. Malgré sa finesse, cette peau est aussi très élastique. Même les crocs les plus acérés rebondissent dessus.
+61 : La peau de Têtarte est toujours maintenue humide par un liquide huileux. Grâce à cette protection graisseuse, il peut facilement se glisser hors de l’étreinte de n’importe quel ennemi.
+62 : Les muscles solides et surdéveloppés de Tartard ne se fatiguent jamais, quels que soient les efforts qu’il produit. Ce Pokémon est tellement endurant qu’il peut traverser un océan à la nage avec une étonnante facilité.
+63 : Abra doit dormir dix-huit heures par jour. S’il dort moins, ce Pokémon ne peut plus utiliser ses pouvoirs télékinétiques. Lorsqu’il est attaqué, Abra s’enfuit en utilisant Téléport, sans même se réveiller.
+64 : Kadabra tient une cuiller en argent dans la main. Elle est utilisée pour amplifier les ondes alpha de son cerveau. Sans elle, on raconte que ce Pokémon ne peut utiliser que la moitié de ses pouvoirs télékinétiques.
+65 : Le cerveau d’Alakazam grossit sans arrêt, multipliant sans cesse ses cellules. Ce Pokémon a un QI incroyablement élevé, de 5 000. Il peut garder en mémoire tout ce qui s’est passé dans le monde.
+66 : Machoc s’entraîne en soulevant un Gravalanch, comme s’il s’agissait d’haltères. Certains Machoc voyagent un peu partout dans le monde pour apprendre à maîtriser tous les types d’arts martiaux.
+67 : Machopeur pratique le body-building tous les jours, même lorsqu’il aide les gens à réaliser de durs travaux. Pendant ses congés, ce Pokémon va s’entraîner dans les champs et les montagnes.
+68 : Mackogneur est célèbre, car c’est le seul Pokémon qui a réussi à maîtriser tous les types d’arts martiaux. S’il parvient à attraper son ennemi avec ses quatre bras, il le projette par-delà l’horizon.
+69 : Le corps long et flexible de Chétiflor lui permet de se tordre et d’osciller pour éviter tout type d’attaque, même les plus puissantes. Ce Pokémon crache un fluide corrosif qui peut même dissoudre le fer.
+70 : Boustiflor est doté d’un gros crochet. La nuit, ce Pokémon s’accroche à une branche pour s’endormir. Quand il a un sommeil agité, il se réveille par terre.
+71 : Empiflor est doté d’une longue liane qui part de sa tête. Cette liane se balance et remue comme un animal pour attirer ses proies. Lorsque l’une d’elles s’approche un peu trop près, ce Pokémon l’avale entièrement.
+72 : Grâce à l’eau de son corps, Tentacool convertit la lumière du soleil absorbée et la renvoie sous forme de rayon d’énergie. Ce Pokémon lance ces rayons par le petit organe rond situé au-dessus de ses yeux.
+73 : Les tentacules de Tentacruel peuvent s’allonger et se rétracter à volonté. Il serre sa proie dans ses tentacules et l’affaiblit en lui injectant une toxine. Il peut attraper jusqu’à 80 proies en même temps.
+74 : Pour dormir profondément, Racaillou s’enterre à moitié dans le sol. Il ne se réveille pas, même si des randonneurs lui marchent dessus. Au petit matin, ce Pokémon roule en contrebas en quête de nourriture.
+75 : La nourriture préférée de Gravalanch est la roche. Ce Pokémon escalade parfois les montagnes, dévorant les rochers sur son passage. Une fois au sommet, il se laisse rouler jusqu’en bas.
+76 : On sait que les Grolem se laissent rouler en bas des montagnes. Afin d’éviter qu’ils roulent sur les maisons des gens, des tranchées ont été creusées le long des montagnes pour les guider dans leurs descentes infernales.
+77 : À sa naissance, Ponyta est très faible. Il peut à peine tenir debout. Ce Pokémon se muscle en trébuchant et en tombant, lorsqu’il essaie de suivre ses parents.
+78 : On voit souvent Galopa trotter dans les champs et les plaines. Cependant, lorsque ce Pokémon s’en donne la peine, il peut galoper à plus de 240 km/h et sa crinière flamboyante s’embrase.
+79 : Ramoloss trempe sa queue dans l’eau au bord des rivières pour attraper ses proies. Cependant, ce Pokémon oublie souvent ce qu’il fait là et passe des jours entiers à traîner au bord de l’eau.
+80 : Flagadoss a un Kokiyas solidement attaché à sa queue. Du coup, il ne peut plus l’utiliser pour pêcher. Flagadoss est donc obligé, à contrecœur, de nager pour attraper ses proies.
+81 : Magnéti flotte dans les airs en émettant des ondes électromagnétiques par les aimants sur ses côtés. Ces ondes annulent les effets de la gravité. Ce Pokémon ne peut plus voler si son stock d’électricité est épuisé.
+82 : Magnéton émet un puissant champ magnétique qui neutralise les appareils électroniques. Certaines villes demandent aux propriétaires de ces Pokémon de les garder dans leurs Poké Balls.
+83 : On voit souvent des Canarticho avec une tige, récupérée sur une plante quelconque. Apparemment, ils peuvent distinguer les bonnes des mauvaises. On a vu ces Pokémon se battre pour des histoires de tiges.
+84 : Les deux têtes de Doduo contiennent des cerveaux totalement identiques. Une étude scientifique démontra que dans des cas rares, certains de ces Pokémon possèdent des cerveaux différents.
+85 : Apparemment, Dodrio ne se contente pas d’avoir trois têtes. Il semble également avoir trois cœurs et six poumons, ce qui lui permet de courir très longtemps sans s’épuiser.
+86 : Otaria chasse ses proies dans l’eau gelée, sous la couche de glace. Lorsqu’il cherche à respirer, il perce un trou en frappant la glace avec la partie saillante de sa tête.
+87 : Lamantine adore piquer un roupillon à même la glace. Il y a très longtemps, un marin ayant aperçu ce Pokémon dormant sur un glacier a cru voir une sirène.
+88 : Tadmorv est apparu dans la vase accumulée sur un bord de mer pollué. Ce Pokémon aime tout ce qui est dégoûtant. Une substance pleine de germes suinte constamment de tout son corps.
+89 : Ce Pokémon ne mange que ce qui est répugnant et abject. Les Grotadmorv se rassemblent dans les villes où les gens jettent tout par terre, dans la rue.
+90 : La nuit, ce Pokémon utilise sa grande langue pour creuser un trou dans le sable des fonds marins afin d’y dormir. Une fois endormi, Kokiyas referme sa coquille, mais laisse sa langue dépasser.
+91 : Crustabri est capable de se déplacer dans les fonds marins en avalant de l’eau et en la rejetant vers l’arrière. Ce Pokémon envoie des pointes en utilisant la même méthode.
+92 : Fantominus est principalement constitué de matière gazeuse. Lorsqu’il est exposé au vent, son corps gazeux se disperse et diminue. Des groupes de ce Pokémon se rassemblent sous les auvents des maisons pour se protéger.
+93 : Spectrum est un Pokémon dangereux. Si l’un d’entre eux fait signe d’approcher, il ne faut jamais l’écouter. Ce Pokémon risque de sortir sa langue pour essayer de voler votre vie.
+94 : Parfois, pendant les nuits noires, une ombre projetée par un réverbère peut tout à coup vous dépasser. Il s’agit d’un Ectoplasma qui court, en se faisant passer pour l’ombre de quelqu’un d’autre.
+95 : Onix a dans le cerveau un aimant qui lui sert de boussole. Il permet à ce Pokémon de ne pas se perdre pendant qu’il creuse. En prenant de l’âge, son corps s’arrondit et se polit.
+96 : Lorsque les enfants ont le nez qui les démange en dormant, c’est sans doute parce que ce Pokémon se tient au-dessus de leur oreiller, afin d’essayer de manger leurs rêves par leurs narines.
+97 : Hypnomade tient un pendule dans sa main. Le mouvement de balancier et les reflets brillants du pendule hypnotisent profondément son ennemi. Lorsque ce Pokémon cherche ses proies, il nettoie son pendule.
+98 : Krabby vit sur les plages, enterré dans le sable. Sur les plages où on trouve peu de nourriture, on peut voir ces Pokémon se disputer pour défendre leur territoire.
+99 : Krabboss est doté d’une pince gigantesque, surdimensionnée. Il l’agite en l’air pour communiquer avec ses semblables. En revanche, sa pince est tellement lourde que ce Pokémon se fatigue très vite.
+100 : Voltorbe est extrêmement sensible. Il explose au moindre choc. On raconte qu’il fut créé par l’exposition d’une Poké Ball à une puissante dose d’énergie.
+101 : L’une des caractéristiques d’Électrode est son attirance pour l’électricité. Ces Pokémon posent problème lorsqu’ils se rassemblent dans les centrales électriques pour se nourrir de courant fraîchement généré.
+102 : Ce Pokémon est constitué de six œufs formant une grappe serrée. Ces six œufs s’attirent mutuellement et pivotent. Quand des fissures apparaissent sur les coquilles, ça signifie que Noeunoeuf est sur le point d’évoluer.
+103 : Noadkoko vient des tropiques. À force de vivre sous un soleil ardent, ses têtes ont rapidement grandi. On raconte que lorsque ses têtes tombent, elles se rassemblent et forment un Noeunoeuf.
+104 : La maman d’Osselait lui manque terriblement et il ne la reverra jamais. La lune le fait pleurer, car elle lui rappelle sa mère. Les taches sur le crâne que porte ce Pokémon sont les marques de ses larmes.
+105 : Ossatueur est la forme évoluée d’Osselait. Il a surmonté le chagrin causé par la perte de sa maman et s’est endurci. Le tempérament décidé et entier de ce Pokémon le rend très difficile à amadouer.
+106 : Les jambes de Kicklee peuvent se contracter et s’étirer à volonté. Grâce à ces jambes à ressort, il terrasse ses ennemis en les rouant de coups de pied. Après les combats, il masse ses jambes pour éviter de sentir la fatigue.
+107 : On raconte que Tygnon dispose de l’état d’esprit d’un boxeur qui s’entraîne pour le championnat du monde. Ce Pokémon est doté d’une ténacité à toute épreuve et n’abandonne jamais face à l’adversité.
+108 : Chaque fois qu’Excelangue découvre quelque chose de nouveau, il le lèche. Sa mémoire est basée sur le goût et la texture des objets. Il n’aime pas les choses acides.
+109 : Smogo est composé de substances toxiques. Il mélange des toxines et des détritus pour déclencher une réaction chimique générant un gaz très dangereux. Plus la température est élevée, plus la quantité de gaz est importante.
+110 : Smogogo rétrécit ou gonfle ses deux corps pour mélanger les gaz toxiques qui s’y trouvent. Lorsque les gaz sont bien mélangés, la toxine devient très puissante. Le Pokémon se putréfie aussi un peu plus.
+111 : Le cerveau de Rhinocorne est tout petit, à tel point que lorsqu’il attaque, il lui arrive d’oublier pourquoi il a commencé à charger. Il lui arrive de se souvenir qu’il a démoli certaines choses.
+112 : La corne de Rhinoféros lui sert de foreuse. Il l’utilise pour détruire des rochers et des cailloux. Ce Pokémon charge de temps en temps dans du magma en fusion, mais sa peau blindée le protège de la chaleur.
+113 : Leveinard pond tous les jours des œufs pleins de vitamines. Ces œufs sont tellement bons que les gens les mangent même quand ils n’ont pas faim.
+114 : Les lianes de Saquedeneu se brisent facilement lorsqu’on les attrape. Cela ne lui fait pas mal et lui permet simplement de s’échapper rapidement. Les lianes cassées repoussent le lendemain.
+115 : Lorsqu’on rencontre un petit Kangourex qui joue tout seul, il ne faut jamais le déranger ou essayer de l’attraper. Les parents du bébé Pokémon sont sûrement dans le coin et ils risquent d’entrer dans une colère noire.
+116 : Lorsque Hypotrempe sent un danger, il libère instinctivement une épaisse encre noire pour pouvoir s’échapper. Ce Pokémon nage en agitant sa nageoire dorsale.
+117 : Hypocéan déclenche des tourbillons en faisant tournoyer son corps. Ces tourbillons sont assez puissants pour engloutir des bateaux de pêche. Ce Pokémon affaiblit sa proie grâce à ces courants, puis l’avale en une bouchée.
+118 : Poissirène adore nager librement dans les rivières et les étangs. Si l’un de ces Pokémon est mis dans un aquarium, il n’hésitera pas à casser la vitre avec sa puissante corne pour s’enfuir.
+119 : Les Poissoroy font tout pour protéger leurs œufs. Les mâles et les femelles patrouillent pour surveiller le nid et les œufs. La garde de ces œufs dure un peu plus d’un mois.
+120 : Stari communique apparemment avec les étoiles dans le ciel en faisant clignoter son cœur rouge. Si des parties de son corps sont cassées, ce Pokémon les régénère.
+121 : Staross nage en faisant tournoyer son corps en forme d’étoile, un peu à la manière d’une hélice de bateau. Le cœur au centre du corps de ce Pokémon brille de sept couleurs.
+122 : M. Mime est un pantomime hors pair. Ses gestes et ses mouvements parviennent à faire croire que quelque chose d’invisible existe réellement. Lorsqu’on y croit, ces choses deviennent palpables.
+123 : Insécateur est incroyablement rapide. Sa vitesse fulgurante améliore l’efficacité des deux lames situées sur ses avant-bras. Elles sont si coupantes qu’elles peuvent trancher un énorme tronc d’arbre en un coup.
+124 : Lippoutou marche en rythme, ondule de tout son corps et se déhanche comme s’il dansait. Ses mouvements sont si communicatifs que les gens qui le voient sont soudain pris d’une terrible envie de bouger les hanches, sans réfléchir.
+125 : Lorsqu’une tempête approche, des groupes entiers de ce Pokémon se battent pour grimper sur les hauteurs, où la foudre a le plus de chance de tomber. Certaines villes se servent d’Élektek en guise de paratonnerres.
+126 : Lorsqu’il se bat, Magmar fait jaillir des flammes de son corps pour intimider son adversaire. Les explosions enflammées de ce Pokémon déclenchent des vagues de chaleur qui embrasent la végétation environnante.
+127 : Scarabrute est doté de cornes imposantes. Des pointes jaillissent de la surface de ses cornes. Ces pointes s’enfoncent profondément dans le corps de l’ennemi, l’empêchant ainsi de s’échapper.
+128 : Ce Pokémon n’est pas satisfait s’il ne détruit pas tout sur son passage. Lorsque Tauros ne trouve pas d’adversaire, il se rue sur de gros arbres et les déracine pour passer ses nerfs.
+129 : Magicarpe est virtuellement inutile en combat. Il se contente de faire des ronds dans l’eau. On le considère plutôt faible. Pourtant, ce Pokémon est très robuste et peut survivre dans n’importe quel environnement, même très pollué.
+130 : Lorsque Léviator commence à s’énerver, sa nature violente ne se calme qu’une fois qu’il a tout réduit en cendres. La fureur de ce Pokémon peut durer pendant un mois.
+131 : Les Lokhlass sont en voie d’extinction. Le soir, on entend ce Pokémon chantonner une complainte mélancolique, espérant retrouver ses rares congénères.
+132 : Métamorph peut modifier sa structure moléculaire pour prendre d’autres formes. Lorsqu’il essaie de se transformer de mémoire, il lui arrive de se tromper sur certains détails.
+133 : Évoli a une structure génétique instable qui se transforme en fonction de l’environnement dans lequel il vit. Ce Pokémon peut évoluer grâce aux radiations de diverses pierres.
+134 : Aquali a subi une mutation spontanée. Des nageoires et des branchies sont apparues sur son corps, ce qui lui permet de vivre dans les fonds marins. Ce Pokémon peut contrôler l’eau à volonté.
+135 : Les cellules de Voltali génèrent un courant de faible intensité. Ce pouvoir est amplifié par l’électricité statique de ses poils, ce qui lui permet d’envoyer des éclairs. Sa fourrure hérissée est faite d’aiguilles chargées d’électricité.
+136 : La fourrure soyeuse de Pyroli a une fonction anatomique. Elle rejette la chaleur dans l’air pour que son corps ne surchauffe pas. La température du corps de ce Pokémon peut atteindre 900 °C.
+137 : Porygon est capable de se décompiler et de retourner à l’état de programme informatique pour entrer dans le cyberespace. Ce Pokémon est protégé contre le piratage, il est donc impossible de le copier.
+138 : Amonita est l’un des Pokémon disparus depuis longtemps et qui furent ressuscités à partir de fossiles. Lorsqu’il est attaqué par un ennemi, il se rétracte dans sa coquille.
+139 : Amonistar utilise ses tentacules pour capturer ses proies. On pense que l’espèce s’est éteinte parce que sa coquille était devenue trop grande et trop lourde, ce qui rendait ses mouvements lents et pesants.
+140 : Kabuto est un Pokémon ressuscité à partir d’un fossile. Cependant, on a découvert des spécimens vivants. Ce Pokémon n’a pas changé depuis 300 millions d’années.
+141 : Jadis, Kabutops plongeait dans les profondeurs pour trouver ses proies. Apparemment, ce Pokémon vivant sur terre est l’évolution d’une créature marine, comme le prouvent les changements dans ses branchies.
+142 : Ptéra est un Pokémon de l’ère des dinosaures. Il fut ressuscité à partir de cellules extraites d’un morceau d’ambre. On pense qu’il était le roi des cieux à l’époque préhistorique.
+143 : Les journées de Ronflex se résument aux repas et aux siestes. C’est un Pokémon tellement gentil que les enfants n’hésitent pas à jouer sur son énorme ventre.
+144 : Artikodin est un Pokémon Oiseau légendaire qui peut contrôler la glace. Le battement de ses ailes gèle l’air tout autour de lui. C’est pourquoi on dit que lorsque ce Pokémon vole, il va neiger.
+145 : Électhor est un Pokémon Oiseau légendaire capable de contrôler l’électricité. Il vit généralement dans les nuages orageux. Ce Pokémon gagne en puissance lorsqu’il est frappé par la foudre.
+146 : Sulfura est un Pokémon Oiseau légendaire capable de contrôler le feu. On raconte que lorsque ce Pokémon est blessé, il se baigne dans le magma en ébullition d’un volcan pour se soigner.
+147 : Minidraco mue constamment, renouvelant sans arrêt sa peau. En effet, l’énergie vitale de son corps augmente régulièrement et sa mue lui permet d’éviter d’atteindre des niveaux incontrôlables.
+148 : Draco stocke une quantité d’énergie considérable dans son corps. On raconte qu’il peut modifier les conditions climatiques autour de lui en déchargeant l’énergie contenue dans les cristaux de son cou et de sa queue.
+149 : Dracolosse est capable de faire le tour de la planète en seize heures à peine. C’est un Pokémon au grand cœur qui ramène à bon port les navires perdus dans les tempêtes.
+150 : Mewtwo est un Pokémon créé par manipulation génétique. Cependant, bien que les connaissances scientifiques des humains aient réussi à créer son corps, elles n’ont pas pu doter Mewtwo d’un cœur sensible.
+151 : On dit que Mew possède le code génétique de tous les autres Pokémon. Il peut se rendre invisible à sa guise, ce qui lui permet de ne pas se faire remarquer quand il s’approche des gens.
+152 : Lorsqu’il se bat, Germignon secoue sa feuille pour tenir son ennemi à distance. Un doux parfum s’en dégage également, apaisant les Pokémon qui se battent et créant une atmosphère agréable et amicale.
+153 : Le cou de Macronium est entouré de nombreuses feuilles. Dans chacune d’elles se trouve une pousse d’arbre. Le parfum de cette pousse donne la pêche aux personnes qui le sentent.
+154 : Le parfum de la fleur de Méganium apaise et calme les esprits. Pendant les combats, ce Pokémon émet son parfum relaxant pour atténuer l’agressivité de l’ennemi.
+155 : Héricendre se protège en faisant jaillir des flammes de son dos. Ces flammes peuvent être violentes si le Pokémon est en colère. Cependant, s’il est fatigué, seules quelques flammèches vacillent laborieusement.
+156 : Feurisson garde ses ennemis à distance grâce à l’intensité de ses flammes et à des rafales d’air brûlant. Ce Pokémon utilise son incroyable agilité pour éviter les attaques, tout en enflammant ses ennemis.
+157 : Typhlosion se cache derrière un chatoyant nuage de chaleur qu’il crée en attisant ses flammes intenses. Ce Pokémon peut générer des rafales explosives qui réduisent tout en cendres.
+158 : Malgré son tout petit corps, la mâchoire de Kaiminus est très puissante. Parfois, ce Pokémon mordille les gens pour jouer, sans se rendre compte que sa morsure peut gravement blesser quelqu’un.
+159 : Une fois que Crocrodil a refermé sa mâchoire sur son ennemi, il est impossible de le faire lâcher prise. Ses crocs sont recourbés comme des hameçons et ne peuvent pas être retirés une fois enfoncés.
+160 : Aligatueur impressionne ses ennemis en ouvrant son énorme gueule. Pendant les combats, il piétine le sol de ses puissantes pattes arrière avant de charger ses adversaires à pleine vitesse.
+161 : Lorsqu’un Fouinette dort, un autre monte la garde. La sentinelle réveille les autres au moindre signe de danger. Si un de ces Pokémon est séparé de sa meute, il est incapable de dormir, car il a peur.
+162 : Fouinar est très mince. Lorsqu’il est attaqué, il peut s’enfuir en se faufilant habilement dans les recoins étroits. Malgré ses pattes courtes, ce Pokémon est très agile et rapide.
+163 : Hoothoot est doté d’un organe interne qui ressent et suit la rotation de la planète. Grâce à cet organe peu ordinaire, ce Pokémon commence à hululer tous les jours exactement à la même heure.
+164 : Dans l’obscurité, Noarfang ne rate jamais une proie. Il le doit à sa vision surdéveloppée qui lui permet de tout voir, même avec une lueur très faible, ainsi qu’à ses ailes très souples et silencieuses.
+165 : Coxy sécrète un fluide aromatisé sortant des articulations de ses pattes. Ce fluide lui permet de communiquer avec ses congénères. Ce Pokémon exprime ses sentiments en modifiant l’odeur de ce fluide.
+166 : On dit que dans les pays où le ciel est dégagé et où les étoiles illuminent les cieux, vivent d’innombrables quantités de Coxyclaque. La raison en est simple : l’énergie de ce Pokémon provient de la lumière des étoiles.
+167 : La toile tissée par Mimigal peut être comparée à un second système nerveux. On raconte que ce Pokémon peut déterminer quel type de proie touche sa toile grâce aux infimes vibrations des fils.
+168 : À l’extrémité des pattes de Migalos, on trouve de petits crochets qui lui permettent de cavaler sur les surfaces verticales et au plafond. Ce Pokémon peut piéger ses ennemis dans sa solide toile de soie.
+169 : Nostenfer s’approche discrètement de sa proie grâce à ses ailes silencieuses. Ce Pokémon se repose en s’accrochant à une branche avec ses pattes arrière, qui peuvent aussi lui servir d’ailes.
+170 : Les deux antennes de Loupio sont chargées de cellules qui génèrent un courant de forte intensité. Ces cellules libèrent tellement d’électricité qu’elles vibrent légèrement.
+171 : On sait que Lanturn émet de la lumière. Si on regarde attentivement la mer de nuit à partir d’un bateau, on peut voir la lumière générée par ce Pokémon éclairer les profondeurs. Cela donne à la mer l’apparence d’un ciel étoilé.
+172 : Lorsque Pichu joue, il lui arrive de faire des courts-circuits avec un autre Pichu, créant ainsi une gerbe d’étincelles. Du coup, ce Pokémon prend peur et se met à pleurer.
+173 : Les nuits où il y a des étoiles filantes, on peut voir des Mélo danser en cercle. Ils dansent toute la nuit et ne s’arrêtent qu’à l’aube. Ces Pokémon se désaltèrent alors avec la rosée du matin.
+174 : Toudoudou a un corps mou et pelucheux, semblable à de la guimauve. Un parfum doux et sucré s’échappe de son corps, ce qui lui permet d’apaiser et de calmer ses ennemis.
+175 : L’énergie de Togepi provient des émotions positives et du plaisir exprimé par les gens et les Pokémon. Ce Pokémon accumule les sentiments de bonheur dans sa coquille, puis les partage avec les autres.
+176 : On raconte que Togetic est un Pokémon qui porte chance. Si ce Pokémon remarque quelqu’un doté d’un cœur pur, il apparaît et partage son bonheur avec la personne en question.
+177 : Natu est capable de sauter très haut. Ce Pokémon bat des ailes et saute sur les branches élevées des arbres pour en récupérer les bourgeons.
+178 : On sait que Xatu se tient toute la journée debout, les yeux perdus vers l’horizon. Certaines personnes le vénèrent comme un Pokémon mystique, persuadées que Xatu a le pouvoir de prédire l’avenir.
+179 : L’épaisse fourrure cotonneuse de Wattouat se charge d’électricité statique lorsqu’on la frotte. Plus elle est chargée, plus l’ampoule au bout de sa queue est lumineuse.
+180 : La qualité de la laine de Lainergie se modifie pour générer un maximum d’électricité statique avec un minimum de laine. Les sections glabres de sa peau sont résistantes à l’électricité.
+181 : Pharamp est si lumineux qu’on peut le voir de l’espace. Jadis, les gens utilisaient la lumière de ce Pokémon pour communiquer et s’envoyer des signaux à grande distance.
+182 : Les fleurs de Joliflor sont encore plus jolies s’il s’agit d’une évolution d’un Ortide qui sentait vraiment très mauvais. La nuit, ce Pokémon ferme ses pétales pour dormir.
+183 : Lorsqu’il pêche pour se nourrir sur les rives d’un fleuve rapide, Marill accroche sa queue autour d’un tronc d’arbre pour ne pas être emporté. La queue de ce Pokémon est flexible et résiste à l’étirement.
+184 : Azumarill peut faire des bulles d’air. Il fabrique ces bulles lorsqu’il voit un Pokémon en train de se noyer. Les bulles d’air permettent au Pokémon en difficulté de respirer.
+185 : Simularbre se camoufle en arbre pour éviter d’être attaqué par ses ennemis. Mais étant donné que ses pattes restent vertes toute l’année, ce Pokémon est facile à repérer pendant l’hiver.
+186 : Le cheveu bouclé sur la tête de Tarpaud est la preuve de son statut de roi. On raconte que plus son cheveu est long et bouclé, plus ce Pokémon est respecté par ses semblables.
+187 : Ce Pokémon flotte à la dérive, porté par le vent. S’il sent qu’un vent très fort approche, Granivol attache ses feuilles aux autres Granivol pour ne pas être emporté par la bourrasque.
+188 : La fleur de Floravol éclot lorsque la température atteint 18 °C. L’ouverture de la fleur change en fonction de la température. Certaines personnes se servent de ce Pokémon comme d’un thermomètre.
+189 : Cotovol traverse la mer, porté par les vents, pour découvrir de nouveaux territoires. Ce Pokémon se rapproche du sol quand le vent est trop froid.
+190 : L’extrémité de la queue de Capumain ressemble à une main et peut être utilisée de façon ingénieuse. Malheureusement, ce Pokémon utilise tellement sa queue que ses véritables mains sont devenues très maladroites.
+191 : Tournegrin essaie de bouger le moins possible. C’est parce qu’il veut conserver tous les nutriments qu’il stocke dans son corps pour son évolution. Il ne mange pas, ne subsistant que grâce à la rosée matinale.
+192 : Héliatronc convertit l’énergie solaire en nutriments. Il remue activement pendant la journée, quand il fait chaud. Il redevient immobile dès que le soleil se couche.
+193 : Yanma a un champ de vision de 360 degrés sans avoir besoin de bouger les yeux. Il vole incroyablement bien et peut faire des figures acrobatiques. Ce Pokémon descend en piqué sur ses proies.
+194 : Axoloto vit généralement dans l’eau. Mais de temps en temps, il vient sur terre pour chercher à manger. À terre, il recouvre son corps d’un voile visqueux et toxique.
+195 : Maraiste trouve sa nourriture en laissant sa bouche ouverte dans l’eau, et attend que ses proies y pénètrent sans faire attention. Comme ce Pokémon est inactif, il n’a jamais très faim.
+196 : Mentali est extrêmement loyal envers les Dresseurs qu’il respecte. On raconte que ce Pokémon a développé des talents divinatoires pour protéger son Dresseur.
+197 : Noctali a évolué suite à une longue exposition aux rayons lunaires. Il se cache dans les recoins sombres et attend patiemment le passage de ses ennemis. Les anneaux sur son corps s’illuminent au moment où il bondit.
+198 : Jadis, Cornèbre était craint et détesté, car on disait qu’il portait malheur. Ce Pokémon est attiré par tout ce qui brille. Parfois, il essaie de voler les bagues des filles.
+199 : Tous les jours, Roigada entreprend des recherches pour résoudre les mystères du monde. Cependant, ce Pokémon oublie tout ce qu’il a appris si le Kokiyas qui se trouve sur sa tête s’en va.
+200 : Feuforêve effraie les gens en poussant un cri à faire froid dans le dos, une sorte de lamentation. Ce Pokémon utilise ses sphères rouges pour absorber les sentiments de terreur de ses ennemis et s’en nourrir.
+201 : Ce Pokémon a la forme d’un caractère d’écriture antique. Personne ne sait si ces écritures antiques sont apparues avant les Zarbi ou le contraire. Des études sont en cours, mais aucun résultat n’a été annoncé.
+202 : Qulbutoké ne fait rien, à part encaisser des coups. Il n’attaque jamais de lui-même. Cependant, il ne supporte pas qu’on attaque sa queue. Lorsque ça arrive, ce Pokémon essaie d’entraîner son ennemi grâce à Prélèvem. Destin.
+203 : La tête à l’arrière de Girafarig abrite un cerveau trop petit pour penser. En revanche, cette tête arrière n’a pas besoin de dormir, ce qui lui permet de monter la garde tout le temps.
+204 : Pomdepik s’accroche à une branche d’arbre et attend patiemment que sa proie passe. Si ce Pokémon est dérangé pendant qu’il mange par quelqu’un qui secoue son arbre, il tombe au sol et explose sans prévenir.
+205 : Foretress se cache dans sa carapace en acier trempé. La carapace s’ouvre quand il attrape sa proie, mais cela se passe tellement vite qu’il est impossible de voir à l’intérieur.
+206 : Insolourdo a une perceuse au bout de la queue. Il l’utilise pour creuser des souterrains, à reculons. On dit que ce Pokémon enfouit son nid aux formes complexes sous terre.
+207 : Scorplane plane dans les airs sans un bruit, comme s’il glissait. Ce Pokémon s’accroche au visage de son ennemi grâce aux serres de ses pattes arrière et aux pinces de ses pattes avant, et pique avec son dard empoisonné.
+208 : Steelix vit sous terre, encore plus profondément qu’Onix. On dit que ce Pokémon creuse vers le centre de la planète. On a déjà vu ce Pokémon descendre à plus d’un kilomètre de profondeur.
+209 : Snubbull terrorise les Pokémon plus petits que lui en montrant les dents et en faisant une grimace. Cependant, ce Pokémon est toujours un peu triste de voir ses ennemis prendre la fuite.
+210 : Granbull a une mâchoire inférieure particulièrement développée. Ses énormes crocs sont tellement lourds qu’ils l’obligent à pencher la tête. Il ne mord jamais sans raison, sauf quand il a peur.
+211 : Qwilfish se gonfle en aspirant de l’eau. Ce Pokémon utilise la pression de l’eau avalée pour envoyer d’un coup les pointes toxiques de son corps. Nager lui demande un gros effort.
+212 : Le corps de Cizayox est dur comme de l’acier. Les attaques ordinaires ne le déstabilisent pas. Ce Pokémon bat des ailes pour réguler sa température interne.
+213 : Caratroc se cache tranquillement sous les rochers, abritant son corps dans sa carapace solide, pendant qu’il mange les Baies qu’il a mises de côté. Les Baies se mélangent à ses fluides corporels pour produire du jus.
+214 : Scarhino est doté de griffes acérées sur ses pieds. Elles se plantent fermement dans le sol ou dans l’écorce d’un arbre, ce qui permet à ce Pokémon d’être bien stable lorsqu’il veut projeter ses ennemis d’un coup de corne.
+215 : Farfuret grimpe aux arbres en enfonçant ses griffes crochues dans l’écorce. Ce Pokémon cherche les nids qui ne sont pas surveillés et vole les œufs pour les manger pendant que les parents sont partis.
+216 : Ce Pokémon aime se lécher les paumes quand elles sont encore pleines de miel. Teddiursa concocte son propre miel en mélangeant les fruits et le pollen récolté par Dardargnan.
+217 : On dit que les Ursaring trouvent leur nourriture dans les cours d’eau et les grands arbres des forêts où ils habitent. Ce Pokémon erre dans la forêt toute la journée pour chercher de la nourriture.
+218 : Les veines de Limagma ne contiennent pas de sang. Au lieu de ça, du magma en fusion circule dans le corps de ce Pokémon, apportant les nutriments et l’oxygène nécessaires à ses organes.
+219 : La température de Volcaropod est d’environ 10 000 °C. L’eau s’évapore à son contact. Si ce Pokémon se retrouve sous la pluie, les gouttes d’eau forment de la vapeur et couvrent la zone de brouillard.
+220 : Marcacrin cherche sa nourriture en frottant son groin par terre. Son plat préféré est un champignon qui pousse sous l’herbe fanée. Ce Pokémon découvre parfois des sources d’eau chaude.
+221 : Cochignon est recouvert de longs poils épais qui lui permettent de supporter le froid hivernal. Ce Pokémon utilise ses défenses pour déterrer la nourriture cachée sous la glace.
+222 : Les Corayon se rassemblent dans les mers chaudes, offrant ainsi un abri idéal aux plus petits Pokémon. Quand la température baisse, ce Pokémon migre vers les mers du sud.
+223 : Rémoraid aspire de l’eau, puis la recrache à forte pression grâce à ses muscles abdominaux pour attaquer les proies volantes. Quand son évolution approche, ce Pokémon descend le courant des rivières.
+224 : Octillery attrape son ennemi avec ses tentacules. Ce Pokémon essaie de l’immobiliser avant de lui asséner le coup final. Si l’ennemi s’avère trop fort, Octillery lui crache de l’encre à la figure et s’échappe.
+225 : Cadoizo transporte sa nourriture dans sa queue. Il y a longtemps, un célèbre explorateur réussit à atteindre le sommet de la plus haute montagne du monde grâce à un de ces Pokémon, qui partagea sa nourriture avec lui.
+226 : Les jours de beau temps, on peut voir des bancs de Démanta sauter au-dessus des vagues. Le Rémoraid qui l’accompagne ne dérange pas ce Pokémon.
+227 : Les ailes d’acier d’Airmure s’abîment et se cabossent à force de se battre. Une fois par an, les ailes endommagées repoussent complètement, rendant à leurs bords tranchants leur état d’origine.
+228 : Les Malosse chassent en meute organisée. Ils communiquent entre eux grâce à une série de petits cris pour encercler leur proie. L’étonnant travail d’équipe de ces Pokémon est sans comparaison.
+229 : Dans une meute de Démolosse, le leader est doté de cornes inclinées vers l’arrière. Ces Pokémon choisissent leur chef en organisant des combats entre eux.
+230 : Hyporoi dort au fond de l’océan, où aucune autre forme de vie ne réside. On raconte que lorsqu’une tempête survient, c’est que ce Pokémon s’éveille et erre dans les profondeurs en quête de proies.
+231 : Phanpy utilise sa petite trompe pour se doucher. Quand plusieurs d’entre eux se réunissent, ils s’arrosent joyeusement. On peut souvent voir ces Pokémon se sécher au bord de l’eau.
+232 : Si Donphan décidait de charger, il pourrait détruire une maison. Grâce à sa force étonnante, ce Pokémon peut aider à déplacer les rochers et les coulées de boue qui bloquent les chemins de montagne.
+233 : Porygon2 fut créé par des humains grâce aux progrès de la science. Ce Pokémon a été doté d’une intelligence artificielle qui lui permet d’apprendre de nouveaux mouvements et des émotions par lui-même.
+234 : Les superbes bois de Cerfrousse étaient vendus très cher comme œuvres d’art. Ce Pokémon fut chassé et l’espèce proche de l’extinction à cause des gens qui recherchaient leurs précieux bois.
+235 : Queulorior délimite son territoire en libérant un fluide corporel qui sort de sa queue. On a découvert plus de 5 000 traces différentes de fluide laissées par ce Pokémon.
+236 : Debugant devient nerveux s’il ne s’entraîne pas tous les jours. Lorsqu’un Dresseur élève ce Pokémon, il doit établir et appliquer un programme d’entraînement très complet.
+237 : Kapoera tournoie à toute vitesse sur sa tête, tout en donnant des coups de pied. Cette technique combine des attaques offensives et défensives. Ce Pokémon se déplace plus vite sur la tête qu’en marchant.
+238 : Lippouti court dans tous les sens et tombe assez souvent. Quand il en a l’occasion, il regarde son reflet dans l’eau pour vérifier si son visage n’a pas été sali par ses chutes.
+239 : Élekid stocke de l’électricité dans son corps. S’il touche du métal et décharge sans le faire exprès son électricité, ce Pokémon fait des cercles avec ses bras pour se recharger.
+240 : L’état de santé de Magby peut être deviné selon le type de flamme qu’il crache. Si ce Pokémon crache des flammes jaunes, c’est qu’il est en bonne santé. Lorsqu’il est fatigué, de la fumée noire s’ajoute aux flammes.
+241 : Écrémeuh produit plus de 20 l de lait par jour. Son lait sucré fait le bonheur des petits et des grands. Les gens qui ne boivent pas de lait en font du yaourt.
+242 : Leuphorie ressent la tristesse grâce à son pelage duveteux. Lorsqu’il la remarque, ce Pokémon se précipite vers la personne triste pour partager avec elle un Œuf Chance, capable de faire naître un sourire sur tout visage.
+243 : Raikou incarne la vitesse de l’éclair. Les rugissements de ce Pokémon libèrent des ondes de choc provenant du ciel et frappant le sol avec la puissance de la foudre.
+244 : Entei incarne la colère du magma. On pense que ce Pokémon est né suite à l’éruption d’un volcan. Il peut envoyer d’énormes jets de flammes qui calcinent tout ce qu’ils touchent.
+245 : Suicune incarne la tranquillité d’une source d’eau pure. Il parcourt les plaines avec grâce. Ce Pokémon a le pouvoir de purifier l’eau.
+246 : Embrylex est né sous terre. Pour remonter à la surface, ce Pokémon doit manger la terre au-dessus de lui. Jusqu’à ce qu’il y parvienne, Embrylex ne peut pas voir le visage de ses parents.
+247 : Ymphect crée un gaz dans son corps qu’il comprime puissamment pour se propulser, comme un avion à réaction. Son corps est très solide. Il ne l’endommage pas, même lorsqu’il frappe de l’acier trempé.
+248 : Tyranocif est si incroyablement puissant qu’il peut abattre une montagne pour y faire son nid. Ce Pokémon se promène dans les montagnes pour y trouver de nouveaux adversaires.
+249 : Les ailes de Lugia renferment une puissance dévastatrice. Un simple battement de ses ailes peut détruire de petites maisons. Du coup, ce Pokémon a choisi de vivre loin de tout, dans les profondeurs océaniques.
+250 : Les plumes de Ho-Oh brillent de sept couleurs selon l’orientation de son corps par rapport à la lumière. On raconte que ces plumes portent bonheur. On dit aussi que ce Pokémon vit au pied d’un arc-en-ciel.
+251 : Ce Pokémon est venu du futur en voyageant dans le temps. On raconte que quand Celebi apparaît, cela signifie que le futur sera bon et agréable.
+252 : Arcko est cool, calme et serein. Il ne panique jamais, quelle que soit la situation. Quand un ennemi plus gros que lui lui lance un regard de défi, ce Pokémon reste stoïque et ne cède pas un centimètre de terrain.
+253 : Ce Pokémon vole de branche en branche avec brio. En forêt, aucun Pokémon, même le plus rapide, ne peut espérer attraper un Massko qui s’enfuit.
+254 : Jungko a des graines qui lui poussent sur le dos. On dit qu’elles regorgent de nutriments qui revitalisent les arbres. Ce Pokémon s’occupe des forêts avec amour.
+255 : Poussifeu dispose d’un endroit dans son corps pour stocker sa flamme. Si on lui fait un gros câlin, sa flamme s’illumine chaleureusement. Ce Pokémon est couvert d’un duvet très doux.
+256 : Galifeu combat grâce aux flammes ardentes qu’il crache de son bec et à ses coups de pied destructeurs. Le cri de ce Pokémon est très puissant et très gênant pour l’adversaire.
+257 : Braségali a des jambes incroyablement puissantes. Il peut sauter par-dessus un immeuble de trente étages. Les coups de poing enflammés de ce Pokémon peuvent carboniser ses ennemis.
+258 : Sous l’eau, Gobou peut respirer grâce aux branchies sur ses joues. S’il se retrouve en difficulté pendant un combat, ce Pokémon déchaîne ses pouvoirs incroyables. Il peut détruire des rochers plus gros que lui.
+259 : Flobio est bien plus rapide dans la boue que dans l’eau. L’arrière-train de ce Pokémon est particulièrement développé, ce qui lui donne la capacité de marcher sur ses pattes arrière.
+260 : Laggron peut prédire l’arrivée des tempêtes en utilisant ses nageoires pour sentir les variations dans les vagues et les marées. Si une tempête s’approche, il empile des rochers pour protéger son habitat.
+261 : Medhyèna est omnivore. Il mange de tout. Ses crocs sont très gros, comparés à son corps. Ce Pokémon essaie d’intimider ses ennemis en hérissant les poils de sa queue.
+262 : Les Grahyèna vivent et se déplacent en meute. Leurs réminiscences de la vie sauvage les poussent à n’obéir qu’aux Dresseurs qu’ils considèrent comme réellement talentueux.
+263 : Les poils sur le dos de Zigzaton sont durs. Il frotte son dos contre les arbres pour marquer son territoire. Ce Pokémon fait parfois le mort pour tromper ses ennemis au combat.
+264 : Lorsqu’il chasse, Linéon fonce toujours tout droit sur sa proie à pleine vitesse. Bien que ce Pokémon puisse atteindre 100 km/h, il doit s’arrêter en catastrophe avant de pouvoir tourner.
+265 : Chenipotte est la proie de Hélédelle. Ce Pokémon essaie de résister en dirigeant les pointes de son dos vers le prédateur. Il affaiblit son ennemi en lui injectant du poison.
+266 : On pensait qu’Armulys pouvait résister à la faim et ne consommait rien avant son évolution. On sait maintenant que ce Pokémon étanche sa soif en récupérant l’eau de pluie déposée sur sa soie.
+267 : Charmillon a une longue trompe en spirale, particulièrement pratique pour récupérer le pollen des fleurs. Ce Pokémon se laisse porter par les vents printaniers pendant qu’il butine.
+268 : Lorsqu’il est attaqué, Blindalys reste immobile, même s’il a très mal. En effet, s’il bougeait, son corps serait affaibli lors de son évolution. En revanche, ce Pokémon n’oubliera pas la douleur endurée.
+269 : Lorsque Papinox bat des ailes, une légère poussière se répand. Cette poussière est en fait un puissant poison capable de mettre au tapis un boxeur professionnel. Ce Pokémon cherche sa nourriture avec ses antennes, comme un radar.
+270 : On raconte que jadis, Nénupiot vivait sur terre. Mais on pense que ce Pokémon est retourné dans l’eau car la feuille sur sa tête était devenue trop grande et trop lourde. Maintenant, il vit en flottant à la surface de l’eau.
+271 : Le corps de Lombre tout entier est recouvert d’un voile visqueux et glissant. Toucher ce Pokémon est extrêmement déplaisant. On croit souvent à tort que Lombre est un enfant.
+272 : Lorsque Ludicolo entend un rythme entraînant et joyeux, les cellules de son corps s’activent énergiquement. Même pendant les combats, ce Pokémon montre énormément d’énergie.
+273 : Grainipiot ressemble à s’y méprendre à un gland quand il s’accroche à une branche. Il effraie les autres Pokémon quand il se met à bouger. Ce Pokémon se lustre le corps une fois par jour avec des feuilles.
+274 : Ce Pokémon se sert de la feuille sur sa tête pour jouer de la flûte. Le son de la flûte de Pifeuil effraie et décontenance les gens perdus en forêt.
+275 : Les grands éventails de Tengalice peuvent déclencher des bourrasques de vent allant jusqu’à 30 m/s. Le vent déchaîné peut tout envoyer balader. Ce Pokémon a choisi de vivre tranquillement dans la forêt.
+276 : Nirondelle est jeune. Il vient de quitter son nid. Du coup, il se sent parfois un peu seul et pleure la nuit. Ce Pokémon se nourrit des Chenipotte qu’il trouve dans les forêts.
+277 : Hélédelle fait attention à bien entretenir ses ailes brillantes. Lorsque deux Hélédelle se rencontrent, ils se nettoient mutuellement les ailes avec attention.
+278 : Grâce à ses ailes longues et étroites, Goélise se laisse porter par les courants d’air ascendants venant de la mer. Le long bec de ce Pokémon est bien pratique pour attraper ses proies.
+279 : Bekipan récupère sa nourriture en vol, en rasant l’écume des vagues. Ce Pokémon trempe son énorme bec dans l’eau, puis avale tout en une bouchée.
+280 : Tarsal a le pouvoir de ressentir les émotions des gens. Si son Dresseur est d’humeur joyeuse, ce Pokémon devient lui aussi gai et enjoué.
+281 : Kirlia utilise ses cornes pour amplifier ses pouvoirs télékinétiques. Lorsque ce Pokémon utilise son pouvoir, l’air ambiant se déforme et crée des mirages de paysages qui n’existent pas.
+282 : Gardevoir est doté d’un pouvoir télékinétique lui permettant de déformer les dimensions et de créer un petit trou noir. Ce Pokémon est prêt à risquer sa vie pour protéger son Dresseur.
+283 : Lorsque Arakdo se sent en danger, le haut de sa tête sécrète un sirop épais et sucré. Certains Pokémon adorent boire de ce sirop.
+284 : Les antennes de Maskadra ont la forme de grands yeux qui lancent un regard malfaisant. Si ces « yeux » sont tristes, cela signifie qu’un déluge se prépare.
+285 : Lorsque Balignon sent un danger, il secoue son corps et répand ses spores du haut de sa tête. Les spores de ce Pokémon sont si toxiques qu’elles font dépérir les arbres et les herbes.
+286 : Les graines autour de la queue de Chapignon sont des spores toxiques. Elles sont totalement immangeables. Une simple bouchée d’une graine de ce Pokémon peut causer de grandes douleurs à l’estomac.
+287 : Le cœur de Parecool ne bat qu’une fois par minute. Quoi qu’il arrive, il se contente de s’avachir, immobile. Il est très rare de voir ce Pokémon se déplacer.
+288 : Vigoroth ne tient pas en place. Même quand il essaie de dormir, le sang dans ses veines s’agite, obligeant ce Pokémon à courir comme un fou dans la forêt pour s’épuiser afin de pouvoir se reposer.
+289 : On trouve parfois des cercles de plus de 1 m de rayon totalement désherbés dans les plaines. Ils sont faits par les Monaflèmit qui passent leurs journées allongés à manger toute l’herbe à portée de main.
+290 : Ningale vit sous terre. Il utilise ses griffes acérées pour creuser les racines des arbres et en absorber l’humidité et les nutriments. Ce Pokémon ne supporte pas la lumière du soleil.
+291 : Si Ninjask n’est pas dressé correctement, il refuse d’obéir à son Dresseur et crie sans arrêt. C’est pourquoi on dit que ce Pokémon peut réellement mettre son Dresseur à l’épreuve.
+292 : Munja est un étrange Pokémon. Il semble apparaître sans raison dans une Poké Ball après l’évolution d’un Ningale. Ce Pokémon bizarre est totalement immobile. Il ne respire même pas.
+293 : Chuchmur est très timide. S’il commence à pleurer, il s’effraie tout seul et pleure de plus belle. Quand ce Pokémon finit enfin de pleurer, il s’endort, épuisé.
+294 : Ramboum hurle en trépignant. Quand il a fini de hurler, ce Pokémon reste incapable d’entendre le moindre son pendant un long moment. Il semble que ce soit son point faible.
+295 : Brouhabam communique avec les autres en émettant un sifflement qui provient des tubes de son corps. Ce Pokémon n’élève la voix que pendant les combats.
+296 : Makuhita a un moral d’acier. Il ne désespère jamais. Il mange beaucoup, dort beaucoup et s’entraîne avec rigueur. Son hygiène de vie permet à ce Pokémon d’accumuler un maximum d’énergie.
+297 : Hariyama a l’air un peu enrobé, mais c’est en fait une montagne de muscles. Si ce Pokémon se raidit et contracte ses muscles, son corps devient dur comme de la pierre.
+298 : La grande queue d’Azurill est élastique. Elle lui permet de stocker les nutriments nécessaires à sa croissance. Parfois, on voit Azurill s’amuser à rebondir sur sa queue élastique.
+299 : On raconte que Tarinor reste complètement immobile, avec son nez magnétique orienté vers le nord. Cependant, des études minutieuses ont démontré que ce Pokémon se déplace de 1 cm par an.
+300 : On sait que Skitty court souvent après sa queue. À l’état sauvage, ce Pokémon vit dans les cavités des arbres de la forêt. Il est tellement adorable qu’il a un grand succès comme animal de compagnie.
+301 : Delcatty peut dormir n’importe où. Il n’a pas de nid permanent. Lorsque d’autres Pokémon lui cherchent des noises pendant son sommeil, il ne répond pas et se contente de partir dormir ailleurs.
+302 : Ténéfix creuse le sol avec ses griffes acérées pour trouver des rochers à manger. Les substances des rochers avalés se cristallisent et remontent sur la peau de ce Pokémon.
+303 : Il ne faut pas se fier au visage mignon de ce Pokémon. Il est très dangereux. Mysdibule leurre son ennemi, puis le croque avec son énorme mâchoire constituée en fait des cornes transformées.
+304 : Galekid a un corps d’acier. En une seule charge, ce Pokémon peut démolir un camion poids lourd. Le camion détruit devient ensuite le repas de ce Pokémon.
+305 : Galegon se nourrit du fer contenu dans les rochers et dans l’eau. Il fait son nid sur les montagnes renfermant du minerai de fer. Du coup, il se confronte souvent aux humains travaillant dans les mines.
+306 : Galeking est attentif à son environnement. Si sa montagne est ravagée par un glissement de terrain ou un incendie, ce Pokémon laboure la terre, plante des arbres et restaure le paysage.
+307 : Méditikka intensifie son énergie intérieure grâce à la méditation. Il lui suffit d’une Baie par jour pour survivre. La diète fait partie de l’entraînement de ce Pokémon.
+308 : Grâce au pouvoir de la méditation, Charmina a développé son sixième sens. Il peut utiliser des pouvoirs télékinétiques. On sait que ce Pokémon peut méditer pendant un mois sans manger.
+309 : Dynavolt court tellement vite que l’œil humain ne peut pas le suivre. La friction générée par sa course est convertie en électricité, puis stockée dans la fourrure de ce Pokémon.
+310 : Élecsprint peut libérer un courant intense de sa crinière. Cette crinière lui permet de récupérer l’électricité de l’atmosphère. Ce Pokémon peut créer des nuages orageux au-dessus de sa tête.
+311 : Quand Posipi veut encourager son partenaire, des étincelles jaillissent un peu partout de son corps. Si son partenaire perd, ce Pokémon pleure à chaudes larmes.
+312 : Négapi adore encourager son partenaire pendant les combats. Des étincelles jaillissent alors de son corps. Lorsque son partenaire est en difficulté, le corps de ce Pokémon libère encore plus d’étincelles.
+313 : La queue de Muciole éclaire comme une ampoule. Ensemble, les Muciole dessinent des figures géométriques dans la nuit étoilée. Ce Pokémon adore le parfum dégagé par Lumivole.
+314 : Lumivole dirige un vol de Muciole lumineux pour dessiner des figures dans la nuit étoilée. On raconte que ce Pokémon gagne le respect de ses pairs en composant des figures complexes dans le ciel.
+315 : En de très rares occasions, on dit qu’un Rosélia peut apparaître en arborant des fleurs aux couleurs inhabituelles. Les épines sur la tête de ce Pokémon contiennent un dangereux poison.
+316 : Le corps de Gloupti n’est pratiquement qu’un gros estomac. En comparaison, son cœur et son cerveau sont tout petits. L’estomac de ce Pokémon contient des enzymes spéciales capables de tout dissoudre.
+317 : Avaltout n’a pas de dents, ce qui le force à tout avaler en une bouchée. Quand il bâille, sa bouche prend une taille impressionnante, et on pourrait y placer une roue de voiture.
+318 : Si un intrus s’aventure sur le territoire des Carvanha, ils se ruent sur lui et le mordent à l’aide de leurs crocs acérés. En revanche, lorsqu’il est seul, ce Pokémon devient tout à coup très timide.
+319 : Sharpedo peut nager à plus de 120 km/h en propulsant de l’eau de mer par l’arrière de son corps. Ce Pokémon a un point faible : il ne peut pas parcourir de longues distances.
+320 : Wailmer peut stocker de l’eau dans son corps pour se transformer en balle et rebondir sur le sol. Plus ce Pokémon se remplit d’eau, plus il peut rebondir haut.
+321 : Lorsqu’il chasse ses proies, Wailord les rassemble en sautant hors de l’eau et en créant une énorme vague. La vue de plusieurs de ces Pokémon bondissant hors de l’eau laisse généralement sans voix.
+322 : Chamallot stocke du magma à 1 200 °C dans son corps. Lorsqu’il est mouillé, le magma se refroidit et durcit. Le corps du Pokémon devient alors très lourd et ses mouvements très lents.
+323 : Les bosses sur le dos de Camérupt sont apparues après une déformation de ses os. Elles crachent parfois du magma en fusion. Ce Pokémon entre apparemment en éruption lorsqu’il est énervé.
+324 : Chartor génère de l’énergie en brûlant du charbon. Il s’affaiblit lorsque le feu s’éteint. Lorsqu’il se prépare au combat, ce Pokémon brûle plus de charbon.
+325 : Spoink garde une perle sur sa tête. Elle lui sert à amplifier ses pouvoirs télékinétiques. Il est constamment en quête d’une perle plus grosse.
+326 : Groret utilise les perles noires sur son corps pour exercer ses formidables pouvoirs. Quand il est en action, il entame une étrange danse. Les perles noires de ce Pokémon ont une valeur inestimable.
+327 : On dit que chaque Spinda dispose d’un agencement de taches unique. Ce Pokémon se déplace bizarrement, comme s’il titubait. Ses mouvements hésitants décontenancent ses ennemis.
+328 : Kraknoix est un chasseur patient. Dans le désert, il creuse un trou dont on ne peut pas s’échapper et attend que sa proie tombe dedans. Ce Pokémon peut se passer d’eau une semaine entière.
+329 : Les ailes de Vibraninf n’ont pas complètement fini de pousser. Elles ne lui servent pas à voler sur de longues distances, mais plutôt à générer des ultrasons en vibrant.
+330 : Libégon peut déclencher une tempête de sable en battant des ailes. Les ailes créent une suite de notes ressemblant à une mélodie. Comme cette « mélodie » est le seul son audible, on appelle ce Pokémon l’esprit du désert.
+331 : Si son environnement est aride et difficile, la fleur de Cacnea devient plus jolie et dégage un parfum délicat. Ce Pokémon se bat en agitant ses bras épineux.
+332 : Lorsqu’un voyageur traverse le désert au milieu de la nuit, les Cacturne le suivent en groupe. Ces Pokémon attendent le bon moment, quand le voyageur est fatigué et qu’il n’est plus capable de bouger.
+333 : Tylton adore nettoyer. S’il repère quelque chose de sale, il l’essuie et le polit avec ses ailes cotonneuses. Lorsque ses ailes se salissent, ce Pokémon trouve un cours d’eau et se lave.
+334 : Altaria chante avec une magnifique voix de soprano. Ses ailes ressemblent à des nuages cotonneux. Ce Pokémon se laisse porter par les courants d’air ascendants et disparaît dans le bleu du ciel.
+335 : Mangriff est généralement à quatre pattes, mais lorsqu’il est en colère, il se lève sur ses pattes arrière et montre ses griffes. Ce Pokémon est l’ennemi juré de Séviper depuis plusieurs générations.
+336 : La queue tranchante comme un sabre de Séviper a deux fonctions : elle peut frapper l’ennemi et lui injecter un poison qu’il sécrète. Ce Pokémon n’oublie jamais sa vieille rancune envers Mangriff.
+337 : Séléroc ne s’active que pendant la période de pleine lune. Il ne marche pas, mais se déplace en lévitant. Les yeux rouges et intimidants de ce Pokémon pétrifient ses ennemis de terreur.
+338 : La lumière du soleil est à l’origine du pouvoir de Solaroc. On raconte qu’il peut lire les pensées d’autrui. Ce Pokémon peut libérer une chaleur insoutenable en faisant tournoyer son corps.
+339 : Le corps de Barloche est couvert d’un voile visqueux. Lorsqu’un ennemi l’attrape, ce Pokémon peut se glisser hors de son étreinte. Il s’affaiblit quand la pellicule visqueuse de son corps s’assèche.
+340 : Lorsque Barbicha se déchaîne, il déclenche des secousses sismiques dans un rayon de plus de 5 km autour de lui. Ce Pokémon a le pouvoir de prédire les véritables tremblements de terre.
+341 : Écrapince attrape ses proies avec ses puissantes pinces. Pour la nourriture, il n’est pas difficile. Il mange de tout. Vivre dans de l’eau sale ne dérange pas ce Pokémon.
+342 : Colhomard mue et perd sa carapace régulièrement. Immédiatement après sa mue, sa nouvelle carapace est tendre et molle. Il s’enterre au fond des cours d’eau pour ne pas être attaqué avant que sa carapace ne soit assez dure.
+343 : Dès qu’il repère ses congénères, Balbuto les rejoint et ils se mettent tous à crier en chœur. Ce Pokémon arrive à dormir en restant adroitement en équilibre.
+344 : Kaorine est un mystérieux Pokémon apparu sous la forme d’une statue en argile fabriquée par une civilisation vieille de plus de 20 000 ans. Ce Pokémon envoie des rayons avec ses mains.
+345 : Lilia est un Pokémon très ancien ressuscité à partir d’un fossile. Il reste en permanence fixé à un rocher. Ce Pokémon balaie l’horizon depuis son perchoir, immobile, en quête de proies.
+346 : Le corps de Vacilys lui sert d’ancre et l’empêche d’être emporté quand la mer est déchaînée. Les tentacules de ce Pokémon sécrètent un puissant fluide digestif.
+347 : On raconte qu’Anorith est l’un des ancêtres des Pokémon. Il nageait dans la mer originelle en faisant onduler les huit ailes placées sur les côtés de son corps.
+348 : Armaldo fait partie d’une espèce de Pokémon qui s’est éteinte à l’époque préhistorique. On raconte que ce Pokémon marchait sur ses pattes arrière, ce qui facilitait sa vie sur la terre ferme.
+349 : Même si le corps de Barpau est en lambeaux, il reste tenace et obstiné, ce qui lui permet de survivre partout. Cependant, ce Pokémon est très lent et un peu bête, ce qui en fait une proie facile.
+350 : Milobellus vit au fond des grands lacs. Lorsque le corps de ce Pokémon devient rose vif, il libère une pulsation d’énergie, capable d’apaiser les esprits agités.
+351 : Morphéo emprunte le pouvoir de la nature pour prendre l’apparence du soleil, de la pluie ou de la neige. Le type de ce Pokémon change en fonction du temps.
+352 : Kecleon change la couleur de son corps pour se fondre dans son environnement, ce qui lui permet de s’approcher de sa proie sans être repéré. Il envoie ensuite sa grande langue élastique pour piéger sa proie qui ne se doute de rien.
+353 : Polichombr grandit en se nourrissant des émotions négatives des gens, comme le désir de vengeance ou la jalousie. Il erre dans les villes à la recherche des gens qui n’ont pas le moral.
+354 : Une énergie maudite a pénétré le rembourrage d’une vieille peluche abandonnée, donnant ainsi vie à Branette. L’énergie de ce Pokémon s’échappe s’il ouvre la bouche.
+355 : Skelénox erre seul dans l’obscurité de la nuit. On fait souvent peur aux enfants en leur disant que ce Pokémon viendra les chercher s’ils n’obéissent pas à leur maman.
+356 : Téraclope peut absorber des objets de toute taille. Ce Pokémon hypnotise son ennemi en faisant des gestes macabres et en attirant l’attention sur son unique œil. L’ennemi hypnotisé obéit ensuite aux ordres de Téraclope.
+357 : Les enfants des tropiques mangent les fruits qui poussent autour du cou de Tropius pour leur goûter. Ce Pokémon peut voler en agitant les feuilles situées sur son dos, comme s’il s’agissait d’ailes.
+358 : Lorsqu’il y a beaucoup de vent, Éoko pousse des cris, accroché à une branche ou à un auvent par une ventouse placée sur sa tête. Ce Pokémon attrape des Baies avec sa longue queue pour les manger.
+359 : Absol a le pouvoir de prédire les catastrophes naturelles. Il vit dans un milieu montagneux aride et accidenté. Ce Pokémon s’éloigne très rarement des montagnes.
+360 : Les Okéoké se rassemblent quand la nuit est claire pour jouer à se presser les uns contre les autres. En se poussant, ces Pokémon améliorent leur endurance et s’entraînent à renvoyer de puissantes contre-attaques.
+361 : Stalgamin survit en se nourrissant uniquement de neige et d’eau. De vieilles légendes racontent que les maisons visitées par ce Pokémon sont assurées d’être prospères pendant plusieurs générations.
+362 : Oniglali a le pouvoir de contrôler la glace à volonté. Par exemple, il peut geler sa proie sur place. Une fois la proie immobilisée, ce Pokémon la mange sans se presser.
+363 : Obalie voyage toujours en faisant rouler son corps tout rond. Lorsque la saison des neiges arrive, on peut voir ce Pokémon rouler sur la glace et traverser la mer.
+364 : Phogleur tient souvent quelque chose en équilibre sur son museau et le fait rouler. Pendant ce temps, ce Pokémon peut sentir l’odeur et la texture de l’objet pour savoir s’il lui plaît ou pas.
+365 : Kaimorse nage dans l’eau glacée et détruit les icebergs sur son passage à l’aide de ses grandes et impressionnantes défenses. Son épaisse couche de graisse lui permet de faire rebondir les attaques ennemies.
+366 : Coquiperl grandit protégé par sa coquille dure comme de la pierre. Lorsque son corps devient trop grand pour sa coquille, cela signifie que ce Pokémon va bientôt évoluer.
+367 : La queue de Serpang est en forme de poisson. Il l’utilise pour attirer sa proie qu’il avale en une fois grâce à sa bouche béante. Ce Pokémon nage en tortillant son corps comme un serpent.
+368 : Même si Rosabyss est l’image même de l’élégance et de la beauté quand il nage, il est aussi très cruel. Quand il repère sa proie, ce Pokémon insère sa fine bouche dans le corps de sa proie et aspire ses fluides corporels.
+369 : Relicanth est une espèce rare découverte pendant des explorations sous-marines. Son corps peut supporter l’énorme pression des profondeurs océaniques. Il est recouvert d’écailles semblables à des pierres.
+370 : Le corps en forme de cœur de Lovdisc représente l’amour et les sentiments. On raconte qu’un couple qui rencontre ce Pokémon s’aimera jusqu’à la fin des temps.
+371 : Draby rêve depuis toujours de voler au milieu des nuages. Ce Pokémon éclate d’énormes rochers avec sa tête, comme pour exorciser le fait qu’il ne puisse pas voler.
+372 : Des excroissances osseuses recouvrent le corps de Drackhaus. Cette carapace est extrêmement dure et le protège des attaques ennemies. En attendant son évolution, ce Pokémon reste caché dans une caverne.
+373 : En évoluant en Drattak, ce Pokémon réalise un rêve d’enfance, celui d’avoir des ailes. Pour exprimer sa joie, il vole et plane dans les cieux en crachant des flammes.
+374 : Terhal peut léviter en générant un champ magnétique qui repousse le magnétisme naturel de la terre. Lorsqu’il dort, ce Pokémon s’ancre à une falaise grâce à ses crochets dorsaux.
+375 : Lorsque deux Terhal fusionnent, un Métang se forme. Les cerveaux des Terhal sont reliés par un système nerveux magnétique. Ce Pokémon dirige ses bras vers l’arrière pour voyager à grande vitesse.
+376 : Métalosse est le résultat de la fusion de deux Métang. Lorsqu’il chasse, ce Pokémon bloque sa proie au sol, sous son corps massif. Il mange ensuite la victime impuissante avec son énorme bouche, ouverte sur son estomac.
+377 : Le corps de Regirock est entièrement constitué de rochers. Récemment, une étude a découvert que ces rochers provenaient de lieux très variés.
+378 : Regice se recouvre d’air glacé à -200 °C. Tout ce qui passe à proximité de ce Pokémon gèle sur place. Son corps est si froid qu’il ne fond jamais, même s’il plonge dans du magma.
+379 : Il y a très longtemps, Registeel fut emprisonné par les hommes. On pense que l’étrange métal qui compose son corps provient d’une autre planète.
+380 : Latias est très intelligent et comprend le langage des hommes. Il est recouvert d’une espèce de duvet ressemblant à du verre. Ce Pokémon s’enveloppe dans ce duvet et reflète la lumière pour changer son apparence.
+381 : Latios n’ouvrira son cœur qu’à un Dresseur doté d’un esprit compatissant. Ce Pokémon peut voler plus vite qu’un avion à réaction en repliant ses pattes avant pour améliorer son aérodynamisme.
+382 : Un Pokémon considéré comme l’avatar des océans. Selon les légendes, il a disputé de nombreux combats avec Groudon pour contrôler l’énergie de la nature.
+383 : Grâce à l’énergie de la nature, il peut accomplir sa Primo-Résurgence pour retrouver son apparence originelle. Ce pouvoir lui permet de créer du magma pour étendre les continents.
+384 : Un Pokémon qui vit dans la couche d’ozone et se nourrit des météorites qu’il intercepte. Leur énergie s’accumule dans son corps, ce qui lui permet de méga-évoluer.
+385 : Jirachi dort depuis mille ans, mais il se réveillera si on lui chante quelque chose avec une voix d’une grande pureté. On raconte qu’il peut exaucer les vœux des gens.
+386 : Deoxys était à l’origine un virus provenant de l’espace. Il est extrêmement intelligent et dispose de pouvoirs télékinétiques. Ce Pokémon envoie des lasers avec l’organe cristallin situé sur sa poitrine.
+387 : Son corps produit de l’oxygène par photosynthèse. La feuille sur sa tête flétrit quand il a soif.
+388 : Il sait d’instinct où trouver une source d’eau pure. Il y transporte d’autres Pokémon sur son dos.
+389 : Il arrive que de petits Pokémon se rassemblent sur son dos immobile pour y faire leur nid.
+390 : La flamme de son postérieur brûle grâce à un gaz de son estomac. Elle faiblit quand il ne va pas bien.
+391 : Il attaque en prenant appui sur les murs et les plafonds. Sa queue ardente n’est pas son seul atout.
+392 : Il fait voltiger ses ennemis grâce à sa vitesse et son style de combat spécial qui utilise ses quatre membres.
+393 : Il est fier et déteste accepter la nourriture qu’on lui offre. Son pelage épais le protège du froid.
+394 : C’est un Pokémon solitaire. Un seul coup de ses puissantes ailes peut briser un arbre en deux.
+395 : Les trois cornes de son bec sont le symbole de sa force. Celles du chef sont plus grosses que les autres.
+396 : Ce Pokémon très bruyant parcourt champs et forêts en nuées pour chasser les Pokémon Insecte.
+397 : Il peuple les champs et les forêts. Lorsque deux volées se croisent, elles luttent pour le territoire.
+398 : Lorsque Étourvol évolue en Étouraptor, il quitte son groupe pour vivre seul. Ses ailes sont très développées.
+399 : Il ronge constamment des troncs et des pierres pour se faire les incisives. Il niche le long de l’eau.
+400 : Il construit des barrages de boue et d’écorce le long des fleuves. C’est un ouvrier de renom.
+401 : Quand ses antennes s’entrechoquent, elles laissent échapper un bruit de xylophone.
+402 : Il exprime ses émotions par des mélodies. Les scientifiques étudient actuellement leur structure.
+403 : Sa fourrure étincelle en cas de danger. Il profite du fait que l’ennemi est aveuglé pour s’enfuir.
+404 : Le courant qui circule à la pointe de ses griffes est capable de faire perdre connaissance à ses proies.
+405 : Sa capacité à voir à travers tout est très utile pour détecter les moindres dangers.
+406 : En hiver, son bourgeon se referme pour résister au froid. Il s’ouvre au printemps et libère du pollen.
+407 : Gracieux comme un danseur, il abat ses fouets ornés d’épines empoisonnées.
+408 : Il vivait dans la jungle il y a 100 millions d’années. Il peut abattre un arbre d’un coup de tête.
+409 : Son crâne est dur comme du fer. Cette brute abat des arbres quand elle chasse sa proie dans la jungle.
+410 : Il est né d’un fossile datant de 100 millions d’années. Son visage est très dur.
+411 : Il résiste à toute attaque frontale. C’est un Pokémon docile qui se nourrit d’herbe et de Baies.
+412 : S’il perd sa cape au combat, il en tisse rapidement une nouvelle avec ce qui lui tombe sous la main.
+413 : Quand Cheniti a évolué, sa cape a fusionné avec son corps. Cheniselle ne s’en sépare jamais.
+414 : Ce Pokémon s’active à la nuit tombée pour voler le miel des Apitrini pendant leur sommeil.
+415 : Il récolte le nectar et l’amène à la colonie. La nuit, les Pokémon de cette espèce s’assemblent pour bâtir une ruche et s’endormir.
+416 : Son abdomen est un rayon où vivent ses larves, élevées avec le nectar récolté par Apitrini.
+417 : Il arrive que deux Pachirisu se frottent les joues pour partager l’électricité qu’ils ont accumulée.
+418 : Il utilise la bouée autour de son cou pour passer sa tête hors de l’eau et observer les alentours.
+419 : Il a développé une bouée pour poursuivre ses proies aquatiques. Elle fait office de canot gonflable.
+420 : Il aspire les nutriments de sa petite boule pour pouvoir évoluer.
+421 : Sous un grand soleil, il ouvre ses pétales pour en absorber les rayons.
+422 : Il change facilement de couleur ou de forme en fonction de son environnement.
+423 : Jadis, il semble qu’il portait une grande carapace pour se protéger. Il hante les eaux peu profondes.
+424 : Il se nourrit de noix qu’il épluche avec ses deux queues habiles. Il utilise de moins en moins ses bras.
+425 : Les enfants qui attrapent des Baudrive disparaissent parfois. On lui donne le surnom de « bouée des esprits égarés ».
+426 : Il somnole la journée et s’envole en grands groupes le soir venu. Nul ne sait où ils vont.
+427 : Il dresse les oreilles quand il sent un danger. Il dort la tête dans sa fourrure pendant les nuits froides.
+428 : Il est capable de décocher de puissants coups de pied si on touche à ses délicates oreilles.
+429 : Un Pokémon insaisissable qui tourmente ses ennemis avec son cri semblable à une incantation.
+430 : Ce Pokémon nocturne évolue en grandes volées escortées par des Cornèbre.
+431 : Lorsqu’il est heureux, sa queue décrit des arabesques comme un ruban de gymnastique rythmique.
+432 : Il ceinture sa taille de sa queue bifide pour paraître plus imposant.
+433 : Quand il sautille, l’orbe qu’il a dans la bouche s’agite et tinte comme une cloche.
+434 : Il se protège en expulsant un fluide nocif par son derrière. La puanteur dure 24 heures.
+435 : Sa queue projette un fluide puant. Plus on le laisse s’écouler et plus son odeur est insoutenable.
+436 : Il rappelle des objets trouvés dans des sépultures anciennes. Nul ne sait s’ils sont liés.
+437 : On croyait autrefois que lui adresser des prières faisait pleuvoir et assurait les récoltes.
+438 : Adepte des climats secs, il régule son humidité en laissant couler ce qui ressemble à des larmes.
+439 : Il imite ses ennemis. Une fois imités, ils ne peuvent plus quitter ce Pokémon des yeux.
+440 : Il prend soin de ses bouclettes et couve son caillou comme si c’était son Œuf.
+441 : On peut lui enseigner quelques mots. S’il s’agit d’un groupe, ils retiendront les mêmes phrases.
+442 : Il fut emprisonné dans la fissure d’une clé de voûte étrange en guise de punition il y a 500 ans.
+443 : Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie.
+444 : Carmache accumule les pierres précieuses qu’il déterre quand il entreprend d’agrandir son nid.
+445 : Il vole à la vitesse d’un avion à réaction et ne lâche jamais sa proie.
+446 : Goinfrex cache de la nourriture dans sa fourrure en pagaille. Il avale tout en une bouchée.
+447 : Son aura s’intensifie pour prévenir son entourage quand il a peur ou qu’il est triste.
+448 : Il peut sentir et identifier les émotions de quelqu’un à plus d’un kilomètre.
+449 : Il se recouvre de sable pour se protéger des microbes. Il n’aime pas l’eau.
+450 : Il emmagasine du sable qu’il expulse en tornades par les pores de sa peau pour attaquer.
+451 : Il attend, en embuscade dans le sable, et empoisonne ses proies avec les pinces de sa queue.
+452 : Il peut réduire une voiture en pièces avec ses pinces. Le bout de ses pinces contient du poison.
+453 : Ses glandes se gonflent de venin tout en émettant un son effrayant, le laissant ainsi empoisonner ses proies pétrifiées.
+454 : Les griffes de ses poings sécrètent une toxine si atroce qu’une simple égratignure peut s’avérer fatale.
+455 : Il s’accroche aux arbres des marais et attire ses proies avec sa salive à l’odeur enivrante.
+456 : Après une longue exposition au soleil, les motifs de ses nageoires caudales luisent à la nuit tombée.
+457 : Pour éviter de se faire voir par ses ennemis, il rampe au fond de l’eau grâce aux nageoires sur son torse.
+458 : Il nage si proche de la surface que l’on peut voir les motifs sur son dos depuis un bateau.
+459 : Au printemps, il fait pousser des Baies pareilles à des crèmes glacées autour de son ventre.
+460 : Il hante les sommets aux neiges éternelles, et se cache en déclenchant des blizzards.
+461 : Ils vivent par groupe de quatre ou cinq en région froide et chassent de façon très organisée.
+462 : Il a évolué suite à son exposition à un champ magnétique spécial. Ses trois unités génèrent du magnétisme.
+463 : Sa bave anesthésiante est chargée d’une substance capable de faire fondre n’importe quelle matière.
+464 : Il bande ses muscles pour projeter des pierres ou des Racaillou depuis le creux de ses paumes.
+465 : Lorsque vient la belle saison, ses lianes sont si luxuriantes qu’elles cachent ses yeux.
+466 : Il place le bout de ses deux queues sur son ennemi et libère une décharge de 20 000 V.
+467 : Il projette des boules de feu à 2 000 °C du bout de ses bras. Même son souffle est brûlant.
+468 : Il apprécie particulièrement les gens qui respectent les autres et évitent les conflits inutiles.
+469 : Il peut voler avec aise tout en portant un adulte dans ses six pattes. Les ailes de sa queue lui servent de balancier.
+470 : Il utilise la photosynthèse comme une plante. C’est pourquoi il est toujours entouré d’air pur.
+471 : Il abaisse la température de son corps pour changer ses poils en aiguilles de glace qu’il projette sur l’ennemi.
+472 : Il vole sans un bruit, et capture ses proies avec sa queue pour leur infliger une morsure critique.
+473 : Ses défenses spectaculaires sont glacées. Il a failli disparaître dans la canicule suivant l’ère glaciaire.
+474 : On a modifié son programme pour qu’il puisse parcourir les dimensions, mais ce fut un échec.
+475 : Il frappe avec les grandes lames à ses coudes. Son talent d’escrimeur n’a d’égal que sa courtoisie.
+476 : Il utilise sa force magnétique pour diriger trois petites unités appelées Mini-nez.
+477 : L’antenne sur sa tête capte les ondes radio du monde des esprits lui ordonnant d’y porter des gens.
+478 : On dit dans les régions enneigées qu’il s’agit de la réincarnation d’une jeune fille disparue dans les neiges.
+479 : Son corps est fait de plasma. Il cause de gros dégâts en infiltrant des appareils électroniques.
+480 : On dit que sa venue a fourni aux humains le bon sens nécessaire pour améliorer leur existence.
+481 : Il dort au fond d’un lac. On dit que son esprit abandonne son corps pour voler à sa surface.
+482 : On raconte que Créhelf, Créfollet et Créfadet proviennent du même Œuf.
+483 : Il peut contrôler le temps. Les mythes de Sinnoh en parlent comme d’une divinité ancienne.
+484 : Il peut modeler l’espace. Les mythes de Sinnoh en parlent comme d’une divinité ancienne.
+485 : Le sang de ce Pokémon des cratères bouillonne dans son corps comme du magma.
+486 : Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes.
+487 : Sa grande violence lui a valu d’être banni. Il observe les hommes en silence depuis le Monde Distorsion.
+488 : Dormir avec une de ses plumes à la main permet de faire de beaux rêves. On le surnomme « avatar du croissant de lune ».
+489 : Ce Pokémon des mers chaudes revient toujours à son lieu de naissance, peu importe la distance.
+490 : Il possède l’étrange pouvoir de s’entendre avec n’importe quel Pokémon.
+491 : Il a la capacité de bercer les gens pour les faire rêver. Il se montre durant les nuits de nouvelle lune.
+492 : Il prend son essor pour répandre la gratitude lorsque les Gracidées fleurissent.
+493 : Dans la mythologie, ce Pokémon existait déjà avant la formation de l’univers.
+494 : L’énergie sans limites qu’il produit donne une force incroyable à ceux qui entrent en contact avec elle.
+495 : Il laisse sa queue prendre le soleil pour sa photosynthèse. Quand il est malade, sa queue pend tristement.
+496 : La saleté l’empêchant d’utiliser la photosynthèse, il prend grand soin d’être toujours propre.
+497 : Il peut paralyser l’ennemi d’un regard. Il amplifie l’énergie du soleil dans son corps.
+498 : Il adore se goinfrer de Baies grillées, mais il lui arrive de les réduire en cendres dans son excitation.
+499 : Quand le feu dans son corps s’embrase, sa vitesse et son agilité augmentent. En cas d’urgence, il crache de la fumée.
+500 : Il a une barbe enflammée. Il maîtrise des techniques de combat au corps à corps rapides et puissantes.
+501 : Il combat avec le coupillage de son ventre. Il peut parer un assaut et immédiatement contre-attaquer.
+502 : Chaque Mateloutre a sa propre technique d’escrime au coupillage, acquise grâce à un entraînement drastique.
+503 : Il peut terrasser ses ennemis d’un coup de la lame enchâssée dans son armure, et les faire taire d’un seul regard.
+504 : Très prudent, il surveille attentivement son territoire, mais oublie souvent de regarder derrière lui.
+505 : Il attaque en crachant les graines des Baies qu’il accumule dans ses bajoues. S’il voit un ennemi, il dresse la queue.
+506 : Bien que vaillant, il a aussi l’intelligence d’analyser toutes les situations et de fuir quand il anticipe une défaite.
+507 : Les poils qui entourent son corps comme un manteau sont extrêmement durs et amortissent les coups.
+508 : Sa soyeuse fourrure à poils longs est assez chaude pour supporter de longues nuits d’hiver en montagne.
+509 : Il vole les gens pour le plaisir, mais il est tellement mignon que ses victimes finissent toujours par lui pardonner.
+510 : Il s’approche sans un bruit de sa proie et l’abat d’un coup par-derrière sans jamais être repéré.
+511 : Il est très doué pour trouver des Baies et aime les partager avec ses amis sans rien demander en échange.
+512 : Il a un tempérament violent et se bat avec sa queue pleine d’épines. La feuille sur sa tête est très amère.
+513 : Il vit dans les cratères des volcans. L’intérieur de la mèche qu’il a sur la tête peut atteindre 300 °C.
+514 : Quand il est excité, des flammèches brûlantes dansent sur sa tête et sa queue. Il raffole des choses sucrées.
+515 : L’eau contenue dans la mèche sur sa tête est pleine de nutriments. Elle fait pousser les plantes avec vigueur.
+516 : Il aime les endroits où l’eau est pure. Il se ravitaille en eau en l’aspirant avec sa queue.
+517 : Il se nourrit des rêves des gens et des Pokémon. Quand le rêve est agréable, il crache une fumée rose.
+518 : La fumée qui sort de son front change de couleur selon le contenu des rêves qu’il a mangés.
+519 : Ces Pokémon vivent en ville. Ils sont peu farouches et se regroupent souvent dans les parcs ou sur les places.
+520 : Quel que soit le lieu où il se trouve, il arrive toujours à retrouver son Dresseur comme son propre nid.
+521 : Ils sont très farouches et ne s’attachent qu’à leur Dresseur. Les mâles ont une parure sur la tête.
+522 : Sa crinière luit quand il lâche des décharges. Il module leur rythme et leur nombre pour communiquer avec ses pairs.
+523 : Il réagit à la vitesse de l’éclair. Lorsqu’il est en plein galop, on peut entendre le grondement du tonnerre.
+524 : On l’a découvert dans une fissure après un grand tremblement de terre il y a 100 ans. Il possède un noyau d’énergie.
+525 : Quand il est en forme, son noyau devient visible. Il peut se déplacer dans toutes les directions sans se tourner.
+526 : Il comprime de l’énergie dans son corps, et ses attaques sont assez puissantes pour renverser des montagnes.
+527 : Son nez est comme une ventouse. Il laisse une marque en forme de cœur qui, paraît-il, porte bonheur.
+528 : Le mâle courtise la femelle à l’aide d’ultrasons. Les écouter met de très bonne humeur.
+529 : Il tourbillonne sur lui-même pour se déplacer sous terre. Il peut atteindre les 50 km/h en ligne droite.
+530 : Il se creuse des terriers labyrinthiques à 100 m sous terre. Il lui arrive de percer les galeries du métro.
+531 : Il ausculte les gens avec ses antennes auriculaires pour juger de leurs émotions ou de leur santé.
+532 : Il porte toujours une poutre en bois et aime aider aux travaux. Il passe à un lourd madrier quand il grandit.
+533 : Même une armée de catcheurs se jetant sur son corps hyper musclé ne le ferait pas ciller.
+534 : Il utilise l’effet centrifuge pour manier sans trop d’effort ses piliers de béton et déclencher des attaques puissantes.
+535 : Il fait vibrer ses joues pour émettre des sons imperceptibles pour l’homme. Il communique grâce à leur rythme.
+536 : Il vit dans l’eau et sur la terre ferme. Il immobilise ses proies avec sa langue longue et gluante.
+537 : Il fait gicler un liquide paralysant des pustules sur sa tête, et attaque ses ennemis à coups de vibrations.
+538 : Ils aiment projeter ceux qui sont plus grands qu’eux. Ils changent de ceinture quand ils progressent.
+539 : Quand il noue sa ceinture, il est plus concentré et ses coups font plus mal. Il s’énerve si on gêne son entraînement.
+540 : La mascotte des créateurs de mode. Il découpe ses vêtements dans les feuilles qu’il trouve.
+541 : Il se protège du froid en s’emmitouflant dans une feuille. Il se déplace en forêt et mange les feuilles tombées par terre.
+542 : Il réchauffe les Œufs avec la chaleur de l’humus. Il fabrique des langes pour les Larveyette avec des feuilles.
+543 : Sa morsure est très venimeuse. Elle paralyse même les grands Pokémon Oiseaux, ses prédateurs.
+544 : En général, il reste immobile. Mais quand on l’attaque, il se met à tourbillonner à toute vitesse et fonce sur l’ennemi.
+545 : Il accule l’ennemi par ses mouvements rapides et l’attaque avec ses cornes. Il ne s’arrête qu’au coup de grâce.
+546 : Pokémon à l’instinct grégaire, ils se collent les uns aux autres et finissent par former un gros nuage.
+547 : Il se faufile comme le vent par les espaces les plus étroits, en laissant une touffe de poils blancs.
+548 : Il aime les zones bien irriguées et riches en nutriments. On sait que là où il vit, les cultures sont florissantes.
+549 : Même les Dresseurs confirmés ont du mal à faire éclore sa belle fleur. Un Pokémon apprécié des célébrités.
+550 : Les rouges et les bleus se détestent, mais il y en a toujours un ou deux dans un groupe de l’autre couleur.
+551 : Il vit dans le sable des déserts. Le sable chauffé par le soleil empêche son corps de refroidir.
+552 : La membrane spéciale qui recouvre ses yeux détecte la chaleur et lui permet de voir dans le noir.
+553 : Il ne laisse jamais échapper ses proies. Ses mâchoires surpuissantes peuvent broyer une voiture.
+554 : Quand il dort, ses pattes se rétractent et les flammes qui brûlent à 600 °C dans son corps s’apaisent.
+555 : Il entretient des flammes à 1 400 °C dans son corps. De quoi détruire un camion-benne d’un coup de poing !
+556 : Il vit dans les endroits secs. Quand il bouge son corps en rythme, il fait un bruit de maracas.
+557 : Lorsqu’il trouve un caillou à sa taille, il y creuse un trou avec le fluide qui sort de sa bouche et s’en sert comme maison.
+558 : Entre eux, les querelles de territoire sont fréquentes et violentes. Celui qui se fait briser son rocher a perdu.
+559 : Ses coups de tête sont sa fierté. Seul problème : sa tête est un peu trop lourde, et il perd souvent l’équilibre.
+560 : La plus grande crête détermine le meneur du groupe. Il détruit des blocs de béton à coups de pied.
+561 : Dieu protecteur d’une ville antique, il suivait toujours le même itinéraire afin de prévenir tout risque d’invasion.
+562 : Le motif de son masque est son visage quand il était humain. Parfois, il le regarde et se met à pleurer.
+563 : Il prend l’apparence d’un beau cercueil. Les pilleurs de tombes imprudents finissent enfermés à l’intérieur.
+564 : Il a été recréé à partir d’un fossile préhistorique. Il peut plonger jusqu’à 1 000 mètres de profondeur.
+565 : Ses bras puissants serrent ses proies jusqu’à l’évanouissement. Il les dévore ensuite, carapace et os compris.
+566 : On dit qu’il serait l’ancêtre de tous les Pokémon Oiseaux. Il ne sait pas voler et se déplace en sautant d’arbre en arbre.
+567 : Il est plus doué pour courir que pour voler. Il doit s’élancer à 40 km/h avant de pouvoir s’envoler.
+568 : Il aime les endroits mal tenus. Le gaz qu’il rote endort pendant une semaine.
+569 : Il aspire les déchets et les intègre à son corps pour produire des gaz et des fluides toxiques.
+570 : Il peut se transformer en humain ou en d’autres Pokémon. Il se protège du danger en dissimulant sa vraie identité.
+571 : Ces Pokémon protègent les leurs en prenant l’apparence de leurs ennemis. Ils forment des groupes très soudés.
+572 : Un Pokémon qui aime la propreté. Chez lui, il enlève sans cesse la poussière en utilisant sa queue comme un plumeau.
+573 : Son corps est recouvert d’une sorte de lubrifiant qui fait glisser les coups sur lui comme si de rien n’était.
+574 : Fixe les Pokémon et les Dresseurs du regard comme s’il y avait quelque chose que personne d’autre ne pouvait voir.
+575 : On dit qu’ils apparaissent les nuits étoilées et manipulent les enfants pour jouer avec eux.
+576 : Prédit l’avenir à partir de la position et du mouvement des étoiles. Perçoit aussi l’espérance de vie des Dresseurs.
+577 : Ils repoussent leurs assaillants avec leurs pouvoirs psychiques et communiquent entre eux par télépathie.
+578 : Il dégage le maximum de sa puissance psychique quand ses deux cerveaux réfléchissent à la même chose.
+579 : Quand ils se tiennent par la main, leurs cerveaux forment un réseau qui démultiplie leurs pouvoirs psychiques.
+580 : Un Pokémon doué pour la plongée qui passe son temps sous l’eau à chercher des sphaignes, son plat préféré.
+581 : Ils se mettent à danser à la tombée de la nuit. Le Lakmécygne qui danse au centre est le chef de la troupe.
+582 : Ce Pokémon est né d’un glaçon qui a baigné dans la lumière du matin. Il se cache dans la neige pour dormir.
+583 : Un Pokémon qui vit dans les montagnes enneigées. Il a émigré au sud durant l’ère glaciaire, il y a bien longtemps.
+584 : Il avale de grandes quantités d’eau et la transforme en nuages de neige. Il souffle du blizzard quand il se fâche.
+585 : Quand la saison change, il change de pelage et d’odeur. Un Pokémon qui annonce le passage des saisons.
+586 : Il change d’habitat selon les saisons. Certains disent même qu’il est celui qui apporte le printemps.
+587 : Il accumule dans ses membranes l’électricité qu’il produit dans ses bajoues, et la relâche tout en planant.
+588 : Pour une raison inconnue, ce Pokémon évolue s’il subit une décharge électrique pendant qu’il attaque un Escargaume.
+589 : Un Pokémon qui a évolué en portant la carapace d’un Escargaume. Une armure de fer protège tout son corps.
+590 : Son apparence de Poké Ball trompe ses ennemis, qu’il étourdit à l’aide de ses spores empoisonnées.
+591 : Il danse en faisant tournoyer les coupoles en forme de Poké Ball de ses bras pour attirer ses proies.
+592 : Il enserre ses proies dans ses voiles et les entraîne sous la surface de la mer jusqu’à plus de 8 000 m de profondeur.
+593 : Les bateaux qui s’aventurent sur son territoire coulent, et Moyade aspire l’énergie vitale des marins.
+594 : Il berce les Pokémon blessés dans ses nageoires et les guérit grâce à la membrane dont il est recouvert.
+595 : Il s’accroche aux Pokémon plus grands et aspire leur électricité statique. Il la stocke dans ses poches-accus.
+596 : Quand on l’attaque, il projette une multitude de fils électrifiés pour créer une barrière électrique.
+597 : Il s’accroche aux parois des grottes et en absorbe les minéraux. Il projette ses épines en cas de danger.
+598 : Il s’accroche aux plafonds des grottes et attaque les proies qui passent en dessous avec ses épines d’acier.
+599 : La compatibilité entre ses deux rouages est prédéterminée. Ceux-ci ne se fixeront à aucun autre.
+600 : Le plus grand des rouages projette le plus petit pour attaquer. Ce dernier risque de dépérir s’il ne revient pas.
+601 : Son noyau rouge lui permet d’accumuler de l’énergie qu’il projette ensuite aux alentours grâce à ses pics.
+602 : Tout seul, il ne dégage pas beaucoup d’électricité. Mais un banc d’Anchwatt produit des décharges surpuissantes.
+603 : Un Pokémon doté d’un gros appétit. Il paralyse ses proies avec des décharges électriques avant de les manger.
+604 : Il peut sortir de l’eau à la force de ses bras pour attraper des proies sur la rive. Il retourne à l’eau en un instant.
+605 : On dit qu’il est apparu soudainement il y a 50 ans des confins d’un désert où un OVNI se serait écrasé.
+606 : Il manipule l’esprit avec ses pouvoirs psychiques et peut modifier les images conservées dans les souvenirs.
+607 : Sa flamme brûle en consumant l’énergie vitale des gens et des Pokémon.
+608 : Il apparaît au moment du trépas et aspire l’âme à l’instant même où elle quitte le corps.
+609 : Les âmes consumées par ses flammes étranges sont condamnées à l’errance pour l’éternité.
+610 : Il laisse la marque de ses crocs dans les arbres pour marquer son territoire. Ses crocs repoussent dès qu’ils tombent.
+611 : Comme ses crocs brisés ne repoussent pas, il les aiguise avec soin après le combat sur les pierres des rivières.
+612 : Ses crocs sont tellement puissants qu’ils peuvent découper l’acier sans s’émousser. Son armure est très solide.
+613 : Sa roupie indique sa santé. S’il est en forme, elle sera épaisse et la puissance de ses attaques glacées augmentera.
+614 : Il gèle son haleine et en fait des crocs et des griffes de glace pour combattre. Il vit dans les terres gelées du nord.
+615 : Il attrape ses proies à l’aide de sa chaîne faite de cristaux de givre et les gèle à près de -100 °C.
+616 : Il évolue quand il baigne dans une énergie électrique avec un Carabing. La cause en est inconnue.
+617 : Quand son corps s’assèche, il faiblit. Il s’en prémunit en s’enroulant dans plusieurs couches d’une fine muqueuse.
+618 : Tapi dans la boue ou les sédiments, il attend sa proie patiemment et la paralyse avec une décharge électrique.
+619 : Il découpe ses ennemis avec ses griffes acérées et les terrasse avec ses enchaînements de coups hyper fluides.
+620 : Il combat à l’aide des longs poils de ses pattes antérieures. Une fois lancé dans ses enchaînements, rien ne l’arrête.
+621 : Il utilise ses ailes pour emmagasiner la chaleur du soleil. Si la température de son corps baisse, il ne peut plus bouger.
+622 : Ce Pokémon fait de terre glaise, produit de la technologie d’une civilisation antique, vit depuis des millénaires.
+623 : Il vole à la vitesse du son. Si le sceau sur sa poitrine est retiré, il perd tout contrôle de lui-même.
+624 : Ignorant leurs propres blessures, ils se jettent en groupe sur l’ennemi pour le déchirer de leur corps fait de lames.
+625 : Il chasse avec un groupe de Scalpion sous ses ordres, mais c’est lui qui donne le coup de grâce.
+626 : Son pelage fourni absorbe les chocs et lui permet d’asséner sans broncher le plus violent des coups de tête.
+627 : Il défie sans discernement même les ennemis puissants. Il devient plus fort en multipliant les combats.
+628 : Pour les siens, il combat au mépris du danger. Il est capable de soulever une voiture haut dans le ciel.
+629 : Ses ailes sont trop petites pour voler. Il protège son croupion avec un crâne apporté par un Vaututrice.
+630 : Il guette le sol depuis les airs et fond sur les proies affaiblies. Il aime s’apprêter avec des ossements.
+631 : Il aspire de l’air par la queue et le transforme en une langue de feu qui fait fondre les Fermite dont il se régale.
+632 : Ils portent une armure de fer et se regroupent pour contrer les attaques de leurs prédateurs, les Aflamanoir.
+633 : Comme il ne voit rien, il perçoit son environnement en mordant et en fonçant à tout va.
+634 : Quand il a mangé tout ce qui traînait sur son territoire, il migre vers d’autres horizons. Ses 2 têtes s’entendent mal.
+635 : Un Pokémon effrayant. Ses trois têtes dévorent tout ce qui bouge jusqu’à satiété.
+636 : Il vit au pied des volcans. Il repousse ceux qui l’attaquent avec les flammes qui jaillissent de ses cinq cornes.
+637 : On dit que quand le ciel s’est obscurci à cause des cendres d’un volcan, le feu d’un Pyrax aurait remplacé le soleil.
+638 : Un corps et un cœur en acier trempé, jadis au service de la défense des Pokémon blessés par les humains.
+639 : Un Pokémon de légende. Grâce à sa puissance phénoménale, il aurait détruit un château pour sauver des Pokémon.
+640 : Il lacère ses ennemis avec une agilité sans égale. La légende raconte qu’il protège les Pokémon.
+641 : L’énergie dégagée par sa queue provoque d’énormes tempêtes dont la force peut renverser des maisons.
+642 : Il vole dans le ciel d’Unys et fait tomber des éclairs, provoquant des incendies qui font sa mauvaise réputation.
+643 : Quand sa queue s’embrase, l’énergie thermique dégagée modifie l’atmosphère et bouleverse la météo du monde entier.
+644 : Sa queue produit de l’électricité. Il dissimule son corps dans un nuage électrique et plane dans le ciel d’Unys.
+645 : Il utilise l’énergie qu’il tire du vent et de la foudre pour enrichir les sols en nutriments pour les cultures.
+646 : Son corps produit une énergie à très basse température, mais le souffle glacé qu’il exhale l’a gelé lui-même.
+647 : Lorsqu’il est résolu, de l’énergie sature son corps et le propulse à des vitesses qui dépassent la perception humaine.
+648 : Sa voix si particulière lui permet de chanter des mélodies qui ensorcellent les gens et modifient leurs émotions.
+649 : Un Pokémon existant depuis 300 millions d’années, et modifié par la Team Plasma. Il a maintenant un canon dans le dos.
+650 : Sa tête et son dos sont recouverts d’une carapace tellement dure que même une collision avec un camion ne lui ferait rien.
+651 : Il renforce ses membres inférieurs en se ruant violemment sur ses congénères. Naturellement paisible, il ne provoque jamais un combat.
+652 : Il se défend en joignant ses poings devant son visage. Dans cette posture, il peut même résister à l’onde de choc d’une explosion.
+653 : Il a toujours une brindille avec lui en cas de petit creux. Il projette de l’air chaud par ses oreilles pour intimider ses ennemis.
+654 : Quand il saisit la branche plantée dans sa queue, elle prend feu par friction. Il peut communiquer avec ses congénères en agitant ce bâton enflammé.
+655 : Ses pouvoirs psychiques lui permettent de créer des tourbillons de flammes à 3 000 °C qui enveloppent et consument ses ennemis.
+656 : Il protège son corps en l’entourant d’une mousse délicate. Malgré son apparence insouciante, ce Pokémon est en fait constamment à l’affût.
+657 : Son agilité est incomparable. Il peut gravir une tour de 600 m de haut en moins d’une minute.
+658 : Aussi insaisissable qu’un ninja, il se joue de ses ennemis grâce à sa célérité, et les tranche de ses Sheauriken.
+659 : Il est doté d’oreilles ressemblant à des pelles. À force de creuser des galeries, leur puissance est telle qu’elles peuvent trancher de grosses racines.
+660 : Ses oreilles sont de véritables excavateurs, venant à bout des blocs de pierre les plus durs. Après l’effort, il se repose en paressant.
+661 : Son chant est harmonieux, mais trompeur ! Les ennemis qui pénètrent sur son territoire se retrouvent confrontés à un déluge de violence.
+662 : Il possède une poche remplie de feu sur son ventre. Plus elle émet de chaleur, plus il vole vite. Cependant, elle met quelque temps à chauffer.
+663 : Quand il s’abat sur ses proies, sa vitesse dépasse les 500 km/h. Il les achève d’un puissant coup de serre.
+664 : La poudre qui recouvre son corps l’aide à réguler sa température. Il peut s’adapter à tous les climats.
+665 : Même les becs acérés des Pokémon Oiseaux ne parviennent pas à meurtrir son corps très dur. Il se défend en crachant de la poudre.
+666 : Selon le climat de sa région d’origine, les motifs de ses ailes sont différents. Il sème des écailles aux couleurs vives.
+667 : Il n’hésite pas à quitter la horde et à mener une existence solitaire pour mieux pouvoir s’entraîner. Il a le sang chaud et ne rechigne pas au combat.
+668 : Son souffle peut atteindre les 6 000 °C et il s’en sert pour intimider l’ennemi. Dans la horde, les femelles protègent les petits.
+669 : Après avoir trouvé une fleur à son goût, il ne la quitte plus de toute sa vie. Il se laisse porter au gré du vent.
+670 : Quand les fleurs d’une plate-bande bien soignée éclosent, il apparaît et célèbre la floraison en dansant avec une très grande élégance.
+671 : Les châtelains de jadis invitaient les Florges sur leurs terres et leur confiaient la réalisation de leurs jardins.
+672 : Tant qu’il a de l’eau et du soleil en abondance, ce Pokémon n’a pas besoin de nourriture. Les feuilles sur son dos produisent son énergie par photosynthèse.
+673 : Ce Pokémon vit dans les régions montagneuses. Le chef du troupeau s’impose à l’issue d’un combat de cornes.
+674 : Il fait de son mieux pour avoir un air patibulaire, mais il sourit béatement dès qu’on lui caresse la tête.
+675 : Il encaisse les attaques de plein fouet sans même tiquer et il poursuit sa route. Il étale ses ennemis d’un coup de patte capable de briser un poteau électrique.
+676 : Il y a fort longtemps dans la région de Kalos, ce Pokémon fut le gardien des rois et des reines.
+677 : Il a quelques difficultés à contrôler son pouvoir psychique. Grâce à celui-ci, il peut projeter en l’air tous les objets dans un rayon de 100 m.
+678 : Les motifs en forme d’yeux à l’intérieur de ses oreilles émettent une force psychique tellement puissante qu’il est contraint de les garder couverts.
+679 : Si quelqu’un s’aventure à l’empoigner, il enroule son étoffe bleue autour du bras de l’infortuné et aspire son énergie vitale jusqu’à ce que ce dernier s’écroule.
+680 : Même les sabreurs chevronnés sont incapables de parer les assauts continus et complexes menés de concert par ces deux épées.
+681 : Il peut déceler les qualités régaliennes dans les âmes humaines. On raconte que celui ou celle qui obtient sa faveur deviendra à coup sûr roi ou reine.
+682 : Par le passé, les femmes de la noblesse ne se parfumaient pas, mais étaient accompagnées d’un Fluvetin exhalant leur parfum favori.
+683 : Son parfum est tellement capiteux qu’un Dresseur n’appréciant pas pleinement son odeur aura toutes les difficultés du monde à cheminer à ses côtés.
+684 : Il se gave de sucreries à longueur de journée, à tel point que sa fourrure finit par ressembler à de la barbe à papa, sucrée et poisseuse.
+685 : Son odorat est des millions de fois plus développé que celui d’un humain. Il se repère dans l’espace grâce aux odeurs qui flottent autour de lui.
+686 : Il ébranle le moral des ennemis lui cherchant noise grâce aux clignotements qu’il émet. Il profite de cette diversion pour se cacher.
+687 : Il attire ses ennemis en les hypnotisant, avant de les enserrer de ses tentacules et de les neutraliser avec son suc gastrique.
+688 : Ils prennent de l’élan avec tout leur corps et soulèvent ainsi leur pierre pour se déplacer. Ils mangent les algues échouées sur le rivage.
+689 : Ses jambes et ses bras sont dotés d’une volonté propre. Cependant, ils suivent généralement les ordres donnés.
+690 : Sa ressemblance avec le varech pourri est confondante. Il se soustrait à l’attention de ses ennemis en attendant de pouvoir évoluer.
+691 : Il paraît que les navires qui s’aventurent dans les eaux peuplées de Kravarech ne reviennent jamais de leur périple.
+692 : Il est capable de transformer son corps en canon à eau, grâce à la combustion d’un gaz interne. À bout portant, il peut réduire un rocher en miettes.
+693 : La force de propulsion générée par l’expulsion de l’eau via la tuyère située à l’arrière de sa pince peut lui conférer une vitesse de 60 nœuds.
+694 : Les plis de peau de chaque côté de sa tête sont dotés de cellules produisant de l’électricité quand elles sont exposées à la lumière du soleil.
+695 : Il augmente sa puissance motrice en stimulant les muscles de ses pattes avec des décharges électriques. Il peut ainsi parcourir 100 m en 5 s.
+696 : Ses énormes mâchoires ont tant de puissance qu’elles peuvent compresser une voiture sans problème. Ce Pokémon vivait il y a 100 millions d’années.
+697 : Il y a 100 millions d’années, ce Pokémon régnait en maître absolu. Personne ne pouvait se mesurer à lui.
+698 : Ce Pokémon placide vivait dans des contrées au climat froid, loin de la menace d’un violent prédateur comme Rexillius.
+699 : En utilisant ses cristaux, il peut créer en un instant un mur de glace pour se protéger des attaques ennemies.
+700 : Il enroule ses rubans sensoriels autour du bras de son Dresseur adoré et chemine paisiblement à ses côtés.
+701 : Il utilise ses ailes pour contrôler avec précision sa posture en vol. Ses attaques aériennes sont difficiles à parer.
+702 : Il utilise sa queue pour pomper l’énergie des centrales électriques ou pour se brancher sur les prises des maisons. Ses moustaches envoient des décharges.
+703 : Il sommeille sous terre depuis son apparition, il y a plusieurs centaines de millions d’années. On le découvre parfois en creusant des cavernes.
+704 : Son corps est recouvert d’une membrane gluante, aussi les coups des ennemis glissent sur lui sans lui faire le moindre mal.
+705 : Ses quatre cornes constituant un radar extrêmement puissant, il n’a besoin ni de nez ni d’oreilles pour percevoir les sons et les odeurs.
+706 : Il attaque grâce à ses cornes extensibles. Ses coups sont aussi puissants que ceux de 100 boxeurs professionnels réunis.
+707 : Comme il ne se sépare jamais d’une clé qu’il trouve à son goût, les gens lui confient celle de leurs coffres, afin d’éviter de se faire voler.
+708 : D’après la légende, cette espèce de Pokémon aurait vu le jour quand des âmes d’enfants perdus dans la forêt auraient possédé des souches d’arbres.
+709 : Ses racines sont un véritable système nerveux qui lui permet de contrôler les arbres de la forêt. Il se montre très gentil envers les Pokémon vivant dans son écorce.
+710 : Il paraît qu’il accompagne les âmes des défunts jusque dans l’au-delà, pour qu’elles puissent goûter au repos éternel.
+711 : Il enserre ses proies dans ses bras, semblables à de longues mèches de cheveux. Il se délecte de leur souffrance en chantonnant gaiement.
+712 : Il gèle ses ennemis d’une bourrasque à -100 °C. Il vit en troupeau avec ses congénères, dans les neiges éternelles des hautes montagnes.
+713 : Quand on le voit transportant les petits Grelaçon qui vivent sur son dos, il y a une ressemblance certaine avec les véhicules déplaçant les fusées.
+714 : Les ultrasons à 200 000 Hz qu’il émet suffiraient à rendre groggy le plus chevronné des lutteurs.
+715 : Il peut littéralement pulvériser de gros rochers grâce aux ultrasons émis par ses oreilles. Il surgit des ténèbres pour attaquer par surprise.
+716 : D’après la légende, quand ses bois brillent de sept couleurs, cela signifie qu’il prodigue la vie éternelle.
+717 : Quand il sent que la fin de sa vie est proche, il aspire la force vitale des êtres vivants et retourne à l’état de cocon.
+718 : Il paraît qu’il vit au fond d’une grotte, d’où il surveillerait les personnes qui détruisent l’écosystème.
+719 : Il peut créer une multitude de diamants en un instant en serrant ses mains, simplement en compressant les molécules de carbone contenues dans l’air.
+720 : On raconte que grâce à ses six anneaux et ses six énormes bras, il est capable de dérober tout ce qui lui plaît. Mais son pouvoir a été scellé, et il a été réduit à l’état d’un être minuscule.
+721 : Il évacue la vapeur qui s’accumule à l’intérieur de son corps par les bras situés sur son dos. Ce jet est assez puissant pour raser des montagnes.
+722 : Ce Pokémon ne baisse jamais sa garde. Pendant la journée, il accumule de l’énergie par photosynthèse, pour mieux agir la nuit venue.
+723 : Il lance des plumes aussi effilées que des lames de rasoir pour abattre ennemis et proies. Il touche dans le mille presque à chaque fois.
+724 : Les plumes de ses ailes lui servent de flèches. Sa précision au tir est si grande qu’il peut atteindre un gravillon à 100 m.
+725 : Ce Pokémon n'exprime jamais ses émotions. Il aime la vie en solitaire, et n'accorde pas sa confiance au premier venu.
+726 : Il porte à son cou une cloche de feu. Lorsqu’il crache des flammes, cette dernière se met à tinter bruyamment.
+727 : Après avoir asséné une pluie de coups de pied et de poing à son adversaire, il l’asperge de flammes ardentes sortant de son nombril.
+728 : Ce Pokémon fabrique des ballons remplis d’eau pour se battre. Il ne peut produire un gros ballon qu’au prix d’un entraînement rigoureux.
+729 : Danseur hors pair, il produit des ballons d’eau à la chaîne afin d’éclabousser l’adversaire lors d’un impitoyable ballet funeste.
+730 : Il contrôle ses ballons d’eau par son chant, dont la mélodie, apprise auprès de ses semblables, se transmet de génération en génération.
+731 : Il se nourrit essentiellement de fruits, dont il conserve les pépins dans son bec pour en canarder ses ennemis, telle une mitraillette.
+732 : En déformant son bec, il peut produire une ribambelle de sons différents, plus bruyants les uns que les autres. Le cauchemar des voisins.
+733 : Pendant le combat, son bec chauffe et dépasse allègrement les 100 °C. Ses adversaires repartent généralement avec de graves brûlures.
+734 : Avec ses crocs acérés, il ne peut s’empêcher de mordre tout ce qui bouge. Il fut introduit à Alola il y a longtemps, depuis une autre région.
+735 : Lorsqu’il est sur les traces d’une proie, ce Pokémon n’est pas du genre à abandonner. Sauf le soir, lorsqu’il tombe de sommeil.
+736 : Il creuse l’écorce des arbres avec ses robustes mandibules pour en siroter la sève. Il vit en temps normal dans le sol.
+737 : Avec son corps capable de stocker l’électricité comme une batterie, il a déjà sauvé la mise à plus d’un campeur peu prévoyant.
+738 : Il virevolte dans tous les sens, guettant la faille pour frapper. Il concentre l’électricité dans ses grandes mandibules pour foudroyer l’ennemi.
+739 : Il protège ses points faibles avec ses pinces en guettant le moment propice pour riposter. Il crache de l’écume lorsqu’il tombe K.O.
+740 : Il rêvait d’atteindre le sommet d’un pic enneigé, mais s’est égaré en chemin. Il a dû évoluer pour survivre au froid et a acquis un pelage fourni.
+741 : Chaque île d'Alola abrite une forme distincte de Plumeline qui diffère selon le nectar des fleurs disponibles.
+742 : Il se nourrit du nectar et du pollen des fleurs. Ayant la capacité de percevoir l’aura des choses, il sait quelles fleurs vont bientôt éclore.
+743 : Il confectionne de petites boules de pollen de diverses natures, certaines lui servant de repas, d’autres à attaquer l’ennemi.
+744 : Comme il s’attache facilement à son Dresseur, on le conseille souvent aux débutants, bien qu’il ait tendance à devenir plus rebelle avec l’âge.
+745 : Il est d’autant plus combatif qu’il affronte un adversaire puissant. Il déploie toutes ses forces dans la bataille et oublie son instinct de survie.
+746 : Quand il est dans le pétrin, ses yeux deviennent luisants. Ses semblables accourent alors et forment avec lui un banc de combat.
+747 : Les épines sur sa tête transpercent et empoisonnent l’ennemi. Ses dix tentacules se chargent ensuite du reste.
+748 : Son poison provoque chez sa victime des douleurs aiguës pendant trois jours et trois nuits, et laisse des séquelles irréversibles.
+749 : La boue qui lui colle aux pattes lui sert de semelle antidérapante. Il peut ainsi courir à toute allure avec vigueur et assurance.
+750 : Une fois sèche, la boue qu’il crache reste solide même sous le vent et la pluie. Elle était autrefois très utilisée dans les revêtements muraux.
+751 : Il lui arrive d’aller chercher sa nourriture sur la terre ferme. Sa bulle lui sert alors aussi bien à respirer qu’à protéger sa tête molle.
+752 : Il se bat en donnant des « coups de bulle ». Les plus petits Pokémon peuvent se retrouver piégés à l’intérieur de sa bulle et mourir noyés.
+753 : La journée, il passe son temps à flâner au soleil et à faire la sieste. Le soir venu, il part à la recherche d’un lieu plus sûr pour passer la nuit.
+754 : Préserver ses couleurs éclatantes requiert un travail titanesque. On trouve tout de même des gens assez fous pour s’y atteler.
+755 : Il répand des spores luminescentes qui clignotent autour de lui. Quiconque aperçoit ces lumières tombe dans un sommeil profond.
+756 : Il est risqué de s’aventurer la nuit dans un bois peuplé de Lampignon. Attirés par leur lumière envoûtante, certains n’en sont jamais revenus.
+757 : Il consume ses fluides corporels pour générer un gaz toxique qui étourdit ses ennemis. Il ne lui reste alors qu’à les achever.
+758 : Curieusement, cette espèce ne compte que des femelles. Ces dernières aiment s’entourer de nombreux admirateurs Tritox mâles.
+759 : Il est à croquer, sauf lorsqu’il s’énerve et frappe à tout va. Dans ce cas, laissez-le tranquille ou vous finirez à coup sûr dans le décor.
+760 : Sa force physique hors norme le rend assez dangereux. D’ailleurs, les zones qu’il habite sont systématiquement interdites d’accès.
+761 : Une odeur terriblement appétissante émane du corps des Croquine. Alléchés, les Bazoucan rappliquent et les gobent goulument.
+762 : Pour mieux se défendre, il a fait pousser sur son corps un calice assez solide pour résister aux coups de bec des Pokémon oiseaux.
+763 : Spécialiste du coup de pied bien placé, ce Pokémon prend un malin plaisir à savater ses ennemis au sol en riant aux éclats.
+764 : Sa liane gluante diffuse des nutriments dans les fleurs qu’elle happe. Ces dernières dégagent alors un léger parfum.
+765 : Célébré pour son intelligence exceptionnelle, ce Pokémon vous prendra de haut si vous débutez. À réserver aux Dresseurs aguerris.
+766 : Ils se rassemblent par groupes de vingt. Dans cette formation très soudée, nul ne songerait une seule seconde à abandonner ses alliés.
+767 : De nature poltronne, il prend ses nombreuses pattes à son cou au moindre danger et balaie le sol sur son passage.
+768 : Il fait miroiter ses énormes griffes acérées avant d’attaquer. Elles sont assez puissantes pour fendre en deux l’air comme la mer.
+769 : Ce Pokémon est né de la rancœur d’un voyageur mort dans l’indifférence, laquelle s’est incarnée dans un pâté de sable.
+770 : On trouve de nombreux ossements sous ses tours, restes de pauvres hères capturés. Leur énergie a servi à nourrir ce Pokémon.
+771 : Il vit en bord de mer, ou en eaux peu profondes. Ses organes peuvent sortir de son corps pour saisir de la nourriture ou frapper l’ennemi.
+772 : Ce Pokémon créé de toutes pièces porte un masque qui contient sa puissance et l’empêche de perdre le contrôle et de tout détruire.
+773 : La confiance qu’il place en son Dresseur a réveillé ses pouvoirs. Il est à présent capable de changer de type à loisir durant le combat.
+774 : Il mange la poussière flottant dans l’atmosphère. La couleur de son noyau change en fonction de la composition de la poussière ingérée.
+775 : Il rejoint et quitte ce monde en dormant. Son existence se déroule comme un rêve paisible. Il dort du sommeil du juste toute sa vie durant.
+776 : Il peut cracher des flammes et du gaz toxique par les naseaux. Ses excréments sont des explosifs qui peuvent servir à plein de choses.
+777 : Les épines de ce Pokémon sont normalement baissées, mais quand il s’énerve, elles se dressent afin de pourfendre ses agresseurs.
+778 : Sa véritable apparence est inconnue. Les chercheurs qui ont vu sous son déguisement sont littéralement morts de peur.
+779 : Lorsqu’il utilise l’appendice sur sa tête pour projeter ses pouvoirs psychiques, il émet un bruit aussi irritant qu’un grincement de dents.
+780 : C’est une bonne pâte de nature, mais si par malheur il s’énerve, il peut détruire tout ce qui l’entoure de son souffle puissant.
+781 : Avec un bon coup d’ancre bien senti, il peut même assommer un Wailord. Son véritable corps est la partie composée de limon.
+782 : Il communique ses sentiments en frottant ses écailles. Les montagnes peuplées de Bébécaille bruissent d’un écho métallique.
+783 : Il se jette sur ses proies en poussant un terrible cri de guerre. Il les déchiquette ensuite avec ses poings écaillés.
+784 : Ses écailles lui servent aussi bien en attaque qu’en défense. Jadis, les hommes s’en servaient pour fabriquer des armes et des objets usuels.
+785 : Gardien de Mele-Mele, il est curieux de tout. Il a le pouvoir d’appeler les nuages orageux pour stocker la foudre dans son corps.
+786 : Pokémon candide mais terriblement cruel, c’est le gardien d’Akala. Il puise son énergie dans le parfum entêtant des fleurs.
+787 : C’est l’indolent gardien d’Ula-Ula. Il se sert de la végétation pour immobiliser ses ennemis, avant de les empaler avec ses cornes
+788 : Gardien de Poni, il a le pouvoir de contrôler l’eau. On raconte qu’il peut produire une eau limpide qui nettoie toutes les impuretés.
+789 : Son corps est composé d’un gaz très volatile. Il croît lentement, en accumulant les poussières atmosphériques au gré de ses déplacements.
+790 : On pourrait le croire mort car il ne bouge pas du tout. Au toucher, il reste tiède. On le surnomme « cocon céleste » depuis l’Antiquité.
+791 : Il viendrait d'un autre monde. Tout son corps émet une puissante lumière qui peut changer la nuit la plus noire en un jour radieux.
+792 : Cet être mystérieux viendrait d'un autre monde. Il absorbe continuellement la lumière, transformant le jour en nuit noire.
+793 : Nul ne sait si cette Ultra-Chimère possède une conscience propre, mais on l’aurait aperçue en train d’imiter les gestes d’une jeune fille.
+794 : Personne ne sait si cette Ultra-Chimère venue d’un autre monde montre ses muscles pour être admirée ou pour intimider ceux qu’elle rencontre.
+795 : L’une des Ultra-Chimères. Elle semble refuser de toucher les choses de ce monde, comme si tout était souillé à ses yeux.
+796 : Une créature échappée de l’Ultra-Brèche. Elle a attaqué une centrale électrique, aussi suppose-t-on qu’elle se nourrit d’électricité.
+797 : Une espèce d’Ultra-Chimère. On l’aurait aperçue expulsant du gaz par ses deux bras et réduisant une forêt tout entière en cendres.
+798 : Une Ultra-Chimère venue de l’Ultra-Brèche. Elle ne semble pas agressive, bien que son corps tout entier soit une arme tranchante.
+799 : L’une des dangereuses Ultra-Chimères. Elle est constamment en train de manger, mais ne semble pas produire d’excréments.
+800 : La lumière semble être sa source d’énergie. Une créature extrêmement agressive, capable d’émettre des rayons laser au moindre prétexte.
+801 : Ce Pokémon a été créé de toutes pièces il y a 500 ans. Il comprend ce qu’on lui dit, mais il n’est pas doué de parole.
+802 : Il dissimule son apparence aux autres en se tapissant dans l’ombre. Son existence pourrait se révéler n’être qu’une fable.
+803 : 
+804 : 
+805 : 
+806 : 
+807 : Il envoie des décharges électriques avec les coussinets de ses pattes. Quand il court, on peut voir des éclairs et entendre la foudre.
+808 : Les Meltan vivent en groupe. Quand l’heure de l’évolution a sonné, le plus fort d’entre eux absorbe ses camarades pour changer de forme.
+809 : On dit que, grâce à la force centrifuge, les coups de poing qu’il assène avec ses lourds écrous seraient les plus dévastateurs parmi les Pokémon.
+810 : Il attaque en frappant frénétiquement avec son bâton. Son enthousiasme grandit à mesure que le rythme s’accélère.
+811 : Il est tellement concentré à battre à un rythme effréné que même lorsque son adversaire tombe K.O., il ne s’en rend pas compte.
+812 : Celui qui possède les meilleures techniques de percussion devient le chef. De nature calme, il privilégie l’harmonie du groupe.
+813 : Quand il est prêt à se battre, la partie qui surmonte son museau ainsi que les coussinets de ses pattes postérieures émettent de la chaleur.
+814 : Pour parfaire son jeu de jambes, il cueille des Baies puis drible avec, le tout sans se servir de ses mains.
+815 : Exceptionnel en attaque comme en défense, il s’exalte quand on l’encourage, mais il lui arrive de se mettre en danger en jouant solo.
+816 : Sa peau change de couleur et le rend invisible quand elle est mouillée, comme un camouflage.
+817 : Paresseux, mais malin, il parsème son territoire de pièges pour empêcher ses ennemis d’y pénétrer.
+818 : Il repère le point faible de l’ennemi grâce à sa membrane nictitante, puis il transperce sa cible en tirant des jets d’eau à Mach 3 du bout des doigts.
+819 : Comme il mange tout le temps des Baies, il est plus costaud qu’il n’en a l’air. Il parcourt les champs à la recherche de sa précieuse denrée.
+820 : On rencontre souvent ce Pokémon à Galar. Aucune coquille de Baie ne résiste à ses incisives, dont il est très fier.
+821 : Son petit corps lui permet de se jouer d’ennemis bien plus grands que lui en volant à toute vitesse pour les piquer où ils sont vulnérables.
+822 : Après avoir surmonté tant de rudes combats, il a appris à déterminer avec précision la puissance de ses adversaires.
+823 : Grâce à son adresse remarquable en vol et sa grande intelligence, il travaille comme taxi volant de Galar.
+824 : On le voit souvent dans les champs. Les poils de son corps lui servent à capter ce qu’il se passe autour de lui.
+825 : Il se développe dans sa coquille et se prépare à évoluer en sondant les alentours grâce à ses pouvoirs psychiques.
+826 : Il déploie ses pouvoirs psychiques pour sonder les alentours, sur un rayon pouvant atteindre 10 km.
+827 : Rusé et vigilant, il prend la poudre d’escampette après avoir volé de la nourriture en prenant soin d’effacer ses traces de pas avec sa queue.
+828 : Grâce à son corps leste et ses griffes acérées, il va et vient en dérobant Œufs et nourriture. Son ennemi juré est Fulgudog.
+829 : Nombreux sont ceux qui ont décidé d’en élever un après avoir été charmés par sa manière de chanter en virevoltant au gré de la brise.
+830 : Les fils tissés à partir du duvet sur sa tête sont satinés et absolument somptueux. Le textile ainsi créé est typique de la région de Galar.
+831 : Si ses poils poussent trop, il ne peut plus bouger. Les étoffes tissées avec son pelage sont étonnamment solides.
+832 : Ses splendides cornes lui servent à attirer les membres de l’autre sexe. Il ne s’en sert jamais pour se battre.
+833 : La corne sur sa tête est aussi dure que la roche. Il s’en sert pour se battre et lorsque l’ennemi flanche, il le mord et ne le lâche plus.
+834 : Son cou extensible lui permet d’atteindre des ennemis éloignés en un instant pour leur porter un coup décisif avec ses crocs aiguisés.
+835 : Ce glouton assiste les humains dans leur travail en échange de friandises. Il court sans arrêt, le corps enveloppé d’électricité.
+836 : Il se sert de l’énergie électrique pour augmenter la puissance de ses membres. Sa vitesse maximale dépasse de peu les 90 km/h.
+837 : Il parcourt sans difficulté les sentiers rocheux accidentés à la manière d’un monocycle. Il a besoin de brûler du charbon pour vivre.
+838 : Il peut faire tourner ses pattes très vite pour se déplacer à une vitesse de 30 km/h. Il peut aussi souffler des flammes à 1 000 °C.
+839 : Lorsqu’il s’engage dans un combat, son tas de charbon brûle et vire au rouge, ce qui répand de petites étincelles qui calcinent ce qui l’entoure.
+840 : À la naissance, il s’installe dans une pomme et grandit en se nourrissant de sa chair. Son évolution dépend de la saveur du fruit.
+841 : Il vole avec ses ailes faites de pelures de pomme et crache une substance très acide. Il peut aussi prendre la forme de ce fruit.
+842 : Son corps est recouvert de nectar. La peau de son dos, particulièrement sucrée, constituait jadis le goûter des enfants.
+843 : En expulsant du sable par les narines, il aveugle son adversaire et en profite pour se cacher sous terre.
+844 : S’il s’enroule d’une manière aussi particulière, c’est pour optimiser l’expulsion de sable par ses narines.
+845 : Très glouton, il avale les Embrochet d’une seule bouchée, mais il lui arrive de se tromper et de tenter de gober un autre Pokémon.
+846 : Lorsqu’il a le ventre plein, il a beaucoup plus de mal à se déplacer, et c’est à ce moment précis qu’il se fait gober par les Nigosier.
+847 : Il charge d’un coup en faisant tourner sa nageoire caudale. Il peut transpercer ses proies à une vitesse dépassant les 100 nœuds.
+848 : Par un procédé chimique, il change son poison en électricité. L’intensité du courant est faible, mais peut engourdir un ennemi.
+849 : Impatient et bagarreur, ce Pokémon avale de grandes gorgées d’eau croupie pour en absorber toute la toxicité.
+850 : Il enserre fermement ses proies avec son corps brûlant et, quand elles sont bien grillées, il les dévore.
+851 : Il est de nature agressive. Non seulement son corps brûlant est dangereux, mais il possède en plus d’énormes crocs très pointus.
+852 : Il a l’intelligence d’un enfant de trois ans. Il perd souvent ses tentacules, mais comme ils repoussent, il ne s’en soucie guère.
+853 : Mû par le besoin de tester la force de ses bras, il se rend sur la terre ferme pour trouver un adversaire. Il retourne à l’eau après le combat.
+854 : Il élit domicile dans des tasses de thé anciennes de grand renom. Parmi celles-ci se trouvent de nombreuses contrefaçons.
+855 : Dès qu’il voit un reste de thé noir, il se verse dedans pour donner naissance à un Polthégeist.
+856 : Il aime les lieux inhabités. S’il perçoit des émotions trop fortes, il s’enfuit aussi vite que possible.
+857 : Il frappe ses ennemis avec ses tresses pour les faire taire. Sa puissance est telle qu’il peut mettre K.O. un boxeur professionnel d’un seul coup.
+858 : On l’appelle aussi la « sorcière de la forêt ». Ce Pokémon lacère quiconque fait trop de bruit avec les griffes de son tentacule.
+859 : Il se glisse dans les foyers pour commettre un larcin et en profite pour se nourrir de l’énergie négative des habitants contrariés.
+860 : La nuit, il ruse pour attirer ses proies dans la forêt. On raconte qu’il a le pouvoir de faire pousser les cultures agricoles.
+861 : Ses cheveux sont comme des muscles filandreux qu’il peut détacher pour saisir ses adversaires, tels des tentacules.
+862 : Il a évolué après avoir enchaîné de nombreux combats. Le cri qu’il pousse lorsqu’il fait un « X » avec ses bras ébranle n’importe quel ennemi.
+863 : Il s’est tant adonné au combat qu’il a évolué : il est désormais doté de griffes redoutables qui prennent la forme de dagues en s’allongeant.
+864 : Ceux qui ont le malheur de toucher le corps spirituel qui protège son noyau se retrouveront immobilisés, comme changés en pierre.
+865 : Il pare les attaques avec le tranchant de son solide poireau, et contre-attaque avec la pointe de la tige. Son arme est également comestible.
+866 : Ses gestes hilarants le rendent très populaire. Il peut libérer ses pouvoirs psychiques depuis le motif sur son ventre.
+867 : Quiconque touchera son corps semblable à une ombre devra endurer la vision des souvenirs effroyables gravés dans ses motifs.
+868 : Les pâtissiers connaissent tous ce vieil adage : Quand Crèmy apparaît, le succès est assuré.
+869 : Quand il est heureux, la crème qu’il produit avec ses mains devient plus sucrée et plus onctueuse.
+870 : À six, ils représentent un Pokémon unique. Ils peuvent changer de formation et comptent sur leur travail d’équipe en combat.
+871 : Chacune de ses épines est chargée en électricité. S’il en perd une, celle-ci continue d’émettre un courant électrique pendant trois heures.
+872 : Il se nourrit de la neige entassée sur le sol. Plus il en mange, plus les épines sur son dos grandissent.
+873 : Sans pitié pour les vandales, il bat ses ailes gelées pour provoquer des blizzards et punir quiconque ose souiller les champs et les collines.
+874 : Tous les ans à la même date, ils arrivent de nulle part pour se réunir en cercle. C’est une de leurs coutumes.
+875 : Ne supportant pas la chaleur, il se rafraîchit toujours la tête avec de la glace. Il pêche de quoi se nourrir à l’aide de son cheveu.
+876 : Avec ses cornes, il peut percevoir les émotions des êtres vivants alentour. Celles qui sont positives lui servent de source d’énergie.
+877 : Il a beau manger, il a tout le temps faim. Il a toujours des graines grillées à l’électricité sur lui.
+878 : Les travaux physiques, c’est son affaire. Son corps de cuivre rouille sous la pluie et prend une vive couleur verte.
+879 : Ces Pokémon vivent en troupeau. L’étreinte de leur trompe est si forte qu’elle suffit à réduire un rocher en poussière.
+880 : Il envoie des décharges avec les muscles puissants de sa queue. La partie supérieure de son corps est trop petite par rapport à la partie inférieure.
+881 : Autrefois, il vivait en bord de mer et conservait sa nourriture dans la glace de son corps, mais il s’est éteint, car il avait du mal à se déplacer.
+882 : Ses pattes robustes lui permettent de courir à plus de 60 km/h, mais en revanche, il ne peut respirer que sous l’eau.
+883 : Aucune attaque ne pouvait égratigner la peau de son visage, mais il s’est éteint, car il avait du mal à respirer.
+884 : Son corps, composé d’un métal spécial, est léger et lui offre une excellente mobilité. Il est toutefois sensible à la pluie et vit donc dans les grottes.
+885 : Seul, il est si faible qu’il ne saurait rivaliser avec un enfant, mais en coopérant avec ses semblables, il peut devenir assez fort pour évoluer.
+886 : Il prend soin du Fantyrm sur sa tête. Quand ce dernier n’est plus là, il panique et tente de le remplacer par un autre Pokémon.
+887 : Il paraît que les Fantyrm installés dans ses cornes attendent impatiemment le moment où ils seront propulsés à la vitesse du son.
+888 : On dit qu’il s’agit de la figure fraternelle et du rival de Zamazenta, un Pokémon plongé dans un long sommeil.
+889 : Ce Pokémon, changé en statue, est resté pétrifié si longtemps qu’il a failli tomber dans l’oubli.
+890 : Il se trouvait dans une météorite qui s’est écrasée il y a 20 000 ans. Il semble y avoir un lien entre ce Pokémon et le phénomène Dynamax.
+891 : Lorsqu’il tire sur les longs poils blancs sur sa tête, il devient plus combatif et de l’énergie jaillit de sous son nombril.
+892 : Il vit dans une lointaine région montagneuse où il peaufine ses techniques et muscle ses jambes en courant le long des falaises abruptes.
+893 : Lorsque ses lianes se détachent de son corps, elles fertilisent le sol et favorisent la croissance des plantes de la forêt.
+894 : Son corps est entièrement composé d’organes générant de l’électricité. Il peut produire assez d’énergie pour alimenter tout Galar.
+895 : Son corps est entièrement composé de cristaux d’énergie draconique. Il possèderait les pouvoirs de tous les Pokémon Dragon.
+896 : Ce Pokémon à la force hors du commun porte un masque composé de glace cent fois plus solide que le diamant.
+897 : Ce Pokémon friand de silence et de solitude galope à travers les ténèbres nocturnes et aspire l’énergie vitale des êtres endormis.
+898 : Ce roi légendaire qui a régné sur Galar il y a fort longtemps possède le pouvoir d’apaiser les cœurs et de faire germer les plantes.
+899 : 
+900 : Le pollen qu’il expulse en grande quantité avec la force d’un volcan en éruption fait perdre connaissance si l’on en respire trop.
+901 : 
+902 : 
+903 : Des flammes, dont la température atteint les 2 000 °C, dansent à l’intérieur de son corps. Quand il rugit, leur puissance augmente.
+904 : 
+905 : Le jet d’eau qu’il projette avec son canon central est si puissant qu’il peut transpercer une montagne.
+906 : Il soulève ses ennemis en provoquant un ouragan à même d’emporter des camions de dix tonnes, puis les achève avec ses écailles toxiques.
+907 : 
+908 : 
+909 : 
+910 : 
+911 : 
+912 : Un Pikachu qui porte la casquette de son partenaire en souvenir des nombreuses régions qu’ils ont traversées ensemble.
+913 : Un Pikachu qui porte la casquette de son partenaire en souvenir de la région de Hoenn qu’ils ont traversée ensemble.
+914 : Un Pikachu qui porte la casquette de son partenaire en souvenir de la région de Sinnoh qu’ils ont traversée ensemble.
+915 : Un Pikachu qui porte la casquette de son partenaire en souvenir de la région d’Unys qu’ils ont traversée ensemble.
+916 : Un Pikachu qui porte la casquette de son partenaire en souvenir de la région de Kalos qu’ils ont traversée ensemble.
+917 : Un Pikachu qui porte la casquette de son partenaire en souvenir de la région d’Alola qu’ils ont traversée ensemble.
+918 : Un Pikachu qui porte la casquette de son partenaire, souvenir inestimable d’une rencontre marquée par le sceau du destin.
+919 : 
+920 : Un Pikachu qui porte la casquette de son partenaire, souvenir inestimable de leurs voyages dans diverses régions.
+921 : Un coup de sa queue en forme d’éclair donne à l’adversaire un choc électrique ayant l’intensité et la tension de la foudre qui tombe.
+922 : Il monte sur sa queue, qu’il fait léviter avec ses pouvoirs psychiques, et lance de puissantes attaques électriques en forme d’étoile.
+923 : Il vit dans les monts enneigés d’une île tropicale. Lorsque le blizzard souffle, il s’enfonce dans la neige pour ne pas se faire emporter.
+924 : Nombreux sont ceux qui escaladent les monts enneigés pour admirer les reflets du soleil levant dans ses épines de glace.
+925 : En examinant les touffes de poils de sa tête ou de sa queue au microscope, on réalise qu’elles produisent de minuscules cristaux de glace.
+926 : Il guide les humains perdus dans les pics neigeux vers le pied de la montagne, mais se montre sans pitié envers ceux qui dégradent l’environnement.
+927 : Les trois vibrisses sur sa tête bougent en fonction de ses émotions. Il les utilise pour communiquer avec ses congénères.
+928 : Ce trio s’entend à merveille. Leur synchronisation exceptionnelle leur permet de défier et même de vaincre des ennemis bien plus puissants qu’eux.
+929 : Un Pokémon aussi fier qu’intelligent. Il a recours à la ruse pour attaquer sans relâche le point faible de ses ennemis.
+930 : Plus la pièce de son front est sombre, plus elle est dure et inspire le respect à ses congénères. Il est aguerri et ne connaît pas la peur.
+931 : La puissance du Gigamax a fait pousser son torse de façon démesurée, et la pièce sur son front a encore gagné en valeur.
+932 : Son incroyable agilité associée à son goût pour les stratégies déloyales fait de lui un adversaire très difficile à affronter.
+933 : 
+934 : Sa puissance démultipliée lui a un jour permis de soulever un paquebot en détresse pour le ramener jusqu’au port.
+935 : 
+936 : 
+937 : 
+938 : Il peut lire l’esprit de n’importe qui en regardant la personne dans les yeux. S’il détecte une pensée impure, il disparaît immédiatement.
+939 : Un Pokémon très fier, à la bravoure sans limites. Il concentre ses pouvoirs psychiques dans ses fanons pour traverser les forêts sans effort.
+940 : Son alimentation à base de graines de plantes endémiques de Galar confère à sa queue un goût épicé.
+941 : 
+942 : S’il serre la langue du Kokiyas qui l’a mordu, ce dernier projette un liquide très toxique depuis l’extrémité de sa coquille.
+943 : Les Canarticho ont pris cette forme à force de manier les poireaux de Galar, qui sont plus longs et plus larges que ceux des autres régions.
+944 : 
+945 : 
+946 : 
+947 : Il tend des pièges fatals : ses victimes entendent les voix de personnes qu’elles aiment les inciter à approcher lorsqu’elles sont devant sa bouche.
+948 : Il expulse de l’eau extrêmement alcaline sur ses adversaires, ce qui dissout leur corps instantanément.
+949 : Ses pouvoirs psychiques se sont affaiblis, mais la tête sur sa queue sonde les alentours en émettant de faibles ondes télépathiques.
+950 : Les flammes maudites qui brûlent au bout de son os infligent des blessures inguérissables à la fois au corps et à l’âme de l’adversaire.
+951 : 
+952 : À l’époque où il y avait des usines partout et où l’air était très pollué, il a pris cette forme. Personne ne sait pourquoi.
+953 : 
+954 : Il produit de l’air glacial par les pieds. Après avoir fait geler le sol, il danse dessus toute la journée en faisant des claquettes.
+955 : 
+956 : 
+957 : S’il croise un iceberg, il crée un grand anneau avec des cristaux de glace pour le détruire et continuer sa croisière paisiblement.
+958 : 
+959 : Son adorable innocence a pris des proportions XXL. Il cherche à jouer avec tout le monde, mais il est si grand qu’il écrase ses camarades de jeu.
+960 : 
+961 : Il possède une force terrifiante. Son corps gigantesque et son inertie presque totale le rendent comparable à une montagne.
+962 : Artikodin est le nom qui a été choisi pour ce Pokémon capable de projeter un rayon qui immobilise sa cible comme s’il la gelait.
+963 : Ses pattes sont assez robustes pour pulvériser un camion-benne d’un seul coup. On dit qu’il court dans les montagnes à plus de 300 km/h.
+964 : Sulfura est le nom qui a été choisi pour ce Pokémon dont l’aura maléfique brûle intensément.
+965 : 
+966 : 
+967 : 
+968 : Il mélange ce qu’il ingère aux toxines produites par son corps, tout en récitant de mystérieuses incantations, afin de créer un étrange breuvage.
+969 : 
+970 : 
+971 : 
+972 : 
+973 : 
+974 : 
+975 : 
+976 : 
+977 : 
+978 : 
+979 : 
+980 : 
+981 : 
+982 : 
+983 : 
+984 : 
+985 : 
+986 : 
+987 : 
+988 : 
+989 : 
+990 : 
+991 : 
+992 : 
+993 : 
+994 : 
+995 : 
+996 : 
+997 : 
+998 : 
+999 : Il s’agit d’un Corayon mort il y a longtemps à cause d’un changement brutal de l’environnement. Il vole l’essence vitale des gens avec ses branches.
+1000 : 
+1001 : 
+1002 : 
+1003 : 
+1004 : 
+1005 : C’est l’apparence originelle de Zigzaton, et donc la plus ancienne. Il sème le désordre en courant partout en zigzag.
+1006 : Il a un caractère extrêmement bagarreur. Il provoque ses adversaires sur un coup de tête, même s’ils sont bien plus grands et forts que lui.
+1007 : 
+1008 : 
+1009 : 
+1010 : 
+1011 : 
+1012 : 
+1013 : 
+1014 : 
+1015 : 
+1016 : 
+1017 : 
+1018 : 
+1019 : 
+1020 : 
+1021 : 
+1022 : 
+1023 : 
+1024 : 
+1025 : 
+1026 : 
+1027 : 
+1028 : 
+1029 : 
+1030 : 
+1031 : 
+1032 : 
+1033 : 
+1034 : 
+1035 : 
+1036 : 
+1037 : 
+1038 : Les pétales de sa fleur épanouie émettent une odeur délicate qui attire les Pokémon Insecte.
+1039 : Son apparence diffère en fonction de son environnement. Selon une théorie, il prendrait cette forme dans les mers froides.
+1040 : Il est couvert d’une substance visqueuse. Il ne peut rester trop longtemps sur la terre ferme, sous peine de se déshydrater.
+1041 : 
+1042 : 
+1043 : 
+1044 : 
+1045 : 
+1046 : Sous cette forme, Motisma adore utiliser la chaleur pour faire des bêtises, comme brûler les vêtements favoris des gens.
+1047 : Il a pris possession d’une machine à laver munie d’un moteur spécial. Il intimide ses ennemis en les aspergeant d’eau.
+1048 : Sous cette forme, Motisma adore utiliser l’air froid pour faire des bêtises, comme geler le bain chaud d’une personne avant qu’elle n’y mette le pied.
+1049 : Il a pris possession d’un ventilateur muni d’un moteur spécial. Il crée des bourrasques pour balayer ses ennemis.
+1050 : Sous cette forme, Motisma adore utiliser les plantes pour faire des bêtises, comme arracher les fleurs cultivées avec amour.
+1051 : 
+1052 : 
+1053 : 
+1054 : 
+1055 : 
+1056 : 
+1057 : 
+1058 : 
+1059 : 
+1060 : 
+1061 : 
+1062 : 
+1063 : 
+1064 : 
+1065 : 
+1066 : 
+1067 : 
+1068 : 
+1069 : 
+1070 : Ce Pokémon est aussi intelligent qu’il est arrogant. Les Dresseurs de Déflaisan sont tenus en haute estime.
+1071 : 
+1072 : Connus pour leur violence, ils se battent le plus souvent contre les bancs de Bargantua Motif Rouge.
+1073 : Plus leur corps est froid, plus ils sont en forme. Ils s’amusent en faisant des batailles de boules de neige, qu’ils créent en refroidissant leur souffle.
+1074 : Quand il est blessé, il devient aussi immobile que la pierre. Il est en fait en train d’aiguiser son esprit grâce à la méditation.
+1075 : Il est doux de nature, mais aussi très puissant. Il gèle la boule de neige sur sa tête en un instant avant de donner des coups de boule.
+1076 : C’est la forme courroucée de Darumacho. Même si son corps fond, il crache du feu dans tous les sens jusqu’à ce que sa colère s’apaise.
+1077 : On pense que ce Pokémon est né d’une âme vengeresse aspirée par une ancienne tablette d’argile.
+1078 : Quiconque entre en contact avec le gaz toxique qui jaillit de sa bouche et de ses doigts sera empoisonné jusqu’aux os.
+1079 : 
+1080 : 
+1081 : 
+1082 : 
+1083 : 
+1084 : 
+1085 : Ses membres en forme de voiles fins sont couverts de milliers de dards venimeux. Chez la femelle, ces dards sont un peu plus longs.
+1086 : La couronne sur sa tête grossit de plus en plus à mesure que ce Pokémon aspire de l’énergie vitale.
+1087 : Il se cache dans la boue et attire l’attention de ses proies avec son étrange bouche. Il les coince ensuite dans ses nageoires d’acier dentelées.
+1088 : 
+1089 : 
+1090 : 
+1091 : Il a prédit un futur où humains et Pokémon vivront dans un monde où la Réalité prévaut. Il fait tout son possible pour protéger cet avenir.
+1092 : En absorbant Zekrom, avec qui il partage le même ADN, il est devenu capable d’utiliser à la fois l’énergie de l’électricité et de la glace.
+1093 : Le pouvoir qui sommeillait au plus profond de lui s’est concentré dans sa corne, qui est devenue une lame capable de fendre n’importe quoi.
+1094 : 
+1095 : 
+1096 : 
+1097 : 
+1098 : 
+1099 : 
+1100 : 
+1101 : 
+1102 : 
+1103 : 
+1104 : 
+1105 : 
+1106 : 
+1107 : 
+1108 : 
+1109 : 
+1110 : 
+1111 : 
+1112 : 
+1113 : 
+1114 : 
+1115 : 
+1116 : 
+1117 : 
+1118 : 
+1119 : 
+1120 : 
+1121 : 
+1122 : 
+1123 : 
+1124 : 
+1125 : 
+1126 : 
+1127 : 
+1128 : 
+1129 : 
+1130 : 
+1131 : 
+1132 : 
+1133 : 
+1134 : 
+1135 : 
+1136 : 
+1137 : 
+1138 : 
+1139 : 
+1140 : 
+1141 : 
+1142 : 
+1143 : 
+1144 : 
+1145 : 
+1146 : 
+1147 : 
+1148 : 
+1149 : 
+1150 : 
+1151 : 
+1152 : 
+1153 : 
+1154 : 
+1155 : 
+1156 : 
+1157 : 
+1158 : 
+1159 : 
+1160 : 
+1161 : 
+1162 : 
+1163 : 
+1164 : 
+1165 : 
+1166 : 
+1167 : 
+1168 : 
+1169 : 
+1170 : 
+1171 : 
+1172 : 
+1173 : 
+1174 : 
+1175 : 
+1176 : 
+1177 : 
+1178 : 
+1179 : 
+1180 : Ses pouvoirs psychiques sont assez puissants pour détruire un pétrolier s’il les utilise sans retenue. Il est grognon, mais c’est ce qui fait son charme.
+1181 : Un roi régnait jadis, un Exagide à ses côtés. L’absorption de l’énergie vitale du souverain causa sa perte, ainsi que celle de son royaume.
+1182 : On dit que le corps de ce Pokémon est tout petit, car il a toujours vécu entouré de très peu d’âmes errantes.
+1183 : On dit que le corps de ce Pokémon est assez grand, car il a toujours vécu entouré de beaucoup d’âmes errantes.
+1184 : On dit que le corps de ce Pokémon est devenu gigantesque, car il a toujours vécu entouré d’énormément d’âmes errantes.
+1185 : C’est l’évolution d’un Pitrouille Taille Mini. Il a hérité de sa petite taille.
+1186 : C’est l’évolution d’un Pitrouille Taille Maxi. Il a hérité de sa grande taille.
+1187 : C’est l’évolution d’un Pitrouille Taille Ultra. Il a hérité de sa très grande taille.
+1188 : 
+1189 : 
+1190 : 
+1191 : 
+1192 : 
+1193 : 
+1194 : 
+1195 : 
+1196 : 
+1197 : 
+1198 : 
+1199 : 
+1200 : 
+1201 : Il intimide ses ennemis en cognant les rochers autour de son cou contre le sol. Au premier signe de faiblesse, il passe à l’assaut.
+1202 : Plus son adversaire est fort, plus il est combatif. Son coup de tête meurtrier peut réduire un rocher immense en poussière.
+1203 : Ce Pokémon à l’attitude réfléchie sait aussi être féroce. Il est difficile à satisfaire, et donc compliqué à apprivoiser.
+1204 : Il s’unit à d’autres spécimens pour faire face aux ennemis puissants. En subissant des dégâts, le groupe se désagrège et il se retrouve tout seul.
+1205 : 
+1206 : 
+1207 : 
+1208 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Combat.
+1209 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Vol.
+1210 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Poison.
+1211 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Sol.
+1212 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Roche.
+1213 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Insecte.
+1214 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Spectre.
+1215 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Acier.
+1216 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Feu.
+1217 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Eau.
+1218 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Plante.
+1219 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Électrik.
+1220 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Psy.
+1221 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Glace.
+1222 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Dragon.
+1223 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Ténèbres.
+1224 : Il peut changer de type en fonction de la ROM dont il est équipé. Ceci est sa forme Fée.
+1225 : 
+1226 : 
+1227 : 
+1228 : 
+1229 : 
+1230 : 
+1231 : 
+1232 : 
+1233 : 
+1234 : 
+1235 : 
+1236 : 
+1237 : 
+1238 : 
+1239 : Il a réussi à détourner une attaque, mais à présent, le cou brisé de son déguisement trahit sa véritable apparence.
+1240 : 
+1241 : 
+1242 : 
+1243 : Il a pris possession du corps de Solgaleo et absorbe de force son énergie incommensurable tout en semant la terreur autour de lui.
+1244 : Il prend cette forme après avoir absorbé Lunala. Furieux, il considère tous les êtres autour de lui comme des ennemis et les brûle avec son laser.
+1245 : 
+1246 : 
+1247 : Il peut tirer un rayon électrique capable de faire disparaître un ennemi d’un seul coup depuis le centre de son abdomen.
+1248 : Ne faisant plus qu’un avec sa forêt d’instruments de percussion, Gorythmic joue sans s’arrêter et ses battements font vibrer tout Galar.
+1249 : Grâce au pouvoir du Gigamax, ses ballons de feu dépassent parfois les 100 mètres de diamètre.
+1250 : Pour ce tireur d’élite au talent exceptionnel, toucher une Baie qui roule au sol à 15 km de distance est un véritable jeu d’enfant.
+1251 : Les huit plumes de son dos, aussi appelées « oiseaux-lames », se sont séparées de son corps et attaquent ses ennemis de manière autonome.
+1252 : En concentrant son pouvoir, il peut manipuler l’esprit de tous les êtres qui l’entourent.
+1253 : Les légendes de Galar racontent qu’il avait jadis réussi à endiguer des inondations en détruisant des montagnes rocheuses avec sa mâchoire.
+1254 : On raconte qu’il y a longtemps, il a sauvé de nombreuses vies d’une vague de froid en se transformant en brasero géant.
+1255 : Lorsqu’il allonge le cou, un parfum de nectar extrêmement sucré se répand, et les Pokémon qui le hument tombent tous dans les pommes.
+1256 : Grâce au pouvoir du Gigamax, son nectar est devenu encore plus visqueux et peut absorber les chocs.
+1257 : Le sable qui gravite à grande vitesse autour de lui tourne si violemment qu’il peut réduire un gratte-ciel en poussière.
+1258 : Au moindre choc, il est susceptible de violemment propulser l’Embrochet coincé dans sa gorge.
+1259 : Encore sous le choc d’avoir failli se faire gober tout rond, le Pikachu se tient tranquille, mais en réalité, il attend le bon moment pour riposter.
+1260 : Son organe générant de l’électricité se trouve sur son torse. Quand il est actif, il émet un son semblable à celui d’une basse.
+1261 : Son poison lui monte au cerveau et il perd tout contrôle. À chaque excès de violence, il répand des gouttes de sueur toxiques qui polluent le sol.
+1262 : Sous sa forme Gigamax, la chaleur émise par Scolocendre perturbe parfois les courants aériens au point de déclencher des tempêtes.
+1263 : Il attend que quelqu’un le boive pour aspirer sa force vitale, mais il a si mauvais goût que sa victime le recrache aussitôt.
+1264 : Quand il s’énerve, il se jette corps et thé dans la bouche de son ennemi. Si ce dernier l’avale, il sera pris de terribles tremblements.
+1265 : Surnommé la « déesse déchaînée », ce Pokémon fait tomber des rayons similaires à la foudre avec ses tentacules.
+1266 : Grâce au pouvoir du Gigamax, son pelage s’est épaissi. Il peut désormais franchir d’un seul bond les plus hauts immeubles du monde.
+1267 : Au moment d’évoluer, les cellules qui composent sa crème ont été secouées et lui ont donné une saveur aigre-douce.
+1268 : Au moment d’évoluer, les cellules qui composent sa crème ont été secouées et lui ont donné une saveur parfumée.
+1269 : Au moment d’évoluer, les cellules qui composent sa crème ont été secouées et lui ont donné une saveur rafraîchissante.
+1270 : Au moment d’évoluer, les cellules qui composent sa crème ont été secouées et lui ont donné une saveur acide.
+1271 : Au moment d’évoluer, les cellules qui composent sa crème ont été secouées et lui ont donné une saveur salée.
+1272 : Au moment d’évoluer, les cellules qui composent sa crème ont été secouées et lui ont donné une saveur riche.
+1273 : Au moment d’évoluer, les cellules qui composent sa crème ont été secouées et lui ont donné une saveur amère.
+1274 : Au moment d’évoluer, les cellules qui composent sa crème ont été secouées et lui ont donné une saveur complexe.
+1275 : Un seul tir de ses missiles à la crème ne contient pas moins de 100 000 kilocalories. Les ennemis touchés sont pris de vertige.
+1276 : Le cheveu sur sa tête est directement relié à son cerveau. Quand il réfléchit, il répand de l’air glacial.
+1277 : Ils font l’impossible pour s’attirer la gratitude des humains et des Pokémon. Les femelles sont d’excellentes gardiennes d’enfants.
+1278 : Ses hormones de satiété ont modifié son comportement. Tant qu’il ne sera pas rassasié, il enchaînera les mauvais tours.
+1279 : Lorsqu’il bénéficie de la puissance du Gigamax, il peut mettre en pièces de grands bâtiments d’un seul coup de son énorme trompe.
+1280 : La solidité de sa structure cellulaire le classe parmi les Pokémon Acier les plus résistants : un séisme ne pourrait l’ébranler.
+1281 : Craint et respecté de ses ennemis comme de ses alliés, il a reçu le nom de « lame du roi des fées », car rien ne peut résister à son tranchant.
+1282 : Il est équipé d’une protection parfaite pouvant aisément contrer toutes les attaques, même si son ennemi bénéficie de la force du Dynamax.
+1283 : [~ 1283]
+1284 : Désormais immense, son noyau émet un pouvoir infini qui déforme l’espace-temps autour de lui.
+1285 : Fervent adepte des techniques à coups multiples, il déverse sur ses adversaires une série d’attaques, tel un torrent.
+1286 : L’énergie qui émane de son poing provoque une onde de choc qui lui permet de balayer un Pokémon Dynamax d’un seul coup.
+1287 : On dit qu’il lui suffit de lancer un regard empli d’une colère sourde aux êtres maléfiques pour leur ôter la vie.
+1288 : L’affection qu’il porte au petit être humain qu’il a recueilli et élevé depuis son plus jeune âge lui confère une force particulière.
+1289 : On raconte qu’en l’espace d’une nuit, il parvint à déplacer une forêt immense ainsi que toutes les créatures qui y vivaient.
+1290 : On raconte que grâce à son aptitude à voir le passé et le futur, il a sauvé les créatures d’une forêt de la chute d’une météorite.

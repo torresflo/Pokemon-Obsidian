@@ -41,7 +41,7 @@ module UI
         mode_handler.add_selection_mode_ui(self)
         mode_handler.add_mode_ui(self)
         update_position
-        set_z(5)
+        set_z(31)
       end
 
       # Update the animation
@@ -85,6 +85,7 @@ module UI
         @select_box = false if inbox
         @inbox = inbox
         update_graphics
+        update if @inbox
       end
 
       # Set the selec box property
@@ -92,6 +93,7 @@ module UI
       def select_box=(select_box)
         @inbox = false if select_box
         @select_box = select_box
+        set_position(67, 14)
         update_graphics
       end
 
@@ -103,7 +105,7 @@ module UI
       end
 
       # Set the current mode
-      # @param selection_mode [Symbol]
+      # @param mode [Symbol]
       def mode=(mode)
         @mode = mode
         update_graphics

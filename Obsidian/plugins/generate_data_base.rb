@@ -47,13 +47,16 @@ EOF
 end
 
 # Chargement des textes
-langs = ["fr","en","it","de","es"]
+langs = %w[en fr es] # ["fr","en","it","de","es"]
 texts = []
 langs.each do |lang| 
   texts << Marshal.load(Zlib::Inflate.inflate(load_data("Data/Text/#{lang}.dat")))
 end
 
-
+GameData::Pokemon.load
+GameData::Item.load
+GameData::Skill.load
+GameData::Abilities.load
 
 # Genération du fichier pour les Pokémon
 if ARGV.include?('pokemon')
@@ -65,12 +68,12 @@ if ARGV.include?('pokemon')
         <tr>
           <th scope="col" class="text-center">#</th>
           <th scope="col">db_symbol</th>
-          <th scope="col" colspan="5" class="text-center">Noms</th>
+          <th scope="col" colspan="#{texts.size}" class="text-center">Noms</th>
         </tr>
       </thead>
       <tbody>
 EOF
-  1.upto($game_data_pokemon.size - 1) do |i|
+  1.upto(GameData::Pokemon.all.size - 1) do |i|
     names = []
     texts.each do |text_arr|
       names << text_arr[0][i]
@@ -80,7 +83,7 @@ EOF
     page << <<-EOF
         <tr>
           <td class="text-center">#{i}</td>
-          <td><b>#{GameData::Pokemon.db_symbol(i).inspect}</b></td>
+          <td><b>#{GameData::Pokemon[i].db_symbol.inspect}</b></td>
           <td>#{names}</td>
         </tr>
 EOF
@@ -95,7 +98,7 @@ end
 
 # Genération du fichier pour les Objets
 if ARGV.include?('item')
-  page = make_page_header('Objets')
+  page = make_page_header('Items')
   
   page << <<-EOF
     <table class="table table-striped table-hover table-sm table-dark">
@@ -103,13 +106,13 @@ if ARGV.include?('item')
         <tr>
           <th scope="col" class="text-center">#</th>
           <th scope="col">db_symbol</th>
-          <th scope="col" colspan="5" class="text-center">Noms</th>
+          <th scope="col" colspan="#{texts.size}" class="text-center">Noms</th>
         </tr>
       </thead>
       <tbody>
 EOF
-  1.upto($game_data_item.size - 1) do |i|
-    next if GameData::Item.db_symbol(i) == :__undef__
+  1.upto(GameData::Item.all.size - 1) do |i|
+    next if GameData::Item[i].db_symbol == :__undef__
     names = []
     texts.each do |text_arr|
       names << text_arr[12][i]
@@ -118,9 +121,12 @@ EOF
           <td>')
     page << <<-EOF
         <tr>
-          <td class="text-center">#{i}</td>
-          <td><b>#{GameData::Item.db_symbol(i).inspect}</b></td>
+          <td class="text-center" rowspan="2">#{i}</td>
+          <td><b>#{GameData::Item[i].db_symbol.inspect}</b></td>
           <td>#{names}</td>
+        </tr>
+        <tr>
+          <td colspan="#{texts.size + 1}" class="#{GameData::Item[i].battle_usable ? 'bg-success' : (GameData::Item[i].holdable && !GameData::Item[i].map_usable ? 'bg-info' : '')}">#{texts[0][13][i]}</td>
         </tr>
 EOF
   end
@@ -134,7 +140,7 @@ end
 
 # Genération du fichier pour les Attaques
 if ARGV.include?('skill')
-  page = make_page_header('Attaques')
+  page = make_page_header('Moves')
   
   page << <<-EOF
     <table class="table table-striped table-hover table-sm table-dark">
@@ -142,13 +148,14 @@ if ARGV.include?('skill')
         <tr>
           <th scope="col" class="text-center">#</th>
           <th scope="col">db_symbol</th>
-          <th scope="col" colspan="5" class="text-center">Noms</th>
+          <th scope="col">be_method</th>
+          <th scope="col" colspan="#{texts.size}" class="text-center">Noms</th>
         </tr>
       </thead>
       <tbody>
 EOF
-  1.upto($game_data_skill.size - 1) do |i|
-    next if GameData::Skill.db_symbol(i) == :__undef__
+  1.upto(GameData::Skill.all.size - 1) do |i|
+    next if GameData::Skill[i].db_symbol == :__undef__
     names = []
     texts.each do |text_arr|
       names << text_arr[6][i]
@@ -157,9 +164,13 @@ EOF
           <td>')
     page << <<-EOF
         <tr>
-          <td class="text-center">#{i}</td>
-          <td><b>#{GameData::Skill.db_symbol(i).inspect}</b></td>
+          <td class="text-center" rowspan="2">#{i}</td>
+          <td><b>#{GameData::Skill[i].db_symbol.inspect}</b></td>
+          <td><b>#{GameData::Skill[i].be_method}</b></td>
           <td>#{names}</td>
+        </tr>
+        <tr>
+          <td colspan="#{texts.size + 2}">#{texts[0][7][i]}</td>
         </tr>
 EOF
   end
@@ -173,7 +184,7 @@ end
 
 # Genération du fichier pour les Talents
 if ARGV.include?('ability')
-  page = make_page_header('Talents')
+  page = make_page_header('Abilities')
   
   page << <<-EOF
     <table class="table table-striped table-hover table-sm table-dark">
@@ -181,15 +192,16 @@ if ARGV.include?('ability')
         <tr>
           <th scope="col" class="text-center">#</th>
           <th scope="col">db_symbol</th>
-          <th scope="col" colspan="5" class="text-center">Noms</th>
+          <th scope="col" colspan="#{texts.size}" class="text-center">Noms</th>
         </tr>
       </thead>
       <tbody>
 EOF
-  $game_data_abilities.size.times do |i|
+  all_abilities = GameData::Abilities.instance_variable_get(:@psdk_id_to_gf_id)
+  all_abilities.size.times do |i|
     next if GameData::Abilities.db_symbol(i) == :__undef__
     names = []
-    id = $game_data_abilities[i]
+    id = all_abilities[i]
     texts.each do |text_arr|
       names << text_arr[4][id]
     end
@@ -197,9 +209,12 @@ EOF
           <td>')
     page << <<-EOF
         <tr>
-          <td class="text-center">#{i}</td>
+          <td class="text-center" rowspan="2">#{i}</td>
           <td><b>#{GameData::Abilities.db_symbol(i).inspect}</b></td>
           <td>#{names}</td>
+        </tr>
+        <tr>
+          <td colspan="#{texts.size + 1}">#{texts[0][5][id]}</td>
         </tr>
 EOF
   end

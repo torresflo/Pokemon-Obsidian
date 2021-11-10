@@ -1,0 +1,19 @@
+0 : Échange en réseau
+1 : Échange en réseau
+2 : Kanto
+3 : Johto
+4 : Hoenn
+5 : Sinnoh
+6 : Pays lointain
+7 : －－－－－－－－－－
+8 : Unys
+9 : Kalos
+10 : Poké Lien
+11 : Pokémon GO
+12 : Kanto
+13 : Hoenn
+14 : Alola
+15 : Poké Loisir
+16 : Johto
+17 : Pokémon HOME
+18 : Kanto

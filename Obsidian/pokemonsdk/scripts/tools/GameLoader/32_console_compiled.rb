@@ -44,6 +44,13 @@ module Kernel
     return message
   end
 
+  # Display a debug message
+  # @param message [String]
+  # @return [String] the message
+  def log_data(message)
+    return message
+  end
+
   # Display the colors and their codes
   def colors
     return

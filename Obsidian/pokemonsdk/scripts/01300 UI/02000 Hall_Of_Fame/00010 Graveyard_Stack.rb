@@ -3,7 +3,7 @@ module UI
     # Class that define the Graveyard Animation stack
     class Graveyard_Animation_Stack < SpriteStack
       # The array containing every ShaderedSprite
-      # @return [Array<LiteRGSS::ShaderedSprite>]
+      # @return [Array<ShaderedSprite>]
       attr_accessor :sprites
       # The array containing every Dead_Pokemon_Text SpriteStack
       # @return [Array<UI::Hall_of_Fame::Dead_Pokemon_Text>]

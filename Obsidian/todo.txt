@@ -24,5 +24,5 @@ Variable: Amaryllis Intro
 - Old man in Silverbridge does not use correct gender
 - Add more visibility to the secret entrance of the trainers club
 - Add notification to explain when Motisma mission is done
-- On the Unknown Island, after retrieving a Machop, it is not possible to heal our team anymore.
+- On the Unknown Island, after retrieving a Machop, it is not possible to heal your team anymore.
 - On the Unknown Island, dying creates a soft lock.

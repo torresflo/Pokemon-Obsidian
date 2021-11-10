@@ -6,6 +6,8 @@ module RPG
     LOADS = %i[load_animation load_autotile load_ball load_battleback load_battler load_character load_fog load_icon
                load_panorama load_particle load_pc load_picture load_pokedex load_title load_tileset
                load_transition load_interface load_foot_print load_b_icon load_poke_front load_poke_back]
+    # Extension of gif files
+    GIF_EXTENSION = '.gif'
     # Common filename of the image to load
     Common_filename = 'Graphics/%s/%s'
     # Common filename with .png
@@ -62,12 +64,12 @@ module RPG
     # Gets the default bitmap
     # @note Should be used in scripts that require a bitmap be doesn't perform anything on the bitmap
     def default_bitmap
-      @default_bitmap = Bitmap.new(16, 16) if @default_bitmap&.disposed?
+      @default_bitmap = Texture.new(16, 16) if @default_bitmap&.disposed?
       @default_bitmap
     end
 
     # Dispose every bitmap of a cache table
-    # @param cache_tab [Hash{String => Bitmap}] cache table where bitmaps should be disposed
+    # @param cache_tab [Hash{String => Texture}] cache table where bitmaps should be disposed
     def dispose_bitmaps_from_cache_tab(cache_tab)
       cache_tab.each_value { |bitmap| bitmap.dispose if bitmap && !bitmap.disposed? }
       cache_tab.clear
@@ -81,27 +83,29 @@ module RPG
     def test_file_existence(filename, path, file_data = nil)
       return true if file_data&.exists?(filename.downcase)
       return true if File.exist?(format(Common_filename_format, path, filename).downcase)
+      return true if File.exist?(format(Common_filename, path, filename).downcase)
+
       false
     end
 
     # Loads an image (from cache, disk or virtual directory)
-    # @param cache_tab [Hash{String => Bitmap}] cache table where bitmaps are being stored
+    # @param cache_tab [Hash{String => Texture}] cache table where bitmaps are being stored
     # @param filename [String] filename of the image
     # @param path [String] path of the image inside Graphics/
     # @param file_data [Yuki::VD] "virtual directory"
-    # @param image_class [Class] Bitmap or Image depending on the desired process
-    # @return [Bitmap]
+    # @param image_class [Class] Texture or Image depending on the desired process
+    # @return [Texture]
     # @note This function displays a desktop notification if the image is not found.
     #       The resultat bitmap is an empty 16x16 bitmap in this case.
-    def load_image(cache_tab, filename, path, file_data = nil, image_class = Bitmap)
+    def load_image(cache_tab, filename, path, file_data = nil, image_class = Texture)
       complete_filename = format(Common_filename, path, filename).downcase
       return bitmap = image_class.new(16, 16) if File.directory?(complete_filename) || filename.empty?
+      return File.binread(complete_filename) if File.exist?(complete_filename)
+
       bitmap = cache_tab.fetch(filename, nil)
       if !bitmap || bitmap.disposed?
-        filename_ext = complete_filename + '.png'
-        if File.exist?(filename_ext) || !file_data.exists?(filename.downcase)
-          bitmap = image_class.new(filename_ext)
-        end
+        filename_ext = "#{complete_filename}.png"
+        bitmap = image_class.new(filename_ext) if File.exist?(filename_ext) || !file_data.exists?(filename.downcase)
         bitmap = load_image_from_file_data(filename, file_data, image_class) if (!bitmap || bitmap.disposed?) && file_data
         bitmap ||= image_class.new(16, 16)
       end
@@ -116,10 +120,12 @@ module RPG
     # Loads an image from virtual directory with the right encoding
     # @param filename [String] filename of the image
     # @param file_data [Yuki::VD] "virtual directory"
-    # @param image_class [Class] Bitmap or Image depending on the desired process
-    # @return [Bitmap] the image loaded from the virtual directory
+    # @param image_class [Class] Texture or Image depending on the desired process
+    # @return [Texture] the image loaded from the virtual directory
     def load_image_from_file_data(filename, file_data, image_class)
       bitmap_data = file_data.read_data(filename.downcase)
+      return bitmap_data if filename.end_with?(GIF_EXTENSION)
+
       bitmap = image_class.new(bitmap_data, true) if bitmap_data
       bitmap
     end
@@ -145,7 +151,7 @@ module RPG
     # Load an animation image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def animation(filename, _hue = 0)
       load_image(@animation_cache, filename, Animations_Path, @animation_data)
     end
@@ -171,7 +177,7 @@ module RPG
     # Load an autotile image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def autotile(filename, _hue = 0)
       load_image(@autotile_cache, filename, Autotiles_Path, @autotile_data)
     end
@@ -197,7 +203,7 @@ module RPG
     # Load ball animation image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def ball(filename, _hue = 0)
       load_image(@ball_cache, filename, Ball_Path, @ball_data)
     end
@@ -223,7 +229,7 @@ module RPG
     # Load a battle back image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def battleback(filename, _hue = 0)
       load_image(@battleback_cache, filename, BattleBacks_Path, @battleback_data)
     end
@@ -249,7 +255,7 @@ module RPG
     # Load a battler image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def battler(filename, _hue = 0)
       load_image(@battler_cache, filename, Battlers_Path, @battler_data)
     end
@@ -275,7 +281,7 @@ module RPG
     # Load a character image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def character(filename, _hue = 0)
       load_image(@character_cache, filename, Characters_Path, @character_data)
     end
@@ -301,7 +307,7 @@ module RPG
     # Load a fog image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def fog(filename, _hue = 0)
       load_image(@fog_cache, filename, Fogs_Path, @fog_data)
     end
@@ -327,7 +333,7 @@ module RPG
     # Load an icon
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def icon(filename, _hue = 0)
       load_image(@icon_cache, filename, Icons_Path, @icon_data)
     end
@@ -353,7 +359,7 @@ module RPG
     # Load an interface image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def interface(filename, _hue = 0)
       if interface_exist?(filename_with_language = filename + ($options&.language || 'en')) ||
          interface_exist?(filename_with_language = filename + 'en')
@@ -394,7 +400,7 @@ module RPG
     # Load a panorama image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def panorama(filename, _hue = 0)
       load_image(@panorama_cache, filename, Panoramas_Path, @panorama_data)
     end
@@ -420,7 +426,7 @@ module RPG
     # Load a particle image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def particle(filename, _hue = 0)
       load_image(@particle_cache, filename, Particles_Path, @particle_data)
     end
@@ -446,7 +452,7 @@ module RPG
     # Load a pc image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def pc(filename, _hue = 0)
       load_image(@pc_cache, filename, PC_Path, @pc_data)
     end
@@ -472,7 +478,7 @@ module RPG
     # Load a picture image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def picture(filename, _hue = 0)
       load_image(@picture_cache, filename, Pictures_Path, @picture_data)
     end
@@ -498,7 +504,7 @@ module RPG
     # Load a pokedex image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def pokedex(filename, _hue = 0)
       load_image(@pokedex_cache, filename, Pokedex_Path, @pokedex_data)
     end
@@ -524,7 +530,7 @@ module RPG
     # Load a title image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def title(filename, _hue = 0)
       load_image(@title_cache, filename, Titles_Path, @title_data)
     end
@@ -550,7 +556,7 @@ module RPG
     # Load a tileset image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def tileset(filename, _hue = 0)
       load_image(@tileset_cache, filename, Tilesets_Path, @tileset_data)
     end
@@ -583,7 +589,7 @@ module RPG
     # Load a transition image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def transition(filename, _hue = 0)
       load_image(@transition_cache, filename, Transitions_Path, @transition_data)
     end
@@ -609,7 +615,7 @@ module RPG
     # Load a windowskin image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def windowskin(filename, _hue = 0)
       load_image(@windowskin_cache, filename, Windowskins_Path, @windowskin_data)
     end
@@ -635,7 +641,7 @@ module RPG
     # Load a foot print image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def foot_print(filename, _hue = 0)
       load_image(@foot_print_cache, filename, Pokedex_FootPrints_Path, @foot_print_data)
     end
@@ -661,7 +667,7 @@ module RPG
     # Load a Pokemon icon image
     # @param filename [String] name of the image in the folder
     # @param _hue [Integer] ingored (compatibility with RMXP)
-    # @return [Bitmap]
+    # @return [Texture]
     def b_icon(filename, _hue = 0)
       load_image(@b_icon_cache, filename, Pokedex_PokeIcon_Path, @b_icon_data)
     end
@@ -691,7 +697,7 @@ module RPG
     # Load a pokemon face image
     # @param filename [String] name of the image in the folder
     # @param hue [Integer] 0 = normal, 1 = shiny
-    # @return [Bitmap]
+    # @return [Texture]
     def poke_front(filename, hue = 0)
       load_image(@poke_front_cache.fetch(hue), filename, Pokedex_PokeFront_Path.fetch(hue), @poke_front_data[hue])
     end
@@ -721,7 +727,7 @@ module RPG
     # Load a pokemon back image
     # @param filename [String] name of the image in the folder
     # @param hue [Integer] 0 = normal, 1 = shiny
-    # @return [Bitmap]
+    # @return [Texture]
     def poke_back(filename, hue = 0)
       load_image(@poke_back_cache.fetch(hue), filename, Pokedex_PokeBack_Path.fetch(hue), @poke_back_data[hue])
     end
@@ -830,7 +836,7 @@ module RPG
     #   @!method $2(filename, hue = 0)
     #   @param filename [String] name of the image in Graphics/$4
     #   @param hue [Integer] hue if the cache has hue (shiny processing)
-    #   @return [Bitmap] the bitmap corresponding to the image
+    #   @return [Texture] the bitmap corresponding to the image
 
     # meta_exec(__LINE__, 'animation', 'Animations', 'Animations')
 

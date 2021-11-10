@@ -96,7 +96,11 @@ if Object.const_defined?(:FMOD)
         return unless @bgm_channel
         return unless (sound = @bgm_sound)
         return if @fading_sounds[sound]
+
         fade(time, @fading_sounds[sound] = @bgm_channel)
+        @bgm_channel = nil
+      rescue FMOD::Error
+        @fading_sounds.delete(sound)
         @bgm_channel = nil
       end
     end
@@ -109,6 +113,7 @@ if Object.const_defined?(:FMOD)
         @bgm_channel = nil
       end
     rescue FMOD::Error => e
+      @bgm_channel = nil
       puts e.message if debug?
     end
 
@@ -166,7 +171,11 @@ if Object.const_defined?(:FMOD)
         return unless @bgs_channel
         return unless (sound = @bgs_sound)
         return if @fading_sounds[sound]
+
         fade(time, @fading_sounds[sound] = @bgs_channel)
+        @bgs_channel = nil
+      rescue FMOD::Error
+        @fading_sounds.delete(sound)
         @bgs_channel = nil
       end
     end
@@ -175,10 +184,12 @@ if Object.const_defined?(:FMOD)
     def bgs_stop
       synchronize(@bgs_mutex) do
         return unless @bgs_channel
+
         @bgs_channel.stop
         @bgs_channel = nil
       end
     rescue FMOD::Error => e
+      @bgs_channel = nil
       puts e.message if debug?
     end
 
@@ -244,7 +255,11 @@ if Object.const_defined?(:FMOD)
         return unless @me_channel
         return unless (sound = @me_sound)
         return if @fading_sounds[sound]
+
         fade(time, @me_channel)
+      rescue FMOD::Error => e
+        puts e.message if debug?
+      ensure
         if @bgm_channel
           sr = FMOD::System.getSoftwareFormat.first
           delay = @bgm_channel.getDSPClock.last + Integer(time * sr / 1000)
@@ -263,6 +278,7 @@ if Object.const_defined?(:FMOD)
         @me_channel = nil
       end
     rescue FMOD::Error => e
+      @me_channel = nil
       puts e.message if debug?
     end
 

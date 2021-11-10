@@ -7,7 +7,9 @@ module Yuki
       # Proc defining the SMOOTH Time distortion
       SMOOTH_DISTORTION: proc { |x| 1 - Math.cos(pi_div2 * x**1.5)**5 },
       # Proc defining the UNICITY Time distortion (no distortion at all)
-      UNICITY_DISTORTION: proc { |x| x }
+      UNICITY_DISTORTION: proc { |x| x },
+      # Proc defining the SQUARE 0 to 1 to 0 distortion
+      SQUARE010_DISTORTION: proc { |x| 1 - (x * 2 - 1)**2 }
     }
     # Hash describing all the time sources
     TIME_SOURCES = {
@@ -36,12 +38,21 @@ module Yuki
     #   # Note that if 2 has sub animation, its sub animation has to finish in order to see animation 3
     class TimedAnimation
       # @return [Array<TimedAnimation>] animation playing in parallel
-      attr_reader :parallel_animation
+      attr_reader :parallel_animations
       # @return [TimedAnimation, nil] animation that plays after
       attr_reader :sub_animation
       # @return [TimedAnimation] the root animation
       #   (to retreive the right animation to play when building animation using operators)
       attr_accessor :root
+      # Get the begin time of the animation (if started)
+      # @return [Time, nil]
+      attr_reader :begin_time
+      # Get the end time of the animation (if started)
+      # @return [Time, nil]
+      attr_reader :end_time
+      # Get the time source of the animation (if started)
+      # @return [#call, nil]
+      attr_reader :time_source
       # Create a new TimedAnimation
       # @param time_to_process [Float] number of seconds (with generic time) to process the animation
       # @param distortion [#call, Symbol] callable taking one paramater (between 0 & 1) and
@@ -49,8 +60,8 @@ module Yuki
       # @param time_source [#call, Symbol] callable taking no parameter and giving the current time
       def initialize(time_to_process, distortion = :UNICITY_DISTORTION, time_source = :GENERIC_TIME_SOURCE)
         @time_to_process = time_to_process.to_f
-        @distortion = distortion
-        @time_source = time_source
+        @distortion_param = distortion
+        @time_source_param = time_source
         @sub_animation = nil
         @parallel_animations = []
         @root = self # We make self as default root so the animations will always have a root
@@ -60,8 +71,8 @@ module Yuki
       # @param begin_offset [Float] offset that prevents the animation from starting before now + begin_offset seconds
       def start(begin_offset = 0)
         # Resolve the distortion & time source
-        @distortion = DISTORTIONS[@distortion] || resolve(@distortion) if @distortion.is_a?(Symbol)
-        @time_source = TIME_SOURCES[@time_source] || resolve(@time_source) if @time_source.is_a?(Symbol)
+        @distortion = DISTORTIONS[@distortion_param] || resolve(@distortion_param)
+        @time_source = TIME_SOURCES[@time_source_param] || resolve(@time_source_param)
         # @type [Time] time when the animation started
         @begin_time = @time_source.call + begin_offset
         # @type [Time] time when the animation ends
@@ -88,14 +99,16 @@ module Yuki
       def update
         return unless private_began?
         return if done?
+
         @parallel_animations.each(&:update)
         # Update the sub animation if the current animation is actually done
         if private_done?
           unless @played_until_end
-            update_internal(1)
+            update_internal(@distortion.call(1))
             @played_until_end = true
           end
           return unless @parallel_animations.all?(&:done?)
+
           return @sub_animation&.update
         end
         # Calculate the time progression value, apply it the distortion and send it to update_internal
@@ -105,29 +118,29 @@ module Yuki
       # Add a parallel animation
       # @param other [TimedAnimation] the parallel animation to add
       # @return [self]
-      def |(other)
+      def parallel_add(other)
         @parallel_animations << other
         return self
       end
 
-      alias_method :<<, :|
-      alias_method :parallel_add, :|
-      alias_method :parallel_play, :|
+      alias_method :<<, :parallel_add
+      alias_method :|, :parallel_add
+      alias_method :parallel_play, :parallel_add
 
       # Add this animation in parallel of another animation
       # @param other [TimedAnimation] the parallel animation to add
       # @return [TimedAnimation] the animation parameter
-      def >>(other)
+      def in_parallel_of(other)
         other.parallel_add(self)
         return other
       end
 
-      alias_method :in_parallel_of, :>>
+      alias_method :>>, :in_parallel_of
 
       # Add a sub animation
       # @param other [TimedAnimation]
       # @return [TimedAnimation] the animation parameter
-      def >(other)
+      def play_before(other)
         if @sub_animation
           @sub_animation.play_before(other)
         else
@@ -137,7 +150,7 @@ module Yuki
         return other
       end
 
-      alias_method :play_before, :>
+      alias_method :>, :play_before
 
       # Define the resolver (and transmit it to all the childs / parallel)
       # @param resolver [#call] callable that takes 1 parameter and return an object
@@ -152,7 +165,7 @@ module Yuki
       # Indicate if this animation in particular is done (not the parallel, not the sub, this one)
       # @return [Boolean]
       def private_done?
-        @time_source.call > @end_time
+        @time_source.call >= @end_time
       end
 
       # Indicate if this animation in particular has started
@@ -171,7 +184,46 @@ module Yuki
       # @return [Object]
       def resolve(param)
         return param unless param.is_a?(Symbol)
+
         return (@resolver || DEFAULT_RESOLVER).call(param)
+      end
+    end
+
+    # Class responsive of making "looped" animation
+    #
+    # This class works exactly the same as TimedAnimation putting asside it's always done and will update its sub/parallel animations.
+    # When the loop duration is reached, it restart all the animations with the apprioriate offset.
+    #
+    # @note This kind of animation is not designed for object creation, please refrain from creating objects inside those kind of animations.
+    class TimedLoopAnimation < TimedAnimation
+      # Update the looped animation
+      def update
+        # Restart the animation once we reached the end of the loop
+        if @time_source.call > @end_time
+          # p @time_source.call - @end_time
+          start(((@time_source.call - @end_time) % @time_to_process))
+        end
+
+        @parallel_animations.each(&:update)
+        return unless @parallel_animations.all?(&:done?)
+
+        @sub_animation&.update
+      end
+
+      # Start the animation but without sub_animation bug
+      # (it makes no sense that the sub animation start after a looped animation)
+      # @param begin_offset [Float] offset that prevents the animation from starting before now + begin_offset seconds
+      def start(begin_offset = 0)
+        sub_animation = @sub_animation
+        @sub_animation = nil
+        super
+        @sub_animation = sub_animation
+        sub_animation&.start(begin_offset)
+      end
+
+      # Looped animations are always done
+      def done?
+        return true
       end
     end
 
@@ -201,6 +253,19 @@ module Yuki
                           distortion: distortion, time_source: time_source)
     end
 
+    # Create a scalar animation
+    # @param time_to_process [Float] number of seconds (with generic time) to process the animation
+    # @param on [Object] object that will receive the property
+    # @param property [Symbol] name of the property to affect (add the = sign in the symbol name)
+    # @param a [Float, Symbol] origin position
+    # @param b [Float, Symbol] destination position
+    # @param distortion [#call, Symbol] callable taking one paramater (between 0 & 1) and
+    # convert it to another number (between 0 & 1) in order to distord time
+    # @param time_source [#call, Symbol] callable taking no parameter and giving the current time
+    def scalar(time_to_process, on, property, a, b, distortion: :UNICITY_DISTORTION, time_source: :GENERIC_TIME_SOURCE)
+      return ScalarAnimation.new(time_to_process, on, property, a, b, distortion: distortion, time_source: time_source)
+    end
+
     # Class that perform a scalar animation (set object.property to a upto b depending on the animation)
     class ScalarAnimation < TimedAnimation
       # Create a new ScalarAnimation
@@ -215,9 +280,9 @@ module Yuki
       def initialize(time_to_process, on, property, a, b, distortion: :UNICITY_DISTORTION,
                      time_source: :GENERIC_TIME_SOURCE)
         super(time_to_process, distortion, time_source)
-        @origin = a
-        @end = b
-        @on = on
+        @origin_param = a
+        @end_param = b
+        @on_param = on
         @property = property
       end
 
@@ -225,9 +290,9 @@ module Yuki
       # @param begin_offset [Float] offset that prevents the animation from starting before now + begin_offset seconds
       def start(begin_offset = 0)
         super
-        @on = resolve(@on)
-        @origin = resolve(@origin)
-        @delta = resolve(@end) - @origin
+        @on = resolve(@on_param)
+        @origin = resolve(@origin_param)
+        @delta = resolve(@end_param) - @origin
       end
 
       private
@@ -237,6 +302,40 @@ module Yuki
       def update_internal(time_factor)
         @on.send(@property, @origin + @delta * time_factor)
       end
+    end
+
+    # Scalar animation with offset
+    class ScalarOffsetAnimation < ScalarAnimation
+      # Create a new ScalarOffsetAnimation
+      # @param time_to_process [Float] number of seconds (with generic time) to process the animation
+      # @param on [Object] object that will receive the property
+      # @param property_get [Symbol] name of the property to affect (add the = sign in the symbol name)
+      # @param property_set [Symbol] name of the property to affect (add the = sign in the symbol name)
+      # @param a [Float, Symbol] origin position
+      # @param b [Float, Symbol] destination position
+      # @param distortion [#call, Symbol] callable taking one paramater (between 0 & 1) and
+      # convert it to another number (between 0 & 1) in order to distord time
+      # @param time_source [#call, Symbol] callable taking no parameter and giving the current time
+      def initialize(time_to_process, on, property_get, property_set, a, b, distortion: :UNICITY_DISTORTION,
+                     time_source: :GENERIC_TIME_SOURCE)
+        super(time_to_process, on, property_set, a, b, distortion: distortion, time_source: time_source)
+        @property_get = property_get
+      end
+
+      private
+
+      # Update the scalar animation
+      # @param time_factor [Float] number between 0 & 1 indicating the progression of the animation
+      def update_internal(time_factor)
+        current_value = @on.send(@property_get)
+        @on.send(@property, current_value + @origin + @delta * time_factor)
+      end
+    end
+
+    # Create a new ScalarOffsetAnimation
+    # @return [ScalarOffsetAnimation]
+    def scalar_offset(time_to_process, on, property_get, property_set, a, b, distortion: :UNICITY_DISTORTION, time_source: :GENERIC_TIME_SOURCE)
+      return ScalarOffsetAnimation.new(time_to_process, on, property_get, property_set, a, b, distortion: distortion, time_source: time_source)
     end
 
     # Create a move animation (from a to b)
@@ -293,19 +392,21 @@ module Yuki
       # @param time_to_process [Float] number of seconds (with generic time) to process the animation
       # @param on [Object] object that will receive the property
       # @param property [Symbol] name of the property to affect (add the = sign in the symbol name)
-      # @param a [Float, Symbol] origin position
-      # @param b [Float, Symbol] destination position
+      # @param a_x [Float, Symbol] origin x position
+      # @param a_y [Float, Symbol] origin y position
+      # @param b_x [Float, Symbol] destination x position
+      # @param b_y [Float, Symbol] destination y position
       # @param distortion [#call, Symbol] callable taking one paramater (between 0 & 1) and
       # convert it to another number (between 0 & 1) in order to distord time
       # @param time_source [#call, Symbol] callable taking no parameter and giving the current time
       def initialize(time_to_process, on, property, a_x, a_y, b_x, b_y, distortion: :UNICITY_DISTORTION,
                      time_source: :GENERIC_TIME_SOURCE)
         super(time_to_process, distortion, time_source)
-        @origin_x = a_x
-        @origin_y = a_y
+        @origin_x_param = a_x
+        @origin_y_param = a_y
         @end_x = b_x
         @end_y = b_y
-        @on = on
+        @on_param = on
         @property = property
       end
 
@@ -313,9 +414,9 @@ module Yuki
       # @param begin_offset [Float] offset that prevents the animation from starting before now + begin_offset seconds
       def start(begin_offset = 0)
         super
-        @on = resolve(@on)
-        @origin_x = resolve(@origin_x)
-        @origin_y = resolve(@origin_y)
+        @on = resolve(@on_param)
+        @origin_x = resolve(@origin_x_param)
+        @origin_y = resolve(@origin_y_param)
         @delta_x = resolve(@end_x) - @origin_x
         @delta_y = resolve(@end_y) - @origin_y
       end
@@ -374,10 +475,10 @@ module Yuki
       def initialize(time_to_process, on, property, a, b, factor = 1, distortion: :UNICITY_DISTORTION,
                      time_source: :GENERIC_TIME_SOURCE)
         super(time_to_process, distortion, time_source)
-        @origin = a
-        @end = b
-        @factor = factor
-        @on = on
+        @origin_param = a
+        @end_param = b
+        @factor_param = factor
+        @on_param = on
         @property = property
       end
 
@@ -385,13 +486,13 @@ module Yuki
       # @param begin_offset [Float] offset that prevents the animation from starting before now + begin_offset seconds
       def start(begin_offset = 0)
         super
-        @on = resolve(@on)
-        @origin = resolve(@origin)
+        @on = resolve(@on_param)
+        @origin = resolve(@origin_param)
         @base = @origin
-        @end = resolve(@end)
-        @delta = resolve(@end) - @origin + 1
+        @end = resolve(@end_param)
+        @delta = @end - @origin + 1
         @end, @origin = @origin, @end if @end < @origin
-        @factor = resolve(@factor)
+        @factor = resolve(@factor_param)
       end
 
       private
@@ -409,19 +510,21 @@ module Yuki
       # @param time_to_process [Float] number of seconds (with generic time) to process the animation
       # @param on [Object] object that will receive the property
       # @param property [Symbol] name of the property to affect (add the = sign in the symbol name)
-      # @param a [Float, Symbol] origin position
-      # @param b [Float, Symbol] destination position
+      # @param a_x [Float, Symbol] origin x position
+      # @param a_y [Float, Symbol] origin y position
+      # @param b_x [Float, Symbol] destination x position
+      # @param b_y [Float, Symbol] destination y position
       # @param distortion [#call, Symbol] callable taking one paramater (between 0 & 1) and
       # convert it to another number (between 0 & 1) in order to distord time
       # @param time_source [#call, Symbol] callable taking no parameter and giving the current time
       def initialize(time_to_process, on, property, a_x, a_y, b_x, b_y, distortion: :UNICITY_DISTORTION,
                      time_source: :GENERIC_TIME_SOURCE)
         super(time_to_process, distortion, time_source)
-        @origin_x = a_x
-        @origin_y = a_y
-        @end_x = b_x
-        @end_y = b_y
-        @on = on
+        @origin_x_param = a_x
+        @origin_y_param = a_y
+        @end_x_param = b_x
+        @end_y_param = b_y
+        @on_param = on
         @property = property
       end
 
@@ -429,11 +532,11 @@ module Yuki
       # @param begin_offset [Float] offset that prevents the animation from starting before now + begin_offset seconds
       def start(begin_offset = 0)
         super
-        @on = resolve(@on)
-        @origin_x = resolve(@origin_x)
-        @origin_y = resolve(@origin_y)
-        @delta_x = resolve(@end_x) - @origin_x
-        @delta_y = resolve(@end_y) - @origin_y
+        @on = resolve(@on_param)
+        @origin_x = resolve(@origin_x_param)
+        @origin_y = resolve(@origin_y_param)
+        @delta_x = resolve(@end_x_param) - @origin_x
+        @delta_y = resolve(@end_y_param) - @origin_y
       end
 
       private
@@ -442,6 +545,48 @@ module Yuki
       # @param time_factor [Float] number between 0 & 1 indicating the progression of the animation
       def update_internal(time_factor)
         @on.send(@property, (@origin_x + @delta_x * time_factor).to_i, (@origin_y + @delta_y * time_factor).to_i)
+      end
+    end
+
+    # Class that describe a SpriteSheet animation
+    class SpriteSheetAnimation < TimedAnimation
+      # Create a new ScalarAnimation
+      # @param time_to_process [Float] number of seconds (with generic time) to process the animation
+      # @param on [SpriteSheet, Symbol] object that will receive the property
+      # @param cells [Array<Array<Integer>>, Symbol] all the select arguments that should be sent during the animation
+      # @param rounding [Symbol] kind of rounding, can be: :ceil, :round, :floor
+      # @param distortion [#call, Symbol] callable taking one paramater (between 0 & 1) and
+      # convert it to another number (between 0 & 1) in order to distord time
+      # @param time_source [#call, Symbol] callable taking no parameter and giving the current time
+      def initialize(time_to_process, on, cells, rounding = :round, distortion: :UNICITY_DISTORTION,
+                     time_source: :GENERIC_TIME_SOURCE)
+        super(time_to_process, distortion, time_source)
+        @cells_param = cells
+        @on_param = on
+        @rounding = rounding
+      end
+
+      # Start the animation (initialize it)
+      # @param begin_offset [Float] offset that prevents the animation from starting before now + begin_offset seconds
+      def start(begin_offset = 0)
+        super
+        # @type [SpriteSheet]
+        @on = resolve(@on_param)
+        @cells = resolve(@cells_param)
+        @delta_time = 1.0 / (@cells.size - 1)
+        @last_cell = nil
+      end
+
+      private
+
+      # Update the scalar animation
+      # @param time_factor [Float] number between 0 & 1 indicating the progression of the animation
+      def update_internal(time_factor)
+        current_cell = (time_factor / @delta_time).send(@rounding)
+        return if current_cell == @last_cell
+
+        @on.select(*@cells[current_cell]) if @cells[current_cell]
+        @last_cell = current_cell
       end
     end
   end

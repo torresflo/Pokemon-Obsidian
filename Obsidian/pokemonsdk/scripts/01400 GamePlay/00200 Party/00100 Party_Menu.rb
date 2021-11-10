@@ -12,7 +12,15 @@ module GamePlay
   #
   # This class can also show an other party than the player party,
   # the party paramter is an array of Pokemon upto 6 Pokemon
-  class Party_Menu < BaseCleanUpdate
+  class Party_Menu < BaseCleanUpdate::FrameBalanced
+    # Color mapping for the result of on_pokemon_choice
+    ON_POKEMON_CHOICE_COLOR_MAPPING = {
+      true => 1, false => 2, nil => 3
+    }
+    # Message mapping for the result of on_pokemon_choice in apt detect
+    ON_POKEMON_CHOICE_MESSAGE_MAPPING = {
+      true => 143, false => 144, nil => 142
+    }
     # Return data of the Party Menu
     # @return [Integer]
     attr_accessor :return_data
@@ -29,7 +37,7 @@ module GamePlay
     # @param party [Array<PFM::Pokemon>] list of Pokemon in the party
     # @param mode [Symbol] :map => from map (select), :menu => from menu, :battle => from Battle, :item => Use an item,
     #                      :hold => Hold an item, :choice => processing a choice related proc (do not use)
-    # @param extend_data [Integer, Hash] extend_data informations
+    # @param extend_data [Integer, PFM::ItemDescriptor::Wrapper, Array, Symbol] extend_data informations
     # @param no_leave [Boolean] tells the interface to disallow leaving without choosing
     def initialize(party, mode = :map, extend_data = nil, no_leave: false)
       super()
@@ -39,7 +47,7 @@ module GamePlay
       # @type [Symbol]
       @mode = mode
       # Displayed party
-      # @type [Integer, Hash, nil]
+      # @type [PFM::ItemDescriptor::Wrapper, Integer, nil]
       @extend_data = extend_data
       @no_leave = no_leave
       @index = 0
@@ -118,10 +126,10 @@ module GamePlay
 
     # Create the frame sprites
     def create_frames
-      # @type [LiteRGSS::Sprite]
+      # @type [Sprite]
       @black_frame = Sprite.new(@viewport) #  Get the Blackn ^^
       # Scene frame
-      # @type [LiteRGSS::Sprite]
+      # @type [Sprite]
       @frame = Sprite.new(@viewport).set_bitmap($options.language == 'fr' ? 'team/FrameFR' : 'team/FrameEN', :interface)
     end
 
@@ -139,7 +147,7 @@ module GamePlay
     # Create the selector
     def create_selector
       # Scene selector
-      # @type [LiteRGSS::Sprite]
+      # @type [Sprite]
       @selector = Sprite.new(@viewport).set_bitmap('team/Cursors', :interface)
       @selector.src_rect.set(*SelectorRect[0])
       update_selector_coordinates
@@ -148,7 +156,7 @@ module GamePlay
     # Initialize the win_text according to the mode
     def init_win_text
       case @mode
-      when :map, :battle
+      when :map, :battle, :absofusion, :separate
         return @base_ui.show_win_text(text_get(23, 17))
       when :hold
         return @base_ui.show_win_text(text_get(23, 23))
@@ -166,20 +174,17 @@ module GamePlay
 
     # Function that update the team button when extend_data is correct
     def extend_data_button_update
-      if (_proc = @extend_data[:on_pokemon_choice])
-        apt_detect = (@extend_data[:open_skill_learn] || @extend_data[:stone_evolve])
-        @team_buttons.each do |btn|
-          btn.show_item_name
-          v = @extend_data[:on_pokemon_choice].call(btn.data)
-          if apt_detect
-            c = (v ? 1 : v == false ? 2 : 3)
-            v = (v ? 143 : v == false ? 144 : 142)
-          else
-            c = (v ? 1 : 2)
-            v = (v ? 140 : 141)
-          end
-          btn.item_text.load_color(c).text = parse_text(22, v)
+      apt_detect = @extend_data.open_skill_learn || @extend_data.stone_evolve
+      @team_buttons.each do |btn|
+        btn.show_item_name
+        v = @extend_data.on_pokemon_choice(btn.data, self)
+        c = ON_POKEMON_CHOICE_COLOR_MAPPING[v]
+        if apt_detect
+          message_id = ON_POKEMON_CHOICE_MESSAGE_MAPPING[v]
+        else
+          message_id = (v ? 140 : 141)
         end
+        btn.item_text.load_color(c).text = parse_text(22, message_id)
       end
     end
 
@@ -249,6 +254,13 @@ module GamePlay
       string = string.sub('', 'er')
       string.sub!('', 'ème')
       return string
+    end
+
+    # Refresh all team buttons, update the selector and reset the index to 0
+    def refresh_team_buttons
+      @team_buttons.each(&:dispose)
+      create_team_buttons
+      update_selector_coordinates(@index = 0)
     end
   end
 end

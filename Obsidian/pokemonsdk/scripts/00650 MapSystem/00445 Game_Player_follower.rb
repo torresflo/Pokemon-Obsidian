@@ -30,9 +30,8 @@ class Game_Player
   # Reset the follower stack to prevent any issue
   def reset_follower
     return unless (current_follower = @follower)
-    return unless current_follower.is_a?(Game_Event)
+
     while (next_follower = current_follower.follower)
-      break unless next_follower.is_a?(Game_Event)
       current_follower.set_follower(nil)
       current_follower = next_follower
     end

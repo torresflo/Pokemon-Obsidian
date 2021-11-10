@@ -6,7 +6,7 @@ module UI
       # @return [Array<UI::PokemonFaceSprite>]
       attr_accessor :pokemon_arr
       # The trainer battler
-      # @return [LiteRGSS::Sprite]
+      # @return [Sprite]
       attr_accessor :trainer_battler
       X_PARTY = [99, 221, 69, 251, 38, 282]
       Y_PARTY = [180, 150, 120]
@@ -23,7 +23,7 @@ module UI
       end
 
       # The Pokemon initial coordinates
-      # @return x [Integer], y [Integer] the coordinates
+      # @return [Array<Integer>] the coordinates
       def pkm_initial_coordinates(index)
         x = index.even? ? -48 : 368
         y = Y_PARTY[index / 2]

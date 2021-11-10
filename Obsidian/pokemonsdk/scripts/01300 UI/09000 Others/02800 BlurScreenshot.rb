@@ -2,10 +2,11 @@ module UI
   # Class responsive of showing a blur screenshot in the current scene
   class BlurScreenshot < ShaderedSprite
     # Create a new blur Screenshot
+    # @param viewport [Viewport, nil]
     # @param last_scene [GamePlay::Base] base scene that should respond to #viewport
-    def initialize(last_scene)
+    def initialize(viewport = nil, last_scene)
       @last_scene = last_scene
-      super(guess_viewport)
+      super(viewport || guess_viewport)
       self.shader = Shader.create(:blur)
       update_snapshot
     end
@@ -31,10 +32,9 @@ module UI
     end
 
     # Function that creates the snapshot
-    # @return [Bitmap]
+    # @return [Texture]
     def create_snapshot
       bitmap&.dispose
-      return @last_scene.viewport.snap_to_bitmap if @last_scene.is_a?(Scene_Battle)
 
       return @last_scene.snap_to_bitmap
     end

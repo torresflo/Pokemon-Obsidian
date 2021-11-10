@@ -92,6 +92,8 @@ module Yuki
     BT_NoCatch = 43
     # If the Moves are replaced by no moves when Pokemon are generated for battle
     BT_NO_MOVE_WHEN_DEFAULT = 44
+    # If the trainer first Pokemon is sent without ball animation
+    BT_NO_BALL_ANIMATION = 45
 
     # If the Water Reflection is disabled
     WATER_REFLECTION_DISABLED = 51
@@ -113,8 +115,12 @@ module Yuki
     WT_Snow = 59
     # Weather is fog
     WT_Fog = 60
+
     # Disable player detection by all the detection methods
     Env_Detection = 75
+
+    # Enable/disable if pokemon die from poison in overworld
+    OW_Poison = 77
 
     # Failure switch (do not use)
     Alola = 96

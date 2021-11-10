@@ -1,0 +1,17 @@
+current directory: C:/Ruby30/lib/ruby/gems/3.0.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+C:/Ruby30/bin/ruby.exe -I C:/Ruby30/lib/ruby/3.0.0 -r ./siteconf20210309-5816-o1r2xk.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: C:/Ruby30/lib/ruby/gems/3.0.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: C:/Ruby30/lib/ruby/gems/3.0.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR="
+generating unf_ext-i386-mingw32.def
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: C:/Ruby30/lib/ruby/gems/3.0.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20210309-5816-tfww0x

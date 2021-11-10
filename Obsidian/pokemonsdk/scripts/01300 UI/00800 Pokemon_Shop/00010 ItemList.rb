@@ -212,7 +212,7 @@ module UI
         end
 
         # Set the item icon
-        # @param icon [Hash] the Pokemon hash for the icon
+        # @param pkm_hash [Hash] the Pokemon hash for the icon
         def icon_data=(pkm_hash)
           if self.visible == false
             @item_icon.set_bitmap(nil)

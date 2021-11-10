@@ -1,25 +1,30 @@
 module PFM
   class Pokemon
-    # Name of the EGG image used as image when it's using the ID of the Pokemon
-    EGG_NAME_ID = 'egg_%03d'
-    # Name of the generic EGG image
-    EGG_NAME = 'egg'
-    # Name of the form female battler
-    FEMALE_NAME_FORM = '%03df_%02d'
-    # Name of the female battler
-    FEMALE_NAME = '%03df'
-    # Name of the  form Male battler
-    MALE_NAME_FORM = '%03d_%02d'
-    # Name of the Male battler
-    MALE_NAME = '%03d'
-    # Name of the Shiny
-    SHINY_NAME = '%03ds'
-    # Name of the Shiny female
-    SHINY_FEMALE_NAME = '%03dfs'
-    # Name of the Shiny form
-    SHINY_NAME_FORM = '%03ds_%02d'
-    # Name of the Shiny female form
-    SHINY_FEMALE_NAME_FORM = '%03dfs_%02d'
+    # All possible attempt of finding an egg
+    EGG_FILENAMES = ['egg_%<id>03d_%<form>02d', 'egg_%<id>03d', 'egg_%<name>s_%<form>02d', 'egg_%<name>s', 'egg']
+    # All possible attempt of finding a sprite filename
+    SPRITES_FILENAMES = {
+      female: ['%<id>03df_%<form>02d', '%<id>03df', '%<name>s_female_%<form>02d', '%<name>s_female'],
+      default: ['%<id>03d_%<form>02d', '%<id>03d', '%<name>s_%<form>02d', '%<name>s']
+    }
+    # All possible attempt of finding a gif filename
+    GIF_FILENAMES = {
+      female: ['%<id>03df_%<form>02d.gif', '%<id>03df.gif', '%<name>s_female_%<form>02d.gif', '%<name>s_female.gif'],
+      default: ['%<id>03d_%<form>02d.gif', '%<id>03d.gif', '%<name>s_%<form>02d.gif', '%<name>s.gif']
+    }
+    # All possible attempt of finding a icon filename
+    ICON_FILENAMES = {
+      female_shiny: ['%<id>03dfs_%<form>02d', '%<id>03dfs', '%<name>s_female_shiny_%<form>02d', '%<name>s_female_shiny'],
+      default_shiny: ['%<id>03ds_%<form>02d', '%<id>03ds', '%<name>s_shiny_%<form>02d', '%<name>s_shiny'],
+      **SPRITES_FILENAMES
+    }
+    # All the sprite collection to check depending on the female & shiny couple
+    SPRITES_TO_CHECK = [
+      %i[default], # Nothing
+      %i[default_shiny default], # Shiny
+      %i[female default], # Female
+      %i[female_shiny default_shiny female default] # Female + Shiny
+    ]
     # Size of a battler
     BATTLER_SIZE = 96
     # Size of an icon
@@ -28,7 +33,7 @@ module PFM
     FOOT_SIZE = 16
 
     # Return the ball image of the Pokemon
-    # @return [Bitmap]
+    # @return [Texture]
     def ball_image
       return RPG::Cache.ball(ball_sprite)
     end
@@ -42,23 +47,19 @@ module PFM
       # @param egg [Boolean] egg state of the Pokemon
       # @return [String]
       def icon_filename(id, form, female, shiny, egg)
-        return (test_icon(EGG_NAME_ID, id) || EGG_NAME) if egg
+        format_arg = { id: id, form: form, name: GameData::Pokemon[id].db_symbol }
+        cache_exist = RPG::Cache.method(:b_icon_exist?)
+        return correct_filename_from(EGG_FILENAMES, format_arg, cache_exist) || EGG_FILENAMES.last if egg
 
-        if form > 0
-          if female
-            filename = test_icon(SHINY_FEMALE_NAME_FORM, id, form) if shiny
-            filename ||= test_icon(FEMALE_NAME_FORM, id, form)
-          end
-          filename ||= test_icon(SHINY_NAME_FORM, id, form) if shiny
-          filename ||= test_icon(MALE_NAME_FORM, id, form)
+        check_index = shiny ? 1 : 0
+        check_index += 2 if female
+
+        SPRITES_TO_CHECK[check_index].each do |symbol|
+          filename = correct_filename_from(ICON_FILENAMES[symbol], format_arg, cache_exist)
+          return filename if filename
         end
-        if female
-          filename ||= test_icon(SHINY_FEMALE_NAME, id) if shiny
-          filename ||= test_icon(FEMALE_NAME, id)
-        end
-        filename ||= test_icon(SHINY_NAME, id) if shiny
-        filename ||= test_icon(MALE_NAME, id)
-        return filename || '000'
+
+        return '000'
       end
 
       # Return the front battler name
@@ -69,19 +70,33 @@ module PFM
       # @param egg [Boolean] egg state of the Pokemon
       # @return [String]
       def front_filename(id, form, female, shiny, egg)
-        return (test_front(0, EGG_NAME_ID, id) || EGG_NAME) if egg
+        format_arg = { id: id, form: form, name: GameData::Pokemon[id].db_symbol }
+        return correct_filename_from(EGG_FILENAMES, format_arg, RPG::Cache.method(:poke_front_exist?)) || EGG_FILENAMES.last if egg
 
         hue = shiny ? 1 : 0
-        if form > 0
-          filename = test_front(hue, FEMALE_NAME_FORM, id, form) if female
-          filename ||= test_front(hue, MALE_NAME_FORM, id, form)
-        end
-        filename ||= test_front(hue, FEMALE_NAME, id) if female
-        filename ||= test_front(hue, MALE_NAME, id)
+        cache_exist = proc { |filename| RPG::Cache.poke_front_exist?(filename, hue) }
+        filename = correct_filename_from(SPRITES_FILENAMES[:female], format_arg, cache_exist) if female
+        filename ||= correct_filename_from(SPRITES_FILENAMES[:default], format_arg, cache_exist)
+
         return filename || '000'
       end
 
-      # Return the back battle of the Pokemon
+      # Return the front gif name
+      # @param id [Integer] ID of the Pokemon
+      # @param form [Integer] form index of the Pokemon
+      # @param female [Boolean] if the Pokemon is a female
+      # @param shiny [Boolean] shiny state of the Pokemon
+      # @param egg [Boolean] egg state of the Pokemon
+      # @return [String, nil]
+      def front_gif_filename(id, form, female, shiny, egg)
+        format_arg = { id: id, form: form, name: GameData::Pokemon[id].db_symbol }
+        hue = shiny ? 1 : 0
+        cache_exist = proc { |filename| RPG::Cache.poke_front_exist?(filename, hue) }
+        filename = correct_filename_from(GIF_FILENAMES[:female], format_arg, cache_exist) if female
+        return filename || correct_filename_from(GIF_FILENAMES[:default], format_arg, cache_exist)
+      end
+
+      # Return the back battler name
       # @param id [Integer] ID of the Pokemon
       # @param form [Integer] form index of the Pokemon
       # @param female [Boolean] if the Pokemon is a female
@@ -89,59 +104,64 @@ module PFM
       # @param egg [Boolean] egg state of the Pokemon
       # @return [String]
       def back_filename(id, form, female, shiny, egg)
-        return (test_back(0, EGG_NAME_ID, @id) || EGG_NAME) if egg
+        format_arg = { id: id, form: form, name: GameData::Pokemon[id].db_symbol }
+        return correct_filename_from(EGG_FILENAMES, format_arg, RPG::Cache.method(:poke_back_exist?)) || EGG_FILENAMES.last if egg
 
         hue = shiny ? 1 : 0
-        if form > 0
-          filename = test_back(hue, FEMALE_NAME_FORM, id, form) if female
-          filename ||= test_back(hue, MALE_NAME_FORM, id, form)
-        end
-        filename ||= test_back(hue, FEMALE_NAME, id) if female
-        filename ||= test_back(hue, MALE_NAME, id)
+        cache_exist = proc { |filename| RPG::Cache.poke_back_exist?(filename, hue) }
+        filename = correct_filename_from(SPRITES_FILENAMES[:female], format_arg, cache_exist) if female
+        filename ||= correct_filename_from(SPRITES_FILENAMES[:default], format_arg, cache_exist)
+
         return filename || '000'
+      end
+
+      # Return the back gif name
+      # @param id [Integer] ID of the Pokemon
+      # @param form [Integer] form index of the Pokemon
+      # @param female [Boolean] if the Pokemon is a female
+      # @param shiny [Boolean] shiny state of the Pokemon
+      # @param egg [Boolean] egg state of the Pokemon
+      # @return [String, nil]
+      def back_gif_filename(id, form, female, shiny, egg)
+        format_arg = { id: id, form: form, name: GameData::Pokemon[id].db_symbol }
+        hue = shiny ? 1 : 0
+        cache_exist = proc { |filename| RPG::Cache.poke_back_exist?(filename, hue) }
+        filename = correct_filename_from(GIF_FILENAMES[:female], format_arg, cache_exist) if female
+        return filename || correct_filename_from(GIF_FILENAMES[:default], format_arg, cache_exist)
       end
 
       private
 
-      # Try to get an icon filename
-      # @param args [Array] the format command parameters
-      # @return [String, nil]
-      def test_icon(*args)
-        RPG::Cache.b_icon_exist?(filename = format(*args)) ? filename : nil
-      end
+      # Find the correct filename in a collection
+      # @param formats [Array<String>]
+      # @param format_arg [Hash]
+      # @param cache_exist [Method, Proc]
+      # @return [String, nil] formated filename if it exists
+      def correct_filename_from(formats, format_arg, cache_exist)
+        formats.each do |filename_format|
+          filename = format(filename_format, format_arg)
+          return filename if cache_exist.call(filename)
+        end
 
-      # Try to get a front filename
-      # @param hue [Integer] the hue asked
-      # @param args [Array] the format command parameters
-      # @return [String, nil]
-      def test_front(hue, *args)
-        RPG::Cache.poke_front_exist?(filename = format(*args), hue) ? filename : nil
-      end
-
-      # Try to get a back filename
-      # @param hue [Integer] the hue asked
-      # @param args [Array] the format command parameters
-      # @return [String, nil]
-      def test_back(hue, *args)
-        RPG::Cache.poke_back_exist?(filename = format(*args), hue) ? filename : nil
+        return nil
       end
     end
 
     # Return the icon of the Pokemon
-    # @return [Bitmap]
+    # @return [Texture]
     def icon
       return RPG::Cache.b_icon(PFM::Pokemon.icon_filename(id, form, female?, shiny?, egg?))
     end
 
     # Return the front battler of the Pokemon
-    # @return [Bitmap]
+    # @return [Texture]
     def battler_face
       return RPG::Cache.poke_front(PFM::Pokemon.front_filename(id, form, female?, shiny?, egg?), shiny? ? 1 : 0)
     end
     alias battler_front battler_face
 
     # Return the back battle of the Pokemon
-    # @return [Bitmap]
+    # @return [Texture]
     def battler_back
       return RPG::Cache.poke_back(PFM::Pokemon.back_filename(id, form, female?, shiny?, egg?), shiny? ? 1 : 0)
     end
@@ -187,49 +207,19 @@ module PFM
     # Return the GifReader face of the Pokemon
     # @return [::Yuki::GifReader, nil]
     def gif_face
-      if @step_remaining>0
-        return nil
-      end
-      hue = shiny? ? "Shiny" : ""
-      if(@gender == 2)
-        if(@form > 0)
-          str = sprintf("Graphics/Pokedex/PokeFront%s/%03df_%02d.gif", hue, @id , @form)
-          return ::Yuki::GifReader.new(str) if File.exist?(str)
-        end
-        str = sprintf("Graphics/Pokedex/PokeFront%s/%03df.gif", hue, @id)
-        return ::Yuki::GifReader.new(str) if File.exist?(str)
-      end
-      if(@form > 0)
-        str = sprintf("Graphics/Pokedex/PokeFront%s/%03d_%02d.gif", hue, @id, @form)
-        return ::Yuki::GifReader.new(str) if File.exist?(str)
-      end
-      str = sprintf("Graphics/Pokedex/PokeFront%s/%03d.gif", hue, @id)
-      return ::Yuki::GifReader.new(str) if File.exist?(str)
-      return nil
+      return nil unless @step_remaining
+
+      filename = Pokemon.front_gif_filename(@id, @form, female?, shiny?, false)
+      return filename && Yuki::GifReader.new(RPG::Cache.poke_front(filename, shiny? ? 1 : 0), true)
     end
 
     # Return the GifReader back of the Pokemon
     # @return [::Yuki::GifReader, nil]
     def gif_back
-      if @step_remaining>0
-        return nil
-      end
-      hue = shiny? ? "Shiny" : ""
-      if(@gender == 2)
-        if(@form > 0)
-          str = sprintf("Graphics/Pokedex/PokeBack%s/%03df_%02d.gif", hue, @id , @form)
-          return ::Yuki::GifReader.new(str) if File.exist?(str)
-        end
-        str = sprintf("Graphics/Pokedex/PokeBack%s/%03df.gif", hue, @id)
-        return ::Yuki::GifReader.new(str) if File.exist?(str)
-      end
-      if(@form > 0)
-        str = sprintf("Graphics/Pokedex/PokeBack%s/%03d_%02d.gif", hue, @id, @form)
-        return ::Yuki::GifReader.new(str) if File.exist?(str)
-      end
-      str = sprintf("Graphics/Pokedex/PokeBack%s/%03d.gif", hue, @id)
-      return ::Yuki::GifReader.new(str) if File.exist?(str)
-      return nil
+      return nil unless @step_remaining
+
+      filename = Pokemon.back_gif_filename(@id, @form, female?, shiny?, false)
+      return filename && Yuki::GifReader.new(RPG::Cache.poke_back(filename, shiny? ? 1 : 0), true)
     end
   end
 end

@@ -1,6 +1,6 @@
 module GamePlay
   # Scene displaying the Summary of a Pokemon
-  class Summary < BaseCleanUpdate
+  class Summary < BaseCleanUpdate::FrameBalanced
     # @return [Integer] Last state index in this scene
     LAST_STATE = 2
     # Array of Key to press
@@ -27,7 +27,7 @@ module GamePlay
     # @param pokemon [PFM::Pokemon] Pokemon currently shown
     # @param mode [Symbol] :view if it's about viewing a Pokemon, :skill if it's about choosing the skill of the Pokemon
     # @param party [Array<PFM::Pokemon>] the party (allowing to switch Pokemon)
-    # @param extend_data [Hash, nil] the extend data information when we are in :skill mode
+    # @param extend_data [PFM::ItemDescriptor::Wrapper, nil] the extend data information when we are in :skill mode
     def initialize(pokemon, mode = :view, party = [pokemon], extend_data = nil)
       super()
       # @type [PFM::Pokemon]
@@ -76,8 +76,9 @@ module GamePlay
     # Initialize the win_text according to the mode
     def init_win_text
       return if @mode != :skill
+
       if @extend_data
-        @base_ui.show_win_text(text_get(23, @extend_data[:skill_message_id] || 34))
+        @base_ui.show_win_text(text_get(23, @extend_data.skill_message_id || 34))
       else
         @base_ui.show_win_text(ext_text(9000, 120))
       end

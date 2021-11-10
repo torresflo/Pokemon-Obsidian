@@ -151,8 +151,8 @@ class Game_Event < Game_Character
     @interpreter.update
   end
   
-  def find_path(*args)
-    super(*args) if Yuki::MapLinker.from_center_map?(self)
+  def find_path(**kwargs)
+    super(**kwargs) if Yuki::MapLinker.from_center_map?(self)
   end
 
   # Check if the character is activate. Useful to make difference between event without active page and others.

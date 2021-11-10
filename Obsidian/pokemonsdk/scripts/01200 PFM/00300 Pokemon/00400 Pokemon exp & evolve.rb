@@ -51,7 +51,7 @@ module PFM
       return GameData::EXP_TABLE[exp_type]
     end
 
-    # Return the required exp to increase the Pokemon's level
+    # Return the required total exp (so including old levels) to increase the Pokemon's level
     # @return [Integer]
     def exp_lvl
       data = GameData::EXP_TABLE[exp_type]
@@ -98,7 +98,18 @@ module PFM
       exp_last = GameData::EXP_TABLE[exp_type][@level]
       delta = exp_lvl - exp_last
       self.exp += (delta - (exp - exp_last))
+      update_loyalty if $game_temp.in_battle
       return true
+    end
+
+    # Update the Pokemon loyalty
+    def update_loyalty
+      value = 3
+      value = 4 if loyalty < 200
+      value = 5 if loyalty < 100
+      value *= 2 if GameData::Item.db_symbol(captured_with) == :luxury_ball
+      value *= 1.5 if item_db_symbol == :soothe_bell
+      self.loyalty += value.floor
     end
 
     # Generate the level up stat list for the level up window
@@ -122,7 +133,8 @@ module PFM
     # @param list1 [Array<Integer>] new basis stat list
     # @param z_level [Integer] z superiority of the Window
     def level_up_window_call(list0, list1, z_level)
-      window = UI::LevelUpWindow.new(nil, self, list0, list1)
+      vp = $scene&.viewport
+      window = UI::LevelUpWindow.new(vp, self, list0, list1)
       window.z = z_level
       Graphics.sort_z
       until Input.trigger?(:A)
@@ -182,7 +194,7 @@ module PFM
       return id, expected_evolution[:form]
     end
     # Exchanged with another pokemon
-    add_evolution_criteria(:trade_with, [:trade]) { |value, extend_data| extend_data == value }
+    add_evolution_criteria(:trade_with, [:trade_with]) { |value, extend_data| extend_data == value }
     # Minimum level
     add_evolution_criteria(:min_level) { |value| @level >= value.to_i }
     # Maximum level
@@ -223,11 +235,16 @@ module PFM
     add_evolution_criteria(:form) { true }
     # On a specific switch
     add_evolution_criteria(:switch) { |value| $game_switches[value] }
+    # Having a specific nature
+    add_evolution_criteria(:nature) { |value| nature_id == value }
 
     # Method that actually make a Pokemon evolve
     # @param id [Integer] ID of the Pokemon that evolve
     # @param form [Integer, nil] form of the Pokemon that evolve
     def evolve(id, form)
+      old_evolution_id = self.id
+      old_evolution_form = self.form
+      hp_diff = self.max_hp - self.hp
       self.id = id
       if form
         self.form = form
@@ -236,16 +253,20 @@ module PFM
       end
       return unless $actors.include?(self) # Don't do te rest if the pokemon isn't in the current party
 
-      evolution_items = (data.special_evolution || []).map { |hash| hash[:item_hold] || 0 }
+      # evolution_items = (data.special_evolution || []).map { |hash| hash[:item_hold] || 0 }
+      previous_pokemon_evolution_method = GameData::Pokemon[old_evolution_id, old_evolution_form].special_evolution
+      evolution_items = (previous_pokemon_evolution_method || []).map { |hash| hash[:item_hold] || 0 }
       self.item_holding = 0 if evolution_items.include?(item_holding) || evolution_items.include?(item_db_symbol)
       # Normal skill learn
       check_skill_and_learn
-      # Evovolution skill learn
+      # Evolution skill learn
       check_skill_and_learn(false, 0)
       # Pokedex register (self is used to be sure we get the right information)
       $pokedex.mark_seen(self.id, self.form, forced: true)
       $pokedex.mark_captured(self.id)
       $pokedex.pokemon_captured_inc(self.id)
+      # Refresh hp
+      self.hp = (self.max_hp - hp_diff) if self.hp > 0
       exec_hooks(PFM::Pokemon, :evolution, binding)
     end
 
@@ -278,11 +299,9 @@ module PFM
 
     # Update the Pokemon Ability
     def update_ability
-      if @ability_index
-        @ability_current = @ability = get_data.abilities[@ability_index.to_i]
-      else
-        @ability_current = @ability
-      end
+      return unless @ability_index
+
+      @ability = get_data.abilities[@ability_index.to_i]
     end
 
     # Check evolve condition to evolve in Hitmonlee (kicklee)

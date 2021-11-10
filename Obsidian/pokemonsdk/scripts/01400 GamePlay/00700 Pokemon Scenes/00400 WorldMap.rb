@@ -3,7 +3,7 @@ module GamePlay
   #
   # The world map is stored inside a 2D Array ($game_data_map) that holds each columns of the world map.
   # Each of these columns contain the ID of the zones at the y position of the cursor
-  class WorldMap < BaseCleanUpdate
+  class WorldMap < BaseCleanUpdate::FrameBalanced
     # Base Z of the viewports
     # @return [Integer]
     ViewportsBaseZ = 51_000

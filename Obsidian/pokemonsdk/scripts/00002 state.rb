@@ -14,7 +14,7 @@ $DEBUG = false
 # Add version utility
 class Integer
   def to_str_version
-    [self].pack('I>').unpack('C*').join('.').gsub(/^(0\.)+/, '')
+    return [self].pack('I>').unpack('C*').join('.').gsub(/^(0\.)+/, '')
   end
 end
 

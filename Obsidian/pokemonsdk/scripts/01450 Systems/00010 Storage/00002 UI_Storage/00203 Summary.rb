@@ -23,6 +23,7 @@ module UI
       def initialize(viewport, reduced)
         super(viewport, *POSITION[1]) # Initially in developped making easier to create the stack
         @reduced = reduced
+        @invisible_if_egg = []
         # @type [Yuki::Animation::TimedAnimation]
         @animation = nil
         @last_time = Graphics.current_time
@@ -41,10 +42,21 @@ module UI
         @animation.update
       end
 
+      # Set an object invisible if the Pokemon is an egg
+      # @param object [#visible=] the object that is invisible if the Pokemon is an egg
+      def no_egg(object)
+        @invisible_if_egg << object
+        return object
+      end
+
       # Update the shown pokemon
       def data=(pokemon)
         super
-        reset_text_visibility if @sprite.visible
+        @pokemon = pokemon
+        if @sprite.visible
+          reset_text_visibility
+          @invisible_if_egg.each { |sprite| sprite.visible = false } if @pokemon&.egg?
+        end
       end
 
       # Tell if the animation is done
@@ -78,6 +90,7 @@ module UI
       # Function that updates the text transition
       def update_text_transition
         return unless @sprite.visible
+        return if @pokemon.egg?
 
         if (Graphics.current_time - @last_time) >= TEXT_TRANSITION_TIME
           @transitionning_texts[@last_text].visible = false
@@ -104,21 +117,23 @@ module UI
       end
 
       def create_pokemon
-        add_text(2, 17, 0, 16, :id_text, color: 10, type: SymText).z = 6
+        no_egg @id_text = add_text(2, 17, 0, 16, :id_text, color: 10, type: SymText)
+        @id_text.z = 6
         add_text(15, 25, 79, 15, :name, 1, color: 10, type: SymText).z = 6
         @sprite = add_sprite(55, 142, NO_INITIAL_IMAGE, type: UI::PokemonFaceSprite).set_z(6)
         add_text(15, 143, 79, 15, :given_name, 1, color: 10, type: SymText).z = 6
-        add_sprite(96, 146, NO_INITIAL_IMAGE, type: UI::GenderSprite).set_z(6)
-        add_sprite(62, 161, 'pc/lv_')
-        add_text(76, 62, 0, 15, :level_text, color: 10, type: SymText)
-        add_sprite(5, 172, NO_INITIAL_IMAGE, type: UI::Type1Sprite).set_z(6)
-        add_sprite(57, 172, NO_INITIAL_IMAGE, type: UI::Type2Sprite).set_z(6)
+        no_egg add_sprite(96, 146, NO_INITIAL_IMAGE, type: UI::GenderSprite).set_z(6)
+        no_egg add_sprite(62, 161, 'pc/lv_')
+        no_egg add_text(76, 62, 0, 15, :level_text, color: 10, type: SymText)
+        no_egg add_sprite(5, 172, NO_INITIAL_IMAGE, type: UI::Type1Sprite).set_z(6)
+        no_egg add_sprite(57, 172, NO_INITIAL_IMAGE, type: UI::Type2Sprite).set_z(6)
         # Todo Add Symbols
         @transitionning_texts = [
           add_text(8, 189, 0, 15, :nature_text, color: 10, type: SymText),
           add_text(8, 189, 0, 15, :ability_name, color: 10, type: SymText),
           add_text(8, 189, 0, 15, :item_name, color: 10, type: SymText)
         ]
+        @transitionning_texts.each { |text| no_egg(text) }
       end
 
       def reset_text_visibility

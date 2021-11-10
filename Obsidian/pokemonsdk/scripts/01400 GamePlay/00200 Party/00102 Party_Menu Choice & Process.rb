@@ -8,7 +8,9 @@ module GamePlay
       battle: :show_battle_mode_choice,
       item: :show_item_mode_choice,
       hold: :show_hold_mode_choice,
-      select: :show_select_mode_choice
+      select: :show_select_mode_choice,
+      absofusion: :process_absofusion_mode,
+      separate: :process_separate_mode
     }
     # Show the proper choice
     def show_choice
@@ -118,7 +120,7 @@ module GamePlay
 
     # Action of launching the Pokemon Summary
     # @param mode [Symbol] mode used to launch the summary
-    # @param extend_data [Hash, nil] the extended data used to launch the summary
+    # @param extend_data [PFM::ItemDescriptor::Wrapper, nil] the extended data used to launch the summary
     def launch_summary(mode = :view, extend_data = nil)
       @base_ui.hide_win_text
       call_scene(Summary, @party[@index], mode, @party, extend_data)
@@ -184,7 +186,7 @@ module GamePlay
         display_message(parse_text(20, 34))
       elsif pokemon.dead?
         display_message(parse_text(20, 33, ::PFM::Text::PKNICK[1] => pokemon.given_name))
-      elsif @index < $game_temp.vs_type
+      elsif pokemon.position.between?(0, $game_temp.vs_type)
         display_message(parse_text(20, 32, ::PFM::Text::PKNICK[1] => pokemon.given_name))
       else
         @return_data = @index
@@ -232,32 +234,30 @@ module GamePlay
         .register_choice(text_get(23, 1), on_validate: @base_ui.method(:hide_win_text)) # Cancel
       @base_ui.show_win_text(parse_text(23, 30, ::PFM::Text::PKNICK[0] => pokemon.given_name))
       x, y = get_choice_coordinates(choices)
-      choice = choices.display_choice(@viewport, x, y, nil, choices, on_update: method(:update_menu_choice))
+      choices.display_choice(@viewport, x, y, nil, choices, on_update: method(:update_menu_choice))
       hide_black_frame
-      @base_ui.show_win_text(text_get(23, 24)) if choice != 0
+      @base_ui.show_win_text(text_get(23, 24))
     end
 
     # Event that triggers when the player choose on which pokemon to use the item
     def on_item_use_choice
       # @type [PFM::Pokemon]
       pokemon = @party[@index]
-      if @extend_data[:on_pokemon_choice].call(pokemon)
-        if @extend_data[:on_pokemon_use]
-          @extend_data[:on_pokemon_use].call(pokemon)
-          @return_data = @index
-          @running = false
-        elsif @extend_data[:open_skill]
+      if @extend_data.on_pokemon_choice(pokemon, self)
+        if @extend_data.open_skill
           launch_summary(:skill, @extend_data)
-          if @extend_data[:skill_selected]
+          if @extend_data.skill
             @return_data = @index
             @running = false
           end
-        elsif @extend_data[:open_skill_learn]
-          call_scene(MoveTeaching, pokemon, @extend_data[:open_skill_learn]) do |scene|
-            @return_data = @index if scene.learnt
+        elsif @extend_data.open_skill_learn
+          call_scene(MoveTeaching, pokemon, @extend_data.open_skill_learn) do |scene|
+            @return_data = @index if MoveTeaching.from(scene).learnt
             @running = false
           end
-        elsif @extend_data[:action_to_push]
+        else
+          @extend_data.on_pokemon_use(pokemon, self)
+          @extend_data.bind(find_parent(Battle::Scene), pokemon)
           @return_data = @index
           @running = false
         end
@@ -427,6 +427,49 @@ module GamePlay
       @base_ui.hide_win_text
       hide_item_name
       @intern_mode = :normal
+    end
+
+    # Process the fusion when the party is in mode :absofusion
+    def process_absofusion_mode
+      # @type [PFM::Pokemon]
+      pokemon = @party[@index]
+      extend_data = @extend_data
+      if @temp_team.size == 1
+        pokemon_selected = @temp_team.first
+        if pokemon_selected == pokemon || !extend_data[1].include?(pokemon.db_symbol)
+          display_message(text_get(22, 151))
+        elsif pokemon.dead?
+          display_message(text_get(22, 152))
+        elsif pokemon.egg?
+          display_message(text_get(22, 153))
+        else
+          pokemon_selected.absofusion(pokemon)
+          refresh_team_buttons
+          display_message(parse_text(22, 157, ::PFM::Text::PKNAME[0] => pokemon_selected.given_name))
+          @running = false
+        end
+      else
+        return display_message(text_get(18, 70)) if pokemon.db_symbol != extend_data[0] || pokemon.absofusionned? || pokemon.egg? || pokemon.dead?
+
+        @temp_team << pokemon
+        display_message(text_get(22, 155))
+        @base_ui.show_win_text(text_get(22, 155))
+      end
+    end
+
+    # Process the separation when the party is in mode :separate
+    def process_separate_mode
+      # @type [PFM::Pokemon]
+      pokemon = @party[@index]
+      extend_data = @extend_data
+      return display_message(text_get(18, 70)) if pokemon.db_symbol != extend_data || !pokemon.absofusionned? || pokemon.egg? || pokemon.dead?
+      return display_message(text_get(22, 154)) if $actors.size >= 6
+
+      pokemon.separate
+      @team_buttons.each(&:dispose)
+      create_team_buttons
+      display_message(parse_text(22, 157, ::PFM::Text::PKNAME[0] => pokemon.given_name))
+      @running = false
     end
   end
 end

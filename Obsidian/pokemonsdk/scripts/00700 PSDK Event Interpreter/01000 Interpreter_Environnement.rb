@@ -7,40 +7,30 @@ class Interpreter < Interpreter_RMXP
   #   player_spotted?(7)
   # @author Nuri Yuri
   def player_spotted?(nb_pas)
-    return false if $game_switches[Yuki::Sw::Env_Detection]
+    return r = false if player_detection_disabled?
+
     c = $game_map.events[@event_id]
     # Detect if the player is too far away from the event
-    return false if (c.x - $game_player.x).abs > nb_pas || (c.y - $game_player.y).abs > nb_pas
-    return false if c.z != $game_player.z # Prevent detection when event & player arent both on a bridge
-    x = c.x
-    y = c.y
-    d = c.direction
-    new_x = (d == 6 ? 1 : d == 4 ? -1 : 0)
-    new_y = (d == 2 ? 1 : d == 8 ? -1 : 0)
-    result = false
-    # Detect if the player is right in front of the event
-    result = true if $game_player.x == (x + new_x) && $game_player.y == (y + new_y)
-    # Detect the player by simulating walking
-    unless result
-      0.upto(nb_pas) do
-        if c.passable?(x, y, d, true)
-          break(result = true) if $game_player.x == x && $game_player.y == y
-        else
-          result = true if $game_player.x == x && $game_player.y == y
-          break
-        end
-        x += new_x
-        y += new_y
-      end
-    end
-    # Detect if the player triggered the event from Action key
-    result ||= (Input.trigger?(:A) && $game_player.front_tile_event == c)
+    return r = false if (c.x - $game_player.x).abs > nb_pas || (c.y - $game_player.y).abs > nb_pas
+    return r = false if c.z != $game_player.z # Prevent detection when event & player arent both on a bridge
+    return r = true if Input.trigger?(:A) && $game_player.front_tile_event == c # Ensure the player can force the event to detect from other sides
+
+    it = c.each_front_tiles(nb_pas)
+    # Find first tile where the event & the player overlaps
+    px, py, * = it.find { |x, y| $game_player.x == x && $game_player.y == y }
+    return false unless px && py
+
+    # Find last tile where the event can move
+    lx, ly, * = it.find { |x, y, d| !c.passable?(x, y, d) }
+    return false unless lx && ly
+
+    return r = ((lx - px).abs <= 1 && (ly - py).abs <= 1)
+  ensure
     # Stop the player from Running
-    if result
+    if r
       $game_switches[::Yuki::Sw::EV_Run] = false
       $game_temp.common_event_id = Game_CommonEvent::APPEARANCE
     end
-    return result
   end
   alias trainer_spotted player_spotted?
 
@@ -72,7 +62,8 @@ class Interpreter < Interpreter_RMXP
   # @return [Boolean]
   # @author Nuri Yuri
   def detect_player(nb_pas, direction)
-    return false if $game_switches[Yuki::Sw::Env_Detection]
+    return false if player_detection_disabled?
+
     c = $game_map.events[@event_id]
     dx = $game_player.x - c.x
     dy = $game_player.y - c.y
@@ -94,7 +85,8 @@ class Interpreter < Interpreter_RMXP
   # @return [Boolean]
   # @author Nuri Yuri
   def detect_player_rect(nx, ny)
-    return false if $game_switches[Yuki::Sw::Env_Detection]
+    return false if player_detection_disabled?
+
     c = $game_map.events[@event_id]
     dx = ($game_player.x - c.x).abs
     dy = ($game_player.y - c.y).abs
@@ -106,7 +98,8 @@ class Interpreter < Interpreter_RMXP
   # @return [Boolean]
   # @author Nuri Yuri
   def detect_player_circle(r)
-    return false if $game_switches[Yuki::Sw::Env_Detection]
+    return false if player_detection_disabled?
+
     c = $game_map.events[@event_id]
     dx = $game_player.x - c.x
     dy = $game_player.y - c.y
@@ -128,7 +121,7 @@ class Interpreter < Interpreter_RMXP
   alias attendre_fin_deplacement_cet_event wait_character_move_completion
   alias wait_event wait_character_move_completion
   alias attendre_event wait_character_move_completion
-  
+
   # Detect if a specified tile (in layer 3) is in the specified zone
   # @param x [Integer] the coordinate x of the zone
   # @param y [Integer] the coordinate y of the zone
@@ -150,4 +143,11 @@ class Interpreter < Interpreter_RMXP
     return rangex.any? { |tx| rangey.any? { |ty| gm.get_tile(tx, ty) == tile_id } }
   end
 
+  private
+
+  # Tell if detecting the player is disabled
+  # @return [Boolean]
+  def player_detection_disabled?
+    return $game_switches[Yuki::Sw::Env_Detection]
+  end
 end

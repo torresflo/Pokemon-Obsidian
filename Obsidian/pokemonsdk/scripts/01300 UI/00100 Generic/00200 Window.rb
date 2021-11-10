@@ -1,6 +1,6 @@
 module UI
   # Window utility allowing to make Window easilly
-  class Window < LiteRGSS::Window
+  class Window < ::Window
     DEFAULT_SKIN = 'message'
     # Create a new Window
     # @param viewport [Viewport] viewport where the window is shown
@@ -68,7 +68,7 @@ module UI
 
     # Push a sprite to the window
     # @see https://psdk.pokemonworkshop.fr/yard/UI/SpriteStack.html#push-instance_method UI::SpriteStack#push
-    def push(x, y, bmp, *args, rect: nil, type: LiteRGSS::Sprite, ox: 0, oy: 0)
+    def push(x, y, bmp, *args, rect: nil, type: Sprite, ox: 0, oy: 0)
       sprite_stack.push(x, y, bmp, *args, rect: rect, type: type, ox: ox, oy: oy)
     end
 

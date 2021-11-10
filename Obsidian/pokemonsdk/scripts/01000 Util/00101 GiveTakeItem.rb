@@ -7,6 +7,8 @@ module Util
     # @yieldparam pokemon [PFM::Pokemon] block we call with pokemon before and after the form calibration
     # @return [Boolean] if the item was given
     def givetake_give_item(pokemon, item = -1)
+      return givetake_give_egg_message(item) && false if pokemon.egg?
+
       if item == -1
         call_scene(GamePlay::Bag, :hold) do |scene|
           item = scene.return_data
@@ -38,6 +40,12 @@ module Util
       elsif item1 != item2
         display_message(parse_text(22, 90, PFM::Text::ITEM2[0] => GameData::Item[item2].name))
       end
+    end
+
+    # Display the give item message to an egg
+    # @param item [Integer] given item
+    def givetake_give_egg_message(item)
+      display_message(parse_text(22, 94, PFM::Text::ITEM2[0] => GameData::Item[item].name))
     end
 
     # Update the bag and pokemon state when giving an item

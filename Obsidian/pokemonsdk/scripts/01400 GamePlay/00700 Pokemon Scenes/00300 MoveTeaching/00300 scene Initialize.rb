@@ -5,7 +5,7 @@ module GamePlay
   #   This scene has a return parameter called `learnt` telling wether the move has been learnt or not.
   #   You might use call_scene like this for this Scene:
   #     call_scene(GamePlay::MoveTeaching, pokemon, move_id) { |scene| do something with scene.learnt }
-  class MoveTeaching < BaseCleanUpdate
+  class MoveTeaching < BaseCleanUpdate::FrameBalanced
     include UI::MoveTeaching
     # Tell if the move was learnt or not
     # @return [Boolean]

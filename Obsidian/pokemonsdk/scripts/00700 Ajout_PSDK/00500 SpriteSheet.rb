@@ -13,7 +13,7 @@ class SpriteSheet < ShaderedSprite
   # @return [Integer]
   attr_reader :sy
   # Create a new SpriteSheet
-  # @param viewport [LiteRGSS::Viewport, nil] where to display the sprite
+  # @param viewport [Viewport, nil] where to display the sprite
   # @param nb_x [Integer] the number of sprites on the x axis in the sheet
   # @param nb_y [Integer] the number of sprites on the y axis in the sheet
   def initialize(viewport, nb_x, nb_y)
@@ -25,7 +25,7 @@ class SpriteSheet < ShaderedSprite
   end
 
   # Change the bitmap of the sprite
-  # @param value [LiteRGSS::Bitmap, nil]
+  # @param value [Texture, nil]
   def bitmap=(value)
     ret = super(value)
     if value

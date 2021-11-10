@@ -1,1 +1,1 @@
-start game.exe --util=compile_text
+game --util=compile_text

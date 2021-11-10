@@ -1,0 +1,6 @@
+--- !ruby/object:Configs::SaveConfig
+maximum_save_count: 0
+save_header: PKPRT
+save_key: 0
+base_filename: Saves/Pokemon_Party
+can_save_on_any_save: true

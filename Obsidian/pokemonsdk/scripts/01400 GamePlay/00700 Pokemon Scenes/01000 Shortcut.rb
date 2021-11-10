@@ -1,6 +1,6 @@
 module GamePlay
   # Scene responsive of showing the shortcut menu
-  class Shortcut < BaseCleanUpdate
+  class Shortcut < BaseCleanUpdate::FrameBalanced
     include ::Util::Item
     # List of shortcut key by index
     SHORTCUT_KEYS = %i[UP LEFT DOWN RIGHT]

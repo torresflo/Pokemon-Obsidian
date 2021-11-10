@@ -37,7 +37,7 @@ module PFM
     def initialize(game_state)
       self.game_state = game_state
       # @type [Array<Box>]
-      @boxes = Array.new(MAX_BOXES) { |index| Box.new(BOX_SIZE, text_get(16, index), index + 1) }
+      @boxes = Array.new(MAX_BOXES) { |index| Box.new(BOX_SIZE, send(*box_name_init(index)), index + 1) }
       @battle_boxes = Array.new(MAX_BATTLE_BOX) { |index| BattleBox.new("##{index + 1}") }
       @current_box = 0
       @current_battle_box = 0
@@ -93,6 +93,12 @@ module PFM
     # @param name [String] the new name
     def set_box_name(index, name)
       @boxes[index % @boxes.size].name = name.to_s
+    end
+
+    # Get the name of a box (initialize)
+    # @param index [Integer] the index of the box
+    def box_name_init(index)
+      return [:text_get, 16, index]
     end
 
     # Get a box theme
@@ -182,6 +188,17 @@ module PFM
       end
     end
 
+    # Yield a block on each Pokemon of storage and check if any answers to the block
+    # @yieldparam pokemon [PFM::Pokemon]
+    # @return [Boolean]
+    def any_pokemon?
+      @boxes.any? do |box|
+        box.content.any? do |pokemon|
+          yield(pokemon) if pokemon
+        end
+      end
+    end
+
     # Delete a box
     # @param index [Integer] index of the box to delete
     def delete_box(index)
@@ -209,7 +226,10 @@ module PFM
     # Find a box with space and change @current_box if found
     # @return [Boolean] if a box with space could be found
     def switch_to_box_with_space
-      return false unless (box_index = @boxes.find_index { |box| box.content.include?(nil) })
+      unless (box_index = @boxes.find_index { |box| box.content.include?(nil) })
+        add_box('')
+        return false unless (box_index = @boxes.find_index { |box| box.content.include?(nil) })
+      end
 
       @current_box = box_index
       update_event_variables

@@ -1,0 +1,46 @@
+0 : Nom :
+1 : [VAR TRNAME(0000)]
+2 : Nº ID :
+3 : [VAR NUM5(0000,0000)]
+4 : Pokédex Hoenn :
+5 : [VAR NUM3(0000)]
+6 : 
+7 : Argent :
+8 : [VAR NUM7(0000,E07F)] $
+9 : [~ 9]
+10 : Temps de jeu :
+11 : [VAR NUM3(0000)]
+12 : :
+13 : [VAR NUM2(0001)]
+14 : Début de l’aventure :
+15 : [VAR NUM2(0002)]/[VAR NUM2(0001)]/[VAR NUM4(0000,0000)]
+16 : Infos Dresseur
+17 : [~ 17]
+18 : [~ 18]
+19 : [~ 19]
+20 : [~ 20]
+21 : [~ 21]
+22 : [~ 22]
+23 : 1 entrée au Panthéon :
+24 : Poké Miles :
+25 : [VAR NUM7(0000,E07F)]
+26 : Points de Combat :
+27 : [VAR NUM7(0000,E07F)]
+28 : Voir les Badges
+29 : Badge Roche Championne : Roxanne
+30 : Badge Poing Champion : Bastien
+31 : Badge Dynamo Champion : Voltère
+32 : Badge Chaleur Championne : Adriane
+33 : Badge Balancier Champion : Norman
+34 : Badge Plume Championne : Alizée
+35 : Badge Esprit Champions : Lévy et Tatia
+36 : Badge Pluie Champion : Marc
+37 : Championne : Roxanne
+38 : Champion : Bastien
+39 : Champion : Voltère
+40 : Championne : Adriane
+41 : Champion : Norman
+42 : Championne : Alizée
+43 : Champions : Lévy et Tatia
+44 : Champion : Marc
+45 : Pokédex National :

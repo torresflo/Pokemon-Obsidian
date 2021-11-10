@@ -1,5 +1,10 @@
 class Scene_Map
+  # List of RMXP Group that should be treated as "wild battle"
+  RMXP_WILD_BATTLE_GROUPS = [1, 30]
+  # List of scene triggers
   @triggers = {}
+  # List of Battle modes
+  @battle_modes = []
   class << self
     # List of call_xxx trigger
     # @return [Hash{ Symbol => Proc }]
@@ -11,6 +16,37 @@ class Scene_Map
     def add_call_scene(method_name, &block)
       triggers[method_name] = block
     end
+
+    # List all the battle modes
+    # @return [Array<Proc>]
+    attr_reader :battle_modes
+
+    # Add a battle mode
+    # @param id [Integer] ID of the battle mode
+    # @param block [Proc]
+    # @yieldparam scene [Scene_Map]
+    def register_battle_mode(id, &block)
+      battle_modes[id] = block
+    end
+  end
+
+  # Ensure the battle will start without any weird behaviour
+  # @param klass [Class<Battle::Scene>] class of the scene to setup
+  # @param battle_info [Battle::Logic::BattleInfo]
+  def setup_start_battle(klass, battle_info)
+    return unless battle_info
+
+    Graphics.freeze
+    $game_temp.menu_calling = false
+    $game_temp.menu_beep = false
+    $game_player.make_encounter_count
+    $game_temp.map_bgm = $game_system.playing_bgm.clone if $game_system.playing_bgm
+    $game_system.bgm_stop if $game_variables[::Yuki::Var::BT_Mode] != 1
+    $game_system.se_play($data_system.battle_start_se)
+    $game_player.straighten
+    $scene = klass.new(battle_info)
+    @running = false
+    Yuki::FollowMe.set_battle_entry
   end
 
   private
@@ -55,31 +91,24 @@ class Scene_Map
   # Call the Battle scene if the play encounter Pokemon or trainer and its party has Pokemon that can fight
   def call_battle
     $game_temp.battle_calling = false
-    unless $pokemon_party.alive?
-      log_error('Battle were called but you have no Pokemon able to fight in your party')
-      return
+    return log_error('Battle were called but you have no Pokemon able to fight in your party') unless $pokemon_party.alive?
+
+    battle = Scene_Map.battle_modes[$game_variables[::Yuki::Var::BT_Mode]]
+    return log_error('This mode is not programmed yet in .25') unless battle.respond_to?(:call)
+
+    battle.call(self)
+  end
+
+  register_battle_mode(0) do |scene|
+    if RMXP_WILD_BATTLE_GROUPS.include?($game_temp.battle_troop_id)
+      battle_info = $wild_battle.setup
+    else
+      battle_info = Battle::Logic::BattleInfo.from_old_psdk_settings($game_variables[Yuki::Var::Trainer_Battle_ID],
+                                                                     $game_variables[Yuki::Var::Second_Trainer_ID],
+                                                                     $game_variables[Yuki::Var::Allied_Trainer_ID])
     end
-    $game_temp.menu_calling = false
-    $game_temp.menu_beep = false
-    $game_player.make_encounter_count
-    $game_temp.map_bgm = $game_system.playing_bgm.clone if $game_system.playing_bgm
-    $game_system.bgm_stop if $game_variables[::Yuki::Var::BT_Mode] != 1
-    $game_system.se_play($data_system.battle_start_se)
-    $game_player.straighten
-    case $game_variables[::Yuki::Var::BT_Mode]
-    when 0
-      $scene = Scene_Battle.new
-    when 1
-      $scene = Scene_Battle_Server.new
-    when 2
-      $scene = Scene_Battle_Client.new
-    when 3
-      $scene = Scene_Battle_Magneto.new
-    end
-    @running = false
-    Graphics.wait(2)
-    $scene.screenshot = snap_to_bitmap
-    Yuki::FollowMe.set_battle_entry
+
+    scene.setup_start_battle(Battle::Scene, battle_info)
   end
 
   # Call the shop ui

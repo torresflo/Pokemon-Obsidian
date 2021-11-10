@@ -26,6 +26,7 @@ module PFM
       if @skills_set.size < 4
         @skills_set << PFM::Skill.new(id)
         @skill_learnt << id unless @skill_learnt.include?(id)
+        form_calibrate if db_symbol == :keldeo
         return true
       end
       return nil
@@ -36,6 +37,7 @@ module PFM
     def forget_skill_index(index)
       @skills_set[index] = nil
       @skills_set.compact!
+      form_calibrate if db_symbol == :keldeo
     end
 
     # Forget a skill by its id
@@ -46,6 +48,7 @@ module PFM
         @skills_set[i] = nil if skill && skill.id == id
       end
       @skills_set.compact!
+      form_calibrate if db_symbol == :keldeo
     end
 
     # Replace a skill to an other skill
@@ -84,6 +87,7 @@ module PFM
       return if index >= 4
       @skills_set[index] = PFM::Skill.new(id)
       @skill_learnt << id unless @skill_learnt.include?(id)
+      form_calibrate if db_symbol == :keldeo
     end
 
     # Has the pokemon already learnt a skill ?
@@ -125,15 +129,6 @@ module PFM
       return false
     end
 
-    # Find the last skill used position in the moveset of the Pokemon
-    # @return [Integer]
-    def find_last_skill_position
-      @skills_set.each_with_index do |skill, i|
-        return i if skill && skill.id == @last_skill
-      end
-      return 0
-    end
-
     # Check if the Pokemon can learn a new skill and make it learn the skill
     # @param silent [Boolean] if the skill is automatically learnt or not (false = show skill learn interface & messages)
     # @param level [Integer] The level to check in order to learn the moves
@@ -147,13 +142,18 @@ module PFM
             @skills_set.shift if @skills_set.size > 4
             @skill_learnt << id unless @skill_learnt.include?(id)
           else
-            # TODO: make it call "$scene.call_scene"
-            ::GamePlay::MoveTeaching.new(self, id).main
-            Graphics.transition
+            $scene.call_scene(GamePlay::MoveTeaching, self, id)
           end
         end
       end
     end
+
+    # Can learn skill at this level
+    # @param level [Integer]
+    def can_learn_skill_at_this_level?(level = @level)
+      data.move_set.each_slice(2).any? { |(mlevel,_)| level == mlevel }
+    end
+
 
     # Check if the Pokemon can learn a skill
     # @param skill_id [Integer, Symbol] id of the skill in the database

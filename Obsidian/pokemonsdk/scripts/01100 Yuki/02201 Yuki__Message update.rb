@@ -1,8 +1,8 @@
 module Yuki
   class Message
-    # Update the Window_Message processing
+    # Update the message processing
     def update
-      super
+      super unless Graphics::FPSBalancer.global.skipping? && !@drawing_message
       return if update_fade_in
       # Prevent update if the text is already drawing
       return if @drawing_message
@@ -76,6 +76,8 @@ module Yuki
     def update_choice
       if @contents_showing
         return (terminate_message || true) if stop_message_process?
+        return true if Graphics::FPSBalancer.global.skipping?
+
         @choice_window.update if @choice_window
         # If there's no choice
         if $game_temp.choice_max <= 0

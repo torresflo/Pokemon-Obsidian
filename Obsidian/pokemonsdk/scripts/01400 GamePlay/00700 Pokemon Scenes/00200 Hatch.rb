@@ -39,6 +39,7 @@ module GamePlay
     include Math
 
     # Create a new Hatch scene
+    # @param pkmn [PFM::Pokemon] the Pokemon in the egg
     def initialize(pkmn)
       super()
       @pokemon = pkmn
@@ -53,6 +54,7 @@ module GamePlay
       @pokemon_gif&.update(@pokemon_sprite.bitmap)
       # Prevent animation from continuing when message is showing
       return unless super
+
       update_message
       update_animation
       @counter += 1
@@ -87,6 +89,7 @@ module GamePlay
         $pokedex.mark_captured(@pokemon.id)
         $pokedex.pokemon_fought_inc(@pokemon.id)
         $pokedex.pokemon_captured_inc(@pokemon.id)
+        @pokemon.loyalty = 120
         @running = false
       end
     end
@@ -96,6 +99,7 @@ module GamePlay
       PFM::Text.set_pkname(@pokemon, 0)
       choice = display_message(text_get(36, 39), 1, text_get(11, 27), text_get(11, 28))
       return unless choice == 0 # No
+
       Graphics.freeze
       @pokemon.given_name = GamePlay::NameInput.new(@pokemon.given_name, 12, @pokemon).main.return_name
     end
@@ -114,6 +118,7 @@ module GamePlay
     def update_egg_move
       @egg_sprite.angle = EGG_MOVE_ANGLE * sin(@counter * PI / EGG_MOVE_PERIOD)**17
       return unless ((@counter + EGG_MOVE_PERIOD / 2) % EGG_MOVE_PERIOD) == 0
+
       Audio.se_play(EGG_MOVE_SE)
     end
 
@@ -166,7 +171,7 @@ module GamePlay
     # Create the Pokemon sprite
     def create_pokemon_sprite
       if ENABLE_GIF && (@pokemon_gif = @pokemon.gif_face)
-        add_disposable bitmap = Bitmap.new(@pokemon_gif.width, @pokemon_gif.height)
+        add_disposable bitmap = Texture.new(@pokemon_gif.width, @pokemon_gif.height)
         @pokemon_gif&.update(bitmap)
       end
       @pokemon_sprite = Sprite::WithColor.new(@viewport).set_bitmap(bitmap || @pokemon.battler_face)

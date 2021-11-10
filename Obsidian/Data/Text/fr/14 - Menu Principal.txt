@@ -1,0 +1,6 @@
+0 : Pokémon
+1 : Pokédex
+2 : Sac
+3 : [VAR TRNAME(0000)]
+4 : Sauvegarder
+5 : Options

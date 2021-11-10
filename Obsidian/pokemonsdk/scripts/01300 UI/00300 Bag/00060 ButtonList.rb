@@ -178,7 +178,7 @@ module UI
         end
 
         # Create the text
-        # @return [LiteRGSS::Text]
+        # @return [Text]
         def create_text
           text = add_text(7, 4, 0, 13, nil.to_s, color: 10)
           text.z = 2

@@ -1,5 +1,5 @@
 module GamePlay
-  class Options < BaseCleanUpdate
+  class Options < BaseCleanUpdate::FrameBalanced
     # List of valid option type
     VALID_OPTION_TYPE = %i[choice slider]
 

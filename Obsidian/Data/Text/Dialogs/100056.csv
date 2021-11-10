@@ -1,0 +1,4 @@
+en,fr,it,de,es,ko,kana
+Oh?,Hein ?!,Oh!,Oh?,¿Y esto?,어라...?,おや……？
+[VAR PKNAME(0000)] hatched from the Egg!,Un [VAR PKNAME(0000)] vient de sortir de l’Œuf !,Dall’Uovo è nato [VAR PKNAME(0000)]!,Ein [VAR PKNAME(0000)] ist aus dem Ei geschlüpft!,¡Ha salido un [VAR PKNAME(0000)] del Huevo!,알이 부화해서 [VAR PKNAME(0000)][VAR 1900(0003)] 태어났다!,タマゴが　かえって [VAR PKNAME(0000)]が　うまれた！
+Would you like to give a nickname to the [VAR PKNAME(0000)]?,Voulez-vous donner un surnom à [VAR PKNAME(0000)] ?,Vuoi dare un soprannome a [VAR PKNAME(0000)]?,Möchtest du dem [VAR PKNAME(0000)] einen Spitznamen geben?,¿Quieres ponerle un mote a [VAR PKNAME(0000)]?,[VAR PKNAME(0000)]에게 닉네임을 붙이겠습니까?,[VAR PKNAME(0000)]に ニックネームを　つけますか？

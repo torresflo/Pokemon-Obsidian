@@ -38,16 +38,16 @@ class Game_Switches < Array
   end
 
   # Getter
-  # @param index [Integer] the index of the variable
-  # @note return 0 if the variable is outside of the array.
+  # @param id [Integer] the id of the switch
+  # @return [Boolean]
   def [](id)
     id = retrieve_id_from_alias(id) if id.is_a?(Symbol)
     return super(id)
   end
 
   # Setter
-  # @param index [Integer] the index of the variable in the Array
-  # @param v [Integer] the new value of the variable
+  # @param id [Integer] the id of the switch in the Array
+  # @param value [Boolean] the new value of the switch
   def []=(id, value)
     id = retrieve_id_from_alias(id) if id.is_a?(Symbol)
     super(id, value)
