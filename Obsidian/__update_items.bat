@@ -1,1 +1,1 @@
-game --util=update_db_symbol
+psdk --util=update_db_symbol

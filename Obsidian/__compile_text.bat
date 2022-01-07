@@ -1,1 +1,1 @@
-game --util=compile_text
+psdk --util=compile_text

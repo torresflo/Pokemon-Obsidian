@@ -1,1 +1,1 @@
-game --util=scale_folder
+psdk --util=scale_folder

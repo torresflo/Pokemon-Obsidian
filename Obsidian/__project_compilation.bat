@@ -1,1 +1,1 @@
-game --util=project_compilation
+psdk --util=project_compilation
