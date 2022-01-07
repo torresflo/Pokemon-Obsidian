@@ -23,7 +23,7 @@ module GameData
     # load text in the correct lang ($options.language or LANG in game.ini)
     def load
       reload_rh_texts unless PSDK_CONFIG.release?
-      lang = ($pokemon_party ? $pokemon_party.options.language : default_lang)
+      lang = (PFM.game_state ? PFM.game_state.options.language : default_lang)
       unless lang && Available_Langs.include?(lang)
         log_error "Unsupported language code (#{lang}).\nSupported language code are : #{Available_Langs.join(', ')}"
         lang = Available_Langs.first

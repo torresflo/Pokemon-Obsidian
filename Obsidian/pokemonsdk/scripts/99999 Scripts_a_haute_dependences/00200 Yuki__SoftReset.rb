@@ -29,7 +29,7 @@ unless PARGV[:worldmap] || PARGV[:"animation-editor"] || PARGV[:test] || PARGV[:
         ObjectSpace.each_object(::Text) { |t| t.dispose unless t.disposed? }
         ObjectSpace.each_object(::Texture) { |b| b.dispose unless b.disposed? }
         Pathfinding.debug = false
-        $pokemon_party = nil
+        PFM.game_state = nil
         GC.start
         ts = 0.1
         sleep(ts) while Input::Keyboard.press?(Input::Keyboard::F12)

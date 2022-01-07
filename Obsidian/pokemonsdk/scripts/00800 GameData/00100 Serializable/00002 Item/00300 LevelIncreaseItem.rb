@@ -41,7 +41,7 @@ safe_code('Register LevelIncreaseItem ItemDescriptor') do
       pokemon.check_skill_and_learn
       # Evolve
       id, form = pokemon.evolve_check(:level_up)
-      $scene.call_scene(::GamePlay::Evolve, pokemon, id, form, false) if id
+      GamePlay.make_pokemon_evolve(pokemon, id, form, false) if id
     end
   end
 end

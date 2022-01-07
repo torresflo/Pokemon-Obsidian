@@ -7,18 +7,22 @@ module Battle
       # @param user [PFM::PokemonBattler] user of the move
       # @param actual_targets [Array<PFM::PokemonBattler>] targets that will be affected by the move
       def deal_damage(user, actual_targets)
-        hit_amount = hit_amount(user, actual_targets)
-        nb_hit = hit_amount.times.count do |i|
+        @user = user
+        @actual_targets = actual_targets
+        @nb_hit = 0
+        @hit_amount = hit_amount(user, actual_targets)
+        @hit_amount.times.count do |i|
           next false unless actual_targets.all?(&:alive?)
           next false if user.dead?
 
+          @nb_hit += 1
           play_animation(user, actual_targets) if i > 0
           actual_targets.each do |target|
             hp = damages(user, target)
             @logic.damage_handler.damage_change_with_process(hp, target, user, self) do
               if critical_hit?
                 scene.display_message_and_wait(actual_targets.size == 1 ? parse_text(18, 84) : parse_text_with_pokemon(19, 384, target))
-              elsif hp > 0 && i == hit_amount - 1
+              elsif hp > 0 && i == @hit_amount - 1
                 efficent_message(effectiveness, target)
               end
             end
@@ -26,8 +30,18 @@ module Battle
           end
           next true
         end
-        @scene.display_message_and_wait(parse_text(18, 33, PFM::Text::NUMB[1] => nb_hit.to_s))
+        @scene.display_message_and_wait(parse_text(18, 33, PFM::Text::NUMB[1] => @nb_hit.to_s))
         return false if user.dead?
+      end
+
+      # Check if this the last hit of the move
+      # Don't call this method before deal_damage method call
+      # @return [Boolean]
+      def last_hit?
+        return true if @user.dead?
+        return true unless @actual_targets.all?(&:alive?)
+
+        return @hit_amount == @nb_hit
       end
 
       private

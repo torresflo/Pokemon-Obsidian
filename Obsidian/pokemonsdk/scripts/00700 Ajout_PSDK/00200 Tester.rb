@@ -13,8 +13,7 @@ class Tester
     Object.define_method(:restart) { $tester.restart_scene }
     Object.define_method(:quit) { $tester.quit_test }
     data_load
-    $pokemon_party = PFM::Pokemon_Party.new
-    $pokemon_party.expand_global_var
+    PFM::GameState.new.expand_global_var
     @thread = Thread.new do 
       while true
         sleep(0.1)

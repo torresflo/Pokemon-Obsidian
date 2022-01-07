@@ -119,7 +119,7 @@ module Battle
     # @param other [PFM::PokemonBattler]
     # @return [Boolean]
     def battler_attacks_before?(battler, other)
-      return false unless battler.attack_order.integer? && other.attack_order.integer?
+      return false unless battler.attack_order&.integer? && other.attack_order&.integer?
       return false if other.dead?
 
       return battler.attack_order < other.attack_order
@@ -130,7 +130,7 @@ module Battle
     # @param other [PFM::PokemonBattler]
     # @return [Boolean]
     def battler_attacks_after?(battler, other)
-      return false unless battler.attack_order.integer? && other.attack_order.integer?
+      return false unless battler.attack_order&.integer? && other.attack_order&.integer?
 
       return battler.attack_order > other.attack_order
     end

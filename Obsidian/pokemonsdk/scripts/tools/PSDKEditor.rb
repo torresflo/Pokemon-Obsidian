@@ -22,12 +22,13 @@ module PSDKEditor
     convert_worldmaps
     convert_trainers
     convert_quests
+    convert_abilities
   end
 
   # Function that creates all the necessary path
   def create_paths
     Dir.mkdir(ROOT) unless Dir.exist?(ROOT)
-    all_paths = %w[pokemon items types moves zones worldmaps trainers quests].map { |dirname| File.join(ROOT, dirname) }
+    all_paths = %w[pokemon items types moves zones worldmaps trainers quests abilities].map { |dirname| File.join(ROOT, dirname) }
     all_paths.each do |path|
       Dir.mkdir(path) unless Dir.exist?(path)
     end
@@ -65,13 +66,14 @@ module PSDKEditor
 
   # Function that convert Move data to PSDK Editor format
   def convert_moves
-    attack_category = %w[Physical Physical Special Status]
+    attack_category = %w[physical physical special status]
     GameData::Skill.all.each do |move|
       move_data = {
-        id: move.id, dbSymbol: move.db_symbol, klass: 'Move', mapUse: move.map_use, battleEngineMethod: move.be_method, type: move.type,
-        power: move.power, accuracy: move.accuracy, pp: move.pp_max, category: attack_category[move.atk_class], movecriticalRate: move.critical_rate,
-        priority: move.priority - Battle::Logic::MOVE_PRIORITY_OFFSET, isDirect: move.direct, isCharge: move.charge, isBlocable: move.blocable,
-        isSnatchable: move.snatchable, isMirrorMove: move.mirror_move, isPunch: move.punch, isGravity: move.gravity,
+        id: move.id, dbSymbol: move.db_symbol, klass: 'Move', mapUse: move.map_use, battleEngineMethod: move.be_method,
+        type: GameData::Type[move.type].db_symbol, power: move.power, accuracy: move.accuracy, pp: move.pp_max,
+        category: attack_category[move.atk_class], movecriticalRate: move.critical_rate,
+        priority: move.priority + Battle::Logic::MOVE_PRIORITY_OFFSET, isDirect: move.direct, isCharge: move.charge,
+        isBlocable: move.blocable, isSnatchable: move.snatchable, isMirrorMove: move.mirror_move, isPunch: move.punch, isGravity: move.gravity,
         isMagicCoatAffected: move.magic_coat_affected, isUnfreeze: move.unfreeze, isSoundAttack: move.sound_attack, isDistance: move.distance,
         isHeal: move.heal, isAuthentic: move.authentic, isBite: move.bite, isPulse: move.pulse, isBallistics: move.ballistics,
         isMental: move.mental, isNonSkyBattle: move.non_sky_battle, isDance: move.dance, isKingRockUtility: move.king_rock_utility,
@@ -124,7 +126,7 @@ module PSDKEditor
         klass: 'TrainerBattleSetup', id: trainer.id, dbSymbol: trainer.db_symbol,
         vsType: trainer.vs_type, isCouple: false, baseMoney: trainer.base_money,
         battlers: [trainer.battler], bags: [], battleId: 0, ai: 0,
-        parties: [convert_trainer_party(trainer.team)]
+        party: [convert_trainer_party(trainer.team)]
       }
       File.write(File.join(ROOT, 'trainers', "#{trainer.id}.json"), trainer_data.to_json)
     end
@@ -151,12 +153,13 @@ module PSDKEditor
   def map_pokemon_array_to_forms(pokemon_array)
     return pokemon_array.map do |pokemon|
       next {
-        form: pokemon.form, height: pokemon.height, weight: pokemon.weight, type1: pokemon.type1, type2: pokemon.type2, baseHp: pokemon.base_hp,
-        baseAtk: pokemon.base_atk, baseDfe: pokemon.base_dfe, baseSpd: pokemon.base_spd, baseAts: pokemon.base_ats, baseDfs: pokemon.base_dfs,
-        evHp: pokemon.ev_hp, evAtk: pokemon.ev_atk, evDfe: pokemon.ev_dfe, evSpd: pokemon.ev_spd, evAts: pokemon.ev_ats, evDfs: pokemon.ev_dfs,
-        evolutionId: pokemon.evolution_id, evolutionLevel: pokemon.evolution_level, specialEvolutions: build_special_evolution(pokemon),
-        experienceType: pokemon.exp_type, baseExperience: pokemon.base_exp, baseLoyalty: pokemon.base_loyalty, catchRate: pokemon.rareness,
-        femaleRate: pokemon.female_rate, breedGroups: pokemon.breed_groupes, hatchSteps: pokemon.hatch_step, babyId: pokemon.baby,
+        form: pokemon.form, height: pokemon.height, weight: pokemon.weight, type1: GameData::Type[pokemon.type1].db_symbol,
+        type2: GameData::Type[pokemon.type2].db_symbol, baseHp: pokemon.base_hp, baseAtk: pokemon.base_atk, baseDfe: pokemon.base_dfe,
+        baseSpd: pokemon.base_spd, baseAts: pokemon.base_ats, baseDfs: pokemon.base_dfs, evHp: pokemon.ev_hp, evAtk: pokemon.ev_atk,
+        evDfe: pokemon.ev_dfe, evSpd: pokemon.ev_spd, evAts: pokemon.ev_ats, evDfs: pokemon.ev_dfs, evolutionId: pokemon.evolution_id,
+        evolutionLevel: pokemon.evolution_level, specialEvolutions: build_special_evolution(pokemon), experienceType: pokemon.exp_type,
+        baseExperience: pokemon.base_exp, baseLoyalty: pokemon.base_loyalty, catchRate: pokemon.rareness, femaleRate: pokemon.female_rate,
+        breedGroups: pokemon.breed_groupes, hatchSteps: pokemon.hatch_step, babyId: pokemon.baby,
         itemHeld: pokemon.items.each_slice(2).map { |(id, chance)| { dbSymbol: GameData::Item[id].db_symbol, chance: chance.to_i } },
         abilities: pokemon.abilities.map { |id| GameData::Abilities.db_symbol(id) }, frontOffsetY: pokemon.front_offset_y.to_i,
         moveSet: build_moveset(pokemon)
@@ -365,6 +368,17 @@ module PSDKEditor
       return [GameData::Item[item_id].db_symbol, earning.give_args[1]]
     end
     return earning.give_args
+  end
+
+  def convert_abilities
+    GameData::Abilities.db_symbols.each do |ability_db_symbol|
+      ability_data = {
+        klass: 'Ability', dbSymbol: ability_db_symbol, id: GameData::Abilities.find_using_symbol(ability_db_symbol)
+      }
+      next if %i[none __undef__ egg].include?(ability_db_symbol)
+
+      File.write(File.join(ROOT, 'abilities', "#{ability_db_symbol}.json"), ability_data.to_json)
+    end
   end
 
   # Function that check the db_symbol

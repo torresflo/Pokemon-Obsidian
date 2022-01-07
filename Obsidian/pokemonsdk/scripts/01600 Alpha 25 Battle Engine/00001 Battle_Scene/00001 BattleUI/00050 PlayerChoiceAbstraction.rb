@@ -33,8 +33,10 @@ module BattleUI
     # Force the action to use an item
     # @param item [GameData::Item]
     def use_item(item)
-      @result = :action
       item_wrapper = PFM::ItemDescriptor.actions(item.id)
+      return use_item_on_pokemon_choice(item_wrapper) if item_wrapper.on_pokemon_choice?
+
+      @result = :action
       user = scene.logic.battler(0, scene.player_actions.size)
       item_wrapper.bind(scene, user)
       $bag.remove_item(item_wrapper.item.id, 1) if item_wrapper.item.limited && item_wrapper.item.is_a?(GameData::BallItem)
@@ -42,6 +44,21 @@ module BattleUI
     end
 
     private
+
+    # Use an item that needs to pick a Pokemon
+    # @param item_wrapper [PFM::ItemDescriptor::Wrapper]
+    def use_item_on_pokemon_choice(item_wrapper)
+      party = scene.logic.all_battlers.select(&:from_party?)
+      GamePlay.open_party_menu_to_use_item(item_wrapper, party) do |result|
+        next unless result.pokemon_selected?
+        next if result.call_skill_process
+
+        item_wrapper.bind(scene, user = party[result.return_data])
+        $bag.remove_item(item_wrapper.item.id, 1) if item_wrapper.item.limited && item_wrapper.item.is_a?(GameData::BallItem)
+        @action = Battle::Actions::Item.new(scene, item_wrapper, $bag, user)
+        @result = :action
+      end
+    end
 
     # Set the choice as wanting to switch pokemon
     # @return [Boolean] if the operation was a success

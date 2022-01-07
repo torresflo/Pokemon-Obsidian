@@ -117,9 +117,9 @@ module Yuki
     # Function building the reproduction file
     # @param scene [Battle::Scene]
     def dot_25_battle_reproduction(scene)
-      $pokemon_party.game_temp = Game_Temp.new
+      PFM.game_state.game_temp = Game_Temp.new
       $game_map.begin_save
-      compressed_data = Zlib::Deflate.deflate(Marshal.dump([$pokemon_party, scene.battle_info]), Zlib::BEST_COMPRESSION)
+      compressed_data = Zlib::Deflate.deflate(Marshal.dump([PFM.game_state, scene.battle_info]), Zlib::BEST_COMPRESSION)
       File.binwrite('battle.dat', compressed_data)
     end
 
@@ -255,9 +255,9 @@ end
 def reload_battle
   return log_error('There is no battle') unless File.exist?('battle.dat')
 
-  $pokemon_party, battle_info = Marshal.load(Zlib::Inflate.inflate(File.binread('battle.dat')))
-  $pokemon_party.expand_global_var
-  $pokemon_party.load_parameters
+  PFM.game_state, battle_info = Marshal.load(Zlib::Inflate.inflate(File.binread('battle.dat')))
+  PFM.game_state.expand_global_var
+  PFM.game_state.load_parameters
   $game_map.setup($game_map.map_id)
   Graphics.freeze
   $scene = Battle::Scene.new(battle_info)

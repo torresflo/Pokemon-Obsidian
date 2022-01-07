@@ -1,0 +1,76 @@
+---
+class_name: GamePlay::RSEClock
+class_doc: |-
+  Scene asking the player to provide the time
+
+  How to use:
+  1. Set time with no initial time
+    call_scene(GamePlay::RSEClock) { |scene| @time = "#{scene.hour}:#{scene.minute}"}
+  2. Set time with initial time
+    call_scene(GamePlay::RSEClock, hour, minute) { |scene| @time = "#{scene.hour}:#{scene.minute}"}
+parent_class: "GamePlay::StateMachine"
+includes:
+- GamePlay::RSEClockHelpers::Logic
+- GamePlay::RSEClockHelpers::UI
+- GamePlay::RSEClockHelpers::Questions
+inputs:
+  A: Input.trigger?(:A)
+  LEFT: Input.press?(:LEFT)
+  RIGHT: Input.press?(:RIGHT)
+  CHOICE: "@choice_result"
+  WAITER_DONE: "@waiter&.done?"
+transitions:
+  droite: &droite
+    RIGHT: true
+  gauche: &gauche
+    LEFT: true
+  A: &A
+    A: true
+  oui: &oui
+    CHOICE: :YES
+  non: &non
+    CHOICE: :NO
+states:
+  init:
+    actions:
+      - update_aiguilles
+    transitions:
+      - to: choice
+  choice:
+    transitions:
+      - to: inc_min
+        inputs: *droite
+      - to: dec_min
+        inputs: *gauche
+      - to: confirmation
+        inputs: *A
+  inc_min:
+    actions:
+      - increase_minutes
+      - update_aiguilles
+    transitions:
+      - to: wait
+  dec_min:
+    actions:
+      - decrease_minutes
+      - update_aiguilles
+    transitions:
+      - to: wait
+  wait:
+    actions:
+      - update_waiter
+    transitions:
+      - to: choice
+        inputs:
+          WAITER_DONE: true
+  confirmation:
+    actions:
+      - ask_confirmation
+    transitions:
+      - to: out
+        inputs: *oui
+      - to: choice
+        inputs: *non
+  out:
+    actions:
+      - exit_state_machine

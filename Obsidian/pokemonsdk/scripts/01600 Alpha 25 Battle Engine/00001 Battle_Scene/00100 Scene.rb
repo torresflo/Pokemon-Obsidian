@@ -9,7 +9,7 @@ module Battle
     attr_reader :logic
     # @return [Battle::Logic::BattleInfo]
     attr_reader :battle_info
-    # @return [Yuki::Message]
+    # @return [UI::Message::Window]
     attr_reader :message_window
     # @return [Array]
     attr_reader :player_actions
@@ -160,7 +160,7 @@ module Battle
           should_unlock = true
           @visual.lock
         end
-        @visual.update if $game_temp.message_window_showing && !@message_window.drawing_message
+        # @visual.update if $game_temp.message_window_showing && @message_window.done_drawing_message?
         @visual.unlock if should_unlock
       end
     end

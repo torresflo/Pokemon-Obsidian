@@ -50,6 +50,7 @@ module Battle
         BOOSTING_ITEMS.select { |item| pokemon.bag.contain_item?(item) }.map do |item|
           wrapper = PFM::ItemDescriptor.actions(item)
           if wrapper.on_pokemon_choice(pokemon, @scene) # WARNING: Check if there's message shown
+            wrapper.bind(@scene, pokemon)
             next [interest_factor, Actions::Item.new(@scene, wrapper, pokemon.bag, pokemon)]
           else
             next nil
@@ -71,6 +72,7 @@ module Battle
       def heal_item_actions_for(pokemon, move_heuristics)
         HEALING_ITEMS.select { |item| pokemon.bag.contain_item?(item) }.map do |item|
           wrapper = PFM::ItemDescriptor.actions(item)
+          wrapper.bind(@scene, pokemon)
           factor = (wrapper.item.is_a?(GameData::ConstantHealItem) ? wrapper.item.hp_count.to_f / pokemon.max_hp : wrapper.item.hp_rate) * 2.0
           next [factor, Actions::Item.new(@scene, wrapper, pokemon.bag, pokemon)]
         end.compact
@@ -99,6 +101,7 @@ module Battle
         end
         return items.select { |item| pokemon.bag.contain_item?(item) }.map do |item|
           wrapper = PFM::ItemDescriptor.actions(item)
+          wrapper.bind(@scene, pokemon)
           next [rate, Actions::Item.new(@scene, wrapper, pokemon.bag, pokemon)]
         end.compact
       end

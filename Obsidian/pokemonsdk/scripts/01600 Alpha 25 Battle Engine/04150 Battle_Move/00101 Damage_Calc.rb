@@ -147,10 +147,10 @@ module Battle
     # @param target [PFM::PokemonBattler] target of the move
     # @return [Numeric]
     def calc_ch(user, target)
-      return 1 unless critical_hit?
-      return 3 if user.has_ability?(:sniper)
-
-      return 2
+      crit_dmg_rate = 1
+      crit_dmg_rate *= 1.5 if critical_hit?
+      crit_dmg_rate *= 1.5 if critical_hit? && user.has_ability?(:sniper)
+      return crit_dmg_rate
     end
 
     # Mod1 multiplier calculation

@@ -75,17 +75,17 @@ class Interpreter
   def add_item_show_message_got(item_id, text_id, color, end_color = 10, count: 1)
     item = GameData::Item[item_id]
     item_text = "\\c[#{color}]#{count == 1 ? item.name : item.plural_name}\\c[#{end_color}]"
-    misc_data = item.misc_data
     socket = item.socket
 
     Audio.me_play(item.me, 80)
-    if misc_data&.skill_learn
+    if item.is_a?(GameData::TechItem)
       text_id = text_id <= 3 ? 3 : 6
       MESSAGES[:hm_got_text] = proc { text_get(41, text_id) }
+      move_name = GameData::Skill[GameData::TechItem.from(item).move_db_symbol].name
       show_message(
         :hm_got_text,
         item_1: item_text, header: SYSTEM_MESSAGE_HEADER, PFM::Text::TRNAME[0] => $trainer.name,
-        PFM::Text::MOVE[2] => "\\c[#{color}]#{GameData::Skill[misc_data.skill_learn].name}\\c[10]"
+        PFM::Text::MOVE[2] => "\\c[#{color}]#{move_name}\\c[10]"
       )
     else
       MESSAGES[:item_got_text] = proc { text_get(41, text_id) }

@@ -116,9 +116,9 @@ class Interpreter_RMXP
       when 1  # パーティ人数
         value = $actors.size #$game_party.actors.size
       when 2  # ゴールド
-        value = $pokemon_party.money #$game_party.gold
+        value = PFM.game_state.money #$game_party.gold
       when 3  # 歩数
-        value = $pokemon_party.steps
+        value = PFM.game_state.steps
       when 4  # プレイ時間
         value = Graphics.frame_count / 60#Graphics.frame_rate
       when 5  # タイマー

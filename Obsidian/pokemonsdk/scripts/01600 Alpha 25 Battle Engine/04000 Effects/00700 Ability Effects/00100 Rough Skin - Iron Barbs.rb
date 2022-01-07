@@ -12,7 +12,7 @@ module Battle
           return if target != @target || launcher == target
           return unless skill&.direct? && launcher && launcher.hp > 0
 
-          damages = launcher.max_hp >= 8 ? launcher.max_hp / 8 : 1
+          damages = (launcher.max_hp >= 8 ? launcher.max_hp / 8 : 1).clamp(1, Float::INFINITY)
           handler.scene.visual.show_ability(target)
           handler.scene.visual.show_hp_animations([launcher], [-damages])
           text = parse_text_with_pokemon(19, 430, launcher, PFM::Text::PKNICK[0] => launcher.given_name)
@@ -29,7 +29,7 @@ module Battle
           return if target != @target || launcher == target
           return unless skill&.direct? && launcher && launcher.hp > 0
 
-          damages = launcher.max_hp >= 8 ? launcher.max_hp / 8 : 1
+          damages = (launcher.max_hp >= 8 ? launcher.max_hp / 8 : 1).clamp(1, Float::INFINITY)
           handler.scene.visual.show_ability(target)
           handler.scene.visual.show_hp_animations([launcher], [-damages])
           text = parse_text_with_pokemon(19, 430, launcher, PFM::Text::PKNICK[0] => launcher.given_name)

@@ -25,8 +25,9 @@ class Interpreter_RMXP
       end
       @index += 1
     end
-    $game_temp.message_text.gsub!(/\n([^ ])|\n /, ' \1') if $game_switches[Yuki::Sw::MSG_Recalibrate]
     return true
+  ensure
+    $game_temp.message_text.gsub!(/\n([^ ])|\n /, ' \1') if $game_switches[Yuki::Sw::MSG_Recalibrate]
   end
 
   # Command that display a choice if possible (no message)
@@ -175,9 +176,9 @@ class Interpreter_RMXP
       end
     when 7 # Money test
       if @parameters[2] == 0
-        result = ($pokemon_party.money >= @parameters[1]) # ($game_party.gold >= @parameters[1])
+        result = (PFM.game_state.money >= @parameters[1]) # ($game_party.gold >= @parameters[1])
       else
-        result = ($pokemon_party.money <= @parameters[1]) # ($game_party.gold <= @parameters[1])
+        result = (PFM.game_state.money <= @parameters[1]) # ($game_party.gold <= @parameters[1])
       end
     when 8 # Item is owned
       result = $bag.contain_item?(@parameters[1]) # ($game_party.item_number(@parameters[1]) > 0)

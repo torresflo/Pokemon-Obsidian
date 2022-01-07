@@ -5,6 +5,9 @@ module Battle
       include Hooks
 
       CANT_OVERWRITE_ABILITIES = %i[battle_bond comatose disguise multitype power_construct rks_system schooling shields_down stance_change zen_mode]
+
+      RECEIVER_CANT_COPY_ABILITIES = %i[receiver power_of_alchemy trace forecast flower_gift multitype illusion wonder_guard zen_mode imposter
+                                        stance_change power_construct schooling comatose shields_down disguise rks_system battle_bond]
       # Case of a move that fail if the target has this ability
       SKILL_BLOCKING_ABILITIES = {
         entrainment: %i[truant],
@@ -16,13 +19,15 @@ module Battle
       ABILITY_BLOCKING_ABILITIES = {
         mummy: %i[mummy],
         wandering_spirit: %i[wandering_spirit],
-        trace: %i[flower_gift forecast illusion imposter multitype stance_change trace zen_mode]
+        trace: %i[flower_gift forecast illusion imposter multitype stance_change trace zen_mode receiver power_of_alchemy],
+        receiver: RECEIVER_CANT_COPY_ABILITIES,
+        power_of_alchemy: RECEIVER_CANT_COPY_ABILITIES
       }
       # Case of a move that fail if the launcher has this ability
       USER_BLOCKING_ABILITIES = {
-        # TODO: Gestion des cas d'un fail de l'attaque si l'utilisateur possède tel talent
+        # TODO: Case management of an attack failure if the user has such an ability
         entrainment: %i[disguise forecast flower_gift illusion imposter power_construct power_of_alchemy receiver trace zen_mode],
-        role_play: CANT_OVERWRITE_ABILITIES
+        role_play: CANT_OVERWRITE_ABILITIES + %i[receiver power_of_alchemy]
       }
 
       # Function that change the ability of a Pokemon

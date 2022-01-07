@@ -13,13 +13,13 @@ begin
   require 'yaml'
   game_deps = ENV['GAMEDEPS'] || '.'
   # require 'rexml/document'
-  require PSDK_RUNNING_UNDER_WINDOWS ? "#{game_deps}/lib/LiteRGSS.so" : './LiteRGSS'
+  require PSDK_RUNNING_UNDER_WINDOWS ? "#{game_deps}/lib/LiteRGSS.so" : "#{game_deps}/LiteRGSS"
   # Attempt to load audio
   begin
-    require PSDK_RUNNING_UNDER_WINDOWS ? "#{game_deps}/lib/RubyFmod.so" : './RubyFmod'
+    require PSDK_RUNNING_UNDER_WINDOWS ? "#{game_deps}/lib/RubyFmod.so" : "#{game_deps}/RubyFmod"
   rescue LoadError
     begin
-      require PSDK_RUNNING_UNDER_WINDOWS ? "#{game_deps}/lib/SFMLAudio.so" : './SFMLAudio'
+      require PSDK_RUNNING_UNDER_WINDOWS ? "#{game_deps}/lib/SFMLAudio.so" : "#{game_deps}/SFMLAudio"
     rescue LoadError
       puts 'Could not load Audio'
     end

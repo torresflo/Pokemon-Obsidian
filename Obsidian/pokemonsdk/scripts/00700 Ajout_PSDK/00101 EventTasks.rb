@@ -112,9 +112,9 @@ Scheduler::EventTasks.on(:end_jump, 'Dust after jumping') do |event|
   particle = Game_Character::SurfTag.include?(event.system_tag) ? :water_dust : :dust
   Yuki::Particles.add_particle(event, particle)
 end
-Scheduler::EventTasks.on(:end_step, 'Repel count', -1) { $pokemon_party.repel_update }
+Scheduler::EventTasks.on(:end_step, 'Repel count', -1) { PFM.game_state.repel_update }
 Scheduler::EventTasks.on(:end_step, 'Daycare', -1) { $daycare.update }
-Scheduler::EventTasks.on(:end_step, 'Loyalty check', -1) { $pokemon_party.loyalty_update }
-Scheduler::EventTasks.on(:end_step, 'PoisonUpdate', -1) { $pokemon_party.poison_update }
-Scheduler::EventTasks.on(:end_step, 'Hatch check', -1) { $pokemon_party.hatch_check_update }
-Scheduler::EventTasks.on(:begin_step, 'BattleStarting', -1) { $pokemon_party.battle_starting_update }
+Scheduler::EventTasks.on(:end_step, 'Loyalty check', -1) { PFM.game_state.loyalty_update }
+Scheduler::EventTasks.on(:end_step, 'PoisonUpdate', -1) { PFM.game_state.poison_update }
+Scheduler::EventTasks.on(:end_step, 'Hatch check', -1) { PFM.game_state.hatch_check_update }
+Scheduler::EventTasks.on(:begin_step, 'BattleStarting', -1) { PFM.game_state.battle_starting_update }

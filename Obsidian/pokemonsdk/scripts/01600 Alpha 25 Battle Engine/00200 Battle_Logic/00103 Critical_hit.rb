@@ -5,9 +5,7 @@ module Battle
       0 => 0,
       1 => 6_250,
       2 => 12_500,
-      3 => 25_000,
-      4 => 33_333,
-      5 => 50_000
+      3 => 50_000
     }
     CRITICAL_RATES.default = 100_000
     # Calculate if the current action will be a critical hit

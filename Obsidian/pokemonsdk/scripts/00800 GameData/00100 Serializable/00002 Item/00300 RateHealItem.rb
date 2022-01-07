@@ -32,8 +32,8 @@ safe_code('Define RateHealItem ItemDescriptor') do
   end
 
   PFM::ItemDescriptor.define_on_pokemon_battler_use(GameData::RateHealItem) do |item, pokemon, scene|
-    battle_item = GameData::ConstantHealItem.from(item)
+    battle_item = GameData::RateHealItem.from(item)
     pokemon.loyalty -= battle_item.loyalty_malus
-    scene.logic.damage_handler.heal(pokemon, (pokemon.max_hp * GameData::RateHealItem.from(item).hp_rate).to_i, test_heal_block: false)
+    scene.logic.damage_handler.heal(pokemon, (pokemon.max_hp * battle_item.hp_rate).to_i, test_heal_block: false)
   end
 end

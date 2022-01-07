@@ -35,16 +35,16 @@ class Interpreter
     gm.events[id]
   end
 
-  # Return the $pokemon_party
-  # @return [PFM::Pokemon_Party]
+  # Return the party object (game state)
+  # @return [PFM::GameState]
   def party
-    $pokemon_party
+    PFM.game_state
   end
 
   # Start the storage PC
   def start_pc
     Audio.se_play('audio/se/computeropen')
-    $scene.call_scene(GamePlay::PokemonStorage)
+    GamePlay.open_pokemon_storage_system
   end
   alias demarrer_pc start_pc
 
@@ -119,12 +119,12 @@ class Interpreter
   # @param wm_id [Integer] the world map id to display
   # @author Nuri Yuri
   def carte_du_monde(arg = :view, wm_id = $env.get_worldmap)
-    if arg.class == String
-      arg = arg.bytesize == 3 ? :fly : :view
+    arg = arg.bytesize == 3 ? :fly : :view if arg.instance_of?(String)
+    if arg == :fly
+      GamePlay.open_town_map_to_fly(wm_id)
+    else
+      GamePlay.open_town_map(wm_id)
     end
-    carte = GamePlay::WorldMap.new(arg, wm_id, :map)
-    carte.main
-    Graphics.transition
     @wait_count = 2
   end
   alias world_map carte_du_monde
@@ -166,14 +166,30 @@ class Interpreter
   # @param extend_data [Integer, PFM::ItemDescriptor::Wrapper, Array, Symbol] extend_data informations
   # @author Nuri Yuri
   def call_party_menu(id_var = ::Yuki::Var::Party_Menu_Sel, party = $actors, mode = :map, extend_data = nil)
-    Graphics.freeze
-    scene = GamePlay::Party_Menu.new(party, mode, extend_data)
-    scene.main
-    $game_variables[id_var] = scene.return_data
-    Graphics.transition
+    block = proc { |scene| $game_variables[id_var] = scene.return_data }
+    case mode
+    when :map
+      GamePlay.open_party_menu_to_select_pokemon(party, &block)
+    when :item
+      GamePlay.open_party_menu_to_use_item(extend_data, party, &block)
+    when :hold
+      GamePlay.open_party_menu_to_give_item_to_pokemon(extend_data, party, &block)
+    when :select
+      GamePlay.open_party_menu_to_select_a_party(party, PFM.game_state.game_variables[Yuki::Var::Max_Pokemon_Select], extend_data)
+      $game_variables[id_var] = -1
+    when :absofusion
+      GamePlay.open_party_menu_to_absofusion_pokemon(party, *extend_data)
+      $game_variables[id_var] = -1
+    when :separate
+      GamePlay.open_party_menu_to_separate_pokemon(party, extend_data)
+      $game_variables[id_var] = -1
+    else
+      GamePlay.open_party_menu(party, &block)
+    end
     @wait_count = 2
   end
   alias appel_menu_equipe call_party_menu
+
   # Show the quest book
   def quest_book
     GamePlay::QuestUI.new.main
@@ -202,7 +218,7 @@ class Interpreter
     return PFM::Text
   end
 
-  # Return the index of the choosen Pokemon or call a method of Pokemon_Party to find the right Pokemon
+  # Return the index of the choosen Pokemon or call a method of GameState to find the right Pokemon
   # @param method_name [Symbol] identifier of the method
   # @param args [Array] parameters to send to the method
   def pokemon_index(method_name, *args)
@@ -280,9 +296,7 @@ class Interpreter
   # @param filename_bgm [String] the bgm to play during the Hall of Fame
   # @param context_of_victory [Symbol] the symbol to put as the context of victory
   def hall_of_fame(filename_bgm = 'audio/bgm/Hall-of-Fame', context_of_victory = :league)
-    hall_of_fame = GamePlay::Hall_of_Fame.new(filename_bgm, context_of_victory)
-    hall_of_fame.main
-    Graphics.transition
+    GamePlay.open_hall_of_fame(filename_bgm, context_of_victory)
     @wait_count = 2
   end
 
@@ -295,7 +309,7 @@ class Interpreter
   #   @param music_filename [String] the filename of the music to play
   def mining_game(param = nil, music_filename = GamePlay::MiningGame::DEFAULT_MUSIC, delete_after: true)
     message_id = $game_map.events[@event_id].event.name.downcase.include?('miningrock') ? 2 : 0
-    if $pokemon_party.bag.contain_item?(:explorer_kit)
+    if PFM.game_state.bag.contain_item?(:explorer_kit)
       if yes_no_choice(ext_text(9005, message_id))
         $game_system.bgm_memorize
         $game_system.bgm_fade(0.2)

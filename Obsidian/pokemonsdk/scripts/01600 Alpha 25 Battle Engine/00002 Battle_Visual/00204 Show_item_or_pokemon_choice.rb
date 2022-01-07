@@ -6,8 +6,8 @@ module Battle
     # @return [PFM::ItemDescriptor::Wrapper, nil]
     def show_item_choice
       data_to_return = nil
-      @scene.call_scene(GamePlay::Battle_Bag, retrieve_party) do |scene|
-        data_to_return = GamePlay::Battle_Bag.from(scene).battle_item_wrapper
+      GamePlay.open_battle_bag(retrieve_party) do |battle_bag_scene|
+        data_to_return = battle_bag_scene.battle_item_wrapper
       end
       log_debug("show_item_choice returned #{data_to_return}")
       return data_to_return
@@ -18,9 +18,8 @@ module Battle
     # @return [PFM::PokemonBattler, nil]
     def show_pokemon_choice(forced = false)
       data_to_return = nil
-      @scene.call_scene(GamePlay::Party_Menu, party = retrieve_party, :battle, no_leave: forced) do |scene|
-        return_data = scene.return_data
-        data_to_return = party[return_data] if return_data != -1
+      GamePlay.open_party_menu_to_switch(party = retrieve_party, forced) do |scene|
+        data_to_return = party[scene.return_data] if scene.pokemon_selected?
       end
       log_debug("show_pokemon_choice returned #{data_to_return}")
       return data_to_return

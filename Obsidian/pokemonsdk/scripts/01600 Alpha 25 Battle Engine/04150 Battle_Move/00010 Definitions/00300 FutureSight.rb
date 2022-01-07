@@ -40,12 +40,24 @@ module Battle
         :future_sight
       end
 
+      # Hash containing the countdown for each "Future Sight"-like move
+      # @return [Hash]
+      COUNTDOWN = {
+        futuresight: 3
+      }
+
+      # Return the right countdown depending on the move, or a static one
+      # @return [Integer]
+      def countdown
+        return COUNTDOWN[db_symbol] || 3
+      end
+
       # Create the effect
       # @param user [PFM::PokemonBattler] user of the move
       # @param target [PFM::PokemonBattler] expected target
       # @return [Effects::PositionTiedEffectBase]
       def create_effect(user, target)
-        Effects::FutureSight.new(@logic, target.bank, target.position, 3, damages(user, target))
+        Effects::FutureSight.new(@logic, target.bank, target.position, countdown, damages(user, target))
       end
 
       # Message displayed when the effect is dealt

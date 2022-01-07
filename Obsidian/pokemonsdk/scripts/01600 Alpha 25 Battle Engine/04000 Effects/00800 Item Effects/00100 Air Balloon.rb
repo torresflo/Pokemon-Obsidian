@@ -27,6 +27,7 @@ module Battle
           handler.scene.display_message_and_wait(parse_text_with_pokemon(19, 411, target))
           handler.logic.item_change_handler.change_item(:none, true, target)
         end
+        alias on_post_damage_death on_post_damage
       end
       register(:air_balloon, AirBalloon)
     end

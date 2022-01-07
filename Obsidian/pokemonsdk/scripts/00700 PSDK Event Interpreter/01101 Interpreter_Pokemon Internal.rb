@@ -3,7 +3,7 @@ class Interpreter
   # @param pokemon [PFM::Pokemon]
   # @return [PFM::Pokemon]
   def internal_add_pokemon_final(pokemon)
-    return_value = $pokemon_party.add_pokemon(pokemon)
+    return_value = PFM.game_state.add_pokemon(pokemon)
     if return_value.is_a?(Integer)
       $game_switches[Yuki::Sw::SYS_Stored] = true
     elsif return_value
@@ -38,7 +38,7 @@ class Interpreter
     unless GameData::Pokemon.id_valid?(pokemon_id)
       do_not_add = "Database Error : The Pokémon ##{pokemon_id} doesn't exists."
     end
-    if level < 1 || level > $pokemon_party.level_max_limit
+    if level < 1 || level > PFM.game_state.level_max_limit
       do_not_add << 10 if do_not_add
       do_not_add = "#{do_not_add}Level Error : level #{level} is out of bound."
     end

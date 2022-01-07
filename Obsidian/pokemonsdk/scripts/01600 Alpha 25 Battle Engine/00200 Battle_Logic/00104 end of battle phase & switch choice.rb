@@ -52,7 +52,7 @@ module Battle
       return unless with
 
       during_end_of_turn = @actions.empty?
-      request_switch_to_trainer(with) if who.bank != 0 && during_end_of_turn
+      request_switch_to_trainer(with) if who.bank != 0 && who.dead? && during_end_of_turn
       Actions::Switch.new(@scene, who, with).execute
     end
 

@@ -13,6 +13,9 @@ module Battle
         if logic.bank_effects[user.bank].has?(db_symbol)
           show_usage_failure(user)
           return false
+        elsif db_symbol == :aurora_veil && !$env.hail?
+          show_usage_failure(user)
+		      return false
         end
 
         return true
@@ -28,6 +31,9 @@ module Battle
         if db_symbol == :light_screen
           logic.bank_effects[user.bank].add(Effects::LightScreen.new(logic, user.bank, 0, turn_count))
           scene.display_message_and_wait(parse_text(18, 134 + user.bank.clamp(0, 1)))
+        elsif db_symbol == :aurora_veil
+          logic.bank_effects[user.bank].add(Effects::AuroraVeil.new(logic, user.bank, 0, turn_count))
+          scene.display_message_and_wait(parse_text(18, 288 + user.bank.clamp(0, 1)))
         else
           logic.bank_effects[user.bank].add(Effects::Reflect.new(logic, user.bank, 0, turn_count))
           scene.display_message_and_wait(parse_text(18, 130 + user.bank.clamp(0, 1)))

@@ -105,5 +105,11 @@ module GameData
       end
       collection
     end
+
+    # Get the list of Abilities db_symbols
+    # @return [Array<Symbol>] the list of Abilities db_symbols
+    def db_symbols
+      return @db_symbols
+    end
   end
 end

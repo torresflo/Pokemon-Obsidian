@@ -91,7 +91,7 @@ module Scheduler
     selected.each { |pkmn| pkmn.form_calibrate(:none) if $env.sunset? || $env.night? }
   end
 
-  add_proc(:on_scene_switch, ::Scene_Title, 'Correction des formes', 1000) do
+  add_proc(:on_scene_switch, GamePlay::Load, 'Correction des formes', 1000) do
     next unless $scene.is_a?(Scene_Map)
 
     log_info('Correction des formes des Pokémon')
@@ -109,6 +109,14 @@ module Scheduler
         Graphics.transition
       end
     end
+  end
+
+  add_proc(:on_scene_switch, GamePlay::Load, 'Fix quests', 1000) do
+    next unless $scene.is_a?(Scene_Map)
+    next if PFM.game_state.trainer.current_version > 6407
+
+    log_info('Fixing quest data')
+    PFM.game_state.quests.import_from_dot24
   end
 
 =begin

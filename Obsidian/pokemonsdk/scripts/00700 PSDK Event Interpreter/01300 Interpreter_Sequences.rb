@@ -155,6 +155,6 @@ class Interpreter
     # TODO: Trade animation taking actor, pokemon (including messages)
     $scene.display_message("#{actor.given_name} is being traded with #{pokemon.name}")
     id, form = pokemon.evolve_check(:trade, @pokemon)
-    $scene.call_scene(GamePlay::Evolve, pokemon, id, form, true) if id
+    GamePlay.make_pokemon_evolve(pokemon, id, form, true) if id
   end
 end

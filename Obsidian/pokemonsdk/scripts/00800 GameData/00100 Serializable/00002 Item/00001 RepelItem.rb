@@ -17,9 +17,9 @@ end
 
 safe_code('Register RepelItem ItemDescriptor') do
   PFM::ItemDescriptor.define_bag_use(GameData::RepelItem, true) do |item, scene|
-    if $pokemon_party.get_repel_count <= 0
+    if PFM.game_state.get_repel_count <= 0
       $game_temp.last_repel_used_id = item.id
-      next $pokemon_party.set_repel_count(GameData::RepelItem.from(item).repel_count)
+      next PFM.game_state.set_repel_count(GameData::RepelItem.from(item).repel_count)
     end
 
     scene.display_message_and_wait(parse_text(22, 47))

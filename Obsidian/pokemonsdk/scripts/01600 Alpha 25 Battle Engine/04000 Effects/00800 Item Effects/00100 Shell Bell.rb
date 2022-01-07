@@ -15,6 +15,7 @@ module Battle
           handler.scene.visual.show_item(launcher)
           handler.logic.damage_handler.heal(launcher, hp / 8)
         end
+        alias on_post_damage_death on_post_damage
       end
       register(:shell_bell, ShellBell)
     end

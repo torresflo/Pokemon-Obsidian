@@ -9,7 +9,9 @@ module Battle
       def move_usable_by_user(user, targets)
         return false unless super
 
-        return false if targets.all? { |target| logic.battler_attacks_after?(user, target) && target_move_is_status_move?(target) }
+        if targets.all? { |target| !logic.battler_attacks_after?(user, target) && target_move_is_status_move?(target) }
+          return show_usage_failure(user) && false
+        end
 
         return true
       end

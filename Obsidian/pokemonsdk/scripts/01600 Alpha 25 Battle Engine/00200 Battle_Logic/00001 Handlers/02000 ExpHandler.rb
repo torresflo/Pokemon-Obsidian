@@ -60,7 +60,7 @@ module Battle
         else
           return logic.trainer_battlers.reject do |receiver|
             receiver.delete_battler_to_encounter_list(enemy) if (has_encountered = receiver.encountered?(enemy))
-            next receiver.max_level == receiver.level || receiver.dead? || !has_encountered
+            next receiver.max_level == receiver.level || receiver.dead? || !(has_encountered || receiver.item_db_symbol == :exp_share)
           end
         end
       end
@@ -153,7 +153,7 @@ module Battle
         else
           return logic.trainer_battlers.reject do |receiver|
             has_encountered = receiver.encountered?(enemy)
-            next receiver.dead? || !has_encountered
+            next receiver.dead? || !(has_encountered || receiver.item_db_symbol == :exp_share)
           end
         end
       end

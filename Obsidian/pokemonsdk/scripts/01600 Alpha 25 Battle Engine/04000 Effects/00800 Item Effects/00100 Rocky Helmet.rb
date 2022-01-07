@@ -15,6 +15,7 @@ module Battle
           handler.scene.visual.show_item(target)
           handler.logic.damage_handler.damage_change((launcher.max_hp / 6).clamp(1, Float::INFINITY), launcher)
         end
+        alias on_post_damage_death on_post_damage
       end
       register(:rocky_helmet, RockyHelmet)
     end

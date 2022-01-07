@@ -9,6 +9,7 @@ module Battle
       # @param reason [Symbol] the reason why the SwitchHandler is called
       # @return [:prevent, nil] if :prevent, can_switch? will return false
       def on_switch_prevention(handler, pokemon, skill, reason)
+        return false unless pokemon.effects.has?(:ingrain)
         return true if skill&.be_method == :s_teleport
 
         return handler.prevent_change do

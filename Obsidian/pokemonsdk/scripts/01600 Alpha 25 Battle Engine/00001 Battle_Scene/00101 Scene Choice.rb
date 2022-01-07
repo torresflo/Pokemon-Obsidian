@@ -179,7 +179,7 @@ module Battle
         $pokedex.mark_captured(pkmn.id)
         if $pokedex.enabled?
           display_message_and_wait(parse_text(18, 68, PKNAME[0] => pkmn.name))
-          call_scene(GamePlay::Dex, pkmn)
+          GamePlay.open_dex_to_show_pokemon(pkmn)
         end
       end
       $pokedex.pokemon_captured_inc(pkmn.id)
@@ -189,9 +189,7 @@ module Battle
     # @param pkmn [PFM::Pokemon] pokemon that was just caught
     def rename_sequence(pkmn)
       if display_message_and_wait(parse_text(30, 0, PKNAME[0] => pkmn.name), 0, text_get(25, 20), text_get(25, 21)) == 0
-        call_scene(GamePlay::NameInput, pkmn.name, 12, pkmn) do |scene|
-          pkmn.given_name = scene.return_name
-        end
+        GamePlay.open_pokemon_name_input(pkmn) { |scene| pkmn.given_name = scene.return_name }
       end
     end
 
@@ -240,7 +238,7 @@ module Battle
     # @param item_wrapper [PFM::ItemDescriptor::Wrapper]
     # @return [Boolean] if nuzlocke mode prevents capture
     def catch_prevented(item_wrapper)
-      return false unless $pokemon_party.nuzlocke.enabled? && $pokemon_party.nuzlocke.catching_locked_here?
+      return false unless PFM.game_state.nuzlocke.enabled? && PFM.game_state.nuzlocke.catching_locked_here?
 
       message_window.blocking = true
       message_window.wait_input = true

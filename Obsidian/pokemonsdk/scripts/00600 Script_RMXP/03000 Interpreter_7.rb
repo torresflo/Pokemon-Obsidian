@@ -242,11 +242,13 @@ class Interpreter_RMXP
   # @param script [String]
   def eval_script(script)
     last_eval = Yuki::EXC.get_eval_script
-    script = script.force_encoding('UTF-8')
+    script = script.force_encoding('UTF-8').gsub(/\n([(,])/, "\\1\n")
     Yuki::EXC.set_eval_script(script)
     eval(script)
   rescue StandardError => e
     Yuki::EXC.run(e)
     $scene = nil # It's better to close the game in that case
+  ensure
+    Yuki::EXC.set_eval_script(last_eval)
   end
 end

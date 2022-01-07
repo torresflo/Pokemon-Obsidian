@@ -21,7 +21,8 @@ module Battle
         # @param skill [Battle::Move, nil] Potential move used
         def on_post_damage(handler, hp, target, launcher, skill)
           return unless launcher == @target
-          return if launcher.has_ability?(:magic_guard) || launcher.dead?
+          return if launcher.has_ability?(:magic_guard) || launcher.has_ability?(:sheer_force) || launcher.dead?
+          return unless last_hit?(skill)
 
           @logic.scene.display_message_and_wait(parse_text_with_pokemon(19, 1044, launcher, PFM::Text::ITEM2[1] => launcher.item_name))
           @logic.damage_handler.damage_change((launcher.max_hp / 10).clamp(1, Float::INFINITY), launcher)
@@ -35,10 +36,25 @@ module Battle
         # @param skill [Battle::Move, nil] Potential move used
         def on_post_damage_death(handler, hp, target, launcher, skill)
           return unless launcher == @target
-          return if launcher.has_ability?(:magic_guard) || launcher.dead?
+          return if launcher.has_ability?(:magic_guard) || launcher.has_ability?(:sheer_force) || launcher.dead?
+          return unless last_hit?(skill)
 
           @logic.scene.display_message_and_wait(parse_text_with_pokemon(19, 1044, launcher, PFM::Text::ITEM2[1] => launcher.item_name))
           @logic.damage_handler.damage_change((launcher.max_hp / 10).clamp(1, Float::INFINITY), launcher)
+        end
+
+        private
+
+        # Check if this the last hit of the move
+        # @param skill [Battle::Move, nil] Potential move used
+        def last_hit?(skill)
+          return true unless skill.is_a?(Battle::Move::Basic::MultiHit)
+
+          # @type [Battle::Move::Basic::MultiHit]
+          skill_multi_hit = skill
+          return true if skill_multi_hit.last_hit?
+
+          return false
         end
       end
       register(:life_orb, LifeOrb)

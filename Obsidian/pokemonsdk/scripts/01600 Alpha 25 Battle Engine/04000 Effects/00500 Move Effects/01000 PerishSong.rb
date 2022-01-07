@@ -2,7 +2,9 @@ module Battle
   module Effects
     # Effect used by Perish Song move
     class PerishSong < EffectBase
-      def origin = nil # @todo delete this line when Rey fixed the problem
+      def origin
+        return nil # @todo delete this line when Rey fixed the problem
+      end
 
       # Create a new effect
       # @param logic [Battle::Logic] logic used to get all the handler in order to allow the effect to work

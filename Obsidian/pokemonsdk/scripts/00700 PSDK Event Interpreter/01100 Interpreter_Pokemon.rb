@@ -75,7 +75,7 @@ class Interpreter
     @wait_count = 2
     result = nil
     # Show the skill learn interface
-    $scene.call_scene(GamePlay::MoveTeaching, pokemon, GameData::Skill[id_skill].id) do |scene|
+    GamePlay.open_move_teaching(pokemon, GameData::Skill[id_skill].id) do |scene|
       result = scene.learnt
     end
     return result
@@ -101,10 +101,8 @@ class Interpreter
     else
       pokemon = index_or_pokemon
     end
-    Graphics.freeze
     $scene.window_message_close(false) if $scene.class == Scene_Map
-    pokemon.given_name = GamePlay::NameInput.new(pokemon.given_name, num_char, pokemon).main.return_name
-    Graphics.transition
+    GamePlay.open_pokemon_name_input(pokemon, num_char) { |name_input| pokemon.given_name = name_input.return_name }
     @wait_count = 2
   end
   alias renommer_pokemon rename_pokemon
@@ -187,7 +185,7 @@ class Interpreter
     $actors.each do |pokemon|
       $storage.store(pokemon)
     end
-    $actors = $pokemon_party.actors = party
+    $actors = PFM.game_state.actors = party
     $storage.remove_instance_variable(var_id) if id_storage
   end
   alias retreive_saved_party retrieve_saved_party
@@ -241,8 +239,11 @@ class Interpreter
   #   @param pokemon_id [Integer, Symbol] ID of the Pokemon in the dex
   def show_pokemon(pokemon_id)
     pokemon_id = GameData::Pokemon.get_id(pokemon_id) if pokemon_id.is_a?(Symbol)
-    GamePlay::Dex.new(pokemon_id).main
-    Graphics.transition
+    if pokemon_id.is_a?(PFM::Pokemon)
+      GamePlay.open_dex_to_show_pokemon(pokemon_id)
+    else
+      GamePlay.open_dex_to_show_page(pokemon_id)
+    end
     @wait_count = 2
   end
   # TODO : Faire le reste

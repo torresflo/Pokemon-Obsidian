@@ -1,24 +1,58 @@
 module Battle
   class Scene
     # Message Window of the Battle
-    class Message < Yuki::Message
+    class Message < UI::Message::Window
+      # Number of 60th of second to wait while message does not wait for user input
       MAX_WAIT = 120
+      # Default windowskin of the message
       WINDOW_SKIN = 'message_box'
-
-      # @return [Boolean] if the message will wait user to validate the message forever
+      # If the message will wait user to validate the message forever
+      # @return [Boolean]
       attr_accessor :blocking
-      # @return [Boolean] if the message wait for the user to press a key before skiping
+      # If the message wait for the user to press a key before skiping
+      # @return [Boolean]
       attr_accessor :wait_input
 
-      # Initialize the window Parameter
-      def init_window
-        super
-        # Make sure it's only done when called inside initialize
-        return unless @waiter.nil?
-
+      # Create a new window
+      def initialize(...)
+        super(...)
         @wait_input = false
         @blocking = false
-        @waiter = 0
+        @skipper_wait_animation = nil
+      end
+
+      # Process the wait user input phase
+      def wait_user_input
+        create_skipper_wait_animation unless @skipper_wait_animation
+        @skipper_wait_animation&.update
+        super
+      end
+
+      # Skip the update of wait input
+      # @return [Boolean] if the update of wait input should be skipped
+      def update_wait_input_skip
+        return super if @wait_input
+
+        terminate_message
+        return true
+      end
+
+      # Autoskip the wait input
+      # @return [Boolean]
+      def update_wait_input_auto_skip
+        return super || (!$game_system.battle_interpreter.running? && @skipper_wait_animation&.done? && !@blocking)
+      end
+
+      # Terminate the message display
+      def terminate_message
+        super
+        @skipper_wait_animation = nil
+      end
+
+      # Function that create the skipper wait animation
+      def create_skipper_wait_animation
+        @skipper_wait_animation = Yuki::Animation.wait(MAX_WAIT / 60.0)
+        @skipper_wait_animation.start
       end
 
       # Retrieve the current window position
@@ -30,52 +64,6 @@ module Battle
         return :bottom
       end
 
-      # Generate the choice window
-      def generate_choice_window
-        super
-        @waiter = 0
-      end
-
-      # Show the Input Number Window
-      # @return [Boolean] if the update function skips
-      def update_input_number
-        @waiter += 1 if @waiter < MAX_WAIT
-        return super
-      end
-
-      # Skip the choice during update
-      # @return [Boolean] if the function skips
-      def update_choice_skip
-        unless @wait_input
-          terminate_message
-          return true
-        end
-        return false
-      end
-
-      # Autoskip condition for the choice
-      # @return [Boolean]
-      def update_choice_auto_skip
-        return (!$game_system.battle_interpreter.running? && @waiter >= MAX_WAIT && !@blocking)
-      end
-
-=begin
-      # Show the message text
-      # @return [Boolean] if the update function skips
-      def update_text_draw
-        unless $game_temp.message_text.nil?
-          @contents_showing = true
-          $game_temp.message_window_showing = true
-          @text_stack.dispose
-          set_origin(0, 0)
-          self.visible = true
-          init_window
-          refresh
-          return true
-        end
-        return false
-      end
-=end
       # Battle Windowskin
       # @return [String]
       def current_windowskin

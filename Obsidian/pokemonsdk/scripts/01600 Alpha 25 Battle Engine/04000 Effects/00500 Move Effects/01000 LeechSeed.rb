@@ -67,12 +67,14 @@ module Battle
           return if dead?
 
           origin = LeechSeed.from(mark_origin)
-          return if origin.launcher.dead? || @pokemon.dead?
+          launcher = origin.launcher
+          pkmn = logic.alive_battlers(launcher.bank).include?(launcher) ? launcher : logic.battler(origin.bank, origin.position)
+          return if pkmn.nil? || pkmn.dead? || @pokemon.dead?
           return if @pokemon.has_ability?(:magic_guard)
 
           scene.display_message_and_wait(parse_text_with_pokemon(19, 610, @pokemon))
           # TODO: Add an animation
-          logic.damage_handler.drain(@leech_power, @pokemon, origin.launcher)
+          logic.damage_handler.drain(@leech_power, @pokemon, pkmn)
         end
 
         # Transfer the effect to the given pokemon via baton switch

@@ -17,9 +17,9 @@ safe_code('Register StoneItem ItemDescriptor') do
 
   PFM::ItemDescriptor.define_on_pokemon_use(GameData::StoneItem) do |item, pokemon, scene|
     id, form = pokemon.evolve_check(:stone, item.id)
-    scene.call_scene(GamePlay::Evolve, pokemon, id, form, true) do |evolve_scene|
+    GamePlay.make_pokemon_evolve(pokemon, id, form, true) do |evolve_scene|
       scene.running = false
-      $bag.add_item(item.id, 1) unless GamePlay::Evolve.from(evolve_scene).evolved
+      $bag.add_item(item.id, 1) unless evolve_scene.evolved
     end
   end
 end

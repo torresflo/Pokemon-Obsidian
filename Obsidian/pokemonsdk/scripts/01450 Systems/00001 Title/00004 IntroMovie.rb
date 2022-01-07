@@ -8,10 +8,9 @@ class Scene_Title
     Graphics.freeze
     @viewport.visible = false
     $tester = true # No new GameMap hack
-    $pokemon_party = PFM::Pokemon_Party.new(false, $pokemon_party&.options&.language || PSDK_CONFIG.default_language_code)
     $tester = nil
     Yuki::MapLinker.reset
-    $pokemon_party.expand_global_var
+    PFM::GameState.new(false, PFM.game_state&.options&.language || PSDK_CONFIG.default_language_code).expand_global_var
     $game_party.setup_starting_members
     $game_map.setup(map_id)
     $game_player.moveto(Yuki::MapLinker.get_OffsetX, Yuki::MapLinker.get_OffsetY)

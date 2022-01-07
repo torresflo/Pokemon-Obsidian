@@ -37,7 +37,7 @@ safe_code('Register BallItem ItemDescriptor') do
       #TODO: Write text which says NO YOU CAN'T
       next :unused
     else
-      GamePlay::Bag.from(scene).battle_item_wrapper = PFM::ItemDescriptor.actions(item.id)
+      GamePlay.bag_mixin.from(scene).battle_item_wrapper = PFM::ItemDescriptor.actions(item.id)
       #$scene = scene.__last_scene # This prevent the message from displaying now
       scene.return_to_scene(Battle::Scene)
     end
@@ -54,7 +54,7 @@ safe_code('Register BallItem ItemDescriptor') do
       #TODO: Write text which says NO YOU CAN'T
       next :unused
     else
-      GamePlay::Bag.from(scene).battle_item_wrapper = PFM::ItemDescriptor.actions(item.id)
+      GamePlay.bag_mixin.from(scene).battle_item_wrapper = PFM::ItemDescriptor.actions(item.id)
       #$scene = scene.__last_scene # This prevent the message from displaying now
       scene.return_to_scene(Battle::Scene)
     end

@@ -257,6 +257,7 @@ module ScriptLoader
     # Function that guess the default language code based on PARGV
     # @return [String]
     def guess_language_code
+      return PARGV[:lang] || @default_language_code || 'en' if @choosable_language_code.empty?
       return PARGV[:lang] if @choosable_language_code.include?(PARGV[:lang])
 
       value = @default_language_code || 'en'

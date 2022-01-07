@@ -71,5 +71,34 @@ module Battle
         return 132
       end
     end
+
+
+    # Effect describing Aurora Veil
+    class AuroraVeil < LightScreen
+      # Give the move mod1 mutiplier (before the +2 in the formula)
+      # @param user [PFM::PokemonBattler] user of the move
+      # @param target [PFM::PokemonBattler] target of the move
+      # @param move [Battle::Move] move
+      # @return [Float, Integer] multiplier
+      def mod1_multiplier(user, target, move)
+        return 1 if @bank != target.bank || move.critical_hit? || user.has_ability?(:infiltrator)
+
+        return $game_temp.vs_type == 2 ? (2 / 3.0) : 0.5
+      end
+
+      # Get the name of the effect
+      # @return [Symbol]
+      def name
+        :aurora_veil
+      end
+
+      private
+
+      # ID of the message responsive of telling the end of the effect
+      # @return [Integer]
+      def message_id
+        return 287 #"The opposing team's Aurora Veil wore off!"
+      end
+    end
   end
 end

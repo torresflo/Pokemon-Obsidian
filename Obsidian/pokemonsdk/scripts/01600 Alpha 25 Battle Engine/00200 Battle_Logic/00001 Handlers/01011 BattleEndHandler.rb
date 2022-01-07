@@ -11,7 +11,7 @@ module Battle
         exec_hooks(BattleEndHandler, :battle_end, binding)
         exec_hooks(BattleEndHandler, :battle_end_no_defeat, binding) if @logic.battle_result != 2
         @logic.all_battlers(&:copy_properties_back_to_original)
-        exec_hooks(BattleEndHandler, :battle_end_nuzlocke, binding) if $pokemon_party.nuzlocke.enabled?
+        exec_hooks(BattleEndHandler, :battle_end_nuzlocke, binding) if PFM.game_state.nuzlocke.enabled?
         unless $scene.is_a?(Yuki::SoftReset) || $scene.is_a?(Scene_Title)
           $game_system.bgm_play($game_system.playing_bgm)
           $game_system.bgs_play($game_system.playing_bgs)
@@ -37,9 +37,11 @@ module Battle
         lost_money = calculate_lost_money
         variables = { PFM::Text::TRNAME[0] => $trainer.name, PFM::Text::NUMXR => lost_money.to_s }
         @scene.message_window.stay_visible = true
-        @scene.display_message(parse_text(18, 56, variables))
-        @scene.display_message(parse_text(18, @scene.battle_info.trainer_battle? ? 58 : 57, variables))
-        @scene.display_message(parse_text(18, 59, variables))
+        @scene.visual.lock do
+          @scene.display_message(parse_text(18, 56, variables))
+          @scene.display_message(parse_text(18, @scene.battle_info.trainer_battle? ? 58 : 57, variables))
+          @scene.display_message(parse_text(18, 59, variables))
+        end
       end
 
       private
@@ -122,15 +124,15 @@ module Battle
       end.compact.each(&:go_in)
       ids = [$game_variables[Yuki::Var::Trainer_Battle_ID], $game_variables[Yuki::Var::Second_Trainer_ID]].select { |i| i > 0 }
       if handler.logic.battle_result == 0
-        Audio.bgm_play(*handler.scene.battle_info.victory_bgm)
         handler.logic.battle_phase_exp
+        Audio.bgm_play(*handler.scene.battle_info.victory_bgm)
         # Defeat message
         ids.each do |id|
           handler.scene.display_message_and_wait(text_get(48, id))
         end
         # Add money
         if (v = handler.scene.battle_info.total_money(handler.logic)) > 0
-          $pokemon_party.add_money(v)
+          PFM.game_state.add_money(v)
           handler.scene.display_message_and_wait(parse_text(18, 60, PFM::Text::TRNAME[0] => $trainer.name, PFM::Text::NUMXR => v.to_s))
         end
       else
@@ -147,7 +149,7 @@ module Battle
       Audio.bgm_play(*handler.scene.battle_info.victory_bgm)
       handler.logic.battle_phase_exp
       if (v = handler.scene.battle_info.additional_money) > 0
-        $pokemon_party.add_money(v)
+        PFM.game_state.add_money(v)
         handler.scene.display_message_and_wait(parse_text(18, 61, PFM::Text::TRNAME[0] => $trainer.name, PFM::Text::NUMXR => v.to_s))
       end
     end
@@ -246,7 +248,7 @@ module Battle
         handler.scene.instance_variable_set(:@cfi_type, :none) # Prevent fade in in case of multiple evolution
         next unless id
 
-        handler.scene.call_scene(GamePlay::Evolve, original, id, form)
+        GamePlay.make_pokemon_evolve(original, id, form)
         $pokedex.mark_seen(original.id, original.form, forced: true)
         $pokedex.mark_captured(original.id)
         $quests.see_pokemon(original.id)
@@ -299,12 +301,12 @@ module Battle
     end
 
     BattleEndHandler.register_nuzlocke('PSDK Nuzlocke') do |handler|
-      $pokemon_party.nuzlocke.clear_dead_pokemon
+      PFM.game_state.nuzlocke.clear_dead_pokemon
       handler.logic.all_battlers do |battler|
-        $pokemon_party.nuzlocke.lock_catch_in_current_zone(battler.id) unless battler.from_party?
+        PFM.game_state.nuzlocke.lock_catch_in_current_zone(battler.id) unless battler.from_party?
       end
       caught_pokemon = handler.logic.battle_info.caught_pokemon
-      $pokemon_party.nuzlocke.lock_catch_in_current_zone(caught_pokemon.id) if caught_pokemon
+      PFM.game_state.nuzlocke.lock_catch_in_current_zone(caught_pokemon.id) if caught_pokemon
     end
   end
 end
