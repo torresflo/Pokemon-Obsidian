@@ -57,7 +57,7 @@ module UI
         nil
       end
       fixed_map_name = PFM::Text.parse_string_for_messages(map_name)
-      add_text(0, -2, @stack.first.width, @stack.first.height, fixed_map_name, 1, color: color)
+      add_text(0, -2, @stack.first.width, @stack.first.height + 12, fixed_map_name, 1, color: color)
     end
 
     def background_filename
